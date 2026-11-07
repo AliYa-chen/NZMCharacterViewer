@@ -8,7 +8,7 @@ UENUM()
 enum class EViewerSetting : uint8
 {
     FrameRate, Quality, Resolution, Textures, Shadows, Antialiasing,
-    PostProcessing, Bloom, Vignette, DepthOfField, SecondaryMotion
+    PostProcessing, Bloom, Vignette, DepthOfField, SecondaryMotion, AmbientOcclusion, ScreenSpaceReflections
 };
 
 /** Small, device-local preferences; source materials and assets stay intact. */
@@ -28,9 +28,15 @@ public:
     UPROPERTY(SaveGame) bool bVignette = true;
     UPROPERTY(SaveGame) bool bDepthOfField = false;
     UPROPERTY(SaveGame) bool bSecondaryMotion = true;
+    UPROPERTY(SaveGame) bool bAmbientOcclusion = true;
+    UPROPERTY(SaveGame) bool bScreenSpaceReflections = true;
+    UPROPERTY(SaveGame) int32 GraphicsVersion = 0;
 
     static UViewerPreferences* Load();
     static TArray<int32> FrameRates();
+    static bool UsesMobileRenderer();
+    /** 1 disables AA; 0 selects TAA; other values are supported MSAA counts. */
+    static TArray<int32> AntialiasingSamples();
     void Persist();
     void ApplyEngineSettings();
     void SetChoice(EViewerSetting Setting, int32 Index);

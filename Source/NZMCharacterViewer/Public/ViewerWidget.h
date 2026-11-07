@@ -109,6 +109,7 @@ public:
     void Refresh();
     void SelectCharacterTile(int32 Index);
     bool BlocksModelInput(FVector2D ViewportPixelPosition) const;
+    bool ConsumeModalPointer(FVector2D ViewportPixelPosition, bool bPressed);
 protected:
     virtual TSharedRef<SWidget> RebuildWidget() override;
     virtual void NativeConstruct() override;
@@ -137,6 +138,10 @@ private:
     UPROPERTY() TObjectPtr<UBorder> SettingsPanel;
     UPROPERTY() TObjectPtr<UScrollBox> SettingsScroll;
     UPROPERTY() TObjectPtr<UVerticalBox> PartList;
+    UPROPERTY() TObjectPtr<UVerticalBox> GraphicsSettings;
+    UPROPERTY() TObjectPtr<UVerticalBox> EffectsSettings;
+    UPROPERTY() TObjectPtr<UVerticalBox> PartsSettings;
+    UPROPERTY() TArray<TObjectPtr<UButton>> SettingsTabs;
     UPROPERTY() TArray<TObjectPtr<UViewerSettingPicker>> ChoicePickers;
     UPROPERTY() TArray<TObjectPtr<UViewerSettingToggle>> SettingToggles;
     UPROPERTY() TObjectPtr<UButton> RestoreDefaultsButton;
@@ -154,6 +159,8 @@ private:
     bool bRefreshQueued = false;
     bool bSettingsOpen = false;
     bool bUiHidden = false;
+    bool bConsumeDismissPointer = false;
+    int32 SettingsPage = 0;
     float PortraitRefreshTime = 0.f;
     void BuildWidgetTree();
     void BuildSettings();
@@ -166,6 +173,10 @@ private:
     UViewerButton* MakeButton(const FText& Text, UTextBlock** OutLabel = nullptr);
     void AddSettingChoice(UVerticalBox* Content, const FText& Label, EViewerSetting Setting, const TArray<FString>& Options);
     void AddSettingToggle(UVerticalBox* Content, const FText& Label, EViewerSetting Setting);
+    void SelectSettingsPage(int32 Page);
+    UFUNCTION() void OnGraphicsSettings();
+    UFUNCTION() void OnEffectsSettings();
+    UFUNCTION() void OnPartsSettings();
     UFUNCTION() void OnOutfitSelected(FString SelectedItem, ESelectInfo::Type SelectionType);
     UFUNCTION() void OnPreviousOutfit();
     UFUNCTION() void OnNextOutfit();

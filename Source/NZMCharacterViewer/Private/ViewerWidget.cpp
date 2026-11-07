@@ -41,10 +41,10 @@ namespace ViewerUi
 
     FButtonStyle ActionStyle(bool bSelected = false)
     {
-        FButtonStyle Style = ButtonStyle(FLinearColor(0.02f, 0.045f, 0.07f, bSelected ? 0.35f : 0.f), 0.f, FMargin(6.f));
-        Style.Hovered = FSlateRoundedBoxBrush(FLinearColor(0.05f, 0.1f, 0.15f, 0.32f), 0.f);
-        Style.Pressed = FSlateRoundedBoxBrush(FLinearColor(0.07f, 0.16f, 0.23f, 0.5f), 0.f);
-        Style.Disabled = FSlateRoundedBoxBrush(FLinearColor::Transparent, 0.f);
+        FButtonStyle Style = ButtonStyle(FLinearColor(0.02f, 0.045f, 0.07f, bSelected ? 0.64f : 0.46f), 6.f, FMargin(6.f));
+        Style.Hovered = FSlateRoundedBoxBrush(FLinearColor(0.05f, 0.1f, 0.15f, 0.62f), 6.f);
+        Style.Pressed = FSlateRoundedBoxBrush(FLinearColor(0.07f, 0.16f, 0.23f, 0.78f), 6.f);
+        Style.Disabled = FSlateRoundedBoxBrush(FLinearColor(0.02f, 0.045f, 0.07f, 0.24f), 6.f);
         return Style;
     }
 
@@ -78,7 +78,7 @@ UViewerButton::UViewerButton(const FObjectInitializer& ObjectInitializer) : Supe
 
 UViewerComboBoxString::UViewerComboBoxString(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
-    InitFont(ViewerStyle::Font(14));
+    InitFont(ViewerStyle::Font(16));
     InitIsFocusable(false);
     InitForegroundColor(FSlateColor(ViewerUi::White));
     FComboBoxStyle Combo = GetWidgetStyle();
@@ -195,17 +195,26 @@ void UViewerSettingPicker::OnChoiceChanged(FString SelectedItem, ESelectInfo::Ty
 void UViewerSettingToggle::Configure(UViewerWidget* InHost, AViewerPawn* InViewer, EViewerSetting InSetting, const FText& Label)
 {
     Host = InHost; Viewer = InViewer; Setting = InSetting;
+    FCheckBoxStyle Style = GetWidgetStyle();
+    Style.UncheckedImage = FSlateRoundedBoxBrush(FLinearColor(0.03f, 0.05f, 0.075f, 1.f), 6.f, ViewerUi::Muted, 1.f);
+    Style.CheckedImage = FSlateRoundedBoxBrush(ViewerUi::Accent, 6.f);
+    Style.UncheckedHoveredImage = Style.UncheckedPressedImage = Style.UncheckedImage;
+    Style.CheckedHoveredImage = Style.CheckedPressedImage = Style.CheckedImage;
+    Style.UncheckedImage.ImageSize = Style.UncheckedHoveredImage.ImageSize = Style.UncheckedPressedImage.ImageSize = FVector2D(26.f);
+    Style.CheckedImage.ImageSize = Style.CheckedHoveredImage.ImageSize = Style.CheckedPressedImage.ImageSize = FVector2D(26.f);
+    SetWidgetStyle(Style);
     UTextBlock* Text = NewObject<UTextBlock>(this);
-    Text->SetText(Label); Text->SetFont(ViewerStyle::Font(14));
+    Text->SetText(Label); Text->SetFont(ViewerStyle::Font(16));
     Text->SetColorAndOpacity(FSlateColor(ViewerUi::White));
-    Text->SetMargin(FMargin(10.f, 9.f)); AddChild(Text);
+    Text->SetMargin(FMargin(12.f, 13.f)); AddChild(Text);
     OnCheckStateChanged.AddUniqueDynamic(this, &UViewerSettingToggle::OnToggleChanged);
 }
 void UViewerSettingToggle::Sync(const UViewerPreferences* Preferences)
 {
     TGuardValue<bool> Guard(bUpdating, true);
     if (Preferences) SetIsChecked(Preferences->GetToggle(Setting));
-    const bool Dependent = Setting == EViewerSetting::Bloom || Setting == EViewerSetting::Vignette || Setting == EViewerSetting::DepthOfField;
+    const bool Dependent = Setting == EViewerSetting::Bloom || Setting == EViewerSetting::Vignette || Setting == EViewerSetting::DepthOfField
+        || Setting == EViewerSetting::AmbientOcclusion || Setting == EViewerSetting::ScreenSpaceReflections;
     SetIsEnabled(Preferences && (!Dependent || Preferences->bPostProcessing));
 }
 void UViewerSettingToggle::OnToggleChanged(bool bChecked)
@@ -379,15 +388,24 @@ void UViewerWidget::BuildWidgetTree()
     UViewerButton* Restore = MakeButton(FText::FromString(TEXT("显示界面")));
     Restore->OnClicked.AddDynamic(this, &UViewerWidget::OnShowUi); RestoreControl->AddChild(Restore);
     RestoreSlot = ViewerUi::Place(LayoutCanvas, RestoreControl, FAnchors(1.f, 0.f), FVector2D(1.f, 0.f), 200);
-    RestoreSlot->SetAutoSize(true); ApplyVisibility();
+    RestoreSlot->SetAutoSize(true);
+    ApplyVisibility();
 }
 
 void UViewerWidget::AddSettingChoice(UVerticalBox* Content, const FText& Label, EViewerSetting Setting, const TArray<FString>& Options)
 {
-    Content->AddChildToVerticalBox(MakeText(Label, 12, ViewerUi::Muted))->SetPadding(FMargin(0.f, 10.f, 0.f, 5.f));
+    UHorizontalBox* Row = WidgetTree->ConstructWidget<UHorizontalBox>();
+    Content->AddChildToVerticalBox(Row)->SetPadding(FMargin(0.f, 7.f));
+    USizeBox* LabelSize = WidgetTree->ConstructWidget<USizeBox>();
+    LabelSize->SetWidthOverride(112.f);
+    LabelSize->AddChild(MakeText(Label, 15, ViewerUi::White));
+    Row->AddChildToHorizontalBox(LabelSize)->SetVerticalAlignment(VAlign_Center);
     UViewerSettingPicker* Picker = WidgetTree->ConstructWidget<UViewerSettingPicker>();
     Picker->Configure(this, Viewer, Setting, Options);
-    Content->AddChildToVerticalBox(Picker)->SetPadding(FMargin(0.f, 0.f, 0.f, 3.f)); ChoicePickers.Add(Picker);
+    Picker->SetContentPadding(FMargin(14.f, 13.f));
+    Picker->SetMaxListHeight(300.f);
+    Row->AddChildToHorizontalBox(Picker)->SetSize(FSlateChildSize(ESlateSizeRule::Fill));
+    ChoicePickers.Add(Picker);
 }
 void UViewerWidget::AddSettingToggle(UVerticalBox* Content, const FText& Label, EViewerSetting Setting)
 {
@@ -401,41 +419,66 @@ void UViewerWidget::BuildSettings()
     ViewerUi::Place(LayoutCanvas, SettingsOverlay, FAnchors(0.f, 0.f, 1.f, 1.f), FVector2D::ZeroVector, 100)->SetOffsets(FMargin(0.f));
     UViewerButton* Dimmer = WidgetTree->ConstructWidget<UViewerButton>();
     Dimmer->SetStyle(ViewerUi::ButtonStyle(FLinearColor(0.f, 0.f, 0.f, 0.48f), 0.f, FMargin(0.f)));
+    // Dismiss on press so a tap outside never starts a model drag behind it.
+    Dimmer->SetClickMethod(EButtonClickMethod::MouseDown);
+    Dimmer->SetTouchMethod(EButtonTouchMethod::Down);
     Dimmer->OnClicked.AddDynamic(this, &UViewerWidget::OnCloseSettings);
     ViewerUi::Place(SettingsOverlay, Dimmer, FAnchors(0.f, 0.f, 1.f, 1.f), FVector2D::ZeroVector)->SetOffsets(FMargin(0.f));
     SettingsPanel = WidgetTree->ConstructWidget<UBorder>();
     SettingsPanel->SetBrush(FSlateRoundedBoxBrush(FLinearColor(0.025f, 0.035f, 0.052f, 0.98f), 12.f));
-    SettingsPanel->SetPadding(FMargin(18.f));
+    SettingsPanel->SetPadding(FMargin(22.f));
     SettingsSlot = ViewerUi::Place(SettingsOverlay, SettingsPanel, FAnchors(1.f, 0.f), FVector2D(1.f, 0.f), 1);
     UVerticalBox* Panel = WidgetTree->ConstructWidget<UVerticalBox>(); SettingsPanel->AddChild(Panel);
     UHorizontalBox* Top = WidgetTree->ConstructWidget<UHorizontalBox>();
     Panel->AddChildToVerticalBox(Top)->SetPadding(FMargin(0.f, 0.f, 0.f, 10.f));
-    Top->AddChildToHorizontalBox(MakeText(FText::FromString(TEXT("画面与显示")), 22, ViewerUi::White))->SetSize(FSlateChildSize(ESlateSizeRule::Fill));
+    Top->AddChildToHorizontalBox(MakeText(FText::FromString(TEXT("设置")), 24, ViewerUi::White))->SetSize(FSlateChildSize(ESlateSizeRule::Fill));
     UViewerButton* Close = MakeButton(FText::FromString(TEXT("关闭")));
     Close->OnClicked.AddDynamic(this, &UViewerWidget::OnCloseSettings); Top->AddChildToHorizontalBox(Close);
+    UHorizontalBox* Tabs = WidgetTree->ConstructWidget<UHorizontalBox>();
+    Panel->AddChildToVerticalBox(Tabs)->SetPadding(FMargin(0.f, 4.f, 0.f, 16.f));
+    for (const TCHAR* Label : { TEXT("画面"), TEXT("效果"), TEXT("部件") })
+    {
+        UViewerButton* Tab = MakeButton(FText::FromString(Label));
+        Tabs->AddChildToHorizontalBox(Tab)->SetSize(FSlateChildSize(ESlateSizeRule::Fill));
+        SettingsTabs.Add(Tab);
+    }
+    SettingsTabs[0]->OnClicked.AddDynamic(this, &UViewerWidget::OnGraphicsSettings);
+    SettingsTabs[1]->OnClicked.AddDynamic(this, &UViewerWidget::OnEffectsSettings);
+    SettingsTabs[2]->OnClicked.AddDynamic(this, &UViewerWidget::OnPartsSettings);
     SettingsScroll = WidgetTree->ConstructWidget<UScrollBox>(); SettingsScroll->SetOrientation(Orient_Vertical);
     SettingsScroll->SetAnimateWheelScrolling(true); SettingsScroll->SetConsumeMouseWheel(EConsumeMouseWheel::WhenScrollingPossible);
     Panel->AddChildToVerticalBox(SettingsScroll)->SetSize(FSlateChildSize(ESlateSizeRule::Fill));
     UVerticalBox* Content = WidgetTree->ConstructWidget<UVerticalBox>(); SettingsScroll->AddChild(Content);
+    GraphicsSettings = WidgetTree->ConstructWidget<UVerticalBox>(); Content->AddChildToVerticalBox(GraphicsSettings);
+    EffectsSettings = WidgetTree->ConstructWidget<UVerticalBox>(); Content->AddChildToVerticalBox(EffectsSettings);
+    PartsSettings = WidgetTree->ConstructWidget<UVerticalBox>(); Content->AddChildToVerticalBox(PartsSettings);
     TArray<FString> Rates;
     for (int32 Rate : UViewerPreferences::FrameRates()) Rates.Add(FString::Printf(TEXT("%d 帧 / 秒"), Rate));
-    AddSettingChoice(Content, FText::FromString(TEXT("帧率上限")), EViewerSetting::FrameRate, Rates);
-    AddSettingChoice(Content, FText::FromString(TEXT("画面质量")), EViewerSetting::Quality, {TEXT("低"), TEXT("均衡"), TEXT("高"), TEXT("极致"), TEXT("自定义")});
-    AddSettingChoice(Content, FText::FromString(TEXT("渲染分辨率")), EViewerSetting::Resolution, {TEXT("70%"), TEXT("100%"), TEXT("125%"), TEXT("150%"), TEXT("200%")});
-    AddSettingChoice(Content, FText::FromString(TEXT("纹理质量")), EViewerSetting::Textures, {TEXT("低"), TEXT("均衡"), TEXT("高"), TEXT("极致")});
-    AddSettingChoice(Content, FText::FromString(TEXT("阴影质量")), EViewerSetting::Shadows, {TEXT("关闭"), TEXT("低"), TEXT("高"), TEXT("极致")});
-    AddSettingChoice(Content, FText::FromString(TEXT("抗锯齿")), EViewerSetting::Antialiasing, {TEXT("关闭"), TEXT("2×"), TEXT("4×"), TEXT("8×")});
-    Content->AddChildToVerticalBox(MakeText(FText::FromString(TEXT("效果")), 14, ViewerUi::Accent))->SetPadding(FMargin(0.f, 18.f, 0.f, 6.f));
-    AddSettingToggle(Content, FText::FromString(TEXT("后期处理")), EViewerSetting::PostProcessing);
-    AddSettingToggle(Content, FText::FromString(TEXT("泛光")), EViewerSetting::Bloom);
-    AddSettingToggle(Content, FText::FromString(TEXT("暗角")), EViewerSetting::Vignette);
-    AddSettingToggle(Content, FText::FromString(TEXT("景深")), EViewerSetting::DepthOfField);
-    AddSettingToggle(Content, FText::FromString(TEXT("发丝与衣物动态")), EViewerSetting::SecondaryMotion);
-    Content->AddChildToVerticalBox(MakeText(FText::FromString(TEXT("部件显示")), 14, ViewerUi::Accent))->SetPadding(FMargin(0.f, 18.f, 0.f, 6.f));
-    PartList = WidgetTree->ConstructWidget<UVerticalBox>(); Content->AddChildToVerticalBox(PartList);
+    AddSettingChoice(GraphicsSettings, FText::FromString(TEXT("画质预设")), EViewerSetting::Quality, {TEXT("低"), TEXT("均衡"), TEXT("高"), TEXT("极致"), TEXT("自定义")});
+    AddSettingChoice(GraphicsSettings, FText::FromString(TEXT("帧率上限")), EViewerSetting::FrameRate, Rates);
+    AddSettingChoice(GraphicsSettings, FText::FromString(TEXT("分辨率")), EViewerSetting::Resolution, {TEXT("70%"), TEXT("100%"), TEXT("125%"), TEXT("150%"), TEXT("200%")});
+    AddSettingChoice(GraphicsSettings, FText::FromString(TEXT("纹理")), EViewerSetting::Textures, {TEXT("低"), TEXT("均衡"), TEXT("高"), TEXT("极致")});
+    AddSettingChoice(GraphicsSettings, FText::FromString(TEXT("阴影")), EViewerSetting::Shadows, {TEXT("关闭"), TEXT("低"), TEXT("高"), TEXT("极致")});
+    TArray<FString> AntialiasingOptions;
+    for (int32 Samples : UViewerPreferences::AntialiasingSamples())
+        AntialiasingOptions.Add(Samples == 0 ? TEXT("TAA") : Samples == 1 ? TEXT("关闭")
+            : FString::Printf(TEXT("%d× MSAA"), Samples));
+    AddSettingChoice(GraphicsSettings, FText::FromString(TEXT("抗锯齿")), EViewerSetting::Antialiasing, AntialiasingOptions);
+    AddSettingToggle(EffectsSettings, FText::FromString(TEXT("后期处理")), EViewerSetting::PostProcessing);
+    AddSettingToggle(EffectsSettings, FText::FromString(TEXT("泛光")), EViewerSetting::Bloom);
+    AddSettingToggle(EffectsSettings, FText::FromString(TEXT("暗角")), EViewerSetting::Vignette);
+    AddSettingToggle(EffectsSettings, FText::FromString(TEXT("景深")), EViewerSetting::DepthOfField);
+    AddSettingToggle(EffectsSettings, FText::FromString(TEXT("环境光遮蔽")), EViewerSetting::AmbientOcclusion);
+    AddSettingToggle(EffectsSettings, FText::FromString(UViewerPreferences::UsesMobileRenderer()
+        ? TEXT("屏幕空间反射 · TAA") : TEXT("Lumen 反射")), EViewerSetting::ScreenSpaceReflections);
+    AddSettingToggle(EffectsSettings, FText::FromString(TEXT("发丝与衣物动态")), EViewerSetting::SecondaryMotion);
+    if (UViewerPreferences::UsesMobileRenderer())
+        EffectsSettings->AddChildToVerticalBox(MakeText(FText::FromString(TEXT("当前移动渲染模式支持屏幕空间反射，不支持 Lumen 与硬件光追。")), 12, ViewerUi::Muted))->SetPadding(FMargin(0.f, 16.f));
+    PartList = WidgetTree->ConstructWidget<UVerticalBox>(); PartsSettings->AddChildToVerticalBox(PartList);
     RestoreDefaultsButton = MakeButton(FText::FromString(TEXT("恢复默认设置")));
     RestoreDefaultsButton->OnClicked.AddDynamic(this, &UViewerWidget::OnRestoreDefaults);
-    Content->AddChildToVerticalBox(RestoreDefaultsButton)->SetPadding(FMargin(0.f, 18.f, 0.f, 8.f));
+    Panel->AddChildToVerticalBox(RestoreDefaultsButton)->SetPadding(FMargin(0.f, 16.f, 0.f, 0.f));
+    SelectSettingsPage(0);
 }
 void UViewerWidget::RebuildCharacterList()
 {
@@ -525,12 +568,13 @@ void UViewerWidget::UpdateResponsiveLayout(FVector2D GeometrySize)
     TitleAccentSize->SetHeightOverride(Narrow ? 24.f : Compact ? 30.f : 38.f);
     ActionsSlot->SetPosition(FVector2D(-Margin, Margin + 8.f));
     for (USizeBox* Action : ActionSizes) { Action->SetWidthOverride(ActionWidth); Action->SetHeightOverride(Narrow ? 60.f : 66.f); }
-    for (UTextBlock* Label : ActionLabels) Label->SetFont(ViewerStyle::Font(Narrow ? 11 : 12));
+    for (int32 Index = 0; Index < ActionLabels.Num(); ++Index)
+        ActionLabels[Index]->SetFont(ViewerStyle::Font(Index == 0 ? 17 : Narrow ? 11 : 12));
     const float AvailableFooter = FMath::Max(1.f, static_cast<float>(Size.X) - ContentLeft - Margin);
     const float FooterWidth = FMath::Min(480.f, AvailableFooter);
     FooterSlot->SetPosition(FVector2D(ContentLeft + (AvailableFooter - FooterWidth) * 0.5f, -Margin)); FooterSlot->SetSize(FVector2D(FooterWidth, FooterHeight));
     OutfitPicker->SetMaxListHeight(FMath::Max(80.f, FMath::Min(260.f, static_cast<float>(Size.Y) * 0.45f)));
-    const float PanelWidth = FMath::Max(1.f, FMath::Min(420.f, static_cast<float>(Size.X) - Margin * 2.f));
+    const float PanelWidth = FMath::Max(1.f, FMath::Min(470.f, static_cast<float>(Size.X) - Margin * 2.f));
     SettingsSlot->SetPosition(FVector2D(-Margin, Margin)); SettingsSlot->SetSize(FVector2D(PanelWidth, FMath::Max(1.f, static_cast<float>(Size.Y) - Margin * 2.f)));
     RestoreSlot->SetPosition(FVector2D(-Margin, Margin + 8.f));
     for (UViewerCharacterTile* Tile : CharacterTiles) Tile->SetCardSize(RailWidth - 12.f, Narrow ? 94.f : Compact ? 122.f : 154.f, Compact);
@@ -538,12 +582,48 @@ void UViewerWidget::UpdateResponsiveLayout(FVector2D GeometrySize)
 void UViewerWidget::ApplyVisibility()
 {
     if (!CharacterRail) return;
-    const ESlateVisibility Main = bUiHidden ? ESlateVisibility::Collapsed : ESlateVisibility::Visible;
-    CharacterRail->SetVisibility(Main); Header->SetVisibility(bUiHidden ? ESlateVisibility::Collapsed : ESlateVisibility::HitTestInvisible);
+    const bool Hidden = bUiHidden;
+    const ESlateVisibility Main = Hidden ? ESlateVisibility::Collapsed : ESlateVisibility::Visible;
+    CharacterRail->SetVisibility(Main); Header->SetVisibility(Hidden ? ESlateVisibility::Collapsed : ESlateVisibility::HitTestInvisible);
     ActionBar->SetVisibility(Main); Footer->SetVisibility(Main);
-    SettingsOverlay->SetVisibility(!bUiHidden && bSettingsOpen ? ESlateVisibility::SelfHitTestInvisible : ESlateVisibility::Collapsed);
+    SettingsOverlay->SetVisibility(!Hidden && bSettingsOpen ? ESlateVisibility::SelfHitTestInvisible : ESlateVisibility::Collapsed);
     RestoreControl->SetVisibility(bUiHidden ? ESlateVisibility::Visible : ESlateVisibility::Collapsed);
-    if (SettingsButton) SettingsButton->SetStyle(ViewerUi::ActionStyle(bSettingsOpen));
+    if (SettingsButton) SettingsButton->SetStyle(ViewerUi::ButtonStyle(bSettingsOpen
+        ? FLinearColor(0.10f, 0.20f, 0.29f, 0.96f) : FLinearColor(0.025f, 0.055f, 0.085f, 0.78f), 8.f));
+}
+void UViewerWidget::SelectSettingsPage(int32 Page)
+{
+    SettingsPage = FMath::Clamp(Page, 0, 2);
+    const TArray<UVerticalBox*> Pages{ GraphicsSettings, EffectsSettings, PartsSettings };
+    for (int32 Index = 0; Index < Pages.Num(); ++Index)
+    {
+        if (Pages[Index]) Pages[Index]->SetVisibility(Index == SettingsPage ? ESlateVisibility::Visible : ESlateVisibility::Collapsed);
+        if (SettingsTabs.IsValidIndex(Index)) SettingsTabs[Index]->SetStyle(ViewerUi::ButtonStyle(Index == SettingsPage
+            ? FLinearColor(0.12f, 0.22f, 0.31f, 1.f) : FLinearColor(0.035f, 0.055f, 0.08f, 1.f), 6.f, FMargin(10.f, 13.f)));
+    }
+    if (SettingsScroll) SettingsScroll->ScrollToStart();
+}
+void UViewerWidget::OnGraphicsSettings() { SelectSettingsPage(0); }
+void UViewerWidget::OnEffectsSettings() { SelectSettingsPage(1); }
+void UViewerWidget::OnPartsSettings() { SelectSettingsPage(2); }
+bool UViewerWidget::ConsumeModalPointer(FVector2D Point, bool bPressed)
+{
+    if (bConsumeDismissPointer)
+    {
+        if (!bPressed) bConsumeDismissPointer = false;
+        return true;
+    }
+    if (!bSettingsOpen || bUiHidden) return false;
+    if (bPressed && !ViewerUi::ContainsPixel(SettingsPanel, this, Point))
+    {
+        // A combo popup is a separate Slate window. Let its own hit testing
+        // handle a menu choice outside the panel's rectangle.
+        for (const UViewerSettingPicker* Picker : ChoicePickers)
+            if (Picker && Picker->IsOpen()) return true;
+        OnCloseSettings();
+        bConsumeDismissPointer = true;
+    }
+    return true;
 }
 bool UViewerWidget::BlocksModelInput(FVector2D Point) const
 {
@@ -563,8 +643,8 @@ void UViewerWidget::OnOutfitSelected(FString SelectedItem, ESelectInfo::Type Sel
 }
 void UViewerWidget::OnPreviousOutfit() { if (Viewer) Viewer->ChangeOutfit(-1); }
 void UViewerWidget::OnNextOutfit() { if (Viewer) Viewer->ChangeOutfit(1); }
-void UViewerWidget::OnOpenSettings() { bSettingsOpen = true; Refresh(); }
-void UViewerWidget::OnCloseSettings() { bSettingsOpen = false; Refresh(); }
+void UViewerWidget::OnOpenSettings() { bSettingsOpen = !bSettingsOpen; Refresh(); }
+void UViewerWidget::OnCloseSettings() { bSettingsOpen = false; bConsumeDismissPointer = true; Refresh(); }
 void UViewerWidget::OnHideUi() { bSettingsOpen = false; bUiHidden = true; Refresh(); }
 void UViewerWidget::OnShowUi() { bUiHidden = false; Refresh(); }
 void UViewerWidget::OnReplay() { if (Viewer) Viewer->ReplayAnimation(); }

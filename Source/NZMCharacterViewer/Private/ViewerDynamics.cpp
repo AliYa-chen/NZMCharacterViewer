@@ -70,12 +70,16 @@ void UViewerSkeletalMeshComponent::ResetSecondaryMotion()
 
 void UViewerSkeletalMeshComponent::OnRegister()
 {
+    AnimatedBoundsMesh.Reset();
+    AnimatedLocalBounds = FBox(ForceInit);
     Super::OnRegister();
     ResetSecondaryMotion();
 }
 
 void UViewerSkeletalMeshComponent::OnUnregister()
 {
+    AnimatedBoundsMesh.Reset();
+    AnimatedLocalBounds = FBox(ForceInit);
     ResetSecondaryMotion();
     Super::OnUnregister();
 }
@@ -140,6 +144,56 @@ void UViewerSkeletalMeshComponent::FinalizeBoneTransform()
         }
     }
     Super::FinalizeBoneTransform();
+    // A clip can place its skeleton well outside the imported reference-pose
+    // box (the seated Queen is about a metre away). Publish fresh bounds even
+    // for hidden preparation poses, before they become visible to the renderer.
+    UpdateAnimatedBounds();
+}
+
+void UViewerSkeletalMeshComponent::UpdateAnimatedBounds()
+{
+    if (!IsInGameThread()) return;
+    USkeletalMesh* Mesh = GetSkeletalMeshAsset();
+    if (!Mesh) return;
+    // Read only the already-published CPU pose. Waiting for animation here or
+    // reading GPU-skinned vertices could recurse into finalization or stall it.
+    const TArray<FTransform>& Pose = GetComponentSpaceTransforms();
+    FBox PoseBox(ForceInit);
+    for (const FTransform& Bone : Pose)
+    {
+        const FVector Position = Bone.GetLocation();
+        if (!Position.ContainsNaN()) PoseBox += Position;
+    }
+    if (!PoseBox.IsValid) return;
+    // Allow flesh, clothing and hair around the bone centres. Base imported
+    // bounds remain in the final union, so this extends rather than shrinks the
+    // mesh's known reference geometry without an arbitrary bounds multiplier.
+    const FVector Extent = Mesh->GetImportedBounds().BoxExtent;
+    const double Margin = Extent.ContainsNaN() ? 5.0 : FMath::Clamp(Extent.GetAbsMin(), 5.0, 25.0);
+    PoseBox = PoseBox.ExpandBy(Margin);
+    const bool Changed = AnimatedBoundsMesh.Get() != Mesh || !AnimatedLocalBounds.IsValid
+        || !AnimatedLocalBounds.Min.Equals(PoseBox.Min, 0.1)
+        || !AnimatedLocalBounds.Max.Equals(PoseBox.Max, 0.1);
+    AnimatedBoundsMesh = Mesh;
+    AnimatedLocalBounds = PoseBox;
+    if (Changed)
+    {
+        InvalidateCachedBounds();
+        UpdateBounds();
+        MarkRenderTransformDirty();
+    }
+}
+
+FBoxSphereBounds UViewerSkeletalMeshComponent::CalcBounds(const FTransform& LocalToWorld) const
+{
+    const FBoxSphereBounds Reference = Super::CalcBounds(LocalToWorld);
+    if (AnimatedBoundsMesh.Get() != GetSkeletalMeshAsset() || !AnimatedLocalBounds.IsValid
+        || LocalToWorld.ContainsNaN()) return Reference;
+    const FBox PoseBox = AnimatedLocalBounds.TransformBy(LocalToWorld);
+    if (!PoseBox.IsValid || PoseBox.Min.ContainsNaN() || PoseBox.Max.ContainsNaN()) return Reference;
+    FBox Combined = Reference.GetBox();
+    Combined += PoseBox;
+    return FBoxSphereBounds(Combined);
 }
 
 void UViewerSkeletalMeshComponent::SeedChain(FChainState& State, const TArray<FVector>& Goals)

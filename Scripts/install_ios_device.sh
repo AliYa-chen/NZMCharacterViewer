@@ -39,7 +39,7 @@ if not expiry or expiry.replace(tzinfo=timezone.utc) <= datetime.now(timezone.ut
 subprocess.run(["codesign", "--verify", "--deep", "--strict", str(app)], check=True)
 PY
 xcrun devicectl device install app --device "$IOS_DEVICE_ID" "$APP_PATH" \
-  --timeout 120 --json-output "$PROJECT_ROOT/Saved/DevicePreparation/install-result.json"
+  --timeout "${IOS_INSTALL_TIMEOUT:-300}" --json-output "$PROJECT_ROOT/Saved/DevicePreparation/install-result.json"
 if [ "${IOS_LAUNCH_AFTER_INSTALL:-1}" = "1" ]; then
   xcrun devicectl device process launch --device "$IOS_DEVICE_ID" "$IOS_BUNDLE_ID" \
     --timeout 30 --json-output "$PROJECT_ROOT/Saved/DevicePreparation/launch-result.json"

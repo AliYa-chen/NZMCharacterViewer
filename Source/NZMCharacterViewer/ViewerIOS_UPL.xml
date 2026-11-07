@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <iosPListUpdates>
+        <!-- UE generates UIRequiresFullScreen=true. That requests a fixed compatibility
+             window on the unfolded iPhone display. Replace the original key/value pair
+             so UIKit can resize our existing single scene; never append a duplicate key. -->
+        <loopElements tag="dict">
+            <setBool result="removeFullScreenValue" value="false"/>
+            <loopElements tag="$">
+                <if condition="removeFullScreenValue">
+                    <true>
+                        <removeElement tag="$"/>
+                        <setBool result="removeFullScreenValue" value="false"/>
+                    </true>
+                    <false>
+                        <setStringFromTag result="plistTag" tag="$"/>
+                        <setBoolIsEqual result="isKey" arg1="$S(plistTag)" arg2="key"/>
+                        <if condition="isKey">
+                            <true>
+                                <setStringFromTagText result="plistKey" tag="$"/>
+                                <setBoolIsEqual result="isFullScreenKey" arg1="$S(plistKey)" arg2="UIRequiresFullScreen"/>
+                                <if condition="isFullScreenKey">
+                                    <true>
+                                        <!-- Removing the current key makes its parent dict
+                                             current; add the replacement to that dict. -->
+                                        <removeElement tag="$"/>
+                                        <addElements tag="$">
+                                            <key>UIRequiresFullScreen</key>
+                                            <false/>
+                                        </addElements>
+                                        <setBool result="removeFullScreenValue" value="true"/>
+                                    </true>
+                                </if>
+                            </true>
+                        </if>
+                    </false>
+                </if>
+            </loopElements>
+        </loopElements>
+    </iosPListUpdates>
+</root>

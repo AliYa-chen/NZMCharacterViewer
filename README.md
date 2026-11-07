@@ -2,7 +2,7 @@
 
 基于 Unreal Engine 5.8.4 的非官方离线人物查看器，面向 macOS 和 iPhone／iPad。当前工程包含 5 名角色、9 套服装、40 个运行部件及待机动画。
 
-支持人物／服装切换、触摸与鼠标旋转缩放、视角复位、动画重播、隐藏界面、部件开关，以及保存画质设置。标准展台和部分服装场景已导入；Bianca 当前使用标准展台。
+支持人物／服装切换、触摸与鼠标旋转缩放、视角复位、待机动画重播、隐藏界面、部件开关，以及保存画质设置。标准展台和部分服装场景已导入；Bianca 当前使用标准展台。角色过场演出已取消，切换角色后直接进入待机。
 
 ## 克隆、编译与打开
 
@@ -32,7 +32,9 @@ Scripts/build_macos.sh
 | 人物／服装 | 点选头像或服装 | 点击头像或服装 |
 | 复位、重播、部件、设置 | 使用界面按钮 | 使用界面按钮 |
 
-运行时按服装加载软引用资产，准备完成后切换显示。设置包含帧率、分辨率、阴影、抗锯齿、后期和动态效果；实际选项受设备能力限制。
+运行时按服装加载软引用资产，准备完成后切换显示；旋转时人物与所在场景一起转动。设置包含帧率、分辨率、阴影、抗锯齿、后期、环境光遮蔽、屏幕空间反射和动态效果；点击设置面板外可关闭。实际效果受设备和渲染路径限制。
+
+Mac 的 Metal 配置启用 Lumen 全局光照和反射；本机 Metal SM6 已运行硬件光追，保留距离场以支持软件回退。普通 iOS 继续使用移动前向渲染、TAA、屏幕空间反射与环境光遮蔽。跨设备判断光追是否生效时，应同时核实原生能力、UE RHI 和运行状态。
 
 ## iOS
 
@@ -54,12 +56,14 @@ Scripts/package_ios.sh
 
 若使用现有设备／证书的显式选择流程，将 `Scripts/ios_device.env.example` 复制为 `Scripts/ios_device.env`，填写自己的值，再执行 `Scripts/package_ios_device.sh`。安装使用 `Scripts/install_ios_device.sh /path/to/signed.app`。真实配置、描述文件、证书和输出均不提交。
 
+`Scripts/build_ios_cinematic_compile.sh` 用于独立试验 `CinematicIOS` 的 Metal SM6／光追配置，不改变普通移动端配置。本机该试验因引擎缺少 `Engine/Binaries/ThirdParty/Apple/MetalShaderConverter/IOS/libmetalirconverter.embeddedframework.zip` 编译失败，尚未得到可运行的 iOS Lumen／硬件光追版本。
+
 ## 验证状态与限制
 
-- 清理后、不含 `SourceAssets` 的干净 Git 克隆已通过 Mac Editor 全量编译，UE 依赖闭包检查无缺失。
-- 同一干净克隆已完成 iOS Development arm64 编译／链接；尚未完成完整 cook、签名、可安装 IPA 和真机验证。
-- macOS Metal 在切换或画质调整测试中出现过 `IRBindUniformBuffer`／`SharedPointer IsValid()` 断言崩溃，根因未定，最新预加载逻辑仍需渲染回归。
-- 材质使用 stock UE 重建。部分眼球、皮肤、毛发和动态效果为有记录的近似；原自定义 shader、粒子、完整布料与原游戏渲染没有完整恢复。
+- 基线工程在不含 `SourceAssets` 的干净 Git 克隆中通过过 Mac Editor 全量编译和 iOS Development arm64 编译／链接。
+- 开发版本已完成多轮 iOS cook、签名、打包、真机安装和运行检查。本机记录位于 `Saved/DevicePreparation`；这些结果对应各次被测版本，不能代替取消过场及后续画质修改后的回归验证。
+- 最新 Mac Editor 模块及常规 iOS Development arm64 编译／链接已通过。取消过场后的本机 Metal SM6／硬件 Lumen 已完成全部 9 套服装的加载、动画、动态、共转、设置关闭和截图回归，结果为 pass，无 fail／unknown；600×900 竖屏另经运行与截图复核，窄屏保持源相机位置并扩展纵向视野，避免退入场景遮挡。材质缺失着色器编译任务造成的加载等待已修复；此前的 Metal 断言在本轮未复现，不能据此认定所有崩溃路径都已排除。最新 iOS 版本尚待真机重新连接后验证。
+- 保留了原 `RoleIdle` 骨骼待机曲线。Nanami 头部上没有子骨段的动态配置已移除，身体与头发动态保留；这不代表恢复了原插件可能使用的虚拟末端机制。完整面部混合、注视控制和原自定义 shader 尚未恢复；部分眼球、皮肤、毛发、粒子及布料效果仍有差异。详见 [面部动画核对](Docs/FACIAL_ANIMATION_EVIDENCE.md)。
 - iOS 17+ 为当前配置下限；帧率和画质选项不代表已验证的真机性能。
 
 ## 工程与资源维护
@@ -73,7 +77,9 @@ Scripts/package_ios.sh
 | `Content/Slate/Fonts` | 中文字体、来源与 OFL 许可 |
 | `Scripts` | 构建、检查、可选重新导入与设备流程 |
 
-离线预览、原始转换输入、未使用资产和构建输出已从工程中清理。贴图的本机重导入路径已清除，283 张贴图经新进程加载核对，原始 mip 像素哈希、源 ID 和压缩／色彩设置保持一致。资源清理依据运行时入口及 UE AssetRegistry 的硬引用、软引用和管理引用闭包，保留字体和代码动态加载的界面资产。可重复运行只读检查：
+离线预览、原始转换输入、未使用资产和构建输出已从工程中清理。取消过场后，运行时的 `Presentation`／`EntryAnimation` 引用和跳过按钮已移除；重新保存当前 Catalog 后完成依赖清理，累计 73 个不可达资产（约 167.5 MiB）已备份移至本机忽略目录 `Saved/Cleanup`。最新依赖报告包含 634 个工程包，全部可达，无缺失、未知依赖或未使用资产；原 `RoleIdle` 待机资产与曲线继续保留。
+
+贴图的本机重导入路径已清除，283 张贴图经新进程加载核对，原始 mip 像素哈希、源 ID 和压缩／色彩设置保持一致。资源清理依据运行时入口及 UE AssetRegistry 的硬引用、软引用和管理引用闭包，保留字体和代码动态加载的界面资产。可重复运行只读检查：
 
 ```bash
 "$UE_ROOT/Engine/Binaries/Mac/UnrealEditor.app/Contents/MacOS/UnrealEditor" \

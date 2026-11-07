@@ -29,13 +29,17 @@
 #include "HAL/PlatformTime.h"
 #include "Misc/CommandLine.h"
 #include "Misc/Parse.h"
+#include "RHI.h"
+#include "DataDrivenShaderPlatformInfo.h"
 
 AViewerPawn::AViewerPawn()
 {
     PrimaryActorTick.bCanEverTick = true;
     RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
+    SceneRoot = CreateDefaultSubobject<USceneComponent>(TEXT("SceneRoot"));
+    SceneRoot->SetupAttachment(RootComponent);
     ModelRoot = CreateDefaultSubobject<USceneComponent>(TEXT("ModelRoot"));
-    ModelRoot->SetupAttachment(RootComponent);
+    ModelRoot->SetupAttachment(SceneRoot);
     PreparingRoot = CreateDefaultSubobject<USceneComponent>(TEXT("PreparingRoot"));
     PreparingRoot->SetupAttachment(RootComponent);
     Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
@@ -104,7 +108,9 @@ void AViewerPawn::Tick(float DeltaSeconds)
     TickSelectionPreparation();
     if (!bPreparingSelection && (!SmokeTest || !SmokeTest->IsRunning())) ReadPointerInput();
     DisplayYaw = FMath::FixedTurn(DisplayYaw, Yaw, FMath::Min(DeltaSeconds, 0.05f) * 540.f);
-    ModelRoot->SetRelativeRotation(FRotator(0.f, DisplayYaw, 0.f));
+    // Furniture, backdrop, lights and avatar share the same turntable. A seated
+    // character must never rotate away from the chair while the camera orbits.
+    SceneRoot->SetRelativeRotation(FRotator(0.f, DisplayYaw, 0.f));
     UpdateCamera();
 }
 
@@ -113,6 +119,13 @@ const FViewerOutfit* AViewerPawn::GetCurrentOutfit() const
     if (!Catalog || !Catalog->Characters.IsValidIndex(CharacterIndex)) return nullptr;
     const FViewerCharacter& Character = Catalog->Characters[CharacterIndex];
     return Character.Outfits.IsValidIndex(OutfitIndex) ? &Character.Outfits[OutfitIndex] : nullptr;
+}
+
+const FViewerOutfit* AViewerPawn::GetActiveOutfit() const
+{
+    if (!Catalog || !Catalog->Characters.IsValidIndex(ActiveCharacterIndex)) return nullptr;
+    const FViewerCharacter& Character = Catalog->Characters[ActiveCharacterIndex];
+    return Character.Outfits.IsValidIndex(ActiveOutfitIndex) ? &Character.Outfits[ActiveOutfitIndex] : nullptr;
 }
 
 void AViewerPawn::ReleaseSelection()
@@ -139,6 +152,7 @@ void AViewerPawn::EndPlay(const EEndPlayReason::Type EndPlayReason)
     if (PrefetchHandle) PrefetchHandle->ReleaseHandle();
     PrefetchHandle.Reset();
     ReleaseSelection();
+    ClearStage();
     if (ViewerUI) ViewerUI->RemoveFromParent();
     ViewerUI = nullptr;
     Super::EndPlay(EndPlayReason);
@@ -189,15 +203,31 @@ void AViewerPawn::CancelSelectionPreparation()
     PreparingRoot->SetRelativeTransform(FTransform::Identity);
 }
 
+void AViewerPawn::FailSelectionPreparation(const FText& FailureStatus)
+{
+    UE_LOG(LogTemp, Warning, TEXT("Viewer selection %d/%d generation %d failed: %s"),
+        CharacterIndex, OutfitIndex, SelectionGeneration, *FailureStatus.ToString());
+    CancelSelectionPreparation();
+    // The old meshes remain visible when preparation fails. Restore their
+    // catalog selection too, so labels/part controls agree and retry is possible.
+    if (ActiveCharacterIndex != INDEX_NONE)
+    {
+        CharacterIndex = ActiveCharacterIndex;
+        OutfitIndex = ActiveOutfitIndex;
+    }
+    Status = FailureStatus;
+    if (ViewerUI) ViewerUI->Refresh();
+}
+
 void AViewerPawn::LoadSelection()
 {
     const int32 Generation = ++SelectionGeneration;
+    UE_LOG(LogTemp, Display, TEXT("Viewer selection requested %d/%d generation %d"), CharacterIndex, OutfitIndex, Generation);
     CancelSelectionPreparation();
     const FViewerOutfit* Outfit = GetCurrentOutfit();
     if (!Outfit)
     {
-        Status = FText::FromString(TEXT("尚未导入人物资源。请先运行编辑器导入脚本。"));
-        if (ViewerUI) ViewerUI->Refresh();
+        FailSelectionPreparation(FText::FromString(TEXT("尚未导入人物资源。请先运行编辑器导入脚本。")));
         return;
     }
     // The previous scene and character remain visible until the replacement
@@ -205,6 +235,7 @@ void AViewerPawn::LoadSelection()
     bPreparingSelection = true;
     bLastSelectionReadyBeforeVisible = false;
     PreparationStartedSeconds = FPlatformTime::Seconds();
+    LastPreparationWaitLogSeconds = PreparationStartedSeconds;
     Status = FText::FromString(TEXT("正在载入角色与场景…"));
     if (ViewerUI) ViewerUI->Refresh();
     TArray<FSoftObjectPath> Assets;
@@ -215,9 +246,7 @@ void AViewerPawn::LoadSelection()
     PrefetchHandle.Reset();
     if (!LoadingHandle)
     {
-        CancelSelectionPreparation();
-        Status = FText::FromString(TEXT("无法开始载入，当前角色已保留。"));
-        if (ViewerUI) ViewerUI->Refresh();
+        FailSelectionPreparation(FText::FromString(TEXT("无法开始载入，当前角色已保留。")));
     }
 }
 
@@ -233,9 +262,7 @@ void AViewerPawn::FinishSelectionLoad(int32 Generation)
             : Outfit->Environment.Get();
         if (!PreparingEnvironment)
         {
-            CancelSelectionPreparation();
-            Status = FText::FromString(TEXT("无法完整载入场景，当前角色已保留。"));
-            if (ViewerUI) ViewerUI->Refresh();
+            FailSelectionPreparation(FText::FromString(TEXT("无法完整载入场景，当前角色已保留。")));
             return;
         }
         bEnvironmentDependenciesRequested = true;
@@ -244,15 +271,21 @@ void AViewerPawn::FinishSelectionLoad(int32 Generation)
         AddViewerEnvironmentAssets(*PreparingEnvironment, Assets);
         LoadingHandle = UAssetManager::GetStreamableManager().RequestAsyncLoad(Assets,
             FStreamableDelegate::CreateUObject(this, &AViewerPawn::FinishSelectionLoad, Generation));
+        if (!LoadingHandle)
+            FailSelectionPreparation(FText::FromString(TEXT("无法开始载入场景资源，当前角色已保留。")));
         return;
     }
     auto AddMaterial = [this](UMaterialInterface* Material)
     {
-        if (!Material) return;
-        PreparingMaterials.AddUnique(Material);
-        // PostLoad schedules the material's render shaders. Explicitly calling
-        // CacheShaders here can replace a shared stage material's resources
-        // while the previous character is still drawing with them.
+        if (!Material || PreparingMaterials.Contains(Material)) return;
+        PreparingMaterials.Add(Material);
+#if WITH_EDITOR
+        // Editor -game can load an incomplete shader map without submitting
+        // its missing permutations. Schedule that work once before the gate;
+        // complete/shared resources must not be recached on every selection.
+        if (!Material->IsCompiling() && !Material->IsComplete())
+            Material->CacheShaders(EMaterialShaderPrecompileMode::Background);
+#endif
     };
     bool Valid = true;
     for (const FViewerPart& Part : Outfit->Parts)
@@ -264,21 +297,24 @@ void AViewerPawn::FinishSelectionLoad(int32 Generation)
             AddMaterial(Material.Get());
         }
     }
-    for (const auto& Mesh : PreparingEnvironment->Meshes)
+    auto ValidateStage = [&Valid, &AddMaterial](const UViewerEnvironment* Stage)
     {
-        Valid &= Mesh.Mesh.Get() != nullptr;
-        for (const auto& Material : Mesh.Materials)
+        if (!Stage) return;
+        for (const auto& Mesh : Stage->Meshes)
         {
-            Valid &= Material.Get() != nullptr;
-            AddMaterial(Material.Get());
+            Valid &= Mesh.Mesh.Get() != nullptr;
+            for (const auto& Material : Mesh.Materials)
+            {
+                Valid &= Material.Get() != nullptr;
+                AddMaterial(Material.Get());
+            }
         }
-    }
-    Valid &= PreparingEnvironment->Cubemap.Get() != nullptr;
+        Valid &= Stage->Cubemap.Get() != nullptr;
+    };
+    ValidateStage(PreparingEnvironment);
     if (!Valid)
     {
-        CancelSelectionPreparation();
-        Status = FText::FromString(TEXT("资源未能完整载入，当前角色已保留。"));
-        if (ViewerUI) ViewerUI->Refresh();
+        FailSelectionPreparation(FText::FromString(TEXT("资源未能完整载入，当前角色已保留。")));
     }
 }
 
@@ -315,10 +351,12 @@ void AViewerPawn::BuildPreparingComponents()
         Component->UpdateBounds();
         PreparingParts.Add(Component);
     }
-    for (const auto& Spec : PreparingEnvironment->Meshes)
+    for (const FViewerEnvironmentMesh& Spec : PreparingEnvironment->Meshes)
     {
         UStaticMeshComponent* Component = NewObject<UStaticMeshComponent>(this);
+        Component->ComponentTags.Add(Spec.Id);
         Component->SetupAttachment(GetRootComponent());
+        Component->SetMobility(EComponentMobility::Movable);
         Component->SetVisibility(false, true);
         Component->SetStaticMesh(Spec.Mesh.Get());
         Component->SetRelativeTransform(Spec.Transform);
@@ -337,23 +375,36 @@ void AViewerPawn::BuildPreparingComponents()
 void AViewerPawn::TickSelectionPreparation()
 {
     if (!bPreparingSelection || !LoadingHandle) return;
+    const auto Waiting = [this](const TCHAR* Reason, const UObject* Asset = nullptr)
+    {
+        const double Now = FPlatformTime::Seconds();
+        if (Now - LastPreparationWaitLogSeconds < 10.0) return;
+        LastPreparationWaitLogSeconds = Now;
+        UE_LOG(LogTemp, Display, TEXT("Viewer preparing generation %d: waiting for %s %s (%.1fs)"),
+            SelectionGeneration, Reason, Asset ? *Asset->GetPathName() : TEXT(""), Now - PreparationStartedSeconds);
+    };
     if (FPlatformTime::Seconds() - PreparationStartedSeconds > 120.0)
     {
-        CancelSelectionPreparation();
-        Status = FText::FromString(TEXT("无法完成资源准备，当前角色已保留。"));
-        if (ViewerUI) ViewerUI->Refresh();
+        FailSelectionPreparation(FText::FromString(TEXT("无法完成资源准备，当前角色已保留。")));
         return;
     }
     if (!LoadingHandle->HasLoadCompleted() || !bEnvironmentDependenciesRequested || !PreparingEnvironment
-        || PreparingMaterials.IsEmpty()) return;
+        || PreparingMaterials.IsEmpty()) { Waiting(TEXT("asynchronous package dependencies")); return; }
     const FViewerOutfit* Outfit = GetCurrentOutfit();
     if (!Outfit) return;
     for (const FViewerPart& Part : Outfit->Parts)
-        if (!Part.Mesh.Get() || Part.Mesh.Get()->IsCompiling() || Part.Mesh.Get()->HasPendingInitOrStreaming()) return;
+    {
+        if (!Part.Mesh.Get() || Part.Mesh.Get()->IsCompiling() || Part.Mesh.Get()->HasPendingInitOrStreaming())
+        { Waiting(TEXT("skeletal mesh resources"), Part.Mesh.Get()); return; }
+        if (Part.Animation.Get() && !Part.Animation.Get()->IsCompressedDataValid())
+        { Waiting(TEXT("animation compression"), Part.Animation.Get()); return; }
+    }
     for (const auto& Spec : PreparingEnvironment->Meshes)
-        if (!Spec.Mesh.Get() || Spec.Mesh.Get()->IsCompiling() || Spec.Mesh.Get()->HasPendingInitOrStreaming()) return;
+        if (!Spec.Mesh.Get() || Spec.Mesh.Get()->IsCompiling() || Spec.Mesh.Get()->HasPendingInitOrStreaming())
+        { Waiting(TEXT("static mesh resources"), Spec.Mesh.Get()); return; }
     for (UMaterialInterface* Material : PreparingMaterials)
-        if (!Material || Material->IsCompiling() || !Material->IsComplete()) return;
+        if (!Material || Material->IsCompiling() || !Material->IsComplete())
+        { Waiting(TEXT("material shaders"), Material); return; }
     if (!bPreparationTexturesRequested)
     {
         for (UMaterialInterface* Material : PreparingMaterials)
@@ -370,16 +421,19 @@ void AViewerPawn::TickSelectionPreparation()
     if (!bPreparationComponentsBuilt) BuildPreparingComponents();
     for (UTexture* Texture : PreparingTextures)
         if (!Texture || Texture->IsCompiling() || !Texture->GetResource() || Texture->HasPendingInitOrStreaming()
-            || (Texture->IsStreamable() && !Texture->IsFullyStreamedIn())) return;
-    for (USkeletalMeshComponent* Part : PreparingParts) if (Part->IsPSOPrecaching()) return;
-    for (UStaticMeshComponent* Mesh : PreparingStageMeshes) if (Mesh->IsPSOPrecaching()) return;
+            || (Texture->IsStreamable() && !Texture->IsFullyStreamedIn()))
+        { Waiting(TEXT("resident texture mips"), Texture); return; }
+    for (USkeletalMeshComponent* Part : PreparingParts) if (Part->IsPSOPrecaching())
+    { Waiting(TEXT("skeletal mesh PSOs"), Part); return; }
+    for (UStaticMeshComponent* Mesh : PreparingStageMeshes) if (Mesh->IsPSOPrecaching())
+    { Waiting(TEXT("static mesh PSOs"), Mesh); return; }
     if (!bPreparationFenceStarted)
     {
         PreparationFence.BeginFence(FRenderCommandFence::ESyncDepth::RHIThread);
         bPreparationFenceStarted = true;
         return;
     }
-    if (!PreparationFence.IsFenceComplete()) return;
+    if (!PreparationFence.IsFenceComplete()) { Waiting(TEXT("RHI submission fence")); return; }
     CommitPreparedSelection();
 }
 
@@ -390,15 +444,24 @@ void AViewerPawn::CommitPreparedSelection()
     LastSelectionPreparationSeconds = FPlatformTime::Seconds() - PreparationStartedSeconds;
     ReleaseSelection();
     ClearStage();
+    SceneRoot->SetRelativeRotation(FRotator::ZeroRotator);
     Environment = PreparingEnvironment;
     StageMeshes = MoveTemp(PreparingStageMeshes);
+    for (UStaticMeshComponent* Mesh : StageMeshes)
+        Mesh->AttachToComponent(SceneRoot, FAttachmentTransformRules::KeepRelativeTransform);
     CreateStage(true);
-    ApplyPreferences();
     TObjectPtr<USceneComponent> OldRoot = ModelRoot;
     ModelRoot = PreparingRoot;
     PreparingRoot = OldRoot;
+    ModelRoot->AttachToComponent(SceneRoot, FAttachmentTransformRules::KeepRelativeTransform);
+    PreparingRoot->AttachToComponent(GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
     PreparingRoot->SetRelativeTransform(FTransform::Identity);
     Parts = MoveTemp(PreparingParts);
+    // Settings may have changed after hidden preparation components were built.
+    // Apply them to the adopted parts, rather than the released old selection.
+    ApplyPreferences();
+    ActiveCharacterIndex = CharacterIndex;
+    ActiveOutfitIndex = OutfitIndex;
     ActiveHandle = MoveTemp(LoadingHandle);
     FBox Bounds(ForceInit);
     for (int32 Index = 0; Index < Parts.Num(); ++Index)
@@ -407,7 +470,12 @@ void AViewerPawn::CommitPreparedSelection()
         Component->SetVisibility(Outfit->Parts[Index].bVisibleByDefault, true);
         Component->PrestreamTextures(3.f, true);
         Component->UpdateBounds();
-        if (Outfit->Parts[Index].bVisibleByDefault) Bounds += Component->Bounds.GetBox();
+        // Renderer bounds include the evaluated pose plus a conservative
+        // margin for culling. Keep the existing reference-mesh framing/ground
+        // normalization independent of that margin, or standing feet float.
+        if (Outfit->Parts[Index].bVisibleByDefault && Component->GetSkeletalMeshAsset())
+            Bounds += Component->GetSkeletalMeshAsset()->GetBounds()
+                .TransformBy(Component->GetComponentTransform()).GetBox();
     }
     for (UStaticMeshComponent* Mesh : StageMeshes) { Mesh->SetVisibility(true, true); Mesh->PrestreamTextures(3.f, false); }
     PreparingMaterials.Reset();
@@ -444,9 +512,8 @@ void AViewerPawn::CommitPreparedSelection()
             : (Environment ? Environment->CameraDistance : 350.f) * ModelHeight / 180.f;
         LastViewportSize = FVector2D::ZeroVector;
     }
-    const bool bHasAnimation = Outfit->Parts.ContainsByPredicate([](const FViewerPart& Part) { return !Part.Animation.IsNull(); });
-    Status = FText::FromString(bHasAnimation ? TEXT("待机动作 · 可分部件查看") : TEXT("原始绑定姿势 · 可分部件查看"));
     ResetView();
+    ReplayAnimation();
     if (ViewerUI) ViewerUI->Refresh();
     PrefetchAdjacentCharacter();
 }
@@ -488,7 +555,8 @@ void AViewerPawn::ChangeOutfit(int32 Direction)
 
 void AViewerPawn::SelectCharacter(int32 Index)
 {
-    if (!Catalog || !Catalog->Characters.IsValidIndex(Index) || CharacterIndex == Index) return;
+    if (!Catalog || !Catalog->Characters.IsValidIndex(Index) ||
+        (CharacterIndex == Index && (bPreparingSelection || ActiveCharacterIndex == Index))) return;
     CharacterIndex = Index;
     OutfitIndex = 0;
     LoadSelection();
@@ -496,7 +564,9 @@ void AViewerPawn::SelectCharacter(int32 Index)
 
 void AViewerPawn::SelectOutfit(int32 Index)
 {
-    if (!Catalog || !Catalog->Characters.IsValidIndex(CharacterIndex) || OutfitIndex == Index ||
+    if (!Catalog || !Catalog->Characters.IsValidIndex(CharacterIndex) ||
+        (OutfitIndex == Index && (bPreparingSelection ||
+            (ActiveCharacterIndex == CharacterIndex && ActiveOutfitIndex == Index))) ||
         !Catalog->Characters[CharacterIndex].Outfits.IsValidIndex(Index)) return;
     OutfitIndex = Index;
     LoadSelection();
@@ -525,7 +595,7 @@ void AViewerPawn::ResetView()
 {
     Yaw = 0.f;
     DisplayYaw = 0.f;
-    ModelRoot->SetRelativeRotation(FRotator::ZeroRotator);
+    SceneRoot->SetRelativeRotation(FRotator::ZeroRotator);
     Pitch = Environment ? Environment->CameraPitch : 4.4f;
     Distance = DefaultDistance;
     bPointerDragging = false;
@@ -548,13 +618,21 @@ bool AViewerPawn::IsPartVisible(int32 Index) const
 
 bool AViewerPawn::IsPartLoaded(int32 Index) const
 {
-    return Parts.IsValidIndex(Index) && Parts[Index] != nullptr;
+    // GetCurrentOutfit describes the pending selection while old Parts remain
+    // on screen. Do not bind its part controls to the old character's indexes.
+    return !bPreparingSelection && Parts.IsValidIndex(Index) && Parts[Index] != nullptr;
 }
 
 void AViewerPawn::Orbit(FVector2D Delta)
 {
-    Yaw = FMath::UnwindDegrees(Yaw - Delta.X * 0.22f);
-    Pitch = FMath::Clamp(Pitch + Delta.Y * 0.18f, -30.f, 65.f);
+    int32 Width = 0, Height = 0;
+    if (const APlayerController* PC = Cast<APlayerController>(GetController()))
+        PC->GetViewportSize(Width, Height);
+    // Input arrives in physical pixels. Match the same gesture across the
+    // folded/unfolded displays instead of amplifying it at native resolution.
+    const float Scale = 720.f / FMath::Max(1, FMath::Min(Width, Height));
+    Yaw = FMath::UnwindDegrees(Yaw - Delta.X * Scale * 0.22f);
+    Pitch = FMath::Clamp(Pitch - Delta.Y * Scale * 0.18f, -30.f, 65.f);
 }
 
 void AViewerPawn::Zoom(float Amount)
@@ -579,6 +657,13 @@ void AViewerPawn::ReadPointerInput()
     PC->GetInputTouchState(ETouchIndex::Touch1, X1, Y1, First);
     PC->GetInputTouchState(ETouchIndex::Touch2, X2, Y2, Second);
     const FVector2D Point1(X1, Y1), Point2(X2, Y2);
+    // Consume the entire touch gesture, including a second finger added after
+    // dismissing settings. Release the guard only after every finger lifts.
+    if ((First || Second) && ViewerUI && ViewerUI->ConsumeModalPointer(First ? Point1 : Point2, true))
+    {
+        bPinching = bPointerDragging = false;
+        return;
+    }
     if (First && Second)
     {
         if (ViewerUI && (ViewerUI->BlocksModelInput(Point1) || ViewerUI->BlocksModelInput(Point2)))
@@ -603,6 +688,11 @@ void AViewerPawn::ReadPointerInput()
         Pressed = PC->GetMousePosition(MouseX, MouseY) && PC->IsInputKeyDown(EKeys::LeftMouseButton);
         Pointer = FVector2D(MouseX, MouseY);
     }
+    if (ViewerUI && ViewerUI->ConsumeModalPointer(Pointer, Pressed))
+    {
+        bPointerDragging = false;
+        return;
+    }
     if (!Pressed || (ViewerUI && ViewerUI->BlocksModelInput(Pointer)))
     {
         bPointerDragging = false;
@@ -623,7 +713,10 @@ void AViewerPawn::UpdateCamera()
         const float ReferenceFOV = Environment ? Environment->CameraHorizontalFOV : 29.9281126f;
         const float ReferenceAspect = Environment ? Environment->ReferenceAspectRatio : 1.7777778f;
         const float HalfVerticalTangent = FMath::Tan(FMath::DegreesToRadians(ReferenceFOV * 0.5f)) / ReferenceAspect;
-        const float HalfHorizontalTangent = HalfVerticalTangent * Aspect;
+        // On narrow screens preserve the source horizontal coverage by opening
+        // vertical coverage. Pulling the camera backwards can put it behind the
+        // walls/furniture of a recovered preview scene.
+        const float HalfHorizontalTangent = HalfVerticalTangent * FMath::Max(Aspect, ReferenceAspect);
         Camera->FieldOfView = FMath::RadiansToDegrees(2.f * FMath::Atan(HalfHorizontalTangent));
         Camera->AspectRatio = Aspect;
         const FVector2D Size(Width, Height);
@@ -632,7 +725,10 @@ void AViewerPawn::UpdateCamera()
             const float ZoomRatio = DefaultDistance > 1.f ? Distance / DefaultDistance : 1.f;
             const float ReferenceDistance = Environment && Environment->bUseSourceCamera ? Environment->CameraDistance
                 : (Environment ? Environment->CameraDistance : 350.f) * ModelHeight / 180.f;
-            DefaultDistance = Environment && Environment->bUseSourceCamera ? ReferenceDistance
+            // Keep recovered cameras inside their original preview space.
+            // Portrait coverage is handled by projection, without letterboxing.
+            DefaultDistance = Environment && Environment->bUseSourceCamera
+                ? ReferenceDistance
                 : FMath::Max(ReferenceDistance, ModelWidth / FMath::Max(0.01f, 1.4f * HalfHorizontalTangent));
             Distance = DefaultDistance * ZoomRatio;
             LastViewportSize = Size;
@@ -720,17 +816,30 @@ void AViewerPawn::ResetPreferences()
 
 void AViewerPawn::ReplayAnimation()
 {
-    if (bPreparingSelection) return;
-    const FViewerOutfit* Outfit = GetCurrentOutfit();
+    const FViewerOutfit* Outfit = GetActiveOutfit();
     if (!Outfit) return;
-    for (int32 Index = 0; Index < Parts.Num(); ++Index)
+    for (int32 Index = 0; Index < Parts.Num() && Outfit->Parts.IsValidIndex(Index); ++Index)
     {
         USkeletalMeshComponent* Component = Parts[Index];
-        if (!Component || !Outfit->Parts.IsValidIndex(Index)) continue;
-        if (UAnimSequence* Animation = Outfit->Parts[Index].Animation.Get())
-            Component->PlayAnimation(Animation, Outfit->Parts[Index].bAnimationLoop);
+        if (!Component) continue;
+        const FViewerPart& Part = Outfit->Parts[Index];
+        Component->SetRelativeTransform(Part.RelativeTransform);
+        if (UAnimSequence* Animation = Part.Animation.Get())
+        {
+            Component->PlayAnimation(Animation, Part.bAnimationLoop);
+            Component->SetPosition(0.f, false);
+            Component->TickAnimation(0.f, false);
+            Component->RefreshBoneTransforms();
+        }
+        else { Component->Stop(); Component->SetAnimation(nullptr); }
         if (UViewerSkeletalMeshComponent* Dynamic = Cast<UViewerSkeletalMeshComponent>(Component))
             Dynamic->ResetSecondaryMotion();
+    }
+    if (!bPreparingSelection)
+    {
+        const bool bHasAnimation = Outfit->Parts.ContainsByPredicate([](const FViewerPart& Part) { return !Part.Animation.IsNull(); });
+        Status = FText::FromString(bHasAnimation ? TEXT("待机动作 · 可分部件查看") : TEXT("原始绑定姿势 · 可分部件查看"));
+        if (ViewerUI) ViewerUI->Refresh();
     }
 }
 
@@ -758,19 +867,48 @@ void AViewerPawn::ApplyPreferences()
         Post.DepthOfFieldFstop = 2.8f;
         Post.bOverride_DepthOfFieldFocalDistance = true;
         Post.DepthOfFieldFocalDistance = Distance;
+        Post.bOverride_AmbientOcclusionIntensity = true;
+        Post.AmbientOcclusionIntensity = Preferences->bPostProcessing && Preferences->bAmbientOcclusion ? 1.f : 0.f;
+        Post.bOverride_AmbientOcclusionQuality = true;
+        Post.AmbientOcclusionQuality = 100.f;
+        Post.bOverride_ScreenSpaceReflectionIntensity = true;
+        Post.ScreenSpaceReflectionIntensity = Preferences->bPostProcessing && Preferences->bScreenSpaceReflections ? 100.f : 0.f;
+        Post.bOverride_ScreenSpaceReflectionQuality = true;
+        Post.ScreenSpaceReflectionQuality = 100.f;
+        Post.bOverride_ScreenSpaceReflectionMaxRoughness = true;
+        Post.ScreenSpaceReflectionMaxRoughness = .8f;
+        const bool bMobile = IsMobilePlatform(GMaxRHIShaderPlatform);
+        Post.bOverride_DynamicGlobalIlluminationMethod = true;
+        Post.DynamicGlobalIlluminationMethod = !bMobile && Preferences->bPostProcessing
+            ? EDynamicGlobalIlluminationMethod::Lumen : EDynamicGlobalIlluminationMethod::None;
+        Post.bOverride_ReflectionMethod = true;
+        Post.ReflectionMethod = Preferences->bPostProcessing && Preferences->bScreenSpaceReflections
+            ? bMobile ? EReflectionMethod::ScreenSpace : EReflectionMethod::Lumen
+            : EReflectionMethod::None;
+        if (!bMobile)
+        {
+            Post.bOverride_LumenSceneLightingQuality = true;
+            Post.LumenSceneLightingQuality = 2.f;
+            Post.bOverride_LumenSceneDetail = true;
+            Post.LumenSceneDetail = 2.f;
+            Post.bOverride_LumenFinalGatherQuality = true;
+            Post.LumenFinalGatherQuality = 2.f;
+        }
         if (!Preferences->bPostProcessing)
         {
             Post.bOverride_ColorContrast = true;
             Post.ColorContrast = FVector4(1.f, 1.f, 1.f, 1.f);
             Post.bOverride_ColorSaturation = true;
             Post.ColorSaturation = FVector4(1.f, 1.f, 1.f, 1.f);
+            Post.bOverride_ColorContrastMidtones = true;
+            Post.ColorContrastMidtones = FVector4(1.f, 1.f, 1.f, 1.f);
         }
     }
     for (ULightComponent* Light : StageLights)
     {
         if (!Light) continue;
         const FViewerEnvironmentLight* Source = Environment ? Environment->Lights.FindByPredicate(
-            [Light](const FViewerEnvironmentLight& Spec) { return Spec.Id == Light->GetFName(); }) : nullptr;
+            [Light](const FViewerEnvironmentLight& Spec) { return Light->ComponentHasTag(Spec.Id); }) : nullptr;
         Light->SetCastShadows(Preferences->Shadows > 0 && (!Source || Source->bCastShadows));
     }
     for (USkeletalMeshComponent* Part : Parts)
@@ -810,7 +948,7 @@ void AViewerPawn::LoadOutfitEnvironment(const FViewerOutfit& Outfit)
 
 void AViewerPawn::CreateStage(bool bUsePreparedMeshes)
 {
-    USceneComponent* Root = GetRootComponent();
+    USceneComponent* Root = SceneRoot;
     if (Environment)
     {
         if (!bUsePreparedMeshes) for (const FViewerEnvironmentMesh& Spec : Environment->Meshes)
@@ -821,8 +959,10 @@ void AViewerPawn::CreateStage(bool bUsePreparedMeshes)
                 UE_LOG(LogTemp, Error, TEXT("Role environment mesh failed to load: %s"), *Spec.Mesh.ToString());
                 continue;
             }
-            UStaticMeshComponent* Component = NewObject<UStaticMeshComponent>(this, Spec.Id);
+            UStaticMeshComponent* Component = NewObject<UStaticMeshComponent>(this);
+            Component->ComponentTags.Add(Spec.Id);
             Component->SetupAttachment(Root);
+            Component->SetMobility(EComponentMobility::Movable);
             Component->SetStaticMesh(Mesh);
             Component->SetRelativeTransform(Spec.Transform);
             Component->SetCollisionEnabled(ECollisionEnabled::NoCollision);
@@ -832,7 +972,7 @@ void AViewerPawn::CreateStage(bool bUsePreparedMeshes)
             Component->RegisterComponent();
             StageMeshes.Add(Component);
         }
-        USkyLightComponent* Sky = NewObject<USkyLightComponent>(this, TEXT("RoleSkyLight"));
+        USkyLightComponent* Sky = NewObject<USkyLightComponent>(this);
         StageSky = Sky;
         Sky->SetupAttachment(Root);
         Sky->SetMobility(EComponentMobility::Movable);
@@ -847,9 +987,10 @@ void AViewerPawn::CreateStage(bool bUsePreparedMeshes)
         for (const FViewerEnvironmentLight& Spec : Environment->Lights)
         {
             ULightComponent* Light = Spec.Kind == TEXT("Directional")
-                ? static_cast<ULightComponent*>(NewObject<UDirectionalLightComponent>(this, Spec.Id))
-                : Spec.Kind == TEXT("Point") ? static_cast<ULightComponent*>(NewObject<UPointLightComponent>(this, Spec.Id))
-                : static_cast<ULightComponent*>(NewObject<USpotLightComponent>(this, Spec.Id));
+                ? static_cast<ULightComponent*>(NewObject<UDirectionalLightComponent>(this))
+                : Spec.Kind == TEXT("Point") ? static_cast<ULightComponent*>(NewObject<UPointLightComponent>(this))
+                : static_cast<ULightComponent*>(NewObject<USpotLightComponent>(this));
+            Light->ComponentTags.Add(Spec.Id);
             Light->SetupAttachment(Root);
             Light->SetMobility(EComponentMobility::Movable);
             Light->SetRelativeLocationAndRotation(Spec.Location, Spec.Rotation);
@@ -893,6 +1034,7 @@ void AViewerPawn::CreateStage(bool bUsePreparedMeshes)
     if (UMaterialInterface* Stage = LoadObject<UMaterialInterface>(nullptr, TEXT("/Game/Viewer/Materials/M_Stage.M_Stage")))
         Plinth->SetMaterial(0, Stage);
     Plinth->RegisterComponent();
+    StageMeshes.Add(Plinth);
 
     UDirectionalLightComponent* Key = NewObject<UDirectionalLightComponent>(this);
     Key->SetupAttachment(Root);

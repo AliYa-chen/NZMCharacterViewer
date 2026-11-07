@@ -68,6 +68,10 @@ private:
     UPROPERTY(Transient) TObjectPtr<UViewerPreferences> SavedPreferences;
     TMap<FString, FString> SavedConsoleVariables;
     TArray<FDynamicObservation> DynamicObservations;
+    TArray<FTransform> SceneRelativeTransforms;
+    float MaxSceneTranslationErrorCm = 0.f;
+    float MaxSceneRotationErrorDegrees = 0.f;
+    bool bSceneStayedWithCharacter = true;
     TArray<TWeakObjectPtr<UViewerSkeletalMeshComponent>> PreviousCaseComponents;
     int32 ProbeFrames = 0;
     int32 ExpectedFrameRateChoice = INDEX_NONE;

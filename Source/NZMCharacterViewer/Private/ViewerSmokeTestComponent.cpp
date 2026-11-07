@@ -4,11 +4,13 @@
 #include "ViewerDynamics.h"
 #include "ViewerPreferences.h"
 #include "ViewerEnvironment.h"
+#include "ViewerGraphicsCapabilities.h"
 #include "Blueprint/SlateBlueprintLibrary.h"
 #include "Blueprint/WidgetTree.h"
 #include "Camera/CameraComponent.h"
 #include "Components/Border.h"
 #include "Components/PanelWidget.h"
+#include "Components/PostProcessComponent.h"
 #include "Components/ScrollBox.h"
 #include "Components/SafeZone.h"
 #include "Animation/AnimSequence.h"
@@ -18,6 +20,7 @@
 #include "Components/SkyLightComponent.h"
 #include "Dom/JsonObject.h"
 #include "Dom/JsonValue.h"
+#include "DynamicRHI.h"
 #include "Engine/Engine.h"
 #include "Engine/GameViewportClient.h"
 #include "Engine/SkeletalMesh.h"
@@ -38,8 +41,12 @@
 #include "Misc/Paths.h"
 #include "Serialization/JsonSerializer.h"
 #include "Serialization/JsonWriter.h"
+#include "RHIGlobals.h"
+#include "RHIStrings.h"
+#include "SceneInterface.h"
 #include "UnrealClient.h"
 #include "ReferenceSkeleton.h"
+#include "RenderUtils.h"
 #if WITH_EDITOR
 #include "AssetCompilingManager.h"
 #endif
@@ -190,7 +197,9 @@ void UViewerSmokeTestComponent::TickComponent(float DeltaTime, ELevelTick TickTy
     const FSelection Selection = Selections[CaseIndex];
     if (Pawn->GetCharacterIndex() != Selection.Character || Pawn->GetOutfitIndex() != Selection.Outfit)
     {
-        AddCheck(TEXT("selection_remained_requested_pair"), TEXT("fail"), TEXT("Selection changed externally during this case."));
+        AddCheck(TEXT("selection_remained_requested_pair"), TEXT("fail"), FString::Printf(
+            TEXT("Requested %d/%d; actual %d/%d. Selection changed before this case completed."),
+            Selection.Character, Selection.Outfit, Pawn->GetCharacterIndex(), Pawn->GetOutfitIndex()));
         AddCheck(TEXT("screenshot_saved"), TEXT("unknown"), TEXT("Case interrupted before capture."));
         FinishCase();
         return;
@@ -359,6 +368,7 @@ void UViewerSmokeTestComponent::InspectCurrentSelection()
         Detail->SetStringField(TEXT("mesh_reference"), Part.Mesh.ToSoftObjectPath().ToString());
         USkeletalMeshComponent* Component = Pawn->Parts.IsValidIndex(Index) ? Pawn->Parts[Index].Get() : nullptr;
         const bool MeshMatches = Component && Part.Mesh.Get() && Component->GetSkeletalMeshAsset() == Part.Mesh.Get();
+        if (Part.Mesh.Get()) Detail->SetBoolField(TEXT("mesh_supports_ray_tracing"), Part.Mesh.Get()->GetSupportRayTracing());
         AddCheck(Prefix + TEXT("mesh_reference_and_component"), MeshMatches ? TEXT("pass") : TEXT("fail"));
         if (!Component)
         {
@@ -379,6 +389,15 @@ void UViewerSmokeTestComponent::InspectCurrentSelection()
         Detail->SetNumberField(TEXT("bone_count"), Component->GetNumBones());
         if (Component->GetBoneIndex(TEXT("b_Head")) != INDEX_NONE)
             Detail->SetArrayField(TEXT("source_head_world_cm"), ViewerSmokeTest::VectorValues(Component->GetBoneLocation(TEXT("b_Head"))));
+        for (const FName Bone : { FName(TEXT("b_Head")), FName(TEXT("b_Hips")) })
+        {
+            if (Component->GetBoneIndex(Bone) == INDEX_NONE) continue;
+            const FVector Position = Component->GetBoneLocation(Bone);
+            const bool Contained = ViewerSmokeTest::FiniteVector(Position)
+                && Bounds.GetBox().ExpandBy(0.5).IsInsideOrOn(Position);
+            AddCheck(Prefix + Bone.ToString() + TEXT(".contained_in_render_bounds"), Contained ? TEXT("pass") : TEXT("fail"),
+                TEXT("The actual animated bone must remain within the renderer's bounds, including source root-motion offsets."));
+        }
         if (Component->IsVisible())
             AddCheck(Prefix + TEXT("recent_render_observed"), Component->WasRecentlyRendered(1.f) ? TEXT("pass") : TEXT("unknown"));
         const int32 MaterialCount = Component->GetNumMaterials();
@@ -744,9 +763,6 @@ void UViewerSmokeTestComponent::FinishSettingsProbe()
     CurrentResult->SetObjectField(TEXT("settings_probe"), Detail);
     InspectViewportAndUi();
     CurrentResult->SetObjectField(TEXT("settings_overlay_viewport_and_ui"), CurrentResult->GetObjectField(TEXT("viewport_and_ui")));
-    if (Pawn && Pawn->ViewerUI)
-        if (UFunction* CloseSettings = Pawn->ViewerUI->FindFunction(TEXT("OnCloseSettings")))
-            Pawn->ViewerUI->ProcessEvent(CloseSettings, nullptr);
     RestoreUserSettings(false);
 }
 
@@ -778,6 +794,11 @@ void UViewerSmokeTestComponent::BeginDynamicsProbe()
     }
     Pawn->ResetView();
     CheckResetState(TEXT("selection_reset"));
+    SceneRelativeTransforms.Reset();
+    MaxSceneTranslationErrorCm = MaxSceneRotationErrorDegrees = 0.f;
+    bSceneStayedWithCharacter = true;
+    for (UStaticMeshComponent* Mesh : Pawn->StageMeshes)
+        SceneRelativeTransforms.Add(Mesh->GetComponentTransform().GetRelativeTransform(Pawn->ModelRoot->GetComponentTransform()));
     const FViewerOutfit* Outfit = Pawn->GetCurrentOutfit();
     for (int32 Index = 0; Index < Pawn->Parts.Num(); ++Index)
     {
@@ -806,6 +827,22 @@ void UViewerSmokeTestComponent::BeginDynamicsProbe()
 
 void UViewerSmokeTestComponent::SampleDynamics()
 {
+    if (AViewerPawn* Pawn = Viewer.Get())
+    {
+        bSceneStayedWithCharacter &= Pawn->StageMeshes.Num() == SceneRelativeTransforms.Num();
+        for (int32 Index = 0; Index < Pawn->StageMeshes.Num() && Index < SceneRelativeTransforms.Num(); ++Index)
+        {
+            const FTransform Relative = Pawn->StageMeshes[Index]->GetComponentTransform()
+                .GetRelativeTransform(Pawn->ModelRoot->GetComponentTransform());
+            const float TranslationError = FVector::Distance(Relative.GetLocation(), SceneRelativeTransforms[Index].GetLocation());
+            const float RotationError = FMath::RadiansToDegrees(Relative.GetRotation()
+                .AngularDistance(SceneRelativeTransforms[Index].GetRotation()));
+            bSceneStayedWithCharacter &= FMath::IsFinite(TranslationError) && FMath::IsFinite(RotationError)
+                && TranslationError < 0.1f && RotationError < 0.05f;
+            MaxSceneTranslationErrorCm = FMath::Max(MaxSceneTranslationErrorCm, TranslationError);
+            MaxSceneRotationErrorDegrees = FMath::Max(MaxSceneRotationErrorDegrees, RotationError);
+        }
+    }
     for (FDynamicObservation& Observation : DynamicObservations)
         if (UViewerSkeletalMeshComponent* Component = Observation.Component.Get())
         {
@@ -827,6 +864,11 @@ void UViewerSmokeTestComponent::SampleDynamics()
 
 void UViewerSmokeTestComponent::FinishDynamicsProbe()
 {
+    CurrentResult->SetNumberField(TEXT("max_scene_relative_translation_error_cm"), MaxSceneTranslationErrorCm);
+    CurrentResult->SetNumberField(TEXT("max_scene_relative_rotation_error_degrees"), MaxSceneRotationErrorDegrees);
+    AddCheck(TEXT("scene_and_character_preserve_relative_placement_during_turn"),
+        !SceneRelativeTransforms.IsEmpty() && bSceneStayedWithCharacter ? TEXT("pass") : TEXT("fail"),
+        TEXT("All scene mesh transforms measured relative to the avatar root throughout the driven turn, including furniture and background."));
     TArray<TSharedPtr<FJsonValue>> Observations;
     int32 MatchedComponents = 0;
     for (const FDynamicObservation& Observation : DynamicObservations)
@@ -865,7 +907,7 @@ void UViewerSmokeTestComponent::FinishDynamicsProbe()
         Observations.Add(MakeShared<FJsonValueObject>(Detail));
     }
     CurrentResult->SetArrayField(TEXT("driven_dynamics"), Observations);
-    CurrentResult->SetStringField(TEXT("driver"), TEXT("1.2 second +/-32 degree sinusoidal Pawn.Yaw target; normal DisplayYaw/ModelRoot update, no teleport, no simulated result injection."));
+    CurrentResult->SetStringField(TEXT("driver"), TEXT("1.2 second +/-32 degree sinusoidal Pawn.Yaw target; normal DisplayYaw/SceneRoot update, no teleport, no simulated result injection."));
     AddCheck(TEXT("dynamics_has_matched_chain"), MatchedComponents > 0 ? TEXT("pass") : TEXT("unknown"));
 }
 
@@ -927,14 +969,27 @@ void UViewerSmokeTestComponent::CheckDisabledDynamicsPose()
 
 void UViewerSmokeTestComponent::FinishReplayProbe()
 {
+    TArray<TSharedPtr<FJsonValue>> ReplayDiagnostics;
     for (const FDynamicObservation& Observation : DynamicObservations)
         if (UViewerSkeletalMeshComponent* Component = Observation.Component.Get())
         {
+            TSharedPtr<FJsonObject> Detail = MakeShared<FJsonObject>();
+            Detail->SetNumberField(TEXT("part_index"), Observation.PartIndex);
+            Detail->SetNumberField(TEXT("previously_observed_chain_count_max"), Observation.MaxActiveChains);
+            Detail->SetNumberField(TEXT("active_chain_count_after_replay"), Component->GetActiveDynamicChainCount());
+            Detail->SetBoolField(TEXT("secondary_motion_enabled"), Component->IsSecondaryMotionEnabled());
+            Detail->SetStringField(TEXT("last_solved_frame"), Component->GetLastSolvedFrame() == MAX_uint64
+                ? TEXT("not_solved") : LexToString(Component->GetLastSolvedFrame()));
+            Detail->SetNumberField(TEXT("seconds_since_replay_reset"), FPlatformTime::Seconds() - StageStarted);
+            const float Position = Component->GetPosition();
+            if (FMath::IsFinite(Position)) Detail->SetNumberField(TEXT("animation_position_seconds"), Position);
+            ReplayDiagnostics.Add(MakeShared<FJsonValueObject>(Detail));
             const FString Prefix = FString::Printf(TEXT("replay.part[%d]."), Observation.PartIndex);
             AddCheck(Prefix + TEXT("enabled_after_replay"), Component->IsSecondaryMotionEnabled() ? TEXT("pass") : TEXT("fail"));
             AddCheck(Prefix + TEXT("solver_resumed"), Observation.MaxActiveChains <= 0 ? TEXT("unknown")
                 : Component->GetLastSolvedFrame() != MAX_uint64 && Component->GetActiveDynamicChainCount() > 0 ? TEXT("pass") : TEXT("fail"));
         }
+    CurrentResult->SetArrayField(TEXT("replay_dynamics"), ReplayDiagnostics);
 }
 
 void UViewerSmokeTestComponent::InspectViewportAndUi()
@@ -944,6 +999,44 @@ void UViewerSmokeTestComponent::InspectViewportAndUi()
     const FIntPoint Size = GEngine && GEngine->GameViewport && GEngine->GameViewport->Viewport
         ? GEngine->GameViewport->Viewport->GetSizeXY() : FIntPoint::ZeroValue;
     TSharedPtr<FJsonObject> Detail = MakeShared<FJsonObject>();
+    TSharedPtr<FJsonObject> Rendering = MakeShared<FJsonObject>();
+    Rendering->SetStringField(TEXT("rhi_name"), GDynamicRHI ? GDynamicRHI->GetName() : TEXT("unavailable"));
+    Rendering->SetBoolField(TEXT("using_null_rhi"), GUsingNullRHI);
+    Rendering->SetBoolField(TEXT("unreal_rhi_supports_ray_tracing"), GRHISupportsRayTracing);
+    Rendering->SetBoolField(TEXT("unreal_ray_tracing_enabled"), IsRayTracingEnabled());
+    Rendering->SetStringField(TEXT("maximum_rhi_shader_platform"), LexToString(GMaxRHIShaderPlatform, false));
+    if (const UWorld* World = Pawn->GetWorld())
+        if (const FSceneInterface* Scene = World->Scene)
+        {
+            Rendering->SetStringField(TEXT("scene_shader_platform"), LexToString(Scene->GetShaderPlatform(), false));
+            Rendering->SetNumberField(TEXT("scene_feature_level"), static_cast<int32>(Scene->GetFeatureLevel()));
+            FString FeatureLevelName;
+            GetFeatureLevelName(Scene->GetFeatureLevel(), FeatureLevelName);
+            Rendering->SetStringField(TEXT("scene_feature_level_name"), FeatureLevelName);
+        }
+    TSharedPtr<FJsonObject> NativeCapabilities;
+    const FString NativeJson = UViewerGraphicsCapabilities::ReportJson();
+    if (FJsonSerializer::Deserialize(TJsonReaderFactory<>::Create(NativeJson), NativeCapabilities) && NativeCapabilities.IsValid())
+        Rendering->SetObjectField(TEXT("native_graphics_capabilities"), NativeCapabilities);
+    else Rendering->SetStringField(TEXT("native_graphics_capabilities_json"), NativeJson);
+    if (Pawn->StagePostProcess)
+    {
+        const FPostProcessSettings& Post = Pawn->StagePostProcess->Settings;
+        Rendering->SetBoolField(TEXT("stage_overrides_global_illumination_method"), Post.bOverride_DynamicGlobalIlluminationMethod);
+        Rendering->SetNumberField(TEXT("stage_global_illumination_method"), static_cast<int32>(Post.DynamicGlobalIlluminationMethod.GetValue()));
+        Rendering->SetBoolField(TEXT("stage_overrides_reflection_method"), Post.bOverride_ReflectionMethod);
+        Rendering->SetNumberField(TEXT("stage_reflection_method"), static_cast<int32>(Post.ReflectionMethod.GetValue()));
+    }
+    TSharedPtr<FJsonObject> RenderCVars = MakeShared<FJsonObject>();
+    for (const TCHAR* Name : { TEXT("r.DynamicGlobalIlluminationMethod"), TEXT("r.ReflectionMethod"),
+        TEXT("r.Lumen.DiffuseIndirect.Allow"), TEXT("r.Lumen.Reflections.Allow"), TEXT("r.GenerateMeshDistanceFields"),
+        TEXT("r.RayTracing"), TEXT("r.SkinCache.CompileShaders"), TEXT("r.Lumen.HardwareRayTracing"),
+        TEXT("r.RayTracing.Geometry.SkeletalMeshes"), TEXT("r.Mobile.AntiAliasing"), TEXT("r.Mobile.ScreenSpaceReflections"), TEXT("r.Mobile.AmbientOcclusion") })
+        if (const IConsoleVariable* Variable = IConsoleManager::Get().FindConsoleVariable(Name))
+            RenderCVars->SetStringField(Name, Variable->GetString());
+    Rendering->SetObjectField(TEXT("runtime_console_variables"), RenderCVars);
+    Rendering->SetStringField(TEXT("scope"), TEXT("Actual running scene/RHI, native Metal queries, and component settings. These observations do not prove a particular render pass ran or establish pixel appearance; screenshots still require visual review."));
+    Detail->SetObjectField(TEXT("rendering"), Rendering);
     Detail->SetNumberField(TEXT("actual_viewport_width_pixels"), Size.X);
     Detail->SetNumberField(TEXT("actual_viewport_height_pixels"), Size.Y);
     AddCheck(TEXT("actual_viewport_has_nonzero_dimensions"), Size.X > 0 && Size.Y > 0 ? TEXT("pass") : TEXT("unknown"));
@@ -961,10 +1054,16 @@ void UViewerSmokeTestComponent::InspectViewportAndUi()
     }
     else AddCheck(TEXT("camera_has_no_fixed_aspect_black_frame"), TEXT("unknown"), TEXT("No camera component."));
     TArray<TSharedPtr<FJsonValue>> GeometryResults;
+    UBorder* ObservedSettingsPanel = nullptr;
     int32 Checked = 0;
     if (Pawn->ViewerUI && Pawn->ViewerUI->WidgetTree && Size.X > 0 && Size.Y > 0)
         Pawn->ViewerUI->WidgetTree->ForEachWidget([&](UWidget* Widget)
         {
+            // Discover the rendered settings panel through its public picker
+            // ancestry instead of depending on private members or auto names.
+            if (!ObservedSettingsPanel && Cast<UViewerSettingPicker>(Widget))
+                for (UWidget* Ancestor = Widget->GetParent(); Ancestor; Ancestor = Ancestor->GetParent())
+                    if (UBorder* Border = Cast<UBorder>(Ancestor)) { ObservedSettingsPanel = Border; break; }
             if (!Widget || !(Widget->IsA<UButton>() || Widget->IsA<UBorder>() || Widget->IsA<UScrollBox>() || Widget->IsA<USafeZone>())) return;
             bool WithinScroll = false;
             for (UWidget* Ancestor = Widget; Ancestor; Ancestor = Ancestor->GetParent())
@@ -1000,4 +1099,54 @@ void UViewerSmokeTestComponent::InspectViewportAndUi()
     Detail->SetArrayField(TEXT("visible_ui_areas"), GeometryResults);
     Detail->SetStringField(TEXT("foldable_scope"), TEXT("Records the actual current viewport and visible UI geometry; a physical fold/unfold event is not fabricated by this test."));
     CurrentResult->SetObjectField(TEXT("viewport_and_ui"), Detail);
+    if (Stage != EStage::SettingsProbe) return;
+    if (!Pawn->ViewerUI || !ObservedSettingsPanel || Size.X <= 0 || Size.Y <= 0)
+    {
+        AddCheck(TEXT("settings_outside_pointer_closes_modal"), TEXT("unknown"), TEXT("No measured settings panel geometry."));
+        if (Pawn->ViewerUI)
+            if (UFunction* Close = Pawn->ViewerUI->FindFunction(TEXT("OnCloseSettings"))) Pawn->ViewerUI->ProcessEvent(Close, nullptr);
+        return;
+    }
+    const FGeometry& PanelGeometry = ObservedSettingsPanel->GetCachedGeometry();
+    FVector2D PanelTopLeft, PanelBottomRight, Logical;
+    USlateBlueprintLibrary::LocalToViewport(this, PanelGeometry, FVector2D::ZeroVector, PanelTopLeft, Logical);
+    USlateBlueprintLibrary::LocalToViewport(this, PanelGeometry, PanelGeometry.GetLocalSize(), PanelBottomRight, Logical);
+    const FVector2D Inside = (PanelTopLeft + PanelBottomRight) * 0.5;
+    const TArray<float> Gaps{ static_cast<float>(PanelTopLeft.X), static_cast<float>(Size.X - PanelBottomRight.X),
+        static_cast<float>(PanelTopLeft.Y), static_cast<float>(Size.Y - PanelBottomRight.Y) };
+    int32 Side = 0;
+    for (int32 Index = 1; Index < Gaps.Num(); ++Index) if (Gaps[Index] > Gaps[Side]) Side = Index;
+    FVector2D Outside = Inside;
+    if (Side == 0) Outside.X = PanelTopLeft.X * 0.5;
+    else if (Side == 1) Outside.X = (PanelBottomRight.X + Size.X) * 0.5;
+    else if (Side == 2) Outside.Y = PanelTopLeft.Y * 0.5;
+    else Outside.Y = (PanelBottomRight.Y + Size.Y) * 0.5;
+    const bool Measured = PanelGeometry.GetLocalSize().GetMin() > 0.f && Gaps[Side] > 2.f
+        && FMath::IsFinite(PanelTopLeft.X) && FMath::IsFinite(PanelTopLeft.Y)
+        && FMath::IsFinite(PanelBottomRight.X) && FMath::IsFinite(PanelBottomRight.Y)
+        && FMath::IsFinite(Outside.X) && FMath::IsFinite(Outside.Y)
+        && Outside.X >= 0.f && Outside.X < Size.X && Outside.Y >= 0.f && Outside.Y < Size.Y;
+    if (!Measured)
+    {
+        AddCheck(TEXT("settings_outside_pointer_closes_modal"), TEXT("unknown"), TEXT("No finite viewport point outside the measured panel."));
+        if (UFunction* Close = Pawn->ViewerUI->FindFunction(TEXT("OnCloseSettings"))) Pawn->ViewerUI->ProcessEvent(Close, nullptr);
+        return;
+    }
+    // Clear any previous dismissal latch without activating controls. A second
+    // inside release must still be consumed by the currently open modal.
+    Pawn->ViewerUI->ConsumeModalPointer(Inside, false);
+    const bool ModalWasOpen = Pawn->ViewerUI->ConsumeModalPointer(Inside, false);
+    const bool PressConsumed = Pawn->ViewerUI->ConsumeModalPointer(Outside, true);
+    const bool HeldConsumed = Pawn->ViewerUI->ConsumeModalPointer(Outside, true);
+    const bool ReleaseConsumed = Pawn->ViewerUI->ConsumeModalPointer(Outside, false);
+    const bool ModalStillOpen = Pawn->ViewerUI->ConsumeModalPointer(Outside, false);
+    AddCheck(TEXT("settings_panel_inside_pointer_preserves_modal"), ModalWasOpen ? TEXT("pass") : TEXT("fail"));
+    AddCheck(TEXT("settings_outside_pointer_closes_modal"), ModalWasOpen && !ModalStillOpen ? TEXT("pass") : TEXT("fail"));
+    AddCheck(TEXT("settings_dismissal_consumes_press_hold_and_release"), PressConsumed && HeldConsumed && ReleaseConsumed ? TEXT("pass") : TEXT("fail"));
+    TSharedPtr<FJsonObject> PointerProbe = MakeShared<FJsonObject>();
+    PointerProbe->SetArrayField(TEXT("panel_pixel_rect"), { MakeShared<FJsonValueNumber>(PanelTopLeft.X), MakeShared<FJsonValueNumber>(PanelTopLeft.Y),
+        MakeShared<FJsonValueNumber>(PanelBottomRight.X), MakeShared<FJsonValueNumber>(PanelBottomRight.Y) });
+    PointerProbe->SetArrayField(TEXT("outside_viewport_pixel_position"), { MakeShared<FJsonValueNumber>(Outside.X), MakeShared<FJsonValueNumber>(Outside.Y) });
+    PointerProbe->SetStringField(TEXT("scope"), TEXT("Measured runtime widget geometry and production ConsumeModalPointer path; no native touch/Slate event injection or dropdown-popup interaction is claimed."));
+    CurrentResult->SetObjectField(TEXT("settings_outside_pointer_probe"), PointerProbe);
 }

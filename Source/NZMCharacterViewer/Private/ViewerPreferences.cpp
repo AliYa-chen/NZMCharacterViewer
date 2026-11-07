@@ -1,16 +1,18 @@
 #include "ViewerPreferences.h"
+#include "ViewerGraphicsCapabilities.h"
 #include "Engine/Engine.h"
 #include "HAL/IConsoleManager.h"
 #include "HAL/PlatformMisc.h"
 #include "HAL/PlatformFramePacer.h"
 #include "Kismet/GameplayStatics.h"
 #include "Scalability.h"
+#include "RenderUtils.h"
+#include "DataDrivenShaderPlatformInfo.h"
 
 namespace
 {
     const FString Slot(TEXT("ViewerPreferences"));
     const TArray<float> ResolutionScales{70.f, 100.f, 125.f, 150.f, 200.f};
-    const TArray<int32> Samples{1, 2, 4, 8};
 
     void SetVariable(const TCHAR* Name, float Value)
     {
@@ -23,6 +25,11 @@ UViewerPreferences* UViewerPreferences::Load()
 {
     UViewerPreferences* Result = Cast<UViewerPreferences>(UGameplayStatics::LoadGameFromSlot(Slot, 0));
     if (!Result) Result = Cast<UViewerPreferences>(UGameplayStatics::CreateSaveGameObject(StaticClass()));
+    if (Result->GraphicsVersion < 1)
+    {
+        Result->SetChoice(EViewerSetting::Quality, 3);
+        Result->GraphicsVersion = 1;
+    }
     Result->Sanitize();
     return Result;
 }
@@ -37,6 +44,28 @@ TArray<int32> UViewerPreferences::FrameRates()
     return Values;
 }
 
+bool UViewerPreferences::UsesMobileRenderer()
+{
+    return IsMobilePlatform(GMaxRHIShaderPlatform);
+}
+
+TArray<int32> UViewerPreferences::AntialiasingSamples()
+{
+    TArray<int32> Values{1};
+    const bool bSupportsMSAA = UsesMobileRenderer()
+        ? !IsMobileDeferredShadingEnabled(GMaxRHIShaderPlatform)
+        : IsForwardShadingEnabled(GMaxRHIShaderPlatform);
+    if (bSupportsMSAA)
+    {
+        const TArray<int32> NativeSamples = UViewerGraphicsCapabilities::SupportedMSAASampleCounts();
+        for (int32 Count : {2, 4, 8})
+            if (NativeSamples.Contains(Count)) Values.Add(Count);
+    }
+    // TAA is also the safe migration for old MSAA choices on deferred renderers.
+    Values.Add(0);
+    return Values;
+}
+
 void UViewerPreferences::Sanitize()
 {
     const TArray<int32> Rates = FrameRates();
@@ -45,7 +74,8 @@ void UViewerPreferences::Sanitize()
     Textures = FMath::Clamp(Textures, 0, 3);
     Shadows = FMath::Clamp(Shadows, 0, 3);
     ResolutionPercent = FMath::Clamp(ResolutionPercent, 70.f, 200.f);
-    if (!Samples.Contains(Antialiasing)) Antialiasing = 4;
+    if (!AntialiasingSamples().Contains(Antialiasing)) Antialiasing = 0;
+    if (bScreenSpaceReflections) Antialiasing = 0;
 }
 
 void UViewerPreferences::Persist()
@@ -68,16 +98,28 @@ void UViewerPreferences::ApplyEngineSettings()
     FPlatformRHIFramePacer::SetFramePace(FrameRate);
     SetVariable(TEXT("t.MaxFPS"), FrameRate);
     SetVariable(TEXT("r.ScreenPercentage"), ResolutionPercent);
-    SetVariable(TEXT("r.MSAACount"), Antialiasing);
+    SetVariable(TEXT("r.MSAACount"), Antialiasing == 0 ? 1.f : Antialiasing);
+    SetVariable(TEXT("r.Mobile.AntiAliasing"), Antialiasing == 0 ? 2.f : Antialiasing == 1 ? 0.f : 3.f);
+    SetVariable(TEXT("r.AntiAliasingMethod"), Antialiasing == 0 ? 2.f : Antialiasing == 1 ? 0.f : 3.f);
     SetVariable(TEXT("r.ShadowQuality"), Shadows == 0 ? 0.f : 3.f);
-    SetVariable(TEXT("r.Shadow.MaxResolution"), Shadows == 0 ? 256.f : Shadows == 1 ? 512.f : Shadows == 2 ? 1024.f : 2048.f);
-    SetVariable(TEXT("r.Shadow.CSM.MaxCascades"), Shadows == 0 ? 0.f : Shadows == 1 ? 1.f : 2.f);
+    const float ShadowResolution = Shadows == 0 ? 256.f : Shadows == 1 ? 512.f : Shadows == 2 ? 2048.f : 4096.f;
+    SetVariable(TEXT("r.Shadow.MaxResolution"), ShadowResolution);
+    SetVariable(TEXT("r.Shadow.MaxCSMResolution"), ShadowResolution);
+    SetVariable(TEXT("r.Shadow.CSM.MaxCascades"), Shadows == 0 ? 0.f : Shadows == 1 ? 1.f : Shadows == 2 ? 2.f : 4.f);
+    SetVariable(TEXT("r.Shadow.MaxNumPointShadowCacheUpdatesPerFrame"), 4.f);
     SetVariable(TEXT("r.MaxAnisotropy"), Textures == 0 ? 1.f : Textures == 1 ? 4.f : Textures == 2 ? 8.f : 16.f);
     SetVariable(TEXT("r.Streaming.MipBias"), Textures == 0 ? 1.5f : Textures == 1 ? 1.f : 0.f);
     SetVariable(TEXT("r.BloomQuality"), bPostProcessing && bBloom ? 4.f : 0.f);
     SetVariable(TEXT("r.DepthOfFieldQuality"), bPostProcessing && bDepthOfField ? 2.f : 0.f);
     SetVariable(TEXT("r.Tonemapper.Sharpen"), bPostProcessing ? 0.35f : 0.f);
-    SetVariable(TEXT("r.Streaming.PoolSize"), Textures == 0 ? 160.f : Textures == 1 ? 256.f : Textures == 2 ? 384.f : 512.f);
+    SetVariable(TEXT("r.Tonemapper.Quality"), bPostProcessing ? 5.f : 0.f);
+    SetVariable(TEXT("r.Mobile.AmbientOcclusionQuality"), bPostProcessing && bAmbientOcclusion ? 3.f : 0.f);
+    SetVariable(TEXT("r.AmbientOcclusionLevels"), bPostProcessing && bAmbientOcclusion ? 1.f : 0.f);
+    SetVariable(TEXT("r.AmbientOcclusionMaxQuality"), bPostProcessing && bAmbientOcclusion ? 100.f : 0.f);
+    SetVariable(TEXT("r.SSR.Quality"), bPostProcessing && bScreenSpaceReflections && Antialiasing == 0
+        ? UsesMobileRenderer() ? 2.f : 4.f : 0.f);
+    SetVariable(TEXT("r.SSR.HalfResSceneColor"), 0.f);
+    SetVariable(TEXT("r.Streaming.PoolSize"), Textures == 0 ? 160.f : Textures == 1 ? 256.f : Textures == 2 ? 512.f : 768.f);
 }
 
 int32 UViewerPreferences::GetChoice(EViewerSetting Setting) const
@@ -92,7 +134,7 @@ int32 UViewerPreferences::GetChoice(EViewerSetting Setting) const
         return 1;
     case EViewerSetting::Textures: return Textures;
     case EViewerSetting::Shadows: return Shadows;
-    case EViewerSetting::Antialiasing: return FMath::Max(0, Samples.Find(Antialiasing));
+    case EViewerSetting::Antialiasing: return FMath::Max(0, AntialiasingSamples().Find(Antialiasing));
     default: return 0;
     }
 }
@@ -110,8 +152,10 @@ void UViewerPreferences::SetChoice(EViewerSetting Setting, int32 Index)
         {
             Quality = FMath::Clamp(Index, 0, 3);
             Textures = Shadows = Quality;
-            Antialiasing = Quality < 1 ? 1 : Quality < 2 ? 2 : Quality < 3 ? 4 : 8;
-            ResolutionPercent = Quality == 0 ? 70.f : Quality == 3 ? 125.f : 100.f;
+            Antialiasing = Quality < 1 ? 1 : Quality < 2 ? 2 : 0;
+            ResolutionPercent = Quality == 0 ? 70.f : Quality == 3 ? 200.f : 100.f;
+            bPostProcessing = bBloom = bVignette = bSecondaryMotion = true;
+            bAmbientOcclusion = bScreenSpaceReflections = Quality >= 2;
         }
         break;
     case EViewerSetting::Resolution:
@@ -121,9 +165,13 @@ void UViewerPreferences::SetChoice(EViewerSetting Setting, int32 Index)
     case EViewerSetting::Textures: Textures = FMath::Clamp(Index, 0, 3); Quality = 4; break;
     case EViewerSetting::Shadows: Shadows = FMath::Clamp(Index, 0, 3); Quality = 4; break;
     case EViewerSetting::Antialiasing:
+    {
+        const TArray<int32> Samples = AntialiasingSamples();
         if (Samples.IsValidIndex(Index)) Antialiasing = Samples[Index];
+        if (Antialiasing != 0) bScreenSpaceReflections = false;
         Quality = 4;
         break;
+    }
     default: break;
     }
     Sanitize();
@@ -138,6 +186,11 @@ void UViewerPreferences::SetToggle(EViewerSetting Setting, bool bEnabled)
     case EViewerSetting::Vignette: bVignette = bEnabled; break;
     case EViewerSetting::DepthOfField: bDepthOfField = bEnabled; break;
     case EViewerSetting::SecondaryMotion: bSecondaryMotion = bEnabled; break;
+    case EViewerSetting::AmbientOcclusion: bAmbientOcclusion = bEnabled; break;
+    case EViewerSetting::ScreenSpaceReflections:
+        bScreenSpaceReflections = bEnabled;
+        if (bEnabled) Antialiasing = 0;
+        break;
     default: break;
     }
 }
@@ -151,15 +204,19 @@ bool UViewerPreferences::GetToggle(EViewerSetting Setting) const
     case EViewerSetting::Vignette: return bVignette;
     case EViewerSetting::DepthOfField: return bDepthOfField;
     case EViewerSetting::SecondaryMotion: return bSecondaryMotion;
+    case EViewerSetting::AmbientOcclusion: return bAmbientOcclusion;
+    case EViewerSetting::ScreenSpaceReflections: return bScreenSpaceReflections;
     default: return false;
     }
 }
 
 void UViewerPreferences::ResetDefaults()
 {
-    FrameRate = 60; Quality = Textures = Shadows = 2;
-    ResolutionPercent = 100.f; Antialiasing = 4;
+    FrameRate = 60; Quality = Textures = Shadows = 3;
+    ResolutionPercent = 200.f; Antialiasing = 0;
     bPostProcessing = bBloom = bVignette = bSecondaryMotion = true;
     bDepthOfField = false;
+    bAmbientOcclusion = bScreenSpaceReflections = true;
+    GraphicsVersion = 1;
     Sanitize();
 }

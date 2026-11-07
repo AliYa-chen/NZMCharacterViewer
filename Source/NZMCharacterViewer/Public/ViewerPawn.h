@@ -63,6 +63,7 @@ protected:
 
 private:
     friend class UViewerSmokeTestComponent;
+    UPROPERTY() TObjectPtr<USceneComponent> SceneRoot;
     UPROPERTY() TObjectPtr<USceneComponent> ModelRoot;
     UPROPERTY() TObjectPtr<USceneComponent> PreparingRoot;
     UPROPERTY() TObjectPtr<UCameraComponent> Camera;
@@ -83,6 +84,8 @@ private:
     UPROPERTY() TObjectPtr<UViewerEnvironment> PreparingEnvironment;
     int32 CharacterIndex = 0;
     int32 OutfitIndex = 0;
+    int32 ActiveCharacterIndex = INDEX_NONE;
+    int32 ActiveOutfitIndex = INDEX_NONE;
     float Yaw = 0.f;
     float DisplayYaw = 0.f;
     float ModelWidth = 90.f;
@@ -108,6 +111,7 @@ private:
     bool bPreparationFenceStarted = false;
     bool bLastSelectionReadyBeforeVisible = false;
     double PreparationStartedSeconds = 0.0;
+    double LastPreparationWaitLogSeconds = 0.0;
     double LastSelectionPreparationSeconds = 0.0;
     int32 SelectionGeneration = 0;
     void LoadSelection();
@@ -116,8 +120,10 @@ private:
     void BuildPreparingComponents();
     void CommitPreparedSelection();
     void CancelSelectionPreparation();
+    void FailSelectionPreparation(const FText& FailureStatus);
     void PrefetchAdjacentCharacter();
     void ReleaseSelection();
+    const FViewerOutfit* GetActiveOutfit() const;
     void InitializeInterface();
     void CreateStage(bool bUsePreparedMeshes = false);
     void ClearStage();

@@ -141,6 +141,9 @@ def expression(material, cls, x, y):
 
 def make_material(spec, destination):
     spec = resolve_material_spec(spec, SOURCE)
+    masked_shadow = spec.get("cast_dynamic_shadow_as_masked", False)
+    if not isinstance(masked_shadow, bool):
+        raise ValueError("cast_dynamic_shadow_as_masked 必须为 JSON bool")
     serialized = json.dumps(spec, sort_keys=True, ensure_ascii=False)
     name = "M_" + clean_name(spec.get("name") or spec.get("slot_name") or f"Slot{spec['slot']}")
     name += "_" + hashlib.sha1(serialized.encode()).hexdigest()[:8]
@@ -159,6 +162,7 @@ def make_material(spec, destination):
     modes = {"opaque": unreal.BlendMode.BLEND_OPAQUE, "masked": unreal.BlendMode.BLEND_MASKED,
              "translucent": unreal.BlendMode.BLEND_TRANSLUCENT}
     material.set_editor_property("blend_mode", modes.get(mode.lower(), unreal.BlendMode.BLEND_OPAQUE))
+    material.set_editor_property("cast_dynamic_shadow_as_masked", masked_shadow)
     if mode.lower() == "translucent":
         material.set_editor_property("translucency_lighting_mode", unreal.TranslucencyLightingMode.TLM_SURFACE_PER_PIXEL_LIGHTING)
     edit.set_material_usage(material, unreal.MaterialUsage.MATUSAGE_SKELETAL_MESH)
@@ -168,7 +172,7 @@ def make_material(spec, destination):
                   "metallic": unreal.MaterialProperty.MP_METALLIC,
                   "emissive": unreal.MaterialProperty.MP_EMISSIVE_COLOR,
                   "opacity": unreal.MaterialProperty.MP_OPACITY if mode.lower() == "translucent" else unreal.MaterialProperty.MP_OPACITY_MASK}
-    used = {}
+    used = {"cast_dynamic_shadow_as_masked": bool(material.get_editor_property("cast_dynamic_shadow_as_masked"))}
     texture_uv = None
     if spec.get("texture_uv_bounds"):
         minimum_u, minimum_v, maximum_u, maximum_v = spec["texture_uv_bounds"]
@@ -327,11 +331,29 @@ def canonical_slot(value):
     return re.sub(r"[^a-z0-9]", "", str(value).lower())
 
 
-def import_dynamics(relative, destination):
-    if relative in DYNAMICS:
-        return DYNAMICS[relative]
+def import_dynamics(relative, destination, mesh):
+    cache_key = (relative, mesh.get_path_name())
+    if cache_key in DYNAMICS:
+        return DYNAMICS[cache_key]
     filename = source_file(SOURCE, relative)
     spec = json.loads(filename.read_text(encoding="utf-8"))
+    # This viewer simulates existing segments; it does not invent virtual tips
+    # for a source root that is only a leaf in a separate head skeleton.
+    probe = unreal.new_object(unreal.SkeletalMeshComponent)
+    probe.set_skinned_asset_and_update(mesh)
+    names = [probe.get_bone_name(i) for i in range(probe.get_num_bones())]
+    edges = [(str(probe.get_parent_bone(name)).casefold(), str(name).casefold()) for name in names]
+    applicable = False
+    for row in spec["chains"]:
+        root = str(row["root_bone"]).casefold()
+        excluded = {str(bone).casefold() for bone in row.get("exclude_bones", [])}
+        applicable |= any(parent == root and child not in excluded for parent, child in edges)
+    if not applicable:
+        DYNAMICS[cache_key] = None
+        REPORT.setdefault("secondary_motion_skipped", []).append({"source": relative,
+            "mesh": mesh.get_path_name(), "reason": "No source root has a usable child segment in this mesh; virtual-tip simulation is not reconstructed."})
+        warning(f"{mesh.get_name()}：动态配置没有可用子骨链，未挂接；保留普通骨骼待机。")
+        return None
     name = clean_name(spec["asset_name"])
     path = destination + "/Dynamics/" + name
     profile = LIBRARY.load_asset(path) if LIBRARY.does_asset_exist(path) else None
@@ -363,7 +385,7 @@ def import_dynamics(relative, destination):
             profile.set_editor_property(key, spec[key])
     if not LIBRARY.save_loaded_asset(profile):
         raise RuntimeError("Dynamics profile did not save: " + path)
-    DYNAMICS[relative] = profile
+    DYNAMICS[cache_key] = profile
     REPORT.setdefault("secondary_motion_profiles", []).append({"source": relative,
         "asset": profile.get_path_name(), "chains": len(chains), "solver": "parameter_guided_reconstruction"})
     return profile
@@ -401,7 +423,7 @@ def build_part(part, destination):
     component.set_editor_property("materials", overrides)
     component.set_editor_property("visible_by_default", part.get("default_visible", True))
     if part.get("dynamics"):
-        component.set_editor_property("dynamics", import_dynamics(part["dynamics"], destination))
+        component.set_editor_property("dynamics", import_dynamics(part["dynamics"], destination, mesh))
     if part.get("animation"):
         skeleton = mesh.get_editor_property("skeleton")
         options = unreal.FbxImportUI()
@@ -423,7 +445,9 @@ def build_part(part, destination):
     transform = part.get("transform", {})
     component.set_editor_property("relative_transform", unreal.Transform(
         location=unreal.Vector(*transform.get("translation", [0, 0, 0])),
-        rotation=unreal.Rotator(*transform.get("rotation", [0, 0, 0])),
+        rotation=unreal.Rotator(pitch=transform.get("rotation", [0, 0, 0])[0],
+                              yaw=transform.get("rotation", [0, 0, 0])[1],
+                              roll=transform.get("rotation", [0, 0, 0])[2]),
         scale=unreal.Vector(*transform.get("scale", [1, 1, 1]))))
     LIBRARY.save_loaded_asset(mesh)
     return component

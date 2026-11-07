@@ -140,6 +140,7 @@ public:
     virtual void TickComponent(float DeltaTime, ELevelTick TickType,
                                FActorComponentTickFunction* ThisTickFunction) override;
     virtual void FinalizeBoneTransform() override;
+    virtual FBoxSphereBounds CalcBounds(const FTransform& LocalToWorld) const override;
 
 protected:
     virtual void OnRegister() override;
@@ -155,6 +156,8 @@ private:
     uint64 LastSolvedFrame = MAX_uint64;
     float LastMaxDisplacementCm = 0.f;
     TWeakObjectPtr<USkeletalMesh> CachedMesh;
+    TWeakObjectPtr<USkeletalMesh> AnimatedBoundsMesh;
+    FBox AnimatedLocalBounds = FBox(ForceInit);
     FTransform PreviousComponentTransform = FTransform::Identity;
 
     struct FChainState
@@ -169,6 +172,7 @@ private:
     TArray<FChainState> ChainStates;
 
     void RebuildChains(const TArray<FTransform>& AnimationPose);
+    void UpdateAnimatedBounds();
     void ApplySecondaryMotion(TArray<FTransform>& Pose, float DeltaSeconds);
     void SeedChain(FChainState& State, const TArray<FVector>& Goals);
     bool SolveChain(FChainState& State, const FViewerDynamicChain& Settings,
