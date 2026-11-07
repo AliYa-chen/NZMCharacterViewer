@@ -1,0 +1,8 @@
+{
+  "upstream_url": "https://github.com/notofonts/noto-cjk/blob/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+  "git_blob_sha1": "dc15562470b4f842321894787a0d066879ccff8b",
+  "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "size": 16437364,
+  "retrieval": "CDN byte ranges, content verified against official GitHub blob SHA1",
+  "license_url": "https://github.com/notofonts/noto-cjk/blob/main/Sans/LICENSE"
+}
