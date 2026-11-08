@@ -30,6 +30,15 @@ UViewerPreferences* UViewerPreferences::Load()
         Result->SetChoice(EViewerSetting::Quality, 3);
         Result->GraphicsVersion = 1;
     }
+    if (Result->GraphicsVersion < 2)
+    {
+        // Restore the requested SSR pipeline after earlier diagnostic runs.
+        // Later user choices remain editable and are not forced every frame.
+        Result->bPostProcessing = true;
+        Result->bScreenSpaceReflections = true;
+        Result->Antialiasing = 0;
+        Result->GraphicsVersion = 2;
+    }
     Result->Sanitize();
     return Result;
 }
@@ -217,6 +226,6 @@ void UViewerPreferences::ResetDefaults()
     bPostProcessing = bBloom = bVignette = bSecondaryMotion = true;
     bDepthOfField = false;
     bAmbientOcclusion = bScreenSpaceReflections = true;
-    GraphicsVersion = 1;
+    GraphicsVersion = 2;
     Sanitize();
 }

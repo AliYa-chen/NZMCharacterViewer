@@ -469,8 +469,7 @@ void UViewerWidget::BuildSettings()
     AddSettingToggle(EffectsSettings, FText::FromString(TEXT("暗角")), EViewerSetting::Vignette);
     AddSettingToggle(EffectsSettings, FText::FromString(TEXT("景深")), EViewerSetting::DepthOfField);
     AddSettingToggle(EffectsSettings, FText::FromString(TEXT("环境光遮蔽")), EViewerSetting::AmbientOcclusion);
-    AddSettingToggle(EffectsSettings, FText::FromString(UViewerPreferences::UsesMobileRenderer()
-        ? TEXT("屏幕空间反射 · TAA") : TEXT("Lumen 反射")), EViewerSetting::ScreenSpaceReflections);
+    AddSettingToggle(EffectsSettings, FText::FromString(TEXT("屏幕空间反射 · TAA")), EViewerSetting::ScreenSpaceReflections);
     AddSettingToggle(EffectsSettings, FText::FromString(TEXT("发丝与衣物动态")), EViewerSetting::SecondaryMotion);
     if (UViewerPreferences::UsesMobileRenderer())
         EffectsSettings->AddChildToVerticalBox(MakeText(FText::FromString(TEXT("当前移动渲染模式支持屏幕空间反射，不支持 Lumen 与硬件光追。")), 12, ViewerUi::Muted))->SetPadding(FMargin(0.f, 16.f));
@@ -625,6 +624,40 @@ bool UViewerWidget::ConsumeModalPointer(FVector2D Point, bool bPressed)
     }
     return true;
 }
+FBox2D UViewerWidget::GetModelViewportRect() const
+{
+    const FVector2D Pixels = UWidgetLayoutLibrary::GetViewportSize(this);
+    if (Pixels.GetMin() <= 1.f) return FBox2D(ForceInit);
+    auto PixelRect = [this](const UWidget* Widget) -> FBox2D
+    {
+        if (!Widget || !Widget->IsVisible()) return FBox2D(ForceInit);
+        const FGeometry& Geometry = Widget->GetCachedGeometry();
+        if (Geometry.GetLocalSize().GetMin() <= 1.f) return FBox2D(ForceInit);
+        FVector2D TopLeft, BottomRight, Logical;
+        USlateBlueprintLibrary::LocalToViewport(this, Geometry, FVector2D::ZeroVector, TopLeft, Logical);
+        USlateBlueprintLibrary::LocalToViewport(this, Geometry, Geometry.GetLocalSize(), BottomRight, Logical);
+        if (TopLeft.ContainsNaN() || BottomRight.ContainsNaN()) return FBox2D(ForceInit);
+        return FBox2D(TopLeft, BottomRight);
+    };
+    FBox2D Safe = PixelRect(LayoutCanvas);
+    if (!Safe.bIsValid) Safe = FBox2D(FVector2D::ZeroVector, Pixels);
+    Safe.Min.X = FMath::Clamp(Safe.Min.X, 0.0, Pixels.X);
+    Safe.Min.Y = FMath::Clamp(Safe.Min.Y, 0.0, Pixels.Y);
+    Safe.Max.X = FMath::Clamp(Safe.Max.X, Safe.Min.X, Pixels.X);
+    Safe.Max.Y = FMath::Clamp(Safe.Max.Y, Safe.Min.Y, Pixels.Y);
+    if (bUiHidden) return Safe;
+    FBox2D Available = Safe;
+    const double Gap = 8.0 * UWidgetLayoutLibrary::GetViewportScale(this);
+    const FBox2D Rail = PixelRect(CharacterRail), Actions = PixelRect(ActionBar);
+    const FBox2D Title = PixelRect(Header), Bottom = PixelRect(Footer);
+    if (Rail.bIsValid) Available.Min.X = FMath::Max(Available.Min.X, Rail.Max.X + Gap);
+    if (Actions.bIsValid) Available.Max.X = FMath::Min(Available.Max.X, Actions.Min.X - Gap);
+    if (Title.bIsValid) Available.Min.Y = FMath::Max(Available.Min.Y, Title.Max.Y + Gap);
+    if (Bottom.bIsValid) Available.Max.Y = FMath::Min(Available.Max.Y, Bottom.Min.Y - Gap);
+    // Geometry can lag a frame during rotation. Do not fit a collapsed rectangle.
+    return Available.GetSize().GetMin() >= 64.0 ? Available : Safe;
+}
+
 bool UViewerWidget::BlocksModelInput(FVector2D Point) const
 {
     if (bSettingsOpen && !bUiHidden) return true;

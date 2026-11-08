@@ -10,7 +10,7 @@ class FJsonValue;
 class UViewerPreferences;
 class UViewerSkeletalMeshComponent;
 
-/** Created only by the explicit development command line -ViewerSmokeTest. */
+/** Created only by explicit development smoke-test or lighting-sweep flags. */
 UCLASS(Transient)
 class UViewerSmokeTestComponent : public UActorComponent
 {
@@ -28,7 +28,7 @@ protected:
     virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
 private:
-    enum class EStage : uint8 { Disabled, WaitingForLoad, Settling, SettingsProbe, DrivingDynamics,
+    enum class EStage : uint8 { Disabled, WaitingForLoad, Settling, RenderingCapture, LightingSweep, SettingsProbe, DrivingDynamics,
         DisabledDynamics, ReplayingDynamics, WaitingForScreenshot, Advance, Complete };
     struct FSelection { int32 Character; int32 Outfit; };
     struct FDynamicObservation
@@ -81,11 +81,35 @@ private:
     float SavedEngineMaxFps = 0.f;
     int32 SavedFramePace = 0;
     bool bPreferencesRestored = false;
+    bool bLightingSweep = false;
+    bool bSavedUiEnabled = true;
+    bool bLightingSweepStarted = false;
+    bool bRenderingCaptureRequested = false;
+    bool bProfileShowUIOverridden = false;
+    bool bProfileShowUIRestored = true;
+    FString SavedProfileShowUIValue;
+    uint32 SavedProfileShowUIPriority = 0;
+    bool bLightingGridOverridden = false;
+    bool bLightingGridRestored = true;
+    FString SavedLightingGridValue;
+    FString LastLightingScreenshotPath;
+    double NextLightingScreenshotSeconds = 0.0;
+    int32 LightingScreenshotIndex = 0;
+    int32 LightingScreenshotBusySkips = 0;
+    TSharedPtr<FJsonObject> LightingSweepReport;
+    TArray<TSharedPtr<FJsonValue>> LightingSweepSamples;
+    TArray<FString> LightingSweepScreenshots;
 
     void BeginCase();
     void SaveUserSettings();
     void RestoreUserSettings(bool bRecord);
     void BeginRuntimeDiagnostics();
+    void BeginLightingSweep();
+    void RequestRenderingCapture();
+    bool RestoreRenderingCaptureSettings();
+    void TickLightingSweep(float DeltaTime);
+    void StoreLightingSweepReport();
+    void RestoreLightingGridOverride();
     void FinishSettingsProbe();
     void BeginDynamicsProbe();
     void SampleDynamics();

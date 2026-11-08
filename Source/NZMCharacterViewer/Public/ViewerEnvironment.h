@@ -32,6 +32,8 @@ struct FViewerEnvironmentLight
     UPROPERTY(EditAnywhere) float SpecularScale = 1.f;
     UPROPERTY(EditAnywhere) float ShadowBias = 0.5f;
     UPROPERTY(EditAnywhere) int32 IntensityUnits = 1;
+    // Bit 0 lights the shared stage; bit 1 can isolate character fill lights.
+    UPROPERTY(EditAnywhere) int32 LightingChannelMask = 1;
 };
 
 USTRUCT(BlueprintType)
@@ -56,6 +58,16 @@ public:
     UPROPERTY(EditAnywhere) TArray<FViewerEnvironmentLight> Lights;
     UPROPERTY(EditAnywhere) TArray<FViewerEnvironmentMesh> Meshes;
     UPROPERTY(EditAnywhere) FPostProcessSettings PostProcess;
+    // Native desktop fog multiple scattering; mobile stages never create it.
+    UPROPERTY(EditAnywhere, Category = "Atmosphere") bool bEnableFogScattering = false;
+    UPROPERTY(EditAnywhere, Category = "Atmosphere", meta = (EditCondition = "bEnableFogScattering", ClampMin = "0", ClampMax = "0.05"))
+    float FogDensity = 0.003f;
+    UPROPERTY(EditAnywhere, Category = "Atmosphere", meta = (EditCondition = "bEnableFogScattering", ClampMin = "0.001", ClampMax = "2"))
+    float FogHeightFalloff = 0.2f;
+    UPROPERTY(EditAnywhere, Category = "Atmosphere", meta = (EditCondition = "bEnableFogScattering", ClampMin = "0", Units = "cm"))
+    float FogStartDistance = 100.f;
+    UPROPERTY(EditAnywhere, Category = "Atmosphere", meta = (EditCondition = "bEnableFogScattering", HideAlphaChannel))
+    FLinearColor FogColor = FLinearColor(0.04f, 0.055f, 0.075f);
     UPROPERTY(EditAnywhere) float CameraHorizontalFOV = 29.9281126f;
     UPROPERTY(EditAnywhere) float ReferenceAspectRatio = 1.7777778f;
     UPROPERTY(EditAnywhere) float CameraDistance = 350.f;

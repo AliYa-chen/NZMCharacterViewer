@@ -1,0 +1,652 @@
+{
+  "schema_version": 1,
+  "scope": "Exact audited skin/Hair source allowlist; no material-name matching and no runtime dependency on Saved audit outputs.",
+  "characters": [
+    "angel",
+    "angela",
+    "molly",
+    "naimei",
+    "queen"
+  ],
+  "counts": {
+    "skin": 13,
+    "hair": 9
+  },
+  "audit_note": "RGB atlas and graph inputs inspected. Angela existing body allowance is retained explicitly. Mixed garment/skin materials and Lucia flame cards stay excluded.",
+  "entries": [
+    {
+      "source": "/Game/Characters/angel/angel/10801060002/Materials/M_VMI_Char_Angel_Hair_Blend_FirstPass_UI_68d86594",
+      "kind": "hair",
+      "source_hashes": {
+        "Content/Characters/angel/angel/10801060002/Materials/M_VMI_Char_Angel_Hair_Blend_FirstPass_UI_68d86594.uasset": "1cfff633bdfa6314a1c7731176fdf14cf9c1c5e7bdccbca266d521b2c83c8a2e"
+      },
+      "evidence": "RGB atlas shows strand cards, translucent DefaultLit and BaseColor/Opacity/Roughness/Specular roots are present",
+      "notes": [
+        "Exact name is Hair_Blend_FirstPass_UI, not Hair_FirstPass_UI; includes this explicit path only."
+      ],
+      "character": "angel",
+      "outfit": "angel",
+      "destination": "/Game/Viewer/CharacterShading/angel/angel/M_VMI_Char_Angel_Hair_Blend_FirstPass_UI_68d86594_Native_v1",
+      "bindings": [
+        {
+          "character": "angel",
+          "outfit": "angel",
+          "part": "10801060002",
+          "slot": 1,
+          "mesh": "/Game/Characters/angel/angel/10801060002/Meshes/SK_10801060002.SK_10801060002"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/1bd272eb65/T_T_VMGen_Alpha_ID_Roughness_Root_d2c258bed001fb79e622370dd6abe5e1_1bd272eb65",
+        "/Game/Characters/Textures/b0befae75d/T_T_VMGen_BaseColorMap_d10fc643658b6403092e08f48b57e401_b0befae75d"
+      ]
+    },
+    {
+      "source": "/Game/Characters/angel/angel/10801050002/Materials/M_VMI_Char_Angel_Head_UI_341f9c30",
+      "kind": "skin",
+      "source_hashes": {
+        "Content/Characters/angel/angel/10801050002/Materials/M_VMI_Char_Angel_Head_UI_341f9c30.uasset": "e96a23a477b9a544b80fd7f912461d9db785106314063a506d674bcf145678d8"
+      },
+      "evidence": "RGB face/scalp/neck atlas visually inspected; opaque DefaultLit with BaseColor/Normal/Roughness roots",
+      "notes": [],
+      "character": "angel",
+      "outfit": "angel",
+      "destination": "/Game/Viewer/CharacterShading/angel/angel/M_VMI_Char_Angel_Head_UI_341f9c30_Native_v1",
+      "bindings": [
+        {
+          "character": "angel",
+          "outfit": "angel",
+          "part": "10801050002",
+          "slot": 2,
+          "mesh": "/Game/Characters/angel/angel/10801050002/Meshes/SK_10801050002.SK_10801050002"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/8dbeb4f00e/T_T_Char_Angel_Head_CE_8dbeb4f00e",
+        "/Game/Characters/Textures/ca91fe0e19/T_T_Char_Angel_Head_N_ca91fe0e19"
+      ]
+    },
+    {
+      "source": "/Game/Characters/angel/angel/10801050002/Materials/M_VMI_Char_Angel_head_3P_ded39fc5",
+      "kind": "skin",
+      "source_hashes": {
+        "Content/Characters/angel/angel/10801050002/Materials/M_VMI_Char_Angel_head_3P_ded39fc5.uasset": "8028d23842dec69af6c16c24fb989eb6a16065df021a3c4260dc09720291bd5d"
+      },
+      "evidence": "RGB face/scalp/neck atlas visually inspected; opaque DefaultLit with BaseColor/Normal/Roughness roots",
+      "notes": [],
+      "character": "angel",
+      "outfit": "angel",
+      "destination": "/Game/Viewer/CharacterShading/angel/angel/M_VMI_Char_Angel_head_3P_ded39fc5_Native_v1",
+      "bindings": [
+        {
+          "character": "angel",
+          "outfit": "angel",
+          "part": "10801050002",
+          "slot": 0,
+          "mesh": "/Game/Characters/angel/angel/10801050002/Meshes/SK_10801050002.SK_10801050002"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/6234a18704/T_T_VMGen_EmissiveMap_31878fab1cf26b6c6fb410017d5f56e9_6234a18704",
+        "/Game/Characters/Textures/8dbeb4f00e/T_T_Char_Angel_Head_CE_8dbeb4f00e",
+        "/Game/Characters/Textures/ca91fe0e19/T_T_Char_Angel_Head_N_ca91fe0e19"
+      ]
+    },
+    {
+      "source": "/Game/Characters/angel/angellucia/10053010004/Materials/M_VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_a820700a",
+      "kind": "hair",
+      "source_hashes": {
+        "Content/Characters/angel/angellucia/10053010004/Materials/M_VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_a820700a.uasset": "3de5494caadc2e0f3d9fef397d9bcb32b0c78bd5117f94acdecd1704920da0d8"
+      },
+      "evidence": "RGB atlas shows strand cards, translucent DefaultLit and BaseColor/Opacity/Roughness/Specular roots are present",
+      "notes": [],
+      "character": "angel",
+      "outfit": "angellucia",
+      "destination": "/Game/Viewer/CharacterShading/angel/angellucia/M_VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_a820700a_Native_v1",
+      "bindings": [
+        {
+          "character": "angel",
+          "outfit": "angellucia",
+          "part": "10053010004",
+          "slot": 5,
+          "mesh": "/Game/Characters/angel/angellucia/10053010004/Meshes/SK_10053010004.SK_10053010004"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/5711e2788e/T_T_Char_Angel_Lucia_A_Hair_AIRR_5711e2788e",
+        "/Game/Characters/Textures/d4c7c97312/T_T_Char_Angel_Lucia_A_Hair_A_D_d4c7c97312"
+      ]
+    },
+    {
+      "source": "/Game/Characters/angel/angellucia/10053010003/Materials/M_VMI_Char_Angel_Lucia_A_Head_UI_002bb753",
+      "kind": "skin",
+      "source_hashes": {
+        "Content/Characters/angel/angellucia/10053010003/Materials/M_VMI_Char_Angel_Lucia_A_Head_UI_002bb753.uasset": "ec7cb0ff9eb9dca70df78d3bb56f611c6ae96d2fc57419bce13bfcf1f5986913"
+      },
+      "evidence": "RGB face/scalp/neck atlas visually inspected; opaque DefaultLit with BaseColor/Normal/Roughness roots",
+      "notes": [],
+      "character": "angel",
+      "outfit": "angellucia",
+      "destination": "/Game/Viewer/CharacterShading/angel/angellucia/M_VMI_Char_Angel_Lucia_A_Head_UI_002bb753_Native_v1",
+      "bindings": [
+        {
+          "character": "angel",
+          "outfit": "angellucia",
+          "part": "10053010003",
+          "slot": 0,
+          "mesh": "/Game/Characters/angel/angellucia/10053010003/Meshes/SK_10053010003.SK_10053010003"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/45cea36196/T_T_Char_Angel_Lucia_A_Head_N_45cea36196",
+        "/Game/Characters/Textures/ec6faa77f9/T_T_Char_Angel_Lucia_A_Head_C_ec6faa77f9"
+      ]
+    },
+    {
+      "source": "/Game/Characters/angela/angela/14601050001/Materials/M_VMI_Char_Angela_Suit_B_Hair_FirstPass_UI_1331d11c",
+      "kind": "hair",
+      "source_hashes": {
+        "Content/Characters/angela/angela/14601050001/Materials/M_VMI_Char_Angela_Suit_B_Hair_FirstPass_UI_1331d11c.uasset": "46b6f89424d4d07c019ff444226239b43dbee5d79de1c02cf742cacc57e9389b"
+      },
+      "evidence": "RGB atlas shows strand cards, translucent DefaultLit and BaseColor/Opacity/Roughness/Specular roots are present",
+      "notes": [],
+      "character": "angela",
+      "outfit": "angela",
+      "destination": "/Game/Viewer/CharacterShading/angela/M_VMI_Char_Angela_Suit_B_Hair_FirstPass_UI_1331d11c_Native_v1",
+      "bindings": [
+        {
+          "character": "angela",
+          "outfit": "angela",
+          "part": "14601050001",
+          "slot": 0,
+          "mesh": "/Game/Characters/angela/angela/14601050001/Meshes/SK_14601050001.SK_14601050001"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/5210b7d965/T_T_VMGen_BaseColorMap_1a9392fb5f1f37ac1e911d3a349e8f74_5210b7d965",
+        "/Game/Characters/Textures/6df802635f/T_T_VMGen_Alpha_ID_Roughness_Root_0c84cc452d3e758905e2fea614d6b007_6df802635f"
+      ]
+    },
+    {
+      "source": "/Game/Characters/angela/angela/14601010001/Materials/M_VMI_Char_Angela_Suit_B_body_UI_3a91fbe6",
+      "kind": "skin",
+      "source_hashes": {
+        "Content/Characters/angela/angela/14601010001/Materials/M_VMI_Char_Angela_Suit_B_body_UI_3a91fbe6.uasset": "202648f27019f94bd822ce4f8c8e1dfb976ed84ddd0df72136404d7b8707378c"
+      },
+      "evidence": "Existing explicitly audited Angela source retained; original native both case has been reviewed by main task. Atlas includes black cloth regions, so do not generalize this by body-name matching.",
+      "notes": [
+        "Carry existing Angela allowance; broader body atlases below remain deferred pending skin masks/section UV proof."
+      ],
+      "character": "angela",
+      "outfit": "angela",
+      "destination": "/Game/Viewer/CharacterShading/angela/M_VMI_Char_Angela_Suit_B_body_UI_3a91fbe6_Native_v1",
+      "bindings": [
+        {
+          "character": "angela",
+          "outfit": "angela",
+          "part": "14601010001",
+          "slot": 0,
+          "mesh": "/Game/Characters/angela/angela/14601010001/Meshes/SK_14601010001.SK_14601010001"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/2ec0791aaf/T_T_Char_Angela_Suit_B_body_C_2ec0791aaf",
+        "/Game/Characters/Textures/4e2eeb3e2f/T_T_Char_Angela_Suit_B_body_N_4e2eeb3e2f"
+      ]
+    },
+    {
+      "source": "/Game/Characters/angela/angela/14601040001/Materials/M_VMI_Char_Angela_Suit_B_Head_UI_00e62c68",
+      "kind": "skin",
+      "source_hashes": {
+        "Content/Characters/angela/angela/14601040001/Materials/M_VMI_Char_Angela_Suit_B_Head_UI_00e62c68.uasset": "f7a56f9a43083bd570d407bd2f79ed37ea63e32e5c2587793dbe5c06ae3c730e"
+      },
+      "evidence": "RGB face/scalp/neck atlas visually inspected; opaque DefaultLit with BaseColor/Normal/Roughness roots",
+      "notes": [],
+      "character": "angela",
+      "outfit": "angela",
+      "destination": "/Game/Viewer/CharacterShading/angela/M_VMI_Char_Angela_Suit_B_Head_UI_00e62c68_Native_v1",
+      "bindings": [
+        {
+          "character": "angela",
+          "outfit": "angela",
+          "part": "14601040001",
+          "slot": 1,
+          "mesh": "/Game/Characters/angela/angela/14601040001/Meshes/SK_14601040001.SK_14601040001"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/05267d8e9d/T_T_Char_Angela_Suit_B_Head_N_05267d8e9d",
+        "/Game/Characters/Textures/c55facb829/T_T_Char_Angela_Suit_B_Head_C_c55facb829"
+      ]
+    },
+    {
+      "source": "/Game/Characters/molly/molly/12601050001/Materials/M_VMI_Char_Molly_Hair_FirstPass_UI_1278a7a9",
+      "kind": "hair",
+      "source_hashes": {
+        "Content/Characters/molly/molly/12601050001/Materials/M_VMI_Char_Molly_Hair_FirstPass_UI_1278a7a9.uasset": "f3fc301b65ec0023e5b94274c1ef3b0642017a78e7182c836f451b41d675a1c5"
+      },
+      "evidence": "RGB atlas shows strand cards, translucent DefaultLit and BaseColor/Opacity/Roughness/Specular roots are present",
+      "notes": [
+        "Molly albedo is sparse/flat while tint graph carries hair appearance. Preserve exact original Lerp tint and opacity; do not substitute atlas RGB directly."
+      ],
+      "character": "molly",
+      "outfit": "molly",
+      "destination": "/Game/Viewer/CharacterShading/molly/molly/M_VMI_Char_Molly_Hair_FirstPass_UI_1278a7a9_Native_v1",
+      "bindings": [
+        {
+          "character": "molly",
+          "outfit": "molly",
+          "part": "12601050001",
+          "slot": 0,
+          "mesh": "/Game/Characters/molly/molly/12601050001/Meshes/SK_12601050001.SK_12601050001"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/ac190e046b/T_T_VMGen_BaseColorMap_a96003f5655d02f133a1a1d4b1c7036f_ac190e046b",
+        "/Game/Characters/Textures/d1ea6afe4a/T_T_VMGen_Alpha_ID_Roughness_Root_c9895b64afaca7c2dc2e03aaed069d52_d1ea6afe4a"
+      ]
+    },
+    {
+      "source": "/Game/Characters/molly/molly/12601010001/Materials/M_VMI_Molly_Suit_body_UI_d20e6bbb",
+      "kind": "skin",
+      "source_hashes": {
+        "Content/Characters/molly/molly/12601010001/Materials/M_VMI_Molly_Suit_body_UI_d20e6bbb.uasset": "32050542987e7bfc03e8cc4c2e7834b995d72fcea7dc1590599fc51a343aeab3"
+      },
+      "evidence": "RGB atlas is exposed torso/limb skin without garment panels; opaque DefaultLit and complete skin roots",
+      "notes": [],
+      "character": "molly",
+      "outfit": "molly",
+      "destination": "/Game/Viewer/CharacterShading/molly/molly/M_VMI_Molly_Suit_body_UI_d20e6bbb_Native_v1",
+      "bindings": [
+        {
+          "character": "molly",
+          "outfit": "molly",
+          "part": "12601010001",
+          "slot": 3,
+          "mesh": "/Game/Characters/molly/molly/12601010001/Meshes/SK_12601010001.SK_12601010001"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/09aafc4086/T_T_VMGen_NormalMap_cea7078e41290c78c9cfcf6e74e3f36c_09aafc4086",
+        "/Game/Characters/Textures/531f9ed0f1/T_T_VMGen_BaseColorMap_fe00d6debbed70e589b03a43cf8c37b5_531f9ed0f1"
+      ]
+    },
+    {
+      "source": "/Game/Characters/molly/molly/12601040001/Materials/M_VMI_Char_Molly_Head_UI_f67987c1",
+      "kind": "skin",
+      "source_hashes": {
+        "Content/Characters/molly/molly/12601040001/Materials/M_VMI_Char_Molly_Head_UI_f67987c1.uasset": "3d2534b576425dfab4b462fdb34241e6814901a441e4be0cc3b33b6c4952e7cb"
+      },
+      "evidence": "RGB face/scalp/neck atlas visually inspected; opaque DefaultLit with BaseColor/Normal/Roughness roots",
+      "notes": [],
+      "character": "molly",
+      "outfit": "molly",
+      "destination": "/Game/Viewer/CharacterShading/molly/molly/M_VMI_Char_Molly_Head_UI_f67987c1_Native_v1",
+      "bindings": [
+        {
+          "character": "molly",
+          "outfit": "molly",
+          "part": "12601040001",
+          "slot": 1,
+          "mesh": "/Game/Characters/molly/molly/12601040001/Meshes/SK_12601040001.SK_12601040001"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/0d39c2f26f/T_T_VMGen_BaseColorMap_176701f6f20c92af6bc8503f55066ee0_0d39c2f26f",
+        "/Game/Characters/Textures/def4d6a8ee/T_T_VMGen_NormalMap_c8592536176e8f861ec2c849d57e7309_def4d6a8ee"
+      ]
+    },
+    {
+      "source": "/Game/Characters/molly/mollynanami/10054010004/Materials/M_VMI_Char_Molly_Nanami_B_Hair_FirstPass_UI_fcc715eb",
+      "kind": "hair",
+      "source_hashes": {
+        "Content/Characters/molly/mollynanami/10054010004/Materials/M_VMI_Char_Molly_Nanami_B_Hair_FirstPass_UI_fcc715eb.uasset": "08190bb7eaf0ea1d9a3ff9c63a026d2b7d531c5f501786519b7b0352147e0421"
+      },
+      "evidence": "RGB atlas shows strand cards, translucent DefaultLit and BaseColor/Opacity/Roughness/Specular roots are present",
+      "notes": [
+        "Atlas includes a horizontal braid strip at the bottom; global UV-V axis is not proven correct for every braid polygon. Inspect directional highlights before final apply."
+      ],
+      "character": "molly",
+      "outfit": "mollynanami",
+      "destination": "/Game/Viewer/CharacterShading/molly/mollynanami/M_VMI_Char_Molly_Nanami_B_Hair_FirstPass_UI_fcc715eb_Native_v1",
+      "bindings": [
+        {
+          "character": "molly",
+          "outfit": "mollynanami",
+          "part": "10054010004",
+          "slot": 0,
+          "mesh": "/Game/Characters/molly/mollynanami/10054010004/Meshes/SK_10054010004.SK_10054010004"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/9e6d84c912/T_T_VMGen_BaseColorMap_5c0f3a85d2181a5ce94dd183540e2c05_9e6d84c912",
+        "/Game/Characters/Textures/f035fcf93e/T_T_VMGen_Alpha_ID_Roughness_Root_7bc51d2cb7c3803bc049429bfb6fe598_f035fcf93e"
+      ]
+    },
+    {
+      "source": "/Game/Characters/molly/mollynanami/10054010002/Materials/M_VMI_Char_Molly_Nanami_B_Body_UI_2ab737a6",
+      "kind": "skin",
+      "source_hashes": {
+        "Content/Characters/molly/mollynanami/10054010002/Materials/M_VMI_Char_Molly_Nanami_B_Body_UI_2ab737a6.uasset": "1a4d1b287d3a24f9c5f819c988aa20d4d630c48026948687c450adb51dd68c71"
+      },
+      "evidence": "RGB atlas is exposed torso/limb skin without garment panels; opaque DefaultLit and complete skin roots",
+      "notes": [],
+      "character": "molly",
+      "outfit": "mollynanami",
+      "destination": "/Game/Viewer/CharacterShading/molly/mollynanami/M_VMI_Char_Molly_Nanami_B_Body_UI_2ab737a6_Native_v1",
+      "bindings": [
+        {
+          "character": "molly",
+          "outfit": "mollynanami",
+          "part": "10054010002",
+          "slot": 2,
+          "mesh": "/Game/Characters/molly/mollynanami/10054010002/Meshes/SK_10054010002.SK_10054010002"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/ef75a1c89b/T_T_Char_Molly_Nanami_B_Body_CMask_ef75a1c89b",
+        "/Game/Characters/Textures/fbe0654df7/T_T_Char_Molly_Nanami_B_Body_N_fbe0654df7"
+      ]
+    },
+    {
+      "source": "/Game/Characters/molly/mollynanami/10054010003/Materials/M_VMI_Char_Molly_Nanami_B_Head_UI_538e4faa",
+      "kind": "skin",
+      "source_hashes": {
+        "Content/Characters/molly/mollynanami/10054010003/Materials/M_VMI_Char_Molly_Nanami_B_Head_UI_538e4faa.uasset": "3b97303004a31134ed598f34bd3e48b853afe26d0907ed517605cd256ac1708c"
+      },
+      "evidence": "RGB face/scalp/neck atlas visually inspected; opaque DefaultLit with BaseColor/Normal/Roughness roots",
+      "notes": [],
+      "character": "molly",
+      "outfit": "mollynanami",
+      "destination": "/Game/Viewer/CharacterShading/molly/mollynanami/M_VMI_Char_Molly_Nanami_B_Head_UI_538e4faa_Native_v1",
+      "bindings": [
+        {
+          "character": "molly",
+          "outfit": "mollynanami",
+          "part": "10054010003",
+          "slot": 1,
+          "mesh": "/Game/Characters/molly/mollynanami/10054010003/Meshes/SK_10054010003.SK_10054010003"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/497b52bacc/T_T_Char_Molly_Nanami_B_Head_C_497b52bacc",
+        "/Game/Characters/Textures/6a0af276bd/T_T_Char_Molly_Nanami_B_Head_N_6a0af276bd"
+      ]
+    },
+    {
+      "source": "/Game/Characters/naimei/naimeibianca/10055010004/Materials/M_VMI_Char_Naimei_Bianca_A_Hair_FirstPass_UI_9d9f26b7",
+      "kind": "hair",
+      "source_hashes": {
+        "Content/Characters/naimei/naimeibianca/10055010004/Materials/M_VMI_Char_Naimei_Bianca_A_Hair_FirstPass_UI_9d9f26b7.uasset": "1653040a06665aad90ed462acbc067565917b9ff938444367c32febcb9db8328"
+      },
+      "evidence": "RGB atlas shows strand cards, translucent DefaultLit and BaseColor/Opacity/Roughness/Specular roots are present",
+      "notes": [],
+      "character": "naimei",
+      "outfit": "naimeibianca",
+      "destination": "/Game/Viewer/CharacterShading/naimei/naimeibianca/M_VMI_Char_Naimei_Bianca_A_Hair_FirstPass_UI_9d9f26b7_Native_v1",
+      "bindings": [
+        {
+          "character": "naimei",
+          "outfit": "naimeibianca",
+          "part": "10055010004",
+          "slot": 0,
+          "mesh": "/Game/Characters/naimei/naimeibianca/10055010004/Meshes/SK_10055010004.SK_10055010004"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/2b1eb35222/T_T_VMGen_Alpha_ID_Roughness_Root_69810b5ff941067b81e7cdc8f806c49f_2b1eb35222",
+        "/Game/Characters/Textures/efc645a6a8/T_T_VMGen_BaseColorMap_0b7755f8b6deb87b356db0c3fcd14d4b_efc645a6a8"
+      ]
+    },
+    {
+      "source": "/Game/Characters/naimei/naimeibianca/10055010003/Materials/M_VMI_Char_Naimei_Bianca_A_Head_UI1_455b838a",
+      "kind": "skin",
+      "source_hashes": {
+        "Content/Characters/naimei/naimeibianca/10055010003/Materials/M_VMI_Char_Naimei_Bianca_A_Head_UI1_455b838a.uasset": "e569200e8acf12151c185e620b90fd5ebf127c0d5834f113a4d615cad3a65ab8"
+      },
+      "evidence": "RGB face/scalp/neck atlas visually inspected; opaque DefaultLit with BaseColor/Normal/Roughness roots",
+      "notes": [],
+      "character": "naimei",
+      "outfit": "naimeibianca",
+      "destination": "/Game/Viewer/CharacterShading/naimei/naimeibianca/M_VMI_Char_Naimei_Bianca_A_Head_UI1_455b838a_Native_v1",
+      "bindings": [
+        {
+          "character": "naimei",
+          "outfit": "naimeibianca",
+          "part": "10055010003",
+          "slot": 1,
+          "mesh": "/Game/Characters/naimei/naimeibianca/10055010003/Meshes/SK_10055010003.SK_10055010003"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/a05c6a4f8b/T_T_Char_Naimei_Bianca_A_Head_N_a05c6a4f8b",
+        "/Game/Characters/Textures/de868f4706/T_T_Char_Naimei_Bianca_A_Head_C_de868f4706"
+      ]
+    },
+    {
+      "source": "/Game/Characters/naimei/suit_a/hair/Materials/M_VMI_Char_Naimei_Suit_A_Hair_FirstPass_UI_c891fe5d",
+      "kind": "hair",
+      "source_hashes": {
+        "Content/Characters/naimei/suit_a/hair/Materials/M_VMI_Char_Naimei_Suit_A_Hair_FirstPass_UI_c891fe5d.uasset": "f15b289d055d8d5988c84dda51e03424817ac20c04b1e25966a106f526cd8d80"
+      },
+      "evidence": "RGB atlas shows strand cards, translucent DefaultLit and BaseColor/Opacity/Roughness/Specular roots are present",
+      "notes": [],
+      "character": "naimei",
+      "outfit": "suit_a",
+      "destination": "/Game/Viewer/CharacterShading/naimei/suit_a/M_VMI_Char_Naimei_Suit_A_Hair_FirstPass_UI_c891fe5d_Native_v1",
+      "bindings": [
+        {
+          "character": "naimei",
+          "outfit": "suit_a",
+          "part": "hair",
+          "slot": 0,
+          "mesh": "/Game/Characters/naimei/suit_a/hair/Meshes/SK_hair.SK_hair"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/3b01c83d6b/T_T_VMGen_BaseColorMap_0cd6658f94a9eb62b7424f6e07343c42_3b01c83d6b",
+        "/Game/Characters/Textures/4809dc82fa/T_T_Hair_01_AIRR_4809dc82fa"
+      ]
+    },
+    {
+      "source": "/Game/Characters/naimei/suit_a/head/Materials/M_VMI_Char_Naimei_Suit_A_Head_UI_bb1c326a",
+      "kind": "skin",
+      "source_hashes": {
+        "Content/Characters/naimei/suit_a/head/Materials/M_VMI_Char_Naimei_Suit_A_Head_UI_bb1c326a.uasset": "08a7b297430a278f5e57921b6efad7f55653a75bea24aa0760670aeefeda4871"
+      },
+      "evidence": "RGB face/scalp/neck atlas visually inspected; opaque DefaultLit with BaseColor/Normal/Roughness roots",
+      "notes": [],
+      "character": "naimei",
+      "outfit": "suit_a",
+      "destination": "/Game/Viewer/CharacterShading/naimei/suit_a/M_VMI_Char_Naimei_Suit_A_Head_UI_bb1c326a_Native_v1",
+      "bindings": [
+        {
+          "character": "naimei",
+          "outfit": "suit_a",
+          "part": "head",
+          "slot": 2,
+          "mesh": "/Game/Characters/naimei/suit_a/head/Meshes/SK_head.SK_head"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/42746bc574/T_T_Char_Naimei_Suit_A_Head_N_42746bc574",
+        "/Game/Characters/Textures/74fbac31ff/T_T_Char_Naimei_Suit_A_Head_C_74fbac31ff",
+        "/Game/Characters/Textures/82e961f448/T_T_Char_Naimei_Suit_A_Head_M_82e961f448"
+      ]
+    },
+    {
+      "source": "/Game/Characters/queen/queen/14401050001/Materials/M_VMI_Char_Queen_Hair_FirstPass_UI_5945365a",
+      "kind": "hair",
+      "source_hashes": {
+        "Content/Characters/queen/queen/14401050001/Materials/M_VMI_Char_Queen_Hair_FirstPass_UI_5945365a.uasset": "6da5729998b61119c53cb7412eab916962f6cf20ba794d320ffd13574a375cca"
+      },
+      "evidence": "RGB atlas shows strand cards, translucent DefaultLit and BaseColor/Opacity/Roughness/Specular roots are present",
+      "notes": [],
+      "character": "queen",
+      "outfit": "queen",
+      "destination": "/Game/Viewer/CharacterShading/queen/queen/M_VMI_Char_Queen_Hair_FirstPass_UI_5945365a_Native_v1",
+      "bindings": [
+        {
+          "character": "queen",
+          "outfit": "queen",
+          "part": "14401050001",
+          "slot": 0,
+          "mesh": "/Game/Characters/queen/queen/14401050001/Meshes/SK_14401050001.SK_14401050001"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/1ccf6f6f89/T_T_VMGen_Alpha_ID_Roughness_Root_788ea376307a1ef6449c22f2e8105cde_1ccf6f6f89",
+        "/Game/Characters/Textures/e3b92eec24/T_T_VMGen_BaseColorMap_4243d88c008dec28b5c7176295fc0b28_e3b92eec24"
+      ]
+    },
+    {
+      "source": "/Game/Characters/queen/queen/14401040001/Materials/M_VMI_Char_Queen_Head_UI_c7b8c712",
+      "kind": "skin",
+      "source_hashes": {
+        "Content/Characters/queen/queen/14401040001/Materials/M_VMI_Char_Queen_Head_UI_c7b8c712.uasset": "e9492f7c6c2fb18bdbf40d4f3a0b89c65306250f1712631b1fe0ed93b6a3c403"
+      },
+      "evidence": "RGB face/scalp/neck atlas visually inspected; opaque DefaultLit with BaseColor/Normal/Roughness roots",
+      "notes": [],
+      "character": "queen",
+      "outfit": "queen",
+      "destination": "/Game/Viewer/CharacterShading/queen/queen/M_VMI_Char_Queen_Head_UI_c7b8c712_Native_v1",
+      "bindings": [
+        {
+          "character": "queen",
+          "outfit": "queen",
+          "part": "14401040001",
+          "slot": 1,
+          "mesh": "/Game/Characters/queen/queen/14401040001/Meshes/SK_14401040001.SK_14401040001"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/5ce6ac0692/T_T_Char_Queen_Head_CE_5ce6ac0692",
+        "/Game/Characters/Textures/d47a51926b/T_T_Char_Queen_Head_N_d47a51926b"
+      ]
+    },
+    {
+      "source": "/Game/Characters/queen/queen_masked/14401050002/Materials/M_VMI_Char_Queen_Hair_FirstPass_UI_5945365a",
+      "kind": "hair",
+      "source_hashes": {
+        "Content/Characters/queen/queen_masked/14401050002/Materials/M_VMI_Char_Queen_Hair_FirstPass_UI_5945365a.uasset": "cc270fecb054bec69c520ed81169738b0fa6403aa06f2778736dbb95f6ff063d"
+      },
+      "evidence": "RGB atlas shows strand cards, translucent DefaultLit and BaseColor/Opacity/Roughness/Specular roots are present",
+      "notes": [],
+      "character": "queen",
+      "outfit": "queen_masked",
+      "destination": "/Game/Viewer/CharacterShading/queen/queen_masked/M_VMI_Char_Queen_Hair_FirstPass_UI_5945365a_Native_v1",
+      "bindings": [
+        {
+          "character": "queen",
+          "outfit": "queen_masked",
+          "part": "14401050002",
+          "slot": 0,
+          "mesh": "/Game/Characters/queen/queen_masked/14401050002/Meshes/SK_14401050002.SK_14401050002"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/1ccf6f6f89/T_T_VMGen_Alpha_ID_Roughness_Root_788ea376307a1ef6449c22f2e8105cde_1ccf6f6f89",
+        "/Game/Characters/Textures/e3b92eec24/T_T_VMGen_BaseColorMap_4243d88c008dec28b5c7176295fc0b28_e3b92eec24"
+      ]
+    },
+    {
+      "source": "/Game/Characters/queen/queen_masked/14401040001/Materials/M_VMI_Char_Queen_Head_UI_c7b8c712",
+      "kind": "skin",
+      "source_hashes": {
+        "Content/Characters/queen/queen_masked/14401040001/Materials/M_VMI_Char_Queen_Head_UI_c7b8c712.uasset": "2aa40ee528e16c7f6181dccb1a8e751c4645141690b65b61aae9738b2a7e5fcd"
+      },
+      "evidence": "RGB face/scalp/neck atlas visually inspected; opaque DefaultLit with BaseColor/Normal/Roughness roots",
+      "notes": [],
+      "character": "queen",
+      "outfit": "queen_masked",
+      "destination": "/Game/Viewer/CharacterShading/queen/queen_masked/M_VMI_Char_Queen_Head_UI_c7b8c712_Native_v1",
+      "bindings": [
+        {
+          "character": "queen",
+          "outfit": "queen_masked",
+          "part": "14401040001",
+          "slot": 1,
+          "mesh": "/Game/Characters/queen/queen_masked/14401040001/Meshes/SK_14401040001.SK_14401040001"
+        }
+      ],
+      "atlas_texture_packages": [
+        "/Game/Characters/Textures/5ce6ac0692/T_T_Char_Queen_Head_CE_5ce6ac0692",
+        "/Game/Characters/Textures/d47a51926b/T_T_Char_Queen_Head_N_d47a51926b"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "source": "/Game/Characters/angel/angel/10801040001/Materials/M_VMI_Char_Angel_Arm_UI_1c18c646",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    },
+    {
+      "source": "/Game/Characters/angel/angel/10801040001/Materials/M_VMI_Char_Angel_Clothes_Skin_UI_bfe009d1",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    },
+    {
+      "source": "/Game/Characters/angel/angellucia/10053010002/Materials/M_VMI_Char_Angel_Lucia_A_Clothes_A_UI_Skin_56bc4d64",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    },
+    {
+      "source": "/Game/Characters/angel/angellucia/10053010002/Materials/M_VMI_Char_Angel_Lucia_A_Clothes_C_UI_Skin_a38589a9",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    },
+    {
+      "source": "/Game/Characters/angel/angellucia/10053010002/Materials/M_VMI_Char_Angel_Lucia_A_Trousers_UI_Skin_1df48628",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    },
+    {
+      "source": "/Game/Characters/angel/angellucia/10053010004/Materials/M_VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_2_dacdc096",
+      "reason": "Lucia B hair atlas includes bright flame panels; _2 is Masked and _3 is Translucent. Treat as hair FX until section/UV semantics are proved; do not assign native Hair by its name."
+    },
+    {
+      "source": "/Game/Characters/angel/angellucia/10053010004/Materials/M_VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_3_1f4a10cf",
+      "reason": "Lucia B hair atlas includes bright flame panels; _2 is Masked and _3 is Translucent. Treat as hair FX until section/UV semantics are proved; do not assign native Hair by its name."
+    },
+    {
+      "source": "/Game/Characters/molly/mollynanami/10054010002/Materials/M_VMI_Char_Molly_Nanami_B_Arm_UI_ca41912f",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    },
+    {
+      "source": "/Game/Characters/naimei/naimeibianca/10055010002/Materials/M_VMI_Char_Naimei_Bianca_A_Body_UI_37b802ac",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    },
+    {
+      "source": "/Game/Characters/naimei/suit_a/body/Materials/M_VMI_Char_Naimei_Suit_A_Arm_Skin_UI_cf605c59",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    },
+    {
+      "source": "/Game/Characters/naimei/suit_a/body/Materials/M_VMI_Char_Naimei_Suit_A_Arm_UI_Lod1_2d69fe91",
+      "reason": "Naimei Arm_UI_Lod1 is Masked and shares garment/armor atlas; stock opaque skin builder would alter coverage."
+    },
+    {
+      "source": "/Game/Characters/naimei/suit_a/body/Materials/M_VMI_Char_Naimei_Suit_A_Clothes_Skin_UI_4760735c",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    },
+    {
+      "source": "/Game/Characters/queen/queen/14401010001/Materials/M_VMI_Char_Queen_Insect_S_Arm_UI_b39b692f",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    },
+    {
+      "source": "/Game/Characters/queen/queen/14401010001/Materials/M_VMI_Char_Queen_Insect_S_Body_UI_618170c8",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    },
+    {
+      "source": "/Game/Characters/queen/queen/14401010001/Materials/M_VMI_Char_Queen_Insect_S_Legs_UI_4741519d",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    },
+    {
+      "source": "/Game/Characters/queen/queen_masked/14401010001/Materials/M_VMI_Char_Queen_Insect_S_Arm_UI_b39b692f",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    },
+    {
+      "source": "/Game/Characters/queen/queen_masked/14401010001/Materials/M_VMI_Char_Queen_Insect_S_Body_UI_618170c8",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    },
+    {
+      "source": "/Game/Characters/queen/queen_masked/14401010001/Materials/M_VMI_Char_Queen_Insect_S_Legs_UI_4741519d",
+      "reason": "Mixed garment/accessory and skin RGB atlas; no validated skin region mask or section UV proof, keep DefaultLit."
+    }
+  ]
+}

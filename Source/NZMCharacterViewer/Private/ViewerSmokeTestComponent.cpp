@@ -18,6 +18,8 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/SkyLightComponent.h"
+#include "Components/LightComponent.h"
+#include "Components/ExponentialHeightFogComponent.h"
 #include "Dom/JsonObject.h"
 #include "Dom/JsonValue.h"
 #include "DynamicRHI.h"
@@ -26,6 +28,7 @@
 #include "Engine/SkeletalMesh.h"
 #include "Engine/StreamableManager.h"
 #include "Engine/World.h"
+#include "GameFramework/PlayerController.h"
 #include "HAL/FileManager.h"
 #include "HAL/IConsoleManager.h"
 #include "HAL/PlatformFramePacer.h"
@@ -57,6 +60,12 @@ namespace ViewerSmokeTest
     constexpr double SettleTimeout = 120.0;
     constexpr double SettleSeconds = 2.0;
     constexpr double ScreenshotTimeout = 20.0;
+    constexpr double LightingStillSeconds = 1.5;
+    constexpr double LightingCycleSeconds = 6.0;
+    constexpr double LightingMotionSeconds = LightingCycleSeconds * 2.0;
+    constexpr double LightingStopSeconds = 1.0;
+    constexpr double LightingTotalSeconds = LightingStillSeconds + LightingMotionSeconds + LightingStopSeconds;
+    constexpr double LightingCaptureInterval = 0.3;
 
     bool FiniteVector(const FVector& Value)
     {
@@ -90,7 +99,15 @@ void UViewerSmokeTestComponent::Start(AViewerPawn* InViewer)
 {
     if (!InViewer || !GetWorld() || !GetWorld()->IsGameWorld()) return;
     Viewer = InViewer;
+    bLightingSweep = FParse::Param(FCommandLine::Get(), TEXT("ViewerLightingSweep"));
     SaveUserSettings();
+    if (InViewer->ViewerUI)
+    {
+        // Native Slate input must not change modal state or graphics choices
+        // during either automated run. Production actions remain callable.
+        bSavedUiEnabled = InViewer->ViewerUI->GetIsEnabled();
+        InViewer->ViewerUI->SetIsEnabled(false);
+    }
     StartedUtc = FDateTime::UtcNow().ToIso8601();
     const FString RunName = FString::Printf(TEXT("Run_%s_%u"),
         *FDateTime::UtcNow().ToString(TEXT("%Y%m%dT%H%M%S")), FPlatformProcess::GetCurrentProcessId());
@@ -104,14 +121,21 @@ void UViewerSmokeTestComponent::Start(AViewerPawn* InViewer)
         &UViewerSmokeTestComponent::OnScreenshotProcessed);
     if (InViewer->Catalog)
     {
-        int32 FilterCharacter = INDEX_NONE, FilterOutfit = INDEX_NONE;
+        int32 FilterCharacter = bLightingSweep ? 0 : INDEX_NONE, FilterOutfit = bLightingSweep ? 0 : INDEX_NONE;
         FParse::Value(FCommandLine::Get(), TEXT("ViewerSmokeCharacter="), FilterCharacter);
         FParse::Value(FCommandLine::Get(), TEXT("ViewerSmokeOutfit="), FilterOutfit);
-        for (int32 Character = 0; Character < InViewer->Catalog->Characters.Num(); ++Character)
-            for (int32 Outfit = 0; Outfit < InViewer->Catalog->Characters[Character].Outfits.Num(); ++Outfit)
-                if ((FilterCharacter == INDEX_NONE || Character == FilterCharacter)
-                    && (FilterOutfit == INDEX_NONE || Outfit == FilterOutfit))
-                    Selections.Add({ Character, Outfit });
+        if (bLightingSweep)
+        {
+            if (InViewer->Catalog->Characters.IsValidIndex(FilterCharacter)
+                && InViewer->Catalog->Characters[FilterCharacter].Outfits.IsValidIndex(FilterOutfit))
+                Selections.Add({ FilterCharacter, FilterOutfit });
+        }
+        else
+            for (int32 Character = 0; Character < InViewer->Catalog->Characters.Num(); ++Character)
+                for (int32 Outfit = 0; Outfit < InViewer->Catalog->Characters[Character].Outfits.Num(); ++Outfit)
+                    if ((FilterCharacter == INDEX_NONE || Character == FilterCharacter)
+                        && (FilterOutfit == INDEX_NONE || Outfit == FilterOutfit))
+                        Selections.Add({ Character, Outfit });
     }
     if (Selections.IsEmpty())
     {
@@ -202,6 +226,18 @@ void UViewerSmokeTestComponent::TickComponent(float DeltaTime, ELevelTick TickTy
             Selection.Character, Selection.Outfit, Pawn->GetCharacterIndex(), Pawn->GetOutfitIndex()));
         AddCheck(TEXT("screenshot_saved"), TEXT("unknown"), TEXT("Case interrupted before capture."));
         FinishCase();
+        return;
+    }
+    if (Stage == EStage::LightingSweep)
+    {
+        TickLightingSweep(DeltaTime);
+        return;
+    }
+    if (Stage == EStage::RenderingCapture)
+    {
+        // ProfileGPU records an upcoming rendered frame. Let that frame finish
+        // before the ordinary smoke probe changes FPS and resolution.
+        if (++ProbeFrames >= 3 && Now - StageStarted >= 0.1) BeginRuntimeDiagnostics();
         return;
     }
     if (Stage == EStage::SettingsProbe)
@@ -331,7 +367,22 @@ void UViewerSmokeTestComponent::TickComponent(float DeltaTime, ELevelTick TickTy
         {
             AddCheck(TEXT("assets_and_ui_settled"), TimedOut ? TEXT("unknown") : TEXT("pass"),
                 FString::Printf(TEXT("Remaining editor asset compilations: %d; stable frames: %d."), RemainingCompilations, StableFrames));
-            BeginRuntimeDiagnostics();
+            if (bLightingSweep)
+            {
+                BeginLightingSweep();
+                if (Stage == EStage::LightingSweep) RequestRenderingCapture();
+            }
+            else
+            {
+                RequestRenderingCapture();
+                if (CaseIndex == 0 && bRenderingCaptureRequested)
+                {
+                    ProbeFrames = 0;
+                    Stage = EStage::RenderingCapture;
+                    StageStarted = Now;
+                }
+                else BeginRuntimeDiagnostics();
+            }
         }
     }
 }
@@ -531,6 +582,8 @@ void UViewerSmokeTestComponent::FinishCase()
 {
     if (CurrentResult)
     {
+        if (bLightingSweep) StoreLightingSweepReport();
+        RestoreLightingGridOverride();
         if (Viewer.IsValid())
         {
             Viewer->ResetView();
@@ -569,8 +622,12 @@ void UViewerSmokeTestComponent::WriteReport(const FString& Status)
     Report->SetBoolField(TEXT("all_characters_preloaded"), false);
     Report->SetBoolField(TEXT("validation_settings_persisted"), false);
     Report->SetBoolField(TEXT("original_user_runtime_settings_restored"), bPreferencesRestored);
+    Report->SetBoolField(TEXT("lighting_sweep_mode"), bLightingSweep);
+    Report->SetBoolField(TEXT("lighting_grid_override_restored"), bLightingGridRestored);
     Report->SetBoolField(TEXT("visual_review_of_screenshots_still_required"), true);
-    Report->SetStringField(TEXT("validated_scope"), TEXT("Runtime Catalog selection and sequential async loading; actual references/bounds/playback; supported FPS and screen-percentage CVar/Preferences roundtrips without persistence; actively driven bounded secondary-motion diagnostics, disable/base-pose and replay/switch resets; actual viewport/UI geometry and saved game screenshots. No original-solver, RHI internal-resolution, physical-fold event, shader-appearance or iOS device result is inferred."));
+    Report->SetStringField(TEXT("validated_scope"), bLightingSweep
+        ? TEXT("Development lighting-sweep acquisition only: actual per-frame turn/camera, projected landmark, viewport, frame delta and source-light observations; periodic screenshot requests and saved PNG presence. A completed acquisition does not establish stable lighting or absence of flicker; matched screenshot sequences still require image analysis. Temporary settings are not persisted.")
+        : TEXT("Runtime Catalog selection and sequential async loading; actual references/bounds/playback; supported FPS and screen-percentage CVar/Preferences roundtrips without persistence; actively driven bounded secondary-motion diagnostics, disable/base-pose and replay/switch resets; actual viewport/UI geometry and saved game screenshots. No original-solver, RHI internal-resolution, physical-fold event, shader-appearance or iOS device result is inferred."));
     FString Json;
     const TSharedRef<TJsonWriter<>> Writer = TJsonWriterFactory<>::Create(&Json);
     const bool Serialized = FJsonSerializer::Serialize(Report, Writer);
@@ -581,11 +638,14 @@ void UViewerSmokeTestComponent::WriteReport(const FString& Status)
 
 void UViewerSmokeTestComponent::Complete()
 {
+    RestoreLightingGridOverride();
     RestoreUserSettings(false);
+    RestoreRenderingCaptureSettings();
+    if (Viewer.IsValid() && Viewer->ViewerUI) Viewer->ViewerUI->SetIsEnabled(bSavedUiEnabled);
     Stage = EStage::Complete;
     SetComponentTickEnabled(false);
     FScreenshotRequest::OnScreenshotRequestProcessed().Remove(ScreenshotDelegate);
-    bool Failed = bReportWriteFailed || Results.IsEmpty();
+    bool Failed = bReportWriteFailed || !bLightingGridRestored || Results.IsEmpty();
     bool Unknown = bUnexpectedInterruption || Results.Num() != Selections.Num();
     for (const TSharedPtr<FJsonValue>& Result : Results)
     {
@@ -613,6 +673,9 @@ void UViewerSmokeTestComponent::Stop()
 {
     if (!IsRunning()) return;
     bUnexpectedInterruption = true;
+    if (bLightingSweep && FScreenshotRequest::IsScreenshotRequested()
+        && FScreenshotRequest::GetFilename() == LastLightingScreenshotPath)
+        FScreenshotRequest::Reset();
     if (Stage == EStage::WaitingForScreenshot && FScreenshotRequest::IsScreenshotRequested()
         && FScreenshotRequest::GetFilename() == ScreenshotPath)
         FScreenshotRequest::Reset();
@@ -621,6 +684,10 @@ void UViewerSmokeTestComponent::Stop()
         AddCheck(TEXT("case_completed_before_world_end"), TEXT("unknown"), TEXT("World or pawn ended before the case completed."));
         FinishCase();
     }
+    RestoreLightingGridOverride();
+    RestoreUserSettings(false);
+    RestoreRenderingCaptureSettings();
+    if (Viewer.IsValid() && Viewer->ViewerUI) Viewer->ViewerUI->SetIsEnabled(bSavedUiEnabled);
     Stage = EStage::Complete;
     SetComponentTickEnabled(false);
     FScreenshotRequest::OnScreenshotRequestProcessed().Remove(ScreenshotDelegate);
@@ -646,7 +713,11 @@ void UViewerSmokeTestComponent::SaveUserSettings()
         TEXT("sg.TextureQuality"), TEXT("sg.EffectsQuality"), TEXT("sg.FoliageQuality"), TEXT("sg.ShadingQuality"),
         TEXT("sg.ResolutionQuality"), TEXT("r.MSAACount"), TEXT("r.ShadowQuality"), TEXT("r.Shadow.MaxResolution"),
         TEXT("r.Shadow.CSM.MaxCascades"), TEXT("r.MaxAnisotropy"), TEXT("r.Streaming.MipBias"),
-        TEXT("r.BloomQuality"), TEXT("r.DepthOfFieldQuality"), TEXT("r.Tonemapper.Sharpen"), TEXT("r.Streaming.PoolSize")})
+        TEXT("r.BloomQuality"), TEXT("r.DepthOfFieldQuality"), TEXT("r.Tonemapper.Sharpen"), TEXT("r.Streaming.PoolSize"),
+        TEXT("r.Shadow.MaxCSMResolution"), TEXT("r.Shadow.MaxNumPointShadowCacheUpdatesPerFrame"),
+        TEXT("r.Mobile.AntiAliasing"), TEXT("r.AntiAliasingMethod"), TEXT("r.Tonemapper.Quality"),
+        TEXT("r.Mobile.AmbientOcclusionQuality"), TEXT("r.AmbientOcclusionLevels"), TEXT("r.AmbientOcclusionMaxQuality"),
+        TEXT("r.SSR.Quality"), TEXT("r.SSR.HalfResSceneColor")})
         if (IConsoleVariable* Variable = IConsoleManager::Get().FindConsoleVariable(Name))
             SavedConsoleVariables.Add(Name, Variable->GetString());
 }
@@ -671,6 +742,9 @@ void UViewerSmokeTestComponent::RestoreUserSettings(bool bRecord)
     Preferences->bVignette = SavedPreferences->bVignette;
     Preferences->bDepthOfField = SavedPreferences->bDepthOfField;
     Preferences->bSecondaryMotion = SavedPreferences->bSecondaryMotion;
+    Preferences->bAmbientOcclusion = SavedPreferences->bAmbientOcclusion;
+    Preferences->bScreenSpaceReflections = SavedPreferences->bScreenSpaceReflections;
+    Preferences->GraphicsVersion = SavedPreferences->GraphicsVersion;
     Pawn->ApplyPreferences(); // Never uses the public setters that Persist.
     if (GEngine) GEngine->SetMaxFPS(SavedEngineMaxFps);
     FPlatformRHIFramePacer::SetFramePace(SavedFramePace);
@@ -682,7 +756,10 @@ void UViewerSmokeTestComponent::RestoreUserSettings(bool bRecord)
         && Preferences->bPostProcessing == SavedPreferences->bPostProcessing
         && Preferences->bBloom == SavedPreferences->bBloom && Preferences->bVignette == SavedPreferences->bVignette
         && Preferences->bDepthOfField == SavedPreferences->bDepthOfField
-        && Preferences->bSecondaryMotion == SavedPreferences->bSecondaryMotion;
+        && Preferences->bSecondaryMotion == SavedPreferences->bSecondaryMotion
+        && Preferences->bAmbientOcclusion == SavedPreferences->bAmbientOcclusion
+        && Preferences->bScreenSpaceReflections == SavedPreferences->bScreenSpaceReflections
+        && Preferences->GraphicsVersion == SavedPreferences->GraphicsVersion;
     for (const TPair<FString, FString>& Pair : SavedConsoleVariables)
         if (IConsoleVariable* Variable = IConsoleManager::Get().FindConsoleVariable(*Pair.Key))
         {
@@ -691,10 +768,372 @@ void UViewerSmokeTestComponent::RestoreUserSettings(bool bRecord)
             Restored &= FMath::IsFinite(Actual) && FMath::IsNearlyEqual(Expected, Actual, 0.001);
         }
         else Restored = false;
+    Restored &= RestoreRenderingCaptureSettings();
+    if (bRecord && bRenderingCaptureRequested)
+        AddCheck(TEXT("gpu_profile_showui_value_and_priority_restored"), bProfileShowUIRestored ? TEXT("pass") : TEXT("fail"),
+            TEXT("The diagnostic's tagged temporary ShowUI override is removed; both original value and SetBy priority are checked."));
     bPreferencesRestored = Restored;
     if (bRecord) AddCheck(TEXT("user_settings_restored_without_persist"), Restored ? TEXT("pass") : TEXT("fail"),
         TEXT("Original in-memory preference fields, engine FPS cap, frame pacing and captured runtime CVars restored; no SaveGame write."));
     if (Pawn->ViewerUI) Pawn->ViewerUI->Refresh();
+}
+
+void UViewerSmokeTestComponent::RequestRenderingCapture()
+{
+    if (CaseIndex != 0 || bRenderingCaptureRequested ||
+        !FParse::Param(FCommandLine::Get(), TEXT("ViewerRenderingCapture"))) return;
+    bRenderingCaptureRequested = true;
+    AViewerPawn* Pawn = Viewer.Get();
+    IConsoleVariable* ShowUI = IConsoleManager::Get().FindConsoleVariable(TEXT("r.ProfileGPU.ShowUI"));
+    const bool Available = Pawn && GEngine && ShowUI;
+    bool Accepted = false;
+    if (Available)
+    {
+        SavedProfileShowUIValue = ShowUI->GetString();
+        SavedProfileShowUIPriority = static_cast<uint32>(ShowUI->GetFlags() & ECVF_SetByMask);
+        // Constructor defaults cannot be implicitly replaced in UE 5.8.
+        // A tagged temporary history entry preserves the original priority
+        // and can be removed without leaving a high-priority code override.
+        ShowUI->Set(TEXT("0"), ECVF_SetByTemp, FName(TEXT("ViewerRenderingCapture")));
+        bProfileShowUIOverridden = true;
+        bProfileShowUIRestored = false;
+        if (ShowUI->GetInt() == 0) Accepted = GEngine->Exec(Pawn->GetWorld(), TEXT("ProfileGPU"));
+    }
+    if (CurrentResult)
+    {
+        CurrentResult->SetBoolField(TEXT("requested_gpu_profile_capture"), true);
+        CurrentResult->SetBoolField(TEXT("gpu_profile_command_accepted"), Accepted);
+        CurrentResult->SetBoolField(TEXT("gpu_profile_showui_disabled"), ShowUI && ShowUI->GetInt() == 0);
+        CurrentResult->SetStringField(TEXT("gpu_profile_scope"),
+            TEXT("One ProfileGPU command after the first selection settles, with ShowUI disabled. The command result does not prove GPU events were captured; inspect the process log for the GPU profile. No SaveGame write."));
+    }
+    AddCheck(TEXT("gpu_profile_capture_command"), Accepted ? TEXT("pass") : TEXT("unknown"),
+        TEXT("Optional diagnostic command only. Verify the resulting GPU events in the process log; command acceptance is not pass-execution evidence."));
+}
+
+bool UViewerSmokeTestComponent::RestoreRenderingCaptureSettings()
+{
+    if (!bProfileShowUIOverridden) return bProfileShowUIRestored;
+    IConsoleVariable* ShowUI = IConsoleManager::Get().FindConsoleVariable(TEXT("r.ProfileGPU.ShowUI"));
+    if (ShowUI)
+    {
+        ShowUI->Unset(ECVF_SetByTemp, FName(TEXT("ViewerRenderingCapture")));
+        bProfileShowUIRestored = ShowUI->GetString() == SavedProfileShowUIValue
+            && static_cast<uint32>(ShowUI->GetFlags() & ECVF_SetByMask) == SavedProfileShowUIPriority;
+    }
+    else bProfileShowUIRestored = false;
+    bProfileShowUIOverridden = false;
+    return bProfileShowUIRestored;
+}
+
+void UViewerSmokeTestComponent::BeginLightingSweep()
+{
+    AViewerPawn* Pawn = Viewer.Get();
+    if (!Pawn || !Pawn->Preferences || !SavedPreferences)
+    {
+        AddCheck(TEXT("lighting_sweep_preferences_available"), TEXT("fail"));
+        FinishCase();
+        return;
+    }
+    bLightingSweepStarted = true;
+    LightingSweepReport = MakeShared<FJsonObject>();
+    LightingSweepSamples.Reset();
+    LightingSweepScreenshots.Reset();
+    LightingScreenshotIndex = LightingScreenshotBusySkips = 0;
+    NextLightingScreenshotSeconds = 0.0;
+    LastLightingScreenshotPath.Reset();
+    const bool NoTAA = FParse::Param(FCommandLine::Get(), TEXT("ViewerLightingNoTAA"));
+    const bool ForceTAA = FParse::Param(FCommandLine::Get(), TEXT("ViewerLightingTAA"));
+    const bool ForceSSR = FParse::Param(FCommandLine::Get(), TEXT("ViewerLightingSSR"));
+    int32 RequestedMSAA = 0;
+    const bool HasMSAA = FParse::Value(FCommandLine::Get(), TEXT("ViewerLightingMSAA="), RequestedMSAA);
+    const bool NoSSR = FParse::Param(FCommandLine::Get(), TEXT("ViewerLightingNoSSR")) || NoTAA || HasMSAA;
+    const bool NoShadows = FParse::Param(FCommandLine::Get(), TEXT("ViewerLightingNoShadows"));
+    const bool NoAO = FParse::Param(FCommandLine::Get(), TEXT("ViewerLightingNoAO"));
+    LightingSweepReport->SetBoolField(TEXT("requested_no_ssr"), NoSSR);
+    LightingSweepReport->SetBoolField(TEXT("requested_force_ssr"), ForceSSR);
+    LightingSweepReport->SetBoolField(TEXT("requested_no_shadows"), NoShadows);
+    LightingSweepReport->SetBoolField(TEXT("requested_no_ao"), NoAO);
+    LightingSweepReport->SetBoolField(TEXT("requested_no_taa"), NoTAA);
+    LightingSweepReport->SetBoolField(TEXT("requested_force_taa"), ForceTAA);
+    if (HasMSAA) LightingSweepReport->SetNumberField(TEXT("requested_msaa_samples"), RequestedMSAA);
+    const bool Legacy = FParse::Param(FCommandLine::Get(), TEXT("ViewerLegacyTurntable"));
+    LightingSweepReport->SetStringField(TEXT("turn_mode"), Legacy ? TEXT("legacy_scene_turntable") : TEXT("camera_orbit"));
+    LightingSweepReport->SetNumberField(TEXT("initial_still_seconds"), ViewerSmokeTest::LightingStillSeconds);
+    LightingSweepReport->SetNumberField(TEXT("motion_cycle_seconds"), ViewerSmokeTest::LightingCycleSeconds);
+    LightingSweepReport->SetNumberField(TEXT("motion_cycles"), 2);
+    LightingSweepReport->SetNumberField(TEXT("final_still_seconds"), ViewerSmokeTest::LightingStopSeconds);
+    LightingSweepReport->SetNumberField(TEXT("planned_duration_seconds"), ViewerSmokeTest::LightingTotalSeconds);
+    LightingSweepReport->SetNumberField(TEXT("requested_capture_interval_seconds"), ViewerSmokeTest::LightingCaptureInterval);
+    LightingSweepReport->SetStringField(TEXT("scope"), TEXT("Per-frame observations and periodic screenshot acquisition only. Screenshots are requested after this component's observation, before the viewport renders; exact GPU execution timing is not inferred. PNG presence does not establish absence of flicker. Screenshot I/O can affect frame time."));
+    if (ForceSSR && NoSSR)
+    {
+        AddCheck(TEXT("lighting_sweep_ssr_condition_unambiguous"), TEXT("fail"),
+            TEXT("ViewerLightingSSR requires TAA; do not combine it with NoSSR, NoTAA or MSAA."));
+        FinishCase();
+        return;
+    }
+    // Apply these fields directly: public Pawn preference setters persist.
+    if (NoSSR) Pawn->Preferences->bScreenSpaceReflections = false;
+    if (ForceSSR)
+    {
+        Pawn->Preferences->bPostProcessing = true;
+        Pawn->Preferences->bScreenSpaceReflections = true;
+        Pawn->Preferences->Antialiasing = 0;
+    }
+    if (NoShadows) Pawn->Preferences->Shadows = 0;
+    if (NoAO) Pawn->Preferences->bAmbientOcclusion = false;
+    if (NoTAA) Pawn->Preferences->Antialiasing = 1; // No AA; SSR is explicitly disabled above.
+    else if (HasMSAA)
+    {
+        const bool Supported = RequestedMSAA > 1 && UViewerPreferences::AntialiasingSamples().Contains(RequestedMSAA);
+        AddCheck(TEXT("lighting_sweep_requested_msaa_supported"), Supported ? TEXT("pass") : TEXT("fail"),
+            TEXT("Both the current renderer and native Metal sample-count query must allow this MSAA count."));
+        if (Supported) Pawn->Preferences->Antialiasing = RequestedMSAA;
+    }
+    else if (ForceTAA) Pawn->Preferences->Antialiasing = 0;
+    if (static_cast<int32>(NoTAA) + static_cast<int32>(ForceTAA) + static_cast<int32>(HasMSAA) > 1)
+        AddCheck(TEXT("lighting_sweep_aa_condition_unambiguous"), TEXT("fail"), TEXT("Specify at most one of NoTAA, TAA or MSAA."));
+    Pawn->ApplyPreferences();
+    bPreferencesRestored = false;
+    LightingSweepReport->SetNumberField(TEXT("applied_antialiasing_samples"), Pawn->Preferences->Antialiasing);
+    LightingSweepReport->SetBoolField(TEXT("applied_ssr_preference"), Pawn->Preferences->bScreenSpaceReflections);
+    LightingSweepReport->SetBoolField(TEXT("applied_postprocessing_preference"), Pawn->Preferences->bPostProcessing);
+    LightingSweepReport->SetBoolField(TEXT("applied_ao_preference"), Pawn->Preferences->bAmbientOcclusion);
+    LightingSweepReport->SetNumberField(TEXT("applied_shadow_preference"), Pawn->Preferences->Shadows);
+    int32 RequestedGrid = 0;
+    if (FParse::Value(FCommandLine::Get(), TEXT("ViewerLightingGrid="), RequestedGrid))
+    {
+        LightingSweepReport->SetNumberField(TEXT("requested_max_lights_per_cell"), RequestedGrid);
+        IConsoleVariable* Grid = IConsoleManager::Get().FindConsoleVariable(TEXT("r.Forward.MaxCulledLightsPerCell"));
+        if (!Grid || RequestedGrid < 1 || RequestedGrid > 256)
+            AddCheck(TEXT("lighting_sweep_grid_override_applied"), TEXT("fail"), TEXT("Expected an available grid CVar and a value in 1..256."));
+        else
+        {
+            SavedLightingGridValue = Grid->GetString();
+            bLightingGridOverridden = true;
+            bLightingGridRestored = false;
+            Grid->SetWithCurrentPriority(*FString::FromInt(RequestedGrid));
+            AddCheck(TEXT("lighting_sweep_grid_override_applied"), Grid->GetInt() == RequestedGrid ? TEXT("pass") : TEXT("fail"));
+        }
+    }
+    TSharedPtr<FJsonObject> Variables = MakeShared<FJsonObject>();
+    for (const TCHAR* Name : { TEXT("r.Forward.MaxCulledLightsPerCell"), TEXT("r.Mobile.AntiAliasing"),
+        TEXT("r.AntiAliasingMethod"), TEXT("r.MSAACount"), TEXT("r.Mobile.ScreenSpaceReflections"),
+        TEXT("r.DynamicGlobalIlluminationMethod"), TEXT("r.Lumen.DiffuseIndirect.Allow"),
+        TEXT("r.SSR.Quality"), TEXT("r.SSR.HalfResSceneColor"), TEXT("r.ShadowQuality"),
+        TEXT("r.Mobile.AmbientOcclusionQuality"), TEXT("r.AmbientOcclusionLevels"), TEXT("r.Tonemapper.Sharpen") })
+        if (IConsoleVariable* Variable = IConsoleManager::Get().FindConsoleVariable(Name))
+            Variables->SetStringField(Name, Variable->GetString());
+    LightingSweepReport->SetObjectField(TEXT("applied_console_variables"), Variables);
+    if (Pawn->StagePostProcess)
+    {
+        const FPostProcessSettings& Post = Pawn->StagePostProcess->Settings;
+        LightingSweepReport->SetNumberField(TEXT("applied_stage_global_illumination_method"), static_cast<int32>(Post.DynamicGlobalIlluminationMethod.GetValue()));
+        LightingSweepReport->SetNumberField(TEXT("applied_stage_reflection_method"), static_cast<int32>(Post.ReflectionMethod.GetValue()));
+        LightingSweepReport->SetNumberField(TEXT("applied_stage_ssr_intensity"), Post.ScreenSpaceReflectionIntensity);
+        LightingSweepReport->SetNumberField(TEXT("applied_stage_ssr_quality"), Post.ScreenSpaceReflectionQuality);
+        LightingSweepReport->SetNumberField(TEXT("applied_stage_ssr_max_roughness"), Post.ScreenSpaceReflectionMaxRoughness);
+        LightingSweepReport->SetStringField(TEXT("ssr_observation_scope"),
+            TEXT("Runtime CVars and stage settings only; these do not prove a reflection ray hit or a visible SSR contribution. Compare matched screenshots with SSR disabled."));
+        if (ForceSSR)
+        {
+            const IConsoleVariable* SSRQuality = IConsoleManager::Get().FindConsoleVariable(TEXT("r.SSR.Quality"));
+            const IConsoleVariable* MobileAA = IConsoleManager::Get().FindConsoleVariable(TEXT("r.Mobile.AntiAliasing"));
+            const IConsoleVariable* Samples = IConsoleManager::Get().FindConsoleVariable(TEXT("r.MSAACount"));
+            const bool Enabled = Pawn->Preferences->bPostProcessing && Pawn->Preferences->bScreenSpaceReflections
+                && Pawn->Preferences->Antialiasing == 0 && SSRQuality && SSRQuality->GetInt() > 0
+                && Post.bOverride_ScreenSpaceReflectionIntensity && Post.ScreenSpaceReflectionIntensity > 0.f
+                && (!UViewerPreferences::UsesMobileRenderer() ||
+                    (AreMobileScreenSpaceReflectionsEnabled(GMaxRHIShaderPlatform)
+                        && MobileAA && MobileAA->GetInt() == 2 && Samples && Samples->GetInt() == 1
+                        && Post.bOverride_ReflectionMethod && Post.ReflectionMethod == EReflectionMethod::ScreenSpace));
+            AddCheck(TEXT("lighting_sweep_requested_ssr_settings_enabled"), Enabled ? TEXT("pass") : TEXT("fail"),
+                TEXT("Checks runtime preference, TAA, SSR CVar, nonzero intensity, and the mobile shader capability/reflection method. Visible reflection contribution needs image comparison."));
+        }
+    }
+    else if (ForceSSR) AddCheck(TEXT("lighting_sweep_requested_ssr_settings_enabled"), TEXT("fail"), TEXT("Stage postprocess settings unavailable."));
+    Pawn->ResetView();
+    float RequestedZoom = 1.f;
+    if (FParse::Value(FCommandLine::Get(), TEXT("ViewerLightingZoom="), RequestedZoom))
+    {
+        const bool Valid = FMath::IsFinite(RequestedZoom) && RequestedZoom >= 0.25f && RequestedZoom <= 4.f
+            && FMath::IsFinite(Pawn->Distance) && Pawn->Distance > 0.f;
+        AddCheck(TEXT("lighting_sweep_requested_zoom_valid"), Valid ? TEXT("pass") : TEXT("fail"),
+            TEXT("ViewerLightingZoom must be finite and between 0.25 and 4 inclusive."));
+        if (!Valid)
+        {
+            LightingSweepReport->SetStringField(TEXT("requested_zoom_status"), TEXT("invalid_outside_finite_0.25_to_4_range"));
+            FinishCase();
+            return;
+        }
+        const float ResetDistance = Pawn->Distance;
+        LightingSweepReport->SetNumberField(TEXT("requested_zoom_factor"), RequestedZoom);
+        LightingSweepReport->SetNumberField(TEXT("reset_distance_parameter_cm"), ResetDistance);
+        LightingSweepReport->SetNumberField(TEXT("requested_distance_parameter_cm"), ResetDistance / RequestedZoom);
+        Pawn->Distance = ResetDistance / RequestedZoom;
+        Pawn->UpdateCamera();
+        LightingSweepReport->SetNumberField(TEXT("applied_distance_parameter_cm"), Pawn->Distance);
+        if (Pawn->Camera)
+            LightingSweepReport->SetNumberField(TEXT("applied_camera_horizontal_fov_degrees"), Pawn->Camera->FieldOfView);
+        LightingSweepReport->SetStringField(TEXT("zoom_scope"),
+            TEXT("Uses the viewer's Distance zoom parameter after ResetView. The production camera converts it to field of view; it does not move the camera through stage geometry. Sweep timing and orbit are unchanged."));
+    }
+    Pawn->ReplayAnimation();
+    Stage = EStage::LightingSweep;
+    StageStarted = FPlatformTime::Seconds();
+    CurrentResult->SetObjectField(TEXT("lighting_sweep"), LightingSweepReport);
+    WriteReport(TEXT("running"));
+}
+
+void UViewerSmokeTestComponent::TickLightingSweep(float DeltaTime)
+{
+    AViewerPawn* Pawn = Viewer.Get();
+    if (!Pawn || !LightingSweepReport) { Stop(); return; }
+    const double Elapsed = FPlatformTime::Seconds() - StageStarted;
+    const double MotionTime = Elapsed - ViewerSmokeTest::LightingStillSeconds;
+    const bool Moving = MotionTime >= 0.0 && MotionTime < ViewerSmokeTest::LightingMotionSeconds;
+    const float NextYaw = Moving ? 45.f * FMath::Sin(static_cast<float>(MotionTime / ViewerSmokeTest::LightingCycleSeconds * 2.0 * PI)) : 0.f;
+    TSharedPtr<FJsonObject> Frame = MakeShared<FJsonObject>();
+    Frame->SetNumberField(TEXT("elapsed_seconds"), Elapsed);
+    Frame->SetNumberField(TEXT("delta_seconds"), DeltaTime);
+    Frame->SetStringField(TEXT("engine_frame"), LexToString(GFrameCounter));
+    Frame->SetStringField(TEXT("phase"), Elapsed < ViewerSmokeTest::LightingStillSeconds ? TEXT("initial_still")
+        : Moving ? TEXT("sweep") : Elapsed < ViewerSmokeTest::LightingTotalSeconds ? TEXT("final_still") : TEXT("capture_drain"));
+    // Pawn Tick has already applied the previous target. Keep the observed yaw
+    // and next target separate so projected landmarks match the sampled camera.
+    Frame->SetNumberField(TEXT("requested_yaw"), Pawn->Yaw);
+    Frame->SetNumberField(TEXT("display_yaw"), FMath::UnwindDegrees(Pawn->DisplayYaw));
+    Frame->SetNumberField(TEXT("next_requested_yaw"), NextYaw);
+    APlayerController* PC = Cast<APlayerController>(Pawn->GetController());
+    int32 Width = 0, Height = 0;
+    if (PC) PC->GetViewportSize(Width, Height);
+    Frame->SetArrayField(TEXT("viewport_pixel_rect"), { MakeShared<FJsonValueNumber>(0), MakeShared<FJsonValueNumber>(0),
+        MakeShared<FJsonValueNumber>(Width), MakeShared<FJsonValueNumber>(Height) });
+    if (Pawn->Camera)
+    {
+        Frame->SetNumberField(TEXT("camera_horizontal_fov_degrees"), Pawn->Camera->FieldOfView);
+        Frame->SetArrayField(TEXT("camera_world_position_cm"), ViewerSmokeTest::VectorValues(Pawn->Camera->GetComponentLocation()));
+        const FRotator Rotation = Pawn->Camera->GetComponentRotation();
+        Frame->SetArrayField(TEXT("camera_rotation_pitch_yaw_roll"), ViewerSmokeTest::VectorValues(FVector(Rotation.Pitch, Rotation.Yaw, Rotation.Roll)));
+    }
+    bool LandmarkFound = false;
+    for (const FName Bone : { FName(TEXT("b_Head")), FName(TEXT("b_Chest")), FName(TEXT("b_Spine2")), FName(TEXT("b_Hips")) })
+    {
+        for (USkeletalMeshComponent* Part : Pawn->Parts)
+        {
+            if (!Part || !Part->IsVisible() || Part->GetBoneIndex(Bone) == INDEX_NONE) continue;
+            const FVector WorldPosition = Part->GetBoneLocation(Bone);
+            FVector2D Pixel;
+            const bool Projected = PC && PC->ProjectWorldLocationToScreen(WorldPosition, Pixel, false)
+                && FMath::IsFinite(Pixel.X) && FMath::IsFinite(Pixel.Y);
+            Frame->SetStringField(TEXT("landmark_bone"), Bone.ToString());
+            Frame->SetArrayField(TEXT("landmark_world_position_cm"), ViewerSmokeTest::VectorValues(WorldPosition));
+            Frame->SetBoolField(TEXT("landmark_projected"), Projected);
+            if (Projected)
+                Frame->SetArrayField(TEXT("landmark_screen_pixels"), { MakeShared<FJsonValueNumber>(Pixel.X), MakeShared<FJsonValueNumber>(Pixel.Y) });
+            LandmarkFound = true;
+            break;
+        }
+        if (LandmarkFound) break;
+    }
+    Frame->SetBoolField(TEXT("landmark_available"), LandmarkFound);
+    TArray<TSharedPtr<FJsonValue>> Lights;
+    double IntensitySum = 0.0;
+    for (const ULightComponent* Light : Pawn->StageLights)
+    {
+        if (!Light) continue;
+        TSharedPtr<FJsonObject> Detail = MakeShared<FJsonObject>();
+        Detail->SetStringField(TEXT("component"), Light->GetName());
+        Detail->SetNumberField(TEXT("intensity"), Light->Intensity);
+        Detail->SetBoolField(TEXT("visible"), Light->IsVisible());
+        Detail->SetBoolField(TEXT("casts_shadows"), Light->CastShadows);
+        Detail->SetArrayField(TEXT("world_position_cm"), ViewerSmokeTest::VectorValues(Light->GetComponentLocation()));
+        Detail->SetArrayField(TEXT("world_direction"), ViewerSmokeTest::VectorValues(Light->GetForwardVector()));
+        Lights.Add(MakeShared<FJsonValueObject>(Detail));
+        IntensitySum += Light->Intensity;
+    }
+    Frame->SetNumberField(TEXT("local_and_directional_light_intensity_sum"), IntensitySum);
+    Frame->SetArrayField(TEXT("source_lights"), Lights);
+    if (Pawn->StageSky)
+    {
+        Frame->SetNumberField(TEXT("sky_intensity"), Pawn->StageSky->Intensity);
+        Frame->SetNumberField(TEXT("sky_source_cubemap_angle"), Pawn->StageSky->SourceCubemapAngle);
+        Frame->SetArrayField(TEXT("sky_world_position_cm"), ViewerSmokeTest::VectorValues(Pawn->StageSky->GetComponentLocation()));
+    }
+    if (Elapsed < ViewerSmokeTest::LightingTotalSeconds && Elapsed >= NextLightingScreenshotSeconds)
+    {
+        NextLightingScreenshotSeconds = Elapsed + ViewerSmokeTest::LightingCaptureInterval;
+        if (!FScreenshotRequest::IsScreenshotRequested())
+        {
+            LastLightingScreenshotPath = FPaths::Combine(RunDirectory, FString::Printf(TEXT("Sweep_%03d.png"), LightingScreenshotIndex++));
+            LightingSweepScreenshots.Add(LastLightingScreenshotPath);
+            Frame->SetStringField(TEXT("screenshot_requested"), LastLightingScreenshotPath);
+            // Reuse the PNG readiness helper only for the final acquisition drain.
+            // OnScreenshotProcessed deliberately ignores the LightingSweep stage.
+            ScreenshotPath = LastLightingScreenshotPath;
+            LastScreenshotSize = -1;
+            ScreenshotSizeStableSince = FPlatformTime::Seconds();
+            // Capture the game buffer directly. Slate's OS-window capture can
+            // fail during live resizing and adds UI pixels to lighting samples.
+            FScreenshotRequest::RequestScreenshot(LastLightingScreenshotPath, false, false, false, FIntRect(), true);
+        }
+        else ++LightingScreenshotBusySkips;
+    }
+    LightingSweepSamples.Add(MakeShared<FJsonValueObject>(Frame));
+    Pawn->Yaw = NextYaw;
+    if (Elapsed < ViewerSmokeTest::LightingTotalSeconds) return;
+    const bool OwnRequestPending = FScreenshotRequest::IsScreenshotRequested()
+        && FScreenshotRequest::GetFilename() == LastLightingScreenshotPath;
+    const bool LastPngReady = !LastLightingScreenshotPath.IsEmpty() && IsScreenshotFileReady();
+    if ((OwnRequestPending || !LastPngReady) && Elapsed < ViewerSmokeTest::LightingTotalSeconds + 3.0) return;
+    if (OwnRequestPending) FScreenshotRequest::Reset();
+    float MinimumYaw = 0.f, MaximumYaw = 0.f;
+    for (const TSharedPtr<FJsonValue>& Sample : LightingSweepSamples)
+    {
+        const float Value = Sample->AsObject()->GetNumberField(TEXT("display_yaw"));
+        MinimumYaw = FMath::Min(MinimumYaw, Value);
+        MaximumYaw = FMath::Max(MaximumYaw, Value);
+    }
+    AddCheck(TEXT("lighting_sweep_acquisition_completed"), LightingSweepSamples.Num() >= 20 && MinimumYaw < -20.f && MaximumYaw > 20.f
+        ? TEXT("pass") : TEXT("unknown"), TEXT("Requested two six-second +/-45 degree turns with initial/final still phases; checks observed turn samples, not lighting stability."));
+    AddCheck(TEXT("lighting_sweep_screenshot_requests_issued"), LightingSweepScreenshots.IsEmpty() ? TEXT("unknown") : TEXT("pass"));
+    InspectCurrentSelection();
+    InspectViewportAndUi();
+    FinishCase();
+}
+
+void UViewerSmokeTestComponent::StoreLightingSweepReport()
+{
+    if (!CurrentResult || !bLightingSweepStarted || !LightingSweepReport) return;
+    LightingSweepReport->SetArrayField(TEXT("frames"), LightingSweepSamples);
+    LightingSweepReport->SetNumberField(TEXT("recorded_frames"), LightingSweepSamples.Num());
+    LightingSweepReport->SetNumberField(TEXT("screenshot_requests_skipped_busy"), LightingScreenshotBusySkips);
+    LightingSweepReport->SetBoolField(TEXT("flicker_stability_assessed"), false);
+    TArray<TSharedPtr<FJsonValue>> Captures;
+    for (const FString& Path : LightingSweepScreenshots)
+    {
+        TSharedPtr<FJsonObject> Capture = MakeShared<FJsonObject>();
+        Capture->SetStringField(TEXT("file"), Path);
+        const int64 Size = IFileManager::Get().FileSize(*Path);
+        Capture->SetNumberField(TEXT("observed_file_bytes"), Size);
+        Capture->SetBoolField(TEXT("nonempty_file_observed"), Size > 0);
+        Captures.Add(MakeShared<FJsonValueObject>(Capture));
+    }
+    LightingSweepReport->SetArrayField(TEXT("screenshot_files"), Captures);
+    CurrentResult->SetObjectField(TEXT("lighting_sweep"), LightingSweepReport);
+}
+
+void UViewerSmokeTestComponent::RestoreLightingGridOverride()
+{
+    if (!bLightingGridOverridden) return;
+    if (IConsoleVariable* Grid = IConsoleManager::Get().FindConsoleVariable(TEXT("r.Forward.MaxCulledLightsPerCell")))
+    {
+        Grid->SetWithCurrentPriority(*SavedLightingGridValue);
+        bLightingGridRestored = Grid->GetString() == SavedLightingGridValue;
+    }
+    else bLightingGridRestored = false;
+    bLightingGridOverridden = false;
 }
 
 void UViewerSmokeTestComponent::BeginRuntimeDiagnostics()
@@ -719,6 +1158,12 @@ void UViewerSmokeTestComponent::BeginRuntimeDiagnostics()
     Pawn->ApplyPreferences(); // Applies production logic without Persist.
     if (Pawn->ViewerUI)
     {
+        // OnOpenSettings is the production toggle, so establish a closed
+        // state and release its dismissal latch before opening each case.
+        if (UFunction* CloseSettings = Pawn->ViewerUI->FindFunction(TEXT("OnCloseSettings")))
+            Pawn->ViewerUI->ProcessEvent(CloseSettings, nullptr);
+        else AddCheck(TEXT("settings_panel_close_action_available"), TEXT("unknown"));
+        Pawn->ViewerUI->ConsumeModalPointer(FVector2D::ZeroVector, false);
         Pawn->ViewerUI->Refresh();
         if (UFunction* OpenSettings = Pawn->ViewerUI->FindFunction(TEXT("OnOpenSettings")))
             Pawn->ViewerUI->ProcessEvent(OpenSettings, nullptr);
@@ -763,6 +1208,14 @@ void UViewerSmokeTestComponent::FinishSettingsProbe()
     CurrentResult->SetObjectField(TEXT("settings_probe"), Detail);
     InspectViewportAndUi();
     CurrentResult->SetObjectField(TEXT("settings_overlay_viewport_and_ui"), CurrentResult->GetObjectField(TEXT("viewport_and_ui")));
+    // Cleanup is unconditional: a failed pointer check must neither reopen
+    // the next toggle nor leave an active dismissal press for the next case.
+    if (Pawn && Pawn->ViewerUI)
+    {
+        if (UFunction* CloseSettings = Pawn->ViewerUI->FindFunction(TEXT("OnCloseSettings")))
+            Pawn->ViewerUI->ProcessEvent(CloseSettings, nullptr);
+        Pawn->ViewerUI->ConsumeModalPointer(FVector2D::ZeroVector, false);
+    }
     RestoreUserSettings(false);
 }
 
@@ -797,8 +1250,10 @@ void UViewerSmokeTestComponent::BeginDynamicsProbe()
     SceneRelativeTransforms.Reset();
     MaxSceneTranslationErrorCm = MaxSceneRotationErrorDegrees = 0.f;
     bSceneStayedWithCharacter = true;
+    const FTransform View = Pawn->Camera ? Pawn->Camera->GetComponentTransform() : FTransform::Identity;
+    const FTransform ModelInView = Pawn->ModelRoot->GetComponentTransform().GetRelativeTransform(View);
     for (UStaticMeshComponent* Mesh : Pawn->StageMeshes)
-        SceneRelativeTransforms.Add(Mesh->GetComponentTransform().GetRelativeTransform(Pawn->ModelRoot->GetComponentTransform()));
+        SceneRelativeTransforms.Add(Mesh->GetComponentTransform().GetRelativeTransform(View).GetRelativeTransform(ModelInView));
     const FViewerOutfit* Outfit = Pawn->GetCurrentOutfit();
     for (int32 Index = 0; Index < Pawn->Parts.Num(); ++Index)
     {
@@ -830,10 +1285,12 @@ void UViewerSmokeTestComponent::SampleDynamics()
     if (AViewerPawn* Pawn = Viewer.Get())
     {
         bSceneStayedWithCharacter &= Pawn->StageMeshes.Num() == SceneRelativeTransforms.Num();
+        const FTransform View = Pawn->Camera ? Pawn->Camera->GetComponentTransform() : FTransform::Identity;
+        const FTransform ModelInView = Pawn->ModelRoot->GetComponentTransform().GetRelativeTransform(View);
         for (int32 Index = 0; Index < Pawn->StageMeshes.Num() && Index < SceneRelativeTransforms.Num(); ++Index)
         {
             const FTransform Relative = Pawn->StageMeshes[Index]->GetComponentTransform()
-                .GetRelativeTransform(Pawn->ModelRoot->GetComponentTransform());
+                .GetRelativeTransform(View).GetRelativeTransform(ModelInView);
             const float TranslationError = FVector::Distance(Relative.GetLocation(), SceneRelativeTransforms[Index].GetLocation());
             const float RotationError = FMath::RadiansToDegrees(Relative.GetRotation()
                 .AngularDistance(SceneRelativeTransforms[Index].GetRotation()));
@@ -868,7 +1325,8 @@ void UViewerSmokeTestComponent::FinishDynamicsProbe()
     CurrentResult->SetNumberField(TEXT("max_scene_relative_rotation_error_degrees"), MaxSceneRotationErrorDegrees);
     AddCheck(TEXT("scene_and_character_preserve_relative_placement_during_turn"),
         !SceneRelativeTransforms.IsEmpty() && bSceneStayedWithCharacter ? TEXT("pass") : TEXT("fail"),
-        TEXT("All scene mesh transforms measured relative to the avatar root throughout the driven turn, including furniture and background."));
+        TEXT("Scene and avatar transforms are first expressed relative to the measured camera, then their relative placement is compared. This checks visual scene/avatar placement for camera orbit or legacy world turns; it does not require world geometry to rotate."));
+    const bool LegacyTurntable = FParse::Param(FCommandLine::Get(), TEXT("ViewerLegacyTurntable"));
     TArray<TSharedPtr<FJsonValue>> Observations;
     int32 MatchedComponents = 0;
     for (const FDynamicObservation& Observation : DynamicObservations)
@@ -896,18 +1354,20 @@ void UViewerSmokeTestComponent::FinishDynamicsProbe()
             ++MatchedComponents;
             AddCheck(Prefix + TEXT("solver_frame_advanced"), Observation.SolvedFrameChanges >= 3 ? TEXT("pass") : TEXT("fail"));
             const bool Driven = Observation.DrivenRotationDegrees > 5.f && Observation.Samples >= 8;
-            AddCheck(Prefix + TEXT("actual_turn_driver_observed"), Driven ? TEXT("pass") : TEXT("unknown"));
+            AddCheck(Prefix + TEXT("actual_turn_driver_observed"), !LegacyTurntable ? TEXT("not_applicable") : Driven ? TEXT("pass") : TEXT("unknown"));
             const bool Responded = Observation.PeakDisplacementCm > 0.0001f;
-            AddCheck(Prefix + TEXT("driven_response"), Driven && Responded ? TEXT("pass") : TEXT("unknown"),
-                TEXT("Response requires a measured component turn and a nonzero finite solver displacement; zero alone is never a failure."));
+            AddCheck(Prefix + TEXT("driven_response"), !LegacyTurntable ? TEXT("not_applicable") : Driven && Responded ? TEXT("pass") : TEXT("unknown"),
+                TEXT("Camera orbit does not turn the physical component and does not test turn-induced inertia. Legacy response requires a measured component turn and a nonzero finite solver displacement."));
             const bool Bounded = Observation.SafetyLimitCm > 0.f && Observation.PeakDisplacementCm <= Observation.SafetyLimitCm + 0.1f;
             AddCheck(Prefix + TEXT("bounded_response"), Bounded ? TEXT("pass") : Observation.SafetyLimitCm <= 0.f ? TEXT("unknown") : TEXT("fail"));
-            Detail->SetStringField(TEXT("response_status"), Driven && Responded && Observation.bFinite ? TEXT("observed") : TEXT("unknown"));
+            Detail->SetStringField(TEXT("response_status"), !LegacyTurntable ? TEXT("not_applicable_camera_orbit") : Driven && Responded && Observation.bFinite ? TEXT("observed") : TEXT("unknown"));
         }
         Observations.Add(MakeShared<FJsonValueObject>(Detail));
     }
     CurrentResult->SetArrayField(TEXT("driven_dynamics"), Observations);
-    CurrentResult->SetStringField(TEXT("driver"), TEXT("1.2 second +/-32 degree sinusoidal Pawn.Yaw target; normal DisplayYaw/SceneRoot update, no teleport, no simulated result injection."));
+    CurrentResult->SetStringField(TEXT("driver"), LegacyTurntable
+        ? TEXT("1.2 second +/-32 degree sinusoidal Pawn.Yaw target driving the legacy SceneRoot turntable; no teleport or simulated-result injection.")
+        : TEXT("1.2 second +/-32 degree sinusoidal Pawn.Yaw target driving the camera around fixed world geometry. Solver bounds/frame progression are observed; turn-induced physical response is not applicable."));
     AddCheck(TEXT("dynamics_has_matched_chain"), MatchedComponents > 0 ? TEXT("pass") : TEXT("unknown"));
 }
 
@@ -1005,6 +1465,18 @@ void UViewerSmokeTestComponent::InspectViewportAndUi()
     Rendering->SetBoolField(TEXT("unreal_rhi_supports_ray_tracing"), GRHISupportsRayTracing);
     Rendering->SetBoolField(TEXT("unreal_ray_tracing_enabled"), IsRayTracingEnabled());
     Rendering->SetStringField(TEXT("maximum_rhi_shader_platform"), LexToString(GMaxRHIShaderPlatform, false));
+    Rendering->SetBoolField(TEXT("stage_fog_component_created"), Pawn->StageFog != nullptr);
+    if (Pawn->StageFog)
+    {
+        Rendering->SetBoolField(TEXT("stage_fog_visible"), Pawn->StageFog->IsVisible());
+        Rendering->SetBoolField(TEXT("stage_fog_requests_fsss"), Pawn->StageFog->bEnableFSSS);
+        Rendering->SetNumberField(TEXT("stage_fog_density"), Pawn->StageFog->FogDensity);
+    }
+    if (Pawn->Preferences)
+    {
+        Rendering->SetNumberField(TEXT("preference_antialiasing_samples"), Pawn->Preferences->Antialiasing);
+        Rendering->SetBoolField(TEXT("preference_screen_space_reflections"), Pawn->Preferences->bScreenSpaceReflections);
+    }
     if (const UWorld* World = Pawn->GetWorld())
         if (const FSceneInterface* Scene = World->Scene)
         {
@@ -1026,12 +1498,20 @@ void UViewerSmokeTestComponent::InspectViewportAndUi()
         Rendering->SetNumberField(TEXT("stage_global_illumination_method"), static_cast<int32>(Post.DynamicGlobalIlluminationMethod.GetValue()));
         Rendering->SetBoolField(TEXT("stage_overrides_reflection_method"), Post.bOverride_ReflectionMethod);
         Rendering->SetNumberField(TEXT("stage_reflection_method"), static_cast<int32>(Post.ReflectionMethod.GetValue()));
+        Rendering->SetNumberField(TEXT("stage_ssr_intensity"), Post.ScreenSpaceReflectionIntensity);
+        Rendering->SetNumberField(TEXT("stage_ssr_quality"), Post.ScreenSpaceReflectionQuality);
+        Rendering->SetNumberField(TEXT("stage_ssr_max_roughness"), Post.ScreenSpaceReflectionMaxRoughness);
     }
     TSharedPtr<FJsonObject> RenderCVars = MakeShared<FJsonObject>();
     for (const TCHAR* Name : { TEXT("r.DynamicGlobalIlluminationMethod"), TEXT("r.ReflectionMethod"),
         TEXT("r.Lumen.DiffuseIndirect.Allow"), TEXT("r.Lumen.Reflections.Allow"), TEXT("r.GenerateMeshDistanceFields"),
         TEXT("r.RayTracing"), TEXT("r.SkinCache.CompileShaders"), TEXT("r.Lumen.HardwareRayTracing"),
-        TEXT("r.RayTracing.Geometry.SkeletalMeshes"), TEXT("r.Mobile.AntiAliasing"), TEXT("r.Mobile.ScreenSpaceReflections"), TEXT("r.Mobile.AmbientOcclusion") })
+        TEXT("r.RayTracing.Geometry.SkeletalMeshes"), TEXT("r.Mobile.AntiAliasing"), TEXT("r.AntiAliasingMethod"),
+        TEXT("r.MSAACount"), TEXT("r.Mobile.ScreenSpaceReflections"), TEXT("r.SSR.Quality"),
+        TEXT("r.SSR.HalfResSceneColor"), TEXT("r.Mobile.AmbientOcclusion"),
+        TEXT("r.ForwardShading"), TEXT("r.MegaLights.EnableForProject"), TEXT("r.MegaLights.Allow"),
+        TEXT("r.MegaLights.FrontLayerTranslucency.EnableForProject"),
+        TEXT("r.Fog.SeparateComposition"), TEXT("r.VolumetricFog"), TEXT("r.SSS.Quality") })
         if (const IConsoleVariable* Variable = IConsoleManager::Get().FindConsoleVariable(Name))
             RenderCVars->SetStringField(Name, Variable->GetString());
     Rendering->SetObjectField(TEXT("runtime_console_variables"), RenderCVars);
@@ -1100,7 +1580,13 @@ void UViewerSmokeTestComponent::InspectViewportAndUi()
     Detail->SetStringField(TEXT("foldable_scope"), TEXT("Records the actual current viewport and visible UI geometry; a physical fold/unfold event is not fabricated by this test."));
     CurrentResult->SetObjectField(TEXT("viewport_and_ui"), Detail);
     if (Stage != EStage::SettingsProbe) return;
-    if (!Pawn->ViewerUI || !ObservedSettingsPanel || Size.X <= 0 || Size.Y <= 0)
+    bool bPanelVisible = ObservedSettingsPanel != nullptr;
+    for (UWidget* Ancestor = ObservedSettingsPanel; Ancestor; Ancestor = Ancestor->GetParent())
+        bPanelVisible &= Ancestor->IsVisible();
+    AddCheck(TEXT("settings_panel_visible_before_pointer_probe"), !Pawn->ViewerUI || !ObservedSettingsPanel
+        ? TEXT("unknown") : bPanelVisible ? TEXT("pass") : TEXT("fail"),
+        TEXT("The measured settings border and its ancestors must be visible; hidden cached geometry cannot establish an open modal."));
+    if (!Pawn->ViewerUI || !ObservedSettingsPanel || !bPanelVisible || Size.X <= 0 || Size.Y <= 0)
     {
         AddCheck(TEXT("settings_outside_pointer_closes_modal"), TEXT("unknown"), TEXT("No measured settings panel geometry."));
         if (Pawn->ViewerUI)

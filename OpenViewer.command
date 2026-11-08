@@ -6,4 +6,4 @@ if [ ! -f "$PROJECT_ROOT/Content/Viewer/Maps/L_Viewer.umap" ]; then
   exit 1
 fi
 exec "$UE_ROOT/Engine/Binaries/Mac/UnrealEditor.app/Contents/MacOS/UnrealEditor" \
-  "$PROJECT_FILE" /Game/Viewer/Maps/L_Viewer -game -windowed -ResX=1440 -ResY=900 -log -nosplash
+  "$PROJECT_FILE" /Game/Viewer/Maps/L_Viewer -game -windowed -ResX=1440 -ResY=900 -log -nosplash "$@"

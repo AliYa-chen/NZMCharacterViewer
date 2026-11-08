@@ -14,6 +14,7 @@ class UTexture2D;
 class UTexture;
 class UMaterialInterface;
 class UPostProcessComponent;
+class UExponentialHeightFogComponent;
 class ULightComponent;
 class USkyLightComponent;
 class UStaticMeshComponent;
@@ -72,6 +73,7 @@ private:
     UPROPERTY() TObjectPtr<UViewerPreferences> Preferences;
     UPROPERTY() TObjectPtr<UViewerEnvironment> Environment;
     UPROPERTY() TObjectPtr<UPostProcessComponent> StagePostProcess;
+    UPROPERTY(Transient) TObjectPtr<UExponentialHeightFogComponent> StageFog;
     UPROPERTY() TArray<TObjectPtr<ULightComponent>> StageLights;
     UPROPERTY() TObjectPtr<USkyLightComponent> StageSky;
     UPROPERTY() TArray<TObjectPtr<UStaticMeshComponent>> StageMeshes;
@@ -96,6 +98,12 @@ private:
     FVector Focus = FVector(0.f, 0.f, 100.f);
     FVector2D PreviousPointer = FVector2D::ZeroVector;
     FVector2D LastViewportSize = FVector2D::ZeroVector;
+    // Capture one evaluated pose per selection; animation must not pump the FOV.
+    FBox FramingBounds = FBox(ForceInit);
+    FBox2D LastModelViewportRect = FBox2D(ForceInit);
+    FVector FramingCameraLocation = FVector::ZeroVector;
+    FRotator FramingCameraRotation = FRotator::ZeroRotator;
+    float FramingHorizontalFOV = 29.9281126f;
     float PreviousPinch = 0.f;
     bool bPointerDragging = false;
     bool bPinching = false;
@@ -129,6 +137,7 @@ private:
     void ClearStage();
     void LoadOutfitEnvironment(const FViewerOutfit& Outfit);
     void UpdateCamera();
+    void InvalidateViewHistory();
     void ReadPointerInput();
     void ApplyPreferences();
     void Orbit(FVector2D Delta);

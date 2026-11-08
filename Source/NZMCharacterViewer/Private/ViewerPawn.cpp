@@ -3,9 +3,12 @@
 #include "ViewerSmokeTestComponent.h"
 #include "ViewerEnvironment.h"
 #include "ViewerDynamics.h"
+#include "ViewerIOSViewport.h"
 #include "Camera/CameraComponent.h"
+#include "Camera/PlayerCameraManager.h"
 #include "Animation/AnimSequence.h"
 #include "Components/DirectionalLightComponent.h"
+#include "Components/ExponentialHeightFogComponent.h"
 #include "Components/InputComponent.h"
 #include "Components/PointLightComponent.h"
 #include "Components/SpotLightComponent.h"
@@ -31,6 +34,7 @@
 #include "Misc/Parse.h"
 #include "RHI.h"
 #include "DataDrivenShaderPlatformInfo.h"
+#include "SceneInterface.h"
 
 AViewerPawn::AViewerPawn()
 {
@@ -56,6 +60,32 @@ void AViewerPawn::BeginPlay()
     Super::BeginPlay();
     SetActorLocationAndRotation(FVector::ZeroVector, FRotator::ZeroRotator);
     Preferences = UViewerPreferences::Load();
+#if !UE_BUILD_SHIPPING
+    // Compare a renderer initialized with MSAA to a live AA-mode transition.
+    // This development override never writes the saved preference object.
+    int32 StartupMSAA = 0;
+    if (FParse::Param(FCommandLine::Get(), TEXT("ViewerLightingBootMSAA")) &&
+        FParse::Value(FCommandLine::Get(), TEXT("ViewerLightingMSAA="), StartupMSAA) &&
+        StartupMSAA > 1 && UViewerPreferences::AntialiasingSamples().Contains(StartupMSAA))
+    {
+        Preferences->bScreenSpaceReflections = false;
+        Preferences->Antialiasing = StartupMSAA;
+    }
+    if (FParse::Param(FCommandLine::Get(), TEXT("ViewerLightingTAA")))
+    {
+        // Interactive comparison without starting the automated lighting sweep.
+        // These startup settings are applied in memory, never persisted here.
+        Preferences->Antialiasing = 0;
+    }
+    if (FParse::Param(FCommandLine::Get(), TEXT("ViewerLightingSSR")))
+    {
+        Preferences->bPostProcessing = true;
+        Preferences->bScreenSpaceReflections = true;
+        Preferences->Antialiasing = 0;
+    }
+    else if (FParse::Param(FCommandLine::Get(), TEXT("ViewerLightingNoSSR")))
+        Preferences->bScreenSpaceReflections = false;
+#endif
     Environment = LoadObject<UViewerEnvironment>(nullptr,
         TEXT("/Game/Viewer/Environment/DA_Environment.DA_Environment"));
     if (!Environment)
@@ -66,7 +96,8 @@ void AViewerPawn::BeginPlay()
     InitializeInterface();
     UpdateCamera();
 #if !UE_BUILD_SHIPPING
-    if (FParse::Param(FCommandLine::Get(), TEXT("ViewerSmokeTest")))
+    if (FParse::Param(FCommandLine::Get(), TEXT("ViewerSmokeTest")) ||
+        FParse::Param(FCommandLine::Get(), TEXT("ViewerLightingSweep")))
     {
         SmokeTest = NewObject<UViewerSmokeTestComponent>(this);
         SmokeTest->RegisterComponent();
@@ -104,13 +135,19 @@ void AViewerPawn::SetupPlayerInputComponent(UInputComponent* Input)
 void AViewerPawn::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
+    ViewerIOSViewport::Tick();
     InitializeInterface();
     TickSelectionPreparation();
     if (!bPreparingSelection && (!SmokeTest || !SmokeTest->IsRunning())) ReadPointerInput();
     DisplayYaw = FMath::FixedTurn(DisplayYaw, Yaw, FMath::Min(DeltaSeconds, 0.05f) * 540.f);
-    // Furniture, backdrop, lights and avatar share the same turntable. A seated
-    // character must never rotate away from the chair while the camera orbits.
-    SceneRoot->SetRelativeRotation(FRotator(0.f, DisplayYaw, 0.f));
+    // Orbit the complete stage with the camera. Rotating geometry and local
+    // lights instead leaves specified HDR lighting in a different world frame.
+    // The development switch preserves that old path for device comparisons.
+    bool bLegacyTurntable = false;
+#if !UE_BUILD_SHIPPING
+    bLegacyTurntable = FParse::Param(FCommandLine::Get(), TEXT("ViewerLegacyTurntable"));
+#endif
+    SceneRoot->SetRelativeRotation(bLegacyTurntable ? FRotator(0.f, DisplayYaw, 0.f) : FRotator::ZeroRotator);
     UpdateCamera();
 }
 
@@ -332,6 +369,7 @@ void AViewerPawn::BuildPreparingComponents()
         Component->SetSkeletalMesh(Part.Mesh.Get());
         Component->SetAnimationMode(EAnimationMode::AnimationSingleNode);
         Component->SetCastShadow(true);
+        Component->SetLightingChannels(true, true, false);
         // Bind every material before registration; never register a visible
         // mesh with the importer's temporary/default material slots.
         for (int32 Slot = 0; Slot < Part.Materials.Num(); ++Slot)
@@ -464,6 +502,9 @@ void AViewerPawn::CommitPreparedSelection()
     ActiveOutfitIndex = OutfitIndex;
     ActiveHandle = MoveTemp(LoadingHandle);
     FBox Bounds(ForceInit);
+    FBox PoseBounds(ForceInit);
+    FramingBounds = FBox(ForceInit);
+    const FVector PreviousModelLocation = ModelRoot->GetComponentLocation();
     for (int32 Index = 0; Index < Parts.Num(); ++Index)
     {
         USkeletalMeshComponent* Component = Parts[Index];
@@ -474,8 +515,41 @@ void AViewerPawn::CommitPreparedSelection()
         // margin for culling. Keep the existing reference-mesh framing/ground
         // normalization independent of that margin, or standing feet float.
         if (Outfit->Parts[Index].bVisibleByDefault && Component->GetSkeletalMeshAsset())
+        {
             Bounds += Component->GetSkeletalMeshAsset()->GetBounds()
                 .TransformBy(Component->GetComponentTransform()).GetBox();
+            // Use one evaluated idle pose for composition. The renderer's box
+            // also includes the reference pose and can dwarf a seated avatar.
+            if (Outfit->Parts[Index].Animation.Get())
+            {
+                Component->SetPosition(0.f, false);
+                Component->TickAnimation(0.f, false);
+                Component->RefreshBoneTransforms();
+            }
+            FBox PartPoseBounds(ForceInit);
+            const TArray<FTransform>& Pose = Component->GetComponentSpaceTransforms();
+            // Only anatomy describes the subject. Cape, skirt, weapon and
+            // presentation controls can sit metres beyond the visible body.
+            static const FName Landmarks[] = {
+                TEXT("b_Hips"), TEXT("b_Spine"), TEXT("b_Spine1"), TEXT("b_Spine2"),
+                TEXT("b_Neck"), TEXT("b_Head"),
+                TEXT("b_LeftClav"), TEXT("b_LeftArm"), TEXT("b_LeftForeArm"), TEXT("b_LeftHand"),
+                TEXT("b_RightClav"), TEXT("b_RightArm"), TEXT("b_RightForeArm"), TEXT("b_RightHand"),
+                TEXT("b_LeftLegUpper"), TEXT("b_LeftLeg"), TEXT("b_LeftAnkle"), TEXT("b_LeftToe"),
+                TEXT("b_RightLegUpper"), TEXT("b_RightLeg"), TEXT("b_RightAnkle"), TEXT("b_RightToe") };
+            for (const FName BoneName : Landmarks)
+            {
+                const int32 BoneIndex = Component->GetBoneIndex(BoneName);
+                if (!Pose.IsValidIndex(BoneIndex)) continue;
+                const FVector Position = Component->GetComponentTransform().TransformPosition(Pose[BoneIndex].GetLocation());
+                if (!Position.ContainsNaN())
+                {
+                    PartPoseBounds += Position;
+                    if (BoneName == FName(TEXT("b_Head"))) PartPoseBounds += Position + FVector(0.f, 0.f, 12.f);
+                }
+            }
+            if (PartPoseBounds.IsValid) PoseBounds += PartPoseBounds.ExpandBy(8.f);
+        }
     }
     for (UStaticMeshComponent* Mesh : StageMeshes) { Mesh->SetVisibility(true, true); Mesh->PrestreamTextures(3.f, false); }
     PreparingMaterials.Reset();
@@ -492,6 +566,10 @@ void AViewerPawn::CommitPreparedSelection()
         const FVector Center = Bounds.GetCenter();
         ModelRoot->SetRelativeLocation(Environment && Environment->bPreserveModelOrigin
             ? FVector::ZeroVector : FVector(-Center.X, -Center.Y, -Bounds.Min.Z));
+        const FVector NormalizationOffset = ModelRoot->GetComponentLocation() - PreviousModelLocation;
+        FramingBounds = (PoseBounds.IsValid ? PoseBounds : Bounds).ShiftBy(NormalizationOffset);
+        UE_LOG(LogTemp, Display, TEXT("Viewer stable pose framing: center=%s, size=%s, evaluated pose=%s"),
+            *FramingBounds.GetCenter().ToString(), *FramingBounds.GetSize().ToString(), PoseBounds.IsValid ? TEXT("yes") : TEXT("no"));
         Focus = FVector(0.f, 0.f, ModelHeight * 0.72f);
         if (Environment && Environment->bFrameFromHeadBone)
         {
@@ -603,6 +681,15 @@ void AViewerPawn::ResetView()
     for (USkeletalMeshComponent* Part : Parts)
         if (UViewerSkeletalMeshComponent* Dynamic = Cast<UViewerSkeletalMeshComponent>(Part)) Dynamic->ResetSecondaryMotion();
     UpdateCamera();
+    InvalidateViewHistory();
+}
+
+void AViewerPawn::InvalidateViewHistory()
+{
+    // A new composition, renderer choice or reset cannot reuse the old view's
+    // temporal samples. Ordinary drag frames keep their history for TAA.
+    if (APlayerController* PC = Cast<APlayerController>(GetController()))
+        if (PC->PlayerCameraManager) PC->PlayerCameraManager->SetGameCameraCutThisFrame();
 }
 
 void AViewerPawn::SetPartVisible(int32 Index, bool bVisible)
@@ -707,54 +794,101 @@ void AViewerPawn::UpdateCamera()
 {
     int32 Width = 0, Height = 0;
     if (const APlayerController* PC = Cast<APlayerController>(GetController())) PC->GetViewportSize(Width, Height);
-    if (Width > 0 && Height > 0)
+    if (Width <= 0 || Height <= 0) return;
+    const float Aspect = static_cast<float>(Width) / Height;
+    Camera->AspectRatio = Aspect;
+    const FVector2D Size(Width, Height);
+    FBox2D Available = ViewerUI ? ViewerUI->GetModelViewportRect() : FBox2D(ForceInit);
+    if (!Available.bIsValid || Available.GetSize().GetMin() < 64.0)
+        Available = FBox2D(FVector2D::ZeroVector, Size);
+    const bool bLayoutChanged = !Size.Equals(LastViewportSize, 0.5) || !LastModelViewportRect.bIsValid ||
+        !Available.Min.Equals(LastModelViewportRect.Min, 0.5) || !Available.Max.Equals(LastModelViewportRect.Max, 0.5);
+    if (bLayoutChanged)
     {
-        const float Aspect = static_cast<float>(Width) / Height;
-        const float ReferenceFOV = Environment ? Environment->CameraHorizontalFOV : 29.9281126f;
-        const float ReferenceAspect = Environment ? Environment->ReferenceAspectRatio : 1.7777778f;
-        const float HalfVerticalTangent = FMath::Tan(FMath::DegreesToRadians(ReferenceFOV * 0.5f)) / ReferenceAspect;
-        // On narrow screens preserve the source horizontal coverage by opening
-        // vertical coverage. Pulling the camera backwards can put it behind the
-        // walls/furniture of a recovered preview scene.
-        const float HalfHorizontalTangent = HalfVerticalTangent * FMath::Max(Aspect, ReferenceAspect);
-        Camera->FieldOfView = FMath::RadiansToDegrees(2.f * FMath::Atan(HalfHorizontalTangent));
-        Camera->AspectRatio = Aspect;
-        const FVector2D Size(Width, Height);
-        if (!Size.Equals(LastViewportSize))
+        const bool bSourceCamera = Environment && Environment->bUseSourceCamera;
+        const float BasePitch = Environment ? Environment->CameraPitch : 4.4f;
+        const float BaseYaw = Environment ? Environment->CameraYaw : -90.f;
+        const FRotator BaseRotation = bSourceCamera ? Environment->SourceCameraTransform.Rotator()
+            : FRotator(BasePitch, BaseYaw, 0.f);
+        // Keep the source camera inside its preview room. Fit by projection and
+        // direction, rather than retreating through furniture or background walls.
+        FramingCameraLocation = bSourceCamera ? Environment->SourceCameraTransform.GetLocation()
+            : Focus - BaseRotation.Vector() * DefaultDistance;
+        const FBox FitBounds = FramingBounds.IsValid ? FramingBounds
+            : FBox(Focus - FVector(ModelWidth * 0.5f, ModelWidth * 0.5f, ModelHeight * 0.5f),
+                Focus + FVector(ModelWidth * 0.5f, ModelWidth * 0.5f, ModelHeight * 0.5f));
+        const FQuat LookAtCenter = (FitBounds.GetCenter() - FramingCameraLocation).Rotation().Quaternion();
+        const FVector2D DesiredCenter(Available.GetCenter().X * 2.0 / Width - 1.0,
+            1.0 - Available.GetCenter().Y * 2.0 / Height);
+        // Keep a margin around the stable anatomical pose. Every candidate
+        // rotation is rebuilt from the same look-at, never accumulated Euler
+        // corrections that can drift or diverge near a steep source camera.
+        const FVector2D HalfCoverage(Available.GetSize().X / Width * 0.8,
+            Available.GetSize().Y / Height * 0.8);
+        auto RotationForTangent = [&](double Tangent)
         {
-            const float ZoomRatio = DefaultDistance > 1.f ? Distance / DefaultDistance : 1.f;
-            const float ReferenceDistance = Environment && Environment->bUseSourceCamera ? Environment->CameraDistance
-                : (Environment ? Environment->CameraDistance : 350.f) * ModelHeight / 180.f;
-            // Keep recovered cameras inside their original preview space.
-            // Portrait coverage is handled by projection, without letterboxing.
-            DefaultDistance = Environment && Environment->bUseSourceCamera
-                ? ReferenceDistance
-                : FMath::Max(ReferenceDistance, ModelWidth / FMath::Max(0.01f, 1.4f * HalfHorizontalTangent));
-            Distance = DefaultDistance * ZoomRatio;
-            LastViewportSize = Size;
-            UE_LOG(LogTemp, Display, TEXT("Viewer viewport changed: %dx%d, aspect %.4f, horizontal FOV %.3f, unconstrained"), Width, Height, Aspect, Camera->FieldOfView);
+            const FVector DesiredRay = FVector(1.0, DesiredCenter.X * Tangent,
+                DesiredCenter.Y * Tangent / Aspect).GetSafeNormal();
+            return LookAtCenter * FQuat::FindBetweenNormals(DesiredRay, FVector::ForwardVector);
+        };
+        auto Fits = [&](double Tangent)
+        {
+            const FQuat InverseRotation = RotationForTangent(Tangent).Inverse();
+            for (int32 Corner = 0; Corner < 8; ++Corner)
+            {
+                const FVector Position((Corner & 1) ? FitBounds.Max.X : FitBounds.Min.X,
+                    (Corner & 2) ? FitBounds.Max.Y : FitBounds.Min.Y,
+                    (Corner & 4) ? FitBounds.Max.Z : FitBounds.Min.Z);
+                const FVector Local = InverseRotation.RotateVector(Position - FramingCameraLocation);
+                if (Local.X <= 5.0) return false;
+                const FVector2D Projected(Local.Y / (Local.X * Tangent),
+                    Local.Z * Aspect / (Local.X * Tangent));
+                if (FMath::Abs(Projected.X - DesiredCenter.X) > HalfCoverage.X ||
+                    FMath::Abs(Projected.Y - DesiredCenter.Y) > HalfCoverage.Y) return false;
+            }
+            return true;
+        };
+        double MinimumTangent = FMath::Tan(FMath::DegreesToRadians(7.5));
+        double MaximumTangent = FMath::Tan(FMath::DegreesToRadians(50.0));
+        // Bounded scalar search: each test projects the complete box into the
+        // intended rectangle, including asymmetric perspective at close range.
+        for (int32 Iteration = 0; Iteration < 24; ++Iteration)
+        {
+            const double Candidate = (MinimumTangent + MaximumTangent) * 0.5;
+            if (Fits(Candidate)) MaximumTangent = Candidate;
+            else MinimumTangent = Candidate;
         }
+        FramingCameraRotation = RotationForTangent(MaximumTangent).Rotator();
+        FramingHorizontalFOV = FMath::RadiansToDegrees(2.0 * FMath::Atan(MaximumTangent));
+        LastViewportSize = Size;
+        LastModelViewportRect = Available;
+        InvalidateViewHistory();
+        UE_LOG(LogTemp, Display, TEXT("Viewer viewport changed: %dx%d, aspect %.4f, fitted FOV %.3f, model area (%.0f,%.0f)-(%.0f,%.0f)"),
+            Width, Height, Aspect, FramingHorizontalFOV, Available.Min.X, Available.Min.Y, Available.Max.X, Available.Max.Y);
     }
-    if (Environment && Environment->bUseSourceCamera)
+    const float ZoomRatio = DefaultDistance > 1.f ? Distance / DefaultDistance : 1.f;
+    Camera->FieldOfView = FMath::Clamp(FMath::RadiansToDegrees(2.f * FMath::Atan(
+        FMath::Tan(FMath::DegreesToRadians(FramingHorizontalFOV * 0.5f)) * ZoomRatio)), 8.f, 110.f);
+    FRotator Rotation = FramingCameraRotation;
+    Rotation.Pitch += Pitch - (Environment ? Environment->CameraPitch : 4.4f);
+    Camera->SetWorldLocationAndRotation(FramingCameraLocation, Rotation);
+    bool bLegacyTurntable = false;
+#if !UE_BUILD_SHIPPING
+    bLegacyTurntable = FParse::Param(FCommandLine::Get(), TEXT("ViewerLegacyTurntable"));
+#endif
+    if (!bLegacyTurntable)
     {
-        const FTransform& Source = Environment->SourceCameraTransform;
-        FRotator Rotation = Source.Rotator();
-        Rotation.Pitch += Pitch - Environment->CameraPitch;
-        const FVector ViewTarget = Source.GetLocation() + Source.GetRotation().GetForwardVector() * Environment->CameraDistance;
-        Camera->SetWorldLocationAndRotation(ViewTarget - Rotation.Vector() * Distance, Rotation);
-        if (StagePostProcess && Preferences && Preferences->bDepthOfField)
-            StagePostProcess->Settings.DepthOfFieldFocalDistance = Distance;
-        return;
+        const FQuat OrbitRotation(FVector::UpVector, FMath::DegreesToRadians(-DisplayYaw));
+        const FVector Pivot = FramingBounds.IsValid ? FramingBounds.GetCenter() : SceneRoot->GetComponentLocation();
+        const float PitchDelta = Pitch - (Environment ? Environment->CameraPitch : 4.4f);
+        const FQuat PitchOrbit(FramingCameraRotation.Quaternion().GetRightVector(), -FMath::DegreesToRadians(PitchDelta));
+        const FQuat Orbit = OrbitRotation * PitchOrbit;
+        Camera->SetWorldLocationAndRotation(Pivot + Orbit.RotateVector(FramingCameraLocation - Pivot),
+            Orbit * FramingCameraRotation.Quaternion());
     }
-    const float CameraYaw = Environment ? Environment->CameraYaw : -90.f;
-    const FRotator Rotation(Pitch, CameraYaw, 0.f);
-    const float HalfWidth = Distance * FMath::Tan(FMath::DegreesToRadians(Camera->FieldOfView * 0.5f));
-    const FVector ViewTarget = Focus - FRotationMatrix(Rotation).GetUnitAxis(EAxis::Y) * HalfWidth * 0.18f;
-    const FVector Position = ViewTarget - Rotation.Vector() * Distance;
-    Camera->SetWorldLocation(Position);
-    Camera->SetWorldRotation(Rotation);
     if (StagePostProcess && Preferences && Preferences->bDepthOfField)
-        StagePostProcess->Settings.DepthOfFieldFocalDistance = Distance;
+        StagePostProcess->Settings.DepthOfFieldFocalDistance = FramingBounds.IsValid
+            ? FVector::Distance(FramingCameraLocation, FramingBounds.GetCenter()) : DefaultDistance;
 }
 
 FText AViewerPawn::GetCharacterLabel() const
@@ -847,6 +981,7 @@ void AViewerPawn::ApplyPreferences()
 {
     if (!Preferences) return;
     Preferences->ApplyEngineSettings();
+    InvalidateViewHistory();
     if (StagePostProcess)
     {
         FPostProcessSettings& Post = StagePostProcess->Settings;
@@ -868,7 +1003,10 @@ void AViewerPawn::ApplyPreferences()
         Post.bOverride_DepthOfFieldFocalDistance = true;
         Post.DepthOfFieldFocalDistance = Distance;
         Post.bOverride_AmbientOcclusionIntensity = true;
-        Post.AmbientOcclusionIntensity = Preferences->bPostProcessing && Preferences->bAmbientOcclusion ? 1.f : 0.f;
+        // Keep the environment's calibrated contact shading. Forcing 1 here
+        // doubled the imported value and dirtied faces and clothing folds.
+        Post.AmbientOcclusionIntensity = Preferences->bPostProcessing && Preferences->bAmbientOcclusion
+            ? Environment ? Environment->PostProcess.AmbientOcclusionIntensity : 0.45f : 0.f;
         Post.bOverride_AmbientOcclusionQuality = true;
         Post.AmbientOcclusionQuality = 100.f;
         Post.bOverride_ScreenSpaceReflectionIntensity = true;
@@ -883,7 +1021,7 @@ void AViewerPawn::ApplyPreferences()
             ? EDynamicGlobalIlluminationMethod::Lumen : EDynamicGlobalIlluminationMethod::None;
         Post.bOverride_ReflectionMethod = true;
         Post.ReflectionMethod = Preferences->bPostProcessing && Preferences->bScreenSpaceReflections
-            ? bMobile ? EReflectionMethod::ScreenSpace : EReflectionMethod::Lumen
+            ? EReflectionMethod::ScreenSpace
             : EReflectionMethod::None;
         if (!bMobile)
         {
@@ -904,6 +1042,7 @@ void AViewerPawn::ApplyPreferences()
             Post.ColorContrastMidtones = FVector4(1.f, 1.f, 1.f, 1.f);
         }
     }
+    if (StageFog) StageFog->SetVisibility(Preferences->bPostProcessing);
     for (ULightComponent* Light : StageLights)
     {
         if (!Light) continue;
@@ -924,6 +1063,8 @@ void AViewerPawn::ClearStage()
     StageLights.Reset();
     if (StageSky) StageSky->DestroyComponent();
     StageSky = nullptr;
+    if (StageFog) StageFog->DestroyComponent();
+    StageFog = nullptr;
     if (StagePostProcess) StagePostProcess->DestroyComponent();
     StagePostProcess = nullptr;
 }
@@ -949,6 +1090,41 @@ void AViewerPawn::LoadOutfitEnvironment(const FViewerOutfit& Outfit)
 void AViewerPawn::CreateStage(bool bUsePreparedMeshes)
 {
     USceneComponent* Root = SceneRoot;
+#if !PLATFORM_IOS
+    const bool bFogScatteringRequested = (Environment && Environment->bEnableFogScattering)
+        || FParse::Param(FCommandLine::Get(), TEXT("ViewerFogScattering"));
+    const FSceneInterface* Scene = GetWorld() ? GetWorld()->Scene : nullptr;
+    const bool bDesktopFogSupported = Scene && Scene->GetFeatureLevel() >= ERHIFeatureLevel::SM5
+        && !IsMobilePlatform(Scene->GetShaderPlatform());
+    if (bFogScatteringRequested && bDesktopFogSupported)
+    {
+        StageFog = NewObject<UExponentialHeightFogComponent>(this);
+        StageFog->SetupAttachment(Root);
+        StageFog->SetMobility(EComponentMobility::Movable);
+        StageFog->SetFogDensity(FMath::Clamp(Environment ? Environment->FogDensity : 0.003f, 0.f, 0.05f));
+        StageFog->SetFogHeightFalloff(FMath::Clamp(Environment ? Environment->FogHeightFalloff : 0.2f, 0.001f, 2.f));
+        StageFog->SetStartDistance(FMath::Max(0.f, Environment ? Environment->FogStartDistance : 100.f));
+        StageFog->SetFogInscatteringColor(Environment ? Environment->FogColor : FLinearColor(0.04f, 0.055f, 0.075f));
+        StageFog->SetVolumetricFog(true);
+        StageFog->SetVolumetricFogAlbedo(FColor(180, 180, 180));
+        StageFog->SetVolumetricFogScatteringDistribution(0.2f);
+        StageFog->SetVolumetricFogDistance(1200.f);
+        StageFog->SetVolumetricFogStartDistance(FMath::Max(0.f, Environment ? Environment->FogStartDistance : 100.f));
+        // Conservative native FSSS controls keep the character readable. The
+        // renderer's separate fog composition still decides actual pass support.
+        StageFog->bEnableFSSS = true;
+        StageFog->FSSSSceneColorScatteringAmountScale = 0.15f;
+        StageFog->FSSSSceneColorScatteringAmountPower = 1.f;
+        StageFog->FSSSSpreadScale = 0.15f;
+        StageFog->FSSSBlurControl = 0.35f;
+        StageFog->SetVisibility(!Preferences || Preferences->bPostProcessing);
+        StageFog->RegisterComponent();
+        UE_LOG(LogTemp, Display, TEXT("Native stage fog scattering requested: density=%.4f; start=%.1fcm; feature level=%d"),
+            StageFog->FogDensity, StageFog->StartDistance, static_cast<int32>(Scene->GetFeatureLevel()));
+    }
+    else if (bFogScatteringRequested)
+        UE_LOG(LogTemp, Display, TEXT("Native stage fog scattering skipped: requires a desktop SM5+ scene."));
+#endif
     if (Environment)
     {
         if (!bUsePreparedMeshes) for (const FViewerEnvironmentMesh& Spec : Environment->Meshes)
@@ -994,6 +1170,17 @@ void AViewerPawn::CreateStage(bool bUsePreparedMeshes)
             Light->SetupAttachment(Root);
             Light->SetMobility(EComponentMobility::Movable);
             Light->SetRelativeLocationAndRotation(Spec.Location, Spec.Rotation);
+            Light->SetLightingChannels((Spec.LightingChannelMask & 1) != 0,
+                (Spec.LightingChannelMask & 2) != 0, (Spec.LightingChannelMask & 4) != 0);
+            if (UDirectionalLightComponent* Directional = Cast<UDirectionalLightComponent>(Light))
+            {
+                // This is a small character stage: spend shadow texels around
+                // the subject rather than the engine's outdoor default range.
+                Directional->DynamicShadowDistanceMovableLight = 1600.f;
+                Directional->DynamicShadowCascades = 3;
+                Directional->CascadeDistributionExponent = 2.f;
+                Directional->CascadeTransitionFraction = 0.15f;
+            }
             if (UPointLightComponent* Local = Cast<UPointLightComponent>(Light))
             {
                 Local->SetIntensityUnits(static_cast<ELightUnits>(Spec.IntensityUnits));

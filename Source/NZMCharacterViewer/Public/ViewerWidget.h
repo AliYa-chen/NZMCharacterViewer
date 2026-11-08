@@ -110,6 +110,8 @@ public:
     void SelectCharacterTile(int32 Index);
     bool BlocksModelInput(FVector2D ViewportPixelPosition) const;
     bool ConsumeModalPointer(FVector2D ViewportPixelPosition, bool bPressed);
+    // Actual viewport pixels available to the model after safe-area/UI layout.
+    FBox2D GetModelViewportRect() const;
 protected:
     virtual TSharedRef<SWidget> RebuildWidget() override;
     virtual void NativeConstruct() override;
