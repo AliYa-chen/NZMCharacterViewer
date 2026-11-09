@@ -1,0 +1,254 @@
+{
+  "Type": "MaterialInstanceConstant",
+  "Name": "VMI_Char_Char_Angela_Suit_B_t_Bubby_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Char_Angela_Suit_B_t_Bubby_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Liquid'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Liquid.0"
+    },
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BubbleDensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 49.0,
+        "ExpressionGUID": "9BAD1832-452C8399-61D02DB3-C57AD5BA"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BubbleRange",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.16,
+        "ExpressionGUID": "05526633-43D63B8C-31711F98-ABF054E6"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BubbleSize",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.39,
+        "ExpressionGUID": "136F5CC7-418A8558-B502EFAD-E8F36D5E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BubbleSpeed",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 15.0,
+        "ExpressionGUID": "1BB6B149-4EA26329-60DF499F-C04D94EA"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "TexTlie",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "03680985-45CF6699-FE9C64B3-43CD565D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.288375,
+        "ExpressionGUID": "62B10336-4DB4F914-A3C36E86-40423ACC"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EdgeThicness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.005,
+        "ExpressionGUID": "60565ADE-44478A4A-6E06B2BC-34219AD6"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Fresnel_Range",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.633795,
+        "ExpressionGUID": "A5D28EBA-4E09D7F7-A6DF659A-0B4B3BA9"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Wtaer Height ↑",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.82381,
+        "ExpressionGUID": "FE34D058-4E2EE62D-636F0392-96B22997"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Wtaer Height→",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.2,
+        "ExpressionGUID": "6C6758B5-416D41DF-C7BB2B9E-7D558AC5"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Wtaer Height ↓",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "C0446114-48FC7133-F66742BA-8567699E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Wave Density",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.189249,
+        "ExpressionGUID": "D007A193-4328B533-C847419E-AA46FB8B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Wave Speed",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.402381,
+        "ExpressionGUID": "D5A6DF51-4CEF7980-F1DFD0B6-CC764590"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "WaveStrength",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.088095,
+        "ExpressionGUID": "60E5D372-48E882B5-B484C092-AD5ADFAE"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BubbleColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 5.0,
+          "G": 2.743055,
+          "B": 2.743055,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "3DEF7441-43FFF675-2446DF84-214FE986"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "TopColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.706597,
+          "G": 0.548929,
+          "B": 0.239213,
+          "A": 1.0,
+          "Hex": "DBC486"
+        },
+        "ExpressionGUID": "FC68A801-48295D50-D99A8F82-B19C7332"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Fresnel_Color",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.956597,
+          "G": 0.770912,
+          "B": 0.543068,
+          "A": 1.0,
+          "Hex": "FBE4C3"
+        },
+        "ExpressionGUID": "5706CE5A-42B6222B-7F71558E-6FCE5504"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EdgeColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 0.810663,
+          "B": 0.413194,
+          "A": 1.0,
+          "Hex": "FFE9AC"
+        },
+        "ExpressionGUID": "7A501CBE-4C6131F0-3770A2A5-941A919F"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "LiquidDirectionSwitch",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.20818,
+          "G": 0.363912,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "7EA3FF"
+        },
+        "ExpressionGUID": "B0678779-4A7D2E25-E3386881-9C349C7E"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMConfigTexture_BaseColor'",
+          "ObjectPath": "NZM/Content/MaterialLib/Textures/TextureConfig/T_VMConfigTexture_BaseColor.0"
+        },
+        "ExpressionGUID": "03F4047E-470DCBA4-A44D1BB8-3B6B0CD5"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "TwoSided": true,
+      "BlendMode": "BLEND_Masked",
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMConfigTexture_BaseColor"
+      }
+    ]
+  }
+}

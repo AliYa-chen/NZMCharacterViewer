@@ -1,0 +1,266 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Bella_Pop_C_Glitter_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Materials/UI/VMI_Char_Bella_Pop_C_Glitter_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_Cloth_Glitter_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Cloth_Glitter_UI.0"
+    },
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Emissive Effects: Scattering",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.333,
+        "ExpressionGUID": "3512F408-41910A70-AEADB49D-549CDA39"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Simulated Sun Reflection: Emissive",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 4.2,
+        "ExpressionGUID": "2020FEB1-4DF9CBB6-073D16B9-9E79D717"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Simulated Sun Reflection: Spread",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 10.0,
+        "ExpressionGUID": "50D3723F-409E12D7-F7A592B8-2C12DF70"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EdgeRoughness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.536169,
+        "ExpressionGUID": "8406B829-4887F968-65AA0F9A-9B21C81A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ExponentIn",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.913623,
+        "ExpressionGUID": "7BDC4B1B-442C2C28-1F018387-EAF6E74E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Fraction",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -2.0,
+        "ExpressionGUID": "22B63FBD-45384343-91F1B4B8-9D26ADF8"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "GlitterMetallic",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.6,
+        "ExpressionGUID": "D4BFC7C2-4CC64D99-EB651EA2-EC2EE060"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "GlitterNormalIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.6,
+        "ExpressionGUID": "810EA50B-4150486F-9B8CA080-74A96CD0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "GlitterTiling",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 20.0,
+        "ExpressionGUID": "7918E324-40E2CA84-E7C8D4B5-FA112A6F"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "LutAlpha",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.14,
+        "ExpressionGUID": "D6A7CDDC-4C9FE8DD-4F9ABFBC-FC7AC6CA"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "LutOffset",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.01,
+        "ExpressionGUID": "5E0F47F5-4704343C-02973888-9E09C847"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Matcap_Power",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.588402,
+        "ExpressionGUID": "A110FE49-413F1266-C0D9F4B3-12EEAAC9"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Roughness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.669134,
+        "ExpressionGUID": "134972E4-43419DE5-0DED0993-6C45CE4B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Simulated Sun Reflection: Color",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 0.938583,
+          "B": 0.895833,
+          "A": 1.0,
+          "Hex": "FFF8F3"
+        },
+        "ExpressionGUID": "8FFB127E-4B0EDA52-E90E058B-D579D9D3"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "cameraOffset",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.830299,
+          "A": 1.0,
+          "Hex": "0000EB"
+        },
+        "ExpressionGUID": "3332EECB-4CAA29D9-84799BAF-E5EEE0DB"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_71f635603dbc9ec5fe93cd6275789a96'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_71f635603dbc9ec5fe93cd6275789a96.0"
+        },
+        "ExpressionGUID": "5C8EF357-43EBE9DA-6F2D778A-31AC5D13"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_2d9577984018329e88017cf36f2e3924'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_NormalMap_2d9577984018329e88017cf36f2e3924.0"
+        },
+        "ExpressionGUID": "39EE56C0-4B4381F6-9A013F85-E8621073"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_EmissiveMap_31878fab1cf26b6c6fb410017d5f56e9'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_EmissiveMap_31878fab1cf26b6c6fb410017d5f56e9.0"
+        },
+        "ExpressionGUID": "F28A088A-4A42E09E-1C9F2492-7C397E84"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_RAMMap_eb1f0a3dc6f6efb8b422a77f816f5f93'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_RAMMap_eb1f0a3dc6f6efb8b422a77f816f5f93.0"
+        },
+        "ExpressionGUID": "63DD2FFD-48D9C996-224D3D92-B64D0DBA"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "GlitterLut",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'MatCap_Ramp_Tex'",
+          "ObjectPath": "NZM/Content/Avatar/Base/Textures/MatCap/MatCap_Ramp_Tex.0"
+        },
+        "ExpressionGUID": "7C0BF68D-47BC960B-71457E8D-735E740C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "GlitterNormal",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Bella_Pop_C_Suit_Glitter'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Texture/T_Char_Bella_Pop_C_Suit_Glitter.0"
+        },
+        "ExpressionGUID": "5AD54ABF-40E2606D-FD34AEB6-A1075E02"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "MatCap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'MatCap_Mix_Tex'",
+          "ObjectPath": "NZM/Content/Avatar/Base/Textures/MatCap/MatCap_Mix_Tex.0"
+        },
+        "ExpressionGUID": "64D62C0D-4B8CB6A4-BA407792-F280F600"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseNormalOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    }
+  }
+}

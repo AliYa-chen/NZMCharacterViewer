@@ -1,0 +1,297 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Angel_Lucia_A_Hair_3P_2",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Hair_3P_2",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_HairBlend_Master_FlowEnergy_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Hair/Material/M_HairBlend_Master_FlowEnergy_PC.0"
+    },
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "bUsedColorTint",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "AE9FFBAF-49038AD0-1414E893-9C63DB81"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RootScatter",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "8B91A3F9-4737C883-90FE80B0-B4750A27"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Specular",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.8,
+        "ExpressionGUID": "E72B2DBA-4A94F550-DBB038B1-55BDAEE2"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Roughness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.3,
+        "ExpressionGUID": "0F4BF77B-4B49680E-BEB30F8D-49EAF4E2"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BackLit",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.3,
+        "ExpressionGUID": "1746CE43-45CE7EC6-8605D985-FA29AA69"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Dis_Int",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.2,
+        "ExpressionGUID": "19C91BA2-42E4B61E-35DF5BA4-08697296"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FlameBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -0.86,
+        "ExpressionGUID": "15A98474-432DE89C-FDB380A2-F3ACB494"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FlameIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.0,
+        "ExpressionGUID": "DB486E8F-4DBB8BFA-25082B92-1DDD77FB"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Edgelight",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "BB3E9514-4C59D575-6CB45BA3-1B505D7C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "maskmul",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.0,
+        "ExpressionGUID": "D01D47C5-45417104-E23AB3BB-68CC201F"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PixelDepthOffset",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "8FDCA41F-44E76694-1D66D9B5-D791878C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ScreenUV",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "FB45AC0E-4AA13E1B-DE869E89-E76168E4"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ScreenUV2",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "ED612472-4F5251B3-4EF28783-C1CCCA26"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BrightColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 50.0,
+          "G": 10.904968,
+          "B": 4.750049,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "A6FCD5D4-4F23ED08-C0E49692-0E749135"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DarkColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 50.0,
+          "G": 10.904968,
+          "B": 4.750049,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "97990743-469919B2-46A8B999-90BB0340"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DisTexUV",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 100.0,
+          "G": 1.000011,
+          "B": 0.0,
+          "A": 0.1,
+          "Hex": "19FFFF00"
+        },
+        "ExpressionGUID": "908E2F87-440D169F-AC4A2F84-7226F0EE"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Refraction3UV",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 0.2,
+          "Hex": "33FFFF00"
+        },
+        "ExpressionGUID": "8E1FAAA9-4B0D2DA3-3CC268A2-9D06C32C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.02,
+          "G": 0.016862,
+          "B": 0.014271,
+          "A": 1.0,
+          "Hex": "26231F"
+        },
+        "ExpressionGUID": "AE6727A9-4047E306-2E7018B3-C7345794"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Color1",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.02,
+          "G": 0.015382,
+          "B": 0.015382,
+          "A": 0.0,
+          "Hex": "262121"
+        },
+        "ExpressionGUID": "C89FC1BC-4653590E-AB64218E-298B75F4"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Color2",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.02,
+          "G": 0.016632,
+          "B": 0.016632,
+          "A": 0.028,
+          "Hex": "07262222"
+        },
+        "ExpressionGUID": "6D52D382-4A08A2E7-938D7DA5-DC9C9723"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Alpha_ID_Roughness_Root",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angel_Lucia_A_Hair_AIRR_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Textures_HD/T_Char_Angel_Lucia_A_Hair_AIRR_HD.0"
+        },
+        "ExpressionGUID": "735D39BA-4B398AD1-AE93E49C-3E56728A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angel_Lucia_A_Hair_B_D_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Textures_HD/T_Char_Angel_Lucia_A_Hair_B_D_HD.0"
+        },
+        "ExpressionGUID": "6F66D750-4E17A196-D3384990-DAC4B0F8"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FlameNoiseTex",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_EFX_FlameSkin'",
+          "ObjectPath": "NZM/Content/Effect/Texture/Flame/T_EFX_FlameSkin.0"
+        },
+        "ExpressionGUID": "26D48698-4FF1E376-588E6980-E2DEB475"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bOverride_CastDynamicShadowAsMasked": true,
+      "bOverride_TwoSided": true,
+      "TwoSided": true,
+      "bCastDynamicShadowAsMasked": true,
+      "BlendMode": "BLEND_Masked",
+      "ShadingModel": "MSM_Hair",
+      "OpacityMaskClipValue": 0.3333,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    }
+  }
+}

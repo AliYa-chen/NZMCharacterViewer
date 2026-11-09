@@ -1,0 +1,120 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Angela_Suit_B_Head_PC",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Head_PC",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Skin_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Master_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Bias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -2.0,
+        "ExpressionGUID": "467BF3F1-4C90C150-65256DA7-DA639792"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PSABias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "54FF086F-478A5B4B-6685878A-75A4071A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "AOPow",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "EB954FCD-4FC3B98B-554E3891-DD9CCABB"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "bUsedAO?",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "71498EAF-4FF2DEB8-60474880-F8DAF5F6"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "DetailNormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_N_StandardNormal'",
+          "ObjectPath": "NZM/Content/MaterialLib/Textures/T_N_StandardNormal.0"
+        },
+        "ExpressionGUID": "7447F909-4A5D638B-0DC8C2A2-C1668852"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angela_Suit_B_Head_C_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angela/CommonRes/Textures_HD/T_Char_Angela_Suit_B_Head_C_HD.0"
+        },
+        "ExpressionGUID": "794121A2-4A8DDFB6-4A763492-CBAFE635"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angela_Suit_B_Head_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angela/CommonRes/Textures_HD/T_Char_Angela_Suit_B_Head_N_HD.0"
+        },
+        "ExpressionGUID": "BF98B7FE-4646CF20-4129919E-BAE6F8C0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PSARMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angela_Suit_B_Head_PSAR_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angela/CommonRes/Textures_HD/T_Char_Angela_Suit_B_Head_PSAR_HD.0"
+        },
+        "ExpressionGUID": "E1611FC2-4D2522FB-515EBC85-6C203CD1"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_SubsurfaceProfile",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    }
+  }
+}

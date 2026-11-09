@@ -1,0 +1,220 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Angel_Lucia_A_Arm_3P_FX",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Arm_3P_FX",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_Effect'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Alpha Mask Control",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.0,
+        "ExpressionGUID": "AC6EBF28-43AE7B63-D27767A7-4B80AA60"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Scaning Light Speed",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.4,
+        "ExpressionGUID": "325BF62E-4A0AC6CD-A3E86DB9-7BBE6984"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Scaning Light X",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -1.0,
+        "ExpressionGUID": "EDDD2564-4161634A-EDAC81A5-6756EA27"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Scaning Light Y",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "AC3C16CA-4DBDFE3D-545AE3A9-9AC1DC5F"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Scaning Light Intensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 100.0,
+        "ExpressionGUID": "602B9284-4ED88D48-CF51008C-8F35D84A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Scaning Light Offset",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -0.1,
+        "ExpressionGUID": "A8352F8F-4A511519-EA935B8B-D61060E0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "[Emissive] Color Tint",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "788E2D5E-42166C7C-735FF1BA-DC8DA08E"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angel_Lucia_A_Arm_C_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Textures_HD/T_Char_Angel_Lucia_A_Arm_C_HD.0"
+        },
+        "ExpressionGUID": "5C8EF357-43EBE9DA-6F2D778A-31AC5D13"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angel_Lucia_A_Arm_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Textures_HD/T_Char_Angel_Lucia_A_Arm_N_HD.0"
+        },
+        "ExpressionGUID": "86570B28-47EF48A0-7219E38D-46BC481E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angel_Lucia_A_Arm_E_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Textures_HD/T_Char_Angel_Lucia_A_Arm_E_HD.0"
+        },
+        "ExpressionGUID": "F28A088A-4A42E09E-1C9F2492-7C397E84"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angel_Lucia_A_Arm_RAM_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Textures_HD/T_Char_Angel_Lucia_A_Arm_RAM_HD.0"
+        },
+        "ExpressionGUID": "A16FBFCE-41C7F30B-DADC5B89-5A7EFFC9"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "[Switch] Use Emissive Effect",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "F390AD85-4895B51A-7B757A99-59B897B3"
+        },
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "UseEmissive",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "18D9E7E3-42C8EB02-EAC571B9-B44DA462"
+        }
+      ],
+      "MaterialLayersParameters": [
+        {
+          "Value": {
+            "Layers": [
+              null
+            ],
+            "Blends": [],
+            "LayerStates": [
+              true
+            ]
+          },
+          "ParameterInfo": {
+            "Name": "AvatarLens",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "969F6A03-4C028091-C09EDF88-4A03569C"
+        }
+      ]
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Angel_Lucia_A_Arm_C_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Angel_Lucia_A_Arm_E_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Angel_Lucia_A_Arm_N_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Angel_Lucia_A_Arm_RAM_HD"
+      }
+    ]
+  }
+}

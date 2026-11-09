@@ -1,0 +1,101 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Angel_1P_Skin",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_1P_Skin",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Skin_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Master_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "bOverrideSubsurfaceProfile": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_7ec2980709c87c2ed791c416e0fb1482'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_7ec2980709c87c2ed791c416e0fb1482.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_8d32c7c02aea60fe6e2473ee8ebdf09f'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_8d32c7c02aea60fe6e2473ee8ebdf09f.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PSARMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_PSARMap_2c8d1d34a47f1701f639ca8ca53ad110'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_PSARMap_2c8d1d34a47f1701f639ca8ca53ad110.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "MetallicMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_MetallicMap_73c7622d6e34a7ce86d22b0de1e6e682'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_MetallicMap_73c7622d6e34a7ce86d22b0de1e6e682.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_EmissiveMap_df1905e4b894ca2982df9f47d186628c'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_EmissiveMap_df1905e4b894ca2982df9f47d186628c.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_SubsurfaceProfile",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "SubsurfaceProfile": {
+      "ObjectName": "SubsurfaceProfile'1P_SubsurfaceProfile_Skin'",
+      "ObjectPath": "NZM/Content/Avatar/Base/Materials/1P_SubsurfaceProfile_Skin.0"
+    }
+  }
+}

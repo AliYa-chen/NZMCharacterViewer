@@ -1,0 +1,285 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Bella_Pop_C_Stocking_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Materials/UI/VMI_Char_Bella_Pop_C_Stocking_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_Stocking_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "anisotropy",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -0.7,
+        "ExpressionGUID": "F82FAC57-482ECF6D-16207CAB-CB8938B3"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "AnisotropyRange",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 10.0,
+        "ExpressionGUID": "DC438535-4342C273-628AD5A2-70CFDF58"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "AnisotropyRangeScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.5,
+        "ExpressionGUID": "DFF4C851-4CE9895E-B86BD182-54F6D0A8"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseReflectFractionIn",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -0.3,
+        "ExpressionGUID": "68FD3CC5-4DD2AA25-B5521383-19DEE7A6"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DetailHeightTiling",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 3.18326,
+        "ExpressionGUID": "5DCE9A30-487CB55C-B35A408B-734CF398"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DetailNormalFlatness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "505A64A0-44E19786-3F2975B8-560FAFF8"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DetailNormalTiling",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.0,
+        "ExpressionGUID": "932699EC-44C958C6-EC9EE6A6-2DB02562"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ExponentIn_1",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.378646,
+        "ExpressionGUID": "2BDDA59E-4F44AA81-F85ADF94-2E704623"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FresnelIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.8,
+        "ExpressionGUID": "F4C6F097-4A11A759-CFE40AAE-F0F77E1C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FresnelRange",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.0,
+        "ExpressionGUID": "367C98F9-419A6AF5-D241A8A7-32295C04"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Metallic",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.122085,
+        "ExpressionGUID": "8E011C14-4EBBBCCB-C5558AA7-7BE78841"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RoughnessA",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.4,
+        "ExpressionGUID": "FEB1F2DB-44C65A6F-AEAEEB9F-246E1278"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RoughnessB",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.7,
+        "ExpressionGUID": "07337AFE-406380AC-86DB98BF-038FFBAD"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Specular",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.8,
+        "ExpressionGUID": "C82400D2-4F525B0F-28C40281-BD6396CD"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Param",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.125326,
+          "G": 0.127386,
+          "B": 0.145834,
+          "A": 1.0,
+          "Hex": "63646B"
+        },
+        "ExpressionGUID": "98121F94-43F17E97-47B32797-6DADC51A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "SpecularColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.550596,
+          "G": 0.550596,
+          "B": 0.550596,
+          "A": 1.0,
+          "Hex": "C4C4C4"
+        },
+        "ExpressionGUID": "42D48005-49EC804E-7B9E6E9B-B769FB5D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Tangent",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 0.11,
+          "A": 1.0,
+          "Hex": "FF005D"
+        },
+        "ExpressionGUID": "57A9AA05-488D9F01-B4225EB3-E3D28AE1"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_7fe299bf01b09e4db387c9ea37a0f739'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_7fe299bf01b09e4db387c9ea37a0f739.0"
+        },
+        "ExpressionGUID": "5C8EF357-43EBE9DA-6F2D778A-31AC5D13"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_6259bb497b69f638d3506898d4c865d4'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_NormalMap_6259bb497b69f638d3506898d4c865d4.0"
+        },
+        "ExpressionGUID": "39EE56C0-4B4381F6-9A013F85-E8621073"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_MAC_BasicMix'",
+          "ObjectPath": "NZM/Content/MaterialLib/Textures/T_MAC_BasicMix.0"
+        },
+        "ExpressionGUID": "63DD2FFD-48D9C996-224D3D92-B64D0DBA"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DetailHeight",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Stockings_03_height'",
+          "ObjectPath": "NZM/Content/Avatar/Base/Textures/tiling/T_Stockings_03_height.0"
+        },
+        "ExpressionGUID": "0E69AB82-4BC18DC9-53F1F09D-DF2B4E63"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DetailNormal",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Stockings_02_normal'",
+          "ObjectPath": "NZM/Content/Avatar/Base/Textures/tiling/T_Stockings_02_normal.0"
+        },
+        "ExpressionGUID": "FF2E3B9B-4C04E93B-217CB48D-874AA056"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_MAC_BasicMix"
+      },
+      {
+        "SamplingScale": 4.15625,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Stockings_02_normal"
+      },
+      {
+        "SamplingScale": 3.09375,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Stockings_03_height"
+      }
+    ]
+  }
+}

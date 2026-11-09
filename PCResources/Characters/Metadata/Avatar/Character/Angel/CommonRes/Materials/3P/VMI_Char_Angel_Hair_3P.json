@@ -1,0 +1,98 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Angel_Hair_3P",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Hair_3P",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_HairBlend_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Hair/Material/M_HairBlend_Master_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "bUsedColorTint",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "AE9FFBAF-49038AD0-1414E893-9C63DB81"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "maskmul",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.5,
+        "ExpressionGUID": "D01D47C5-45417104-E23AB3BB-68CC201F"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Alpha_ID_Roughness_Root",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_Alpha_ID_Roughness_Root_c68ae8c3a7aeb4e14c52caac88953211'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_Alpha_ID_Roughness_Root_c68ae8c3a7aeb4e14c52caac88953211.0"
+        },
+        "ExpressionGUID": "735D39BA-4B398AD1-AE93E49C-3E56728A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_3819aaff9f7f95cff3654b549d6f3d72'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_3819aaff9f7f95cff3654b549d6f3d72.0"
+        },
+        "ExpressionGUID": "6F66D750-4E17A196-D3384990-DAC4B0F8"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bOverride_TwoSided": true,
+      "TwoSided": true,
+      "bCastDynamicShadowAsMasked": true,
+      "BlendMode": "BLEND_Masked",
+      "ShadingModel": "MSM_Hair",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Hair_Noise"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMGen_Alpha_ID_Roughness_Root_c68ae8c3a7aeb4e14c52caac88953211"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMGen_BaseColorMap_3819aaff9f7f95cff3654b549d6f3d72"
+      }
+    ]
+  }
+}

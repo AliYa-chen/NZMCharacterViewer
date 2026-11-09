@@ -1,0 +1,46 @@
+{
+  "Type": "ClothingAssetNv",
+  "Name": "SK_Char_Bella_Pop_C_UI_Hair_ProxyMesh_Lod2_Clothing_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ClothingAssetNv'",
+  "Outer": {
+    "ObjectName": "SkeletalMesh'SK_Char_Bella_Pop_C_UI_Hair_Mesh'",
+    "ObjectPath": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_UI_Hair_Mesh.12"
+  },
+  "Properties": {
+    "PhysicsAsset": {
+      "ObjectName": "PhysicsAsset'PHYS_SK_Char_Bella_Pop_C_Mesh'",
+      "ObjectPath": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Mesh/PHYS_SK_Char_Bella_Pop_C_Mesh.0"
+    },
+    "ClothSimConfig": {
+      "ObjectName": "ClothConfigNv'SK_Char_Bella_Pop_C_UI_Hair_Mesh:SK_Char_Bella_Pop_C_UI_Hair_ProxyMesh_Lod2_Clothing_0.ClothConfigNv'",
+      "ObjectPath": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_UI_Hair_Mesh.2"
+    },
+    "ClothLodData": [
+      {
+        "ObjectName": "ClothLODDataNv'SK_Char_Bella_Pop_C_UI_Hair_Mesh:SK_Char_Bella_Pop_C_UI_Hair_ProxyMesh_Lod2_Clothing_0.ClothLODDataNv_0'",
+        "ObjectPath": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_UI_Hair_Mesh.8"
+      }
+    ],
+    "LodMap": [
+      -1,
+      -1,
+      -1
+    ],
+    "UsedBoneNames": [
+      "b_Head",
+      "b_Hips",
+      "b_Spine",
+      "b_Spine2",
+      "b_Neck"
+    ],
+    "UsedBoneIndices": [
+      7,
+      2,
+      3,
+      5,
+      6
+    ],
+    "AssetGuid": "AD4209F3-41438F2F-F15C7D8D-3B6E9E58"
+  }
+}

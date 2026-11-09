@@ -1,0 +1,42 @@
+{
+  "Type": "MaterialInstanceConstant",
+  "Name": "M_Char_Hide",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Base/Materials/M_Char_Hide",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_SimpleSolid'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Common/M_SimpleSolid.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Opacity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "BD029CEC-4CF54A4A-7A9F40BD-5EF35D0E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bOverride_BlendMode": true,
+      "bOverride_ShadingModel": true,
+      "BlendMode": "BLEND_Translucent",
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_Unlit",
+      "OpacityMaskClipValue": 0.3333
+    }
+  }
+}
