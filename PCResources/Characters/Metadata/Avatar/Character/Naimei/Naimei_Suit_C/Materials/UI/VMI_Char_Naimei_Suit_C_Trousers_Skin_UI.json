@@ -1,0 +1,79 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Naimei_Suit_C_Trousers_Skin_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_Skin_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Skin_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Master_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Naimei_Suit_C_Trousers_C_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Trousers_C_HD.0"
+        },
+        "ExpressionGUID": "794121A2-4A8DDFB6-4A763492-CBAFE635"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Naimei_Suit_C_Trousers_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Trousers_N_HD.0"
+        },
+        "ExpressionGUID": "BF98B7FE-4646CF20-4129919E-BAE6F8C0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PSARMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Naimei_Suit_C_Trousers_PSAR_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Trousers_PSAR_HD.0"
+        },
+        "ExpressionGUID": "E1611FC2-4D2522FB-515EBC85-6C203CD1"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_SubsurfaceProfile",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 12.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      }
+    ]
+  }
+}

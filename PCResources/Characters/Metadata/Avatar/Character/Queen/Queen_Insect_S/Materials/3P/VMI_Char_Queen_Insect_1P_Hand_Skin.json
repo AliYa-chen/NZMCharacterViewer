@@ -1,0 +1,212 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Queen_Insect_1P_Hand_Skin",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Hand_Skin",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Skin_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Master_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "bOverrideSubsurfaceProfile": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "RoughnessIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.7,
+        "ExpressionGUID": "984507A9-405AB528-909F3CA8-87FD14DE"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "SpecularBlendAOIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "BC5C95A9-49CE9936-A91A7B98-C5B8A834"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "SepcMax",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "2B3A3BE5-411FFB8F-74B491B9-07238D60"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "SepcMin",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "F10C019D-4E6E0375-1AA2E486-17BACEE5"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissionScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.1,
+        "ExpressionGUID": "7E12BE92-439E1C22-FE53C99F-072BE13F"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Queen_Insect_1P_Hand_CE_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_CE_HD.0"
+        },
+        "ExpressionGUID": "794121A2-4A8DDFB6-4A763492-CBAFE635"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Queen_Insect_1P_Hand_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_N_HD.0"
+        },
+        "ExpressionGUID": "BF98B7FE-4646CF20-4129919E-BAE6F8C0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Queen_Insect_1P_Hand_E_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_E_HD.0"
+        },
+        "ExpressionGUID": "B3C63C14-4E921AE8-ADA9DD8C-B0C19F7D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "MetallicMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Queen_Insect_1P_Hand_M_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_M_HD.0"
+        },
+        "ExpressionGUID": "0E9DCA70-4B1FDC6E-2EADC89A-BEC85573"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PSARMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Queen_Insect_1P_Hand_PSAR_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_PSAR_HD.0"
+        },
+        "ExpressionGUID": "E1611FC2-4D2522FB-515EBC85-6C203CD1"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_SubsurfaceProfile",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "UseEmissiveMap",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "84B5BACF-4957D389-0273269D-F92006E9"
+        },
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "EnableEmissive",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "085C1376-411781A1-B0099283-34DC74DA"
+        },
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "EnableMetallic",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "77EF2E8D-4797111D-A9BB5599-361F079D"
+        }
+      ]
+    },
+    "SubsurfaceProfile": {
+      "ObjectName": "SubsurfaceProfile'Body_Skin_SubsurfaceProfile_Skin'",
+      "ObjectPath": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/Body_Skin_SubsurfaceProfile_Skin.0"
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Queen_Insect_1P_Hand_CE_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Queen_Insect_1P_Hand_E_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Queen_Insect_1P_Hand_M_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Queen_Insect_1P_Hand_N_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Queen_Insect_1P_Hand_PSAR_HD"
+      },
+      {
+        "SamplingScale": 19.995895,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      }
+    ]
+  }
+}

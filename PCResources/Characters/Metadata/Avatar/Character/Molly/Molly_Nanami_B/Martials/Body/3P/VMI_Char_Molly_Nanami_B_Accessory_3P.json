@@ -1,0 +1,155 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Molly_Nanami_B_Accessory_3P",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Accessory_3P",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EmissionScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "35DF04A2-48905271-73CEC0A5-673EA610"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EmissionColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.32118,
+          "G": 0.283815,
+          "B": 0.184567,
+          "A": 1.0,
+          "Hex": "9A9177"
+        },
+        "ExpressionGUID": "9AAD7260-491E7D91-58D047A0-14A46F98"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Molly_Nanami_B_Accessory_C_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Textures_HD/Body/T_Char_Molly_Nanami_B_Accessory_C_HD.0"
+        },
+        "ExpressionGUID": "5C8EF357-43EBE9DA-6F2D778A-31AC5D13"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Molly_Nanami_B_Accessory_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Textures_HD/Body/T_Char_Molly_Nanami_B_Accessory_N_HD.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Molly_Nanami_B_Accessory_E_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Textures_HD/Body/T_Char_Molly_Nanami_B_Accessory_E_HD.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Molly_Nanami_B_Accessory_RAM_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Textures_HD/Body/T_Char_Molly_Nanami_B_Accessory_RAM_HD.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "UseEmissive",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "E535E6DC-4A822111-8FDA568E-B37173CC"
+        }
+      ],
+      "MaterialLayersParameters": [
+        {
+          "Value": {
+            "Layers": [
+              null
+            ],
+            "Blends": [],
+            "LayerStates": [
+              true
+            ]
+          },
+          "ParameterInfo": {
+            "Name": "AvatarLens",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "B93A1943-4E6F55EC-C78A44BC-160835C9"
+        }
+      ]
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 19.993164,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Base_DN_Metal"
+      },
+      {
+        "SamplingScale": 12.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_WhiteNoise"
+      }
+    ]
+  }
+}

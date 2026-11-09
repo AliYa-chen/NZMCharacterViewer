@@ -1,0 +1,102 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Bunny_Suit_C_Suits_UI_Mask",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Materials/UI/VMI_Char_Bunny_Suit_C_Suits_UI_Mask",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_Translucent_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent_UI.0"
+    },
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Bunny_Suit_C_Suits_CMask_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Textures_HD/T_Char_Bunny_Suit_C_Suits_CMask_HD.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Bunny_Suit_C_Suits_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Textures_HD/T_Char_Bunny_Suit_C_Suits_N_HD.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Bunny_Suit_C_Suits_E_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Textures_HD/T_Char_Bunny_Suit_C_Suits_E_HD.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Bunny_Suit_C_Suits_RAM_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Textures_HD/T_Char_Bunny_Suit_C_Suits_RAM_HD.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucentReceivesLocalLightShadow": true,
+      "BlendMode": "BLEND_Translucent",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseNormalOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true,
+      "TranslucencyDistanceSortPriority": 1
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Bunny_Suit_C_Suits_CMask_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Bunny_Suit_C_Suits_N_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Bunny_Suit_C_Suits_RAM_HD"
+      }
+    ]
+  }
+}

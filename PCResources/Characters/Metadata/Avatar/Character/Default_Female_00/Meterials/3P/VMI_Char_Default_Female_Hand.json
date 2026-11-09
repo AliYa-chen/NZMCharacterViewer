@@ -1,0 +1,114 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Default_Female_Hand",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Hand",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EmissionColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "9AAD7260-491E7D91-58D047A0-14A46F98"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "UseEmissive",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "E535E6DC-4A822111-8FDA568E-B37173CC"
+        }
+      ]
+    }
+  }
+}

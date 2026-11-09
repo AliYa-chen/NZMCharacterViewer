@@ -1,0 +1,159 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Tina_Hair_3P",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Tina/CommonRes/Materials/3P/VMI_Char_Tina_Hair_3P",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_HairBlend_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Hair/Material/M_HairBlend_Master_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Roughness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.4,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BackLit",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.4,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "alphabias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -0.2,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "maskmul",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 0.0,
+          "Hex": "000000"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Color1",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.076389,
+          "G": 0.0,
+          "B": 0.001316,
+          "A": 0.0,
+          "Hex": "4E0004"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Color2",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.888889,
+          "G": 0.058642,
+          "B": 0.197017,
+          "A": 0.0,
+          "Hex": "F3447B"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Alpha_ID_Roughness_Root",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_Alpha_ID_Roughness_Root_737dc86a29319938c1c960009467d431'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/CommonRes/Textures/T_VMGen_Alpha_ID_Roughness_Root_737dc86a29319938c1c960009467d431.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_c1fb865fdbed530be7503cb20c8510e2'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/CommonRes/Textures/T_VMGen_BaseColorMap_c1fb865fdbed530be7503cb20c8510e2.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "TwoSided": true,
+      "bCastDynamicShadowAsMasked": true,
+      "BlendMode": "BLEND_Masked",
+      "ShadingModel": "MSM_Hair",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "bUsedColorTint",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "9FE35996-4ECF6BC5-242983B6-A8EF942D"
+        }
+      ]
+    }
+  }
+}

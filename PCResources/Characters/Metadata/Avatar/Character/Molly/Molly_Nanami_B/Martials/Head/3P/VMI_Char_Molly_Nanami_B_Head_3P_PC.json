@@ -1,0 +1,122 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Molly_Nanami_B_Head_3P_PC",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Head_3P_PC",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Skin_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Master_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Molly_Nanami_B_Head_C_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Textures_HD/Head/T_Char_Molly_Nanami_B_Head_C_HD.0"
+        },
+        "ExpressionGUID": "794121A2-4A8DDFB6-4A763492-CBAFE635"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Molly_Nanami_B_Head_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Textures_HD/Head/T_Char_Molly_Nanami_B_Head_N_HD.0"
+        },
+        "ExpressionGUID": "BF98B7FE-4646CF20-4129919E-BAE6F8C0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_EmissiveMap_5c772414711e52ae74f5b5748ea72c07'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_EmissiveMap_5c772414711e52ae74f5b5748ea72c07.0"
+        },
+        "ExpressionGUID": "B3C63C14-4E921AE8-ADA9DD8C-B0C19F7D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "MetallicMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_MetallicMap_0fe9150d7d01ace771fdcd3bc911ffac'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_MetallicMap_0fe9150d7d01ace771fdcd3bc911ffac.0"
+        },
+        "ExpressionGUID": "0E9DCA70-4B1FDC6E-2EADC89A-BEC85573"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PSARMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Molly_Nanami_B_Head_PSAR_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Textures_HD/Head/T_Char_Molly_Nanami_B_Head_PSAR_HD.0"
+        },
+        "ExpressionGUID": "E1611FC2-4D2522FB-515EBC85-6C203CD1"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_SubsurfaceProfile",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "SubsurfaceProfile": {
+      "ObjectName": "SubsurfaceProfile'SubsurfaceProfile_Skin'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/SubsurfaceProfile_Skin.0"
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Molly_Nanami_B_Head_C_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Molly_Nanami_B_Head_N_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Molly_Nanami_B_Head_PSAR_HD"
+      },
+      {
+        "SamplingScale": 19.995895,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      }
+    ]
+  }
+}

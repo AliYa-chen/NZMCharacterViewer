@@ -1,0 +1,481 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "MaterialInstanceConstant'MI_Avatar_Diamond'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/MI_Avatar_Diamond.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EdgeBaseColorExp01",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "F435A809-43C3487B-319D5093-A45C510B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EdgeBaseColorExp02",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "758EF375-430BA14E-BD2BFEB7-95A69C55"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "01_DiamondUVScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "5DE1D19A-43EE249F-5C2A568B-D51BABCC"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "01_DiamondHeight",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "0B1DAE92-4B1A9ADA-52F51BA8-52FA8D3E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "02_DiamondUVScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "4C644425-489DAB0B-B4F0EA97-961BD31D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "02_DiamondHeight",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "96FF87AA-438FB19B-0077E1B3-E2636CAF"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "03_NoiseU",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "B7270269-49F06858-2F1A1892-C8D22A92"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "03_NoiseV",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "89819372-48A6EDAB-27B6A58D-E27A7E1B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "03_NoiseHeightRatio",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.1,
+        "ExpressionGUID": "CC260E28-41C6A571-56CCA59F-5EC5E4E6"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "03_NoiseIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "7E67DB1D-485B66F0-5F9BFAA2-8C7B715A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Diamond Normal Flatten",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "391AACAA-4EEE3AED-997A7AA1-53570638"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Metallic",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.85,
+        "ExpressionGUID": "6E751544-4F18FF0A-D262DEA4-7D4361FB"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Specular",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "94FDEB70-4FFAB0FB-48ADB3AA-D8D69F41"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "06_IridescentDistortion",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "64A84F23-48B92FA0-9CE277B4-975B1D7D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "06_IridescentHeightRatioInput",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "8739E11E-4378BA4D-552C0F81-C0845BD9"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "06_IridescentUVScale_U",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.1,
+        "ExpressionGUID": "8BB94C07-4ECB8E36-AB2A19A6-E8CA86C4"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "06_IridescentUVScale_V",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "1155B05E-4A76B6CE-D9F55DAA-D5EC5550"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "06_IridescentFraction",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.6,
+        "ExpressionGUID": "D027A4DF-4FB57C90-26D00EB0-32E52543"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "06_IridescentExp",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 10.0,
+        "ExpressionGUID": "446EB46E-4D7990BC-4F600388-A8DD57DE"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "06_IridescentIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.7,
+        "ExpressionGUID": "320A2E48-4CF21373-A626FCBB-22AB9D45"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "07_RoughnessNoiseScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "73B9845E-44444C3A-96557996-61052EDE"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "07_RoughnessRatio",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "122EBD13-49105007-4D04EA80-65C15818"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Roughness Noise",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "418B3D46-49E18B05-DE111090-FAE941C1"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "AOIntensityThreshold",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "DCDF5CFF-4CC2AAFB-47251DA7-DBF0A5CA"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissionScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.5,
+        "ExpressionGUID": "35DF04A2-48905271-73CEC0A5-673EA610"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "MuzzleHotStrength",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "8A8367FD-4F9CDC2E-661843AF-B8F46FC0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ReflectionAOpow",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.2,
+        "ExpressionGUID": "389F3B1D-475810D7-3B9518A3-3C7E6C36"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EdgeBaseColor01",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.238872,
+          "G": 0.280844,
+          "B": 0.845486,
+          "A": 1.0,
+          "Hex": "8691ED"
+        },
+        "ExpressionGUID": "A26024C5-4D1E26B5-C92AAE9C-4C33EE73"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EdgeBaseColor02",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.167872,
+          "G": 0.061889,
+          "B": 0.171875,
+          "A": 1.0,
+          "Hex": "724673"
+        },
+        "ExpressionGUID": "91B90414-4DBBC692-188DFA8E-4D62465B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EdgeBaseColor03",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.717,
+          "G": 0.219737,
+          "B": 0.92882,
+          "A": 1.0,
+          "Hex": "DD81F7"
+        },
+        "ExpressionGUID": "6A08FD0F-4FA79446-9AB89693-1F9026BB"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FinalColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.210069,
+          "G": 0.064559,
+          "B": 0.204984,
+          "A": 0.0,
+          "Hex": "7E487D"
+        },
+        "ExpressionGUID": "4CA2F22B-40F1257D-052CFDAB-6A6DDFC0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "04_GlobalColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.017217,
+          "G": 0.003607,
+          "B": 0.050347,
+          "A": 2.0,
+          "Hex": "230B3F"
+        },
+        "ExpressionGUID": "3E15FDC8-4F92DB10-81E3C6A5-E75B1B23"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissionColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.533263,
+          "G": 0.483911,
+          "B": 0.564236,
+          "A": 1.0,
+          "Hex": "C1B9C6"
+        },
+        "ExpressionGUID": "9AAD7260-491E7D91-58D047A0-14A46F98"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "MuzzleHoColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.568261,
+          "G": 0.322845,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "C79AFF"
+        },
+        "ExpressionGUID": "1E3685CE-4BB71DE0-630F8593-B681E1AF"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Queen_Insect_S_Snake_Plus01_A_C_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Snake_Plus01_A_C_HD.0"
+        },
+        "ExpressionGUID": "5C8EF357-43EBE9DA-6F2D778A-31AC5D13"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Queen_Insect_S_Snake_Plus01_A_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Snake_Plus01_A_N_HD.0"
+        },
+        "ExpressionGUID": "39EE56C0-4B4381F6-9A013F85-E8621073"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Queen_Insect_S_Snake_Plus01_A_E_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Snake_Plus01_A_E_HD.0"
+        },
+        "ExpressionGUID": "F28A088A-4A42E09E-1C9F2492-7C397E84"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Queen_Insect_S_Snake_Plus01_A_RAM_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Snake_Plus01_A_RAM_HD.0"
+        },
+        "ExpressionGUID": "63DD2FFD-48D9C996-224D3D92-B64D0DBA"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bOverride_BlendMode": true,
+      "BlendMode": "BLEND_Masked",
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "UseEmissive",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "E535E6DC-4A822111-8FDA568E-B37173CC"
+        }
+      ]
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Queen_Insect_S_Snake_Plus01_A_C_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Queen_Insect_S_Snake_Plus01_A_E_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Queen_Insect_S_Snake_Plus01_A_N_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Queen_Insect_S_Snake_Plus01_A_RAM_HD"
+      },
+      {
+        "SamplingScale": 0.5,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Diamond_N"
+      },
+      {
+        "SamplingScale": 0.015625,
+        "UVChannelIndex": 3,
+        "TextureName": "T_Diamond_Noise"
+      }
+    ]
+  }
+}

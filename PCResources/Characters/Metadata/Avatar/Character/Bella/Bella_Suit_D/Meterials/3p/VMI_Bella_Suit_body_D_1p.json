@@ -1,0 +1,131 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Bella_Suit_body_D_1p",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Bella/Bella_Suit_D/Meterials/3p/VMI_Bella_Suit_body_D_1p",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_Translucent'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EmissionScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EmissionColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 0.264044,
+          "B": 0.220915,
+          "A": 1.0,
+          "Hex": "FF8C81"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_EmissiveMap_31878fab1cf26b6c6fb410017d5f56e9'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_EmissiveMap_31878fab1cf26b6c6fb410017d5f56e9.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_09027e64f3a8a33cb8d0fe5334356da8'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_BaseColorMap_09027e64f3a8a33cb8d0fe5334356da8.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_7910cb756e1128f96451af38ed2a1f1b'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Suit_D/Textures/T_VMGen_NormalMap_7910cb756e1128f96451af38ed2a1f1b.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_RAMMap_e6a05b2b6fac8a4bb3fd094aa3d9e64d'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Suit_D/Textures/T_VMGen_RAMMap_e6a05b2b6fac8a4bb3fd094aa3d9e64d.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bOverride_BlendMode": true,
+      "BlendMode": "BLEND_Masked",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "UseEmissive",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "E535E6DC-4A822111-8FDA568E-B37173CC"
+        }
+      ]
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMGen_EmissiveMap_31878fab1cf26b6c6fb410017d5f56e9"
+      }
+    ]
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Bella_Suit_body_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Bella/Bella_Suit_D/Meterials/UI/VMI_Bella_Suit_body_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Skin_Rain_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Rain_Master_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "DetailTilling",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 20.0,
+        "ExpressionGUID": "2BD555A5-416A0810-8145B1B4-42DA2AA2"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DetailWeight",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.2,
+        "ExpressionGUID": "61DC9651-4B0E1D3A-D01816AB-A7EBBEAA"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RoughnessIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.65,
+        "ExpressionGUID": "984507A9-405AB528-909F3CA8-87FD14DE"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "SepcMin",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "F10C019D-4E6E0375-1AA2E486-17BACEE5"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "AOPow",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "EB954FCD-4FC3B98B-554E3891-DD9CCABB"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "bUsedAO?",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "71498EAF-4FF2DEB8-60474880-F8DAF5F6"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Flatness (S)",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "2E491385-4F196B61-5BB70698-728FBE24"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RainSpecularINtensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.5,
+        "ExpressionGUID": "1051B5A6-41F0025A-59F1A2B9-2AB627B8"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RoughExp",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "C24ADAD5-4E105DE4-457E4C82-2F596F48"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "SpcExp",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "8E1AB18A-4E9669E3-469342B9-B65BB41D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RaindropFlatten",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.1,
+        "ExpressionGUID": "5C9A5E17-4C2FEC42-3C4376A5-61FB8C60"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RainNoiseIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.15,
+        "ExpressionGUID": "72C08F18-4B820F79-FF51859A-D5D54EC9"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RainSpeed",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.3,
+        "ExpressionGUID": "4203713F-4E0CEDEB-5C299C85-ACFCD74E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RainTilingMask",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 28.0,
+        "ExpressionGUID": "C8058963-4A197CC8-076B2EA4-D83D3D34"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RainTilingSkin",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 7.0,
+        "ExpressionGUID": "9573C310-4A17146E-AE1EA9AF-A9C67CC0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RoughToRainMask",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "E9B37015-45103B17-60C37CBF-E6748971"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "ColorOverlay",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "9D266DD4-4C54AAD8-2A25BC9B-8700DD3C"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "DetailNormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_FemaleSkin_DetailNormal01'",
+          "ObjectPath": "NZM/Content/Avatar/NPC/Farmer/Female/Textures/T_FemaleSkin_DetailNormal01.0"
+        },
+        "ExpressionGUID": "7447F909-4A5D638B-0DC8C2A2-C1668852"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_a060508dd7163ebe43745ef7781d0fca'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Suit_D/Textures/T_VMGen_BaseColorMap_a060508dd7163ebe43745ef7781d0fca.0"
+        },
+        "ExpressionGUID": "794121A2-4A8DDFB6-4A763492-CBAFE635"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_012ca69e9076c4b00b16a4d4320b8ad2'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Suit_D/Textures/T_VMGen_NormalMap_012ca69e9076c4b00b16a4d4320b8ad2.0"
+        },
+        "ExpressionGUID": "BF98B7FE-4646CF20-4129919E-BAE6F8C0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "MetallicRainMaskMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_MetallicRainMaskMap_06c1c86ff1c5782400a1f2a3ca3c34f9'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Suit_D/Textures/T_VMGen_MetallicRainMaskMap_06c1c86ff1c5782400a1f2a3ca3c34f9.0"
+        },
+        "ExpressionGUID": "0E9DCA70-4B1FDC6E-2EADC89A-BEC85573"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PSARMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_PSARMap_3e20076f95d5db9a75582ba645b40a67'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Suit_D/Textures/T_VMGen_PSARMap_3e20076f95d5db9a75582ba645b40a67.0"
+        },
+        "ExpressionGUID": "E1611FC2-4D2522FB-515EBC85-6C203CD1"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_SubsurfaceProfile",
+      "OpacityMaskClipValue": 0.3333
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "EnableMetallic",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "77EF2E8D-4797111D-A9BB5599-361F079D"
+        }
+      ]
+    },
+    "SubsurfaceProfile": {
+      "ObjectName": "SubsurfaceProfile'SubsurfaceProfile_Skin'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/SubsurfaceProfile_Skin.0"
+    }
+  }
+}

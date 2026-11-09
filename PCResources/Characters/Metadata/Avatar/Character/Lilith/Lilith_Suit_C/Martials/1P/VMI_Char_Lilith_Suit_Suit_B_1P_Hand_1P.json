@@ -1,0 +1,137 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Lilith_Suit_Suit_B_1P_Hand_1P",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Hand_1P",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BlackLineIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "B6FF25D3-4504B0C8-4ED6B290-D90A452E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "darkscale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Lightscale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Lilith_Suit_Suit_B_1P_Hand_CMask_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Textures_HD/1P/T_Char_Lilith_Suit_Suit_B_1P_Hand_CMask_HD.0"
+        },
+        "ExpressionGUID": "5C8EF357-43EBE9DA-6F2D778A-31AC5D13"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Lilith_Suit_Suit_B_1P_Hand_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Textures_HD/1P/T_Char_Lilith_Suit_Suit_B_1P_Hand_N_HD.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Lilith_Suit_Suit_B_1P_Hand_RAM_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Textures_HD/1P/T_Char_Lilith_Suit_Suit_B_1P_Hand_RAM_HD.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "MaterialLayersParameters": [
+        {
+          "Value": {
+            "Layers": [
+              null
+            ],
+            "Blends": [],
+            "LayerStates": [
+              true
+            ]
+          },
+          "ParameterInfo": {
+            "Name": "AvatarLens",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "B93A1943-4E6F55EC-C78A44BC-160835C9"
+        }
+      ]
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Lilith_Suit_Suit_B_1P_Hand_CMask_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Lilith_Suit_Suit_B_1P_Hand_N_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Lilith_Suit_Suit_B_1P_Hand_RAM_HD"
+      }
+    ]
+  }
+}

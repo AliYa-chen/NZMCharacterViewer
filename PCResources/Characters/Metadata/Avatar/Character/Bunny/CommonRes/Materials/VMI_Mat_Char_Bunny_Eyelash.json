@@ -1,0 +1,94 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Mat_Char_Bunny_Eyelash",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Bunny/CommonRes/Materials/VMI_Mat_Char_Bunny_Eyelash",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_Translucent'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Mat_Char_Bunny_Eyelash_CMask_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Bunny/CommonRes/Textures_HD/T_Mat_Char_Bunny_Eyelash_CMask_HD.0"
+        },
+        "ExpressionGUID": "5C8EF357-43EBE9DA-6F2D778A-31AC5D13"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Mat_Char_Bunny_Eyelash_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Bunny/CommonRes/Textures_HD/T_Mat_Char_Bunny_Eyelash_N_HD.0"
+        },
+        "ExpressionGUID": "39EE56C0-4B4381F6-9A013F85-E8621073"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Mat_Char_Bunny_Eyelash_E_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Bunny/CommonRes/Textures_HD/T_Mat_Char_Bunny_Eyelash_E_HD.0"
+        },
+        "ExpressionGUID": "F28A088A-4A42E09E-1C9F2492-7C397E84"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Mat_Char_Bunny_Eyelash_RAM_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Bunny/CommonRes/Textures_HD/T_Mat_Char_Bunny_Eyelash_RAM_HD.0"
+        },
+        "ExpressionGUID": "63DD2FFD-48D9C996-224D3D92-B64D0DBA"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bOverride_ShadingModel": true,
+      "bOverride_TwoSided": true,
+      "TwoSided": true,
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Mat_Char_Bunny_Eyelash_CMask_HD"
+      }
+    ]
+  }
+}

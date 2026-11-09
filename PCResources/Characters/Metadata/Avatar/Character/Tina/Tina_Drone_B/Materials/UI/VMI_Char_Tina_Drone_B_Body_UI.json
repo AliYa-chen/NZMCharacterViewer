@@ -1,0 +1,135 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Tina_Drone_B_Body_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Materials/UI/VMI_Char_Tina_Drone_B_Body_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Skin_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Master_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "bOverrideSubsurfaceProfile": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "RoughnessIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.8,
+        "ExpressionGUID": "984507A9-405AB528-909F3CA8-87FD14DE"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_4fbcc0328ab18b171ed23dd42914bd9f'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/T_VMGen_BaseColorMap_4fbcc0328ab18b171ed23dd42914bd9f.0"
+        },
+        "ExpressionGUID": "794121A2-4A8DDFB6-4A763492-CBAFE635"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_4ce1c117510ff5723c4dde5f3c9ec72c'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_NormalMap_4ce1c117510ff5723c4dde5f3c9ec72c.0"
+        },
+        "ExpressionGUID": "BF98B7FE-4646CF20-4129919E-BAE6F8C0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "MetallicMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_MetallicMap_f4d3e892f409d0f58235f5e92dacc59e'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_MetallicMap_f4d3e892f409d0f58235f5e92dacc59e.0"
+        },
+        "ExpressionGUID": "0E9DCA70-4B1FDC6E-2EADC89A-BEC85573"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PSARMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_PSARMap_04b6375e0073333bcffe3b8a740a65b3'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/T_VMGen_PSARMap_04b6375e0073333bcffe3b8a740a65b3.0"
+        },
+        "ExpressionGUID": "E1611FC2-4D2522FB-515EBC85-6C203CD1"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_SubsurfaceProfile",
+      "OpacityMaskClipValue": 0.3333
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "EnableMetallic",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "77EF2E8D-4797111D-A9BB5599-361F079D"
+        }
+      ]
+    },
+    "SubsurfaceProfile": {
+      "ObjectName": "SubsurfaceProfile'Tina_SubsurfaceProfile_Skin'",
+      "ObjectPath": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Materials/UI/Tina_SubsurfaceProfile_Skin.0"
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 19.995895,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMGen_BaseColorMap_4fbcc0328ab18b171ed23dd42914bd9f"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMGen_MetallicMap_f4d3e892f409d0f58235f5e92dacc59e"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMGen_NormalMap_4ce1c117510ff5723c4dde5f3c9ec72c"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMGen_PSARMap_04b6375e0073333bcffe3b8a740a65b3"
+      }
+    ]
+  }
+}

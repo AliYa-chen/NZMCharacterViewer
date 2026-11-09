@@ -1,0 +1,321 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Bunny_Head_PC",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Bunny/CommonRes/Materials/VMI_Char_Bunny_Head_PC",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Skin_Glitter_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Glitter_Master_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "bOverrideSubsurfaceProfile": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "SpecularBlendAOIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 20.0,
+        "ExpressionGUID": "BC5C95A9-49CE9936-A91A7B98-C5B8A834"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Emissive Effects: Scattering",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.333,
+        "ExpressionGUID": "3512F408-41910A70-AEADB49D-549CDA39"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Simulated Sun Reflection: Emissive",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "2020FEB1-4DF9CBB6-073D16B9-9E79D717"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Simulated Sun Reflection: Spread",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.91,
+        "ExpressionGUID": "50D3723F-409E12D7-F7A592B8-2C12DF70"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Flatness (S)",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "2E491385-4F196B61-5BB70698-728FBE24"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "GlitterExponentIn",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.3,
+        "ExpressionGUID": "F4A4FFE5-42F09F4A-83C5EA83-FB2175A9"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "glitterFlatness (S)",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "CF219F89-43047A87-05FEED8E-CC2DB17D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "GlitterTiling",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "DFCBA2E8-4DC4FA20-4A587DA9-F36F036B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Matcap_Power",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "A110FE49-413F1266-C0D9F4B3-12EEAAC9"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorBrightness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "E1679DA2-4E813545-C2D47396-6ED02011"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Simulated Sun Reflection: Color",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 0.930556,
+          "B": 0.930556,
+          "A": 1.0,
+          "Hex": "FFF8F8"
+        },
+        "ExpressionGUID": "8FFB127E-4B0EDA52-E90E058B-D579D9D3"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "cameraOffset",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.530462,
+          "G": 0.032407,
+          "B": 0.907986,
+          "A": 1.0,
+          "Hex": "C132F5"
+        },
+        "ExpressionGUID": "3332EECB-4CAA29D9-84799BAF-E5EEE0DB"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "glittercolor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 0.086832,
+          "B": 0.580263,
+          "A": 1.0,
+          "Hex": "FF53C9"
+        },
+        "ExpressionGUID": "EF77E8F4-49F50DE5-AF0F7982-9EA545C0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "matcapcolor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.504334,
+          "G": 0.29945,
+          "B": 0.71875,
+          "A": 1.0,
+          "Hex": "BC95DD"
+        },
+        "ExpressionGUID": "674686FD-40BEEFC8-D8BDF3B6-B0EEA9C9"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ColorOverlay",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "C41FAF58-452FD5ED-7671C782-BE1C898E"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Bunny_Head_CE_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Bunny/CommonRes/Textures_HD/T_Char_Bunny_Head_CE_HD.0"
+        },
+        "ExpressionGUID": "A56D16A5-4417CB1F-5779C996-7DB49DA2"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "GlitterNormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Skin_Glitter_Normal'",
+          "ObjectPath": "NZM/Content/Avatar/Base/Textures/T_Skin_Glitter_Normal.0"
+        },
+        "ExpressionGUID": "E95A300F-4B27F8C8-E711BFBA-90AC285F"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Bunny_Head_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Bunny/CommonRes/Textures_HD/T_Char_Bunny_Head_N_HD.0"
+        },
+        "ExpressionGUID": "BF98B7FE-4646CF20-4129919E-BAE6F8C0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "MetallicGlitterMaskMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Bunny_Head_MMask_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Bunny/CommonRes/Textures_HD/T_Char_Bunny_Head_MMask_HD.0"
+        },
+        "ExpressionGUID": "4D76606F-413C506F-1958DD85-71557F66"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PSARMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Bunny_Head_PSAR_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Bunny/CommonRes/Textures_HD/T_Char_Bunny_Head_PSAR_HD.0"
+        },
+        "ExpressionGUID": "E1611FC2-4D2522FB-515EBC85-6C203CD1"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "MatCap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'MatCap_Mix_Tex'",
+          "ObjectPath": "NZM/Content/Avatar/Base/Textures/MatCap/MatCap_Mix_Tex.0"
+        },
+        "ExpressionGUID": "64D62C0D-4B8CB6A4-BA407792-F280F600"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_SubsurfaceProfile",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "SpecularBlendAO",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "0D544316-455EC5C1-E56493BF-85879386"
+        }
+      ]
+    },
+    "SubsurfaceProfile": {
+      "ObjectName": "SubsurfaceProfile'SubsurfaceProfile_Skin_Head'",
+      "ObjectPath": "NZM/Content/Avatar/Character/Bunny/CommonRes/Materials/UI/SubsurfaceProfile_Skin_Head.0"
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Bunny_Head_CE_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Bunny_Head_MMask_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Bunny_Head_PSAR_HD"
+      },
+      {
+        "SamplingScale": 20.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Skin_Glitter_Normal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Tina_Drone_B_Stoking_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Materials/UI/VMI_Char_Tina_Drone_B_Stoking_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_Stocking_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.0"
+    },
+    "bOverrideSubsurfaceProfile": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "anisotropy",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.91,
+        "ExpressionGUID": "F82FAC57-482ECF6D-16207CAB-CB8938B3"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "AnisotropyRange",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 4.0,
+        "ExpressionGUID": "DC438535-4342C273-628AD5A2-70CFDF58"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "AnisotropyRangeScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.5,
+        "ExpressionGUID": "DFF4C851-4CE9895E-B86BD182-54F6D0A8"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FresnelIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.0,
+        "ExpressionGUID": "F4C6F097-4A11A759-CFE40AAE-F0F77E1C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FresnelRange",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 3.0,
+        "ExpressionGUID": "367C98F9-419A6AF5-D241A8A7-32295C04"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RoughnessA",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "FEB1F2DB-44C65A6F-AEAEEB9F-246E1278"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RoughnessB",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.45,
+        "ExpressionGUID": "07337AFE-406380AC-86DB98BF-038FFBAD"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Specular",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "C82400D2-4F525B0F-28C40281-BD6396CD"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Param",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.01,
+          "G": 0.002608,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "190800"
+        },
+        "ExpressionGUID": "98121F94-43F17E97-47B32797-6DADC51A"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_4fbcc0328ab18b171ed23dd42914bd9f'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/T_VMGen_BaseColorMap_4fbcc0328ab18b171ed23dd42914bd9f.0"
+        },
+        "ExpressionGUID": "5C8EF357-43EBE9DA-6F2D778A-31AC5D13"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_4ce1c117510ff5723c4dde5f3c9ec72c'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_NormalMap_4ce1c117510ff5723c4dde5f3c9ec72c.0"
+        },
+        "ExpressionGUID": "39EE56C0-4B4381F6-9A013F85-E8621073"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_RAMMap_59d156b321038e62a9ba68b7d1182677'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_59d156b321038e62a9ba68b7d1182677.0"
+        },
+        "ExpressionGUID": "63DD2FFD-48D9C996-224D3D92-B64D0DBA"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333
+    },
+    "SubsurfaceProfile": {
+      "ObjectName": "SubsurfaceProfile'Tina_SubsurfaceProfile_Skin'",
+      "ObjectPath": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Materials/UI/Tina_SubsurfaceProfile_Skin.0"
+    }
+  }
+}

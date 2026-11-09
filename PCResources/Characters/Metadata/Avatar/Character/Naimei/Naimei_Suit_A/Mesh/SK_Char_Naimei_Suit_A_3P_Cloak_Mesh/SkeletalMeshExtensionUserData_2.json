@@ -1,0 +1,13 @@
+{
+  "Type": "SkeletalMeshExtensionUserData",
+  "Name": "SkeletalMeshExtensionUserData_2",
+  "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SkeletalMeshExtensionUserData'",
+  "Outer": {
+    "ObjectName": "SkeletalMesh'SK_Char_Naimei_Suit_A_3P_Cloak_Mesh'",
+    "ObjectPath": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Mesh/SK_Char_Naimei_Suit_A_3P_Cloak_Mesh.0"
+  },
+  "Properties": {
+    "bIgnoreOptimizeIndexBuffer": true
+  }
+}

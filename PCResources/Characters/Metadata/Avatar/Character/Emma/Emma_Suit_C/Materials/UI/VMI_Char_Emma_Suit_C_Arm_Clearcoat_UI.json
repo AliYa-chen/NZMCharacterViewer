@@ -1,0 +1,220 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Emma_Suit_C_Arm_Clearcoat_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Arm_Clearcoat_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_ClearCoat_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_ClearCoat_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Clear amount",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "8AAF3F8B-429DD885-C80C188E-C04D4511"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Clear roughness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.05,
+        "ExpressionGUID": "AD0E5E3C-4250A902-699B4C90-19A467D5"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "CustomReflectionStrength",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.0,
+        "ExpressionGUID": "0C1E7301-49CA7EFE-947BF294-DBFAEB2B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Flatness (S)",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 200.0,
+        "ExpressionGUID": "0FDE6BA4-4E8BD631-59DC0FB3-359CF902"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Solid colour",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "CB5D2C5C-4D1C4785-02C16DB1-9F139D2A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Flip colour",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "A512CCE8-4E178F1A-2B380081-5AC6D3E0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Flop colour",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "99B905C1-4865AE64-EAC8AF8F-574B00D5"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ReflectionMatcapColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "9D0A8AB6-404F66BE-094AD791-1C59D31E"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Emma_Suit_C_Arm_C_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Textures_HD/T_Char_Emma_Suit_C_Arm_C_HD.0"
+        },
+        "ExpressionGUID": "5C8EF357-43EBE9DA-6F2D778A-31AC5D13"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Emma_Suit_C_Arm_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Textures_HD/T_Char_Emma_Suit_C_Arm_N_HD.0"
+        },
+        "ExpressionGUID": "39EE56C0-4B4381F6-9A013F85-E8621073"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Emma_Suit_C_Arm_E_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Textures_HD/T_Char_Emma_Suit_C_Arm_E_HD.0"
+        },
+        "ExpressionGUID": "F28A088A-4A42E09E-1C9F2492-7C397E84"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Emma_Suit_C_Arm_RAM_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Textures_HD/T_Char_Emma_Suit_C_Arm_RAM_HD.0"
+        },
+        "ExpressionGUID": "63DD2FFD-48D9C996-224D3D92-B64D0DBA"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ReflectionMatcapMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'MatCap_Mix_Tex_Skin'",
+          "ObjectPath": "NZM/Content/Avatar/Base/Textures/MatCap_Mix_Tex_Skin.0"
+        },
+        "ExpressionGUID": "98BBF4B6-44090EA4-F2C582B0-47F9159F"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_ClearCoat",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "UseEmissive",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "E535E6DC-4A822111-8FDA568E-B37173CC"
+        }
+      ]
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 0.078125,
+        "UVChannelIndex": 2,
+        "TextureName": "MatCap_Mix_Tex_Skin"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      }
+    ]
+  }
+}

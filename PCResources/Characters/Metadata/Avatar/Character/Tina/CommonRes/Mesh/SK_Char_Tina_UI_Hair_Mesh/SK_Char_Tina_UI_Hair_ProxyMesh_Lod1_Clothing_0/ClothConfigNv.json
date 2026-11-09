@@ -1,0 +1,15 @@
+{
+  "Type": "ClothConfigNv",
+  "Name": "ClothConfigNv",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ClothConfigNv'",
+  "Outer": {
+    "ObjectName": "ClothingAssetNv'SK_Char_Tina_UI_Hair_Mesh:SK_Char_Tina_UI_Hair_ProxyMesh_Lod1_Clothing_0'",
+    "ObjectPath": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.4"
+  },
+  "Properties": {
+    "SolverFrequency": 30.0,
+    "StiffnessFrequency": 1.0,
+    "bUseGravityOverride": true
+  }
+}

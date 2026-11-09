@@ -1,0 +1,234 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Widow_Hair_3P",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Widow/CommonRes/Materials/3P/VMI_Char_Widow_Hair_3P",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_HairBlend_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Hair/Material/M_HairBlend_Master_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "bUsedColorTint",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "AE9FFBAF-49038AD0-1414E893-9C63DB81"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RootScatter",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.85,
+        "ExpressionGUID": "8B91A3F9-4737C883-90FE80B0-B4750A27"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ScatterMin",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "84094A5C-4B396B57-C545E781-5459070C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "SpecMin",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "EADAC679-48B7FFE8-A2A0DC93-EE92751E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Specular",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "E72B2DBA-4A94F550-DBB038B1-55BDAEE2"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "TipsScatter",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.8,
+        "ExpressionGUID": "CB40C2A6-4C8515BB-F86D1ABF-EDA4D66E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Roughness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.35,
+        "ExpressionGUID": "0F4BF77B-4B49680E-BEB30F8D-49EAF4E2"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BackLit",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.05,
+        "ExpressionGUID": "1746CE43-45CE7EC6-8605D985-FA29AA69"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "TangentRootShift",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "4EC28C6A-46DAD339-DAC5969C-D99F7758"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "alphabias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -0.25,
+        "ExpressionGUID": "FE98CFE4-4760A3E7-9AC93B9E-3955C56D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Edgelight",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.0,
+        "ExpressionGUID": "5CF58103-4AF6A9B5-3CE85AB2-BA641B42"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.376262,
+          "G": 0.099899,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "A55900"
+        },
+        "ExpressionGUID": "AE6727A9-4047E306-2E7018B3-C7345794"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Color1",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.760525,
+          "G": 0.391572,
+          "B": 0.104616,
+          "A": 0.0,
+          "Hex": "E2A85B"
+        },
+        "ExpressionGUID": "C89FC1BC-4653590E-AB64218E-298B75F4"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Color2",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.381326,
+          "G": 0.181164,
+          "B": 0.056128,
+          "A": 1.0,
+          "Hex": "A67643"
+        },
+        "ExpressionGUID": "6D52D382-4A08A2E7-938D7DA5-DC9C9723"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Alpha_ID_Roughness_Root",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_Alpha_ID_Roughness_Root_eff2da83a7c5071fab534f24986cdc06'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_Alpha_ID_Roughness_Root_eff2da83a7c5071fab534f24986cdc06.0"
+        },
+        "ExpressionGUID": "735D39BA-4B398AD1-AE93E49C-3E56728A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_d77a7c972c289a147308a0474944bdad'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_BaseColorMap_d77a7c972c289a147308a0474944bdad.0"
+        },
+        "ExpressionGUID": "6F66D750-4E17A196-D3384990-DAC4B0F8"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "TwoSided": true,
+      "bCastDynamicShadowAsMasked": true,
+      "BlendMode": "BLEND_Masked",
+      "ShadingModel": "MSM_Hair",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "bUsedColorTint",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "347A8B6F-4F0A59A6-A60831B7-D659EA53"
+        }
+      ]
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMGen_Alpha_ID_Roughness_Root_eff2da83a7c5071fab534f24986cdc06"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMGen_BaseColorMap_d77a7c972c289a147308a0474944bdad"
+      }
+    ]
+  }
+}

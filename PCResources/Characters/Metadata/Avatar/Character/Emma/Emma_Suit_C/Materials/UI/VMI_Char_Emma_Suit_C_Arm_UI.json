@@ -1,0 +1,206 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Emma_Suit_C_Arm_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Arm_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_Effect_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "[CubrReflection] Use Emissive Mask",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "F6D86472-4AB2C7A6-F316A0B3-276F8C74"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[CubrReflection] CubeRotation",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[CubrReflection] Strength",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.2,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[CubrReflection] Emission Strength",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[Emissive] Emissive Intensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.5,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "[CubrReflection] CubeMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Kim_Mecha_A_Head_HDR'",
+          "ObjectPath": "NZM/Content/Avatar/Character/JinZhanYun/Kim_Mecha_A/Textures/T_Char_Kim_Mecha_A_Head_HDR.0"
+        },
+        "ExpressionGUID": "9E105A39-4C0FCCB9-EC403089-CF55B72E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Emma_Suit_C_Arm_C_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Textures_HD/T_Char_Emma_Suit_C_Arm_C_HD.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Emma_Suit_C_Arm_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Textures_HD/T_Char_Emma_Suit_C_Arm_N_HD.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Emma_Suit_C_Arm_E_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Textures_HD/T_Char_Emma_Suit_C_Arm_E_HD.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Emma_Suit_C_Arm_RAM_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Textures_HD/T_Char_Emma_Suit_C_Arm_RAM_HD.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "UseCubeReflection",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "61B2DDA7-46C625A5-CC5718B0-02A72650"
+        },
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "UseEmissive",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "18D9E7E3-42C8EB02-EAC571B9-B44DA462"
+        }
+      ],
+      "MaterialLayersParameters": [
+        {
+          "Value": {
+            "Layers": [
+              null
+            ],
+            "Blends": [],
+            "LayerStates": [
+              true
+            ]
+          },
+          "ParameterInfo": {
+            "Name": "AvatarLens",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "969F6A03-4C028091-C09EDF88-4A03569C"
+        }
+      ]
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Emma_Suit_C_Arm_C_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Emma_Suit_C_Arm_E_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Emma_Suit_C_Arm_N_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Emma_Suit_C_Arm_RAM_HD"
+      }
+    ]
+  }
+}
