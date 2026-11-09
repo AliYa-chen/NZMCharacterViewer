@@ -1,0 +1,28 @@
+{
+  "Type": "StaticMeshComponent",
+  "Name": "StaticMesh_GEN_VARIABLE",
+  "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+  "Class": "UScriptClass'StaticMeshComponent'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Generic_Building_FreeStyle_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.0"
+  },
+  "Template": {
+    "ObjectName": "StaticMeshComponent'LF_Lighting_Master_C:StaticMesh_GEN_VARIABLE'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.46"
+  },
+  "Properties": {
+    "StaticMesh": {
+      "ObjectName": "StaticMesh'SM_EnergyTower_Building_wall04b'",
+      "ObjectPath": "NZM/Content/Env/Structure/EnergyTower/Mesh/SM_EnergyTower_Building_wall04b.1"
+    },
+    "OverrideMaterials": [
+      {
+        "ObjectName": "VirtualMaterialInstanceConstant'VMI_Generic_EmmisiveLighting_PatchLight02a'",
+        "ObjectPath": "NZM/Content/Env/Prop/Generic/Lighting/EmmisiveLighting/Materials/VMI_Generic_EmmisiveLighting_PatchLight02a.0"
+      }
+    ],
+    "CastShadow": true,
+    "bCastDynamicShadow": false
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "Type": "LF_Lighting_Master_C",
+  "Name": "Default__LF_Lighting_Master_C",
+  "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "BlueprintGeneratedClass'NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.LF_Lighting_Master_C'",
+  "Package": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master",
+  "Properties": {
+    "UberGraphFrame": {},
+    "Transform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "LightingType": "LightingType::NewEnumerator1",
+    "SwitchOn/Off": true,
+    "OtherTrans": {
+      "Rotation": {
+        "X": -0.70710677,
+        "Y": -0.0,
+        "Z": 0.0,
+        "W": 0.7071067,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.9999999
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "SpotInnerConeAngle": 60.0,
+    "(Pc）SpotSourceRadius": 1.0,
+    "MidLumens": 2500.0,
+    "AttenuationRaius": 1300.0,
+    "isMoveMesh": true,
+    "MaterialBrightValue": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "FFFFFF"
+    },
+    "LuminanceLevel": "LuminanceLevel::NewEnumerator1",
+    "LowLumens": 800.0,
+    "HigLumens": 1200.0,
+    "LightColor": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "FFFFFF"
+    },
+    "SpotOuter Cone Angle": 80.0,
+    "RectPower": 0.06,
+    "BrightMul": 1.0,
+    "AddLTransf": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "AddLAttenuationRadius": 1000.0,
+    "AddLLumens": 3000.0,
+    "Candela": 1.0,
+    "MaterialMoreBright（Bloom": 0.1,
+    "LightmapMoreBright": 1.0,
+    "EmissiveAttenuationRadius": 2000.0,
+    "LightmassSetting": {
+      "bUseTwoSidedLighting": false,
+      "bShadowIndirectOnly": false,
+      "bUseEmissiveForStaticLighting": false,
+      "bUseVertexNormalForHemisphereGather": false,
+      "EmissiveLightFalloffExponent": 8.0,
+      "EmissiveLightExplicitInfluenceRadius": 0.0,
+      "EmissiveBoost": 1.0,
+      "EmissiveAttenuationRadius": 1000.0,
+      "DiffuseBoost": 1.0,
+      "FullyOccludedSamplesFraction": 1.0,
+      "bJoinLocalLightBake": true,
+      "bForceNotJoinLocalLightBakeMobile": false,
+      "bForceNotJoinLocalLightBakePC": false,
+      "bIgnoreBounds": false,
+      "bExportNormalMapForBaking": false,
+      "NormalMapSize": 256
+    },
+    "GlobalBrightMul": 1.0,
+    "UseAuto-Exposure": true,
+    "Indirect Lighting Intensity": 1.0,
+    "OpenPCFeature": true,
+    "Temperature": 6500.0,
+    "SelectPresetColor": "Temperature::NewEnumerator13",
+    "FinalColor": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0,
+      "A": 0.0,
+      "Hex": "000000"
+    },
+    "ShadowBias": 0.5,
+    "实时光SpecularScale": 1.0,
+    "SetCastPrebake": true,
+    "CastPerObjectShadow": true,
+    "SpotPreBakeResolution": 512,
+    "PointPrebakeResolution": 256,
+    "OpenIES": true,
+    "IESIntensity": 1.0,
+    "VLFFogLightType": "LightingType::NewEnumerator1",
+    "VLFAttenuationRadius": 500.0,
+    "VolumetricScatteringIntensity": 20.0,
+    "VLFLightColor": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "FFFFFF"
+    },
+    "VLFFOGLigtTrans": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "VLFSpotOuter": 80.0,
+    "VLFSpotInner": 40.0,
+    "VLFSourceLength": 1.0,
+    "VLFSourceRadius": 10.0,
+    "VLFLightIntensity": 8000.0,
+    "VLFRectWid": 40.0,
+    "VLFRectHei": 40.0,
+    "VLFRectAngle": 40.0,
+    "VLFRectBarnDoorLength": 40.0,
+    "MaterialBloomBul": 10.0,
+    "UseInverseSquaredFalloff": true,
+    "LightFalloffExponent": 8.0,
+    "VFXLensflareTrans": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "LensFSizeX": 100.0,
+    "LensFSizeY": 600.0,
+    "LensflareSourceMaterial": {
+      "ObjectName": "VirtualMaterialInstanceConstant'VMI_LF_Lighting_Lensflare_01'",
+      "ObjectPath": "NZM/Content/Env/Prop/Generic/Lighting/Lensflare/VMI_LF_Lighting_Lensflare_01.0"
+    },
+    "MobileLightBeam": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "MobileVFogIntensity": 0.6,
+    "VFXFogScale": {
+      "X": 1.5,
+      "Y": 1.5,
+      "Z": 1.5
+    },
+    "EmissiveBloomForIBL": 0.1,
+    "BloomForIBL_Mobile": [
+      {
+        "Key": "FloorHeight::NewEnumerator2",
+        "Value": 10.0
+      },
+      {
+        "Key": "FloorHeight::NewEnumerator5",
+        "Value": 7.0
+      },
+      {
+        "Key": "FloorHeight::NewEnumerator1",
+        "Value": 5.0
+      },
+      {
+        "Key": "FloorHeight::NewEnumerator0",
+        "Value": 2.0
+      }
+    ],
+    "BloomForIBL_PC": [
+      {
+        "Key": "FloorHeight::NewEnumerator2",
+        "Value": 7.0
+      },
+      {
+        "Key": "FloorHeight::NewEnumerator5",
+        "Value": 5.0
+      },
+      {
+        "Key": "FloorHeight::NewEnumerator1",
+        "Value": 3.0
+      },
+      {
+        "Key": "FloorHeight::NewEnumerator0",
+        "Value": 1.0
+      }
+    ],
+    "IBLForPC": 15.0,
+    "IBLForMobile": 3.0,
+    "LocalLightGUID": "00000000-00000000-00000000-00000000",
+    "UseFalloff": true,
+    "FalloffExponent": 8.0,
+    "DrawDistance": 4000.0,
+    "RectDorrLength": 10.0,
+    "RestMeshDistance": true,
+    "CinematicIntensity（PCOnly）": -1.0,
+    "CastWholeSceneShadow": true,
+    "PrimaryActorTick": {
+      "bStartWithTickEnabled": false,
+      "bAllowTickOnDedicatedServer": false
+    }
+  }
+}

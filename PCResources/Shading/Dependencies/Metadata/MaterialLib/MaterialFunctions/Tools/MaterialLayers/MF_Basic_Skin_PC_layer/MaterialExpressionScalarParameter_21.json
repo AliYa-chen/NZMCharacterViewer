@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_21",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Basic_Skin_PC_layer'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.34"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "SepcMax",
+    "ExpressionGUID": "2B3A3BE5-411FFB8F-74B491B9-07238D60",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Basic_Skin_PC_layer'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.34"
+    }
+  }
+}

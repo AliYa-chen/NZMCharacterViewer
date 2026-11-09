@@ -1,0 +1,10 @@
+{
+  "Type": "SceneComponent",
+  "Name": "DefaultSceneRoot_GEN_VARIABLE",
+  "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SceneComponent'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'BP_LobbyCameraActor_C'",
+    "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.0"
+  }
+}

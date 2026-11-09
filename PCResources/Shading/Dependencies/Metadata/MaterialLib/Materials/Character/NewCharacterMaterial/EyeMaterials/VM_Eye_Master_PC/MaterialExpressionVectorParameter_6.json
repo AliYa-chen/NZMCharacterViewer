@@ -1,0 +1,25 @@
+{
+  "Type": "MaterialExpressionVectorParameter",
+  "Name": "MaterialExpressionVectorParameter_6",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+  "Outer": {
+    "ObjectName": "Material'VM_Eye_Master_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC.0"
+  },
+  "Properties": {
+    "DefaultValue": {
+      "R": 0.5,
+      "G": 0.5,
+      "B": 0.5,
+      "A": 1.0,
+      "Hex": "BCBCBC"
+    },
+    "ParameterName": "IrisHighlightColor",
+    "ExpressionGUID": "6ECBABFB-4FC8F636-E30EDF83-D680C446",
+    "Material": {
+      "ObjectName": "Material'VM_Eye_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC.0"
+    }
+  }
+}

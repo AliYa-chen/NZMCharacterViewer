@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionStaticBoolParameter",
+  "Name": "MaterialExpressionStaticBoolParameter_3",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionStaticBoolParameter'",
+  "Outer": {
+    "ObjectName": "Material'VM_Eye_Master_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC.0"
+  },
+  "Properties": {
+    "DefaultValue": true,
+    "ParameterName": "ShineJob",
+    "ExpressionGUID": "30A96986-4A3E4729-5480C68D-D9253641",
+    "Material": {
+      "ObjectName": "Material'VM_Eye_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC.0"
+    }
+  }
+}

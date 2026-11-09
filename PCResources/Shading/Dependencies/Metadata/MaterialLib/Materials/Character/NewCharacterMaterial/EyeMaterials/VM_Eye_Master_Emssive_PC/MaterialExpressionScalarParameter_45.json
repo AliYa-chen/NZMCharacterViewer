@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_45",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'VM_Eye_Master_Emssive_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC.0"
+  },
+  "Properties": {
+    "DefaultValue": -0.1,
+    "ParameterName": "ShadowOffset",
+    "ExpressionGUID": "1E4B4BF8-4ECA1E9A-578B32B0-0821733A",
+    "Material": {
+      "ObjectName": "Material'VM_Eye_Master_Emssive_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC.0"
+    }
+  }
+}

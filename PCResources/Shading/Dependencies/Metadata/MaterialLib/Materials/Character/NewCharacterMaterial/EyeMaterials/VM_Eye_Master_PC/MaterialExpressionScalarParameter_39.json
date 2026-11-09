@@ -1,0 +1,18 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_39",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'VM_Eye_Master_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC.0"
+  },
+  "Properties": {
+    "ParameterName": "HDRAngleYZ",
+    "ExpressionGUID": "2989D5B3-482241C8-928B7E96-08CA72E8",
+    "Material": {
+      "ObjectName": "Material'VM_Eye_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC.0"
+    }
+  }
+}

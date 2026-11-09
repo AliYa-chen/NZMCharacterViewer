@@ -1,0 +1,37 @@
+{
+  "Type": "Function",
+  "Name": "Lighting Intensity",
+  "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Function'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_BaseLight_Spot_01_C'",
+    "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.9"
+  },
+  "ChildProperties": [
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_MultiplyMultiply_FloatFloat_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_1",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_2",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    }
+  ],
+  "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+}

@@ -1,0 +1,41 @@
+{
+  "Type": "MaterialExpressionStaticSwitchParameter",
+  "Name": "MaterialExpressionStaticSwitchParameter_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionStaticSwitchParameter'",
+  "Outer": {
+    "ObjectName": "Material'VM_Eye_Master_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC.0"
+  },
+  "Properties": {
+    "A": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 1,
+      "MaskR": 1,
+      "MaskG": 1,
+      "MaskB": 1,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionTextureSampleParameter2D_1"
+    },
+    "B": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 1,
+      "MaskR": 1,
+      "MaskG": 1,
+      "MaskB": 1,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionTextureSampleParameter2D_2"
+    },
+    "DefaultValue": true,
+    "ParameterName": "UseEyeBuldge",
+    "ExpressionGUID": "63FABFA1-47AC8AE5-47B31EA1-0E821D26",
+    "Material": {
+      "ObjectName": "Material'VM_Eye_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC.0"
+    }
+  }
+}

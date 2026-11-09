@@ -1,0 +1,20 @@
+{
+  "Type": "MaterialExpressionMaterialFunctionCall",
+  "Name": "MaterialExpressionMaterialFunctionCall_17",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+  "Outer": {
+    "ObjectName": "Material'VM_Eye_Master_Emssive_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC.0"
+  },
+  "Properties": {
+    "MaterialFunction": {
+      "ObjectName": "MaterialFunction'MF_FakeCameraHighlight'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_FakeCameraHighlight.8"
+    },
+    "Material": {
+      "ObjectName": "Material'VM_Eye_Master_Emssive_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC.0"
+    }
+  }
+}

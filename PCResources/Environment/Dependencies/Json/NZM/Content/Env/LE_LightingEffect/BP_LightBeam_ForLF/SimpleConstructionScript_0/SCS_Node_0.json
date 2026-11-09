@@ -1,0 +1,22 @@
+{
+  "Type": "SCS_Node",
+  "Name": "SCS_Node_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SCS_Node'",
+  "Outer": {
+    "ObjectName": "SimpleConstructionScript'BP_LightBeam_ForLF_C:SimpleConstructionScript_0'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.11"
+  },
+  "Properties": {
+    "ComponentClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ComponentTemplate": {
+      "ObjectName": "SceneComponent'BP_LightBeam_ForLF_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.9"
+    },
+    "VariableGuid": "D3B474A7-4E17FCE2-85FE6582-420DF97F",
+    "InternalVariableName": "DefaultSceneRoot"
+  }
+}

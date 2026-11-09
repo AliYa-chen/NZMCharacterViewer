@@ -1,0 +1,10 @@
+{
+  "Type": "SceneComponent",
+  "Name": "DefaultSceneRoot_GEN_VARIABLE",
+  "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SceneComponent'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Generic_Building_FreeStyle_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.0"
+  }
+}

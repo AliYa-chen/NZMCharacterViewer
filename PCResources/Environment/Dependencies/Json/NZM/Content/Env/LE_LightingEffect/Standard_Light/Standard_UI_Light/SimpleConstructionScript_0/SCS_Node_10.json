@@ -1,0 +1,22 @@
+{
+  "Type": "SCS_Node",
+  "Name": "SCS_Node_10",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SCS_Node'",
+  "Outer": {
+    "ObjectName": "SimpleConstructionScript'Standard_UI_Light_C:SimpleConstructionScript_0'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.10"
+  },
+  "Properties": {
+    "ComponentClass": {
+      "ObjectName": "Class'DirectionalLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ComponentTemplate": {
+      "ObjectName": "DirectionalLightComponent'Standard_UI_Light_C:DirectionalLight_GEN_VARIABLE'",
+      "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.2"
+    },
+    "VariableGuid": "17E86F01-447A04C4-FF6DF39B-C85A91CC",
+    "InternalVariableName": "DirectionalLight"
+  }
+}

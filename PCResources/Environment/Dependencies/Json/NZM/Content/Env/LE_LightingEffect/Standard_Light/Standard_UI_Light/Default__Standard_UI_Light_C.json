@@ -1,0 +1,7 @@
+{
+  "Type": "Standard_UI_Light_C",
+  "Name": "Default__Standard_UI_Light_C",
+  "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "BlueprintGeneratedClass'NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.Standard_UI_Light_C'",
+  "Package": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+}

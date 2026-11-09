@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_18",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Basic_Skin_PC_layer'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.34"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "DetailWeight",
+    "ExpressionGUID": "61DC9651-4B0E1D3A-D01816AB-A7EBBEAA",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Basic_Skin_PC_layer'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.34"
+    }
+  }
+}

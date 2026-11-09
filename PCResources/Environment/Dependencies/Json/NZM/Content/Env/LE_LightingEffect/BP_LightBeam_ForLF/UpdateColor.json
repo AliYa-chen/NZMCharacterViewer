@@ -1,0 +1,48 @@
+{
+  "Type": "Function",
+  "Name": "UpdateColor",
+  "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Function'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'BP_LightBeam_ForLF_C'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.6"
+  },
+  "ChildProperties": [
+    {
+      "Type": "StructProperty",
+      "Name": "NewColor",
+      "Flags": "RF_Public",
+      "ElementSize": 16,
+      "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+      "Struct": {
+        "ObjectName": "ScriptStruct'LinearColor'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "CallFunc_IsValid_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "CallFunc_IsValid_ReturnValue_1",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    }
+  ],
+  "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+}

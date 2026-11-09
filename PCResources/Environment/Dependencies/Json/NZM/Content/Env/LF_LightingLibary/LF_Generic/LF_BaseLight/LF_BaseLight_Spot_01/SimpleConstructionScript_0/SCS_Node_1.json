@@ -1,0 +1,22 @@
+{
+  "Type": "SCS_Node",
+  "Name": "SCS_Node_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SCS_Node'",
+  "Outer": {
+    "ObjectName": "SimpleConstructionScript'LF_BaseLight_Spot_01_C:SimpleConstructionScript_0'",
+    "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.14"
+  },
+  "Properties": {
+    "ComponentClass": {
+      "ObjectName": "Class'SpotLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ComponentTemplate": {
+      "ObjectName": "SpotLightComponent'LF_BaseLight_Spot_01_C:SpotLight_GEN_VARIABLE'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.15"
+    },
+    "VariableGuid": "75D8EBCB-42FD4143-5173E89C-51C0D695",
+    "InternalVariableName": "SpotLight"
+  }
+}

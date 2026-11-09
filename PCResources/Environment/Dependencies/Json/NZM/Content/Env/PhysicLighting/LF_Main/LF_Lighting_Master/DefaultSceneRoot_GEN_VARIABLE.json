@@ -1,0 +1,13 @@
+{
+  "Type": "SceneComponent",
+  "Name": "DefaultSceneRoot_GEN_VARIABLE",
+  "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SceneComponent'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+  },
+  "Properties": {
+    "Mobility": "EComponentMobility::Static"
+  }
+}

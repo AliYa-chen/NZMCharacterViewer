@@ -1,0 +1,459 @@
+{
+  "Type": "BlueprintGeneratedClass",
+  "Name": "LF_BaseLight_Point_01_C",
+  "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'BlueprintGeneratedClass'",
+  "Package": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01",
+  "Properties": {
+    "SimpleConstructionScript": {
+      "ObjectName": "SimpleConstructionScript'LF_BaseLight_Point_01_C:SimpleConstructionScript_0'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.17"
+    },
+    "UberGraphFunction": {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:ExecuteUbergraph_LF_BaseLight_Point_01'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.0"
+    }
+  },
+  "SuperStruct": {
+    "ObjectName": "Class'Actor'",
+    "ObjectPath": "/Script/Engine"
+  },
+  "Children": [
+    {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:PreBakeMapdelect'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.10"
+    },
+    {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:Setup Prebake Shadow'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.9"
+    },
+    {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:Pre Bake Shadow Depth Map'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.8"
+    },
+    {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:Point'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.7"
+    },
+    {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:pc&mobility'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.6"
+    },
+    {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:LightAttri'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.5"
+    },
+    {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:Lighting Intensity'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.4"
+    },
+    {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:Use Switch Temp'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.3"
+    },
+    {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:UserConstructionScript'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.2"
+    },
+    {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:ReceiveBeginPlay'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.1"
+    },
+    {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:ExecuteUbergraph_LF_BaseLight_Point_01'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.0"
+    }
+  ],
+  "ChildProperties": [
+    {
+      "Type": "StructProperty",
+      "Name": "UberGraphFrame",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 16,
+      "PropertyFlags": "Transient | DuplicateTransient",
+      "Struct": {
+        "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "PointLight",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 8,
+      "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+      "PropertyClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "DefaultSceneRoot",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 8,
+      "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+      "PropertyClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "VLFLightComp",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 8,
+      "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+      "PropertyClass": {
+        "ObjectName": "Class'LightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "SwitchOn/OFF",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 1,
+      "PropertyFlags": "Edit | BlueprintVisible",
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "ShadowBias",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible"
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "SourceRadius",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible | AdvancedDisplay"
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "AttenuationRadius",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible"
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "SourceLength",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible | AdvancedDisplay"
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "SoftSourceRadius",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible | AdvancedDisplay"
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "Preview",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 1,
+      "PropertyFlags": "Edit | BlueprintVisible",
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "BrightMul",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible"
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "FloorHeightSetting",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible"
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "IndirectLightingIntensity",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible"
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "LightColor",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 16,
+      "PropertyFlags": "Edit | BlueprintVisible",
+      "Struct": {
+        "ObjectName": "ScriptStruct'LinearColor'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "Temperature",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "Candela",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "PCfeature",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 1,
+      "PropertyFlags": "Edit | BlueprintVisible",
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "ByteProperty",
+      "Name": "SetMobility",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 1,
+      "PropertyFlags": "Edit | BlueprintVisible",
+      "Enum": {
+        "ObjectName": "Enum'EComponentMobility'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "UsePresetColor",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 1,
+      "PropertyFlags": "Edit | BlueprintVisible",
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "ByteProperty",
+      "Name": "SelectPresetColor",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 1,
+      "PropertyFlags": "Edit | BlueprintVisible",
+      "Enum": {
+        "ObjectName": "UserDefinedEnum'Temperature'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/Temperature.0"
+      }
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "FinalColor",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 16,
+      "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+      "Struct": {
+        "ObjectName": "ScriptStruct'LinearColor'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    },
+    {
+      "Type": "ByteProperty",
+      "Name": "Static",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 1,
+      "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+      "Enum": {
+        "ObjectName": "Enum'EComponentMobility'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "实时光SpecularScale",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible"
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "UseInverseSquaredFallOFF",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 1,
+      "PropertyFlags": "Edit | BlueprintVisible | AdvancedDisplay",
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "LightFallOffExponent",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible | AdvancedDisplay"
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "DynamicShadow",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 1,
+      "PropertyFlags": "Edit | BlueprintVisible | AdvancedDisplay",
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "StaticSpecularScale",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible"
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "NewVar_0",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CinematicIntensity",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible | Interp"
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "DrawDistance",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible"
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "SetCastPreBake",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 1,
+      "PropertyFlags": "Edit | BlueprintVisible",
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "IntProperty",
+      "Name": "PointPrebakeResolution",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible"
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "PreBakeShadowDepthData",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 8,
+      "PropertyFlags": "Edit | BlueprintVisible",
+      "PropertyClass": {
+        "ObjectName": "Class'PreBakeShadowDepthMap'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "Mobile_castshadow",
+      "Flags": "RF_Public | RF_LoadCompleted",
+      "ElementSize": 1,
+      "PropertyFlags": "Edit | BlueprintVisible",
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    }
+  ],
+  "FuncMap": {
+    "ExecuteUbergraph_LF_BaseLight_Point_01": {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:ExecuteUbergraph_LF_BaseLight_Point_01'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.0"
+    },
+    "ReceiveBeginPlay": {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:ReceiveBeginPlay'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.1"
+    },
+    "UserConstructionScript": {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:UserConstructionScript'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.2"
+    },
+    "Use Switch Temp": {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:Use Switch Temp'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.3"
+    },
+    "Lighting Intensity": {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:Lighting Intensity'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.4"
+    },
+    "LightAttri": {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:LightAttri'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.5"
+    },
+    "pc&mobility": {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:pc&mobility'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.6"
+    },
+    "Point": {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:Point'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.7"
+    },
+    "Pre Bake Shadow Depth Map": {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:Pre Bake Shadow Depth Map'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.8"
+    },
+    "Setup Prebake Shadow": {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:Setup Prebake Shadow'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.9"
+    },
+    "PreBakeMapdelect": {
+      "ObjectName": "Function'LF_BaseLight_Point_01_C:PreBakeMapdelect'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.10"
+    }
+  },
+  "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+  "ClassWithin": {
+    "ObjectName": "Class'Object'",
+    "ObjectPath": "/Script/CoreUObject"
+  },
+  "ClassConfigName": "Engine",
+  "bCooked": true,
+  "ClassDefaultObject": {
+    "ObjectName": "LF_BaseLight_Point_01_C'Default__LF_BaseLight_Point_01_C'",
+    "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.12"
+  }
+}

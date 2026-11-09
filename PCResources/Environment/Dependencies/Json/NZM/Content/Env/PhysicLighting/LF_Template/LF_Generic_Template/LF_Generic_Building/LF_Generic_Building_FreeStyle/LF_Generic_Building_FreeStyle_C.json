@@ -1,0 +1,36 @@
+{
+  "Type": "BlueprintGeneratedClass",
+  "Name": "LF_Generic_Building_FreeStyle_C",
+  "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'BlueprintGeneratedClass'",
+  "Package": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle",
+  "Super": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+  },
+  "Properties": {
+    "SimpleConstructionScript": {
+      "ObjectName": "SimpleConstructionScript'LF_Generic_Building_FreeStyle_C:SimpleConstructionScript_0'",
+      "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.5"
+    },
+    "InheritableComponentHandler": {
+      "ObjectName": "InheritableComponentHandler'LF_Generic_Building_FreeStyle_C:InheritableComponentHandler'",
+      "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.2"
+    }
+  },
+  "SuperStruct": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+  },
+  "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+  "ClassWithin": {
+    "ObjectName": "Class'Object'",
+    "ObjectPath": "/Script/CoreUObject"
+  },
+  "ClassConfigName": "Engine",
+  "bCooked": true,
+  "ClassDefaultObject": {
+    "ObjectName": "LF_Generic_Building_FreeStyle_C'Default__LF_Generic_Building_FreeStyle_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.1"
+  }
+}

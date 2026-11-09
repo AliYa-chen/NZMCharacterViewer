@@ -1,0 +1,102 @@
+{
+  "Type": "Function",
+  "Name": "CreateLightDynamicMaterial",
+  "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Function'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'BP_LightBeam_ForLF_C'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.6"
+  },
+  "ChildProperties": [
+    {
+      "Type": "BoolProperty",
+      "Name": "ManualMaterial",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "BaseMaterial",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+      "PropertyClass": {
+        "ObjectName": "Class'MaterialInstance'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "Square",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "OutMaterial",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "Parm | OutParm",
+      "PropertyClass": {
+        "ObjectName": "Class'MaterialInstanceDynamic'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "LoutMaterial",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "Edit | BlueprintVisible",
+      "PropertyClass": {
+        "ObjectName": "Class'MaterialInstanceDynamic'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyClass": {
+        "ObjectName": "Class'MaterialInstanceDynamic'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue_1",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyClass": {
+        "ObjectName": "Class'MaterialInstanceDynamic'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue_2",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyClass": {
+        "ObjectName": "Class'MaterialInstanceDynamic'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  ],
+  "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+}

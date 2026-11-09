@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_19",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'VM_Eye_Master_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC.0"
+  },
+  "Properties": {
+    "DefaultValue": 0.1,
+    "ParameterName": "IrisRoughness",
+    "ExpressionGUID": "A1AEA1CA-426FAC71-3B0AB197-5A915D06",
+    "Material": {
+      "ObjectName": "Material'VM_Eye_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC.0"
+    }
+  }
+}

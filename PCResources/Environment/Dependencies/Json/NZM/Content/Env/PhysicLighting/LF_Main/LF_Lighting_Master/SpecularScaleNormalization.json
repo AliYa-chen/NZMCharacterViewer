@@ -1,0 +1,38 @@
+{
+  "Type": "Function",
+  "Name": "SpecularScaleNormalization",
+  "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Function'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+  },
+  "ChildProperties": [
+    {
+      "Type": "FloatProperty",
+      "Name": "Luminance",
+      "Flags": "RF_Public",
+      "ElementSize": 4,
+      "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "SpecularSacle",
+      "Flags": "RF_Public",
+      "ElementSize": 4,
+      "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "LightCom",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+      "PropertyClass": {
+        "ObjectName": "Class'LightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  ],
+  "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+}

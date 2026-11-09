@@ -1,0 +1,25 @@
+{
+  "Type": "MaterialExpressionVectorParameter",
+  "Name": "MaterialExpressionVectorParameter_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_FakeCameraHighlight'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_FakeCameraHighlight.8"
+  },
+  "Properties": {
+    "DefaultValue": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0,
+      "A": 1.0,
+      "Hex": "000000"
+    },
+    "ParameterName": "FakeLightSpecularColor",
+    "ExpressionGUID": "C4130947-4384BEF7-E92F69BB-A27D6DFE",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_FakeCameraHighlight'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_FakeCameraHighlight.8"
+    }
+  }
+}

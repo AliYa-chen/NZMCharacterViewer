@@ -1,0 +1,28 @@
+{
+  "Type": "SCS_Node",
+  "Name": "SCS_Node_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SCS_Node'",
+  "Outer": {
+    "ObjectName": "SimpleConstructionScript'LF_Lighting_Master_C:SimpleConstructionScript_0'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.42"
+  },
+  "Properties": {
+    "ComponentClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ComponentTemplate": {
+      "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+    },
+    "ChildNodes": [
+      {
+        "ObjectName": "SCS_Node'LF_Lighting_Master_C:SimpleConstructionScript_0.SCS_Node_1'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.39"
+      }
+    ],
+    "VariableGuid": "7C4083CB-44C07AD3-61A3A0AC-A0136D7F",
+    "InternalVariableName": "DefaultSceneRoot"
+  }
+}

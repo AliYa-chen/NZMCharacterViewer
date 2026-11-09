@@ -1,0 +1,19 @@
+{
+  "Type": "SCS_Node",
+  "Name": "SCS_Node_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SCS_Node'",
+  "Outer": {
+    "ObjectName": "SimpleConstructionScript'LF_Lighting_Master_C:SimpleConstructionScript_0'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.42"
+  },
+  "Properties": {
+    "ComponentClass": {
+      "ObjectName": "Class'TickInEditorComponent'",
+      "ObjectPath": "/Script/NZMEditorUtility"
+    },
+    "ComponentTemplate": null,
+    "VariableGuid": "5546CDE9-4B3A3938-35C3B4AE-4A4C228B",
+    "InternalVariableName": "TickInEditorComponent"
+  }
+}

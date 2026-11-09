@@ -1,0 +1,28 @@
+{
+  "Type": "BlueprintGeneratedClass",
+  "Name": "BP_LobbyCameraActor_C",
+  "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'BlueprintGeneratedClass'",
+  "Package": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor",
+  "Properties": {
+    "SimpleConstructionScript": {
+      "ObjectName": "SimpleConstructionScript'BP_LobbyCameraActor_C:SimpleConstructionScript_0'",
+      "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.6"
+    }
+  },
+  "SuperStruct": {
+    "ObjectName": "Class'LobbyCineCameraActor'",
+    "ObjectPath": "/Script/GameFramework"
+  },
+  "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+  "ClassWithin": {
+    "ObjectName": "Class'Object'",
+    "ObjectPath": "/Script/CoreUObject"
+  },
+  "ClassConfigName": "Engine",
+  "bCooked": true,
+  "ClassDefaultObject": {
+    "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+    "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+  }
+}

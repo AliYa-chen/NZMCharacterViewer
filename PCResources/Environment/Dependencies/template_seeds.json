@@ -1,0 +1,1954 @@
+{
+  "schema_version": 1,
+  "source_path_base": "PCResources/Environment",
+  "seed_package_count": 8,
+  "reference_count": 176,
+  "seed_packages": [
+    "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor",
+    "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light",
+    "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01",
+    "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01",
+    "/Game/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base",
+    "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold",
+    "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master",
+    "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+  ],
+  "references": [
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background/PersistentLevel/LF_Generic_Building_FreeStyle_Base11_2.json",
+      "source_package": "/Game/Maps/Lobby/Role/Lobby_Scene_General_Background",
+      "source_class": "LF_Generic_Building_FreeStyle_Base_C",
+      "source_name": "LF_Generic_Building_FreeStyle_Base11_2",
+      "template_reference": {
+        "ObjectName": "LF_Generic_Building_FreeStyle_Base_C'Default__LF_Generic_Building_FreeStyle_Base_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background/PersistentLevel/LF_Generic_Building_FreeStyle_Base11_2/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby/Role/Lobby_Scene_General_Background",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background/PersistentLevel/LF_Generic_Building_FreeStyle_Base11_2/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby/Role/Lobby_Scene_General_Background",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_Building_FreeStyle_Base_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base.6"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role/PersistentLevel/Standard_UI_Light_Role.json",
+      "source_package": "/Game/Maps/Lobby/Role/Lobby_Scene_Light_Role",
+      "source_class": "Standard_UI_Light_C",
+      "source_name": "Standard_UI_Light_Role",
+      "template_reference": {
+        "ObjectName": "Standard_UI_Light_C'Default__Standard_UI_Light_C'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.1"
+      },
+      "dependency_package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role/PersistentLevel/Standard_UI_Light_Role/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby/Role/Lobby_Scene_Light_Role",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Standard_UI_Light_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.3"
+      },
+      "dependency_package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role/PersistentLevel/Standard_UI_Light_Role/DirectionalLight.json",
+      "source_package": "/Game/Maps/Lobby/Role/Lobby_Scene_Light_Role",
+      "source_class": "DirectionalLightComponent",
+      "source_name": "DirectionalLight",
+      "template_reference": {
+        "ObjectName": "DirectionalLightComponent'Standard_UI_Light_C:DirectionalLight_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.2"
+      },
+      "dependency_package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role/PersistentLevel/Standard_UI_Light_Role/SkyLight.json",
+      "source_package": "/Game/Maps/Lobby/Role/Lobby_Scene_Light_Role",
+      "source_class": "SkyLightComponent",
+      "source_name": "SkyLight",
+      "template_reference": {
+        "ObjectName": "SkyLightComponent'Standard_UI_Light_C:SkyLight_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.11"
+      },
+      "dependency_package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role/PersistentLevel/Standard_UI_Light_Role/SpotLight_Fill01.json",
+      "source_package": "/Game/Maps/Lobby/Role/Lobby_Scene_Light_Role",
+      "source_class": "SpotLightComponent",
+      "source_name": "SpotLight_Fill01",
+      "template_reference": {
+        "ObjectName": "SpotLightComponent'Standard_UI_Light_C:SpotLight_Fill01_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.12"
+      },
+      "dependency_package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role/PersistentLevel/Standard_UI_Light_Role/SpotLight_Fill02.json",
+      "source_package": "/Game/Maps/Lobby/Role/Lobby_Scene_Light_Role",
+      "source_class": "SpotLightComponent",
+      "source_name": "SpotLight_Fill02",
+      "template_reference": {
+        "ObjectName": "SpotLightComponent'Standard_UI_Light_C:SpotLight_Fill02_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.13"
+      },
+      "dependency_package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role/PersistentLevel/Standard_UI_Light_Role/SpotLight_Main.json",
+      "source_package": "/Game/Maps/Lobby/Role/Lobby_Scene_Light_Role",
+      "source_class": "SpotLightComponent",
+      "source_name": "SpotLight_Main",
+      "template_reference": {
+        "ObjectName": "SpotLightComponent'Standard_UI_Light_C:SpotLight_Main_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.14"
+      },
+      "dependency_package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold10.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold10",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold13.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold13",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold15.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold15",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold16.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold16",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold17.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold17",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold19.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold19",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold20.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold20",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold21_6.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold21_6",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold22.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold22",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold23.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold23",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold24.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold24",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold25.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold25",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold26.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold26",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold27.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold27",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold28.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold28",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold29.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold29",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "source_name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold9",
+      "template_reference": {
+        "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/RoleCamera_WeaponPC.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "RoleCamera_WeaponPC",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold10/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold10/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold10/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold10/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold13/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold13/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold13/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold13/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold15/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold15/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold15/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold15/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold16/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold16/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold16/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold16/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold17/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold17/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold17/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold17/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold19/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold19/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold19/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold19/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold20/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold20/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold20/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold20/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold21_6/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold21_6/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold21_6/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold21_6/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold22/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold22/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold22/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold22/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold23/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold23/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold23/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold23/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold24/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold24/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold24/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold24/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold25/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold25/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold25/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold25/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold26/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold26/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold26/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold26/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold27/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold27/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold27/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold27/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold28/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold28/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold28/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold28/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold29/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold29/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold29/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold29/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold9/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold9/NODE_AddPointLightComponent-11.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-11",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold9/NODE_AddPointLightComponent-9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "PointLightComponent",
+      "source_name": "NODE_AddPointLightComponent-9",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold9/StaticMesh.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "StaticMeshComponent",
+      "source_name": "StaticMesh",
+      "template_reference": {
+        "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+      },
+      "dependency_package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/RoleCamera_WeaponPC/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/RoleCamera_WeaponPC/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/BP_LobbyCameraActor_SubScene.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "BP_LobbyCameraActor_SubScene",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_Far.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "RoleCamera_Far",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_Personality.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "RoleCamera_Personality",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_PersonalityPC_1.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "RoleCamera_PersonalityPC_1",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_Scale.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "RoleCamera_Scale",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_Weapon_2.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "RoleCamera_Weapon_2",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_WeaponPC.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "RoleCamera_WeaponPC",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCameraActor_Watch.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "RoleCameraActor_Watch",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/Standard_UI_Light_naimei.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "Standard_UI_Light_C",
+      "source_name": "Standard_UI_Light_naimei",
+      "template_reference": {
+        "ObjectName": "Standard_UI_Light_C'Default__Standard_UI_Light_C'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.1"
+      },
+      "dependency_package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/BP_LobbyCameraActor_SubScene/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/BP_LobbyCameraActor_SubScene/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCameraActor_Watch/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCameraActor_Watch/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_Far/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_Far/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_Personality/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_Personality/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_PersonalityPC_1/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_PersonalityPC_1/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_Scale/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_Scale/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_WeaponPC/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_WeaponPC/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_Weapon_2/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/RoleCamera_Weapon_2/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/Standard_UI_Light_naimei/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Standard_UI_Light_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.3"
+      },
+      "dependency_package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/Standard_UI_Light_naimei/DirectionalLight.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "DirectionalLightComponent",
+      "source_name": "DirectionalLight",
+      "template_reference": {
+        "ObjectName": "DirectionalLightComponent'Standard_UI_Light_C:DirectionalLight_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.2"
+      },
+      "dependency_package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/Standard_UI_Light_naimei/SkyLight.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "SkyLightComponent",
+      "source_name": "SkyLight",
+      "template_reference": {
+        "ObjectName": "SkyLightComponent'Standard_UI_Light_C:SkyLight_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.11"
+      },
+      "dependency_package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/Standard_UI_Light_naimei/SpotLight_Fill01.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "SpotLightComponent",
+      "source_name": "SpotLight_Fill01",
+      "template_reference": {
+        "ObjectName": "SpotLightComponent'Standard_UI_Light_C:SpotLight_Fill01_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.12"
+      },
+      "dependency_package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/Standard_UI_Light_naimei/SpotLight_Fill02.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "SpotLightComponent",
+      "source_name": "SpotLight_Fill02",
+      "template_reference": {
+        "ObjectName": "SpotLightComponent'Standard_UI_Light_C:SpotLight_Fill02_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.13"
+      },
+      "dependency_package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/Standard_UI_Light_naimei/SpotLight_Main.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "source_class": "SpotLightComponent",
+      "source_name": "SpotLight_Main",
+      "template_reference": {
+        "ObjectName": "SpotLightComponent'Standard_UI_Light_C:SpotLight_Main_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.14"
+      },
+      "dependency_package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Point_01_0.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "LF_BaseLight_Point_01_C",
+      "source_name": "LF_BaseLight_Point_01_0",
+      "template_reference": {
+        "ObjectName": "LF_BaseLight_Point_01_C'Default__LF_BaseLight_Point_01_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.12"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Point_3.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "LF_BaseLight_Point_01_C",
+      "source_name": "LF_BaseLight_Point_3",
+      "template_reference": {
+        "ObjectName": "LF_BaseLight_Point_01_C'Default__LF_BaseLight_Point_01_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.12"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Spot_01_0.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "LF_BaseLight_Spot_01_C",
+      "source_name": "LF_BaseLight_Spot_01_0",
+      "template_reference": {
+        "ObjectName": "LF_BaseLight_Spot_01_C'Default__LF_BaseLight_Spot_01_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.10"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Spot_7.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "LF_BaseLight_Spot_01_C",
+      "source_name": "LF_BaseLight_Spot_7",
+      "template_reference": {
+        "ObjectName": "LF_BaseLight_Spot_01_C'Default__LF_BaseLight_Spot_01_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.10"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Spot_9.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "LF_BaseLight_Spot_01_C",
+      "source_name": "LF_BaseLight_Spot_9",
+      "template_reference": {
+        "ObjectName": "LF_BaseLight_Spot_01_C'Default__LF_BaseLight_Spot_01_C'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.10"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/RoleCamera_Far.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "RoleCamera_Far",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/RoleCamera_Scale.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "RoleCamera_Scale",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/RoleCamera_SubScene.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "RoleCamera_SubScene",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/RoleCamera_Watch.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "RoleCamera_Watch",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Point_01_0/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_BaseLight_Point_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.14"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Point_01_0/PointLight.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "PointLightComponent",
+      "source_name": "PointLight",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_BaseLight_Point_01_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.13"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Point_3/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_BaseLight_Point_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.14"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Point_3/PointLight.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "PointLightComponent",
+      "source_name": "PointLight",
+      "template_reference": {
+        "ObjectName": "PointLightComponent'LF_BaseLight_Point_01_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.13"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Spot_01_0/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_BaseLight_Spot_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.11"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Spot_01_0/SpotLight.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "SpotLightComponent",
+      "source_name": "SpotLight",
+      "template_reference": {
+        "ObjectName": "SpotLightComponent'LF_BaseLight_Spot_01_C:SpotLight_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.15"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Spot_7/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_BaseLight_Spot_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.11"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Spot_7/SpotLight.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "SpotLightComponent",
+      "source_name": "SpotLight",
+      "template_reference": {
+        "ObjectName": "SpotLightComponent'LF_BaseLight_Spot_01_C:SpotLight_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.15"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Spot_9/DefaultSceneRoot.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "SceneComponent",
+      "source_name": "DefaultSceneRoot",
+      "template_reference": {
+        "ObjectName": "SceneComponent'LF_BaseLight_Spot_01_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.11"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/LF_BaseLight_Spot_9/SpotLight.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "SpotLightComponent",
+      "source_name": "SpotLight",
+      "template_reference": {
+        "ObjectName": "SpotLightComponent'LF_BaseLight_Spot_01_C:SpotLight_GEN_VARIABLE'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.15"
+      },
+      "dependency_package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/RoleCamera_Far/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/RoleCamera_Far/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/RoleCamera_Scale/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/RoleCamera_Scale/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/RoleCamera_SubScene/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/RoleCamera_SubScene/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/RoleCamera_Watch/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/RoleCamera_Watch/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_Far.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "CameraActor_Far",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_Jump.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "CameraActor_Jump",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_RoleAction.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "CameraActor_RoleAction",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_WalkRun.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "CameraActor_WalkRun",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_Watch.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "BP_LobbyCameraActor_C",
+      "source_name": "CameraActor_Watch",
+      "template_reference": {
+        "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_Far/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_Far/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_Jump/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_Jump/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_RoleAction/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_RoleAction/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_WalkRun/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_WalkRun/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_Watch/CameraComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "CineCameraComponent",
+      "source_name": "CameraComponent",
+      "template_reference": {
+        "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    },
+    {
+      "source_json": "Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/CameraActor_Watch/SceneComponent.json",
+      "source_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "source_class": "SceneComponent",
+      "source_name": "SceneComponent",
+      "template_reference": {
+        "ObjectName": "SceneComponent'Default__BP_LobbyCameraActor_C:SceneComponent'",
+        "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4"
+      },
+      "dependency_package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor"
+    }
+  ]
+}

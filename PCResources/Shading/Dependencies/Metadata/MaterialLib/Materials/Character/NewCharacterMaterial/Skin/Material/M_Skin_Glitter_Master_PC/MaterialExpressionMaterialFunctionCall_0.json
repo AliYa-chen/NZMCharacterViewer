@@ -1,0 +1,20 @@
+{
+  "Type": "MaterialExpressionMaterialFunctionCall",
+  "Name": "MaterialExpressionMaterialFunctionCall_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+  "Outer": {
+    "ObjectName": "Material'M_Skin_Glitter_Master_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Glitter_Master_PC.0"
+  },
+  "Properties": {
+    "MaterialFunction": {
+      "ObjectName": "MaterialFunction'MF_Basic_Skin_Glitter_PC_layer'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_Glitter_PC_layer.25"
+    },
+    "Material": {
+      "ObjectName": "Material'M_Skin_Glitter_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Glitter_Master_PC.0"
+    }
+  }
+}

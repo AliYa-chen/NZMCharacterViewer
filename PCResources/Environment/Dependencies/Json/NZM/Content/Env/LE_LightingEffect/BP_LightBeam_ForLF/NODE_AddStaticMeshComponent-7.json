@@ -1,0 +1,17 @@
+{
+  "Type": "StaticMeshComponent",
+  "Name": "NODE_AddStaticMeshComponent-7",
+  "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'StaticMeshComponent'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'BP_LightBeam_ForLF_C'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.6"
+  },
+  "Properties": {
+    "StaticMesh": {
+      "ObjectName": "StaticMesh'S_EV_SimpleLightBeam_03_cross'",
+      "ObjectPath": "Engine/Content/EngineVolumetrics/LightBeam/Mesh/S_EV_SimpleLightBeam_03_cross.1"
+    },
+    "PrimitiveGuid": "94109A27-405B5E94-8C6A01AD-C3C74FCA"
+  }
+}

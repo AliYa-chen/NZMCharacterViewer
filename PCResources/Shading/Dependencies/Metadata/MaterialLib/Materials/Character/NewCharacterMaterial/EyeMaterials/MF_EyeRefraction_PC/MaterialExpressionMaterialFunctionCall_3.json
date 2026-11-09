@@ -1,0 +1,20 @@
+{
+  "Type": "MaterialExpressionMaterialFunctionCall",
+  "Name": "MaterialExpressionMaterialFunctionCall_3",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_EyeRefraction_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_EyeRefraction_PC.6"
+  },
+  "Properties": {
+    "MaterialFunction": {
+      "ObjectName": "MaterialFunction'MakeFloat2'",
+      "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+    },
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_EyeRefraction_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_EyeRefraction_PC.6"
+    }
+  }
+}

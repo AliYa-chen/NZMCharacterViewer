@@ -1,0 +1,18 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_3",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Data_Skin'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+  },
+  "Properties": {
+    "ParameterName": "PSABias",
+    "ExpressionGUID": "54FF086F-478A5B4B-6685878A-75A4071A",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Data_Skin'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+    }
+  }
+}

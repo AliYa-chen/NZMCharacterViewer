@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_37",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'VM_Eye_Master_Emssive_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC.0"
+  },
+  "Properties": {
+    "DefaultValue": 153.0,
+    "ParameterName": "HDRAngle",
+    "ExpressionGUID": "13D03F86-4D2C1993-0EA9F3A0-C91E15EF",
+    "Material": {
+      "ObjectName": "Material'VM_Eye_Master_Emssive_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC.0"
+    }
+  }
+}

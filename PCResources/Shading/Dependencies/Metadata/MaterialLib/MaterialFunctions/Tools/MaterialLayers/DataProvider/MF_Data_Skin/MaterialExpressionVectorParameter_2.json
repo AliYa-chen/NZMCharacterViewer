@@ -1,0 +1,25 @@
+{
+  "Type": "MaterialExpressionVectorParameter",
+  "Name": "MaterialExpressionVectorParameter_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Data_Skin'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+  },
+  "Properties": {
+    "DefaultValue": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "FFFFFF"
+    },
+    "ParameterName": "EmissionColor",
+    "ExpressionGUID": "4C7B141D-403DF1F4-CA4FCCB8-9EA8DDD3",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Data_Skin'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+    }
+  }
+}

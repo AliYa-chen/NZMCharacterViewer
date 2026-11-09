@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "package_limit": 30,
+  "layer_limit": 3,
+  "requested_dependency_packages": 10,
+  "completed_layers": 2,
+  "unresolved_due_to_layer_limit": [],
+  "status": "all_discovered_external_template_packages_exported",
+  "native_defaults": "not serialized and not synthesized"
+}

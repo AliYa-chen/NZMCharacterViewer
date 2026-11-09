@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_27",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Basic_Hair_PC_Layer_TwoPass'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.86"
+  },
+  "Properties": {
+    "DefaultValue": 0.5,
+    "ParameterName": "PixelDepthOffset",
+    "ExpressionGUID": "8FDCA41F-44E76694-1D66D9B5-D791878C",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Basic_Hair_PC_Layer_TwoPass'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.86"
+    }
+  }
+}

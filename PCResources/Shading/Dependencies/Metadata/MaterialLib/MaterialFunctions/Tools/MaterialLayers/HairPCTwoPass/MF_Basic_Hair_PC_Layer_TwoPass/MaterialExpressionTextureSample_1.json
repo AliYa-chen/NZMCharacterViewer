@@ -1,0 +1,32 @@
+{
+  "Type": "MaterialExpressionTextureSample",
+  "Name": "MaterialExpressionTextureSample_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionTextureSample'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Basic_Hair_PC_Layer_TwoPass'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.86"
+  },
+  "Properties": {
+    "Coordinates": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionAdd_8"
+    },
+    "Texture": {
+      "ObjectName": "Texture2D'Good64x64TilingNoiseHighFreq'",
+      "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+    },
+    "SamplerType": "SAMPLERTYPE_LinearGrayscale",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Basic_Hair_PC_Layer_TwoPass'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.86"
+    }
+  }
+}

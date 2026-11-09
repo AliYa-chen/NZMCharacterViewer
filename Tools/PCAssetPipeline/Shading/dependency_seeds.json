@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "maximum_package_count": 20,
+  "selection": "Seven parents shared by current skin/hair/eye VMIs, emissive-eye parent, six shared functions, three representative SSS profiles, and three explicitly referenced support textures.",
+  "packages": [
+    {
+      "virtual_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC_Default",
+      "role": "primary_parent"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC",
+      "role": "primary_parent"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/Hair/Material/PCHairTwoPass/M_HairBlend_Master_PC_FirstPass",
+      "role": "primary_parent"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/Hair/Material/PCHairTwoPass/M_HairBlend_Master_PC_FlowEnergy_FirstPass",
+      "role": "primary_parent"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Glitter_Master_PC",
+      "role": "primary_parent"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Master_PC",
+      "role": "primary_parent"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Master_PC_Mask_UI",
+      "role": "primary_parent"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC",
+      "role": "shared_parent_or_function"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin",
+      "role": "shared_parent_or_function"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer",
+      "role": "shared_parent_or_function"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass",
+      "role": "shared_parent_or_function"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_MarschnerHair",
+      "role": "shared_parent_or_function"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_EyeRefraction_PC",
+      "role": "shared_parent_or_function"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_FakeCameraHighlight",
+      "role": "shared_parent_or_function"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/SubsurfaceProfile_Skin",
+      "role": "profile_or_support_texture"
+    },
+    {
+      "virtual_package": "/Game/Avatar/Character/Angela/CommonRes/Materials/UI/SubsurfaceProfile_Skin",
+      "role": "profile_or_support_texture"
+    },
+    {
+      "virtual_package": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/SubsurfaceProfile_Angela_Suit_B_body_UI_Skin",
+      "role": "profile_or_support_texture"
+    },
+    {
+      "virtual_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_EyeMidPlaneDisplacement_2",
+      "role": "profile_or_support_texture"
+    },
+    {
+      "virtual_package": "/Game/Avatar/Base/Textures/T_Hair_Detail_Normal",
+      "role": "profile_or_support_texture"
+    },
+    {
+      "virtual_package": "/Game/Avatar/Base/Textures/T_Hair_Noise",
+      "role": "profile_or_support_texture"
+    }
+  ],
+  "limitations": [
+    "The selection is intentionally bounded; it is not the full dependency closure.",
+    "Names that suggest LUTs are not treated as LUTs unless supported by actual parameter/reference evidence.",
+    "Base Content/Paks only; no claim of current patch priority."
+  ]
+}

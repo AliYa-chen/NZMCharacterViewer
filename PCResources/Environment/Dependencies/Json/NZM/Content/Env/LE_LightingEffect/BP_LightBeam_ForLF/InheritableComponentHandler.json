@@ -1,0 +1,10 @@
+{
+  "Type": "InheritableComponentHandler",
+  "Name": "InheritableComponentHandler",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'InheritableComponentHandler'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'BP_LightBeam_ForLF_C'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.6"
+  }
+}

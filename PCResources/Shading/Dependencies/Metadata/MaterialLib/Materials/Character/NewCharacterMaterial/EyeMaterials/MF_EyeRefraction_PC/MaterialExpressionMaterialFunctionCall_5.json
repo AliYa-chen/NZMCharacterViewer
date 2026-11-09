@@ -1,0 +1,20 @@
+{
+  "Type": "MaterialExpressionMaterialFunctionCall",
+  "Name": "MaterialExpressionMaterialFunctionCall_5",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_EyeRefraction_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_EyeRefraction_PC.6"
+  },
+  "Properties": {
+    "MaterialFunction": {
+      "ObjectName": "MaterialFunction'VectorLength'",
+      "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+    },
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_EyeRefraction_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_EyeRefraction_PC.6"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Type": "MaterialExpressionVectorParameter",
+  "Name": "MaterialExpressionVectorParameter_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Data_Skin'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+  },
+  "Properties": {
+    "DefaultValue": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 0.0,
+      "Hex": "FFFFFF"
+    },
+    "ParameterName": "ColorOverlay",
+    "ExpressionGUID": "9D266DD4-4C54AAD8-2A25BC9B-8700DD3C",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Data_Skin'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+    }
+  }
+}

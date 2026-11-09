@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_6",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Basic_Skin_PC_layer'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.34"
+  },
+  "Properties": {
+    "DefaultValue": -1.0,
+    "ParameterName": "Bias",
+    "ExpressionGUID": "467BF3F1-4C90C150-65256DA7-DA639792",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Basic_Skin_PC_layer'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.34"
+    }
+  }
+}

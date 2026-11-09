@@ -16,6 +16,10 @@
 | `Analysis/Compare-Textures.ps1` | 以实际可用 mip 比较当前纹理与 PC 候选 |
 | `Analysis/Verify-TextureBindings.ps1` | 核对当前材质的实际 Texture 引用与 PC 材质参数链 |
 | `Analysis/Find-SceneTargets.ps1` | 汇总人物页灯光、背景和数据表候选 |
+| `Lighting/` | 补取外部灯光模板，按真实导出索引核对身份并保留逐属性继承来源 |
+| `Shading/` | 提取有依据的肤／眼／发依赖并生成可还原程度报告 |
+| `../../Scripts/build_pc_postprocess_profiles.py` | 构建稳定、可检查的后期字段值／override 档案 |
+| `../../Scripts/build_pc_quality_reference.py` | 将允许清单内的历史画质报告整理为可发布的相对路径数据 |
 | `../../Scripts/validate_pc_resources.py` | 无游戏／引擎的发布资源完整性校验 |
 | `../../Scripts/import_pc_textures.py` | 独立文件检查及 UE5.8 定点纹理重导入；编辑器应用未实测 |
 
@@ -51,3 +55,5 @@ $cipher = & ./Tools/PCAssetPipeline/Cipher/Build-CipherAdapter.ps1
 本次重新从跟踪源码构建 cipher 后，基础包单包索引烟测通过（4594 条，三类 SHA1 一致）。完整原分析 137 包、837,533 条文件记录通过。Runtime 从空缓存用已下载归档离线重建并 Verify／Audit 通过，跟踪版导出脚本读取 Angela 2048² 纹理通过；原批 194 PNG、36 ActorX 的验证全部通过。None、Zlib、Oodle 三种文件提取样本均检查了存储头 SHA1。
 
 解析工具通过不等于 UE 导入、动画、原 shader 或画面已复原。游戏资源与工具依赖的许可分别见 [第三方资源说明](../../THIRD_PARTY_NOTICES.md) 及 [Runtime 第三方来源](Runtime/THIRD_PARTY.md)。
+
+另一台 UE 机器的实施顺序和实际验收要求见 [PC 人物渲染还原交接](../../Docs/PC_CHARACTER_RENDERING_HANDOFF.md)。

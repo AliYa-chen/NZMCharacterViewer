@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_5",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Data_Skin'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "EmissionScale",
+    "ExpressionGUID": "7E12BE92-439E1C22-FE53C99F-072BE13F",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Data_Skin'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Type": "SpotLightComponent",
+  "Name": "SpotLight_GEN_VARIABLE",
+  "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SpotLightComponent'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_BaseLight_Spot_01_C'",
+    "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.9"
+  },
+  "Properties": {
+    "PreBakeShadowDepthMapResolution": 512,
+    "IntensityUnits": "ELightUnits::Candelas",
+    "bCastPerObjectShadow": true,
+    "LightmassSettings": {
+      "bUseAreaShadowsForStationaryLight": true
+    },
+    "MaxDrawDistance": 10000.0,
+    "MaxDistanceFadeRange": 800.0,
+    "MobileDynamicShadowMapResolution": 256,
+    "Intensity": 8.0,
+    "VolumetricScatteringIntensity": 0.0,
+    "RelativeRotation": {
+      "Pitch": -90.0,
+      "Yaw": 0.0,
+      "Roll": 0.0
+    },
+    "Mobility": "EComponentMobility::Static"
+  },
+  "IntensityNits": 0.0
+}

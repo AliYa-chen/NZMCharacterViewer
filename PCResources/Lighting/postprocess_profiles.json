@@ -1,0 +1,3998 @@
+{
+  "limitations": [
+    "Missing serialized values, override flags and volume properties remain unknown; no native or template defaults are filled.",
+    "An explicit source override flag does not prove the winning per-frame value; template inheritance, volume blending and runtime changes require separate verification.",
+    "DesktopBloomSettings and MobileBloomSettings are separate source branches, not simultaneous stock UE settings.",
+    "Candidate mappings do not implement an import or conversion. Target UE5.8 reflection, exposure semantics, platform support and visible response must be checked before applying them.",
+    "Original fork exposure min/max zero does not independently establish a UE5 EV0/manual exposure equivalent."
+  ],
+  "native_candidate_mapping": [
+    {
+      "candidate_ue_python_property": "color_saturation",
+      "source_branch": "mainSettings",
+      "source_field": "ColorSaturation",
+      "status": "native_candidate_requires_target_reflection_and_source_override_checks"
+    },
+    {
+      "candidate_ue_python_property": "color_contrast",
+      "source_branch": "mainSettings",
+      "source_field": "ColorContrast",
+      "status": "native_candidate_requires_target_reflection_and_source_override_checks"
+    },
+    {
+      "candidate_ue_python_property": "color_gamma",
+      "source_branch": "mainSettings",
+      "source_field": "ColorGamma",
+      "status": "native_candidate_requires_target_reflection_and_source_override_checks"
+    },
+    {
+      "candidate_ue_python_property": "color_gain",
+      "source_branch": "mainSettings",
+      "source_field": "ColorGain",
+      "status": "native_candidate_requires_target_reflection_and_source_override_checks"
+    },
+    {
+      "candidate_ue_python_property": "color_offset",
+      "source_branch": "mainSettings",
+      "source_field": "ColorOffset",
+      "status": "native_candidate_requires_target_reflection_and_source_override_checks"
+    },
+    {
+      "candidate_ue_python_property": "color_contrast_midtones",
+      "source_branch": "mainSettings",
+      "source_field": "ColorContrastMidtones",
+      "status": "native_candidate_requires_target_reflection_and_source_override_checks"
+    },
+    {
+      "candidate_ue_python_property": "vignette_intensity",
+      "source_branch": "mainSettings",
+      "source_field": "VignetteIntensity",
+      "status": "native_candidate_requires_target_reflection_and_source_override_checks"
+    },
+    {
+      "candidate_ue_python_property": "lens_flare_intensity",
+      "source_branch": "mainSettings",
+      "source_field": "LensFlareIntensity",
+      "status": "native_candidate_requires_target_reflection_and_source_override_checks"
+    },
+    {
+      "candidate_ue_python_property": "depth_of_field_scale",
+      "source_branch": "mainSettings",
+      "source_field": "DepthOfFieldScale",
+      "status": "native_candidate_requires_target_reflection_and_source_override_checks"
+    },
+    {
+      "candidate_ue_python_property": "depth_of_field_focal_region",
+      "source_branch": "mainSettings",
+      "source_field": "DepthOfFieldFocalRegion",
+      "status": "native_candidate_requires_target_reflection_and_source_override_checks"
+    },
+    {
+      "candidate_ue_python_property": "depth_of_field_near_distance",
+      "source_branch": "mainSettings",
+      "source_field": "DepthOfFieldNearDistance",
+      "status": "native_candidate_requires_target_reflection_and_source_override_checks"
+    },
+    {
+      "candidate_ue_python_property": "depth_of_field_near_transition_region",
+      "source_branch": "mainSettings",
+      "source_field": "DepthOfFieldNearTransitionRegion",
+      "status": "native_candidate_requires_target_reflection_and_source_override_checks"
+    },
+    {
+      "candidate_ue_python_property": "depth_of_field_far_transition_region",
+      "source_branch": "mainSettings",
+      "source_field": "DepthOfFieldFarTransitionRegion",
+      "status": "native_candidate_requires_target_reflection_and_source_override_checks"
+    },
+    {
+      "candidate_ue_python_property": "bloom_intensity",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "BloomIntensity",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom_threshold",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "BloomThreshold",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom_size_scale",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "BloomSizeScale",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom1_size",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "Bloom1Size",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom1_tint",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "Bloom1Tint",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom2_size",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "Bloom2Size",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom2_tint",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "Bloom2Tint",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom3_size",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "Bloom3Size",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom3_tint",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "Bloom3Tint",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom4_size",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "Bloom4Size",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom4_tint",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "Bloom4Tint",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom5_size",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "Bloom5Size",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom5_tint",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "Bloom5Tint",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom6_size",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "Bloom6Size",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom6_tint",
+      "source_branch": "DesktopBloomSettings",
+      "source_field": "Bloom6Tint",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom_intensity",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "BloomIntensity",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom_threshold",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "BloomThreshold",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom_size_scale",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "BloomSizeScale",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom1_size",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "Bloom1Size",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom1_tint",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "Bloom1Tint",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom2_size",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "Bloom2Size",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom2_tint",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "Bloom2Tint",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom3_size",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "Bloom3Size",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom3_tint",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "Bloom3Tint",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom4_size",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "Bloom4Size",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom4_tint",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "Bloom4Tint",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom5_size",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "Bloom5Size",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom5_tint",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "Bloom5Tint",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom6_size",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "Bloom6Size",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": "bloom6_tint",
+      "source_branch": "MobileBloomSettings",
+      "source_field": "Bloom6Tint",
+      "status": "fork_branch_requires_explicit_platform_selection_and_response_validation"
+    },
+    {
+      "candidate_ue_python_property": null,
+      "note": "Source min/max zero must not be treated as a verified UE5 EV0 conversion.",
+      "source_branch": "mainSettings",
+      "source_field": "AutoExposureMinBrightness",
+      "status": "source_exposure_semantics_require_conversion_before_UE5_EV100_or_manual_exposure"
+    },
+    {
+      "candidate_ue_python_property": null,
+      "note": "Source min/max zero must not be treated as a verified UE5 EV0 conversion.",
+      "source_branch": "mainSettings",
+      "source_field": "AutoExposureMaxBrightness",
+      "status": "source_exposure_semantics_require_conversion_before_UE5_EV100_or_manual_exposure"
+    },
+    {
+      "candidate_ue_python_property": null,
+      "source_branch": "mainSettings",
+      "source_field": "IsUI",
+      "status": "source_fork_or_platform_behavior_not_implemented_by_this_tool"
+    },
+    {
+      "candidate_ue_python_property": null,
+      "source_branch": "mainSettings",
+      "source_field": "UIRenderResolution",
+      "status": "source_fork_or_platform_behavior_not_implemented_by_this_tool"
+    },
+    {
+      "candidate_ue_python_property": null,
+      "source_branch": "mainSettings",
+      "source_field": "MobileHQGaussian",
+      "status": "source_fork_or_platform_behavior_not_implemented_by_this_tool"
+    }
+  ],
+  "schema_version": 1,
+  "source_scope": "Installed PC Content/Paks base archives only. Saved updates were not mounted and patch priority is unresolved.",
+  "source_summary": {
+    "file": "PCResources/Environment/scene_parameters.json",
+    "sha256": "ed6385eeecfc3652148c7144543c26673ee1039bc1946d1fb03189ef4f9d537a"
+  },
+  "state_definitions": {
+    "explicit_disabled_override": "bOverride flag=false is explicitly serialized; a serialized value, including false or zero, is retained without treating it as an enabled override.",
+    "override_without_serialized_value": "bOverride flag=true is serialized, but no paired value is serialized; the inherited/native value is unknown.",
+    "value_and_explicit_override": "A value and bOverride flag=true are serialized in this branch; effective volume blending and runtime overrides remain unverified.",
+    "value_without_explicit_override": "A value is serialized, but no matching bOverride flag is serialized; the omitted flag is unknown rather than assumed enabled."
+  },
+  "status": "serialized_postprocess_evidence_only_apply_not_implemented",
+  "summary": {
+    "field_evidence_count": 256,
+    "known_evidence_guards": "passed",
+    "state_counts": {
+      "explicit_disabled_override": 0,
+      "override_without_serialized_value": 98,
+      "value_and_explicit_override": 124,
+      "value_without_explicit_override": 34
+    },
+    "volume_count": 7
+  },
+  "value_pairing_policy": "Literal names are paired first; a unique bool bX value may pair with bOverride_X only when no X value is serialized. All original Settings keys are retained.",
+  "volumes": [
+    {
+      "branches": {
+        "DesktopBloomSettings": [
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom1Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom1Size",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom1Size",
+            "serialized_value_present": true,
+            "value": 0.152381,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom1Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom1Tint",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom1Tint",
+            "serialized_value_present": true,
+            "value": {
+              "A": 0.0,
+              "B": 0.3465,
+              "G": 0.3465,
+              "Hex": "9F9F9F",
+              "R": 0.3465
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom2Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom2Size",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom2Size",
+            "serialized_value_present": true,
+            "value": 0.050794,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom2Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom2Tint",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom2Tint",
+            "serialized_value_present": true,
+            "value": {
+              "A": 0.0,
+              "B": 0.138,
+              "G": 0.138,
+              "Hex": "686868",
+              "R": 0.138
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom3Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom3Size",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom3Size",
+            "serialized_value_present": true,
+            "value": 1.625397,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom3Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom3Tint",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom3Tint",
+            "serialized_value_present": true,
+            "value": {
+              "A": 0.0,
+              "B": 0.265625,
+              "G": 0.265625,
+              "Hex": "8D8D8D",
+              "R": 0.265625
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom4Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom4Size",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom4Size",
+            "serialized_value_present": true,
+            "value": 6.095238,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom4Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom4Tint",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom4Tint",
+            "serialized_value_present": true,
+            "value": {
+              "A": 0.0,
+              "B": 0.251736,
+              "G": 0.251736,
+              "Hex": "898989",
+              "R": 0.251736
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom5Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom5Size",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom5Size",
+            "serialized_value_present": true,
+            "value": 12.190476,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom5Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom5Tint",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom5Tint",
+            "serialized_value_present": true,
+            "value": {
+              "A": 0.0,
+              "B": 0.232639,
+              "G": 0.232639,
+              "Hex": "858585",
+              "R": 0.232639
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom6Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom6Size",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom6Size",
+            "serialized_value_present": true,
+            "value": 27.631748,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom6Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom6Tint",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom6Tint",
+            "serialized_value_present": true,
+            "value": {
+              "A": 0.0,
+              "B": 0.229167,
+              "G": 0.229167,
+              "Hex": "848484",
+              "R": 0.229167
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomIntensity",
+            "serialized_value_present": true,
+            "value": 2.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "BloomSizeScale",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomSizeScale",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomThreshold",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomThreshold",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomThreshold",
+            "serialized_value_present": true,
+            "value": 1.0,
+            "value_pairing": "literal_property_name"
+          }
+        ],
+        "MobileBloomSettings": [
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom1Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom1Size",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom1Size",
+            "serialized_value_present": true,
+            "value": 1.447619,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom1Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom1Tint",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom1Tint",
+            "serialized_value_present": true,
+            "value": {
+              "A": 0.0,
+              "B": 0.140625,
+              "G": 0.140625,
+              "Hex": "696969",
+              "R": 0.140625
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom2Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom2Size",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom2Size",
+            "serialized_value_present": true,
+            "value": 3.2,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom2Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom2Tint",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom2Tint",
+            "serialized_value_present": true,
+            "value": {
+              "A": 0.0,
+              "B": 0.157986,
+              "G": 0.157986,
+              "Hex": "6F6F6F",
+              "R": 0.157986
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom3Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom3Size",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom3Size",
+            "serialized_value_present": true,
+            "value": 5.892064,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom3Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom3Tint",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom3Tint",
+            "serialized_value_present": true,
+            "value": {
+              "A": 0.0,
+              "B": 0.128472,
+              "G": 0.128472,
+              "Hex": "646464",
+              "R": 0.128472
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom4Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom4Size",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom4Size",
+            "serialized_value_present": true,
+            "value": 13.282539,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom4Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom4Tint",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom4Tint",
+            "serialized_value_present": true,
+            "value": {
+              "A": 0.0,
+              "B": 0.128472,
+              "G": 0.128472,
+              "Hex": "646464",
+              "R": 0.128472
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom5Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom5Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom5Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom5Tint",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom5Tint",
+            "serialized_value_present": true,
+            "value": {
+              "A": 0.0,
+              "B": 0.066,
+              "G": 0.066,
+              "Hex": "484848",
+              "R": 0.066
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom6Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom6Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom6Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom6Tint",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom6Tint",
+            "serialized_value_present": true,
+            "value": {
+              "A": 0.0,
+              "B": 0.066,
+              "G": 0.066,
+              "Hex": "484848",
+              "R": 0.066
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "BloomIntensity",
+            "serialized_override_present": false,
+            "serialized_value_key": "BloomIntensity",
+            "serialized_value_present": true,
+            "value": 2.631746,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "BloomSizeScale",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomSizeScale",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomThreshold",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomThreshold",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomThreshold",
+            "serialized_value_present": true,
+            "value": 0.232,
+            "value_pairing": "literal_property_name"
+          }
+        ],
+        "mainSettings": [
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "AutoExposureMaxBrightness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureMaxBrightness",
+            "serialized_override_present": true,
+            "serialized_value_key": "AutoExposureMaxBrightness",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "AutoExposureMinBrightness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureMinBrightness",
+            "serialized_override_present": true,
+            "serialized_value_key": "AutoExposureMinBrightness",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorContrastMidtones",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorContrastMidtones",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorContrastMidtones",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.1,
+              "Y": 1.1,
+              "Z": 1.1
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "DepthOfFieldFarBlurSize",
+            "override_value": true,
+            "serialized_override_key": "bOverride_DepthOfFieldFarBlurSize",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "DepthOfFieldFarTransitionRegion",
+            "override_value": true,
+            "serialized_override_key": "bOverride_DepthOfFieldFarTransitionRegion",
+            "serialized_override_present": true,
+            "serialized_value_key": "DepthOfFieldFarTransitionRegion",
+            "serialized_value_present": true,
+            "value": 1200.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "DepthOfFieldFocalRegion",
+            "override_value": true,
+            "serialized_override_key": "bOverride_DepthOfFieldFocalRegion",
+            "serialized_override_present": true,
+            "serialized_value_key": "DepthOfFieldFocalRegion",
+            "serialized_value_present": true,
+            "value": 150.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "DepthOfFieldNearBlurSize",
+            "override_value": true,
+            "serialized_override_key": "bOverride_DepthOfFieldNearBlurSize",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "DepthOfFieldNearDistance",
+            "override_value": true,
+            "serialized_override_key": "bOverride_DepthOfFieldNearDistance",
+            "serialized_override_present": true,
+            "serialized_value_key": "DepthOfFieldNearDistance",
+            "serialized_value_present": true,
+            "value": 380.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "DepthOfFieldNearTransitionRegion",
+            "override_value": true,
+            "serialized_override_key": "bOverride_DepthOfFieldNearTransitionRegion",
+            "serialized_override_present": true,
+            "serialized_value_key": "DepthOfFieldNearTransitionRegion",
+            "serialized_value_present": true,
+            "value": 10000.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "DepthOfFieldScale",
+            "override_value": true,
+            "serialized_override_key": "bOverride_DepthOfFieldScale",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "IsUI",
+            "override_value": true,
+            "serialized_override_key": "bOverride_IsUI",
+            "serialized_override_present": true,
+            "serialized_value_key": "bIsUI",
+            "serialized_value_present": true,
+            "value": true,
+            "value_pairing": "boolean_b_prefix_pair"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "LensFlareIntensity",
+            "serialized_override_present": false,
+            "serialized_value_key": "LensFlareIntensity",
+            "serialized_value_present": true,
+            "value": 3.7,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "MobileHQGaussian",
+            "override_value": true,
+            "serialized_override_key": "bOverride_MobileHQGaussian",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "UIRenderResolution",
+            "override_value": true,
+            "serialized_override_key": "bOverride_UIRenderResolution",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "VignetteIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_VignetteIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "VignetteIntensity",
+            "serialized_value_present": true,
+            "value": 0.25,
+            "value_pairing": "literal_property_name"
+          }
+        ]
+      },
+      "final_frame_effective": "not_established",
+      "map_package": "/Game/Maps/Lobby/Role/Lobby_Scene_Light_Role",
+      "name": "PostProcessVolume_Role",
+      "settings": {
+        "AutoExposureMaxBrightness": 0.0,
+        "AutoExposureMinBrightness": 0.0,
+        "ColorContrastMidtones": {
+          "W": 1.0,
+          "X": 1.1,
+          "Y": 1.1,
+          "Z": 1.1
+        },
+        "DepthOfFieldFarTransitionRegion": 1200.0,
+        "DepthOfFieldFocalRegion": 150.0,
+        "DepthOfFieldNearDistance": 380.0,
+        "DepthOfFieldNearTransitionRegion": 10000.0,
+        "DesktopBloomSettings": {
+          "Bloom1Size": 0.152381,
+          "Bloom1Tint": {
+            "A": 0.0,
+            "B": 0.3465,
+            "G": 0.3465,
+            "Hex": "9F9F9F",
+            "R": 0.3465
+          },
+          "Bloom2Size": 0.050794,
+          "Bloom2Tint": {
+            "A": 0.0,
+            "B": 0.138,
+            "G": 0.138,
+            "Hex": "686868",
+            "R": 0.138
+          },
+          "Bloom3Size": 1.625397,
+          "Bloom3Tint": {
+            "A": 0.0,
+            "B": 0.265625,
+            "G": 0.265625,
+            "Hex": "8D8D8D",
+            "R": 0.265625
+          },
+          "Bloom4Size": 6.095238,
+          "Bloom4Tint": {
+            "A": 0.0,
+            "B": 0.251736,
+            "G": 0.251736,
+            "Hex": "898989",
+            "R": 0.251736
+          },
+          "Bloom5Size": 12.190476,
+          "Bloom5Tint": {
+            "A": 0.0,
+            "B": 0.232639,
+            "G": 0.232639,
+            "Hex": "858585",
+            "R": 0.232639
+          },
+          "Bloom6Size": 27.631748,
+          "Bloom6Tint": {
+            "A": 0.0,
+            "B": 0.229167,
+            "G": 0.229167,
+            "Hex": "848484",
+            "R": 0.229167
+          },
+          "BloomIntensity": 2.0,
+          "BloomThreshold": 1.0,
+          "bOverride_Bloom1Size": true,
+          "bOverride_Bloom1Tint": true,
+          "bOverride_Bloom2Size": true,
+          "bOverride_Bloom2Tint": true,
+          "bOverride_Bloom3Size": true,
+          "bOverride_Bloom3Tint": true,
+          "bOverride_Bloom4Size": true,
+          "bOverride_Bloom4Tint": true,
+          "bOverride_Bloom5Size": true,
+          "bOverride_Bloom5Tint": true,
+          "bOverride_Bloom6Size": true,
+          "bOverride_Bloom6Tint": true,
+          "bOverride_BloomIntensity": true,
+          "bOverride_BloomSizeScale": true,
+          "bOverride_BloomThreshold": true
+        },
+        "LensFlareIntensity": 3.7,
+        "MobileBloomSettings": {
+          "Bloom1Size": 1.447619,
+          "Bloom1Tint": {
+            "A": 0.0,
+            "B": 0.140625,
+            "G": 0.140625,
+            "Hex": "696969",
+            "R": 0.140625
+          },
+          "Bloom2Size": 3.2,
+          "Bloom2Tint": {
+            "A": 0.0,
+            "B": 0.157986,
+            "G": 0.157986,
+            "Hex": "6F6F6F",
+            "R": 0.157986
+          },
+          "Bloom3Size": 5.892064,
+          "Bloom3Tint": {
+            "A": 0.0,
+            "B": 0.128472,
+            "G": 0.128472,
+            "Hex": "646464",
+            "R": 0.128472
+          },
+          "Bloom4Size": 13.282539,
+          "Bloom4Tint": {
+            "A": 0.0,
+            "B": 0.128472,
+            "G": 0.128472,
+            "Hex": "646464",
+            "R": 0.128472
+          },
+          "Bloom5Tint": {
+            "A": 0.0,
+            "B": 0.066,
+            "G": 0.066,
+            "Hex": "484848",
+            "R": 0.066
+          },
+          "Bloom6Tint": {
+            "A": 0.0,
+            "B": 0.066,
+            "G": 0.066,
+            "Hex": "484848",
+            "R": 0.066
+          },
+          "BloomIntensity": 2.631746,
+          "BloomThreshold": 0.232,
+          "bOverride_Bloom1Size": true,
+          "bOverride_Bloom1Tint": true,
+          "bOverride_Bloom2Size": true,
+          "bOverride_Bloom2Tint": true,
+          "bOverride_Bloom3Size": true,
+          "bOverride_Bloom3Tint": true,
+          "bOverride_Bloom4Size": true,
+          "bOverride_Bloom4Tint": true,
+          "bOverride_Bloom5Size": true,
+          "bOverride_Bloom5Tint": true,
+          "bOverride_Bloom6Size": true,
+          "bOverride_Bloom6Tint": true,
+          "bOverride_BloomSizeScale": true,
+          "bOverride_BloomThreshold": true
+        },
+        "VignetteIntensity": 0.25,
+        "bIsUI": true,
+        "bOverride_AutoExposureMaxBrightness": true,
+        "bOverride_AutoExposureMinBrightness": true,
+        "bOverride_ColorContrastMidtones": true,
+        "bOverride_DepthOfFieldFarBlurSize": true,
+        "bOverride_DepthOfFieldFarTransitionRegion": true,
+        "bOverride_DepthOfFieldFocalRegion": true,
+        "bOverride_DepthOfFieldNearBlurSize": true,
+        "bOverride_DepthOfFieldNearDistance": true,
+        "bOverride_DepthOfFieldNearTransitionRegion": true,
+        "bOverride_DepthOfFieldScale": true,
+        "bOverride_IsUI": true,
+        "bOverride_MobileHQGaussian": true,
+        "bOverride_UIRenderResolution": true,
+        "bOverride_VignetteIntensity": true
+      },
+      "source_json": "PCResources/Environment/Json/NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role/PersistentLevel/PostProcessVolume_Role.json",
+      "source_sha256": "b04d8c580c230140f725d86c2de050020af2dec6dfb13df63b074216ec9282ae",
+      "template_inheritance_status": "unresolved; omitted native/template properties are not defaulted by this summary",
+      "template_reference": null,
+      "volume_properties": {
+        "BlendRadius": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "BlendWeight": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "Priority": {
+          "serialized": true,
+          "status": "serialized_value",
+          "value": 5.0
+        },
+        "bEnabled": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "bUnbound": {
+          "serialized": true,
+          "status": "serialized_value",
+          "value": true
+        }
+      }
+    },
+    {
+      "branches": {
+        "DesktopBloomSettings": [
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomIntensity",
+            "serialized_value_present": true,
+            "value": 3.5,
+            "value_pairing": "literal_property_name"
+          }
+        ],
+        "MobileBloomSettings": [
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomIntensity",
+            "serialized_value_present": true,
+            "value": 5.0,
+            "value_pairing": "literal_property_name"
+          }
+        ],
+        "mainSettings": [
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "AutoExposureCalibrationConstant",
+            "serialized_override_present": false,
+            "serialized_value_key": "AutoExposureCalibrationConstant",
+            "serialized_value_present": true,
+            "value": 21.4,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "AutoExposureHighPercent",
+            "serialized_override_present": false,
+            "serialized_value_key": "AutoExposureHighPercent",
+            "serialized_value_present": true,
+            "value": 70.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "AutoExposureLowPercent",
+            "serialized_override_present": false,
+            "serialized_value_key": "AutoExposureLowPercent",
+            "serialized_value_present": true,
+            "value": 20.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "AutoExposureMaxBrightness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureMaxBrightness",
+            "serialized_override_present": true,
+            "serialized_value_key": "AutoExposureMaxBrightness",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "AutoExposureMinBrightness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureMinBrightness",
+            "serialized_override_present": true,
+            "serialized_value_key": "AutoExposureMinBrightness",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomDirtMask",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomDirtMask",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomDirtMask",
+            "serialized_value_present": true,
+            "value": {
+              "ObjectName": "Texture2D't_dirtmask'",
+              "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_DirtyMask/t_dirtmask.0"
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomDirtMaskIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomDirtMaskIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomDirtMaskIntensity",
+            "serialized_value_present": true,
+            "value": 5.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "BloomMethod",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomMethod",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ChromaticAberrationStartOffset",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ChromaticAberrationStartOffset",
+            "serialized_override_present": true,
+            "serialized_value_key": "ChromaticAberrationStartOffset",
+            "serialized_value_present": true,
+            "value": 0.7,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorContrast",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorContrast",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorContrast",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.1,
+              "Y": 1.1,
+              "Z": 1.1
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorContrastMidtones",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorContrastMidtones",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorContrastMidtones",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.1,
+              "Y": 1.1,
+              "Z": 1.1
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorGain",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGain",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorGain",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.5,
+              "Y": 1.5,
+              "Z": 1.5
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorGainMidtones",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGainMidtones",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorGainMidtones",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.2,
+              "Y": 1.2,
+              "Z": 1.2
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorGainShadows",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGainShadows",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorGammaShadows",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGammaShadows",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorSaturation",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorSaturation",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "DepthOfFieldUseMobileImpl",
+            "override_value": true,
+            "serialized_override_key": "bOverride_DepthOfFieldUseMobileImpl",
+            "serialized_override_present": true,
+            "serialized_value_key": "DepthOfFieldUseMobileImpl",
+            "serialized_value_present": true,
+            "value": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "DistantShadowAffectGIIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_DistantShadowAffectGIIntensity",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "GrainIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_GrainIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "GrainIntensity",
+            "serialized_value_present": true,
+            "value": 0.2,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "IsUI",
+            "override_value": true,
+            "serialized_override_key": "bOverride_IsUI",
+            "serialized_override_present": true,
+            "serialized_value_key": "bIsUI",
+            "serialized_value_present": true,
+            "value": true,
+            "value_pairing": "boolean_b_prefix_pair"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "LensFlareIntensity",
+            "serialized_override_present": false,
+            "serialized_value_key": "LensFlareIntensity",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "SSRTAOIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_SSRTAOIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "SSRTAOIntensity",
+            "serialized_value_present": true,
+            "value": 0.8,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "SceneFringeIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_SceneFringeIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "SceneFringeIntensity",
+            "serialized_value_present": true,
+            "value": 0.5,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ShadowAffectGIIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ShadowAffectGIIntensity",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ShadowAffectLitGIIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ShadowAffectLitGIIntensity",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "VignetteIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_VignetteIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "VignetteIntensity",
+            "serialized_value_present": true,
+            "value": 1.0,
+            "value_pairing": "literal_property_name"
+          }
+        ]
+      },
+      "final_frame_effective": "not_established",
+      "map_package": "/Game/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia",
+      "name": "PostProcessVolume_lucia",
+      "settings": {
+        "AutoExposureCalibrationConstant": 21.4,
+        "AutoExposureHighPercent": 70.0,
+        "AutoExposureLowPercent": 20.0,
+        "AutoExposureMaxBrightness": 0.0,
+        "AutoExposureMinBrightness": 0.0,
+        "BloomDirtMask": {
+          "ObjectName": "Texture2D't_dirtmask'",
+          "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_DirtyMask/t_dirtmask.0"
+        },
+        "BloomDirtMaskIntensity": 5.0,
+        "ChromaticAberrationStartOffset": 0.7,
+        "ColorContrast": {
+          "W": 1.0,
+          "X": 1.1,
+          "Y": 1.1,
+          "Z": 1.1
+        },
+        "ColorContrastMidtones": {
+          "W": 1.0,
+          "X": 1.1,
+          "Y": 1.1,
+          "Z": 1.1
+        },
+        "ColorGain": {
+          "W": 1.0,
+          "X": 1.5,
+          "Y": 1.5,
+          "Z": 1.5
+        },
+        "ColorGainMidtones": {
+          "W": 1.0,
+          "X": 1.2,
+          "Y": 1.2,
+          "Z": 1.2
+        },
+        "DepthOfFieldUseMobileImpl": false,
+        "DesktopBloomSettings": {
+          "BloomIntensity": 3.5,
+          "bOverride_BloomIntensity": true
+        },
+        "GrainIntensity": 0.2,
+        "LensFlareIntensity": 0.0,
+        "MobileBloomSettings": {
+          "BloomIntensity": 5.0,
+          "bOverride_BloomIntensity": true
+        },
+        "SSRTAOIntensity": 0.8,
+        "SceneFringeIntensity": 0.5,
+        "VignetteIntensity": 1.0,
+        "bIsUI": true,
+        "bOverride_AutoExposureMaxBrightness": true,
+        "bOverride_AutoExposureMinBrightness": true,
+        "bOverride_BloomDirtMask": true,
+        "bOverride_BloomDirtMaskIntensity": true,
+        "bOverride_BloomMethod": true,
+        "bOverride_ChromaticAberrationStartOffset": true,
+        "bOverride_ColorContrast": true,
+        "bOverride_ColorContrastMidtones": true,
+        "bOverride_ColorGain": true,
+        "bOverride_ColorGainMidtones": true,
+        "bOverride_ColorGainShadows": true,
+        "bOverride_ColorGammaShadows": true,
+        "bOverride_ColorSaturation": true,
+        "bOverride_DepthOfFieldUseMobileImpl": true,
+        "bOverride_DistantShadowAffectGIIntensity": true,
+        "bOverride_GrainIntensity": true,
+        "bOverride_IsUI": true,
+        "bOverride_SSRTAOIntensity": true,
+        "bOverride_SceneFringeIntensity": true,
+        "bOverride_ShadowAffectGIIntensity": true,
+        "bOverride_ShadowAffectLitGIIntensity": true,
+        "bOverride_VignetteIntensity": true
+      },
+      "source_json": "PCResources/Environment/Json/NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia/PersistentLevel/PostProcessVolume_lucia.json",
+      "source_sha256": "1f2a7bdb154f8a383ef79503d6b7d9e36800a871c2a8282ba9a48278e430bb7b",
+      "template_inheritance_status": "unresolved; omitted native/template properties are not defaulted by this summary",
+      "template_reference": null,
+      "volume_properties": {
+        "BlendRadius": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "BlendWeight": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "Priority": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "bEnabled": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "bUnbound": {
+          "serialized": true,
+          "status": "serialized_value",
+          "value": true
+        }
+      }
+    },
+    {
+      "branches": {
+        "DesktopBloomSettings": [
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom1Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom1Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom1Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom1Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom2Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom2Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom2Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom2Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom3Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom3Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom3Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom3Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom4Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom4Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom4Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom4Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom5Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom5Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom5Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom5Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom6Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom6Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom6Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom6Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomIntensity",
+            "serialized_value_present": true,
+            "value": 2.5,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "BloomSizeScale",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomSizeScale",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "BloomThreshold",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomThreshold",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          }
+        ],
+        "MobileBloomSettings": [
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom1Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom1Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom1Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom1Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom2Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom2Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom2Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom2Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom3Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom3Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom3Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom3Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom4Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom4Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom4Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom4Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom5Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom5Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom5Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom5Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom6Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom6Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "Bloom6Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom6Tint",
+            "serialized_override_present": true,
+            "serialized_value_key": "Bloom6Tint",
+            "serialized_value_present": true,
+            "value": {
+              "A": 0.0,
+              "B": 0.066,
+              "G": 0.066,
+              "Hex": "484848",
+              "R": 0.066
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomIntensity",
+            "serialized_value_present": true,
+            "value": 3.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "BloomSizeScale",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomSizeScale",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomThreshold",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomThreshold",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomThreshold",
+            "serialized_value_present": true,
+            "value": -0.5,
+            "value_pairing": "literal_property_name"
+          }
+        ],
+        "mainSettings": [
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "AutoExposureCalibrationConstant",
+            "serialized_override_present": false,
+            "serialized_value_key": "AutoExposureCalibrationConstant",
+            "serialized_value_present": true,
+            "value": 21.4,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "AutoExposureHighPercent",
+            "serialized_override_present": false,
+            "serialized_value_key": "AutoExposureHighPercent",
+            "serialized_value_present": true,
+            "value": 70.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "AutoExposureLowPercent",
+            "serialized_override_present": false,
+            "serialized_value_key": "AutoExposureLowPercent",
+            "serialized_value_present": true,
+            "value": 20.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "AutoExposureMaxBrightness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureMaxBrightness",
+            "serialized_override_present": true,
+            "serialized_value_key": "AutoExposureMaxBrightness",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "AutoExposureMinBrightness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureMinBrightness",
+            "serialized_override_present": true,
+            "serialized_value_key": "AutoExposureMinBrightness",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "BloomDirtMask",
+            "serialized_override_present": false,
+            "serialized_value_key": "BloomDirtMask",
+            "serialized_value_present": true,
+            "value": {
+              "ObjectName": "Texture2D't_dirtmask'",
+              "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_DirtyMask/t_dirtmask.0"
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "BloomDirtMaskIntensity",
+            "serialized_override_present": false,
+            "serialized_value_key": "BloomDirtMaskIntensity",
+            "serialized_value_present": true,
+            "value": 5.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "BloomMethod",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomMethod",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ChromaticAberrationStartOffset",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ChromaticAberrationStartOffset",
+            "serialized_override_present": true,
+            "serialized_value_key": "ChromaticAberrationStartOffset",
+            "serialized_value_present": true,
+            "value": 0.7,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorContrast",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorContrast",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorContrast",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.05,
+              "Y": 1.05,
+              "Z": 1.05
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorContrastMidtones",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorContrastMidtones",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorContrastMidtones",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.05,
+              "Y": 1.05,
+              "Z": 1.05
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "ColorGain",
+            "serialized_override_present": false,
+            "serialized_value_key": "ColorGain",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 0.954545,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorGainMidtones",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGainMidtones",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorGainMidtones",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.2,
+              "Y": 1.2,
+              "Z": 1.2
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorGainShadows",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGainShadows",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorGammaShadows",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGammaShadows",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorSaturation",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorSaturation",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "DepthOfFieldUseMobileImpl",
+            "override_value": true,
+            "serialized_override_key": "bOverride_DepthOfFieldUseMobileImpl",
+            "serialized_override_present": true,
+            "serialized_value_key": "DepthOfFieldUseMobileImpl",
+            "serialized_value_present": true,
+            "value": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "DistantShadowAffectGIIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_DistantShadowAffectGIIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "DistantShadowAffectGIIntensity",
+            "serialized_value_present": true,
+            "value": 1.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "GrainIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_GrainIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "GrainIntensity",
+            "serialized_value_present": true,
+            "value": 0.05,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "IsUI",
+            "override_value": true,
+            "serialized_override_key": "bOverride_IsUI",
+            "serialized_override_present": true,
+            "serialized_value_key": "bIsUI",
+            "serialized_value_present": true,
+            "value": true,
+            "value_pairing": "boolean_b_prefix_pair"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "LensFlareIntensity",
+            "serialized_override_present": false,
+            "serialized_value_key": "LensFlareIntensity",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "LookModificationTransformIntensity",
+            "serialized_override_present": false,
+            "serialized_value_key": "LookModificationTransformIntensity",
+            "serialized_value_present": true,
+            "value": 1.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "LookModificationTransformLUT",
+            "serialized_override_present": false,
+            "serialized_value_key": "LookModificationTransformLUT",
+            "serialized_value_present": true,
+            "value": {
+              "ObjectName": "VolumeTexture'LM02_A_sunset'",
+              "ObjectPath": "NZM/Content/Maps/LM02_KunLun/LightingSystem/TOD/3DLut/PC/LM02_A_sunset.0"
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "SSRTAOIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_SSRTAOIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "SSRTAOIntensity",
+            "serialized_value_present": true,
+            "value": 0.8,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "SceneFringeIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_SceneFringeIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "SceneFringeIntensity",
+            "serialized_value_present": true,
+            "value": 0.5,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ShadowAffectGIIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ShadowAffectGIIntensity",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ShadowAffectLitGIIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ShadowAffectLitGIIntensity",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "VignetteIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_VignetteIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "VignetteIntensity",
+            "serialized_value_present": true,
+            "value": 0.4,
+            "value_pairing": "literal_property_name"
+          }
+        ]
+      },
+      "final_frame_effective": "not_established",
+      "map_package": "/Game/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei",
+      "name": "PostProcessVolume_1",
+      "settings": {
+        "AutoExposureCalibrationConstant": 21.4,
+        "AutoExposureHighPercent": 70.0,
+        "AutoExposureLowPercent": 20.0,
+        "AutoExposureMaxBrightness": 0.0,
+        "AutoExposureMinBrightness": 0.0,
+        "BloomDirtMask": {
+          "ObjectName": "Texture2D't_dirtmask'",
+          "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_DirtyMask/t_dirtmask.0"
+        },
+        "BloomDirtMaskIntensity": 5.0,
+        "ChromaticAberrationStartOffset": 0.7,
+        "ColorContrast": {
+          "W": 1.0,
+          "X": 1.05,
+          "Y": 1.05,
+          "Z": 1.05
+        },
+        "ColorContrastMidtones": {
+          "W": 1.0,
+          "X": 1.05,
+          "Y": 1.05,
+          "Z": 1.05
+        },
+        "ColorGain": {
+          "W": 1.0,
+          "X": 0.954545,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "ColorGainMidtones": {
+          "W": 1.0,
+          "X": 1.2,
+          "Y": 1.2,
+          "Z": 1.2
+        },
+        "DepthOfFieldUseMobileImpl": false,
+        "DesktopBloomSettings": {
+          "BloomIntensity": 2.5,
+          "bOverride_Bloom1Size": true,
+          "bOverride_Bloom1Tint": true,
+          "bOverride_Bloom2Size": true,
+          "bOverride_Bloom2Tint": true,
+          "bOverride_Bloom3Size": true,
+          "bOverride_Bloom3Tint": true,
+          "bOverride_Bloom4Size": true,
+          "bOverride_Bloom4Tint": true,
+          "bOverride_Bloom5Size": true,
+          "bOverride_Bloom5Tint": true,
+          "bOverride_Bloom6Size": true,
+          "bOverride_Bloom6Tint": true,
+          "bOverride_BloomIntensity": true,
+          "bOverride_BloomSizeScale": true,
+          "bOverride_BloomThreshold": true
+        },
+        "DistantShadowAffectGIIntensity": 1.0,
+        "GrainIntensity": 0.05,
+        "LensFlareIntensity": 0.0,
+        "LookModificationTransformIntensity": 1.0,
+        "LookModificationTransformLUT": {
+          "ObjectName": "VolumeTexture'LM02_A_sunset'",
+          "ObjectPath": "NZM/Content/Maps/LM02_KunLun/LightingSystem/TOD/3DLut/PC/LM02_A_sunset.0"
+        },
+        "MobileBloomSettings": {
+          "Bloom6Tint": {
+            "A": 0.0,
+            "B": 0.066,
+            "G": 0.066,
+            "Hex": "484848",
+            "R": 0.066
+          },
+          "BloomIntensity": 3.0,
+          "BloomThreshold": -0.5,
+          "bOverride_Bloom1Size": true,
+          "bOverride_Bloom1Tint": true,
+          "bOverride_Bloom2Size": true,
+          "bOverride_Bloom2Tint": true,
+          "bOverride_Bloom3Size": true,
+          "bOverride_Bloom3Tint": true,
+          "bOverride_Bloom4Size": true,
+          "bOverride_Bloom4Tint": true,
+          "bOverride_Bloom5Size": true,
+          "bOverride_Bloom5Tint": true,
+          "bOverride_Bloom6Size": true,
+          "bOverride_Bloom6Tint": true,
+          "bOverride_BloomIntensity": true,
+          "bOverride_BloomSizeScale": true,
+          "bOverride_BloomThreshold": true
+        },
+        "SSRTAOIntensity": 0.8,
+        "SceneFringeIntensity": 0.5,
+        "VignetteIntensity": 0.4,
+        "bIsUI": true,
+        "bOverride_AutoExposureMaxBrightness": true,
+        "bOverride_AutoExposureMinBrightness": true,
+        "bOverride_BloomMethod": true,
+        "bOverride_ChromaticAberrationStartOffset": true,
+        "bOverride_ColorContrast": true,
+        "bOverride_ColorContrastMidtones": true,
+        "bOverride_ColorGainMidtones": true,
+        "bOverride_ColorGainShadows": true,
+        "bOverride_ColorGammaShadows": true,
+        "bOverride_ColorSaturation": true,
+        "bOverride_DepthOfFieldUseMobileImpl": true,
+        "bOverride_DistantShadowAffectGIIntensity": true,
+        "bOverride_GrainIntensity": true,
+        "bOverride_IsUI": true,
+        "bOverride_SSRTAOIntensity": true,
+        "bOverride_SceneFringeIntensity": true,
+        "bOverride_ShadowAffectGIIntensity": true,
+        "bOverride_ShadowAffectLitGIIntensity": true,
+        "bOverride_VignetteIntensity": true
+      },
+      "source_json": "PCResources/Environment/Json/NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei/PersistentLevel/PostProcessVolume_1.json",
+      "source_sha256": "42dc379e53fe07d2c12615e038559ca89def655b14c2d9381c687df5d7ba3467",
+      "template_inheritance_status": "unresolved; omitted native/template properties are not defaulted by this summary",
+      "template_reference": null,
+      "volume_properties": {
+        "BlendRadius": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "BlendWeight": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "Priority": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "bEnabled": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "bUnbound": {
+          "serialized": true,
+          "status": "serialized_value",
+          "value": true
+        }
+      }
+    },
+    {
+      "branches": {
+        "DesktopBloomSettings": [
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom1Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom1Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom1Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom1Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom2Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom2Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom2Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom2Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom3Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom3Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom3Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom3Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom4Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom4Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom4Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom4Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom5Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom5Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom5Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom5Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom6Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom6Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom6Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom6Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomIntensity",
+            "serialized_value_present": true,
+            "value": 3.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "BloomSizeScale",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomSizeScale",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomThreshold",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomThreshold",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomThreshold",
+            "serialized_value_present": true,
+            "value": -0.5,
+            "value_pairing": "literal_property_name"
+          }
+        ],
+        "MobileBloomSettings": [
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom1Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom1Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom1Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom1Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom2Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom2Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom2Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom2Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom3Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom3Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom3Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom3Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom4Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom4Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom4Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom4Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom5Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom5Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom5Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom5Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom6Size",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom6Size",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "Bloom6Tint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_Bloom6Tint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomIntensity",
+            "serialized_value_present": true,
+            "value": 3.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "BloomSizeScale",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomSizeScale",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomThreshold",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomThreshold",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomThreshold",
+            "serialized_value_present": true,
+            "value": -0.5,
+            "value_pairing": "literal_property_name"
+          }
+        ],
+        "mainSettings": [
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "AutoExposureCalibrationConstant",
+            "serialized_override_present": false,
+            "serialized_value_key": "AutoExposureCalibrationConstant",
+            "serialized_value_present": true,
+            "value": 21.4,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "AutoExposureHighPercent",
+            "serialized_override_present": false,
+            "serialized_value_key": "AutoExposureHighPercent",
+            "serialized_value_present": true,
+            "value": 70.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "AutoExposureLowPercent",
+            "serialized_override_present": false,
+            "serialized_value_key": "AutoExposureLowPercent",
+            "serialized_value_present": true,
+            "value": 20.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "AutoExposureMaxBrightness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureMaxBrightness",
+            "serialized_override_present": true,
+            "serialized_value_key": "AutoExposureMaxBrightness",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "AutoExposureMinBrightness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureMinBrightness",
+            "serialized_override_present": true,
+            "serialized_value_key": "AutoExposureMinBrightness",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "BloomDirtMask",
+            "serialized_override_present": false,
+            "serialized_value_key": "BloomDirtMask",
+            "serialized_value_present": true,
+            "value": {
+              "ObjectName": "Texture2D't_dirtmask'",
+              "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_DirtyMask/t_dirtmask.0"
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "BloomDirtMaskIntensity",
+            "serialized_override_present": false,
+            "serialized_value_key": "BloomDirtMaskIntensity",
+            "serialized_value_present": true,
+            "value": 5.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "BloomMethod",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomMethod",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ChromaticAberrationStartOffset",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ChromaticAberrationStartOffset",
+            "serialized_override_present": true,
+            "serialized_value_key": "ChromaticAberrationStartOffset",
+            "serialized_value_present": true,
+            "value": 0.7,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorContrast",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorContrast",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorContrast",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.05,
+              "Y": 1.05,
+              "Z": 1.05
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorContrastMidtones",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorContrastMidtones",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorContrastMidtones",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.05,
+              "Y": 1.05,
+              "Z": 1.05
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorGainHighlights",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGainHighlights",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorGainMidtones",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGainMidtones",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorSaturation",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorSaturation",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "DistantShadowAffectGIIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_DistantShadowAffectGIIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "DistantShadowAffectGIIntensity",
+            "serialized_value_present": true,
+            "value": 1.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "GrainIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_GrainIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "GrainIntensity",
+            "serialized_value_present": true,
+            "value": 0.05,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "IsUI",
+            "override_value": true,
+            "serialized_override_key": "bOverride_IsUI",
+            "serialized_override_present": true,
+            "serialized_value_key": "bIsUI",
+            "serialized_value_present": true,
+            "value": true,
+            "value_pairing": "boolean_b_prefix_pair"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "LensFlareIntensity",
+            "serialized_override_present": false,
+            "serialized_value_key": "LensFlareIntensity",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "SSRTAOIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_SSRTAOIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "SSRTAOIntensity",
+            "serialized_value_present": true,
+            "value": 0.6,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "SceneFringeIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_SceneFringeIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "SceneFringeIntensity",
+            "serialized_value_present": true,
+            "value": 0.5,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ShadowAffectGIIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ShadowAffectGIIntensity",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ShadowAffectLitGIIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ShadowAffectLitGIIntensity",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "VignetteIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_VignetteIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "VignetteIntensity",
+            "serialized_value_present": true,
+            "value": 0.8,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "WhiteTemp",
+            "override_value": true,
+            "serialized_override_key": "bOverride_WhiteTemp",
+            "serialized_override_present": true,
+            "serialized_value_key": "WhiteTemp",
+            "serialized_value_present": true,
+            "value": 6000.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "WhiteTint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_WhiteTint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          }
+        ]
+      },
+      "final_frame_effective": "not_established",
+      "map_package": "/Game/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei",
+      "name": "PostProcessVolume_0",
+      "settings": {
+        "AutoExposureCalibrationConstant": 21.4,
+        "AutoExposureHighPercent": 70.0,
+        "AutoExposureLowPercent": 20.0,
+        "AutoExposureMaxBrightness": 0.0,
+        "AutoExposureMinBrightness": 0.0,
+        "BloomDirtMask": {
+          "ObjectName": "Texture2D't_dirtmask'",
+          "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_DirtyMask/t_dirtmask.0"
+        },
+        "BloomDirtMaskIntensity": 5.0,
+        "ChromaticAberrationStartOffset": 0.7,
+        "ColorContrast": {
+          "W": 1.0,
+          "X": 1.05,
+          "Y": 1.05,
+          "Z": 1.05
+        },
+        "ColorContrastMidtones": {
+          "W": 1.0,
+          "X": 1.05,
+          "Y": 1.05,
+          "Z": 1.05
+        },
+        "DesktopBloomSettings": {
+          "BloomIntensity": 3.0,
+          "BloomThreshold": -0.5,
+          "bOverride_Bloom1Size": true,
+          "bOverride_Bloom1Tint": true,
+          "bOverride_Bloom2Size": true,
+          "bOverride_Bloom2Tint": true,
+          "bOverride_Bloom3Size": true,
+          "bOverride_Bloom3Tint": true,
+          "bOverride_Bloom4Size": true,
+          "bOverride_Bloom4Tint": true,
+          "bOverride_Bloom5Size": true,
+          "bOverride_Bloom5Tint": true,
+          "bOverride_Bloom6Size": true,
+          "bOverride_Bloom6Tint": true,
+          "bOverride_BloomIntensity": true,
+          "bOverride_BloomSizeScale": true,
+          "bOverride_BloomThreshold": true
+        },
+        "DistantShadowAffectGIIntensity": 1.0,
+        "GrainIntensity": 0.05,
+        "LensFlareIntensity": 0.0,
+        "MobileBloomSettings": {
+          "BloomIntensity": 3.0,
+          "BloomThreshold": -0.5,
+          "bOverride_Bloom1Size": true,
+          "bOverride_Bloom1Tint": true,
+          "bOverride_Bloom2Size": true,
+          "bOverride_Bloom2Tint": true,
+          "bOverride_Bloom3Size": true,
+          "bOverride_Bloom3Tint": true,
+          "bOverride_Bloom4Size": true,
+          "bOverride_Bloom4Tint": true,
+          "bOverride_Bloom5Size": true,
+          "bOverride_Bloom5Tint": true,
+          "bOverride_Bloom6Size": true,
+          "bOverride_Bloom6Tint": true,
+          "bOverride_BloomIntensity": true,
+          "bOverride_BloomSizeScale": true,
+          "bOverride_BloomThreshold": true
+        },
+        "SSRTAOIntensity": 0.6,
+        "SceneFringeIntensity": 0.5,
+        "VignetteIntensity": 0.8,
+        "WhiteTemp": 6000.0,
+        "bIsUI": true,
+        "bOverride_AutoExposureMaxBrightness": true,
+        "bOverride_AutoExposureMinBrightness": true,
+        "bOverride_BloomMethod": true,
+        "bOverride_ChromaticAberrationStartOffset": true,
+        "bOverride_ColorContrast": true,
+        "bOverride_ColorContrastMidtones": true,
+        "bOverride_ColorGainHighlights": true,
+        "bOverride_ColorGainMidtones": true,
+        "bOverride_ColorSaturation": true,
+        "bOverride_DistantShadowAffectGIIntensity": true,
+        "bOverride_GrainIntensity": true,
+        "bOverride_IsUI": true,
+        "bOverride_SSRTAOIntensity": true,
+        "bOverride_SceneFringeIntensity": true,
+        "bOverride_ShadowAffectGIIntensity": true,
+        "bOverride_ShadowAffectLitGIIntensity": true,
+        "bOverride_VignetteIntensity": true,
+        "bOverride_WhiteTemp": true,
+        "bOverride_WhiteTint": true
+      },
+      "source_json": "PCResources/Environment/Json/NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei/PersistentLevel/PostProcessVolume_0.json",
+      "source_sha256": "2d3de914faa4ee50ac70c7cbf24a21c8d6f3aa90944769d59c67fc14f39e8406",
+      "template_inheritance_status": "unresolved; omitted native/template properties are not defaulted by this summary",
+      "template_reference": null,
+      "volume_properties": {
+        "BlendRadius": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "BlendWeight": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "Priority": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "bEnabled": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "bUnbound": {
+          "serialized": true,
+          "status": "serialized_value",
+          "value": true
+        }
+      }
+    },
+    {
+      "branches": {
+        "DesktopBloomSettings": [
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "Bloom1Size",
+            "serialized_override_present": false,
+            "serialized_value_key": "Bloom1Size",
+            "serialized_value_present": true,
+            "value": 4.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "Bloom5Size",
+            "serialized_override_present": false,
+            "serialized_value_key": "Bloom5Size",
+            "serialized_value_present": true,
+            "value": 20.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomIntensity",
+            "serialized_value_present": true,
+            "value": 3.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "BloomSizeScale",
+            "serialized_override_present": false,
+            "serialized_value_key": "BloomSizeScale",
+            "serialized_value_present": true,
+            "value": 1.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "BloomThreshold",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomThreshold",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          }
+        ],
+        "MobileBloomSettings": [
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomIntensity",
+            "serialized_value_present": true,
+            "value": 3.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "BloomThreshold",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomThreshold",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          }
+        ],
+        "mainSettings": [
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "AutoExposureCalibrationConstant",
+            "serialized_override_present": false,
+            "serialized_value_key": "AutoExposureCalibrationConstant",
+            "serialized_value_present": true,
+            "value": 21.4,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "AutoExposureHighPercent",
+            "serialized_override_present": false,
+            "serialized_value_key": "AutoExposureHighPercent",
+            "serialized_value_present": true,
+            "value": 70.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "AutoExposureLowPercent",
+            "serialized_override_present": false,
+            "serialized_value_key": "AutoExposureLowPercent",
+            "serialized_value_present": true,
+            "value": 20.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "AutoExposureMaxBrightness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureMaxBrightness",
+            "serialized_override_present": true,
+            "serialized_value_key": "AutoExposureMaxBrightness",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "AutoExposureMinBrightness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureMinBrightness",
+            "serialized_override_present": true,
+            "serialized_value_key": "AutoExposureMinBrightness",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "BloomDirtMask",
+            "serialized_override_present": false,
+            "serialized_value_key": "BloomDirtMask",
+            "serialized_value_present": true,
+            "value": {
+              "ObjectName": "Texture2D't_dirtmask'",
+              "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_DirtyMask/t_dirtmask.0"
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "BloomDirtMaskIntensity",
+            "serialized_override_present": false,
+            "serialized_value_key": "BloomDirtMaskIntensity",
+            "serialized_value_present": true,
+            "value": 5.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "BloomMethod",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomMethod",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ChromaticAberrationStartOffset",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ChromaticAberrationStartOffset",
+            "serialized_override_present": true,
+            "serialized_value_key": "ChromaticAberrationStartOffset",
+            "serialized_value_present": true,
+            "value": 0.7,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorContrast",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorContrast",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorContrast",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorContrastMidtones",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorContrastMidtones",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorGain",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGain",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorGainMidtones",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGainMidtones",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorGainShadows",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGainShadows",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorGamma",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGamma",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorSaturation",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorSaturation",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorSaturation",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.1,
+              "Y": 1.1,
+              "Z": 1.1
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ColorSaturationShadows",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorSaturationShadows",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "DepthOfFieldUseMobileImpl",
+            "override_value": true,
+            "serialized_override_key": "bOverride_DepthOfFieldUseMobileImpl",
+            "serialized_override_present": true,
+            "serialized_value_key": "DepthOfFieldUseMobileImpl",
+            "serialized_value_present": true,
+            "value": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "DistantShadowAffectGIIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_DistantShadowAffectGIIntensity",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "GrainIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_GrainIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "GrainIntensity",
+            "serialized_value_present": true,
+            "value": 0.1,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "IsUI",
+            "override_value": true,
+            "serialized_override_key": "bOverride_IsUI",
+            "serialized_override_present": true,
+            "serialized_value_key": "bIsUI",
+            "serialized_value_present": true,
+            "value": true,
+            "value_pairing": "boolean_b_prefix_pair"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "LensFlareIntensity",
+            "serialized_override_present": false,
+            "serialized_value_key": "LensFlareIntensity",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "SSRTAOIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_SSRTAOIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "SSRTAOIntensity",
+            "serialized_value_present": true,
+            "value": 0.8,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "SceneFringeIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_SceneFringeIntensity",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ScreenSpaceReflectionMobileMaxRoughness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ScreenSpaceReflectionMobileMaxRoughness",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ShadowAffectGIIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ShadowAffectGIIntensity",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "ShadowAffectLitGIIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ShadowAffectLitGIIntensity",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "VignetteIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_VignetteIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "VignetteIntensity",
+            "serialized_value_present": true,
+            "value": 0.5,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "WhiteTemp",
+            "override_value": true,
+            "serialized_override_key": "bOverride_WhiteTemp",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "WhiteTint",
+            "override_value": true,
+            "serialized_override_key": "bOverride_WhiteTint",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          }
+        ]
+      },
+      "final_frame_effective": "not_established",
+      "map_package": "/Game/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca",
+      "name": "PostProcessVolume_bianca",
+      "settings": {
+        "AutoExposureCalibrationConstant": 21.4,
+        "AutoExposureHighPercent": 70.0,
+        "AutoExposureLowPercent": 20.0,
+        "AutoExposureMaxBrightness": 0.0,
+        "AutoExposureMinBrightness": 0.0,
+        "BloomDirtMask": {
+          "ObjectName": "Texture2D't_dirtmask'",
+          "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_DirtyMask/t_dirtmask.0"
+        },
+        "BloomDirtMaskIntensity": 5.0,
+        "ChromaticAberrationStartOffset": 0.7,
+        "ColorContrast": {
+          "W": 1.0,
+          "X": 0.9,
+          "Y": 0.9,
+          "Z": 0.9
+        },
+        "ColorSaturation": {
+          "W": 1.0,
+          "X": 1.1,
+          "Y": 1.1,
+          "Z": 1.1
+        },
+        "DepthOfFieldUseMobileImpl": false,
+        "DesktopBloomSettings": {
+          "Bloom1Size": 4.0,
+          "Bloom5Size": 20.0,
+          "BloomIntensity": 3.0,
+          "BloomSizeScale": 1.0,
+          "bOverride_BloomIntensity": true,
+          "bOverride_BloomThreshold": true
+        },
+        "GrainIntensity": 0.1,
+        "LensFlareIntensity": 0.0,
+        "MobileBloomSettings": {
+          "BloomIntensity": 3.0,
+          "bOverride_BloomIntensity": true,
+          "bOverride_BloomThreshold": true
+        },
+        "SSRTAOIntensity": 0.8,
+        "VignetteIntensity": 0.5,
+        "bIsUI": true,
+        "bOverride_AutoExposureMaxBrightness": true,
+        "bOverride_AutoExposureMinBrightness": true,
+        "bOverride_BloomMethod": true,
+        "bOverride_ChromaticAberrationStartOffset": true,
+        "bOverride_ColorContrast": true,
+        "bOverride_ColorContrastMidtones": true,
+        "bOverride_ColorGain": true,
+        "bOverride_ColorGainMidtones": true,
+        "bOverride_ColorGainShadows": true,
+        "bOverride_ColorGamma": true,
+        "bOverride_ColorSaturation": true,
+        "bOverride_ColorSaturationShadows": true,
+        "bOverride_DepthOfFieldUseMobileImpl": true,
+        "bOverride_DistantShadowAffectGIIntensity": true,
+        "bOverride_GrainIntensity": true,
+        "bOverride_IsUI": true,
+        "bOverride_SSRTAOIntensity": true,
+        "bOverride_SceneFringeIntensity": true,
+        "bOverride_ScreenSpaceReflectionMobileMaxRoughness": true,
+        "bOverride_ShadowAffectGIIntensity": true,
+        "bOverride_ShadowAffectLitGIIntensity": true,
+        "bOverride_VignetteIntensity": true,
+        "bOverride_WhiteTemp": true,
+        "bOverride_WhiteTint": true
+      },
+      "source_json": "PCResources/Environment/Json/NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca/PersistentLevel/PostProcessVolume_bianca.json",
+      "source_sha256": "a4ba333f07a49441223eafbf7e778b9318c6f6e32c78746bcb75a9c8abe0822a",
+      "template_inheritance_status": "unresolved; omitted native/template properties are not defaulted by this summary",
+      "template_reference": null,
+      "volume_properties": {
+        "BlendRadius": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "BlendWeight": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "Priority": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "bEnabled": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "bUnbound": {
+          "serialized": true,
+          "status": "serialized_value",
+          "value": true
+        }
+      }
+    },
+    {
+      "branches": {
+        "DesktopBloomSettings": [
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomIntensity",
+            "serialized_value_present": true,
+            "value": 2.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomThreshold",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomThreshold",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomThreshold",
+            "serialized_value_present": true,
+            "value": -0.5,
+            "value_pairing": "literal_property_name"
+          }
+        ],
+        "MobileBloomSettings": [
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomIntensity",
+            "serialized_value_present": true,
+            "value": 2.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomThreshold",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomThreshold",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomThreshold",
+            "serialized_value_present": true,
+            "value": -0.5,
+            "value_pairing": "literal_property_name"
+          }
+        ],
+        "mainSettings": [
+          {
+            "evidence_state": "override_without_serialized_value",
+            "field": "AutoExposureBias",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureBias",
+            "serialized_override_present": true,
+            "serialized_value_present": false,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "AutoExposureMaxBrightness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureMaxBrightness",
+            "serialized_override_present": true,
+            "serialized_value_key": "AutoExposureMaxBrightness",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "AutoExposureMinBrightness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureMinBrightness",
+            "serialized_override_present": true,
+            "serialized_value_key": "AutoExposureMinBrightness",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorContrast",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorContrast",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorContrast",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.1,
+              "Y": 1.1,
+              "Z": 1.1
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorContrastMidtones",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorContrastMidtones",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorContrastMidtones",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.1,
+              "Y": 1.1,
+              "Z": 1.1
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorGain",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGain",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorGain",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.0,
+              "Y": 0.9,
+              "Z": 1.1
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorGainMidtones",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGainMidtones",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorGainMidtones",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.5,
+              "Y": 1.5,
+              "Z": 1.5
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "ColorGainShadows",
+            "serialized_override_present": false,
+            "serialized_value_key": "ColorGainShadows",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorSaturation",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorSaturation",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorSaturation",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "IsUI",
+            "override_value": true,
+            "serialized_override_key": "bOverride_IsUI",
+            "serialized_override_present": true,
+            "serialized_value_key": "bIsUI",
+            "serialized_value_present": true,
+            "value": true,
+            "value_pairing": "boolean_b_prefix_pair"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "LensFlareBokehSizePC",
+            "serialized_override_present": false,
+            "serialized_value_key": "LensFlareBokehSizePC",
+            "serialized_value_present": true,
+            "value": 3.250794,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "LensFlareIntensityPC",
+            "serialized_override_present": false,
+            "serialized_value_key": "LensFlareIntensityPC",
+            "serialized_value_present": true,
+            "value": 10.142857,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_without_explicit_override",
+            "field": "LensFlareThreshold",
+            "serialized_override_present": false,
+            "serialized_value_key": "LensFlareThreshold",
+            "serialized_value_present": true,
+            "value": 9.821905,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "SSRTAOIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_SSRTAOIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "SSRTAOIntensity",
+            "serialized_value_present": true,
+            "value": 0.7,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "VignetteIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_VignetteIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "VignetteIntensity",
+            "serialized_value_present": true,
+            "value": 0.65,
+            "value_pairing": "literal_property_name"
+          }
+        ]
+      },
+      "final_frame_effective": "not_established",
+      "map_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview",
+      "name": "PostProcessVolume_0",
+      "settings": {
+        "AutoExposureMaxBrightness": 0.0,
+        "AutoExposureMinBrightness": 0.0,
+        "ColorContrast": {
+          "W": 1.0,
+          "X": 1.1,
+          "Y": 1.1,
+          "Z": 1.1
+        },
+        "ColorContrastMidtones": {
+          "W": 1.0,
+          "X": 1.1,
+          "Y": 1.1,
+          "Z": 1.1
+        },
+        "ColorGain": {
+          "W": 1.0,
+          "X": 1.0,
+          "Y": 0.9,
+          "Z": 1.1
+        },
+        "ColorGainMidtones": {
+          "W": 1.0,
+          "X": 1.5,
+          "Y": 1.5,
+          "Z": 1.5
+        },
+        "ColorGainShadows": {
+          "W": 1.0,
+          "X": 0.9,
+          "Y": 0.9,
+          "Z": 0.9
+        },
+        "ColorSaturation": {
+          "W": 1.0,
+          "X": 0.9,
+          "Y": 0.9,
+          "Z": 0.9
+        },
+        "DesktopBloomSettings": {
+          "BloomIntensity": 2.0,
+          "BloomThreshold": -0.5,
+          "bOverride_BloomIntensity": true,
+          "bOverride_BloomThreshold": true
+        },
+        "LensFlareBokehSizePC": 3.250794,
+        "LensFlareIntensityPC": 10.142857,
+        "LensFlareThreshold": 9.821905,
+        "MobileBloomSettings": {
+          "BloomIntensity": 2.0,
+          "BloomThreshold": -0.5,
+          "bOverride_BloomIntensity": true,
+          "bOverride_BloomThreshold": true
+        },
+        "SSRTAOIntensity": 0.7,
+        "VignetteIntensity": 0.65,
+        "bIsUI": true,
+        "bOverride_AutoExposureBias": true,
+        "bOverride_AutoExposureMaxBrightness": true,
+        "bOverride_AutoExposureMinBrightness": true,
+        "bOverride_ColorContrast": true,
+        "bOverride_ColorContrastMidtones": true,
+        "bOverride_ColorGain": true,
+        "bOverride_ColorGainMidtones": true,
+        "bOverride_ColorSaturation": true,
+        "bOverride_IsUI": true,
+        "bOverride_SSRTAOIntensity": true,
+        "bOverride_VignetteIntensity": true
+      },
+      "source_json": "PCResources/Environment/Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview/PersistentLevel/PostProcessVolume_0.json",
+      "source_sha256": "fd532e28033d7396c39e051d90e68c7020ac5d6bcda6d9fc9b1d87600f9cfcd8",
+      "template_inheritance_status": "unresolved; omitted native/template properties are not defaulted by this summary",
+      "template_reference": null,
+      "volume_properties": {
+        "BlendRadius": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "BlendWeight": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "Priority": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "bEnabled": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "bUnbound": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        }
+      }
+    },
+    {
+      "branches": {
+        "DesktopBloomSettings": [
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomIntensity",
+            "serialized_value_present": true,
+            "value": 2.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomThreshold",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomThreshold",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomThreshold",
+            "serialized_value_present": true,
+            "value": -0.5,
+            "value_pairing": "literal_property_name"
+          }
+        ],
+        "MobileBloomSettings": [
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomIntensity",
+            "serialized_value_present": true,
+            "value": 2.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "BloomThreshold",
+            "override_value": true,
+            "serialized_override_key": "bOverride_BloomThreshold",
+            "serialized_override_present": true,
+            "serialized_value_key": "BloomThreshold",
+            "serialized_value_present": true,
+            "value": -0.5,
+            "value_pairing": "literal_property_name"
+          }
+        ],
+        "mainSettings": [
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "AutoExposureMaxBrightness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureMaxBrightness",
+            "serialized_override_present": true,
+            "serialized_value_key": "AutoExposureMaxBrightness",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "AutoExposureMinBrightness",
+            "override_value": true,
+            "serialized_override_key": "bOverride_AutoExposureMinBrightness",
+            "serialized_override_present": true,
+            "serialized_value_key": "AutoExposureMinBrightness",
+            "serialized_value_present": true,
+            "value": 0.0,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorContrast",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorContrast",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorContrast",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.05,
+              "Y": 1.05,
+              "Z": 1.05
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorContrastMidtones",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorContrastMidtones",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorContrastMidtones",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.05,
+              "Y": 1.05,
+              "Z": 1.05
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorGain",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGain",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorGain",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.1,
+              "Y": 1.1,
+              "Z": 1.1
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ColorGainMidtones",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ColorGainMidtones",
+            "serialized_override_present": true,
+            "serialized_value_key": "ColorGainMidtones",
+            "serialized_value_present": true,
+            "value": {
+              "W": 1.0,
+              "X": 1.05,
+              "Y": 1.05,
+              "Z": 1.05
+            },
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "ForceEnableSpotLightShadow",
+            "override_value": true,
+            "serialized_override_key": "bOverride_ForceEnableSpotLightShadow",
+            "serialized_override_present": true,
+            "serialized_value_key": "bForceEnableSpotLightShadow",
+            "serialized_value_present": true,
+            "value": true,
+            "value_pairing": "boolean_b_prefix_pair"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "IsUI",
+            "override_value": true,
+            "serialized_override_key": "bOverride_IsUI",
+            "serialized_override_present": true,
+            "serialized_value_key": "bIsUI",
+            "serialized_value_present": true,
+            "value": true,
+            "value_pairing": "boolean_b_prefix_pair"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "SSRTAOIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_SSRTAOIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "SSRTAOIntensity",
+            "serialized_value_present": true,
+            "value": 0.6,
+            "value_pairing": "literal_property_name"
+          },
+          {
+            "evidence_state": "value_and_explicit_override",
+            "field": "VignetteIntensity",
+            "override_value": true,
+            "serialized_override_key": "bOverride_VignetteIntensity",
+            "serialized_override_present": true,
+            "serialized_value_key": "VignetteIntensity",
+            "serialized_value_present": true,
+            "value": 0.5,
+            "value_pairing": "literal_property_name"
+          }
+        ]
+      },
+      "final_frame_effective": "not_established",
+      "map_package": "/Game/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen",
+      "name": "PostProcessVolume_Queen",
+      "settings": {
+        "AutoExposureMaxBrightness": 0.0,
+        "AutoExposureMinBrightness": 0.0,
+        "ColorContrast": {
+          "W": 1.0,
+          "X": 1.05,
+          "Y": 1.05,
+          "Z": 1.05
+        },
+        "ColorContrastMidtones": {
+          "W": 1.0,
+          "X": 1.05,
+          "Y": 1.05,
+          "Z": 1.05
+        },
+        "ColorGain": {
+          "W": 1.0,
+          "X": 1.1,
+          "Y": 1.1,
+          "Z": 1.1
+        },
+        "ColorGainMidtones": {
+          "W": 1.0,
+          "X": 1.05,
+          "Y": 1.05,
+          "Z": 1.05
+        },
+        "DesktopBloomSettings": {
+          "BloomIntensity": 2.0,
+          "BloomThreshold": -0.5,
+          "bOverride_BloomIntensity": true,
+          "bOverride_BloomThreshold": true
+        },
+        "MobileBloomSettings": {
+          "BloomIntensity": 2.0,
+          "BloomThreshold": -0.5,
+          "bOverride_BloomIntensity": true,
+          "bOverride_BloomThreshold": true
+        },
+        "SSRTAOIntensity": 0.6,
+        "VignetteIntensity": 0.5,
+        "bForceEnableSpotLightShadow": true,
+        "bIsUI": true,
+        "bOverride_AutoExposureMaxBrightness": true,
+        "bOverride_AutoExposureMinBrightness": true,
+        "bOverride_ColorContrast": true,
+        "bOverride_ColorContrastMidtones": true,
+        "bOverride_ColorGain": true,
+        "bOverride_ColorGainMidtones": true,
+        "bOverride_ForceEnableSpotLightShadow": true,
+        "bOverride_IsUI": true,
+        "bOverride_SSRTAOIntensity": true,
+        "bOverride_VignetteIntensity": true
+      },
+      "source_json": "PCResources/Environment/Json/NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen/PersistentLevel/PostProcessVolume_Queen.json",
+      "source_sha256": "7729f5b0b5367c4ba9c3d52e7179a827a04316a3b105c6d29229c9f8a7492626",
+      "template_inheritance_status": "unresolved; omitted native/template properties are not defaulted by this summary",
+      "template_reference": null,
+      "volume_properties": {
+        "BlendRadius": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "BlendWeight": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "Priority": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "bEnabled": {
+          "serialized": false,
+          "status": "unknown_not_serialized"
+        },
+        "bUnbound": {
+          "serialized": true,
+          "status": "serialized_value",
+          "value": true
+        }
+      }
+    }
+  ]
+}

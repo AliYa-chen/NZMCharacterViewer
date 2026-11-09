@@ -1,0 +1,74 @@
+{
+  "Type": "MaterialFunction",
+  "Name": "MF_EyeRefraction_PC",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialFunction'",
+  "Package": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_EyeRefraction_PC",
+  "Properties": {
+    "FunctionExpressions": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_EyeRefraction_PC:MaterialExpressionMaterialFunctionCall_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_EyeRefraction_PC.0"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_EyeRefraction_PC:MaterialExpressionMaterialFunctionCall_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_EyeRefraction_PC.1"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_EyeRefraction_PC:MaterialExpressionMaterialFunctionCall_5'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_EyeRefraction_PC.2"
+      },
+      {
+        "ObjectName": "MaterialExpressionTextureSample'MF_EyeRefraction_PC:MaterialExpressionTextureSample_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_EyeRefraction_PC.5"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_EyeRefraction_PC:MaterialExpressionMaterialFunctionCall_6'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_EyeRefraction_PC.3"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_EyeRefraction_PC:MaterialExpressionMaterialFunctionCall_7'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_EyeRefraction_PC.4"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "StateId": "89E6742D-447AD790-6CB0BDAE-6FC6A205"
+  }
+}

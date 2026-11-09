@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_10",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'VM_Eye_Master_Emssive_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC.0"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "SpecularityScelera",
+    "ExpressionGUID": "3AB89890-4719E9D5-0EE50FB7-0F3ED29C",
+    "Material": {
+      "ObjectName": "Material'VM_Eye_Master_Emssive_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC.0"
+    }
+  }
+}

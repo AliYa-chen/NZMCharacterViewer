@@ -1,0 +1,47 @@
+{
+  "Type": "MaterialExpressionTextureSampleParameter2D",
+  "Name": "MaterialExpressionTextureSampleParameter2D_3",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Basic_Skin_PC_layer'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.34"
+  },
+  "Properties": {
+    "ParameterName": "DetailNormalMap",
+    "ExpressionGUID": "7447F909-4A5D638B-0DC8C2A2-C1668852",
+    "Group": "1.Surface",
+    "Coordinates": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMaterialFunctionCall_3"
+    },
+    "MipValue": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionScalarParameter_6"
+    },
+    "MipValueMode": "TMVM_MipBias",
+    "Texture": {
+      "ObjectName": "Texture2D'T_N_StandardNormal'",
+      "ObjectPath": "NZM/Content/MaterialLib/Textures/T_N_StandardNormal.0"
+    },
+    "SamplerType": "SAMPLERTYPE_Normal",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Basic_Skin_PC_layer'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.34"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Type": "SimpleConstructionScript",
+  "Name": "SimpleConstructionScript_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SimpleConstructionScript'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'BP_LightBeam_ForLF_C'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.6"
+  },
+  "Properties": {
+    "RootNodes": [
+      {
+        "ObjectName": "SCS_Node'BP_LightBeam_ForLF_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.10"
+      }
+    ],
+    "AllNodes": [
+      {
+        "ObjectName": "SCS_Node'BP_LightBeam_ForLF_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.10"
+      }
+    ],
+    "DefaultSceneRootNode": {
+      "ObjectName": "SCS_Node'BP_LightBeam_ForLF_C:SimpleConstructionScript_0.SCS_Node_0'",
+      "ObjectPath": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.10"
+    }
+  }
+}

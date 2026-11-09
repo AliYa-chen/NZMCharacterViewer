@@ -1,0 +1,82 @@
+{
+  "Type": "MaterialExpressionQualitySwitch",
+  "Name": "MaterialExpressionQualitySwitch_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionQualitySwitch'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Data_Skin'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+  },
+  "Properties": {
+    "Default": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 1,
+      "MaskR": 1,
+      "MaskG": 1,
+      "MaskB": 1,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionTextureSample_2"
+    },
+    "Inputs": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionConstant3Vector_0"
+    },
+    "Inputs[1]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 1,
+      "MaskR": 1,
+      "MaskG": 1,
+      "MaskB": 1,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionConstant3Vector_0"
+    },
+    "Inputs[2]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 1,
+      "MaskR": 1,
+      "MaskG": 1,
+      "MaskB": 1,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionTextureSample_2"
+    },
+    "Inputs[3]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 1,
+      "MaskR": 1,
+      "MaskG": 1,
+      "MaskB": 1,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionTextureSample_2"
+    },
+    "Inputs[4]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionTextureSample_2"
+    },
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Data_Skin'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+    }
+  }
+}

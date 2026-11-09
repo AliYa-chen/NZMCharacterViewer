@@ -1,0 +1,18 @@
+{
+  "Type": "MaterialExpressionVectorParameter",
+  "Name": "MaterialExpressionVectorParameter_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Basic_Hair_PC_Layer_TwoPass'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.86"
+  },
+  "Properties": {
+    "ParameterName": "Color1",
+    "ExpressionGUID": "C89FC1BC-4653590E-AB64218E-298B75F4",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Basic_Hair_PC_Layer_TwoPass'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.86"
+    }
+  }
+}

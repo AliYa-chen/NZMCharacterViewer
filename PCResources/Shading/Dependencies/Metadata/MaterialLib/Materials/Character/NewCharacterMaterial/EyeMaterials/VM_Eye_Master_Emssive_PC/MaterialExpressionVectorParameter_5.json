@@ -1,0 +1,25 @@
+{
+  "Type": "MaterialExpressionVectorParameter",
+  "Name": "MaterialExpressionVectorParameter_5",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+  "Outer": {
+    "ObjectName": "Material'VM_Eye_Master_Emssive_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC.0"
+  },
+  "Properties": {
+    "DefaultValue": {
+      "R": 0.6,
+      "G": 0.6,
+      "B": 0.6,
+      "A": 1.0,
+      "Hex": "CCCCCC"
+    },
+    "ParameterName": "EyeGlowColor",
+    "ExpressionGUID": "05A1589C-4F0F089B-D9B79E87-86F68BDC",
+    "Material": {
+      "ObjectName": "Material'VM_Eye_Master_Emssive_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC.0"
+    }
+  }
+}

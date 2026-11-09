@@ -1,0 +1,55 @@
+{
+  "Type": "InheritableComponentHandler",
+  "Name": "InheritableComponentHandler",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'InheritableComponentHandler'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Generic_Building_FreeStyle_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.0"
+  },
+  "Properties": {
+    "Records": [
+      {
+        "ComponentClass": {
+          "ObjectName": "Class'ArrowComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "ComponentTemplate": null,
+        "ComponentKey": {
+          "OwnerClass": {
+            "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+            "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+          },
+          "SCSVariableName": "Arrow",
+          "AssociatedGuid": "BBFB430D-42954E38-5DEE5EBB-B4F40457"
+        },
+        "CookedComponentInstancingData": {
+          "ChangedPropertyList": [],
+          "bHasValidCookedData": false
+        }
+      },
+      {
+        "ComponentClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "ComponentTemplate": {
+          "ObjectName": "StaticMeshComponent'LF_Generic_Building_FreeStyle_C:StaticMesh_GEN_VARIABLE'",
+          "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.6"
+        },
+        "ComponentKey": {
+          "OwnerClass": {
+            "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+            "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+          },
+          "SCSVariableName": "StaticMesh",
+          "AssociatedGuid": "E00B9D62-463C9405-15D3E089-DE9B513F"
+        },
+        "CookedComponentInstancingData": {
+          "ChangedPropertyList": [],
+          "bHasValidCookedData": false
+        }
+      }
+    ]
+  }
+}

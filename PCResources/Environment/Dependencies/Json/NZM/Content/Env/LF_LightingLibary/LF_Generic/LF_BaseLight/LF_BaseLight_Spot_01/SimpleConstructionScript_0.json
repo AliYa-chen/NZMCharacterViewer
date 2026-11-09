@@ -1,0 +1,32 @@
+{
+  "Type": "SimpleConstructionScript",
+  "Name": "SimpleConstructionScript_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SimpleConstructionScript'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_BaseLight_Spot_01_C'",
+    "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.9"
+  },
+  "Properties": {
+    "RootNodes": [
+      {
+        "ObjectName": "SCS_Node'LF_BaseLight_Spot_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.12"
+      }
+    ],
+    "AllNodes": [
+      {
+        "ObjectName": "SCS_Node'LF_BaseLight_Spot_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.12"
+      },
+      {
+        "ObjectName": "SCS_Node'LF_BaseLight_Spot_01_C:SimpleConstructionScript_0.SCS_Node_1'",
+        "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.13"
+      }
+    ],
+    "DefaultSceneRootNode": {
+      "ObjectName": "SCS_Node'LF_BaseLight_Spot_01_C:SimpleConstructionScript_0.SCS_Node_0'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.12"
+    }
+  }
+}

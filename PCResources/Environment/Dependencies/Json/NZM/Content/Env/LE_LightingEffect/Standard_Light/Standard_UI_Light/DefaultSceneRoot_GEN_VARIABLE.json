@@ -1,0 +1,10 @@
+{
+  "Type": "SceneComponent",
+  "Name": "DefaultSceneRoot_GEN_VARIABLE",
+  "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SceneComponent'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'Standard_UI_Light_C'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.0"
+  }
+}

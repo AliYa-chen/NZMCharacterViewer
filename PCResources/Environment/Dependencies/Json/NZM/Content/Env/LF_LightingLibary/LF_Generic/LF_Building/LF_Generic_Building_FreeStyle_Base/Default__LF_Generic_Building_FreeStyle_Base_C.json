@@ -1,0 +1,11 @@
+{
+  "Type": "LF_Generic_Building_FreeStyle_Base_C",
+  "Name": "Default__LF_Generic_Building_FreeStyle_Base_C",
+  "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "BlueprintGeneratedClass'NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base.LF_Generic_Building_FreeStyle_Base_C'",
+  "Package": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base",
+  "Template": {
+    "ObjectName": "LF_Generic_Building_FreeStyle_C'Default__LF_Generic_Building_FreeStyle_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.1"
+  }
+}

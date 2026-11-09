@@ -1,0 +1,23 @@
+{
+  "Type": "MaterialExpressionTextureObjectParameter",
+  "Name": "MaterialExpressionTextureObjectParameter_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Data_MarschnerHair'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_MarschnerHair.6"
+  },
+  "Properties": {
+    "ParameterName": "BaseColorMap",
+    "ExpressionGUID": "6F66D750-4E17A196-D3384990-DAC4B0F8",
+    "Group": "AssetDataLayer",
+    "Texture": {
+      "ObjectName": "Texture2D'T_D_BasicBaseColor_Gray'",
+      "ObjectPath": "NZM/Content/MaterialLib/Textures/T_D_BasicBaseColor_Gray.0"
+    },
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Data_MarschnerHair'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_MarschnerHair.6"
+    }
+  }
+}

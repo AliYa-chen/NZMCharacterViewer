@@ -1,0 +1,20 @@
+{
+  "Type": "MaterialExpressionMaterialFunctionCall",
+  "Name": "MaterialExpressionMaterialFunctionCall_4",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Basic_Skin_PC_layer'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.34"
+  },
+  "Properties": {
+    "MaterialFunction": {
+      "ObjectName": "MaterialFunction'MF_Data_Skin'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+    },
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Basic_Skin_PC_layer'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.34"
+    }
+  }
+}

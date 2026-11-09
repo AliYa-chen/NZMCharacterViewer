@@ -1,0 +1,18 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_FakeCameraHighlight'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_FakeCameraHighlight.8"
+  },
+  "Properties": {
+    "ParameterName": "FakeLightOffsetX",
+    "ExpressionGUID": "D3AD8CB8-43B3EBBE-B60A1293-54D52E85",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_FakeCameraHighlight'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/MF_FakeCameraHighlight.8"
+    }
+  }
+}

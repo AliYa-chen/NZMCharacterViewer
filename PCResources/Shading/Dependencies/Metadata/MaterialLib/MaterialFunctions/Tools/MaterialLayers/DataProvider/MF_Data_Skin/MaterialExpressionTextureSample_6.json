@@ -1,0 +1,28 @@
+{
+  "Type": "MaterialExpressionTextureSample",
+  "Name": "MaterialExpressionTextureSample_6",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionTextureSample'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Data_Skin'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+  },
+  "Properties": {
+    "TextureObject": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionTextureObjectParameter_4"
+    },
+    "SamplerType": "SAMPLERTYPE_LinearColor",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Data_Skin'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+    }
+  }
+}

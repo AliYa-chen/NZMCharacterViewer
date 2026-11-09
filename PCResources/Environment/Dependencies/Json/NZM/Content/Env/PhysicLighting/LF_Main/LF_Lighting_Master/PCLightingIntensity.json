@@ -1,0 +1,42 @@
+{
+  "Type": "Function",
+  "Name": "PCLightingIntensity",
+  "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Function'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+  },
+  "ChildProperties": [
+    {
+      "Type": "ObjectProperty",
+      "Name": "LC",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+      "PropertyClass": {
+        "ObjectName": "Class'LightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_1",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    }
+  ],
+  "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+}

@@ -1,0 +1,32 @@
+{
+  "Type": "MaterialExpressionTextureSample",
+  "Name": "MaterialExpressionTextureSample_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionTextureSample'",
+  "Outer": {
+    "ObjectName": "Material'VM_Eye_Master_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC.0"
+  },
+  "Properties": {
+    "Coordinates": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMaterialFunctionCall_2"
+    },
+    "Texture": {
+      "ObjectName": "Texture2D'T_EyeMidPlaneDisplacement_2'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_EyeMidPlaneDisplacement_2.0"
+    },
+    "SamplerType": "SAMPLERTYPE_LinearColor",
+    "Material": {
+      "ObjectName": "Material'VM_Eye_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC.0"
+    }
+  }
+}

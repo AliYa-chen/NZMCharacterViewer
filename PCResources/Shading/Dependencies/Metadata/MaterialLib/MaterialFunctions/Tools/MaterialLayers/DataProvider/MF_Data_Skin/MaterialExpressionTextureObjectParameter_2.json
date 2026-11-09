@@ -1,0 +1,24 @@
+{
+  "Type": "MaterialExpressionTextureObjectParameter",
+  "Name": "MaterialExpressionTextureObjectParameter_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Data_Skin'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+  },
+  "Properties": {
+    "ParameterName": "NormalMap",
+    "ExpressionGUID": "BF98B7FE-4646CF20-4129919E-BAE6F8C0",
+    "Group": "AssetDataLayer",
+    "Texture": {
+      "ObjectName": "Texture2D'T_Default_N'",
+      "ObjectPath": "NZM/Content/MaterialLib/Textures/Default/T_Default_N.0"
+    },
+    "SamplerType": "SAMPLERTYPE_Normal",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Data_Skin'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+    }
+  }
+}

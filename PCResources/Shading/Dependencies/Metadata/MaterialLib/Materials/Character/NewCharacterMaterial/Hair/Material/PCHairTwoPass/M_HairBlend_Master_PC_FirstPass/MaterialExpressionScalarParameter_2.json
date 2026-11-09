@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_HairBlend_Master_PC_FirstPass'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Hair/Material/PCHairTwoPass/M_HairBlend_Master_PC_FirstPass.0"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "Edgelight",
+    "ExpressionGUID": "5CF58103-4AF6A9B5-3CE85AB2-BA641B42",
+    "Material": {
+      "ObjectName": "Material'M_HairBlend_Master_PC_FirstPass'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Hair/Material/PCHairTwoPass/M_HairBlend_Master_PC_FirstPass.0"
+    }
+  }
+}

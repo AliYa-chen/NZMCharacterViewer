@@ -1,0 +1,24 @@
+{
+  "Type": "MaterialExpressionTextureObjectParameter",
+  "Name": "MaterialExpressionTextureObjectParameter_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Data_MarschnerHair'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_MarschnerHair.6"
+  },
+  "Properties": {
+    "ParameterName": "Alpha_ID_Roughness_Root",
+    "ExpressionGUID": "735D39BA-4B398AD1-AE93E49C-3E56728A",
+    "Group": "AssetDataLayer",
+    "Texture": {
+      "ObjectName": "Texture2D'T_Default_Gray'",
+      "ObjectPath": "NZM/Content/MaterialLib/Textures/Default/T_Default_Gray.0"
+    },
+    "SamplerType": "SAMPLERTYPE_LinearColor",
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Data_MarschnerHair'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_MarschnerHair.6"
+    }
+  }
+}

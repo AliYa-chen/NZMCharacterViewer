@@ -1,0 +1,24 @@
+{
+  "Type": "Function",
+  "Name": "(Point)Whole SceneShadow",
+  "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Function'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+  },
+  "ChildProperties": [
+    {
+      "Type": "ObjectProperty",
+      "Name": "LC",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+      "PropertyClass": {
+        "ObjectName": "Class'LocalLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  ],
+  "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+}

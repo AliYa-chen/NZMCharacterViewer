@@ -1,0 +1,20 @@
+{
+  "Type": "ChildActorComponent",
+  "Name": "NODE_AddChildActorComponent-3",
+  "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ChildActorComponent'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+  },
+  "Properties": {
+    "ChildActorClass": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LightBeam_ForLF_C'",
+      "ObjectPath": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.6"
+    },
+    "ChildActorTemplate": {
+      "ObjectName": "BP_LightBeam_ForLF_C'LF_Lighting_Master_C:NODE_AddChildActorComponent-3.NODE_AddChildActorComponent-3_BP_LightBeam_ForLF_C_CAT'",
+      "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.29"
+    }
+  }
+}

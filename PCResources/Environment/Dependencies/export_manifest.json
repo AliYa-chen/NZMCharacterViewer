@@ -1,0 +1,1131 @@
+{
+  "schema_version": 1,
+  "source_path_base": "PCResources/Environment",
+  "scope": "Explicit Template, ComponentTemplate, Super, SuperStruct, and ClassDefaultObject dependencies from the exported maps",
+  "package_count": 10,
+  "layer_count": 2,
+  "source_scope": "Base Content/Paks only; no Saved patch priority asserted",
+  "files": [
+    {
+      "file": "Dependencies/Json/NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor/BP_LobbyCameraActor_C.json",
+      "identity": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.0",
+      "class": "BlueprintGeneratedClass",
+      "sha256": "b1a157588647aca0dc3c839ce2bd7b38df4f968b47f42e7cee3910a1769f52b8"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor/CameraComponent.json",
+      "identity": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2",
+      "class": "CineCameraComponent",
+      "sha256": "0ce42ba4cd3ff330f0dbfba0739ddd8a52d5a1a516608415d38da4aaf16e626c"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor/Default__BP_LobbyCameraActor_C.json",
+      "identity": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1",
+      "class": "BP_LobbyCameraActor_C",
+      "sha256": "6517555578f6a34229f95bccb331da229ceb85a67f6bf8f5644aa173fa8fd8f7"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor/DefaultSceneRoot_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.3",
+      "class": "SceneComponent",
+      "sha256": "9f80b4be3d7c4ba72fb480cd5770586c427a240a55974f4a46eac017157838c6"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor/SceneComponent.json",
+      "identity": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.4",
+      "class": "SceneComponent",
+      "sha256": "3ac07bba9a82a7911afa1e86f3b5bcccbdd4a399ee2360bc866392cf817c9ffe"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor/SimpleConstructionScript_0.json",
+      "identity": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.6",
+      "class": "SimpleConstructionScript",
+      "sha256": "5ed4eb56d79703f89c3bcb65177f7aaf428ee9879b45ea2df7554841b52714f6"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor/SimpleConstructionScript_0/SCS_Node_0.json",
+      "identity": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.5",
+      "class": "SCS_Node",
+      "sha256": "55cc2a93b5665873d754337688a216e5ff43f31cbcec29218220090b5e3e886e"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/BP_LightBeam_ForLF_C.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.6",
+      "class": "BlueprintGeneratedClass",
+      "sha256": "dfe283af3e33f32fbf9e356b2dc56bd45858851566d04450d5ab68fa3acb18e6"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/Create CrossSection Sheets.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.4",
+      "class": "Function",
+      "sha256": "91951d7f5cb5c0b503e25917ce91dfeda14dd3ccb474fd3285172a3c1669ea4e"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/CreateLightDynamicMaterial.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.1",
+      "class": "Function",
+      "sha256": "84c5ca301ff956c1d8cbad6bab2272bac451d6d0ce74dcb3f08d915991f5c36e"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/Default__BP_LightBeam_ForLF_C.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.7",
+      "class": "BP_LightBeam_ForLF_C",
+      "sha256": "928917ba1b0067424f1fb6065fe2d28d8d6021a84f5a1e5df976c457111509a5"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/DefaultSceneRoot_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.9",
+      "class": "SceneComponent",
+      "sha256": "366f5236d2366afdca96673642c0acd4789c95acec72b237056bb80fa1cb5123"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/InheritableComponentHandler.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.8",
+      "class": "InheritableComponentHandler",
+      "sha256": "c8096f252d95a163ac57405815a6bd564e6ad5cc23580e6fb14394e4c449e5aa"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/NODE_AddStaticMeshComponent-12.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.12",
+      "class": "StaticMeshComponent",
+      "sha256": "d6bf6066c876f81287942b05203726cbf59026a01d14a385cea462380bbb8147"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/NODE_AddStaticMeshComponent-4.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.13",
+      "class": "StaticMeshComponent",
+      "sha256": "e852ea48b33143844ce793fe22a04a65f80109b9937bb88364848011ea0a8480"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/NODE_AddStaticMeshComponent-5.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.14",
+      "class": "StaticMeshComponent",
+      "sha256": "c7dda140de687f7f7776d70f8836f0c42fa3b61ef017d81adb640fa34c16433d"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/NODE_AddStaticMeshComponent-6.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.15",
+      "class": "StaticMeshComponent",
+      "sha256": "2554b710bc98659ec3b5e9b770f5b4277a4977e6d466b81e03e168811408613b"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/NODE_AddStaticMeshComponent-7.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.16",
+      "class": "StaticMeshComponent",
+      "sha256": "dd39d4daa2453f9dc681763df3321cb25283b61e3f950af0226ee4f8deb6442e"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/Set Dynamic Material Properties.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.2",
+      "class": "Function",
+      "sha256": "782715fb37c15aae8cb6a913b06513bc7f81b455234a2757bb4ecf649b7f3133"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/SimpleConstructionScript_0.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.11",
+      "class": "SimpleConstructionScript",
+      "sha256": "3564b382aaffc325edb310a97018e3ec7f3a2d207c5c0253180e65c9d852d0f5"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/Spotlight settings.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.5",
+      "class": "Function",
+      "sha256": "2e939d2d7ba1e45fb4e4dfb959494d79bfe92eafa67291a1bdb3460b925feb61"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/UpdateColor.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.3",
+      "class": "Function",
+      "sha256": "a1a0644c3035033e72410482bd83ac8a9591f6aa86cd949d4e3efc00d54691ad"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/UserConstructionScript.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.0",
+      "class": "Function",
+      "sha256": "6459cf687df5bd24ef90082e4a149e23d19278aca5cd1afe139816d8a83413a2"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF/SimpleConstructionScript_0/SCS_Node_0.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.10",
+      "class": "SCS_Node",
+      "sha256": "cf4878b00c5daeb4b00d641f1bb05321e61012a7251d5177dea6982c7c2a3198"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/Default__Standard_UI_Light_C.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.1",
+      "class": "Standard_UI_Light_C",
+      "sha256": "eab403f8d4a7047176ab2c58cf3859a9fdc18d8ee049142e83c68b9b027d6293"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/DefaultSceneRoot_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.3",
+      "class": "SceneComponent",
+      "sha256": "de7d243830b247d8d531f37889871fa57751c0476b0f87ee2a958e5272d22542"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/DirectionalLight_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.2",
+      "class": "DirectionalLightComponent",
+      "sha256": "44e42705d25b6d5be12961403d2313b1317b34ff4ad1204a1d268368ff12333c"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/SimpleConstructionScript_0.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.10",
+      "class": "SimpleConstructionScript",
+      "sha256": "2c3249800a2a641965a0e095d46ddb85267a4b974a60d44360a87639c9d5a8a1"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/SkyLight_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.11",
+      "class": "SkyLightComponent",
+      "sha256": "35395a2ade12846152b758e94b330d80f09ab10896ad6dc2ba128daee182a125"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/SpotLight_Fill01_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.12",
+      "class": "SpotLightComponent",
+      "sha256": "8f7913d1cddb35656cf025dc7814874011b2b29a14d23f754e90ba83796c7121"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/SpotLight_Fill02_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.13",
+      "class": "SpotLightComponent",
+      "sha256": "1252fb593a74d3952480ab34f61c5b229d7a51c2d22df3fed5d7cea8770cb62d"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/SpotLight_Main_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.14",
+      "class": "SpotLightComponent",
+      "sha256": "e9da15afb8fb17af21b3661b9da5bee03f3e7bda0f71099185d37d765680b838"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/Standard_UI_Light_C.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.0",
+      "class": "BlueprintGeneratedClass",
+      "sha256": "c8e8c8e05a1aeb14116e3330817400b8e6f0d97849ddcd47447dbb57dc452b1f"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/SimpleConstructionScript_0/SCS_Node_0.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.4",
+      "class": "SCS_Node",
+      "sha256": "80f6d7e51e0f764f1a2766b38352f8b39606af003d1d8bae4a5b5bc4f9539b42"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/SimpleConstructionScript_0/SCS_Node_1.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.5",
+      "class": "SCS_Node",
+      "sha256": "75bb4197fc7a1414d71e9fe2beb19e5b855cf3337fb07a634e77f132b2aecec3"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/SimpleConstructionScript_0/SCS_Node_10.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.6",
+      "class": "SCS_Node",
+      "sha256": "404f2df696268a4de4da549b043e030ff93e6bccc7a4a716ca6d5df8117371c3"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/SimpleConstructionScript_0/SCS_Node_2.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.7",
+      "class": "SCS_Node",
+      "sha256": "e6db11aa9b42603174f9581dd269116a8a651ec4294f5fb5639614dde20b81a1"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/SimpleConstructionScript_0/SCS_Node_8.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.8",
+      "class": "SCS_Node",
+      "sha256": "8ba481d40c81870168343c6ef8b1216a402c810ba72544747464cf2a661d5dee"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light/SimpleConstructionScript_0/SCS_Node_9.json",
+      "identity": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.9",
+      "class": "SCS_Node",
+      "sha256": "b8e2ae161b8a75f4502eac10eeba3a7240d71133bb39281f663d44a52683ead6"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/Default__LF_BaseLight_Point_01_C.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.12",
+      "class": "LF_BaseLight_Point_01_C",
+      "sha256": "7871bf683ecd40e21ad5d7ea3473b78f93cacf17170f0b59acf25aa549b50700"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/DefaultSceneRoot_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.14",
+      "class": "SceneComponent",
+      "sha256": "c1d3df90ec51b04eb3d5bc3d4b20f2cc49a0587d3e4b4b3caecfc0360d34e097"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/ExecuteUbergraph_LF_BaseLight_Point_01.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.0",
+      "class": "Function",
+      "sha256": "cea4830a1859c18a23ae2f1b8cbfc24f6fe3b84c57c719852ed644e67b8439e2"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/LF_BaseLight_Point_01_C.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.11",
+      "class": "BlueprintGeneratedClass",
+      "sha256": "1efc4fa7b16ced356a28ba8679c0a8657a665090a4152f4c7ebd5e1f56573b35"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/LightAttri.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.5",
+      "class": "Function",
+      "sha256": "41138982039cb89501f5c115e5e1e2ba8b757861dbffc09f41b86aa53a5be13d"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/Lighting Intensity.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.4",
+      "class": "Function",
+      "sha256": "21c0e86d8c3fd032a65b328218ff40d7490d8b73978db8e6e73300136cb167cb"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/pc&mobility.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.6",
+      "class": "Function",
+      "sha256": "159bdcd295ca42431523c857f231e355c6dcf03d01617e0cf3d63de40a9c8d39"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/Point.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.7",
+      "class": "Function",
+      "sha256": "ce73118f4987b9fee9555078acc6e098bfa45caf54f0992610fbb8207180bf6a"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/PointLight_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.13",
+      "class": "PointLightComponent",
+      "sha256": "66721aeba895b7349206255f179cbb1cd7cf422c7c660cbf7bc7b57906c9d9a2"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/Pre Bake Shadow Depth Map.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.8",
+      "class": "Function",
+      "sha256": "7e98c30c2beb2439b34a8834bb5fe968a54d5db9034694722971dbaddd81b493"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/PreBakeMapdelect.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.10",
+      "class": "Function",
+      "sha256": "5f51cf5dae868cdb35171b3556239ede8e11f802d818eecd4c39eb2419869ba8"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/ReceiveBeginPlay.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.1",
+      "class": "Function",
+      "sha256": "80f9cdefb38a98a3c83913ce085bb99af4306150ab6f359fa3a28b18984b7ae2"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/Setup Prebake Shadow.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.9",
+      "class": "Function",
+      "sha256": "242ea2fcf6feb915cac5bb46cf5c3fa1fc00e26f1cf76b10f0ac4287ca5e9956"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/SimpleConstructionScript_0.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.17",
+      "class": "SimpleConstructionScript",
+      "sha256": "bdc345fafe976bee0c55ad076c637f3422c99e9c9319c4f6130db423e98c39db"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/Use Switch Temp.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.3",
+      "class": "Function",
+      "sha256": "9c81020e0c6aeaaa165826649d61fb1addda40a8df35b171127c38e329db77dd"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/UserConstructionScript.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.2",
+      "class": "Function",
+      "sha256": "180e295d9d9718a2407f65998e6aba36e01e658c4a690081a38989c05a010f3c"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/SimpleConstructionScript_0/SCS_Node_0.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.15",
+      "class": "SCS_Node",
+      "sha256": "78eb299c5e54380c3c8577d7ce235b2f857b874f74c0891e80d00de175ab61a4"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01/SimpleConstructionScript_0/SCS_Node_2.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.16",
+      "class": "SCS_Node",
+      "sha256": "7d90ba73baa19dba6f4e2c5b52350793131a9f7f49100a00b0fecf6e70fc7201"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/Default__LF_BaseLight_Spot_01_C.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.10",
+      "class": "LF_BaseLight_Spot_01_C",
+      "sha256": "98a5a679f58fe25ad8496ebe99a4b4c3e2f5a93949026f0d6f08c251b2896e5d"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/DefaultSceneRoot_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.11",
+      "class": "SceneComponent",
+      "sha256": "2274179361df16b0283d84353677b73c21b93265bc2af0b503137a9fe3633e1f"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/LF_BaseLight_Spot_01_C.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.9",
+      "class": "BlueprintGeneratedClass",
+      "sha256": "e9dd53fbbe2286cebc567a5df9dceeee4de1d5e00238712a0381be3584c60037"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/LightAttri.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.3",
+      "class": "Function",
+      "sha256": "faf619a50139f9be8aa14fc58f07afcc458503317f4a39bc4514c4f04a4d67be"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/Lighting Intensity.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.2",
+      "class": "Function",
+      "sha256": "62b818d0eda0a4c7959283134ef91b130cb5aec1eb7222b143521fbcfbcda688"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/pc&mobility.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.4",
+      "class": "Function",
+      "sha256": "01cda5351c7c81de8ac7687cd34f4628a8ae9ed894a83f9a78d3b08279376ea5"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/Pre Bake Shadow Depth Map.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.5",
+      "class": "Function",
+      "sha256": "6e97d7ac64fc4320048aad5fe166dc8bc1d570ef02c0080e2dbd0b69fdc40146"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/PrebakeMapdelect.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.7",
+      "class": "Function",
+      "sha256": "063538278eb33a1c9d48e80f1abc00947d5e8e0addc0c1186affdcba068b4066"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/Setup Prebake Shadow.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.6",
+      "class": "Function",
+      "sha256": "355d47b21bef52afe755683031256311161f1b2eb34337cd80428d9ba506f41b"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/SetupContactShadow.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.8",
+      "class": "Function",
+      "sha256": "751fc16b996edba599f732883e8b64420430d6a2135f064ead82d0c1fffe5fdb"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/SimpleConstructionScript_0.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.14",
+      "class": "SimpleConstructionScript",
+      "sha256": "bf72aa52055b02a34f3cbf6141161d67c49607d3f29369773ace7d36fcc38b89"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/SpotLight_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.15",
+      "class": "SpotLightComponent",
+      "sha256": "07b6f34f41cc76880cf166ad691bfb2a166e61fb70d19fe371be6976f05a8cfa"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/Use Switch Temp.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.1",
+      "class": "Function",
+      "sha256": "6bececfafdf5daab72f3622955623cb1ff2b83dac15487679b1f868371bcba0b"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/UserConstructionScript.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.0",
+      "class": "Function",
+      "sha256": "8452648436e9db6470f41d123e4ed71661fd4dc337b34639f0cc0a3e0e0ae205"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/SimpleConstructionScript_0/SCS_Node_0.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.12",
+      "class": "SCS_Node",
+      "sha256": "994d54bf06555f866de78fccc2521a67b16aaf4a9432fc30c88ada8ce199561f"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01/SimpleConstructionScript_0/SCS_Node_1.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.13",
+      "class": "SCS_Node",
+      "sha256": "edb48f0ffec977b088a810a858501b4f33b97cbd80788c1961f53648335902fa"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base/Default__LF_Generic_Building_FreeStyle_Base_C.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base.1",
+      "class": "LF_Generic_Building_FreeStyle_Base_C",
+      "sha256": "df9eff339a9564a73a70276cdc22e212d0cb784bea9378d6f8068eab02997ef7"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base/DefaultSceneRoot_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base.3",
+      "class": "SceneComponent",
+      "sha256": "061dfb6c82bbf2b983b4b81adef36a7e7b9104ecd3244177ad7ff9823ea3b353"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base/InheritableComponentHandler.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base.2",
+      "class": "InheritableComponentHandler",
+      "sha256": "23b6ec2e08d459c32ed243a42b9d4899956762d9f3cd45f6f3d678f1a0728c24"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base/LF_Generic_Building_FreeStyle_Base_C.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base.0",
+      "class": "BlueprintGeneratedClass",
+      "sha256": "dac306007307d01ff4a0fc1b8e7c851a2ea47cf126f47e11b7256b35d70be1da"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base/SimpleConstructionScript_0.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base.5",
+      "class": "SimpleConstructionScript",
+      "sha256": "fefd90f094a0e0490bd364193c161e14af869ba31a358e7212e27717bb6ffe27"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base/StaticMesh_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base.6",
+      "class": "StaticMeshComponent",
+      "sha256": "9320978a1eebe9704fa83564e5519cd27cffb03cbd5328843863feabd1169f8d"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base/SimpleConstructionScript_0/SCS_Node_0.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base.4",
+      "class": "SCS_Node",
+      "sha256": "5de9c652bfe420d8d26cd9a385f4151243e6748f152d3c044e7029809cd6faab"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold/Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1",
+      "class": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+      "sha256": "9a40040548e8859fe38d143723b6a8e2eae0e02bc0e8b690660917d89ecf5e76"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold/DefaultSceneRoot_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.3",
+      "class": "SceneComponent",
+      "sha256": "d84e6cb6ff4c4037ccc37e2bed29a5600a81986f98b8ae22f0cf733d32f68cb0"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold/InheritableComponentHandler.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.2",
+      "class": "InheritableComponentHandler",
+      "sha256": "3cc363273494bc89fc9ebe60aad0245f1bd6e41a2bd259e3db7191fb7a4412bd"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.0",
+      "class": "BlueprintGeneratedClass",
+      "sha256": "c27606059fa48eac51ece37cd5c4012703987fa78dfc5bb9a0c4ff2b90e6da28"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold/SimpleConstructionScript_0.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.5",
+      "class": "SimpleConstructionScript",
+      "sha256": "98657a8d4630c629be3ed95314c52ec9179a46d076bf0b76b8a9b9d71d356eda"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold/SimpleConstructionScript_0/SCS_Node_0.json",
+      "identity": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.4",
+      "class": "SCS_Node",
+      "sha256": "80a52978135c0bbf0950e5324ea9f65498e004431b4d4619ad8ac7e2e165f197"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/(Point)Whole SceneShadow.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.25",
+      "class": "Function",
+      "sha256": "d9813c26c5fedc7da634da365de55338f219c262a7e412bc0f8071fe714153c1"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/AtrRuntimeScale.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.9",
+      "class": "Function",
+      "sha256": "f23992bcd4261b8d0890dffd843af83b86082be5baaa74189952d6060f158475"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/Collision.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.26",
+      "class": "Function",
+      "sha256": "779d4846afb668f61ccc9c308b78ae29da8ef970b64851ba6800b844a744fc02"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/Default__LF_Lighting_Master_C.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.28",
+      "class": "LF_Lighting_Master_C",
+      "sha256": "c6250e114e98fa2b3627441a4d54363b687741f1ee0f0e17b243792ccf90f92d"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/DefaultSceneRoot_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37",
+      "class": "SceneComponent",
+      "sha256": "1a76ce4525e1a6cab002587524a3a1580c6a1ffff953d5d61cf616be4e8b2e04"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/emissiveColorGet.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.21",
+      "class": "Function",
+      "sha256": "059969b0ded6b99d3d81082a268556bcc86739700fa1c2aa7bc68a1f8ef634fc"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/EmissiveLight.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.11",
+      "class": "Function",
+      "sha256": "6977f332b3d7128165ab4e9f4bfc3e0d4261206fa8fe502d0ad93ca6b2a8472e"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/ExecuteUbergraph_LF_Lighting_Master.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.0",
+      "class": "Function",
+      "sha256": "2441887d315e1a8f6dbaea2b646ab4573fd87b5b002ac2a71d9dc82fdaa7d633"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/ExtraLightingAttribute.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.8",
+      "class": "Function",
+      "sha256": "ec74180701201640f07848649dac7b07d550e3891adc40b20ceb96abaea06457"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/Lensflare.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.20",
+      "class": "Function",
+      "sha256": "20db665e2d48776b49e828837c6aa3e6bb721cb614330ecb101b8f9b9d4ac3a0"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/LF_Lighting_Master_C.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27",
+      "class": "BlueprintGeneratedClass",
+      "sha256": "0d127e2e349b879eae0efd3f0d638c3cea93d7c59272226b3535e91dbcf61899"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/Lighting Attribute.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.6",
+      "class": "Function",
+      "sha256": "c4a065efc24cf90890a138c4db779e1b141936835bc677db7ccfc7822d99d806"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/Ligting Intensity.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.15",
+      "class": "Function",
+      "sha256": "f39eb4bdefd679619e13e77036ebbcc111da110641e5f79109de9855ede54760"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/Material.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.7",
+      "class": "Function",
+      "sha256": "2d1b5e82fa10da2c41980407253102aae3914e62b7604a63556e826323d79db1"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/MobileVFXFog.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.22",
+      "class": "Function",
+      "sha256": "09e069ea96fc52cfba14369d4513f773dbdc933ca598e17a7f92609fcda7d763"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/Nature Scale.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.12",
+      "class": "Function",
+      "sha256": "c881ece785b78a36bcb849b81a0728a7c9f07bb94c7f5dd0bc9dad65982ddd48"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/NODE_AddChildActorComponent-3.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.30",
+      "class": "ChildActorComponent",
+      "sha256": "04a1755e538b345ef18dfc257e3be2c2a35bf10f8dda292e6151d41892ec4295"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/NODE_AddPointLightComponent-10.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.31",
+      "class": "PointLightComponent",
+      "sha256": "3e3f85709c50f22d12bf02237caa7c923f326cc075e88f74a5443a1805abfee5"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/NODE_AddPointLightComponent-11.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32",
+      "class": "PointLightComponent",
+      "sha256": "a750a30a51d10ad6dc8d1a076e671047406baaeff2603b591cece5a0f05ba976"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/NODE_AddPointLightComponent-9.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.33",
+      "class": "PointLightComponent",
+      "sha256": "a612b5dea27254fe1aab8b7f7d6be0f610e1e7407ef245685466ec7bfbae8816"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/NODE_AddRectLightComponent-10.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.34",
+      "class": "RectLightComponent",
+      "sha256": "9a54715fd8893890de310a98a1f383e390148dc136cbd22d1f0f2ddb5618ba72"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/NODE_AddRectLightComponent-11.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.35",
+      "class": "RectLightComponent",
+      "sha256": "995c21a42d93006ae235926844cc46f5094ac3e4cb2f214108e692b8388751e8"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/NODE_AddRectLightComponent-12.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.36",
+      "class": "RectLightComponent",
+      "sha256": "15e3bb76978a35402ad19266e070cddc1207359792c1d7368132a0947ef80b1e"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/NODE_AddSpotLightComponent-4.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.43",
+      "class": "SpotLightComponent",
+      "sha256": "7002774e345b77bbc09edef548865b7813b2a630b46f897ea1755ccad7cf09ec"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/NODE_AddSpotLightComponent-5.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.44",
+      "class": "SpotLightComponent",
+      "sha256": "7e9d44e1524116bf5d04f51c9377e4c3dcad6c2d392eb5bb53b7729bf94e3354"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/NODE_AddSpotLightComponent-6.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.45",
+      "class": "SpotLightComponent",
+      "sha256": "01c0ca67b51a0af54f3f305e28ddce8465a06b8a2708771b5028b9dfb8e0feef"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/NODE_AddViewDependentMatBillboardComp-0.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.47",
+      "class": "ViewDependentMatBillboardComp",
+      "sha256": "582587344f26ae0ea6162dd34ebf33bbca4e6053d97cc077e91104a3a4e39a35"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/PCFeature.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.13",
+      "class": "Function",
+      "sha256": "586e3387e99271672110a025ab6b5459cbf233d6fc54e004a31f9e1b9c5d5169"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/PCLightingIntensity.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.14",
+      "class": "Function",
+      "sha256": "d7082e0e20f642fc1859c53a50c33bddaf07ad219162e93424f1261f4fa90878"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/Pre Bake Shadow Depth Map.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.18",
+      "class": "Function",
+      "sha256": "7cf5b2e5dcf72fad4a3dd940985e88999b68ccf9c660879b6e9050cb638d64c6"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/ReceiveBeginPlay.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.2",
+      "class": "Function",
+      "sha256": "6e61285e318608274f1b92427a054bdc3f636426e38e0f786b9d629be890b9a4"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/ReceiveDestroyed.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.1",
+      "class": "Function",
+      "sha256": "c8946942572e331f3c6f7d8efd4a9dccb3f5ff659b32f0ffead17bb37b3119ae"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/Refresh Bloom Value.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.23",
+      "class": "Function",
+      "sha256": "a6abb4e74ca34d7501177ff7a88f7b0a5aa7af3dc34d9393b35895199f635e59"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/Refresh Lighting.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.10",
+      "class": "Function",
+      "sha256": "e9ad488ab56a2e07fa63ffc5399d3a7584a6f7f03efaf91898a928285d55e48b"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/Setup Prebake Shadow.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.19",
+      "class": "Function",
+      "sha256": "8bdc7be960fb900959bbbd368e9a7275ba2f9bda4b1ec6bba317e0aec79bc525"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/SimpleConstructionScript_0.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.42",
+      "class": "SimpleConstructionScript",
+      "sha256": "9ad46e7a93e55fdcf4eba8eac92da4fe973818e95a41a2d527db3dc6585603bf"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/SpecularScaleNormalization.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.5",
+      "class": "Function",
+      "sha256": "8df63673da93adc811d4bfa1f01ecda4202c0d00bf8f5f263c9d589f889d5c4f"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/StaticMesh_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.46",
+      "class": "StaticMeshComponent",
+      "sha256": "c268da522282f769ef914a68ef1ccfd1ca3a0f28df02207c18a4400d57d17820"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/TickInEditor.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.3",
+      "class": "Function",
+      "sha256": "157d5a364d3bf5c06ae612aa02913a5404e0b6a4c053b5ea4c37b0d1e8bb16ff"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/Use Switch Temp.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.16",
+      "class": "Function",
+      "sha256": "1dce252969ffdbad2f21dcebfab6bf06c148a35e46ffcbdb084989120624c010"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/UserConstructionScript.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.4",
+      "class": "Function",
+      "sha256": "74473f482d299d2abd266262794386910844b06639da8c129780945e2d8a70f8"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/VolumetricFog.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.17",
+      "class": "Function",
+      "sha256": "e11fcf51cc63f7015ef6ec6a7bb4ee8301ea4a0d0eafdb0f162dd556c7e4af41"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/Whole SceneShadow.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.24",
+      "class": "Function",
+      "sha256": "820be4d73539ad741a1e1b5a952f607ab6a83acbe230e3fb9a117ee73f08d7bf"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/NODE_AddChildActorComponent-3/NODE_AddChildActorComponent-3_BP_LightBeam_ForLF_C_CAT.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.29",
+      "class": "BP_LightBeam_ForLF_C",
+      "sha256": "37ad4be2d16618db92bf1141ff248203c429040394056ebe7b72f4ecc13ec7a8"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/SimpleConstructionScript_0/SCS_Node_0.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.38",
+      "class": "SCS_Node",
+      "sha256": "6695a4b11b9ff9d92eceee0a41f08856f78e93b97a4f03e4a76855705ec742fd"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/SimpleConstructionScript_0/SCS_Node_1.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.39",
+      "class": "SCS_Node",
+      "sha256": "1c3d501554e97bf4b168376ced0c7507bc7c9c3c05a5e816821d2b47e47c059a"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/SimpleConstructionScript_0/SCS_Node_2.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.40",
+      "class": "SCS_Node",
+      "sha256": "ae9f072d2d3ece81d62307267079566200fc50460bdfc581d950de769180343e"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master/SimpleConstructionScript_0/SCS_Node_3.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.41",
+      "class": "SCS_Node",
+      "sha256": "9c24f61e66debad8bdc97d789c7af96f44a8a9d983493f31c9942bbcbe2a55c5"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b/Default__LF_Generic_SIgnalLight_MergencyLamp_03b_C.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.1",
+      "class": "LF_Generic_SIgnalLight_MergencyLamp_03b_C",
+      "sha256": "52c1060240966af729927cf2877386cbbb63b08ea3ea14239ddcbb9dd9017eb3"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b/DefaultSceneRoot_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.3",
+      "class": "SceneComponent",
+      "sha256": "33c1b4295276e2a346d51628ee969c86a40519997f38b55131634353ccce7aed"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b/InheritableComponentHandler.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.2",
+      "class": "InheritableComponentHandler",
+      "sha256": "c43c25f92dd086fc4fa205b6fd2895190b25a1fd9425c2b6221274f6174f59f2"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b/LF_Generic_SIgnalLight_MergencyLamp_03b_C.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.0",
+      "class": "BlueprintGeneratedClass",
+      "sha256": "fba5747744260954f8cca6db009dc54783f33b7865e0fddf37c7a1eb72505438"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b/SimpleConstructionScript_0.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.5",
+      "class": "SimpleConstructionScript",
+      "sha256": "e2e07136298fff555063ec5d195b31dc09581a010bdaab38aa8d2a6e9130724e"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b/StaticMesh_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6",
+      "class": "StaticMeshComponent",
+      "sha256": "3eeebfa9f6eeb8443fc67c6d62c2ef4dd85ff9f41f12721c1db80cb822aadd09"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b/SimpleConstructionScript_0/SCS_Node_0.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.4",
+      "class": "SCS_Node",
+      "sha256": "16fd207fbd4ee47ed27926e9c08b93b4c82bcff263d7c00b09c42148195e8adc"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle/Default__LF_Generic_Building_FreeStyle_C.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.1",
+      "class": "LF_Generic_Building_FreeStyle_C",
+      "sha256": "2143a978359de097bf39d33dd2a3c2222f6b1aa1ec8d306cf0a3e5bd62c3d451"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle/DefaultSceneRoot_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.3",
+      "class": "SceneComponent",
+      "sha256": "6648168b8dac22190190bba13bf72bca1db78493c50e91c68c752c802c27d84c"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle/InheritableComponentHandler.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.2",
+      "class": "InheritableComponentHandler",
+      "sha256": "972f3bcdb1908a78ea42d612653a83023e9b0f4ede14a489f9ea45afd5cda453"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle/LF_Generic_Building_FreeStyle_C.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.0",
+      "class": "BlueprintGeneratedClass",
+      "sha256": "3d178bb516d49f5cf171e84e1160f72c8a59cb7efc9e396e228539527502bba0"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle/SimpleConstructionScript_0.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.5",
+      "class": "SimpleConstructionScript",
+      "sha256": "616e1be73140737e8fe68455dcc327eaadf32809c2722768cbe1753be4ce0a02"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle/StaticMesh_GEN_VARIABLE.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.6",
+      "class": "StaticMeshComponent",
+      "sha256": "c54de4cee99f97407f60b7fd17ea08c731abebd8a1a0cdf75644499a9d0ccbea"
+    },
+    {
+      "file": "Dependencies/Json/NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle/SimpleConstructionScript_0/SCS_Node_0.json",
+      "identity": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.4",
+      "class": "SCS_Node",
+      "sha256": "987f996900c27ed7a0835d476a31469d684825c48829f4c6c832077a33635821"
+    }
+  ],
+  "packages": [
+    {
+      "package": "/Game/Blueprints/FrontEnd/BP_LobbyCameraActor",
+      "dependency_layer": 1,
+      "successful_exports": 7,
+      "base_archive_sources": [
+        {
+          "virtual_path": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.uasset",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "size": 3297,
+          "compression": "Oodle",
+          "archive_offset": 3031040,
+          "provider_read_order": 3
+        },
+        {
+          "virtual_path": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.uexp",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "size": 997,
+          "compression": "Oodle",
+          "archive_offset": 3032729,
+          "provider_read_order": 3
+        }
+      ]
+    },
+    {
+      "package": "/Game/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light",
+      "dependency_layer": 1,
+      "successful_exports": 15,
+      "base_archive_sources": [
+        {
+          "virtual_path": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.uasset",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "size": 4576,
+          "compression": "Oodle",
+          "archive_offset": 78956544,
+          "provider_read_order": 3
+        },
+        {
+          "virtual_path": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.uexp",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "size": 2123,
+          "compression": "Oodle",
+          "archive_offset": 78958313,
+          "provider_read_order": 3
+        }
+      ]
+    },
+    {
+      "package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01",
+      "dependency_layer": 1,
+      "successful_exports": 18,
+      "base_archive_sources": [
+        {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.uasset",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "size": 9870,
+          "compression": "Oodle",
+          "archive_offset": 78977024,
+          "provider_read_order": 3
+        },
+        {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.uexp",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "size": 9848,
+          "compression": "Oodle",
+          "archive_offset": 78980633,
+          "provider_read_order": 3
+        }
+      ]
+    },
+    {
+      "package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01",
+      "dependency_layer": 1,
+      "successful_exports": 16,
+      "base_archive_sources": [
+        {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.uasset",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "size": 10277,
+          "compression": "Oodle",
+          "archive_offset": 78983168,
+          "provider_read_order": 3
+        },
+        {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.uexp",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "size": 10934,
+          "compression": "Oodle",
+          "archive_offset": 78987033,
+          "provider_read_order": 3
+        }
+      ]
+    },
+    {
+      "package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base",
+      "dependency_layer": 1,
+      "successful_exports": 7,
+      "base_archive_sources": [
+        {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base.uasset",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "size": 4770,
+          "compression": "Oodle",
+          "archive_offset": 78993408,
+          "provider_read_order": 3
+        },
+        {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base.uexp",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "size": 930,
+          "compression": "Oodle",
+          "archive_offset": 78995385,
+          "provider_read_order": 3
+        }
+      ]
+    },
+    {
+      "package": "/Game/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold",
+      "dependency_layer": 1,
+      "successful_exports": 6,
+      "base_archive_sources": [
+        {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.uasset",
+          "archive": "Content/Paks/pakchunk47-WindowsClient.pak",
+          "size": 3193,
+          "compression": "Oodle",
+          "archive_offset": 885397504,
+          "provider_read_order": 3
+        },
+        {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.uexp",
+          "archive": "Content/Paks/pakchunk47-WindowsClient.pak",
+          "size": 689,
+          "compression": "Oodle",
+          "archive_offset": 885398985,
+          "provider_read_order": 3
+        }
+      ]
+    },
+    {
+      "package": "/Game/Env/PhysicLighting/LF_Main/LF_Lighting_Master",
+      "dependency_layer": 1,
+      "successful_exports": 48,
+      "base_archive_sources": [
+        {
+          "virtual_path": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.uasset",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "size": 28202,
+          "compression": "Oodle",
+          "archive_offset": 124702720,
+          "provider_read_order": 3
+        },
+        {
+          "virtual_path": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.uexp",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "size": 62841,
+          "compression": "Oodle",
+          "archive_offset": 124712233,
+          "provider_read_order": 3
+        }
+      ]
+    },
+    {
+      "package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b",
+      "dependency_layer": 1,
+      "successful_exports": 7,
+      "base_archive_sources": [
+        {
+          "virtual_path": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.uexp",
+          "archive": "Content/Paks/pakchunk47-WindowsClient.pak",
+          "size": 2284,
+          "compression": "Oodle",
+          "archive_offset": 1127170361,
+          "provider_read_order": 3
+        },
+        {
+          "virtual_path": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.uasset",
+          "archive": "Content/Paks/pakchunk47-WindowsClient.pak",
+          "size": 5276,
+          "compression": "Oodle",
+          "archive_offset": 1127168000,
+          "provider_read_order": 3
+        }
+      ]
+    },
+    {
+      "package": "/Game/Env/LE_LightingEffect/BP_LightBeam_ForLF",
+      "dependency_layer": 2,
+      "successful_exports": 17,
+      "base_archive_sources": [
+        {
+          "virtual_path": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.uexp",
+          "archive": "Content/Paks/pakchunk224-WindowsClient.pak",
+          "size": 7876,
+          "compression": "Oodle",
+          "archive_offset": 38278089,
+          "provider_read_order": 3
+        },
+        {
+          "virtual_path": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.uasset",
+          "archive": "Content/Paks/pakchunk224-WindowsClient.pak",
+          "size": 8141,
+          "compression": "Oodle",
+          "archive_offset": 38275072,
+          "provider_read_order": 3
+        }
+      ]
+    },
+    {
+      "package": "/Game/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle",
+      "dependency_layer": 2,
+      "successful_exports": 7,
+      "base_archive_sources": [
+        {
+          "virtual_path": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.uasset",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "size": 5692,
+          "compression": "Oodle",
+          "archive_offset": 124721152,
+          "provider_read_order": 3
+        },
+        {
+          "virtual_path": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Building/LF_Generic_Building_FreeStyle.uexp",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "size": 2554,
+          "compression": "Oodle",
+          "archive_offset": 124723721,
+          "provider_read_order": 3
+        }
+      ]
+    }
+  ],
+  "host_specific_export_reports_excluded": true
+}

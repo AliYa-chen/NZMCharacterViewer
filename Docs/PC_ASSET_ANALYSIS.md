@@ -2,6 +2,8 @@
 
 核对日期：2026-11-09。只读本机 PC 安装的 `NZM` 磁盘资源及现有工程，已转换 194 张 PNG、36 个独立 LOD0 ActorX 网格、6 个 HDR 全景，导出人物页场景、材质及粒子参数。发布源文件位于 [PCResources](../PCResources/README.md)，离线工具位于 [PCAssetPipeline](../Tools/PCAssetPipeline/README.md)。**本机没有 UE，尚未执行编辑器导入；运行时 Content、Catalog 和画质配置未改。**
 
+人物光照／后期优先的后续交接见 [PC 人物渲染还原交接](PC_CHARACTER_RENDERING_HANDOFF.md)。已进一步补取 10 包灯光模板、20 包肤／眼／发依赖；模板按真实导出序号核对，后期单列值／override 的已知与未知状态，并列出当前代码会覆盖来源参数的位置。该文档给出另一台 UE 机器需要实施的桥接导入、来源模式、shader／特效重建与验收步骤。
+
 ## 已确认与待确认
 
 | 项目 | 结果 | 证据边界 |

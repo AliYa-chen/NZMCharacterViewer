@@ -1,0 +1,23 @@
+{
+  "Type": "MaterialExpressionTextureObjectParameter",
+  "Name": "MaterialExpressionTextureObjectParameter_4",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+  "Outer": {
+    "ObjectName": "MaterialFunction'MF_Data_Skin'",
+    "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+  },
+  "Properties": {
+    "ParameterName": "MetallicMap",
+    "ExpressionGUID": "0E9DCA70-4B1FDC6E-2EADC89A-BEC85573",
+    "Group": "AssetDataLayer",
+    "Texture": {
+      "ObjectName": "Texture2D'T_Default_BlackA'",
+      "ObjectPath": "NZM/Content/MaterialLib/Textures/Default/T_Default_BlackA.0"
+    },
+    "Function": {
+      "ObjectName": "MaterialFunction'MF_Data_Skin'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin.24"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "Type": "StaticMeshComponent",
+  "Name": "NODE_AddStaticMeshComponent-4",
+  "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'StaticMeshComponent'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'BP_LightBeam_ForLF_C'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.6"
+  },
+  "Properties": {
+    "StaticMesh": {
+      "ObjectName": "StaticMesh'S_EV_SimpleLightBeam_02'",
+      "ObjectPath": "Engine/Content/EngineVolumetrics/LightBeam/Mesh/S_EV_SimpleLightBeam_02.1"
+    },
+    "LDMaxDrawDistance": 5000.0,
+    "CachedMaxDrawDistance": 5000.0,
+    "bVisibleInRayTracing": false,
+    "bCastStaticShadow": false,
+    "PrimitiveGuid": "21C9F9BF-4B9D341C-702C0E8D-E6348971",
+    "TranslucencySortPriority": 5,
+    "RelativeRotation": {
+      "Pitch": 90.0,
+      "Yaw": 0.0,
+      "Roll": 0.0
+    }
+  }
+}

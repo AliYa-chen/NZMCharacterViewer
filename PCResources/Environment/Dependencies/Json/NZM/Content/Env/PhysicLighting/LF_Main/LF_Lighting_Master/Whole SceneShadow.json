@@ -1,0 +1,47 @@
+{
+  "Type": "Function",
+  "Name": "Whole SceneShadow",
+  "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Function'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+  },
+  "ChildProperties": [
+    {
+      "Type": "ObjectProperty",
+      "Name": "LC",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+      "PropertyClass": {
+        "ObjectName": "Class'LocalLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "K2Node_DynamicCast_AsSpot_Light_Component",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "InstancedReference",
+      "PropertyClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "K2Node_DynamicCast_bSuccess",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    }
+  ],
+  "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+}

@@ -1,0 +1,174 @@
+{
+  "Type": "Function",
+  "Name": "VolumetricFog",
+  "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Function'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+  },
+  "ChildProperties": [
+    {
+      "Type": "StructProperty",
+      "Name": "local",
+      "Flags": "RF_Public",
+      "ElementSize": 48,
+      "PropertyFlags": "Edit | BlueprintVisible",
+      "Struct": {
+        "ObjectName": "ScriptStruct'Transform'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "CallFunc_AddComponent_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "InstancedReference",
+      "PropertyClass": {
+        "ObjectName": "Class'RectLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "K2Node_SwitchEnum_CmpSuccess",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "CallFunc_AddComponent_ReturnValue_1",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "InstancedReference",
+      "PropertyClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "CallFunc_AddComponent_ReturnValue_2",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "InstancedReference",
+      "PropertyClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "CallFunc_IsValid_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "CallFunc_IsValid_ReturnValue_1",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "CallFunc_IsValid_ReturnValue_2",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "CallFunc_K2_SetRelativeTransform_SweepHitResult",
+      "Flags": "RF_Public",
+      "ElementSize": 144,
+      "PropertyFlags": "ContainsInstancedReference",
+      "Struct": {
+        "ObjectName": "ScriptStruct'HitResult'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "CallFunc_IsValid_ReturnValue_3",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "CallFunc_K2_SetRelativeTransform_SweepHitResult_1",
+      "Flags": "RF_Public",
+      "ElementSize": 144,
+      "PropertyFlags": "ContainsInstancedReference",
+      "Struct": {
+        "ObjectName": "ScriptStruct'HitResult'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "CallFunc_IsValid_ReturnValue_4",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "CallFunc_K2_SetRelativeTransform_SweepHitResult_2",
+      "Flags": "RF_Public",
+      "ElementSize": 144,
+      "PropertyFlags": "ContainsInstancedReference",
+      "Struct": {
+        "ObjectName": "ScriptStruct'HitResult'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "CallFunc_GetIsHD_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    }
+  ],
+  "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+}

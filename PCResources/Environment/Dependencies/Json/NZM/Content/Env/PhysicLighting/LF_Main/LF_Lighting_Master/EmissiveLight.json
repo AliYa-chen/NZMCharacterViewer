@@ -1,0 +1,186 @@
+{
+  "Type": "Function",
+  "Name": "EmissiveLight",
+  "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Function'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+  },
+  "ChildProperties": [
+    {
+      "Type": "ObjectProperty",
+      "Name": "SM",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | InstancedReference | ReferenceParm",
+      "PropertyClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_FClamp_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_Nature_Scale_NatureScale",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_AtrRuntimeScale_EmittionScale",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_Divide_FloatFloat_ReturnValue_1",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_FClamp_ReturnValue_1",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_Multiply_FloatFloat_ReturnValue_1",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_Divide_FloatFloat_ReturnValue_2",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "K2Node_MakeStruct_LightmassPrimitiveSettings",
+      "Flags": "RF_Public",
+      "ElementSize": 36,
+      "Struct": {
+        "ObjectName": "ScriptStruct'LightmassPrimitiveSettings'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "CallFunc_Multiply_LinearColorFloat_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 16,
+      "Struct": {
+        "ObjectName": "ScriptStruct'LinearColor'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_BreakColor_R",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_BreakColor_G",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_BreakColor_B",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_BreakColor_A",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "CallFunc_Multiply_LinearColorFloat_ReturnValue_1",
+      "Flags": "RF_Public",
+      "ElementSize": 16,
+      "Struct": {
+        "ObjectName": "ScriptStruct'LinearColor'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "CallFunc_Multiply_LinearColorFloat_ReturnValue_2",
+      "Flags": "RF_Public",
+      "ElementSize": 16,
+      "Struct": {
+        "ObjectName": "ScriptStruct'LinearColor'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_BreakColor_R_1",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_BreakColor_G_1",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_BreakColor_B_1",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_BreakColor_A_1",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "CallFunc_MakeColor_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 16,
+      "Struct": {
+        "ObjectName": "ScriptStruct'LinearColor'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "CallFunc_MakeVector4_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 16,
+      "Struct": {
+        "ObjectName": "ScriptStruct'Vector4'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    }
+  ],
+  "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+}

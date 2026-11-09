@@ -1,0 +1,200 @@
+{
+  "Type": "MaterialFunction",
+  "Name": "MF_Basic_Skin_PC_layer",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialFunction'",
+  "Package": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer",
+  "Properties": {
+    "FunctionExpressions": [
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionQualitySwitch'MF_Basic_Skin_PC_layer:MaterialExpressionQualitySwitch_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.8"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Skin_PC_layer:MaterialExpressionMaterialFunctionCall_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.1"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_17'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.14"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Skin_PC_layer:MaterialExpressionMaterialFunctionCall_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.2"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_18'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.15"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_21'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.17"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_24'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.18"
+      },
+      {
+        "ObjectName": "MaterialExpressionTextureSampleParameter2D'MF_Basic_Skin_PC_layer:MaterialExpressionTextureSampleParameter2D_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.33"
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_26'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.19"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.21"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_8'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.25"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Skin_PC_layer:MaterialExpressionMaterialFunctionCall_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.4"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionQualitySwitch'MF_Basic_Skin_PC_layer:MaterialExpressionQualitySwitch_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.9"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Skin_PC_layer:MaterialExpressionMaterialFunctionCall_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.3"
+      },
+      {
+        "ObjectName": "MaterialExpressionStaticSwitchParameter'MF_Basic_Skin_PC_layer:MaterialExpressionStaticSwitchParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.27"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.10"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionStaticSwitchParameter'MF_Basic_Skin_PC_layer:MaterialExpressionStaticSwitchParameter_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.30"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Skin_PC_layer:MaterialExpressionMaterialFunctionCall_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.0"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Skin_PC_layer:MaterialExpressionMaterialFunctionCall_5'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.5"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.11"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.16"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.20"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_5'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.22"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Skin_PC_layer:MaterialExpressionMaterialFunctionCall_6'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.6"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_10'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.12"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_11'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.13"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Skin_PC_layer:MaterialExpressionMaterialFunctionCall_7'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.7"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_6'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.23"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_7'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.24"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Skin_PC_layer:MaterialExpressionScalarParameter_9'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.26"
+      },
+      {
+        "ObjectName": "MaterialExpressionStaticSwitchParameter'MF_Basic_Skin_PC_layer:MaterialExpressionStaticSwitchParameter_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.28"
+      },
+      {
+        "ObjectName": "MaterialExpressionTextureSampleParameter2D'MF_Basic_Skin_PC_layer:MaterialExpressionTextureSampleParameter2D_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.31"
+      },
+      {
+        "ObjectName": "MaterialExpressionStaticSwitchParameter'MF_Basic_Skin_PC_layer:MaterialExpressionStaticSwitchParameter_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.29"
+      },
+      {
+        "ObjectName": "MaterialExpressionTextureSampleParameter2D'MF_Basic_Skin_PC_layer:MaterialExpressionTextureSampleParameter2D_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_PC_layer.32"
+      },
+      null
+    ],
+    "StateId": "E4E18989-456A8926-1B3EADB0-1469CE54"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "Type": "Function",
+  "Name": "UserConstructionScript",
+  "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Function'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'BP_LightBeam_ForLF_C'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/BP_LightBeam_ForLF.6"
+  },
+  "SuperStruct": {
+    "ObjectName": "Function'Actor:UserConstructionScript'",
+    "ObjectPath": "/Script/Engine"
+  },
+  "ChildProperties": [
+    {
+      "Type": "FloatProperty",
+      "Name": "OutCineAngles",
+      "Flags": "RF_Public",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible"
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "OutRadius",
+      "Flags": "RF_Public",
+      "ElementSize": 4,
+      "PropertyFlags": "Edit | BlueprintVisible"
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "Temp_struct_Variable",
+      "Flags": "RF_Public",
+      "ElementSize": 48,
+      "PropertyFlags": "ConstParm",
+      "Struct": {
+        "ObjectName": "ScriptStruct'Transform'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "Temp_struct_Variable_1",
+      "Flags": "RF_Public",
+      "ElementSize": 48,
+      "PropertyFlags": "ConstParm",
+      "Struct": {
+        "ObjectName": "ScriptStruct'Transform'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "CallFunc_AddComponent_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "InstancedReference",
+      "PropertyClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "CallFunc_AddComponent_ReturnValue_1",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "InstancedReference",
+      "PropertyClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "Temp_struct_Variable_2",
+      "Flags": "RF_Public",
+      "ElementSize": 48,
+      "PropertyFlags": "ConstParm",
+      "Struct": {
+        "ObjectName": "ScriptStruct'Transform'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "CallFunc_AddComponent_ReturnValue_2",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "InstancedReference",
+      "PropertyClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "CallFunc_CreateLightDynamicMaterial_OutMaterial",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyClass": {
+        "ObjectName": "Class'MaterialInstanceDynamic'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "K2Node_SwitchInteger_CmpSuccess",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "CallFunc_MakeTransform_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 48,
+      "Struct": {
+        "ObjectName": "ScriptStruct'Transform'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    },
+    {
+      "Type": "ObjectProperty",
+      "Name": "CallFunc_AddComponent_ReturnValue_3",
+      "Flags": "RF_Public",
+      "ElementSize": 8,
+      "PropertyFlags": "InstancedReference",
+      "PropertyClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  ],
+  "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+}

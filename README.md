@@ -98,6 +98,8 @@ Scripts/package_ios.sh
 
 PC 版新提取的 194 张 PNG、36 个 LOD0 ActorX 网格、6 个 HDR 以及人物页灯光／后期／粒子参数位于 [PCResources](PCResources/README.md)。其中 93 张高清纹理已有当前材质到 PC 参数的绑定核验和定点导入清单；这些源文件尚未在 UE5.8 中导入，现有 `Content` 继续使用原资产。离线工具及固定版本依赖安装入口见 [PCAssetPipeline](Tools/PCAssetPipeline/README.md)，具体差异与证据见 [PC 端资源分析](Docs/PC_ASSET_ANALYSIS.md)。
 
+后续机器优先恢复人物受光、后期与特效时，按 [PC 人物渲染还原交接](Docs/PC_CHARACTER_RENDERING_HANDOFF.md) 执行。文档汇总补取的灯光模板、后期 override、肤／眼／发材质依赖和当前代码中的覆盖点，明确哪些仍需实现、编译和实际画面验收；普通构建不会自动完成这些还原工作。
+
 ## 许可
 
 原创代码、脚本与文档采用 [MIT](LICENSE)。游戏角色、模型、贴图、动画、场景、头像、UI 图像及其转换资产不属于 MIT 授权范围；中文字体使用 OFL 1.1。详见 [第三方资源说明](THIRD_PARTY_NOTICES.md)。本项目与原游戏开发、发行方无隶属或背书关系。

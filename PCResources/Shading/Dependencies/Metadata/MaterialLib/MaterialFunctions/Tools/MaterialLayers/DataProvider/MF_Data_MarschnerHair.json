@@ -1,0 +1,43 @@
+{
+  "Type": "MaterialFunction",
+  "Name": "MF_Data_MarschnerHair",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialFunction'",
+  "Package": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_MarschnerHair",
+  "Properties": {
+    "FunctionExpressions": [
+      null,
+      {
+        "ObjectName": "MaterialExpressionTextureObjectParameter'MF_Data_MarschnerHair:MaterialExpressionTextureObjectParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_MarschnerHair.2"
+      },
+      {
+        "ObjectName": "MaterialExpressionTextureSample'MF_Data_MarschnerHair:MaterialExpressionTextureSample_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_MarschnerHair.4"
+      },
+      {
+        "ObjectName": "MaterialExpressionTextureSample'MF_Data_MarschnerHair:MaterialExpressionTextureSample_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_MarschnerHair.5"
+      },
+      {
+        "ObjectName": "MaterialExpressionTextureObjectParameter'MF_Data_MarschnerHair:MaterialExpressionTextureObjectParameter_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_MarschnerHair.3"
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Data_MarschnerHair:MaterialExpressionScalarParameter_34'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_MarschnerHair.1"
+      },
+      {
+        "ObjectName": "MaterialExpressionQualitySwitch'MF_Data_MarschnerHair:MaterialExpressionQualitySwitch_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_MarschnerHair.0"
+      },
+      null,
+      null
+    ],
+    "StateId": "9401967A-45818273-E1F027AB-8E5C0561"
+  }
+}

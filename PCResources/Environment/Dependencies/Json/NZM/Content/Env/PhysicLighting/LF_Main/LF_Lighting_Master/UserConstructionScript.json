@@ -1,0 +1,94 @@
+{
+  "Type": "Function",
+  "Name": "UserConstructionScript",
+  "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Function'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+  },
+  "SuperStruct": {
+    "ObjectName": "Function'Actor:UserConstructionScript'",
+    "ObjectPath": "/Script/Engine"
+  },
+  "ChildProperties": [
+    {
+      "Type": "BoolProperty",
+      "Name": "Temp_bool_Has_Been_Initd_Variable",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "Temp_bool_IsClosed_Variable",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "EnumProperty",
+      "Name": "CallFunc_BranchInEditor_Out",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "Enum": {
+        "ObjectName": "Enum'EEditorExec'",
+        "ObjectPath": "/Script/GPAbility"
+      },
+      "UnderlyingProp": {
+        "Type": "ByteProperty",
+        "Name": "UnderlyingType",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": null
+      }
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "CallFunc_BranchInEditor_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    },
+    {
+      "Type": "BoolProperty",
+      "Name": "K2Node_SwitchEnum_CmpSuccess",
+      "Flags": "RF_Public",
+      "ElementSize": 1,
+      "FieldSize": 1,
+      "ByteOffset": 0,
+      "ByteMask": 1,
+      "FieldMask": 255,
+      "BoolSize": 1,
+      "bIsNativeBool": true
+    }
+  ],
+  "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+}

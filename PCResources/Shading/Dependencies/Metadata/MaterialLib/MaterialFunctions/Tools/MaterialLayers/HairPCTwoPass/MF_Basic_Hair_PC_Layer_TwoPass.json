@@ -1,0 +1,517 @@
+{
+  "Type": "MaterialFunction",
+  "Name": "MF_Basic_Hair_PC_Layer_TwoPass",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialFunction'",
+  "Package": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass",
+  "Properties": {
+    "FunctionExpressions": [
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_10'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.20"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.19"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_7'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.15"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_8'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.71"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_12'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.22"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionTextureSampleParameter2D'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionTextureSampleParameter2D_6'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.78"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.18"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.9"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_6'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.14"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.30"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_9'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.72"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_18'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.28"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_19'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.29"
+      },
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionVectorParameter_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.83"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionVectorParameter_5'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.84"
+      },
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionVectorParameter_8'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.85"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_16'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.5"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_17'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.6"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_18'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.7"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_17'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.27"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_20'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.31"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_23'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.32"
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.47"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionStaticSwitchParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionStaticSwitchParameter_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.74"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.39"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_5'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.58"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_15'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.4"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_26'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.35"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_6'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.66"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionVectorParameter_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.80"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_7'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.70"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionVectorParameter_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.81"
+      },
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionVectorParameter_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.82"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.0"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_11'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.21"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_13'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.23"
+      },
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.1"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.11"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.12"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_14'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.24"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_15'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.25"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_5'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.13"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_16'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.26"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_24'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.33"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_25'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.34"
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_8'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.16"
+      },
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_9'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.17"
+      },
+      {
+        "ObjectName": "MaterialExpressionTextureSample'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionTextureSample_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.75"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_27'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.36"
+      },
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_28'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.37"
+      },
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionStaticBoolParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionStaticBoolParameter_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.73"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_10'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.2"
+      },
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_29'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.38"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_32'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.40"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_33'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.41"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_12'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.3"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_34'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.42"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_35'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.43"
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_36'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.44"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_39'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.46"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_40'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.48"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_41'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.49"
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_42'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.50"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_43'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.51"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_44'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.52"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_45'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.53"
+      },
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_38'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.45"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionVectorParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.79"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_19'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.8"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_46'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.54"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_47'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.55"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_48'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.56"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_49'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.57"
+      },
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_50'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.59"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_52'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.60"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_53'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.61"
+      },
+      {
+        "ObjectName": "MaterialExpressionTextureSample'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionTextureSample_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.76"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionTextureSample'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionTextureSample_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.77"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_55'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.63"
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_56'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.64"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_57'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.65"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_54'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.62"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_60'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.67"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_61'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.68"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionMaterialFunctionCall_20'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.10"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'MF_Basic_Hair_PC_Layer_TwoPass:MaterialExpressionScalarParameter_62'",
+        "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/HairPCTwoPass/MF_Basic_Hair_PC_Layer_TwoPass.69"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "StateId": "6B43C5D6-415625CB-011992BA-E750F514"
+  }
+}

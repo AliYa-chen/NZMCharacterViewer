@@ -1,0 +1,67 @@
+{
+  "Type": "Function",
+  "Name": "emissiveColorGet",
+  "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Function'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+  },
+  "ChildProperties": [
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_TemperatureTORGB_OutR",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_TemperatureTORGB_OutG",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_TemperatureTORGB_OutB",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "CallFunc_MakeColor_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 16,
+      "Struct": {
+        "ObjectName": "ScriptStruct'LinearColor'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    },
+    {
+      "Type": "FloatProperty",
+      "Name": "CallFunc_PresetColor_Temperature",
+      "Flags": "RF_Public",
+      "ElementSize": 4
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "CallFunc_PresetColor_LightColor",
+      "Flags": "RF_Public",
+      "ElementSize": 16,
+      "Struct": {
+        "ObjectName": "ScriptStruct'LinearColor'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    },
+    {
+      "Type": "StructProperty",
+      "Name": "CallFunc_Multiply_LinearColorLinearColor_ReturnValue",
+      "Flags": "RF_Public",
+      "ElementSize": 16,
+      "Struct": {
+        "ObjectName": "ScriptStruct'LinearColor'",
+        "ObjectPath": "/Script/CoreUObject"
+      }
+    }
+  ],
+  "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+}

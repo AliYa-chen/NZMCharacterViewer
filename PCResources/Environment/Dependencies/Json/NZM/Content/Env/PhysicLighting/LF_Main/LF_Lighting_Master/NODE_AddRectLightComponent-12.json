@@ -1,0 +1,16 @@
+{
+  "Type": "RectLightComponent",
+  "Name": "NODE_AddRectLightComponent-12",
+  "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'RectLightComponent'",
+  "Outer": {
+    "ObjectName": "BlueprintGeneratedClass'LF_Lighting_Master_C'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.27"
+  },
+  "Properties": {
+    "MaxDrawDistance": 20000.0,
+    "MaxDistanceFadeRange": 4000.0,
+    "bAffectVolumetricFogOnly": true
+  },
+  "IntensityNits": 0.012271847
+}

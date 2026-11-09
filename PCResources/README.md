@@ -4,6 +4,8 @@
 
 这些是供后续转换／导入的源资源。**现有 `Content` 与 Catalog 没有被本次导出替换；本机没有 UE，尚未完成 UE5.8 导入、动画或画面验证。**
 
+**人物光照／后期／特效优先的接手机器，请从 [PC 人物渲染还原交接](../Docs/PC_CHARACTER_RENDERING_HANDOFF.md) 开始。** 其中给出来源参数、模板继承、当前代码覆盖点、待实现桥接／来源模式、编译与画面验收顺序。
+
 ## 文件
 
 | 路径 | 内容 |
@@ -14,6 +16,10 @@
 | `Environment/Json/` | 9 张候选人物页地图与 5 张数据表的 552 个导出对象 |
 | `Environment/scene_parameters.json` | 129 个灯光组件、7 个后期区域、7 个粒子组件，以及天光、雾和反射参数 |
 | `Environment/Particles/` | 5 个粒子系统的 125 个 JSON，含 11 个 emitter、87 个 module、102 组 cooked distribution 参数 |
+| `Environment/Dependencies/` | 补取灯光蓝图／模板依赖，含真实导出索引与逐属性继承来源 |
+| `Lighting/postprocess_profiles.json` | 7 个后期 Volume 的 256 条字段／override 证据，区分桌面与移动 Bloom |
+| `Lighting/pc_quality_settings.json` | 去除机器路径的历史 CVar 请求与保存的画质配置，不代表最终帧状态 |
+| `Shading/` | 另补 20 个肤／眼／发依赖包的 393 个 JSON、3 张支撑 PNG及实现缺口报告 |
 | `Environment/HDR/` | 6 个 Radiance HDR 全景，来自实际 128×128／面的 FloatRGBA cubemap |
 | `Environment/HDRMetadata/` | HDR 源纹理元数据；引用与转换说明在 `Environment/hdr_sources.json` |
 | `texture_comparison.json` | 当前 244 张贴图与 PC 实际可用 mip 的逐项比较、完整路径候选与限制 |
