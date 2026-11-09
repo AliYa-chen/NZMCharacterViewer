@@ -1,0 +1,26 @@
+{
+  "Type": "ParticleModuleLifetime",
+  "Name": "ParticleModuleLifetime_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleModuleLifetime'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Top'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top.66"
+  },
+  "Properties": {
+    "Lifetime": {
+      "MinValue": 1.0,
+      "MaxValue": 1.0,
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          1.0
+        ],
+        "Op": 1,
+        "EntryCount": 1,
+        "EntryStride": 1
+      }
+    },
+    "LODValidity": 1
+  }
+}

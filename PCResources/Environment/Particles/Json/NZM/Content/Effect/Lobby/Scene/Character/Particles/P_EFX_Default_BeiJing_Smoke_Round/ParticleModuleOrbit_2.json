@@ -1,0 +1,88 @@
+{
+  "Type": "ParticleModuleOrbit",
+  "Name": "ParticleModuleOrbit_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleModuleOrbit'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Round'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.13"
+  },
+  "Properties": {
+    "OffsetAmount": {
+      "MinValue": 0.6,
+      "MaxValue": 0.3,
+      "MinValueVec": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.6
+      },
+      "MaxValueVec": {
+        "X": 0.3,
+        "Y": 0.3,
+        "Z": 0.3
+      },
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          0.6,
+          0.6,
+          0.6,
+          0.3,
+          0.3,
+          0.3
+        ],
+        "Op": 2,
+        "EntryCount": 1,
+        "EntryStride": 6,
+        "SubEntryStride": 3
+      }
+    },
+    "RotationAmount": {
+      "MaxValue": 1.0,
+      "MaxValueVec": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Op": 2,
+        "EntryCount": 1,
+        "EntryStride": 6,
+        "SubEntryStride": 3
+      }
+    },
+    "RotationRateAmount": {
+      "MaxValue": 1.0,
+      "MaxValueVec": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Op": 2,
+        "EntryCount": 1,
+        "EntryStride": 6,
+        "SubEntryStride": 3
+      }
+    },
+    "LODValidity": 1
+  }
+}

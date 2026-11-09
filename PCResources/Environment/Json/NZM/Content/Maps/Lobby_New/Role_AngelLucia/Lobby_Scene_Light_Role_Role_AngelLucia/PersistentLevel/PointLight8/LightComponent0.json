@@ -1,0 +1,37 @@
+{
+  "Type": "PointLightComponent",
+  "Name": "LightComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'PointLightComponent'",
+  "Outer": {
+    "ObjectName": "PointLight'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.PointLight8'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.59"
+  },
+  "Properties": {
+    "IntensityUnits": "ELightUnits::Candelas",
+    "AttenuationRadius": 2500.0,
+    "ShadowBias": 0.1,
+    "LightGuid": "E3084CF2-42374838-79466FB8-B259F499",
+    "Intensity": 12.0,
+    "LightColor": {
+      "B": 255,
+      "G": 224,
+      "R": 204,
+      "A": 255,
+      "Hex": "CCE0FF"
+    },
+    "RelativeLocation": {
+      "X": 5953.0,
+      "Y": 4726.0,
+      "Z": -454.0
+    },
+    "Mobility": "EComponentMobility::Static",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  "IntensityNits": 0.0
+}

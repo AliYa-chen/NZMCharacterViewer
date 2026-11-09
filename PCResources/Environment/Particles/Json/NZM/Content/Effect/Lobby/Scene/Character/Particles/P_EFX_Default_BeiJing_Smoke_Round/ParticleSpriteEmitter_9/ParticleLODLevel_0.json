@@ -1,0 +1,55 @@
+{
+  "Type": "ParticleLODLevel",
+  "Name": "ParticleLODLevel_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleLODLevel'",
+  "Outer": {
+    "ObjectName": "ParticleSpriteEmitter'P_EFX_Default_BeiJing_Smoke_Round:ParticleSpriteEmitter_9'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.12"
+  },
+  "Properties": {
+    "RequiredModule": {
+      "ObjectName": "ParticleModuleRequired'P_EFX_Default_BeiJing_Smoke_Round:ParticleModuleRequired_9'",
+      "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.7"
+    },
+    "Modules": [
+      {
+        "ObjectName": "ParticleModuleLifetime_Seeded'P_EFX_Default_BeiJing_Smoke_Round:ParticleModuleLifetime_Seeded_1'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.3"
+      },
+      {
+        "ObjectName": "ParticleModuleSize_Seeded'P_EFX_Default_BeiJing_Smoke_Round:ParticleModuleSize_Seeded_1'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.8"
+      },
+      {
+        "ObjectName": "ParticleModuleVelocity_Seeded'P_EFX_Default_BeiJing_Smoke_Round:ParticleModuleVelocity_Seeded_1'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.11"
+      },
+      {
+        "ObjectName": "ParticleModuleSizeMultiplyLife'P_EFX_Default_BeiJing_Smoke_Round:ParticleModuleSizeMultiplyLife_1'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.9"
+      },
+      {
+        "ObjectName": "ParticleModuleLocationPrimitiveSphere_Seeded'P_EFX_Default_BeiJing_Smoke_Round:ParticleModuleLocationPrimitiveSphere_Seeded_0'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.5"
+      },
+      {
+        "ObjectName": "ParticleModuleLocation_Seeded'P_EFX_Default_BeiJing_Smoke_Round:ParticleModuleLocation_Seeded_0'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.4"
+      },
+      {
+        "ObjectName": "ParticleModuleOrbit'P_EFX_Default_BeiJing_Smoke_Round:ParticleModuleOrbit_2'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.6"
+      },
+      {
+        "ObjectName": "ParticleModuleColor'P_EFX_Default_BeiJing_Smoke_Round:ParticleModuleColor_3'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.2"
+      }
+    ],
+    "SpawnModule": {
+      "ObjectName": "ParticleModuleSpawn'P_EFX_Default_BeiJing_Smoke_Round:ParticleModuleSpawn_9'",
+      "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.10"
+    },
+    "PeakActiveParticles": 72
+  }
+}

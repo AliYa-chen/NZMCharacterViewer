@@ -1,0 +1,144 @@
+{
+  "Type": "PostProcessVolume",
+  "Name": "PostProcessVolume_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'PostProcessVolume'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.30"
+  },
+  "Properties": {
+    "Settings": {
+      "bOverride_ColorSaturation": true,
+      "bOverride_ColorContrast": true,
+      "bOverride_ColorGammaShadows": true,
+      "bOverride_ColorGainShadows": true,
+      "bOverride_ColorContrastMidtones": true,
+      "bOverride_ColorGainMidtones": true,
+      "bOverride_SceneFringeIntensity": true,
+      "bOverride_ChromaticAberrationStartOffset": true,
+      "bOverride_BloomMethod": true,
+      "bOverride_AutoExposureMinBrightness": true,
+      "bOverride_AutoExposureMaxBrightness": true,
+      "bOverride_VignetteIntensity": true,
+      "bOverride_GrainIntensity": true,
+      "bOverride_SSRTAOIntensity": true,
+      "bOverride_DepthOfFieldUseMobileImpl": true,
+      "bOverride_ShadowAffectGIIntensity": true,
+      "bOverride_ShadowAffectLitGIIntensity": true,
+      "bOverride_DistantShadowAffectGIIntensity": true,
+      "bOverride_IsUI": true,
+      "ColorContrast": {
+        "X": 1.05,
+        "Y": 1.05,
+        "Z": 1.05,
+        "W": 1.0
+      },
+      "ColorGain": {
+        "X": 0.954545,
+        "Y": 1.0,
+        "Z": 1.0,
+        "W": 1.0
+      },
+      "ColorContrastMidtones": {
+        "X": 1.05,
+        "Y": 1.05,
+        "Z": 1.05,
+        "W": 1.0
+      },
+      "ColorGainMidtones": {
+        "X": 1.2,
+        "Y": 1.2,
+        "Z": 1.2,
+        "W": 1.0
+      },
+      "SceneFringeIntensity": 0.5,
+      "ChromaticAberrationStartOffset": 0.7,
+      "MobileBloomSettings": {
+        "bOverride_BloomIntensity": true,
+        "bOverride_BloomThreshold": true,
+        "bOverride_BloomSizeScale": true,
+        "bOverride_Bloom1Size": true,
+        "bOverride_Bloom2Size": true,
+        "bOverride_Bloom3Size": true,
+        "bOverride_Bloom4Size": true,
+        "bOverride_Bloom5Size": true,
+        "bOverride_Bloom6Size": true,
+        "bOverride_Bloom1Tint": true,
+        "bOverride_Bloom2Tint": true,
+        "bOverride_Bloom3Tint": true,
+        "bOverride_Bloom4Tint": true,
+        "bOverride_Bloom5Tint": true,
+        "bOverride_Bloom6Tint": true,
+        "BloomIntensity": 3.0,
+        "BloomThreshold": -0.5,
+        "Bloom6Tint": {
+          "R": 0.066,
+          "G": 0.066,
+          "B": 0.066,
+          "A": 0.0,
+          "Hex": "484848"
+        }
+      },
+      "DesktopBloomSettings": {
+        "bOverride_BloomIntensity": true,
+        "bOverride_BloomThreshold": true,
+        "bOverride_BloomSizeScale": true,
+        "bOverride_Bloom1Size": true,
+        "bOverride_Bloom2Size": true,
+        "bOverride_Bloom3Size": true,
+        "bOverride_Bloom4Size": true,
+        "bOverride_Bloom5Size": true,
+        "bOverride_Bloom6Size": true,
+        "bOverride_Bloom1Tint": true,
+        "bOverride_Bloom2Tint": true,
+        "bOverride_Bloom3Tint": true,
+        "bOverride_Bloom4Tint": true,
+        "bOverride_Bloom5Tint": true,
+        "bOverride_Bloom6Tint": true,
+        "BloomIntensity": 2.5
+      },
+      "BloomDirtMask": {
+        "ObjectName": "Texture2D't_dirtmask'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_DirtyMask/t_dirtmask.0"
+      },
+      "BloomDirtMaskIntensity": 5.0,
+      "AutoExposureLowPercent": 20.0,
+      "AutoExposureHighPercent": 70.0,
+      "AutoExposureMinBrightness": 0.0,
+      "AutoExposureMaxBrightness": 0.0,
+      "AutoExposureCalibrationConstant": 21.4,
+      "LensFlareIntensity": 0.0,
+      "VignetteIntensity": 0.4,
+      "GrainIntensity": 0.05,
+      "SSRTAOIntensity": 0.8,
+      "LookModificationTransformIntensity": 1.0,
+      "LookModificationTransformLUT": {
+        "ObjectName": "VolumeTexture'LM02_A_sunset'",
+        "ObjectPath": "NZM/Content/Maps/LM02_KunLun/LightingSystem/TOD/3DLut/PC/LM02_A_sunset.0"
+      },
+      "DepthOfFieldUseMobileImpl": false,
+      "DistantShadowAffectGIIntensity": 1.0,
+      "bIsUI": true
+    },
+    "bUnbound": true,
+    "BrushType": "Brush_Add",
+    "Brush": {
+      "ObjectName": "Model'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.PostProcessVolume_1.Model_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.33"
+    },
+    "BrushComponent": {
+      "ObjectName": "BrushComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.PostProcessVolume_1.BrushComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.18"
+    },
+    "bHidden": false,
+    "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+    "RootComponent": {
+      "ObjectName": "BrushComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.PostProcessVolume_1.BrushComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.18"
+    },
+    "Tags": [
+      "SequencerPostVolume"
+    ]
+  }
+}

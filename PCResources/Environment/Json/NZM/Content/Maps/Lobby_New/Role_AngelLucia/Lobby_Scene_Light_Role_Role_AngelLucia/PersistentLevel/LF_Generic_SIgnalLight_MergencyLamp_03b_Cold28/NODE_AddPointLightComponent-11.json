@@ -1,0 +1,49 @@
+{
+  "Type": "PointLightComponent",
+  "Name": "NODE_AddPointLightComponent-11",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'PointLightComponent'",
+  "Outer": {
+    "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold28'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.40"
+  },
+  "Template": {
+    "ObjectName": "PointLightComponent'LF_Lighting_Master_C:NODE_AddPointLightComponent-11'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.32"
+  },
+  "Properties": {
+    "IntensityUnits": "ELightUnits::Lumens",
+    "Intensity": 8000.0,
+    "LightColor": {
+      "B": 57,
+      "G": 57,
+      "R": 255,
+      "A": 255,
+      "Hex": "FF3939"
+    },
+    "CastShadows": false,
+    "VolumetricScatteringIntensity": 10.0,
+    "AttachParent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold28.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.128"
+    },
+    "RelativeLocation": {
+      "X": 4.1007996E-05,
+      "Y": 7.9999995,
+      "Z": 1.9999743
+    },
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": 89.99985,
+      "Roll": 1.2074166E-06
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "CreationMethod": "EComponentCreationMethod::UserConstructionScript"
+  },
+  "IntensityNits": 0.0
+}

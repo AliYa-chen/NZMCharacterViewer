@@ -1,0 +1,121 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Molly_Nanami_B_Body_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Body_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Skin_Master_PC_Mask_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Master_PC_Mask_UI.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "DetailTilling",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 25.0,
+        "ExpressionGUID": "2BD555A5-416A0810-8145B1B4-42DA2AA2"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DetailWeight",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.2,
+        "ExpressionGUID": "61DC9651-4B0E1D3A-D01816AB-A7EBBEAA"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "DetailNormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_FemaleSkin_DetailNormal01'",
+          "ObjectPath": "NZM/Content/Avatar/NPC/Farmer/Female/Textures/T_FemaleSkin_DetailNormal01.0"
+        },
+        "ExpressionGUID": "7447F909-4A5D638B-0DC8C2A2-C1668852"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Molly_Nanami_B_Body_CMask_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Textures_HD/Body/T_Char_Molly_Nanami_B_Body_CMask_HD.0"
+        },
+        "ExpressionGUID": "794121A2-4A8DDFB6-4A763492-CBAFE635"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Molly_Nanami_B_Body_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Textures_HD/Body/T_Char_Molly_Nanami_B_Body_N_HD.0"
+        },
+        "ExpressionGUID": "BF98B7FE-4646CF20-4129919E-BAE6F8C0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "MetallicMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Molly_Nanami_B_Body_M_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Textures_HD/Body/T_Char_Molly_Nanami_B_Body_M_HD.0"
+        },
+        "ExpressionGUID": "0E9DCA70-4B1FDC6E-2EADC89A-BEC85573"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PSARMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Molly_Nanami_B_Body_PSAR_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Textures_HD/Body/T_Char_Molly_Nanami_B_Body_PSAR_HD.0"
+        },
+        "ExpressionGUID": "E1611FC2-4D2522FB-515EBC85-6C203CD1"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_SubsurfaceProfile",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 12.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      }
+    ]
+  }
+}

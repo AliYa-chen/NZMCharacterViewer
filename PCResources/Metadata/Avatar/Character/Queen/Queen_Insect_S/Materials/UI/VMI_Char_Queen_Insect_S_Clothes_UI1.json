@@ -1,0 +1,289 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Queen_Insect_S_Clothes_UI1",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_UI1",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_ClearCoat_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_ClearCoat_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Clear amount",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "8AAF3F8B-429DD885-C80C188E-C04D4511"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Clear roughness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.295,
+        "ExpressionGUID": "AD0E5E3C-4250A902-699B4C90-19A467D5"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Flip weight",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "6C13931F-43F5786F-6CAE29B0-FCBFA77A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Solid/flip fade",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "63F8CA0D-441F0394-C7549CBB-7D39AA41"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "CustomReflectionStrength",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.2,
+        "ExpressionGUID": "0C1E7301-49CA7EFE-947BF294-DBFAEB2B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissionScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "35DF04A2-48905271-73CEC0A5-673EA610"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BasecolorScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.3,
+        "ExpressionGUID": "FFF3EA26-491E275A-5CD1F791-805ED44D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Bias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "4312BA6C-42C0AB2F-A866DD97-7543895C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "bLaser",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "46F8CA4E-4A04A2F2-FA0B0D91-D7026956"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Flatness (S)",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "0FDE6BA4-4E8BD631-59DC0FB3-359CF902"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "LaserAlpha",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.4,
+        "ExpressionGUID": "2F58FF4B-4A9856DE-18DB7C82-B6276291"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "LaserTiling",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 3.0,
+        "ExpressionGUID": "2860AD1D-43AAF4E7-09D12EAA-78C88693"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "ReflectionMatcapColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.173104,
+          "G": 0.06667,
+          "B": 0.369048,
+          "A": 1.0,
+          "Hex": "7349A4"
+        },
+        "ExpressionGUID": "9D0A8AB6-404F66BE-094AD791-1C59D31E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "HueShift",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 0.768738,
+          "B": 0.413862,
+          "A": 1.0,
+          "Hex": "FFE3AC"
+        },
+        "ExpressionGUID": "6179EC7F-426D7325-914D578B-A62BD68A"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Queen_Insect_S_Clothes_C_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Clothes_C_HD.0"
+        },
+        "ExpressionGUID": "5C8EF357-43EBE9DA-6F2D778A-31AC5D13"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Queen_Insect_S_Clothes_N_CC'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Clothes_N_CC.0"
+        },
+        "ExpressionGUID": "39EE56C0-4B4381F6-9A013F85-E8621073"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Queen_Insect_S_Clothes_E_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Clothes_E_HD.0"
+        },
+        "ExpressionGUID": "F28A088A-4A42E09E-1C9F2492-7C397E84"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Queen_Insect_S_Clothes_RAM_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Clothes_RAM_HD.0"
+        },
+        "ExpressionGUID": "63DD2FFD-48D9C996-224D3D92-B64D0DBA"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ReflectionMatcapMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_MatCap_Gold_3'",
+          "ObjectPath": "NZM/Content/Avatar/Base/Textures/T_MatCap_Gold_3.0"
+        },
+        "ExpressionGUID": "98BBF4B6-44090EA4-F2C582B0-47F9159F"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_ClearCoat",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseNormalOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseNormalOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "UseEmissive",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "E535E6DC-4A822111-8FDA568E-B37173CC"
+        },
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "UseGold",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "DD96B1A4-4E4BE036-27D0D1AD-DA660D8F"
+        }
+      ]
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Queen_Insect_S_Clothes_C_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Queen_Insect_S_Clothes_E_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Queen_Insect_S_Clothes_RAM_HD"
+      },
+      {
+        "SamplingScale": 0.1876831,
+        "UVChannelIndex": 3,
+        "TextureName": "T_MatCap_Gold_3"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      }
+    ]
+  }
+}

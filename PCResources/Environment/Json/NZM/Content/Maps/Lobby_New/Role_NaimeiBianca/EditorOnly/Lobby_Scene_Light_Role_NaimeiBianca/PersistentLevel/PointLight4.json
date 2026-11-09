@@ -1,0 +1,26 @@
+{
+  "Type": "PointLight",
+  "Name": "PointLight4",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'PointLight'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.14"
+  },
+  "Properties": {
+    "PointLightComponent": {
+      "ObjectName": "PointLightComponent'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight4.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.45"
+    },
+    "LightComponent": {
+      "ObjectName": "PointLightComponent'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight4.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.45"
+    },
+    "bIgnoresOriginShifting": true,
+    "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+    "RootComponent": {
+      "ObjectName": "PointLightComponent'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight4.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.45"
+    }
+  }
+}

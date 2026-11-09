@@ -1,0 +1,59 @@
+{
+  "Type": "ParticleModuleVelocity_Seeded",
+  "Name": "ParticleModuleVelocity_Seeded_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleModuleVelocity_Seeded'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Top'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top.66"
+  },
+  "Properties": {
+    "RandomSeedInfo": {
+      "RandomSeeds": [
+        0
+      ]
+    },
+    "StartVelocity": {
+      "MinValue": 50.0,
+      "MaxValue": 100.0,
+      "MinValueVec": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 50.0
+      },
+      "MaxValueVec": {
+        "X": 50.0,
+        "Y": -50.0,
+        "Z": 100.0
+      },
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          100.0,
+          100.0,
+          50.0,
+          50.0,
+          -50.0,
+          100.0
+        ],
+        "Op": 2,
+        "EntryCount": 1,
+        "EntryStride": 6,
+        "SubEntryStride": 3
+      }
+    },
+    "StartVelocityRadial": {
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          0.0
+        ],
+        "Op": 1,
+        "EntryCount": 1,
+        "EntryStride": 1
+      }
+    },
+    "bApplyOwnerScale": true,
+    "LODValidity": 1
+  }
+}

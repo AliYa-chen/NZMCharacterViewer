@@ -1,0 +1,40 @@
+{
+  "Type": "SkyLightComponent",
+  "Name": "SkyLightComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SkyLightComponent'",
+  "Outer": {
+    "ObjectName": "SkyLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.SkyLight_1'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.34"
+  },
+  "Properties": {
+    "SourceType": "SLS_SpecifiedCubemap",
+    "Cubemap": {
+      "ObjectName": "TextureCube'MiddayPanorama_EV0_HD'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/MiddayPanorama_EV0_HD.0"
+    },
+    "bUseNormalization": false,
+    "CubemapAverageBrightness": 0.32906008,
+    "Intensity": 1.2,
+    "LightColor": {
+      "B": 246,
+      "G": 225,
+      "R": 244,
+      "A": 255,
+      "Hex": "F4E1F6"
+    },
+    "VolumetricScatteringIntensity": 0.0,
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": -7.839029,
+      "Roll": 0.0
+    },
+    "Mobility": "EComponentMobility::Movable",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SkyLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  }
+}

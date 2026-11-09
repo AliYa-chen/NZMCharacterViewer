@@ -1,0 +1,91 @@
+{
+  "Type": "MaterialInstanceConstant",
+  "Name": "MI_EyeTearduc",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Base/Materials/MI_EyeTearduc",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_EyeTearduc'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_EyeTearduc.0"
+    },
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.2,
+        "ExpressionGUID": "4A29CC3B-4343D16B-5E85E78D-B45A29E1"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Metallic",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "D81D7F83-435E114C-1E465392-9A20E7BC"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Opacity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.25,
+        "ExpressionGUID": "DF44513F-4DCEBAD4-AFF6D88F-331CCC10"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Roughness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.2,
+        "ExpressionGUID": "404BB356-4C33D1B4-0A7A96A3-AE76F928"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Specular",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "63E932F5-4525A16E-37E922BF-9FEACA31"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "OpacityMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_EyeTearduc_Mask'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/iris/T_EyeTearduc_Mask.0"
+        },
+        "ExpressionGUID": "DBFD910E-4F8FE574-50607585-3E6923A1"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "BlendMode": "BLEND_Translucent",
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseNormalOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    }
+  }
+}

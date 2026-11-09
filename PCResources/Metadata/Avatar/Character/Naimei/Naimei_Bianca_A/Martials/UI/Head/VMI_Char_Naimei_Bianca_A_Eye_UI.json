@@ -1,0 +1,519 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Naimei_Bianca_A_Eye_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/UI/Head/VMI_Char_Naimei_Bianca_A_Eye_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'VM_Eye_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "ShadowAngle",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "07166BD3-4602ABD4-0121BE82-194800FB"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FakeLightGloss",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 500.0,
+        "ExpressionGUID": "7E6DC629-4B610453-B54F68BE-0E5D9ED6"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FakeLightIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "9D76B2F5-4A203C64-6CE237B2-9EF68B2D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "cubemapRotation",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 140.0,
+        "ExpressionGUID": "BBF8D501-4CDB403F-B3DDE5BC-759B7E83"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DepthScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "11218AAA-4ACC055D-82EF2A8E-F8036924"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FlattenNormal",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.95,
+        "ExpressionGUID": "CE09CC83-42466D52-17FD72A4-7E4D93EE"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Iris Concavity Power",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.75,
+        "ExpressionGUID": "C3EE303A-4FA34138-C08572BD-37B173A3"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Iris Concavity Scale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.1,
+        "ExpressionGUID": "E25DDA74-4A7A5958-AE7C0BB3-C742743F"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Iris UV Radius",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.185,
+        "ExpressionGUID": "7554AF7B-47B265D5-4BC2BB86-3A25B865"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "IrisBrightness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.8,
+        "ExpressionGUID": "3A47C987-46CB6113-A7CB768A-41154AB8"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "LimbusDarkScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.0,
+        "ExpressionGUID": "63B9909B-468E9A95-5E482DAD-155B02C2"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "LimbusPow",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.5,
+        "ExpressionGUID": "623172A6-4F0C9416-06AB7DAA-EE72C933"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "LimbusUVWidthColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.045,
+        "ExpressionGUID": "9F5F706E-4A648225-62487BB1-77947D22"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "LimbusUVWidthShading",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.3,
+        "ExpressionGUID": "C03D8D8C-415F00A9-9D14D7A3-E8E068D9"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PupilScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.85,
+        "ExpressionGUID": "7F4AAF10-463408CB-AB9878A7-2FEBE2A3"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ScaleByCenter",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.9,
+        "ExpressionGUID": "FC01A606-46B12629-DCFF1BB1-3061B4A5"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ScleraBrightness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "DF9084A1-43147863-782EDB99-EB5F4710"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ShadowRadius",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "3FAD98CE-40A9D0A5-BD26BDB6-B63EFDE3"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "SpecularityIris",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "35D9F53A-46984856-88B97493-DB6CDA33"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "SpecularityScelera",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.2,
+        "ExpressionGUID": "3AB89890-4719E9D5-0EE50FB7-0F3ED29C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "irisUVRadius",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.16,
+        "ExpressionGUID": "8DE43A41-4110B509-F744E581-13705894"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "IrisHighlightOffsetX",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -0.197823,
+        "ExpressionGUID": "89441495-48DE8269-6700718A-EB8AB890"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "IrisHighlightOffsetY",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -0.060953,
+        "ExpressionGUID": "F076D47B-41A4776B-18630089-0AF39463"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "IrisHighlightScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.751428,
+        "ExpressionGUID": "BB6EE904-482C54CE-6001C7BB-3B2D15F7"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "HDRAngle",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 180.42857,
+        "ExpressionGUID": "13D03F86-4D2C1993-0EA9F3A0-C91E15EF"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "HDRAngleXZ",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 348.57144,
+        "ExpressionGUID": "365C13C4-4A25A957-C88C3F97-F86206D6"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "HDRAngleYZ",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 360.0,
+        "ExpressionGUID": "2989D5B3-482241C8-928B7E96-08CA72E8"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "ShadowColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.048611,
+          "G": 0.017366,
+          "B": 0.00292,
+          "A": 1.0,
+          "Hex": "3E2309"
+        },
+        "ExpressionGUID": "18E74ED9-45697B3A-C852F6B1-AB65754B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FakeLightSpecularColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ExpressionGUID": "C4130947-4384BEF7-E92F69BB-A27D6DFE"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EyeCornerDarknessColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.23,
+          "G": 0.083042,
+          "B": 0.031906,
+          "A": 1.0,
+          "Hex": "845132"
+        },
+        "ExpressionGUID": "40340B4D-49162D5F-938968BB-FE5F7376"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "IrisHighlightColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ExpressionGUID": "6ECBABFB-4FC8F636-E30EDF83-D680C446"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EnvLightColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "EBAA17B6-4200D4E0-3A8D79B9-6A5BBDA6"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "HDRScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.321263,
+          "G": 0.127081,
+          "B": 0.477431,
+          "A": 0.0,
+          "Hex": "9A64B8"
+        },
+        "ExpressionGUID": "FD0A591C-4A6E7B77-949D71B2-E59DC9B4"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ShineJobColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.23,
+          "G": 0.083042,
+          "B": 0.031906,
+          "A": 1.0,
+          "Hex": "845132"
+        },
+        "ExpressionGUID": "E5AC49EA-4843BF75-4F65ECB6-EA53754C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "IrisHueTint",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "44601909-4B177928-F0F1998D-814FFA17"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "cubemap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "TextureCube'T_peppermint_powerplant_deep'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_peppermint_powerplant_deep.0"
+        },
+        "ExpressionGUID": "B2E81C38-4B395AC3-842739A9-6448E5BB"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DetailNormal",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_DetailNormal_99f2a8a798879a3dd19ebd8475f7ca34'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_VMGen_DetailNormal_99f2a8a798879a3dd19ebd8475f7ca34.0"
+        },
+        "ExpressionGUID": "9CE441CC-40565844-C8D20B8A-D3434E02"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "IrisMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Naimei_Bianca_A_Eye_UI'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Textures/Head/T_Char_Naimei_Bianca_A_Eye_UI.0"
+        },
+        "ExpressionGUID": "36AC253E-48BF495D-06A34BA6-ED51415B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Normal",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_Normal_71e4fa38eb603848e4dadf7541ebec98'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_VMGen_Normal_71e4fa38eb603848e4dadf7541ebec98.0"
+        },
+        "ExpressionGUID": "34BA95C7-4C204BB7-32E99F89-24A16245"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ScleraColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_ScleraColor_31d5b74fe59e5caf5d649ce3f9b7d1c3'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_VMGen_ScleraColor_31d5b74fe59e5caf5d649ce3f9b7d1c3.0"
+        },
+        "ExpressionGUID": "7612DF51-40FC2E0E-8E47A5BF-0FAD0531"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "IrisHighlightTex",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_IrisHighlightTex_3bf9d7af07367e0a0042fdbbef53ca09'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_IrisHighlightTex_3bf9d7af07367e0a0042fdbbef53ca09.0"
+        },
+        "ExpressionGUID": "6366B438-4B2EEE45-32EA88A0-600FC94C"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_Eye",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": false,
+          "ParameterInfo": {
+            "Name": "isRotatingIris",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "CA233292-4D91908E-0FF899AE-DB3B0E4F"
+        },
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "ShineJob",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "30A96986-4A3E4729-5480C68D-D9253641"
+        },
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "UseEyeBuldge",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "63FABFA1-47AC8AE5-47B31EA1-0E821D26"
+        }
+      ]
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.203125,
+        "UVChannelIndex": 0,
+        "TextureName": "sinewave"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_EyeMidPlaneDisplacement_2"
+      }
+    ]
+  }
+}

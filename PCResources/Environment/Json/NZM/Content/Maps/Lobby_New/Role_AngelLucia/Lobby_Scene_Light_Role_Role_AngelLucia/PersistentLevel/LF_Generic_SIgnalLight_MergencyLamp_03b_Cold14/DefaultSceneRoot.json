@@ -1,0 +1,73 @@
+{
+  "Type": "SceneComponent",
+  "Name": "DefaultSceneRoot",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SceneComponent'",
+  "Outer": {
+    "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.27"
+  },
+  "Template": {
+    "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+  },
+  "Properties": {
+    "RelativeLocation": {
+      "X": -1753.6614,
+      "Y": -904.3659,
+      "Z": 9224.568
+    },
+    "RelativeRotation": {
+      "Pitch": 46.75285,
+      "Yaw": 58.083134,
+      "Roll": 4.682916
+    },
+    "RelativeScale3D": {
+      "X": 4.5,
+      "Y": 3.0,
+      "Z": 2.0
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "bNetAddressable": true,
+    "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+    "UCSModifiedProperties": [
+      {
+        "MemberParent": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "RelativeLocation",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "RelativeRotation",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "RelativeScale3D",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'ActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "PrimaryComponentTick",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      }
+    ]
+  }
+}

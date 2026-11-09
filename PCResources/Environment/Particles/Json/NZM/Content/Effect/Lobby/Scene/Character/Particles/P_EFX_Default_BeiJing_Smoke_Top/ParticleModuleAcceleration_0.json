@@ -1,0 +1,43 @@
+{
+  "Type": "ParticleModuleAcceleration",
+  "Name": "ParticleModuleAcceleration_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleModuleAcceleration'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Top'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top.66"
+  },
+  "Properties": {
+    "Acceleration": {
+      "MinValue": -10.0,
+      "MaxValue": 10.0,
+      "MinValueVec": {
+        "X": -10.0,
+        "Y": -10.0,
+        "Z": -5.0
+      },
+      "MaxValueVec": {
+        "X": 10.0,
+        "Y": 10.0,
+        "Z": -30.0
+      },
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          -10.0,
+          -10.0,
+          -5.0,
+          10.0,
+          10.0,
+          -30.0
+        ],
+        "Op": 2,
+        "EntryCount": 1,
+        "EntryStride": 6,
+        "SubEntryStride": 3
+      }
+    },
+    "bAlwaysInWorldSpace": true,
+    "LODValidity": 1
+  }
+}

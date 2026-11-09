@@ -1,0 +1,87 @@
+{
+  "Type": "StaticMeshComponent",
+  "Name": "StaticMesh",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'StaticMeshComponent'",
+  "Outer": {
+    "ObjectName": "LF_Generic_Building_FreeStyle_Base_C'Lobby_Scene_General_Background:PersistentLevel.LF_Generic_Building_FreeStyle_Base11_2'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.7"
+  },
+  "Template": {
+    "ObjectName": "StaticMeshComponent'LF_Generic_Building_FreeStyle_Base_C:StaticMesh_GEN_VARIABLE'",
+    "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Building/LF_Generic_Building_FreeStyle_Base.6"
+  },
+  "Properties": {
+    "StaticMesh": {
+      "ObjectName": "StaticMesh'SM_General_Background_Ground01a'",
+      "ObjectPath": "NZM/Content/Env/Lobby/Role/Mesh/SM_General_Background_Ground01a.1"
+    },
+    "LightmassSettings": {
+      "bUseEmissiveForStaticLighting": true,
+      "EmissiveBoost": 499.99997,
+      "EmissiveAttenuationRadius": 3000.0
+    },
+    "OverrideMaterials": [
+      null,
+      null,
+      {
+        "ObjectName": "VirtualMaterialInstanceConstant'VMI_General_Background_Ground_01a'",
+        "ObjectPath": "NZM/Content/Env/Lobby/Role/Material/VMI_General_Background_Ground_01a.0"
+      },
+      null,
+      null
+    ],
+    "CustomPrimitiveData": {
+      "Data": [
+        0.07,
+        0.08500001,
+        0.099999994,
+        2.0
+      ]
+    },
+    "TranslucencySortPriority": -5,
+    "AttachParent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_General_Background:PersistentLevel.LF_Generic_Building_FreeStyle_Base11_2.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.17"
+    },
+    "RelativeLocation": {
+      "X": 0.0,
+      "Y": 318.77002,
+      "Z": 0.0
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "bNetAddressable": true,
+    "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+    "UCSModifiedProperties": [
+      {
+        "MemberParent": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "LightmassSettings",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "CustomPrimitiveData",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'ActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "PrimaryComponentTick",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      }
+    ]
+  }
+}

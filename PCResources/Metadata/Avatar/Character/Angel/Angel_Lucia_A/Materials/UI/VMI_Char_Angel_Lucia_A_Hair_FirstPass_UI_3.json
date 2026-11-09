@@ -1,0 +1,411 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_3",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_3",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_HairBlend_Master_PC_FlowEnergy_FirstPass'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Hair/Material/PCHairTwoPass/M_HairBlend_Master_PC_FlowEnergy_FirstPass.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "bUsedColorTint",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "AE9FFBAF-49038AD0-1414E893-9C63DB81"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RootScatter",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.7,
+        "ExpressionGUID": "8B91A3F9-4737C883-90FE80B0-B4750A27"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ScatterMin",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "84094A5C-4B396B57-C545E781-5459070C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "SpecMin",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "EADAC679-48B7FFE8-A2A0DC93-EE92751E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "TipsScatter",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.45,
+        "ExpressionGUID": "CB40C2A6-4C8515BB-F86D1ABF-EDA4D66E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Roughness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.68,
+        "ExpressionGUID": "0F4BF77B-4B49680E-BEB30F8D-49EAF4E2"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Specular",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.2,
+        "ExpressionGUID": "19646745-40C57DB2-E6723DB1-B1B8E8FD"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BackLit",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "1746CE43-45CE7EC6-8605D985-FA29AA69"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ShadowIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.9,
+        "ExpressionGUID": "AE4FB20E-4EEE91BA-ED50E6B0-1BC4A4A6"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "anisotropyDirection",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "33B130F2-4085F95A-962BC1B9-EB2F2950"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "TangentRootRoat",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "1193F3FD-40086A18-F6881D99-A170D474"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "TangentRootShift",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "4EC28C6A-46DAD339-DAC5969C-D99F7758"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "TangentTipsRoat",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "88011EA6-4524C39C-238DD4B5-F423B14D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "TangentTipsShift",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "F9E370C9-43C8109F-0B68559C-2EB9BC07"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorTint",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "F5B32E8E-448C9E89-90DC2CA7-F003DCF7"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Dis_Int",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.2,
+        "ExpressionGUID": "19C91BA2-42E4B61E-35DF5BA4-08697296"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FlameBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -1.0,
+        "ExpressionGUID": "15A98474-432DE89C-FDB380A2-F3ACB494"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FlameIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "DB486E8F-4DBB8BFA-25082B92-1DDD77FB"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PixelDepthOffset",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "8FDCA41F-44E76694-1D66D9B5-D791878C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ScreenUV",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "FB45AC0E-4AA13E1B-DE869E89-E76168E4"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ScreenUV2",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "ED612472-4F5251B3-4EF28783-C1CCCA26"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "ColorTint",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ExpressionGUID": "7A355710-4F5717B1-75815792-A4897922"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BrightColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 50.0,
+          "G": 10.904968,
+          "B": 4.750049,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "A6FCD5D4-4F23ED08-C0E49692-0E749135"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DarkColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 50.0,
+          "G": 10.904968,
+          "B": 4.750049,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "97990743-469919B2-46A8B999-90BB0340"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DisTexUV",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 100.0,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 0.1,
+          "Hex": "19FFFF00"
+        },
+        "ExpressionGUID": "908E2F87-440D169F-AC4A2F84-7226F0EE"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Refraction3UV",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 0.2,
+          "Hex": "33FFFF00"
+        },
+        "ExpressionGUID": "8E1FAAA9-4B0D2DA3-3CC268A2-9D06C32C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.043403,
+          "G": 0.037666,
+          "B": 0.030141,
+          "A": 1.0,
+          "Hex": "3A3630"
+        },
+        "ExpressionGUID": "B385F81D-4A98A47F-9717D692-187F278B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Color1",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.131944,
+          "G": 0.107842,
+          "B": 0.083071,
+          "A": 0.0,
+          "Hex": "665C51"
+        },
+        "ExpressionGUID": "E9B4F758-4C06A974-53B9368B-2464244A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Color2",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.034722,
+          "G": 0.023496,
+          "B": 0.018097,
+          "A": 0.028,
+          "Hex": "07342A24"
+        },
+        "ExpressionGUID": "7C0B40D5-44EA0E22-21A3F58C-9634E87A"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Alpha_ID_Roughness_Root",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angel_Lucia_A_Hair_C_AIRR_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Textures_HD/T_Char_Angel_Lucia_A_Hair_C_AIRR_HD.0"
+        },
+        "ExpressionGUID": "735D39BA-4B398AD1-AE93E49C-3E56728A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angel_Lucia_A_Hair_B_D_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Textures_HD/T_Char_Angel_Lucia_A_Hair_B_D_HD.0"
+        },
+        "ExpressionGUID": "6F66D750-4E17A196-D3384990-DAC4B0F8"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FlameNoiseTex",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_EFX_FlameSkin'",
+          "ObjectPath": "NZM/Content/Effect/Texture/Flame/T_EFX_FlameSkin.0"
+        },
+        "ExpressionGUID": "26D48698-4FF1E376-588E6980-E2DEB475"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bOverride_ShadingModel": true,
+      "bOverride_CastDynamicShadowAsMasked": true,
+      "bOverride_TwoSided": true,
+      "TwoSided": true,
+      "bCastDynamicShadowAsMasked": true,
+      "BlendMode": "BLEND_Masked",
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_Unlit",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Angel_Lucia_A_Hair_B_D_HD"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Char_Angel_Lucia_A_Hair_C_AIRR_HD"
+      },
+      {
+        "SamplingScale": 0.9550781,
+        "UVChannelIndex": 0,
+        "TextureName": "T_EFX_FlameSkin"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Hair_Noise"
+      }
+    ]
+  }
+}

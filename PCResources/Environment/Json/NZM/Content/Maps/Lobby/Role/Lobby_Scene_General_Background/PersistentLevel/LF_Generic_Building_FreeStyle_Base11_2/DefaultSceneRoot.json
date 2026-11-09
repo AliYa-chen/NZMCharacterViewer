@@ -1,0 +1,60 @@
+{
+  "Type": "SceneComponent",
+  "Name": "DefaultSceneRoot",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SceneComponent'",
+  "Outer": {
+    "ObjectName": "LF_Generic_Building_FreeStyle_Base_C'Lobby_Scene_General_Background:PersistentLevel.LF_Generic_Building_FreeStyle_Base11_2'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.7"
+  },
+  "Template": {
+    "ObjectName": "SceneComponent'LF_Lighting_Master_C:DefaultSceneRoot_GEN_VARIABLE'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Main/LF_Lighting_Master.37"
+  },
+  "Properties": {
+    "RelativeLocation": {
+      "X": 193.65639,
+      "Y": -6434.5444,
+      "Z": 0.0
+    },
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": 1.5863937,
+      "Roll": 0.0
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "bNetAddressable": true,
+    "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+    "UCSModifiedProperties": [
+      {
+        "MemberParent": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "RelativeLocation",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "RelativeRotation",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'ActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "PrimaryComponentTick",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "Type": "DirectionalLightComponent",
+  "Name": "LightComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'DirectionalLightComponent'",
+  "Outer": {
+    "ObjectName": "DirectionalLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.DirectionalLight_1'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.3"
+  },
+  "Properties": {
+    "DynamicShadowDistanceMovableLight": 1.0,
+    "DynamicShadowDistanceStationaryLight": 8500.0,
+    "DistantShadowmapResolution": 512,
+    "bUsedAsAtmosphereSunLight": true,
+    "LightmassSettings": {
+      "LightSourceAngle": 5.0
+    },
+    "bIgnoreShadowVolume": true,
+    "DecalShadowMaterial": {
+      "ObjectName": "MaterialInstanceConstant'MI_DecalShadow'",
+      "ObjectPath": "NZM/Content/MaterialLib/Examples/Decals/MI_DecalShadow.0"
+    },
+    "bUseTemperature": true,
+    "ShadowBias": 0.2,
+    "ShadowSlopeBias": 0.25,
+    "ContactShadowLength": 0.1,
+    "LightFunctionMaterial": {
+      "ObjectName": "MaterialInstanceConstant'MI_CloudShadow_LM02A'",
+      "ObjectPath": "NZM/Content/Env/Lighting/MateriaLib/Examples/LightFunction/MI_CloudShadow_LM02A.0"
+    },
+    "LightFunctionScale": {
+      "X": 1600.0,
+      "Y": 1600.0,
+      "Z": 1024.0
+    },
+    "LightFunctionIntensity": 0.0,
+    "LightFunctionFadeDistance": 3000000.0,
+    "BloomScalePC": 0.1,
+    "bEnableLightShaftBloom": true,
+    "BloomScale": 0.0,
+    "BloomScreenDamping": 2.981587,
+    "bOverride_MaxShadowQualityOverride": true,
+    "bOverride_PCSSOverride": true,
+    "MaxShadowQualityOverride": 3,
+    "bPCSSOverride": true,
+    "LocalLightGroupBakeObject": {
+      "ObjectName": "LocalLightGroupBake'LocalLightBakeVolume_Assembler_Rock_HD'",
+      "ObjectPath": "NZM/Content/Maps/LM02_KunLun/LA_KunLun_MissionB2_HDData/LocalLightBakeVolume_Assembler_Rock_HD.0"
+    },
+    "LocalLightGUID": "4AB89590-405156DF-08812A8D-A2D657A2",
+    "Intensity": 1.0,
+    "LightColor": {
+      "B": 235,
+      "G": 186,
+      "R": 137,
+      "A": 255,
+      "Hex": "89BAEB"
+    },
+    "RelativeLocation": {
+      "X": -493850.53,
+      "Y": -74476.76,
+      "Z": 28080.596
+    },
+    "RelativeRotation": {
+      "Pitch": 2.3574398,
+      "Yaw": 155.91217,
+      "Roll": 137.1797
+    },
+    "Mobility": "EComponentMobility::Movable",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'DirectionalLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  }
+}

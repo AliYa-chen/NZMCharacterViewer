@@ -1,0 +1,200 @@
+{
+  "Type": "Level",
+  "Name": "PersistentLevel",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Level'",
+  "Outer": {
+    "ObjectName": "World'Lobby_Scene_Light_Role_NaimeiBianca'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.70"
+  },
+  "Properties": {
+    "Model": {
+      "ObjectName": "Model'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.Model_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.16"
+    },
+    "LevelBuildDataId": "2B24687D-4EFD6D84-B6D79F8E-779D0138",
+    "MapBuildData": {
+      "ObjectName": "MapBuildDataRegistry'Lobby_Scene_Light_Role_NaimeiBianca_BuiltData'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca_BuiltData.0"
+    },
+    "WorldSettings": {
+      "ObjectName": "NZWorldSettings'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.NZWorldSettings'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.19"
+    }
+  },
+  "Actors": [
+    {
+      "ObjectName": "NZWorldSettings'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.NZWorldSettings'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.19"
+    },
+    null,
+    {
+      "ObjectName": "SkyAtmosphere'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SkyAtmosphere_Bianca'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.50"
+    },
+    {
+      "ObjectName": "ExponentialHeightFog'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.ExponentialHeightFog_Bianca'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.12"
+    },
+    {
+      "ObjectName": "PostProcessVolume'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PostProcessVolume_bianca'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.48"
+    },
+    {
+      "ObjectName": "SkyLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SkyLight_Bianca'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.52"
+    },
+    {
+      "ObjectName": "DirectionalLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.DirectionalLight_1'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.10"
+    },
+    {
+      "ObjectName": "LightShadowVolume'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.LightShadowVolume_Bianca'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.15"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight_1'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.33"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight2'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.28"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight3'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.30"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight4'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.31"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight5'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.32"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SpotLight2'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.54"
+    },
+    {
+      "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.BoxReflectionCapture_church'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.6"
+    },
+    {
+      "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.BoxReflectionCapture'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.5"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SpotLight3'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.55"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SpotLight4'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.56"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SpotLight5'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.57"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight10'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.20"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SpotLight6'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.58"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight11'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.21"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight12'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.22"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight15'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.23"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight16'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.24"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight17'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.25"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight18'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.26"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight19'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.27"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SpotLight7'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.59"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SpotLight8'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.60"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SpotLight9'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.61"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight20'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.29"
+    }
+  ],
+  "URL": {
+    "Protocol": "unreal",
+    "Host": "",
+    "Port": 7777,
+    "Valid": true,
+    "Map": "/Game/Startup/StartupMap",
+    "Op": [],
+    "Portal": ""
+  },
+  "Model": {
+    "ObjectName": "Model'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.Model_0'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.16"
+  },
+  "ModelComponents": [],
+  "LevelScriptActor": null,
+  "NavListStart": null,
+  "NavListEnd": null,
+  "PrecomputedVisibilityHandler": {
+    "PrecomputedVisibilityCellBucketOriginXY": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "PrecomputedVisibilityCellSizeXY": 0.0,
+    "PrecomputedVisibilityCellSizeZ": 0.0,
+    "PrecomputedVisibilityCellBucketSizeXY": 0,
+    "PrecomputedVisibilityNumCellBuckets": 0,
+    "PrecomputedVisibilityCellBuckets": []
+  },
+  "PrecomputedVolumeDistanceField": {
+    "VolumeMaxDistance": 0.0,
+    "VolumeBox": {
+      "Min": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Max": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "IsValid": 0
+    },
+    "VolumeSizeX": 0,
+    "VolumeSizeY": 0,
+    "VolumeSizeZ": 0,
+    "Data": []
+  }
+}

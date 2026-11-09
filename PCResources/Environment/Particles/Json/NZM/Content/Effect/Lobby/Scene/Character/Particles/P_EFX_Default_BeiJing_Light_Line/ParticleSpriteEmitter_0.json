@@ -1,0 +1,19 @@
+{
+  "Type": "ParticleSpriteEmitter",
+  "Name": "ParticleSpriteEmitter_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleSpriteEmitter'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Light_Line'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line.10"
+  },
+  "Properties": {
+    "LODLevels": [
+      {
+        "ObjectName": "ParticleLODLevel'P_EFX_Default_BeiJing_Light_Line:ParticleSpriteEmitter_0.ParticleLODLevel_0'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line.1"
+      }
+    ],
+    "DetailModeBitmask": 7
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "Type": "ParticleModuleLifetime_Seeded",
+  "Name": "ParticleModuleLifetime_Seeded_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleModuleLifetime_Seeded'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Top'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top.66"
+  },
+  "Properties": {
+    "RandomSeedInfo": {
+      "RandomSeeds": [
+        0
+      ]
+    },
+    "Lifetime": {
+      "MinValue": 6.0,
+      "MaxValue": 3.0,
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          6.0,
+          3.0
+        ],
+        "Op": 2,
+        "EntryCount": 1,
+        "EntryStride": 2,
+        "SubEntryStride": 1
+      }
+    },
+    "LODValidity": 1
+  }
+}

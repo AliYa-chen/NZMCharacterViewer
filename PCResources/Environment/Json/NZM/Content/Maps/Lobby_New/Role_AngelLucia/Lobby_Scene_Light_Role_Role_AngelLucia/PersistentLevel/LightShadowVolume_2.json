@@ -1,0 +1,27 @@
+{
+  "Type": "LightShadowVolume",
+  "Name": "LightShadowVolume_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'LightShadowVolume'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.24"
+  },
+  "Properties": {
+    "bOverride_bEnabled": true,
+    "bOverride_bUnbound": true,
+    "bOverride_bEnableLimitBounds": true,
+    "bOverride_bForceApplyDirectionalLightAndSpotLight": true,
+    "bUnbound": true,
+    "bEnableLimitBounds": true,
+    "bForceApplyDirectionalLightAndSpotLight": true,
+    "ShadowVolumeComponent": {
+      "ObjectName": "ShadowVolumeComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LightShadowVolume_2.LightShadowVolumeComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.132"
+    },
+    "RootComponent": {
+      "ObjectName": "ShadowVolumeComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LightShadowVolume_2.LightShadowVolumeComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.132"
+    }
+  }
+}

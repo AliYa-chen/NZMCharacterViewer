@@ -1,0 +1,40 @@
+{
+  "Type": "BrushComponent",
+  "Name": "BrushComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'BrushComponent'",
+  "Outer": {
+    "ObjectName": "PostProcessVolume'Lobby_Scene_Light_Role:PersistentLevel.PostProcessVolume_Role'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.17"
+  },
+  "Properties": {
+    "Brush": {
+      "ObjectName": "Model'Lobby_Scene_Light_Role:PersistentLevel.PostProcessVolume_Role.Model_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.14"
+    },
+    "BrushBodySetup": {
+      "ObjectName": "BodySetup'Lobby_Scene_Light_Role:PersistentLevel.PostProcessVolume_Role.BrushComponent0.BodySetup_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.2"
+    },
+    "PrimitiveGuid": "B43B7B9B-4035B30F-18A08BAD-CFA5A881",
+    "BodyInstance": {
+      "MaxAngularVelocity": 3599.9998
+    },
+    "RelativeLocation": {
+      "X": -49.61154,
+      "Y": -57.77153,
+      "Z": -19.72586
+    },
+    "RelativeScale3D": {
+      "X": 10.881045,
+      "Y": 9.717201,
+      "Z": 9.76116
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'BrushComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  }
+}

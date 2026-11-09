@@ -1,0 +1,44 @@
+{
+  "Type": "ParticleSystemComponent",
+  "Name": "ParticleSystemComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleSystemComponent'",
+  "Outer": {
+    "ObjectName": "Emitter'Lobby_Scene_General_Background:PersistentLevel.P_EFX_Default_BeiJing_Light_Top_Right'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.3"
+  },
+  "Properties": {
+    "Template": {
+      "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Light_Top'",
+      "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Top.0"
+    },
+    "OldPosition": {
+      "X": 534.6271,
+      "Y": -2230.5647,
+      "Z": 1164.312
+    },
+    "PrimitiveGuid": "66677185-4CB0F47A-C288E692-9E795FAA",
+    "RelativeLocation": {
+      "X": 534.6271,
+      "Y": -2230.5647,
+      "Z": 1164.312
+    },
+    "RelativeRotation": {
+      "Pitch": 0.677261,
+      "Yaw": 0.73277,
+      "Roll": -0.304413
+    },
+    "RelativeScale3D": {
+      "X": 0.5,
+      "Y": 0.5,
+      "Z": 0.5
+    },
+    "PrimaryComponentTick": {
+      "bStartWithTickEnabled": false,
+      "AggregateClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  }
+}

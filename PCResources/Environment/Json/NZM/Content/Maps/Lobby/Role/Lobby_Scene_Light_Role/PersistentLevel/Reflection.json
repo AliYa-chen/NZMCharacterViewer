@@ -1,0 +1,25 @@
+{
+  "Type": "Actor",
+  "Name": "Reflection",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Actor'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.11"
+  },
+  "Properties": {
+    "RootComponent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role:PersistentLevel.Reflection.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.19"
+    },
+    "Tags": [
+      "SequencerMesh1"
+    ],
+    "InstanceComponents": [
+      {
+        "ObjectName": "SceneComponent'Lobby_Scene_Light_Role:PersistentLevel.Reflection.DefaultSceneRoot'",
+        "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.19"
+      }
+    ]
+  }
+}

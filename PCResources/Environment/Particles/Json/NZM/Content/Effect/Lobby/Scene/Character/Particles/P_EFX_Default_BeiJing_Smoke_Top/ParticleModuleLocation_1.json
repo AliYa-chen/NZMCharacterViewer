@@ -1,0 +1,37 @@
+{
+  "Type": "ParticleModuleLocation",
+  "Name": "ParticleModuleLocation_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleModuleLocation'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Top'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top.66"
+  },
+  "Properties": {
+    "StartLocation": {
+      "MinValue": -550.0,
+      "MinValueVec": {
+        "X": -550.0,
+        "Y": 0.0,
+        "Z": -150.0
+      },
+      "MaxValueVec": {
+        "X": -550.0,
+        "Y": 0.0,
+        "Z": -150.0
+      },
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          -550.0,
+          0.0,
+          -150.0
+        ],
+        "Op": 1,
+        "EntryCount": 1,
+        "EntryStride": 3
+      }
+    },
+    "LODValidity": 1
+  }
+}

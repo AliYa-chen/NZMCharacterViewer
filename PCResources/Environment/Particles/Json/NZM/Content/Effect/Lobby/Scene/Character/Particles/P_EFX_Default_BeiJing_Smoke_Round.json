@@ -1,0 +1,51 @@
+{
+  "Type": "ParticleSystem",
+  "Name": "P_EFX_Default_BeiJing_Smoke_Round",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleSystem'",
+  "Package": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+  "Properties": {
+    "Emitters": [
+      {
+        "ObjectName": "ParticleSpriteEmitter'P_EFX_Default_BeiJing_Smoke_Round:ParticleSpriteEmitter_9'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.12"
+      }
+    ],
+    "CurveEdSetup": null,
+    "ProfilingCategoryTag": "P_EFX_Default_BeiJing_Smoke_Round",
+    "LODDistances": [
+      0.0
+    ],
+    "LODSettings": [
+      {}
+    ],
+    "FixedRelativeBoundingBox": {
+      "Min": {
+        "X": -200.0,
+        "Y": -200.0,
+        "Z": -200.0
+      },
+      "Max": {
+        "X": 200.0,
+        "Y": 200.0,
+        "Z": 200.0
+      },
+      "IsValid": 1
+    },
+    "bUseFixedRelativeBoundingBox": true,
+    "bShouldResetPeakCounts": true,
+    "CustomOcclusionBounds": {
+      "Min": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Max": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "IsValid": 1
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Type": "NavigationSystemModuleConfig",
+  "Name": "NavigationSystemModuleConfig_0",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'NavigationSystemModuleConfig'",
+  "Outer": {
+    "ObjectName": "NZWorldSettings'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.NZWorldSettings'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.29"
+  },
+  "Properties": {
+    "bAutoSpawnMissingNavData": true,
+    "bSpawnNavDataInNavBoundsLevel": true,
+    "NavigationSystemClass": {
+      "AssetPathName": "/Script/GPAIBase.GPNavigationSystem",
+      "SubPathString": ""
+    }
+  }
+}

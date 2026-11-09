@@ -1,0 +1,16 @@
+{
+  "Type": "World",
+  "Name": "Lobby_Scene_Light_Role",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'World'",
+  "Package": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role",
+  "Properties": {
+    "DefaultPhysicsVolume": null
+  },
+  "PersistentLevel": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.11"
+  },
+  "ExtraReferencedObjects": [],
+  "StreamingLevels": []
+}

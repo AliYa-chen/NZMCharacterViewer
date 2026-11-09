@@ -1,0 +1,44 @@
+{
+  "Type": "SkyLightComponent",
+  "Name": "SkyLightComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SkyLightComponent'",
+  "Outer": {
+    "ObjectName": "SkyLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.SkyLight_0'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.65"
+  },
+  "Properties": {
+    "SourceType": "SLS_SpecifiedCubemap",
+    "Cubemap": {
+      "ObjectName": "TextureCube'Reflection_Atelier_PC'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/Reflection_Atelier_PC.0"
+    },
+    "bUseNormalization": false,
+    "CubemapAverageBrightness": 0.5106501,
+    "Intensity": 0.7,
+    "LightColor": {
+      "B": 255,
+      "G": 217,
+      "R": 237,
+      "A": 255,
+      "Hex": "EDD9FF"
+    },
+    "RelativeLocation": {
+      "X": -2153.2961,
+      "Y": -1266.2529,
+      "Z": 115.86731
+    },
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": -12.000109,
+      "Roll": 0.0
+    },
+    "Mobility": "EComponentMobility::Movable",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SkyLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  }
+}

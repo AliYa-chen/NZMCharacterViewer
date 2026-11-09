@@ -1,0 +1,73 @@
+{
+  "Type": "Standard_UI_Light_C",
+  "Name": "Standard_UI_Light_naimei",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "BlueprintGeneratedClass'NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.Standard_UI_Light_C'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.30"
+  },
+  "Template": {
+    "ObjectName": "Standard_UI_Light_C'Default__Standard_UI_Light_C'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.1"
+  },
+  "Properties": {
+    "DirectionalLight": {
+      "ObjectName": "DirectionalLightComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei.DirectionalLight'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.27"
+    },
+    "SkyLight": {
+      "ObjectName": "SkyLightComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei.SkyLight'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.52"
+    },
+    "SpotLight_Fill02": {
+      "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei.SpotLight_Fill02'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.56"
+    },
+    "SpotLight_Fill01": {
+      "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei.SpotLight_Fill01'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.55"
+    },
+    "SpotLight_Main": {
+      "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei.SpotLight_Main'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.57"
+    },
+    "DefaultSceneRoot": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.48"
+    },
+    "RootComponent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.48"
+    },
+    "Tags": [
+      "SequencerLightGroup"
+    ],
+    "BlueprintCreatedComponents": [
+      {
+        "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei.DefaultSceneRoot'",
+        "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.48"
+      },
+      {
+        "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei.SpotLight_Main'",
+        "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.57"
+      },
+      {
+        "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei.SpotLight_Fill01'",
+        "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.55"
+      },
+      {
+        "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei.SpotLight_Fill02'",
+        "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.56"
+      },
+      {
+        "ObjectName": "SkyLightComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei.SkyLight'",
+        "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.52"
+      },
+      {
+        "ObjectName": "DirectionalLightComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei.DirectionalLight'",
+        "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.27"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "Type": "Model",
+  "Name": "Model_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Model'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.19"
+  },
+  "Bounds": {
+    "Origin": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BoxExtent": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "SphereRadius": 0.0
+  },
+  "Vectors": [],
+  "Points": [],
+  "Nodes": [],
+  "Surfs": [],
+  "NumSharedSides": 4,
+  "VertexBuffer": {
+    "Vertices": []
+  },
+  "LightingGuid": "733238AD-4FAF691E-C9492E90-0A327D6C",
+  "LightmassSettings": []
+}

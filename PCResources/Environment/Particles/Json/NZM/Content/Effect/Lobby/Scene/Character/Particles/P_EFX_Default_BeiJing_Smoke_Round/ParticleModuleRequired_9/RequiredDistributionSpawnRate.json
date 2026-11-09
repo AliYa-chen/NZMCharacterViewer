@@ -1,0 +1,10 @@
+{
+  "Type": "DistributionFloatConstant",
+  "Name": "RequiredDistributionSpawnRate",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'DistributionFloatConstant'",
+  "Outer": {
+    "ObjectName": "ParticleModuleRequired'P_EFX_Default_BeiJing_Smoke_Round:ParticleModuleRequired_9'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.7"
+  }
+}

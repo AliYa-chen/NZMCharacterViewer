@@ -1,0 +1,99 @@
+{
+  "Type": "PostProcessVolume",
+  "Name": "PostProcessVolume_bianca",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'PostProcessVolume'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.14"
+  },
+  "Properties": {
+    "Settings": {
+      "bOverride_WhiteTemp": true,
+      "bOverride_WhiteTint": true,
+      "bOverride_ColorSaturation": true,
+      "bOverride_ColorContrast": true,
+      "bOverride_ColorGamma": true,
+      "bOverride_ColorGain": true,
+      "bOverride_ColorSaturationShadows": true,
+      "bOverride_ColorGainShadows": true,
+      "bOverride_ColorContrastMidtones": true,
+      "bOverride_ColorGainMidtones": true,
+      "bOverride_SceneFringeIntensity": true,
+      "bOverride_ChromaticAberrationStartOffset": true,
+      "bOverride_BloomMethod": true,
+      "bOverride_AutoExposureMinBrightness": true,
+      "bOverride_AutoExposureMaxBrightness": true,
+      "bOverride_VignetteIntensity": true,
+      "bOverride_GrainIntensity": true,
+      "bOverride_SSRTAOIntensity": true,
+      "bOverride_DepthOfFieldUseMobileImpl": true,
+      "bOverride_ScreenSpaceReflectionMobileMaxRoughness": true,
+      "bOverride_ShadowAffectGIIntensity": true,
+      "bOverride_ShadowAffectLitGIIntensity": true,
+      "bOverride_DistantShadowAffectGIIntensity": true,
+      "bOverride_IsUI": true,
+      "ColorSaturation": {
+        "X": 1.1,
+        "Y": 1.1,
+        "Z": 1.1,
+        "W": 1.0
+      },
+      "ColorContrast": {
+        "X": 0.9,
+        "Y": 0.9,
+        "Z": 0.9,
+        "W": 1.0
+      },
+      "ChromaticAberrationStartOffset": 0.7,
+      "MobileBloomSettings": {
+        "bOverride_BloomIntensity": true,
+        "bOverride_BloomThreshold": true,
+        "BloomIntensity": 3.0
+      },
+      "DesktopBloomSettings": {
+        "bOverride_BloomIntensity": true,
+        "bOverride_BloomThreshold": true,
+        "BloomIntensity": 3.0,
+        "BloomSizeScale": 1.0,
+        "Bloom1Size": 4.0,
+        "Bloom5Size": 20.0
+      },
+      "BloomDirtMask": {
+        "ObjectName": "Texture2D't_dirtmask'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_DirtyMask/t_dirtmask.0"
+      },
+      "BloomDirtMaskIntensity": 5.0,
+      "AutoExposureLowPercent": 20.0,
+      "AutoExposureHighPercent": 70.0,
+      "AutoExposureMinBrightness": 0.0,
+      "AutoExposureMaxBrightness": 0.0,
+      "AutoExposureCalibrationConstant": 21.4,
+      "LensFlareIntensity": 0.0,
+      "VignetteIntensity": 0.5,
+      "GrainIntensity": 0.1,
+      "SSRTAOIntensity": 0.8,
+      "DepthOfFieldUseMobileImpl": false,
+      "bIsUI": true
+    },
+    "bUnbound": true,
+    "BrushType": "Brush_Add",
+    "Brush": {
+      "ObjectName": "Model'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PostProcessVolume_bianca.Model_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.17"
+    },
+    "BrushComponent": {
+      "ObjectName": "BrushComponent'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PostProcessVolume_bianca.BrushComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.9"
+    },
+    "bHidden": false,
+    "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+    "RootComponent": {
+      "ObjectName": "BrushComponent'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PostProcessVolume_bianca.BrushComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.9"
+    },
+    "Tags": [
+      "SequencerPostVolume"
+    ]
+  }
+}

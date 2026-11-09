@@ -1,0 +1,37 @@
+{
+  "Type": "BP_LobbyCameraActor_C",
+  "Name": "RoleCamera_WeaponPC",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "BlueprintGeneratedClass'NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.BP_LobbyCameraActor_C'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.24"
+  },
+  "Template": {
+    "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+    "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+  },
+  "Properties": {
+    "CameraComponent": {
+      "ObjectName": "CineCameraComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.RoleCamera_WeaponPC.CameraComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.19"
+    },
+    "SceneComponent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.RoleCamera_WeaponPC.SceneComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.131"
+    },
+    "PrimaryActorTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'LobbyCineCameraActor'",
+        "ObjectPath": "/Script/GameFramework"
+      }
+    },
+    "RootComponent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.RoleCamera_WeaponPC.SceneComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.131"
+    },
+    "Tags": [
+      "Lobby.Camera.SubScene.RedOrangePersonality.Weapon.Female.PC"
+    ]
+  }
+}

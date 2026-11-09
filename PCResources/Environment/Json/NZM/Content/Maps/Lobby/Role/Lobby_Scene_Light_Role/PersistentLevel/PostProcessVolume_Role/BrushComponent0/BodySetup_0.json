@@ -1,0 +1,108 @@
+{
+  "Type": "BodySetup",
+  "Name": "BodySetup_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'BodySetup'",
+  "Outer": {
+    "ObjectName": "BrushComponent'Lobby_Scene_Light_Role:PersistentLevel.PostProcessVolume_Role.BrushComponent0'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.7"
+  },
+  "Properties": {
+    "AggGeom": {
+      "ConvexElems": [
+        {
+          "VertexData": [
+            {
+              "X": -100.0,
+              "Y": 100.0,
+              "Z": -100.0
+            },
+            {
+              "X": -100.0,
+              "Y": 100.0,
+              "Z": 100.0
+            },
+            {
+              "X": -100.0,
+              "Y": -100.0,
+              "Z": 100.0
+            },
+            {
+              "X": -100.0,
+              "Y": -100.0,
+              "Z": -100.0
+            },
+            {
+              "X": 100.0,
+              "Y": 100.0,
+              "Z": -100.0
+            },
+            {
+              "X": 100.0,
+              "Y": 100.0,
+              "Z": 100.0
+            },
+            {
+              "X": 100.0,
+              "Y": -100.0,
+              "Z": -100.0
+            },
+            {
+              "X": 100.0,
+              "Y": -100.0,
+              "Z": 100.0
+            }
+          ],
+          "ElemBox": {
+            "Min": {
+              "X": -100.0,
+              "Y": -100.0,
+              "Z": -100.0
+            },
+            "Max": {
+              "X": 100.0,
+              "Y": 100.0,
+              "Z": 100.0
+            },
+            "IsValid": 1
+          },
+          "Transform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "RestOffset": 0.0,
+          "Name": "None",
+          "bContributeToMass": true
+        }
+      ]
+    },
+    "bGenerateMirroredCollision": false,
+    "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+  },
+  "BodySetupGuid": "B9BF26314BD70F8D9EF7F78123A92DBE",
+  "CookedFormatData": {
+    "PhysXPC": {
+      "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+      "ElementCount": 470,
+      "SizeOnDisk": 470,
+      "OffsetInFile": "0xA738"
+    }
+  }
+}

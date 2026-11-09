@@ -1,0 +1,607 @@
+{
+  "Type": "SkeletalMesh",
+  "Name": "SK_Char_Angle_UI_HatHair_Mesh",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SkeletalMesh'",
+  "Package": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_UI_HatHair_Mesh",
+  "Properties": {
+    "Skeleton": {
+      "ObjectName": "Skeleton'Female_Base_Skeleton'",
+      "ObjectPath": "NZM/Content/Avatar/Base/Female_Base_Skeleton.122"
+    },
+    "LODInfo": [
+      {
+        "ScreenSize": {
+          "bCooked": true,
+          "Default": 1.0,
+          "PerPlatform": null,
+          "Value": 1.0
+        },
+        "LODHysteresis": 0.0,
+        "LODMaterialMap": [
+          0,
+          1
+        ],
+        "BuildSettings": {
+          "bRecomputeNormals": false,
+          "bRecomputeTangents": false,
+          "bUseMikkTSpace": true,
+          "bComputeWeightedNormals": true,
+          "bRemoveDegenerates": true,
+          "bUseHighPrecisionTangentBasis": false,
+          "bUseFullPrecisionUVs": false,
+          "bBuildAdjacencyBuffer": true,
+          "ThresholdPosition": 2E-05,
+          "ThresholdTangentNormal": 2E-05,
+          "ThresholdUV": 0.000977
+        },
+        "ReductionSettings": {
+          "TerminationCriterion": "SMTC_NumOfTriangles",
+          "NumOfTrianglesPercentage": 1.0,
+          "NumOfVertPercentage": 0.5,
+          "MaxNumOfTriangles": 4,
+          "MaxNumOfVerts": 6,
+          "MaxDeviationPercentage": 0.5,
+          "ReductionMethod": "SMOT_NumOfTriangles",
+          "SilhouetteImportance": "SMOI_Normal",
+          "TextureImportance": "SMOI_Normal",
+          "ShadingImportance": "SMOI_Normal",
+          "SkinningImportance": "SMOI_Normal",
+          "bRemapMorphTargets": false,
+          "bRecalcNormals": true,
+          "WeldingThreshold": 0.1,
+          "NormalsThreshold": 60.0,
+          "MaxBonesPerVertex": 4,
+          "bEnforceBoneBoundaries": false,
+          "VolumeImportance": 1.0,
+          "bLockEdges": false,
+          "BaseLOD": 0
+        },
+        "BonesToRemove": [],
+        "BonesToPrioritize": [],
+        "WeightOfPrioritization": 1.0,
+        "BakePose": null,
+        "BakePoseOverride": null,
+        "SourceImportFilename": "",
+        "bHasBeenSimplified": false,
+        "bHasPerLODVertexColors": true,
+        "bAllowCPUAccess": false,
+        "bSupportUniformlyDistributedSampling": false
+      },
+      {
+        "ScreenSize": {
+          "bCooked": true,
+          "Default": 0.85,
+          "PerPlatform": null,
+          "Value": 0.85
+        },
+        "LODHysteresis": 0.0,
+        "LODMaterialMap": [
+          0,
+          1
+        ],
+        "BuildSettings": {
+          "bRecomputeNormals": false,
+          "bRecomputeTangents": false,
+          "bUseMikkTSpace": false,
+          "bComputeWeightedNormals": true,
+          "bRemoveDegenerates": true,
+          "bUseHighPrecisionTangentBasis": false,
+          "bUseFullPrecisionUVs": false,
+          "bBuildAdjacencyBuffer": true,
+          "ThresholdPosition": 2E-05,
+          "ThresholdTangentNormal": 2E-05,
+          "ThresholdUV": 0.000977
+        },
+        "ReductionSettings": {
+          "TerminationCriterion": "SMTC_NumOfTriangles",
+          "NumOfTrianglesPercentage": 1.0,
+          "NumOfVertPercentage": 0.5,
+          "MaxNumOfTriangles": 4,
+          "MaxNumOfVerts": 6,
+          "MaxDeviationPercentage": 0.5,
+          "ReductionMethod": "SMOT_NumOfTriangles",
+          "SilhouetteImportance": "SMOI_Normal",
+          "TextureImportance": "SMOI_Normal",
+          "ShadingImportance": "SMOI_Normal",
+          "SkinningImportance": "SMOI_Normal",
+          "bRemapMorphTargets": false,
+          "bRecalcNormals": true,
+          "WeldingThreshold": 0.1,
+          "NormalsThreshold": 60.0,
+          "MaxBonesPerVertex": 4,
+          "bEnforceBoneBoundaries": false,
+          "VolumeImportance": 1.0,
+          "bLockEdges": false,
+          "BaseLOD": 0
+        },
+        "BonesToRemove": [],
+        "BonesToPrioritize": [],
+        "WeightOfPrioritization": 1.0,
+        "BakePose": null,
+        "BakePoseOverride": null,
+        "SourceImportFilename": "",
+        "bHasBeenSimplified": false,
+        "bHasPerLODVertexColors": true,
+        "bAllowCPUAccess": false,
+        "bSupportUniformlyDistributedSampling": false
+      },
+      {
+        "ScreenSize": {
+          "bCooked": true,
+          "Default": 0.35,
+          "PerPlatform": null,
+          "Value": 0.35
+        },
+        "LODHysteresis": 0.05,
+        "LODMaterialMap": [
+          0,
+          1
+        ],
+        "BuildSettings": {
+          "bRecomputeNormals": false,
+          "bRecomputeTangents": false,
+          "bUseMikkTSpace": false,
+          "bComputeWeightedNormals": true,
+          "bRemoveDegenerates": true,
+          "bUseHighPrecisionTangentBasis": false,
+          "bUseFullPrecisionUVs": false,
+          "bBuildAdjacencyBuffer": true,
+          "ThresholdPosition": 2E-05,
+          "ThresholdTangentNormal": 2E-05,
+          "ThresholdUV": 0.000977
+        },
+        "ReductionSettings": {
+          "TerminationCriterion": "SMTC_NumOfTriangles",
+          "NumOfTrianglesPercentage": 1.0,
+          "NumOfVertPercentage": 0.5,
+          "MaxNumOfTriangles": 4,
+          "MaxNumOfVerts": 6,
+          "MaxDeviationPercentage": 0.5,
+          "ReductionMethod": "SMOT_NumOfTriangles",
+          "SilhouetteImportance": "SMOI_Normal",
+          "TextureImportance": "SMOI_Normal",
+          "ShadingImportance": "SMOI_Normal",
+          "SkinningImportance": "SMOI_Normal",
+          "bRemapMorphTargets": false,
+          "bRecalcNormals": true,
+          "WeldingThreshold": 0.1,
+          "NormalsThreshold": 60.0,
+          "MaxBonesPerVertex": 4,
+          "bEnforceBoneBoundaries": false,
+          "VolumeImportance": 1.0,
+          "bLockEdges": false,
+          "BaseLOD": 0
+        },
+        "BonesToRemove": [],
+        "BonesToPrioritize": [],
+        "WeightOfPrioritization": 1.0,
+        "BakePose": null,
+        "BakePoseOverride": null,
+        "SourceImportFilename": "",
+        "bHasBeenSimplified": false,
+        "bHasPerLODVertexColors": true,
+        "bAllowCPUAccess": false,
+        "bSupportUniformlyDistributedSampling": false
+      },
+      {
+        "ScreenSize": {
+          "bCooked": true,
+          "Default": 0.2,
+          "PerPlatform": null,
+          "Value": 0.2
+        },
+        "LODHysteresis": 0.05,
+        "LODMaterialMap": [
+          0,
+          1
+        ],
+        "BuildSettings": {
+          "bRecomputeNormals": false,
+          "bRecomputeTangents": false,
+          "bUseMikkTSpace": false,
+          "bComputeWeightedNormals": true,
+          "bRemoveDegenerates": true,
+          "bUseHighPrecisionTangentBasis": false,
+          "bUseFullPrecisionUVs": false,
+          "bBuildAdjacencyBuffer": true,
+          "ThresholdPosition": 2E-05,
+          "ThresholdTangentNormal": 2E-05,
+          "ThresholdUV": 0.000977
+        },
+        "ReductionSettings": {
+          "TerminationCriterion": "SMTC_NumOfTriangles",
+          "NumOfTrianglesPercentage": 1.0,
+          "NumOfVertPercentage": 0.5,
+          "MaxNumOfTriangles": 4,
+          "MaxNumOfVerts": 6,
+          "MaxDeviationPercentage": 0.5,
+          "ReductionMethod": "SMOT_NumOfTriangles",
+          "SilhouetteImportance": "SMOI_Normal",
+          "TextureImportance": "SMOI_Normal",
+          "ShadingImportance": "SMOI_Normal",
+          "SkinningImportance": "SMOI_Normal",
+          "bRemapMorphTargets": false,
+          "bRecalcNormals": true,
+          "WeldingThreshold": 0.1,
+          "NormalsThreshold": 60.0,
+          "MaxBonesPerVertex": 4,
+          "bEnforceBoneBoundaries": false,
+          "VolumeImportance": 1.0,
+          "bLockEdges": false,
+          "BaseLOD": 0
+        },
+        "BonesToRemove": [],
+        "BonesToPrioritize": [],
+        "WeightOfPrioritization": 1.0,
+        "BakePose": null,
+        "BakePoseOverride": null,
+        "SourceImportFilename": "",
+        "bHasBeenSimplified": false,
+        "bHasPerLODVertexColors": true,
+        "bAllowCPUAccess": false,
+        "bSupportUniformlyDistributedSampling": false
+      }
+    ],
+    "MinLod": {
+      "bCooked": true,
+      "Default": 0,
+      "PerPlatform": null,
+      "Value": 0
+    },
+    "DisableBelowMinLodStripping": {
+      "bCooked": true,
+      "Default": false,
+      "PerPlatform": null,
+      "Value": false
+    },
+    "bHasVertexColors": true,
+    "MeshClothingAssets": [
+      {
+        "ObjectName": "ClothingAssetNv'SK_Char_Angle_UI_HatHair_Mesh:SK_Char_Angle_UI_HatHair_ProxyMesh_Lod0_Clothing_0'",
+        "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_UI_HatHair_Mesh.3"
+      },
+      {
+        "ObjectName": "ClothingAssetNv'SK_Char_Angle_UI_HatHair_Mesh:SK_Char_Angle_UI_HatHair_ProxyMesh_Lod1_Clothing_0'",
+        "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_UI_HatHair_Mesh.4"
+      },
+      {
+        "ObjectName": "ClothingAssetNv'SK_Char_Angle_UI_HatHair_Mesh:SK_Char_Angle_UI_HatHair_ProxyMesh_Lod2_Clothing_0'",
+        "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_UI_HatHair_Mesh.5"
+      }
+    ],
+    "SamplingInfo": {
+      "BuiltData": {
+        "WholeMeshBuiltData": [
+          {
+            "AreaWeightedTriangleSampler": {
+              "Prob": [],
+              "Alias": [],
+              "TotalWeight": 0.0
+            }
+          },
+          {
+            "AreaWeightedTriangleSampler": {
+              "Prob": [],
+              "Alias": [],
+              "TotalWeight": 0.0
+            }
+          },
+          {
+            "AreaWeightedTriangleSampler": {
+              "Prob": [],
+              "Alias": [],
+              "TotalWeight": 0.0
+            }
+          },
+          {
+            "AreaWeightedTriangleSampler": {
+              "Prob": [],
+              "Alias": [],
+              "TotalWeight": 0.0
+            }
+          }
+        ]
+      }
+    },
+    "DefaultLODSettingAssetName": "NZLODSetting_Char_UI_Default"
+  },
+  "ImportedBounds": {
+    "Origin": {
+      "X": -0.13185787,
+      "Y": 2.4147024,
+      "Z": 162.04927
+    },
+    "BoxExtent": {
+      "X": 10.766116,
+      "Y": 10.701518,
+      "Z": 12.480225
+    },
+    "SphereRadius": 19.65166
+  },
+  "SkeletalMaterials": [
+    {
+      "MaterialSlotName": "Mat_Char_Angel_Hat",
+      "Material": {
+        "ObjectName": "VirtualMaterialInstanceConstant'VMI_Char_Angel_Hat_UI'",
+        "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hat_UI.0"
+      },
+      "ImportedMaterialSlotName": null,
+      "UVChannelData": {
+        "bInitialized": true,
+        "bOverrideDensities": false,
+        "LocalUVDensities": [
+          20.655146,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "MaterialSlotName": "Mat_Char_Angel_HatHair",
+      "Material": {
+        "ObjectName": "VirtualMaterialInstanceConstant'VMI_Char_Angel_Hair_Blend_FirstPass_UI'",
+        "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hair_Blend_FirstPass_UI.0"
+      },
+      "ImportedMaterialSlotName": null,
+      "UVChannelData": {
+        "bInitialized": true,
+        "bOverrideDensities": false,
+        "LocalUVDensities": [
+          20.279308,
+          0.0,
+          46.984913,
+          0.0
+        ]
+      }
+    }
+  ],
+  "LODModels": [
+    {
+      "Sections": [
+        {
+          "MaterialIndex": 0,
+          "BaseIndex": 0,
+          "NumTriangles": 2176,
+          "bRecomputeTangent": false,
+          "RecomputeTangentsVertexMaskChannel": "Alpha",
+          "bCastShadow": true,
+          "bVisibleInRayTracing": true,
+          "bLegacyClothingSection": false,
+          "CorrespondClothSectionIndex": -1,
+          "BaseVertexIndex": 0,
+          "NumVertices": 1439,
+          "MaxBoneInfluences": 1,
+          "bUse16BitBoneIndex": false,
+          "CorrespondClothAssetIndex": -1,
+          "bDisabled": false,
+          "GenerateUpToLodIndex": -1,
+          "OriginalDataSectionIndex": -1,
+          "ChunkedParentSectionIndex": -1
+        },
+        {
+          "MaterialIndex": 1,
+          "BaseIndex": 6528,
+          "NumTriangles": 15265,
+          "bRecomputeTangent": false,
+          "RecomputeTangentsVertexMaskChannel": "Alpha",
+          "bCastShadow": true,
+          "bVisibleInRayTracing": true,
+          "bLegacyClothingSection": false,
+          "CorrespondClothSectionIndex": -1,
+          "BaseVertexIndex": 1439,
+          "NumVertices": 28207,
+          "MaxBoneInfluences": 1,
+          "bUse16BitBoneIndex": false,
+          "CorrespondClothAssetIndex": 0,
+          "bDisabled": false,
+          "GenerateUpToLodIndex": -1,
+          "OriginalDataSectionIndex": -1,
+          "ChunkedParentSectionIndex": -1
+        }
+      ],
+      "NumVertices": 29646,
+      "NumTexCoords": 3,
+      "VertexBufferGPUSkin": {
+        "NumTexCoords": 0,
+        "MeshExtension": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MeshOrigin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bUseFullPrecisionUVs": true,
+        "bExtraBoneInfluences": false
+      }
+    },
+    {
+      "Sections": [
+        {
+          "MaterialIndex": 0,
+          "BaseIndex": 0,
+          "NumTriangles": 2176,
+          "bRecomputeTangent": false,
+          "RecomputeTangentsVertexMaskChannel": "Alpha",
+          "bCastShadow": true,
+          "bVisibleInRayTracing": true,
+          "bLegacyClothingSection": false,
+          "CorrespondClothSectionIndex": -1,
+          "BaseVertexIndex": 0,
+          "NumVertices": 1439,
+          "MaxBoneInfluences": 1,
+          "bUse16BitBoneIndex": false,
+          "CorrespondClothAssetIndex": -1,
+          "bDisabled": false,
+          "GenerateUpToLodIndex": -1,
+          "OriginalDataSectionIndex": -1,
+          "ChunkedParentSectionIndex": -1
+        },
+        {
+          "MaterialIndex": 1,
+          "BaseIndex": 6528,
+          "NumTriangles": 15265,
+          "bRecomputeTangent": false,
+          "RecomputeTangentsVertexMaskChannel": "Alpha",
+          "bCastShadow": true,
+          "bVisibleInRayTracing": true,
+          "bLegacyClothingSection": false,
+          "CorrespondClothSectionIndex": -1,
+          "BaseVertexIndex": 1439,
+          "NumVertices": 28207,
+          "MaxBoneInfluences": 1,
+          "bUse16BitBoneIndex": false,
+          "CorrespondClothAssetIndex": -1,
+          "bDisabled": false,
+          "GenerateUpToLodIndex": -1,
+          "OriginalDataSectionIndex": -1,
+          "ChunkedParentSectionIndex": -1
+        }
+      ],
+      "NumVertices": 29646,
+      "NumTexCoords": 3,
+      "VertexBufferGPUSkin": {
+        "NumTexCoords": 0,
+        "MeshExtension": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MeshOrigin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bUseFullPrecisionUVs": true,
+        "bExtraBoneInfluences": false
+      }
+    },
+    {
+      "Sections": [
+        {
+          "MaterialIndex": 0,
+          "BaseIndex": 0,
+          "NumTriangles": 816,
+          "bRecomputeTangent": false,
+          "RecomputeTangentsVertexMaskChannel": "Alpha",
+          "bCastShadow": true,
+          "bVisibleInRayTracing": true,
+          "bLegacyClothingSection": false,
+          "CorrespondClothSectionIndex": -1,
+          "BaseVertexIndex": 0,
+          "NumVertices": 595,
+          "MaxBoneInfluences": 1,
+          "bUse16BitBoneIndex": false,
+          "CorrespondClothAssetIndex": -1,
+          "bDisabled": false,
+          "GenerateUpToLodIndex": -1,
+          "OriginalDataSectionIndex": -1,
+          "ChunkedParentSectionIndex": -1
+        },
+        {
+          "MaterialIndex": 1,
+          "BaseIndex": 2448,
+          "NumTriangles": 13445,
+          "bRecomputeTangent": false,
+          "RecomputeTangentsVertexMaskChannel": "Alpha",
+          "bCastShadow": true,
+          "bVisibleInRayTracing": true,
+          "bLegacyClothingSection": false,
+          "CorrespondClothSectionIndex": -1,
+          "BaseVertexIndex": 595,
+          "NumVertices": 13195,
+          "MaxBoneInfluences": 1,
+          "bUse16BitBoneIndex": false,
+          "CorrespondClothAssetIndex": -1,
+          "bDisabled": false,
+          "GenerateUpToLodIndex": -1,
+          "OriginalDataSectionIndex": -1,
+          "ChunkedParentSectionIndex": -1
+        }
+      ],
+      "NumVertices": 13790,
+      "NumTexCoords": 3,
+      "VertexBufferGPUSkin": {
+        "NumTexCoords": 0,
+        "MeshExtension": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MeshOrigin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bUseFullPrecisionUVs": true,
+        "bExtraBoneInfluences": false
+      }
+    },
+    {
+      "Sections": [
+        {
+          "MaterialIndex": 0,
+          "BaseIndex": 0,
+          "NumTriangles": 816,
+          "bRecomputeTangent": false,
+          "RecomputeTangentsVertexMaskChannel": "Alpha",
+          "bCastShadow": true,
+          "bVisibleInRayTracing": true,
+          "bLegacyClothingSection": false,
+          "CorrespondClothSectionIndex": -1,
+          "BaseVertexIndex": 0,
+          "NumVertices": 595,
+          "MaxBoneInfluences": 1,
+          "bUse16BitBoneIndex": false,
+          "CorrespondClothAssetIndex": -1,
+          "bDisabled": false,
+          "GenerateUpToLodIndex": -1,
+          "OriginalDataSectionIndex": -1,
+          "ChunkedParentSectionIndex": -1
+        },
+        {
+          "MaterialIndex": 1,
+          "BaseIndex": 2448,
+          "NumTriangles": 5813,
+          "bRecomputeTangent": false,
+          "RecomputeTangentsVertexMaskChannel": "Alpha",
+          "bCastShadow": true,
+          "bVisibleInRayTracing": true,
+          "bLegacyClothingSection": false,
+          "CorrespondClothSectionIndex": -1,
+          "BaseVertexIndex": 595,
+          "NumVertices": 6385,
+          "MaxBoneInfluences": 1,
+          "bUse16BitBoneIndex": false,
+          "CorrespondClothAssetIndex": -1,
+          "bDisabled": false,
+          "GenerateUpToLodIndex": -1,
+          "OriginalDataSectionIndex": -1,
+          "ChunkedParentSectionIndex": -1
+        }
+      ],
+      "NumVertices": 6980,
+      "NumTexCoords": 3,
+      "VertexBufferGPUSkin": {
+        "NumTexCoords": 0,
+        "MeshExtension": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MeshOrigin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bUseFullPrecisionUVs": true,
+        "bExtraBoneInfluences": false
+      }
+    }
+  ],
+  "NaniteResources": null
+}

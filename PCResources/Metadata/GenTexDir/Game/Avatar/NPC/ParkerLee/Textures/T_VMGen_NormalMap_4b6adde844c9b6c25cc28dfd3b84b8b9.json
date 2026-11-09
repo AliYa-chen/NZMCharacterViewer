@@ -1,0 +1,35 @@
+{
+  "Type": "Texture2D",
+  "Name": "T_VMGen_NormalMap_4b6adde844c9b6c25cc28dfd3b84b8b9",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Texture2D'",
+  "Package": "NZM/Content/GenTexDir/Game/Avatar/NPC/ParkerLee/Textures/T_VMGen_NormalMap_4b6adde844c9b6c25cc28dfd3b84b8b9",
+  "Properties": {
+    "ImportedSize": {
+      "X": 1,
+      "Y": 1
+    },
+    "LightingGuid": "CBB62A8D-44EA4761-2946CF85-E52D73AA",
+    "CompressionSettings": "TC_Normalmap",
+    "LODGroup": "TEXTUREGROUP_CharacterNormalMap",
+    "SRGB": false
+  },
+  "SizeX": 1,
+  "SizeY": 1,
+  "PackedData": 1,
+  "PixelFormat": "PF_B8G8R8A8",
+  "FirstMipToSerialize": 0,
+  "Mips": [
+    {
+      "BulkData": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 4,
+        "SizeOnDisk": 4,
+        "OffsetInFile": "0xAEE"
+      },
+      "SizeX": 1,
+      "SizeY": 1,
+      "SizeZ": 1
+    }
+  ]
+}

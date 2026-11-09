@@ -1,0 +1,412 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Naimei_Bianca_A_Hair_FirstPass_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/UI/Head/VMI_Char_Naimei_Bianca_A_Hair_FirstPass_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_HairBlend_Master_PC_FirstPass'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Hair/Material/PCHairTwoPass/M_HairBlend_Master_PC_FirstPass.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "bUsedColorTint",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "AE9FFBAF-49038AD0-1414E893-9C63DB81"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RootScatter",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "8B91A3F9-4737C883-90FE80B0-B4750A27"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ScatterMin",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "84094A5C-4B396B57-C545E781-5459070C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "SpecMin",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "EADAC679-48B7FFE8-A2A0DC93-EE92751E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "TipsScatter",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.54,
+        "ExpressionGUID": "CB40C2A6-4C8515BB-F86D1ABF-EDA4D66E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Roughness",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.4,
+        "ExpressionGUID": "0F4BF77B-4B49680E-BEB30F8D-49EAF4E2"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Specular",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "19646745-40C57DB2-E6723DB1-B1B8E8FD"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BackLit",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.1,
+        "ExpressionGUID": "1746CE43-45CE7EC6-8605D985-FA29AA69"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ShadowIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.9,
+        "ExpressionGUID": "AE4FB20E-4EEE91BA-ED50E6B0-1BC4A4A6"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "anisotropyDirection",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "33B130F2-4085F95A-962BC1B9-EB2F2950"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "TangentRootRoat",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "1193F3FD-40086A18-F6881D99-A170D474"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "TangentRootShift",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -0.5,
+        "ExpressionGUID": "4EC28C6A-46DAD339-DAC5969C-D99F7758"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "TangentTipsRoat",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "88011EA6-4524C39C-238DD4B5-F423B14D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "TangentTipsShift",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "F9E370C9-43C8109F-0B68559C-2EB9BC07"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "alphabias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -0.05,
+        "ExpressionGUID": "FE98CFE4-4760A3E7-9AC93B9E-3955C56D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "basecolorAlphaexp",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "D34D028D-451ADE6F-E9E62E9F-DF61A757"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DitherAlpha",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "0EC47959-436C8BCB-ED349492-6C90D7CF"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DitherTest",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "E67AE6D5-40C1D33B-B0A4F4B9-60D19110"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Edgelight",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.5,
+        "ExpressionGUID": "BB3E9514-4C59D575-6CB45BA3-1B505D7C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "maskmul",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "D01D47C5-45417104-E23AB3BB-68CC201F"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "MipBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -1.0,
+        "ExpressionGUID": "63FED6E2-4AD490D1-D657F7B2-7062D231"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "BA930BEC-4AAF677B-A3A9DFB2-12C27DC7"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "normaltiling",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "48D9F2F7-45190B5E-3499FB93-FEFAF9AF"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "opcit",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "D5BDA1BC-41DDC1C6-22FF4E84-A4508954"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "OpcSub",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "DE45D3CE-4A1B5E5C-1A77BC8B-672901DE"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PixelDepthOffset",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "8FDCA41F-44E76694-1D66D9B5-D791878C"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Random (S)",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "FAD6464E-413D9693-D90DF588-AADA6985"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "rootalpha2",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.3,
+        "ExpressionGUID": "8C8A01AB-482DEFA2-4E7685AC-EBC76878"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "rootalpha3",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "2D7ADA89-471CA164-CC86E782-95007B05"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ScreenUV",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "FB45AC0E-4AA13E1B-DE869E89-E76168E4"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ScreenUV2",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "ED612472-4F5251B3-4EF28783-C1CCCA26"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.835069,
+          "G": 0.735634,
+          "B": 0.621953,
+          "A": 1.0,
+          "Hex": "ECDFCF"
+        },
+        "ExpressionGUID": "B385F81D-4A98A47F-9717D692-187F278B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Color1",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.776042,
+          "G": 0.673037,
+          "B": 0.516014,
+          "A": 0.0,
+          "Hex": "E4D6BE"
+        },
+        "ExpressionGUID": "E9B4F758-4C06A974-53B9368B-2464244A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Color2",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.911458,
+          "G": 0.698775,
+          "B": 0.493395,
+          "A": 0.028,
+          "Hex": "07F5DABB"
+        },
+        "ExpressionGUID": "7C0B40D5-44EA0E22-21A3F58C-9634E87A"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Alpha_ID_Roughness_Root",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_Alpha_ID_Roughness_Root_08f2fac3b7bf86f11b633e8bec576639'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Textures/Head/T_VMGen_Alpha_ID_Roughness_Root_08f2fac3b7bf86f11b633e8bec576639.0"
+        },
+        "ExpressionGUID": "735D39BA-4B398AD1-AE93E49C-3E56728A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_9b6002dc7d2ef342fa25d09b9a393b88'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Textures/Head/T_VMGen_BaseColorMap_9b6002dc7d2ef342fa25d09b9a393b88.0"
+        },
+        "ExpressionGUID": "6F66D750-4E17A196-D3384990-DAC4B0F8"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bOverride_CastDynamicShadowAsMasked": true,
+      "bOverride_TwoSided": true,
+      "TwoSided": true,
+      "bCastDynamicShadowAsMasked": true,
+      "BlendMode": "BLEND_Masked",
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_Hair",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": false,
+          "ParameterInfo": {
+            "Name": "bUsedColorTint",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "9FE35996-4ECF6BC5-242983B6-A8EF942D"
+        }
+      ]
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Hair_Noise"
+      }
+    ]
+  }
+}

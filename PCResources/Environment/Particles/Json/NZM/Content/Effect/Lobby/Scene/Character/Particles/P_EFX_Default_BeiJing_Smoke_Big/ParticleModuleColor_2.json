@@ -1,0 +1,51 @@
+{
+  "Type": "ParticleModuleColor",
+  "Name": "ParticleModuleColor_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleModuleColor'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Big'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big.31"
+  },
+  "Properties": {
+    "StartColor": {
+      "MinValue": 0.052,
+      "MaxValue": 0.13,
+      "MinValueVec": {
+        "X": 0.052,
+        "Y": 0.082679,
+        "Z": 0.13
+      },
+      "MaxValueVec": {
+        "X": 0.052,
+        "Y": 0.082679,
+        "Z": 0.13
+      },
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          0.052,
+          0.082679,
+          0.13
+        ],
+        "Op": 1,
+        "EntryCount": 1,
+        "EntryStride": 3
+      }
+    },
+    "StartAlpha": {
+      "MinValue": 0.1,
+      "MaxValue": 0.1,
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          0.1
+        ],
+        "Op": 1,
+        "EntryCount": 1,
+        "EntryStride": 1
+      }
+    },
+    "LODValidity": 1
+  }
+}

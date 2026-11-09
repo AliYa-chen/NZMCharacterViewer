@@ -1,0 +1,200 @@
+{
+  "Type": "Level",
+  "Name": "PersistentLevel",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Level'",
+  "Outer": {
+    "ObjectName": "World'Lobby_Scene_Light_Role_Queen'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.89"
+  },
+  "Properties": {
+    "Model": {
+      "ObjectName": "Model'Lobby_Scene_Light_Role_Queen:PersistentLevel.Model_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.50"
+    },
+    "LevelBuildDataId": "5E8AD377-4165D1AB-FEDE4BAA-7443E840",
+    "WorldSettings": {
+      "ObjectName": "NZWorldSettings'Lobby_Scene_Light_Role_Queen:PersistentLevel.NZWorldSettings'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.53"
+    }
+  },
+  "Actors": [
+    {
+      "ObjectName": "NZWorldSettings'Lobby_Scene_Light_Role_Queen:PersistentLevel.NZWorldSettings'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.53"
+    },
+    null,
+    {
+      "ObjectName": "SkyLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.SkyLight_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.65"
+    },
+    {
+      "ObjectName": "PostProcessVolume'Lobby_Scene_Light_Role_Queen:PersistentLevel.PostProcessVolume_Queen'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.58"
+    },
+    {
+      "ObjectName": "ExponentialHeightFog'Lobby_Scene_Light_Role_Queen:PersistentLevel.ExponentialHeightFog_2'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.46"
+    },
+    {
+      "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_Queen:PersistentLevel.BoxReflectionCapture_1'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.22"
+    },
+    {
+      "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_Queen:PersistentLevel.BoxReflectionCapture2'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.17"
+    },
+    {
+      "ObjectName": "DirectionalLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.DirectionalLight_9'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.44"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight_env'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.76"
+    },
+    {
+      "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_Queen:PersistentLevel.BoxReflectionCapture_EnvPurple'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.23"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight3_env'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.71"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight2_env'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.67"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight4_env'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.74"
+    },
+    {
+      "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_Queen:PersistentLevel.BoxReflectionCapture_EnvRed'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.24"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight_env_red'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.77"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight2_env_red'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.68"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight3_env_red'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.73"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight4_env_red'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.75"
+    },
+    {
+      "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_Queen:PersistentLevel.BoxReflectionCapture3'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.18"
+    },
+    {
+      "ObjectName": "BP_LobbyCameraActor_C'Lobby_Scene_Light_Role_Queen:PersistentLevel.CameraActor_WalkRun'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.36"
+    },
+    {
+      "ObjectName": "BP_LobbyCameraActor_C'Lobby_Scene_Light_Role_Queen:PersistentLevel.CameraActor_Jump'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.34"
+    },
+    {
+      "ObjectName": "BP_LobbyCameraActor_C'Lobby_Scene_Light_Role_Queen:PersistentLevel.CameraActor_RoleAction'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.35"
+    },
+    {
+      "ObjectName": "BP_LobbyCameraActor_C'Lobby_Scene_Light_Role_Queen:PersistentLevel.CameraActor_Far'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.33"
+    },
+    {
+      "ObjectName": "BP_LobbyCameraActor_C'Lobby_Scene_Light_Role_Queen:PersistentLevel.CameraActor_Watch'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.37"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight2_env_red2'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.69"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight2_env_red3'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.70"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight3_env2'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.72"
+    },
+    {
+      "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_Queen:PersistentLevel.BoxReflectionCapture4'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.19"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.PointLight_1'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.55"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.PointLight2_4'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.54"
+    },
+    {
+      "ObjectName": "LightShadowVolume'Lobby_Scene_Light_Role_Queen:PersistentLevel.LightShadowVolume_QueenPerformence'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.49"
+    },
+    {
+      "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_Queen:PersistentLevel.BoxReflectionCapture5'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.20"
+    },
+    {
+      "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_Queen:PersistentLevel.BoxReflectionCapture6'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.21"
+    }
+  ],
+  "URL": {
+    "Protocol": "unreal",
+    "Host": "",
+    "Port": 7777,
+    "Valid": true,
+    "Map": "/Game/Startup/StartupMap",
+    "Op": [],
+    "Portal": ""
+  },
+  "Model": {
+    "ObjectName": "Model'Lobby_Scene_Light_Role_Queen:PersistentLevel.Model_0'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.50"
+  },
+  "ModelComponents": [],
+  "LevelScriptActor": null,
+  "NavListStart": null,
+  "NavListEnd": null,
+  "PrecomputedVisibilityHandler": {
+    "PrecomputedVisibilityCellBucketOriginXY": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "PrecomputedVisibilityCellSizeXY": 0.0,
+    "PrecomputedVisibilityCellSizeZ": 0.0,
+    "PrecomputedVisibilityCellBucketSizeXY": 0,
+    "PrecomputedVisibilityNumCellBuckets": 0,
+    "PrecomputedVisibilityCellBuckets": []
+  },
+  "PrecomputedVolumeDistanceField": {
+    "VolumeMaxDistance": 0.0,
+    "VolumeBox": {
+      "Min": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Max": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "IsValid": 0
+    },
+    "VolumeSizeX": 0,
+    "VolumeSizeY": 0,
+    "VolumeSizeZ": 0,
+    "Data": []
+  }
+}

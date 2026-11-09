@@ -1,0 +1,24 @@
+{
+  "Type": "PlanarReflection",
+  "Name": "PlanarReflection_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'PlanarReflection'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.30"
+  },
+  "Properties": {
+    "PlanarReflectionComponent": {
+      "ObjectName": "PlanarReflectionComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.PlanarReflection_1.NewPlanarReflectionComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.37"
+    },
+    "SceneComponent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.PlanarReflection_1.SceneComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.40"
+    },
+    "RootComponent": {
+      "ObjectName": "PlanarReflectionComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.PlanarReflection_1.NewPlanarReflectionComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.37"
+    }
+  }
+}

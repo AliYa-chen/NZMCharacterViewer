@@ -1,0 +1,43 @@
+{
+  "Type": "ParticleLODLevel",
+  "Name": "ParticleLODLevel_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleLODLevel'",
+  "Outer": {
+    "ObjectName": "ParticleSpriteEmitter'P_EFX_Default_BeiJing_Light_Line:ParticleSpriteEmitter_0'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line.9"
+  },
+  "Properties": {
+    "RequiredModule": {
+      "ObjectName": "ParticleModuleRequired'P_EFX_Default_BeiJing_Light_Line:ParticleModuleRequired_0'",
+      "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line.5"
+    },
+    "Modules": [
+      {
+        "ObjectName": "ParticleModuleLifetime'P_EFX_Default_BeiJing_Light_Line:ParticleModuleLifetime_0'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line.3"
+      },
+      {
+        "ObjectName": "ParticleModuleSize'P_EFX_Default_BeiJing_Light_Line:ParticleModuleSize_0'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line.6"
+      },
+      {
+        "ObjectName": "ParticleModuleColor'P_EFX_Default_BeiJing_Light_Line:ParticleModuleColor_0'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line.2"
+      },
+      {
+        "ObjectName": "ParticleModuleMeshMaterial'P_EFX_Default_BeiJing_Light_Line:ParticleModuleMeshMaterial_0'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line.4"
+      }
+    ],
+    "TypeDataModule": {
+      "ObjectName": "ParticleModuleTypeDataMesh'P_EFX_Default_BeiJing_Light_Line:ParticleModuleTypeDataMesh_0'",
+      "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line.8"
+    },
+    "SpawnModule": {
+      "ObjectName": "ParticleModuleSpawn'P_EFX_Default_BeiJing_Light_Line:ParticleModuleSpawn_0'",
+      "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line.7"
+    },
+    "PeakActiveParticles": 3
+  }
+}

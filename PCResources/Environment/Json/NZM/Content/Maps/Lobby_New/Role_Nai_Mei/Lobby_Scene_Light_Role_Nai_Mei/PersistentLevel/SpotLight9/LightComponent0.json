@@ -1,0 +1,46 @@
+{
+  "Type": "SpotLightComponent",
+  "Name": "LightComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SpotLightComponent'",
+  "Outer": {
+    "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.SpotLight9'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.53"
+  },
+  "Properties": {
+    "bIgnoreShadowVolume": true,
+    "IntensityUnits": "ELightUnits::Lumens",
+    "AttenuationRadius": 10000.0,
+    "SpecularScale": 0.5,
+    "ShadowBias": 0.05,
+    "bOverride_MaxShadowQualityOverride": true,
+    "MaxShadowQualityOverride": 3,
+    "Intensity": 10000.0,
+    "LightColor": {
+      "B": 127,
+      "G": 162,
+      "R": 255,
+      "A": 255,
+      "Hex": "FFA27F"
+    },
+    "CastShadows": false,
+    "RelativeLocation": {
+      "X": 2307.7788,
+      "Y": -6145.562,
+      "Z": 302.57715
+    },
+    "RelativeRotation": {
+      "Pitch": 27.593067,
+      "Yaw": 180.81735,
+      "Roll": 0.00011159747
+    },
+    "Mobility": "EComponentMobility::Movable",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  "IntensityNits": 0.0
+}

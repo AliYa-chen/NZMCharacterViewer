@@ -1,0 +1,43 @@
+{
+  "Type": "ClothingAssetNv",
+  "Name": "SK_Char_Angle_UI_HatHair_ProxyMesh_Lod1_Clothing_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ClothingAssetNv'",
+  "Outer": {
+    "ObjectName": "SkeletalMesh'SK_Char_Angle_UI_HatHair_Mesh'",
+    "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_UI_HatHair_Mesh.12"
+  },
+  "Properties": {
+    "PhysicsAsset": {
+      "ObjectName": "PhysicsAsset'PHYS_SK_Char_Angle_Mesh'",
+      "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/PHYS_SK_Char_Angle_Mesh.0"
+    },
+    "ClothSimConfig": {
+      "ObjectName": "ClothConfigNv'SK_Char_Angle_UI_HatHair_Mesh:SK_Char_Angle_UI_HatHair_ProxyMesh_Lod1_Clothing_0.ClothConfigNv'",
+      "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_UI_HatHair_Mesh.1"
+    },
+    "ClothLodData": [
+      {
+        "ObjectName": "ClothLODDataNv'SK_Char_Angle_UI_HatHair_Mesh:SK_Char_Angle_UI_HatHair_ProxyMesh_Lod1_Clothing_0.ClothLODDataNv_0'",
+        "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_UI_HatHair_Mesh.7"
+      }
+    ],
+    "LodMap": [
+      -1,
+      -1
+    ],
+    "UsedBoneNames": [
+      "b_Head",
+      "b_Hips",
+      "b_Spine",
+      "b_Spine2"
+    ],
+    "UsedBoneIndices": [
+      17,
+      12,
+      13,
+      15
+    ],
+    "AssetGuid": "5A769757-400F4705-3143B393-1B1329CF"
+  }
+}

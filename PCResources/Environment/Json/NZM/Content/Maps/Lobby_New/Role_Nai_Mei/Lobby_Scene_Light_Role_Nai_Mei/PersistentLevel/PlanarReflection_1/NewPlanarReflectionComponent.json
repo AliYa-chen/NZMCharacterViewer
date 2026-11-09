@@ -1,0 +1,33 @@
+{
+  "Type": "PlanarReflectionComponent",
+  "Name": "NewPlanarReflectionComponent",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'PlanarReflectionComponent'",
+  "Outer": {
+    "ObjectName": "PlanarReflection'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.PlanarReflection_1'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.36"
+  },
+  "Properties": {
+    "PreviewBox": {
+      "ObjectName": "BoxComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.PlanarReflection_1.DrawBox0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.5"
+    },
+    "bShowPreviewPlane": false,
+    "RelativeLocation": {
+      "X": 271.27426,
+      "Y": 41.73683,
+      "Z": 15.0
+    },
+    "RelativeScale3D": {
+      "X": 8.0,
+      "Y": 8.0,
+      "Z": 1.0
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'PlanarReflectionComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  }
+}

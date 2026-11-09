@@ -1,0 +1,24 @@
+{
+  "Type": "PlanarReflection",
+  "Name": "PlanarReflection_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'PlanarReflection'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Naimei:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.7"
+  },
+  "Properties": {
+    "PlanarReflectionComponent": {
+      "ObjectName": "PlanarReflectionComponent'Lobby_Scene_Light_Role_Naimei:PersistentLevel.PlanarReflection_1.NewPlanarReflectionComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.13"
+    },
+    "SceneComponent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Naimei:PersistentLevel.PlanarReflection_1.SceneComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.33"
+    },
+    "RootComponent": {
+      "ObjectName": "PlanarReflectionComponent'Lobby_Scene_Light_Role_Naimei:PersistentLevel.PlanarReflection_1.NewPlanarReflectionComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.13"
+    }
+  }
+}

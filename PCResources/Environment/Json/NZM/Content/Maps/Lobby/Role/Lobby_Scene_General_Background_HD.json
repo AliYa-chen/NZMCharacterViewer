@@ -1,0 +1,16 @@
+{
+  "Type": "World",
+  "Name": "Lobby_Scene_General_Background_HD",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'World'",
+  "Package": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background_HD",
+  "Properties": {
+    "DefaultPhysicsVolume": null
+  },
+  "PersistentLevel": {
+    "ObjectName": "Level'Lobby_Scene_General_Background_HD:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background_HD.1"
+  },
+  "ExtraReferencedObjects": [],
+  "StreamingLevels": []
+}

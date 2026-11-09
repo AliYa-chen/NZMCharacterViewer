@@ -1,0 +1,15 @@
+{
+  "Type": "ClothConfigNv",
+  "Name": "ClothConfigNv",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ClothConfigNv'",
+  "Outer": {
+    "ObjectName": "ClothingAssetNv'SK_Char_Angle_UI_HatHair_Mesh:SK_Char_Angle_UI_HatHair_ProxyMesh_Lod0_Clothing_0'",
+    "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_UI_HatHair_Mesh.3"
+  },
+  "Properties": {
+    "SolverFrequency": 60.0,
+    "StiffnessFrequency": 1.0,
+    "bUseGravityOverride": true
+  }
+}

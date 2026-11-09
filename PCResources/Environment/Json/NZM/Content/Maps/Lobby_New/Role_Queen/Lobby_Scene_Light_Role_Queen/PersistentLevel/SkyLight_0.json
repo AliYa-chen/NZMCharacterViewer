@@ -1,0 +1,23 @@
+{
+  "Type": "SkyLight",
+  "Name": "SkyLight_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SkyLight'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Queen:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.48"
+  },
+  "Properties": {
+    "LightComponent": {
+      "ObjectName": "SkyLightComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.SkyLight_0.SkyLightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.66"
+    },
+    "RootComponent": {
+      "ObjectName": "SkyLightComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.SkyLight_0.SkyLightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.66"
+    },
+    "Tags": [
+      "SequencerSubLight3"
+    ]
+  }
+}

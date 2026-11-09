@@ -1,0 +1,175 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Angel_Head_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_Head_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Skin_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Master_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "bOverrideSubsurfaceProfile": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "Bias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -3.0,
+        "ExpressionGUID": "467BF3F1-4C90C150-65256DA7-DA639792"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PSABias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "54FF086F-478A5B4B-6685878A-75A4071A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DetailTilling",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 10.0,
+        "ExpressionGUID": "2BD555A5-416A0810-8145B1B4-42DA2AA2"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "DetailWeight",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.3,
+        "ExpressionGUID": "61DC9651-4B0E1D3A-D01816AB-A7EBBEAA"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "WinkIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "C7804FEF-4BCC63B8-CD3166BA-E7A4756D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "DetailNormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_FemaleSkin_DetailNormal01'",
+          "ObjectPath": "NZM/Content/Avatar/Base/Textures/T_FemaleSkin_DetailNormal01.0"
+        },
+        "ExpressionGUID": "7447F909-4A5D638B-0DC8C2A2-C1668852"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angel_Head_CE_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Textures_HD/T_Char_Angel_Head_CE_HD.0"
+        },
+        "ExpressionGUID": "794121A2-4A8DDFB6-4A763492-CBAFE635"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angel_Head_N_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Textures_HD/T_Char_Angel_Head_N_HD.0"
+        },
+        "ExpressionGUID": "BF98B7FE-4646CF20-4129919E-BAE6F8C0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "MetallicMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angel_Head_M_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Textures_HD/T_Char_Angel_Head_M_HD.0"
+        },
+        "ExpressionGUID": "0E9DCA70-4B1FDC6E-2EADC89A-BEC85573"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PSARMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angel_Head_PSAR_HD'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Textures_HD/T_Char_Angel_Head_PSAR_HD.0"
+        },
+        "ExpressionGUID": "E1611FC2-4D2522FB-515EBC85-6C203CD1"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "WinkNormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Char_Angel_Head_N_Close'",
+          "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Textures_HD/T_Char_Angel_Head_N_Close.0"
+        },
+        "ExpressionGUID": "02D45DC8-40763AD1-95987785-9A2332AB"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_SubsurfaceProfile",
+      "OpacityMaskClipValue": 0.3333
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "bFixWink",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "BA1EE633-4084AF28-AEFD7D96-1A07FBE9"
+        }
+      ]
+    },
+    "SubsurfaceProfile": {
+      "ObjectName": "SubsurfaceProfile'Angel_Head_SubPro_Skin'",
+      "ObjectPath": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/Angel_Head_SubPro_Skin.0"
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 10.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_FemaleSkin_DetailNormal01"
+      }
+    ]
+  }
+}

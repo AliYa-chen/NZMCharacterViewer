@@ -1,0 +1,67 @@
+{
+  "Type": "StaticMeshComponent",
+  "Name": "StaticMesh",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'StaticMeshComponent'",
+  "Outer": {
+    "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold17'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.30"
+  },
+  "Template": {
+    "ObjectName": "StaticMeshComponent'LF_Generic_SIgnalLight_MergencyLamp_03b_C:StaticMesh_GEN_VARIABLE'",
+    "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_Template/LF_Generic_Template/LF_Generic_Bracket_Template/LF_Generic_SIgnalLight_MergencyLamp_03b.6"
+  },
+  "Properties": {
+    "LocalLightGroupBakeObject": {
+      "ObjectName": "LocalLightGroupBake'LocalLightBakeVolume_HD'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Role_AngelLucia_Main/Lobby_Scene_Mesh_Role_AngelLucia_HDData/LocalLightBakeVolume_HD.0"
+    },
+    "LocalLightGroupBakeBuildIDMap": null,
+    "CustomPrimitiveData": {
+      "Data": [
+        50.0,
+        3.6458313,
+        3.6458313,
+        50.0
+      ]
+    },
+    "AttachParent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold17.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.118"
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "bNetAddressable": true,
+    "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+    "UCSModifiedProperties": [
+      {
+        "MemberParent": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "CustomPrimitiveData",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'ActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "PrimaryComponentTick",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      }
+    ]
+  },
+  "LODData": [
+    {
+      "MapBuildDataId": "D8B97D0D46EC37142E3BE3B25A2AE7D0"
+    },
+    {
+      "MapBuildDataId": "F66CD5B94E3DE58F27D48FA23A8BB6EC"
+    }
+  ]
+}

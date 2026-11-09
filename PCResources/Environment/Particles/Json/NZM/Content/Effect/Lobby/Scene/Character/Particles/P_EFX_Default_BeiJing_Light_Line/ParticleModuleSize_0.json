@@ -1,0 +1,37 @@
+{
+  "Type": "ParticleModuleSize",
+  "Name": "ParticleModuleSize_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleModuleSize'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Light_Line'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line.10"
+  },
+  "Properties": {
+    "StartSize": {
+      "MaxValue": 200.0,
+      "MinValueVec": {
+        "X": 200.0,
+        "Y": 0.5,
+        "Z": 0.0
+      },
+      "MaxValueVec": {
+        "X": 200.0,
+        "Y": 0.5,
+        "Z": 0.0
+      },
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          200.0,
+          0.5,
+          0.0
+        ],
+        "Op": 1,
+        "EntryCount": 1,
+        "EntryStride": 3
+      }
+    },
+    "LODValidity": 1
+  }
+}

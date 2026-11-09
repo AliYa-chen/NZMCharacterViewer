@@ -1,0 +1,45 @@
+{
+  "Type": "SpotLightComponent",
+  "Name": "LightComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SpotLightComponent'",
+  "Outer": {
+    "ObjectName": "SpotLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SpotLight2'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.54"
+  },
+  "Properties": {
+    "OuterConeAngle": 40.0,
+    "bIgnoreShadowVolume": true,
+    "IntensityUnits": "ELightUnits::Lumens",
+    "AttenuationRadius": 2000.0,
+    "bMobileAffectForwardObject": true,
+    "ShadowBias": 0.05,
+    "bOverride_MaxShadowQualityOverride": true,
+    "bOverride_PCSSOverride": true,
+    "MaxShadowQualityOverride": 3,
+    "MobileDynamicShadowMapResolution": 1024,
+    "LightGuid": "C48EDC68-43DC4A0E-7C75E288-22E42CD3",
+    "Intensity": 400.0,
+    "LightColor": {
+      "B": 255,
+      "G": 204,
+      "R": 164,
+      "A": 255,
+      "Hex": "A4CCFF"
+    },
+    "VolumetricScatteringIntensity": 0.0,
+    "RelativeLocation": {
+      "X": -2774.0981,
+      "Y": -6679.0103,
+      "Z": -8743.263
+    },
+    "Mobility": "EComponentMobility::Static",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  "IntensityNits": 0.0
+}

@@ -1,0 +1,23 @@
+{
+  "Type": "Emitter",
+  "Name": "P_EFX_Default_BeiJing_Light_Top_Right",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Emitter'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_General_Background:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.6"
+  },
+  "Properties": {
+    "ParticleSystemComponent": {
+      "ObjectName": "ParticleSystemComponent'Lobby_Scene_General_Background:PersistentLevel.P_EFX_Default_BeiJing_Light_Top_Right.ParticleSystemComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.14"
+    },
+    "RootComponent": {
+      "ObjectName": "ParticleSystemComponent'Lobby_Scene_General_Background:PersistentLevel.P_EFX_Default_BeiJing_Light_Top_Right.ParticleSystemComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.14"
+    },
+    "Tags": [
+      "SequencerMesh2"
+    ]
+  }
+}

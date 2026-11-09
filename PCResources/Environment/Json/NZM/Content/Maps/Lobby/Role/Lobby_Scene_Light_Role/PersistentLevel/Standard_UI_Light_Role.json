@@ -1,0 +1,73 @@
+{
+  "Type": "Standard_UI_Light_C",
+  "Name": "Standard_UI_Light_Role",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "BlueprintGeneratedClass'NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.Standard_UI_Light_C'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.11"
+  },
+  "Template": {
+    "ObjectName": "Standard_UI_Light_C'Default__Standard_UI_Light_C'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.1"
+  },
+  "Properties": {
+    "DirectionalLight": {
+      "ObjectName": "DirectionalLightComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.DirectionalLight'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.8"
+    },
+    "SkyLight": {
+      "ObjectName": "SkyLightComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.SkyLight'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.22"
+    },
+    "SpotLight_Fill02": {
+      "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.SpotLight_Fill02'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.24"
+    },
+    "SpotLight_Fill01": {
+      "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.SpotLight_Fill01'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.23"
+    },
+    "SpotLight_Main": {
+      "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.SpotLight_Main'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.25"
+    },
+    "DefaultSceneRoot": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.20"
+    },
+    "RootComponent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.20"
+    },
+    "Tags": [
+      "SequencerLightGroup"
+    ],
+    "BlueprintCreatedComponents": [
+      {
+        "ObjectName": "SceneComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.DefaultSceneRoot'",
+        "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.20"
+      },
+      {
+        "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.SpotLight_Main'",
+        "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.25"
+      },
+      {
+        "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.SpotLight_Fill01'",
+        "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.23"
+      },
+      {
+        "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.SpotLight_Fill02'",
+        "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.24"
+      },
+      {
+        "ObjectName": "SkyLightComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.SkyLight'",
+        "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.22"
+      },
+      {
+        "ObjectName": "DirectionalLightComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.DirectionalLight'",
+        "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.8"
+      }
+    ]
+  }
+}

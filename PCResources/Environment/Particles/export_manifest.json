@@ -1,0 +1,758 @@
+{
+  "schema_version": 1,
+  "source": "PC Content/Paks base archives; no Saved patch precedence asserted",
+  "extractor_format": "CUE4Parse GAME_AssaultFireFuture",
+  "files": [
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line",
+      "class": "ParticleSystem",
+      "sha256": "c569f3145cd253cdebfb129fbd421ece61d2afabd3fe0b52bfe83740ee1b6503"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Top.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Top",
+      "class": "ParticleSystem",
+      "sha256": "37c03cc5569a9a83a74a8dae13b2f17ef251c63b1a6c8bfeea6a7ecce256b6da"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleSystem",
+      "sha256": "552449fda6deffdf2d249548d6589fe675a580403f5927952b1d35e0fd68c4bd"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+      "class": "ParticleSystem",
+      "sha256": "ab1ca06289574b922f60f9521b5072c11392bc47f019086532519135fbb991a0"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleSystem",
+      "sha256": "0f8fd710e339696e290dca8b9e91b0abac23adcec1a2cf945cd7f848c5ea94fb"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line/ParticleModuleColor_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line",
+      "class": "ParticleModuleColor",
+      "sha256": "22d3f93abc924f0a5816b0e206462c22470ccbf9c2c470e08b9a26fbb7620ed5"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line/ParticleModuleLifetime_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line",
+      "class": "ParticleModuleLifetime",
+      "sha256": "a4c14a6d4fd103d31c9d11ada7220400ada2096312722c1aa30c75a011cb92af"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line/ParticleModuleMeshMaterial_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line",
+      "class": "ParticleModuleMeshMaterial",
+      "sha256": "09d925a443962dd0699d482b30d5efc927d28336431527031fdcf1603262c2eb"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line/ParticleModuleRequired_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line",
+      "class": "ParticleModuleRequired",
+      "sha256": "cc4434accccc7dbd549c5219d09e98c8dc760d85de7d5567189ddab45bdaebfa"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line/ParticleModuleSize_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line",
+      "class": "ParticleModuleSize",
+      "sha256": "7995a3f2b4e37bfa285013551a540964f4fa82f6b385d2d040c0111cab4d6f02"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line/ParticleModuleSpawn_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line",
+      "class": "ParticleModuleSpawn",
+      "sha256": "250e79de40601d532e4be05430f2badc5dc32c38e6a1e90c7b9c927407e038cd"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line/ParticleModuleTypeDataMesh_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line",
+      "class": "ParticleModuleTypeDataMesh",
+      "sha256": "326833f827d1c905b9c85915acc6e86eed57bb8707e97020c868ea6923a0e6f4"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line/ParticleSpriteEmitter_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line",
+      "class": "ParticleSpriteEmitter",
+      "sha256": "6bf00f09d855fc5afb1a0ec0eca2b08898f8388c9b02c551c9aa3eaceade9abe"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line/ParticleModuleRequired_0/RequiredDistributionSpawnRate.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line",
+      "class": "DistributionFloatConstant",
+      "sha256": "3cf293e2e806f80558837d860c0be0abecad08380538f3215ebecbbe95f001fa"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line/ParticleSpriteEmitter_0/ParticleLODLevel_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line",
+      "class": "ParticleLODLevel",
+      "sha256": "d73334f73607bbd4f99448a6b9642b5bd5c6a6011878f83a534aafe1bcaad2cd"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleColor_2.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleColor",
+      "sha256": "2ac779cc0377397dfde9d8a571c0a1cb311f17f31ff29e27e5effd31fb004c2e"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleColor_7.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleColor",
+      "sha256": "f4eef54ca3c17ee69b0e4152da8762c24151fff291e26d636d9ff4bfe9ab4c93"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleLifetime_3.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleLifetime",
+      "sha256": "82c3e3f54e6c3c1587ae19a1a5947a7401f8da05efc08117547d3c28d600feda"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleLocation_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleLocation",
+      "sha256": "68c7a8456d8d1f6a0cf117888bbfe7bc0308c660bbad47f7aefc0a86b0dedc7a"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleLocation_4.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleLocation",
+      "sha256": "9e0413b061f4ae50357bb550eefe66e9da17063e568e7f132fc8a81e27e8311f"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleLocation_6.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleLocation",
+      "sha256": "eb579d03b2cef95704535bcdcc7cdb6351a040ba228084d198a5d5e7dcee472f"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleMeshMaterial_2.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleMeshMaterial",
+      "sha256": "9cfd8c1d59f95faa7170e5cfeacf27ca2563c8d4a66eb3f36201a88bc7c56d5a"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleMeshMaterial_4.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleMeshMaterial",
+      "sha256": "889b4fc003d298eafd7047e95ef5cd253390dc7f0f2030f566e829feeead0763"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleMeshMaterial_6.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleMeshMaterial",
+      "sha256": "be7f34114ade3dfcd595a621267706c52d8d1ac4c6422d5662cac8cf6064d951"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleMeshRotation_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleMeshRotation",
+      "sha256": "e7fbabf260b1f0b3c88c2c54d2adc1e58dbc811606fdf387432f03d873055443"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleMeshRotation_3.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleMeshRotation",
+      "sha256": "790eebc0321ebc99d346f9ca139a7c81dc84bd383f3a8b2dc9f4e3cecdd678ea"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleMeshRotation_4.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleMeshRotation",
+      "sha256": "817b664dd6ec0d00acba657bb6fa8db486339e5c2c6c773bd0d525bfd120e75d"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleRequired_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleRequired",
+      "sha256": "e1e1dac36addb8c1dcf8400f7a07e0bf9b9ece936aaca6a0f3a1e3ca3e61a2ba"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleRequired_4.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleRequired",
+      "sha256": "12572460a67e033447f150377e49df359a4315036861271aaca8e697d26b2288"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleRequired_8.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleRequired",
+      "sha256": "a74fbb41d95bb0aaf02083d02be5d84adcd728bca5fd6a7d1d869368842bf6d6"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleSize_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleSize",
+      "sha256": "d95b2d8d1ebf7b0053c97b5c2c3ddfb84f33d3179818a0099f821a372e104206"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleSize_4.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleSize",
+      "sha256": "1132ee45bd989f1b3f82f55e89aac307d7efe15958111050168174c0ae7cd325"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleSize_6.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleSize",
+      "sha256": "a2b984427b27ac7aaaac787a63119f187885c634987f7be0116ce8403c7d824a"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleSpawn_7.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleSpawn",
+      "sha256": "7f053b90b4aaaa9a8ed423a70cf680baa612b4437c089bf95c386f751c0a79ab"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleTypeDataMesh_2.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleTypeDataMesh",
+      "sha256": "8cdfc36064651914b88c6508416903ca4a007bfd87fdc5cc61190fd79e466c02"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleTypeDataMesh_4.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleTypeDataMesh",
+      "sha256": "d1d44b76021963bc1082cab71c3a204ffddd682b2a51ec8e4b2e1b85bbd7c6a0"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleTypeDataMesh_6.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleModuleTypeDataMesh",
+      "sha256": "5c9e42c8aeaaacd70cdc5cc215cf59305ec6d094e427ec4af8a3d65a2eb6ac01"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleSpriteEmitter_2.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleSpriteEmitter",
+      "sha256": "78db4c90e50fb3986086889c133815aefbc1e4020785385564b4738482843825"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleSpriteEmitter_4.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleSpriteEmitter",
+      "sha256": "3a4b6caa53dbc6895bd5be6a1ee7077eed071dd9291bfacfdb6061829867020d"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleSpriteEmitter_8.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleSpriteEmitter",
+      "sha256": "e12952b7675b34fb323a3c6466274bed0348000c73b150fcf3c7776760e379bf"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleRequired_1/RequiredDistributionSpawnRate.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "DistributionFloatConstant",
+      "sha256": "ac260238b3e3e2a0d6317ca3c7e193f78dcb4a3a4c63f05094d887b74aaccc58"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleRequired_4/RequiredDistributionSpawnRate.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "DistributionFloatConstant",
+      "sha256": "5f51f4da127fc9247f2ba8bded3f46a5f29afd6e808fc51af69a2e1378971874"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleModuleRequired_8/RequiredDistributionSpawnRate.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "DistributionFloatConstant",
+      "sha256": "b68df3167ce1608d9be110ad20add8fee011e5cff6773440b532a29044835f0e"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleSpriteEmitter_2/ParticleLODLevel_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleLODLevel",
+      "sha256": "5a123166929c96a0907703dcce2a85489cbfc57a9044166232725e3d21911871"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleSpriteEmitter_4/ParticleLODLevel_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleLODLevel",
+      "sha256": "e1badadf5c7551c0f7f5e802201a9260591bb917beece5128e92fc4b09f3a609"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big/ParticleSpriteEmitter_8/ParticleLODLevel_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big",
+      "class": "ParticleLODLevel",
+      "sha256": "63aabaceca4e8a1427f3ae4db847bec7ec129e3cc39f02c097f1ad9854cb7d2b"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round/ParticleModuleColor_3.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+      "class": "ParticleModuleColor",
+      "sha256": "2e87172e7ea9b2ea7d86da259b948f01fc130b7654fae58ae860ed5e869b11b1"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round/ParticleModuleLifetime_Seeded_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+      "class": "ParticleModuleLifetime_Seeded",
+      "sha256": "d7cc8c75675bf989d60823b6ae43d99402fa131edd27ce7bf8bed95eadd5697b"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round/ParticleModuleLocation_Seeded_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+      "class": "ParticleModuleLocation_Seeded",
+      "sha256": "6ceba1c02318fc0e2781bc1bf51e7bb0a1e34f79934805d2f0b414d841e8c3a0"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round/ParticleModuleLocationPrimitiveSphere_Seeded_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+      "class": "ParticleModuleLocationPrimitiveSphere_Seeded",
+      "sha256": "269b78097fe97381f5c2d30bf252494874560e010d67e8714b9d81e102813150"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round/ParticleModuleOrbit_2.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+      "class": "ParticleModuleOrbit",
+      "sha256": "c3220138f2ed8053b2adda65bed115072cbdf21231f6d0a9b417f2b87ce4c0a0"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round/ParticleModuleRequired_9.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+      "class": "ParticleModuleRequired",
+      "sha256": "766844887f4a351bf708848f735adf15f95cb1c0ac369aab04c0789fc65c3489"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round/ParticleModuleSize_Seeded_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+      "class": "ParticleModuleSize_Seeded",
+      "sha256": "ec16721f350879674623f1672af8688eca3c5320c76fbece5af7e530567729f2"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round/ParticleModuleSizeMultiplyLife_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+      "class": "ParticleModuleSizeMultiplyLife",
+      "sha256": "0ddd299395d1f9081b338d544a7ad181292d0090ea437b9919ad87f4e63cdd35"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round/ParticleModuleSpawn_9.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+      "class": "ParticleModuleSpawn",
+      "sha256": "349e415389806651c45a485cf76029669bfb78ea48e6b2b2cc223a316e1cd5bb"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round/ParticleModuleVelocity_Seeded_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+      "class": "ParticleModuleVelocity_Seeded",
+      "sha256": "9961233aaa7e36ed342fae38a40c873667726eb9bc38382e00541b4d77117c93"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round/ParticleSpriteEmitter_9.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+      "class": "ParticleSpriteEmitter",
+      "sha256": "f0ce274ccb090493091a9acddd7420efaf189e48a04b55c3ceac808f077fe144"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round/ParticleModuleRequired_9/RequiredDistributionSpawnRate.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+      "class": "DistributionFloatConstant",
+      "sha256": "b76a8c5292c8ff96b3f5a2c62e0d82da43dc9e90ed7899e0216c7affd2febecf"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round/ParticleSpriteEmitter_9/ParticleLODLevel_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Round",
+      "class": "ParticleLODLevel",
+      "sha256": "a4a9e4f0714a3553f39418bb08ab0b165130d4823a1fcbf3af5b618d9849e89c"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleAcceleration_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleAcceleration",
+      "sha256": "a48f58c088d9edb667d2e5e941ed6e6460c4bf4422f6d8bc09f89785e962aac1"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleColor_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleColor",
+      "sha256": "524658b9f9632aad21e9776c63ca2aa395014cc1e81aefefa2acbb24e748c63c"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleColor_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleColor",
+      "sha256": "91f259ccd3e6158c8e49068f2c6ec1e72e86bf3a76fc6413fe4e61726b56ec08"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleColor_2.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleColor",
+      "sha256": "4d984b9242b21f808767a62bca5dffdedf32b84efeb3e48e375ff46e0d84efbf"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleColor_3.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleColor",
+      "sha256": "f5653153db561373b5b2b1573e67d3fab03b9aa83722cc4d0728b9e833fd3ac3"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleLifetime_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleLifetime",
+      "sha256": "5d940ebf0367afe09465b20de7b4a28d3bd9c1997b843fedbf4a5bcaa0f9387a"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleLifetime_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleLifetime",
+      "sha256": "a76623e2ca738b88621ed98d8a7bdedfe74f3293685ed9c1a13e654ac4b38dc0"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleLifetime_3.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleLifetime",
+      "sha256": "b5ce6e582a8b2143353256a56ee6c079ca54e67a29382bc6a300d1e4e576b9b6"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleLifetime_4.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleLifetime",
+      "sha256": "09aaf9053baf366afda2ca7c0bec527461e5befad85002cb61d0e4e160b0e076"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleLifetime_5.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleLifetime",
+      "sha256": "822cf832e80ccc0c27f4a2ceafb55e967e69ae91732f5ddcb3b89073a9e19949"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleLifetime_Seeded_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleLifetime_Seeded",
+      "sha256": "250ce4ce732aebe17d7d4e8dd6f69afebf0e01c3c236fa051e415d470bf20cb2"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleLocation_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleLocation",
+      "sha256": "16375768c6fb2fae87e42abd1fc1f5180a12b3c76ddbbafa5a8c146e7dddf63f"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleLocation_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleLocation",
+      "sha256": "d51e5fb2b979c5a7b7ee8b870df10bf95942f11bb3977caa11d3a0c221373016"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleLocation_2.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleLocation",
+      "sha256": "6c3da1d0548afb720dee02863c022243add60f5d94215a8a58dca14196e338ca"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleLocation_3.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleLocation",
+      "sha256": "f03f83a712ed3d15f50cb28ac0de44f703a9125c18824717de9c3ea6e3757911"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleLocation_7.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleLocation",
+      "sha256": "2b6e15913037e9c3d6260b166c7a82115c574148fc1bf83d41afad60a9903a76"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleLocation_Seeded_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleLocation_Seeded",
+      "sha256": "14c90f94df86ce1a65f35e3a9940a09b2296b18286978a349d111c4711d6bb24"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleLocationPrimitiveSphere_Seeded_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleLocationPrimitiveSphere_Seeded",
+      "sha256": "f75a4af77e9ab19aead4275e5a0f47be2e587c66cece1a63b4ac41dda62f84d3"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleMeshMaterial_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleMeshMaterial",
+      "sha256": "b92a61fb94aae1f4b01bf77ffbd45ba6bae45f13b4f1806f59a7e245b51e2826"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleMeshMaterial_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleMeshMaterial",
+      "sha256": "000da3603e17ca9e2eaea95c40c31b14f0374a5cb5414be2081f70f59147215f"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleMeshMaterial_2.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleMeshMaterial",
+      "sha256": "c7257f8445fbbadcbc00825b475b5fe37b76eb4445f750ae4a7afd9b11f9d6f5"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleMeshMaterial_3.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleMeshMaterial",
+      "sha256": "e4e189009464f6fbf67aaf8ba686ccc3c7e351ea66779bb3fe35c8b83e675170"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleMeshRotation_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleMeshRotation",
+      "sha256": "9a3714008e7984220c934b1b0d5b182bcfae36bf3ab66b1fd2abcca809279138"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleMeshRotation_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleMeshRotation",
+      "sha256": "55a5e5b533e927e79278eb6b06938d65feda9d38e80884a35148d5ee21a4e9a3"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleMeshRotation_2.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleMeshRotation",
+      "sha256": "18d4907e75e8cc4eaa99a5710a91a3eb718ee7356ab6a921de423ecbd5845de8"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleMeshRotation_7.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleMeshRotation",
+      "sha256": "949c28513e5eb4569699b60c8de0f7b3e9bee3561a67cc1d277c41d0fbd720bf"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleRequired_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleRequired",
+      "sha256": "faee9ce5f206a0bb854e9ac705008b309db25c5420d2eb2753f56497d412526a"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleRequired_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleRequired",
+      "sha256": "4a35731d48e7e0e4475e24b363649654e6d2e0bac5a61fbb3526433ca30bab8e"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleRequired_2.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleRequired",
+      "sha256": "892eed0b952452d91d1cd0b3661bf5e5405cdd9a17e54582c2bc12456f50594b"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleRequired_3.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleRequired",
+      "sha256": "c9c43d7f0dfeef5911f7021fd75ff272efd9646fe4897d451436a48d7c7a4d2a"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleRequired_5.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleRequired",
+      "sha256": "0e4d03fc5581480bbe479310e024401b21844b98151d03af6952a376436d08ee"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleRequired_9.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleRequired",
+      "sha256": "a454590e3631969a6a5436536a92d4b9046ca4d655cb2ce550f9a33d5519aeb3"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleSize_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleSize",
+      "sha256": "e1dd3608400c7b363e7865d691e79fd375759b0e3bdab0b6e8e2fcff75488d53"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleSize_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleSize",
+      "sha256": "1f9e29161e8cdd4a9d8d5b1fda70e41182f1a787899ce854f27430cadbdaaa45"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleSize_2.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleSize",
+      "sha256": "32c42a8678124d66af6e3f6a1c45f5c9e811ed1db789f46007591d8920ccae83"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleSize_Seeded_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleSize_Seeded",
+      "sha256": "4c78148607c93f7fd453cd9e29b00553f7978cb232db93a73aaabbc7b8fc8bc7"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleSizeMultiplyLife_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleSizeMultiplyLife",
+      "sha256": "5a9999fd6abc3bd97678dcc0b06b9e6296db1719552164c42d92335a9cbba018"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleSpawn_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleSpawn",
+      "sha256": "fbc986aa32490bd94bda7aae54ab89165f1698f40d2ef97a83611434c4b9e2fa"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleSpawn_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleSpawn",
+      "sha256": "50062a000a2f89c4d9daf3bd792f99f541f673693a88c992e57e39d04c291b6e"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleSpawn_3.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleSpawn",
+      "sha256": "c5dff43b9e783e5c3a4ba374d38d00a0b502d4f7274248fcbc4bf100bc8fb197"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleSpawn_4.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleSpawn",
+      "sha256": "a9192ecdb5c47e4cd10fa9836b242e2aada0b2f853eb99617273e62667f82049"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleSpawn_7.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleSpawn",
+      "sha256": "02ad50d10de970cddf7bf73d47115b66c94bfd649b232ff5f392a04751d0141a"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleSpawn_9.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleSpawn",
+      "sha256": "3d63a1fa61a9d4677e1027a9e9adb95518cc4c3cfefb80b7bd4efeab15544b3c"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleTypeDataMesh_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleTypeDataMesh",
+      "sha256": "f3ca6e09dad825fd971d3089a4cb5a974b3907f6f4d5bd029d2236c01f8df27c"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleTypeDataMesh_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleTypeDataMesh",
+      "sha256": "56c4aa0d5e300db842dd8a2883311dbddc109dcfaff841e2f8dbc1bdf2d2d318"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleTypeDataMesh_2.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleTypeDataMesh",
+      "sha256": "6d53968177f8d0b48f753d60175f1f312e5681750f6664bbbe351c47e65127ec"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleTypeDataMesh_7.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleTypeDataMesh",
+      "sha256": "6639a14d77e94ba1c6cc4ea254b0bb6a7a918d1ba7c58fc48913728a282f63bb"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleVelocity_Seeded_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleModuleVelocity_Seeded",
+      "sha256": "e45d654566243d8b110576c2ced8ef02fcd889c771cab3002ecb64c046620819"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleSpriteEmitter_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleSpriteEmitter",
+      "sha256": "9e69e93f3f031605dece3a9024b6af6e9155eadc1e6b960d37e186231f9a0dea"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleSpriteEmitter_1.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleSpriteEmitter",
+      "sha256": "5cb8521cbd9d98963b02786c8f8c704f07d6b147eb298450c7bac0203d7e76f4"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleSpriteEmitter_2.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleSpriteEmitter",
+      "sha256": "ca612924d5afe3d17bc5ac034ca172cd09d2e26cb51a6290abd1d469ce805b74"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleSpriteEmitter_3.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleSpriteEmitter",
+      "sha256": "b3cd990e13e7ed6039a6922dd24f26a7b12e11b9c7adf6be803264ad0d0d16af"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleSpriteEmitter_5.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleSpriteEmitter",
+      "sha256": "ca7d00f777fb19903a72e298c5008c85cf52c73bf751a5709f233178cdf6256e"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleSpriteEmitter_9.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleSpriteEmitter",
+      "sha256": "e4f0bb368d0495b04a48a3b82dcacd009c3a54687bb918296ebc54431c979e41"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleRequired_0/RequiredDistributionSpawnRate.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "DistributionFloatConstant",
+      "sha256": "64953402f29527f217e4490c44cecc0790f538d943b007c1544ba314895124ef"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleRequired_1/RequiredDistributionSpawnRate.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "DistributionFloatConstant",
+      "sha256": "897d8de0d11933bc1369caea9d58269aa447a8198ed6e99cbe0d04559d8295fb"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleRequired_2/RequiredDistributionSpawnRate.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "DistributionFloatConstant",
+      "sha256": "b19f5f86adcb196e52f0c05d017e8f8d2b4a4e10bffa17be64f8e6118faa178e"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleRequired_3/RequiredDistributionSpawnRate.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "DistributionFloatConstant",
+      "sha256": "184c98aff342abb67beb1f7396017aaff6c36572dd14b68bf37ad5e4b19131a5"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleRequired_5/RequiredDistributionSpawnRate.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "DistributionFloatConstant",
+      "sha256": "a4c30f9ef272be5218f95348f6ae672e059f47f83d77898f1940352d8259edb2"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleModuleRequired_9/RequiredDistributionSpawnRate.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "DistributionFloatConstant",
+      "sha256": "f0ce3fcde2e330f13f935394ff8810ab65dca03f44e53c201162b565b9b1395a"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleSpriteEmitter_0/ParticleLODLevel_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleLODLevel",
+      "sha256": "af9f6a0b2720f4ea8efa285d1268a31bb1150f3945f08fba22433f34f7ef5b33"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleSpriteEmitter_1/ParticleLODLevel_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleLODLevel",
+      "sha256": "405b174c20d2937ad0861e13593e49de210ee44b6dd3e1437d45547c04cdca59"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleSpriteEmitter_2/ParticleLODLevel_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleLODLevel",
+      "sha256": "81646540f3c5295b1c770f651174c31964cce548960909b30ece6a8447501019"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleSpriteEmitter_3/ParticleLODLevel_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleLODLevel",
+      "sha256": "1767cdc808306b9b0f3cccdb53c1393bb1d69b2ba0508063da8141f5fe36969f"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleSpriteEmitter_5/ParticleLODLevel_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleLODLevel",
+      "sha256": "e336ba73ec1f64b5c05107bf2aa646d2ae7f01185a61cc1821a23db1820f8730"
+    },
+    {
+      "file": "Json/NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top/ParticleSpriteEmitter_9/ParticleLODLevel_0.json",
+      "package": "/Game/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top",
+      "class": "ParticleLODLevel",
+      "sha256": "d16f8e8b2f184426eb9569330f4d72b31152458359fc849eff2557447288cdd6"
+    }
+  ],
+  "omitted_local_artifact": "export_report.json contains local paths and is excluded from this publishable manifest"
+}

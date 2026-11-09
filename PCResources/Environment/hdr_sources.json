@@ -1,0 +1,666 @@
+{
+  "schema_version": 1,
+  "projection": "Radiance RGBE equirectangular panorama exported from cooked FloatRGBA cubemap faces; projection resampling and RGBE quantization are involved, not byte-identical original cubemaps.",
+  "records": [
+    {
+      "requested_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_NaiMei_sky_HD.uasset",
+      "name": "IBL_NaiMei_sky_HD",
+      "class": "TextureCube",
+      "object_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_NaiMei_sky_HD.IBL_NaiMei_sky_HD",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_NaiMei_sky_HD.uasset",
+          "size": 978,
+          "compression": "Oodle",
+          "archive": "Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 885874688
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_NaiMei_sky_HD.uexp",
+          "size": 1049289,
+          "compression": "Oodle",
+          "archive": "Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 885875433
+        }
+      },
+      "texture": {
+        "width": 128,
+        "height": 128,
+        "pixel_format": "PF_FloatRGBA",
+        "compression_settings": "TC_HDR",
+        "srgb": false,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 786432,
+            "bulk_offset": 1051574,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 196608,
+            "bulk_offset": 1838042,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 49152,
+            "bulk_offset": 2034686,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 12288,
+            "bulk_offset": 2083874,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 3072,
+            "bulk_offset": 2096198,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 768,
+            "bulk_offset": 2099306,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 2,
+            "height": 2,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 192,
+            "bulk_offset": 2100110,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 48,
+            "bulk_offset": 2100338,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_Role01_PC.uasset",
+      "name": "IBL_Role01_PC",
+      "class": "TextureCube",
+      "object_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_Role01_PC.IBL_Role01_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_Role01_PC.uasset",
+          "size": 930,
+          "compression": "Oodle",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81614848
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_Role01_PC.uexp",
+          "size": 1049263,
+          "compression": "Oodle",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81615545
+        }
+      },
+      "texture": {
+        "width": 128,
+        "height": 128,
+        "pixel_format": "PF_FloatRGBA",
+        "compression_settings": "TC_HDR",
+        "srgb": false,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 786432,
+            "bulk_offset": 1051426,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 196608,
+            "bulk_offset": 1837894,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 49152,
+            "bulk_offset": 2034538,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 12288,
+            "bulk_offset": 2083726,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 3072,
+            "bulk_offset": 2096050,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 768,
+            "bulk_offset": 2099158,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 2,
+            "height": 2,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 192,
+            "bulk_offset": 2099962,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 48,
+            "bulk_offset": 2100190,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_Treasure_HD.uasset",
+      "name": "IBL_Treasure_HD",
+      "class": "TextureCube",
+      "object_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_Treasure_HD.IBL_Treasure_HD",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_Treasure_HD.uasset",
+          "size": 976,
+          "compression": "Oodle",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 83179520
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_Treasure_HD.uexp",
+          "size": 1049292,
+          "compression": "Oodle",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 83180265
+        }
+      },
+      "texture": {
+        "width": 128,
+        "height": 128,
+        "pixel_format": "PF_FloatRGBA",
+        "compression_settings": "TC_HDR",
+        "srgb": false,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 786432,
+            "bulk_offset": 1051576,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 196608,
+            "bulk_offset": 1838044,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 49152,
+            "bulk_offset": 2034688,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 12288,
+            "bulk_offset": 2083876,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 3072,
+            "bulk_offset": 2096200,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 768,
+            "bulk_offset": 2099308,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 2,
+            "height": 2,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 192,
+            "bulk_offset": 2100112,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 48,
+            "bulk_offset": 2100340,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/MiddayPanorama_EV0_HD.uasset",
+      "name": "MiddayPanorama_EV0_HD",
+      "class": "TextureCube",
+      "object_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/MiddayPanorama_EV0_HD.MiddayPanorama_EV0_HD",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/MiddayPanorama_EV0_HD.uasset",
+          "size": 962,
+          "compression": "Oodle",
+          "archive": "Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 888678400
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/MiddayPanorama_EV0_HD.uexp",
+          "size": 1049266,
+          "compression": "Oodle",
+          "archive": "Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 888679129
+        }
+      },
+      "texture": {
+        "width": 128,
+        "height": 128,
+        "pixel_format": "PF_FloatRGBA",
+        "compression_settings": "TC_HDR",
+        "srgb": false,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 786432,
+            "bulk_offset": 1051496,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 196608,
+            "bulk_offset": 1837964,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 49152,
+            "bulk_offset": 2034608,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 12288,
+            "bulk_offset": 2083796,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 3072,
+            "bulk_offset": 2096120,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 768,
+            "bulk_offset": 2099228,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 2,
+            "height": 2,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 192,
+            "bulk_offset": 2100032,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 48,
+            "bulk_offset": 2100260,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/Office_Lounge.uasset",
+      "name": "Office_Lounge",
+      "class": "TextureCube",
+      "object_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/Office_Lounge.Office_Lounge",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/Office_Lounge.uasset",
+          "size": 972,
+          "compression": "Oodle",
+          "archive": "Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 889034752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/Office_Lounge.uexp",
+          "size": 1049292,
+          "compression": "Oodle",
+          "archive": "Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 889035481
+        }
+      },
+      "texture": {
+        "width": 128,
+        "height": 128,
+        "pixel_format": "PF_FloatRGBA",
+        "compression_settings": "TC_HDR",
+        "srgb": false,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 786432,
+            "bulk_offset": 1051568,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 196608,
+            "bulk_offset": 1838036,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 49152,
+            "bulk_offset": 2034680,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 12288,
+            "bulk_offset": 2083868,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 3072,
+            "bulk_offset": 2096192,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 768,
+            "bulk_offset": 2099300,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 2,
+            "height": 2,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 192,
+            "bulk_offset": 2100104,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 48,
+            "bulk_offset": 2100332,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/Reflection_Atelier_PC.uasset",
+      "name": "Reflection_Atelier_PC",
+      "class": "TextureCube",
+      "object_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/Reflection_Atelier_PC.Reflection_Atelier_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/Reflection_Atelier_PC.uasset",
+          "size": 988,
+          "compression": "Oodle",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 85354496
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/Reflection_Atelier_PC.uexp",
+          "size": 1049292,
+          "compression": "Oodle",
+          "archive": "Content/Paks/pakchunk22-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 85355241
+        }
+      },
+      "texture": {
+        "width": 128,
+        "height": 128,
+        "pixel_format": "PF_FloatRGBA",
+        "compression_settings": "TC_HDR",
+        "srgb": false,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 786432,
+            "bulk_offset": 1051600,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 196608,
+            "bulk_offset": 1838068,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 49152,
+            "bulk_offset": 2034712,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 12288,
+            "bulk_offset": 2083900,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 3072,
+            "bulk_offset": 2096224,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 768,
+            "bulk_offset": 2099332,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 2,
+            "height": 2,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 192,
+            "bulk_offset": 2100136,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 1,
+            "height": 1,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 48,
+            "bulk_offset": 2100364,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "Type": "ParticleSystem",
+  "Name": "P_EFX_Default_BeiJing_Light_Line",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleSystem'",
+  "Package": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line",
+  "Properties": {
+    "Emitters": [
+      {
+        "ObjectName": "ParticleSpriteEmitter'P_EFX_Default_BeiJing_Light_Line:ParticleSpriteEmitter_0'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line.9"
+      }
+    ],
+    "CurveEdSetup": null,
+    "ProfilingCategoryTag": "P_EFX_Default_BeiJing_Light_Line",
+    "LODDistances": [
+      0.0
+    ],
+    "LODSettings": [
+      {}
+    ],
+    "FixedRelativeBoundingBox": {
+      "Min": {
+        "X": -11000.0,
+        "Y": -55.0,
+        "Z": -1.0
+      },
+      "Max": {
+        "X": 11000.0,
+        "Y": 55.0,
+        "Z": 1.0
+      },
+      "IsValid": 1
+    },
+    "bUseFixedRelativeBoundingBox": true,
+    "bShouldResetPeakCounts": true,
+    "CustomOcclusionBounds": {
+      "Min": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Max": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "IsValid": 1
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Molly_Suit_C_Limbs_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Limbs_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_Cloth_Laser_Metallic_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Cloth_Laser_Metallic_UI.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EmissionScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.0,
+        "ExpressionGUID": "8F1DB0E4-431B7028-DD4B2FA2-D20A1D95"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "LaserAlpha",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.177778,
+        "ExpressionGUID": "1CC6A25A-44338D00-A356CBAE-D70BBAA4"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "LaserMetllic",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "1DF4351C-43281BEF-7E8685BE-F31E6372"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "LaserTiling",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 5.0,
+        "ExpressionGUID": "537F34D0-4F6677CE-BDB0E08C-4CCB822E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "HueShift",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.0,
+          "G": 0.668192,
+          "B": 1.28913,
+          "A": 0.0,
+          "Hex": "00D6FF"
+        },
+        "ExpressionGUID": "7E656594-4D6E28FE-1043208C-45970569"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_909f83f7a90e34c73faa036c0a40860a'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Molly/Molly_Suit_C/Texture/T_VMGen_BaseColorMap_909f83f7a90e34c73faa036c0a40860a.0"
+        },
+        "ExpressionGUID": "5C8EF357-43EBE9DA-6F2D778A-31AC5D13"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_3cf0aba5402c79206127a4de98dca9b9'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Molly/Molly_Suit_C/Texture/T_VMGen_NormalMap_3cf0aba5402c79206127a4de98dca9b9.0"
+        },
+        "ExpressionGUID": "39EE56C0-4B4381F6-9A013F85-E8621073"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_EmissiveMap_8836418130e4205cc56689589b39ce67'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Molly/Molly_Suit_C/Texture/T_VMGen_EmissiveMap_8836418130e4205cc56689589b39ce67.0"
+        },
+        "ExpressionGUID": "EBA65FD6-4061B61C-2FC4EE8C-D8CE8DAB"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_RAMMap_354a21fbbed0064ec6d9980889720ee8'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Molly/Molly_Suit_C/Texture/T_VMGen_RAMMap_354a21fbbed0064ec6d9980889720ee8.0"
+        },
+        "ExpressionGUID": "63DD2FFD-48D9C996-224D3D92-B64D0DBA"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseNormalOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": false,
+          "ParameterInfo": {
+            "Name": "UseEmissive",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "8CB7EE93-4697E67A-E72BB6A3-791740A5"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "Type": "ExponentialHeightFogComponent",
+  "Name": "HeightFogComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ExponentialHeightFogComponent'",
+  "Outer": {
+    "ObjectName": "ExponentialHeightFog'Lobby_Scene_Light_Role_Naimei:PersistentLevel.ExponentialHeightFog_0'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.5"
+  },
+  "Properties": {
+    "FogDensity": 0.1,
+    "FogHeightFalloff": 1.5,
+    "FogInscatteringColor": {
+      "R": 0.225,
+      "G": 0.2625,
+      "B": 0.45,
+      "A": 1.0,
+      "Hex": "828CB3"
+    },
+    "DirectionalInscatteringColor": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0,
+      "A": 1.0,
+      "Hex": "000000"
+    },
+    "FogMaxOpacity": 0.1,
+    "RelativeLocation": {
+      "X": -493850.53,
+      "Y": -75748.98,
+      "Z": 27591.078
+    },
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": -7.839029,
+      "Roll": 0.0
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'ExponentialHeightFogComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  }
+}

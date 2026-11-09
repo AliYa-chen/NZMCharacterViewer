@@ -1,0 +1,155 @@
+{
+  "Type": "SpotLightComponent",
+  "Name": "SpotLight",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SpotLightComponent'",
+  "Outer": {
+    "ObjectName": "LF_BaseLight_Spot_01_C'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.LF_BaseLight_Spot_01_0'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.22"
+  },
+  "Template": {
+    "ObjectName": "SpotLightComponent'LF_BaseLight_Spot_01_C:SpotLight_GEN_VARIABLE'",
+    "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.15"
+  },
+  "Properties": {
+    "InnerConeAngle": 10.0,
+    "OuterConeAngle": 35.0,
+    "SourceRadius": 3.0,
+    "SourceLength": 150.0,
+    "AttenuationRadius": 1500.0,
+    "bCastStationaryWholeSceneShadow": true,
+    "MaxDrawDistance": 8000.0,
+    "SpecularScale": 2.0,
+    "ShadowBias": 0.1,
+    "LightingChannels": {
+      "bChannel0": false,
+      "bChannel2": true
+    },
+    "LightGuid": "2EDEA6E2-4DBE6779-FED3F4B5-B5353A5D",
+    "Intensity": 90.0,
+    "LightColor": {
+      "B": 204,
+      "G": 223,
+      "R": 255,
+      "A": 255,
+      "Hex": "FFDFCC"
+    },
+    "AttachParent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.LF_BaseLight_Spot_01_0.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.38"
+    },
+    "RelativeRotation": {
+      "Pitch": -14.700764,
+      "Yaw": -102.034164,
+      "Roll": 75.8866
+    },
+    "Mobility": "EComponentMobility::Movable",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "bNetAddressable": true,
+    "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+    "UCSModifiedProperties": [
+      {
+        "MemberParent": {
+          "ObjectName": "Class'SpotLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "InnerConeAngle",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'SpotLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "OuterConeAngle",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "SourceRadius",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "SourceLength",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'LocalLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "bCastStationaryWholeSceneShadow",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'LightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "MaxDrawDistance",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'LightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "SpecularScale",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'LightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "ShadowBias",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'LightComponentBase'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "Intensity",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'LightComponentBase'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "LightColor",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "Mobility",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'ActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "PrimaryComponentTick",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      }
+    ]
+  },
+  "IntensityNits": 140.8077
+}

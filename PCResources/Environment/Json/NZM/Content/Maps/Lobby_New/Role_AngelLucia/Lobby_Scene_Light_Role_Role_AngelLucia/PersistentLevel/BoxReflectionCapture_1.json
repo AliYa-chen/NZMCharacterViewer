@@ -1,0 +1,20 @@
+{
+  "Type": "BoxReflectionCapture",
+  "Name": "BoxReflectionCapture_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'BoxReflectionCapture'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.24"
+  },
+  "Properties": {
+    "CaptureComponent": {
+      "ObjectName": "BoxReflectionCaptureComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.BoxReflectionCapture_1.NewReflectionComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.16"
+    },
+    "RootComponent": {
+      "ObjectName": "BoxReflectionCaptureComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.BoxReflectionCapture_1.NewReflectionComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.16"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Type": "NavigationSystemModuleConfig",
+  "Name": "NavigationSystemModuleConfig_0",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'NavigationSystemModuleConfig'",
+  "Outer": {
+    "ObjectName": "NZWorldSettings'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.NZWorldSettings'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.47"
+  },
+  "Properties": {
+    "bAutoSpawnMissingNavData": true,
+    "bSpawnNavDataInNavBoundsLevel": true,
+    "NavigationSystemClass": {
+      "AssetPathName": "/Script/GPAIBase.GPNavigationSystem",
+      "SubPathString": ""
+    }
+  }
+}

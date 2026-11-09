@@ -1,0 +1,71 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Angel_Hat_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hat_UI",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_Translucent_Mask_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent_Mask_UI.0"
+    },
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_EmissiveMap_31878fab1cf26b6c6fb410017d5f56e9'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_EmissiveMap_31878fab1cf26b6c6fb410017d5f56e9.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_78bfe534d398bd3ba50ab1e7bd2ffbde'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_78bfe534d398bd3ba50ab1e7bd2ffbde.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_7fa9254ecfe3f40990135cb4a9796469'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_7fa9254ecfe3f40990135cb4a9796469.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_RAMMap_0b8175ed5a09d3e98715edfc051f29b1'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_0b8175ed5a09d3e98715edfc051f29b1.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "BlendMode": "BLEND_Masked",
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseNormalOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    }
+  }
+}

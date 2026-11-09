@@ -1,0 +1,32 @@
+{
+  "Type": "CineCameraComponent",
+  "Name": "CameraComponent",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'CineCameraComponent'",
+  "Outer": {
+    "ObjectName": "BP_LobbyCameraActor_C'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.RoleCamera_Far'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.6"
+  },
+  "Template": {
+    "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+    "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+  },
+  "Properties": {
+    "LensSettings": {
+      "MinFocalLength": 35.0
+    },
+    "FocusSettings": {
+      "ManualFocusDistance": 0.0
+    },
+    "AttachParent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.RoleCamera_Far.SceneComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.41"
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'CineCameraComponent'",
+        "ObjectPath": "/Script/CinematicCamera"
+      }
+    }
+  }
+}

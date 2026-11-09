@@ -1,0 +1,33 @@
+{
+  "Type": "ParticleModuleRequired",
+  "Name": "ParticleModuleRequired_9",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleModuleRequired'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Top'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top.66"
+  },
+  "Properties": {
+    "Material": {
+      "ObjectName": "MaterialInstanceConstant'MI_EFX_Buff_Glow_01'",
+      "ObjectPath": "NZM/Content/Effect/MI/Glow/MI_EFX_Buff_Glow_01.0"
+    },
+    "EmitterRotation": {
+      "Pitch": 180.0,
+      "Yaw": 0.0,
+      "Roll": 0.0
+    },
+    "bUseLocalSpace": true,
+    "bKillOnDeactivate": true,
+    "bUseLegacyEmitterTime": false,
+    "SpawnRate": {
+      "Distribution": {
+        "ObjectName": "DistributionFloatConstant'P_EFX_Default_BeiJing_Smoke_Top:ParticleModuleRequired_9.RequiredDistributionSpawnRate'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top.5"
+      }
+    },
+    "RandomImageTime": 1.0,
+    "bEnabled": false,
+    "LODValidity": 1
+  }
+}

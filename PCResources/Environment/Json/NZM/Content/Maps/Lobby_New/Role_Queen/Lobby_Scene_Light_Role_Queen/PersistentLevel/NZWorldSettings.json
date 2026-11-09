@@ -1,0 +1,28 @@
+{
+  "Type": "NZWorldSettings",
+  "Name": "NZWorldSettings",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'NZWorldSettings'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Queen:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.48"
+  },
+  "Properties": {
+    "NavigationSystemConfig": {
+      "ObjectName": "NavigationSystemModuleConfig'Lobby_Scene_Light_Role_Queen:PersistentLevel.NZWorldSettings.NavigationSystemModuleConfig_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.52"
+    },
+    "BookmarkArray": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

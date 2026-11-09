@@ -1,0 +1,56 @@
+{
+  "Type": "SpotLightComponent",
+  "Name": "LightComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SpotLightComponent'",
+  "Outer": {
+    "ObjectName": "SpotLight'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.SpotLight_Rim02_2'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.51"
+  },
+  "Properties": {
+    "InnerConeAngle": 5.0,
+    "OuterConeAngle": 15.0,
+    "bIgnoreShadowVolume": true,
+    "SourceRadius": 150.0,
+    "SourceLength": 50.0,
+    "IntensityUnits": "ELightUnits::Lumens",
+    "AttenuationRadius": 580.0,
+    "bMobileAffectForwardObject": true,
+    "bOverride_MaxShadowQualityOverride": true,
+    "bOverride_PCSSOverride": true,
+    "MaxShadowQualityOverride": 3,
+    "bPCSSOverride": true,
+    "MobileDynamicShadowMapResolution": 1024,
+    "Intensity": 900.0,
+    "LightColor": {
+      "B": 255,
+      "G": 236,
+      "R": 232,
+      "A": 255,
+      "Hex": "E8ECFF"
+    },
+    "VolumetricScatteringIntensity": 0.0,
+    "AttachParent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.Actor_1.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.35"
+    },
+    "RelativeLocation": {
+      "X": 342.6366,
+      "Y": -198.55388,
+      "Z": 370.0
+    },
+    "RelativeRotation": {
+      "Pitch": -35.999992,
+      "Yaw": 132.00002,
+      "Roll": -6.3160105
+    },
+    "Mobility": "EComponentMobility::Movable",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  "IntensityNits": 8726.684
+}

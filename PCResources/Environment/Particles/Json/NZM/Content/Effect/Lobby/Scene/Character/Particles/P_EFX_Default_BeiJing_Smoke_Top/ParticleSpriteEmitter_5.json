@@ -1,0 +1,20 @@
+{
+  "Type": "ParticleSpriteEmitter",
+  "Name": "ParticleSpriteEmitter_5",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleSpriteEmitter'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Top'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top.66"
+  },
+  "Properties": {
+    "EmitterName": "di",
+    "LODLevels": [
+      {
+        "ObjectName": "ParticleLODLevel'P_EFX_Default_BeiJing_Smoke_Top:ParticleSpriteEmitter_5.ParticleLODLevel_0'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top.10"
+      }
+    ],
+    "DetailModeBitmask": 7
+  }
+}

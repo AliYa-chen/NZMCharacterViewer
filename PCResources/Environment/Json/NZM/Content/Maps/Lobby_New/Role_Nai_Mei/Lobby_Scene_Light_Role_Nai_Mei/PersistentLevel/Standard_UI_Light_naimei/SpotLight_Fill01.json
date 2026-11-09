@@ -1,0 +1,70 @@
+{
+  "Type": "SpotLightComponent",
+  "Name": "SpotLight_Fill01",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SpotLightComponent'",
+  "Outer": {
+    "ObjectName": "Standard_UI_Light_C'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.58"
+  },
+  "Template": {
+    "ObjectName": "SpotLightComponent'Standard_UI_Light_C:SpotLight_Fill01_GEN_VARIABLE'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.12"
+  },
+  "Properties": {
+    "OuterConeAngle": 25.0,
+    "bIgnoreShadowVolume": true,
+    "IntensityUnits": "ELightUnits::Lumens",
+    "AttenuationRadius": 400.0,
+    "bMobileAffectForwardObject": true,
+    "SpecularScale": 0.2,
+    "ShadowBias": 0.1,
+    "bOverride_MaxShadowQualityOverride": true,
+    "MaxShadowQualityOverride": 3,
+    "MobileDynamicShadowMapResolution": 0,
+    "Intensity": 20.0,
+    "LightColor": {
+      "B": 245,
+      "G": 193,
+      "R": 255,
+      "A": 255,
+      "Hex": "FFC1F5"
+    },
+    "bAffectsWorld": true,
+    "CastShadows": false,
+    "VolumetricScatteringIntensity": 0.0,
+    "AttachParent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.Standard_UI_Light_naimei.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.48"
+    },
+    "RelativeLocation": {
+      "X": -297.0,
+      "Y": 25.0,
+      "Z": 263.0
+    },
+    "RelativeRotation": {
+      "Pitch": 328.0,
+      "Yaw": 353.0,
+      "Roll": -20.0
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "bNetAddressable": true,
+    "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+    "UCSModifiedProperties": [
+      {
+        "MemberParent": {
+          "ObjectName": "Class'ActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "PrimaryComponentTick",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      }
+    ]
+  },
+  "IntensityNits": 0.0
+}

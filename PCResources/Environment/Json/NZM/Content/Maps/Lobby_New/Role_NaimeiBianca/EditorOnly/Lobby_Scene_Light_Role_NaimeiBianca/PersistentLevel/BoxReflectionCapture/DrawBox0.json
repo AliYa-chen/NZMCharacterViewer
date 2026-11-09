@@ -1,0 +1,30 @@
+{
+  "Type": "BoxComponent",
+  "Name": "DrawBox0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'BoxComponent'",
+  "Outer": {
+    "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.BoxReflectionCapture'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.5"
+  },
+  "Properties": {
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Obstacle'",
+      "ObjectPath": "/Script/NavigationSystem"
+    },
+    "PrimitiveGuid": "EAE3759C-42A61447-DD92A989-74199802",
+    "BodyInstance": {
+      "MaxAngularVelocity": 3599.9998
+    },
+    "AttachParent": {
+      "ObjectName": "BoxReflectionCaptureComponent'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.BoxReflectionCapture.NewReflectionComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.7"
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  }
+}

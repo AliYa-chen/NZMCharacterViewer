@@ -1,0 +1,30 @@
+{
+  "Type": "ParticleModuleTypeDataMesh",
+  "Name": "ParticleModuleTypeDataMesh_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleModuleTypeDataMesh'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Light_Line'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Light_Line.10"
+  },
+  "Properties": {
+    "Mesh": {
+      "ObjectName": "StaticMesh'SM_EFX_Basic_RY_075'",
+      "ObjectPath": "NZM/Content/Effect/Mesh/Basic/SM_EFX_Basic_RY_075.1"
+    },
+    "RollPitchYawRange": {
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Op": 1,
+        "EntryCount": 1,
+        "EntryStride": 3
+      }
+    },
+    "LODValidity": 1
+  }
+}

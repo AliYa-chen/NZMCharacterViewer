@@ -2,9 +2,11 @@
 
 ## 游戏资源
 
-`Content/Characters` 以及 `Content/Viewer` 中基于《逆战：未来 / Assault Fire Future》游戏资源转换的模型、骨架、贴图、动画、场景、头像和 UI 图像，版权归各自权利人所有，不纳入本仓库 MIT 许可。
+`Content/Characters`、`Content/Viewer` 以及 `PCResources` 中基于《逆战：未来 / Assault Fire Future》游戏资源转换的模型、骨架、贴图、动画、场景、头像、UI 图像和序列化参数，版权归各自权利人所有，不纳入本仓库 MIT 许可。
 
-仓库的 MIT 许可只覆盖作者拥有版权的原创代码、脚本与文档；不表示授予游戏资产的再分发或商业使用权。资产重建使用新工程的可编辑 UE 格式，未包含原游戏可执行程序或原始 cooked 资源包。
+仓库的 MIT 许可只覆盖作者拥有版权的原创代码、脚本与文档；不表示授予游戏资产的再分发或商业使用权。`Content` 的重建资产使用新工程的可编辑 UE 格式；`PCResources` 提供 PC 端转换出的 PNG、ActorX 模型及参数 JSON，供单独导入和核对。未包含原游戏可执行程序或原始 cooked 资源包。
+
+PC 资源的离线解析使用 [CUE4Parse](https://github.com/FabianFG/CUE4Parse) 及其 Conversion 工具，版本与来源记录于资源清单；其工具采用 Apache-2.0 许可。`Tools/PCAssetPipeline/Cipher/Upstream` 保留实际使用的上游源码及 Apache 许可／NOTICE；其他依赖的固定版本、校验值和许可证元数据随工具安装脚本提供。下载的二进制、依赖缓存及本机日志保存在忽略目录，不作为查看器运行依赖分发。工具的许可不改变游戏资源的权利归属。
 
 ## Noto Sans CJK SC
 

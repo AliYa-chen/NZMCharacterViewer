@@ -1,0 +1,20 @@
+{
+  "Type": "BoxReflectionCapture",
+  "Name": "BoxReflectionCapture3",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'BoxReflectionCapture'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.11"
+  },
+  "Properties": {
+    "CaptureComponent": {
+      "ObjectName": "BoxReflectionCaptureComponent'Lobby_Scene_Light_Role:PersistentLevel.BoxReflectionCapture3.NewReflectionComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.6"
+    },
+    "RootComponent": {
+      "ObjectName": "BoxReflectionCaptureComponent'Lobby_Scene_Light_Role:PersistentLevel.BoxReflectionCapture3.NewReflectionComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.6"
+    }
+  }
+}

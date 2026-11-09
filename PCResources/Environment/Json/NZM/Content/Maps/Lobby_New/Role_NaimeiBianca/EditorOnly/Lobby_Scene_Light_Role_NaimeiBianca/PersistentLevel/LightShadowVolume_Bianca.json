@@ -1,0 +1,27 @@
+{
+  "Type": "LightShadowVolume",
+  "Name": "LightShadowVolume_Bianca",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'LightShadowVolume'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.14"
+  },
+  "Properties": {
+    "bOverride_bEnabled": true,
+    "bOverride_bUnbound": true,
+    "bOverride_bEnableLimitBounds": true,
+    "bOverride_bForceApplyDirectionalLightAndSpotLight": true,
+    "bUnbound": true,
+    "bEnableLimitBounds": true,
+    "bForceApplyDirectionalLightAndSpotLight": true,
+    "ShadowVolumeComponent": {
+      "ObjectName": "ShadowVolumeComponent'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.LightShadowVolume_Bianca.LightShadowVolumeComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.49"
+    },
+    "RootComponent": {
+      "ObjectName": "ShadowVolumeComponent'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.LightShadowVolume_Bianca.LightShadowVolumeComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.49"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Type": "SpotLightComponent",
+  "Name": "SpotLight_Fill01",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SpotLightComponent'",
+  "Outer": {
+    "ObjectName": "Standard_UI_Light_C'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.26"
+  },
+  "Template": {
+    "ObjectName": "SpotLightComponent'Standard_UI_Light_C:SpotLight_Fill01_GEN_VARIABLE'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.12"
+  },
+  "Properties": {
+    "InnerConeAngle": 3.0,
+    "OuterConeAngle": 15.0,
+    "bIgnoreShadowVolume": true,
+    "SourceRadius": 5.0,
+    "SourceLength": 150.0,
+    "IntensityUnits": "ELightUnits::Lumens",
+    "bMobileAffectForwardObject": true,
+    "ShadowResolutionScale": 2.0,
+    "ShadowBias": 0.05,
+    "bOverride_MaxShadowQualityOverride": true,
+    "MaxShadowQualityOverride": 3,
+    "Intensity": 20.0,
+    "LightColor": {
+      "B": 255,
+      "G": 206,
+      "R": 131,
+      "A": 255,
+      "Hex": "83CEFF"
+    },
+    "bAffectsWorld": true,
+    "AttachParent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.20"
+    },
+    "RelativeLocation": {
+      "X": 300.0,
+      "Y": -420.0,
+      "Z": 250.0
+    },
+    "RelativeRotation": {
+      "Pitch": 345.0,
+      "Yaw": 125.0,
+      "Roll": 0.0
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "bNetAddressable": true,
+    "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+    "UCSModifiedProperties": [
+      {
+        "MemberParent": {
+          "ObjectName": "Class'ActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "PrimaryComponentTick",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      }
+    ]
+  },
+  "IntensityNits": 174533.64
+}

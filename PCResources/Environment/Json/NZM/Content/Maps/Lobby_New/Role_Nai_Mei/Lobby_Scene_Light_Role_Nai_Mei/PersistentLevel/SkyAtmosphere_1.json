@@ -1,0 +1,26 @@
+{
+  "Type": "SkyAtmosphere",
+  "Name": "SkyAtmosphere_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SkyAtmosphere'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.30"
+  },
+  "Properties": {
+    "SkyAtmosphereComponent": {
+      "ObjectName": "SkyAtmosphereComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.SkyAtmosphere_1.SkyAtmosphereComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.51"
+    },
+    "PrimaryActorTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SkyAtmosphere'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "RootComponent": {
+      "ObjectName": "SkyAtmosphereComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.SkyAtmosphere_1.SkyAtmosphereComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.51"
+    }
+  }
+}

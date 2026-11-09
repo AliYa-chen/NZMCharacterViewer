@@ -1,0 +1,45 @@
+{
+  "Type": "SkyLightComponent",
+  "Name": "SkyLightComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SkyLightComponent'",
+  "Outer": {
+    "ObjectName": "SkyLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SkyLight_Bianca'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.52"
+  },
+  "Properties": {
+    "SourceType": "SLS_SpecifiedCubemap",
+    "Cubemap": {
+      "ObjectName": "TextureCube'IBL_Treasure_HD'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_Treasure_HD.0"
+    },
+    "CubemapResolution": 64,
+    "CubemapAverageBrightness": 0.19144084,
+    "Intensity": 0.0,
+    "LightColor": {
+      "B": 255,
+      "G": 188,
+      "R": 149,
+      "A": 255,
+      "Hex": "95BCFF"
+    },
+    "VolumetricScatteringIntensity": 0.0,
+    "RelativeLocation": {
+      "X": -2213.484,
+      "Y": -6803.0645,
+      "Z": -9725.154
+    },
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": 107.9509,
+      "Roll": 0.0
+    },
+    "Mobility": "EComponentMobility::Movable",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SkyLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "Type": "ParticleSystemComponent",
+  "Name": "ParticleSystemComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleSystemComponent'",
+  "Outer": {
+    "ObjectName": "Emitter'Lobby_Scene_General_Background_HD:PersistentLevel.P_EFX_Default_BeiJing_Smoke_Big_24'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background_HD.0"
+  },
+  "Properties": {
+    "Template": {
+      "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Big'",
+      "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big.31"
+    },
+    "OldPosition": {
+      "X": 18.204504,
+      "Y": -8273.797,
+      "Z": -411.09808
+    },
+    "PrimitiveGuid": "D97D3AC0-4EFB9851-35804A96-FA507C93",
+    "TranslucencySortPriority": 2,
+    "RelativeLocation": {
+      "X": 18.204504,
+      "Y": -8273.797,
+      "Z": -411.09808
+    },
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": 1.860413,
+      "Roll": 0.0
+    },
+    "RelativeScale3D": {
+      "X": 15.0,
+      "Y": 15.0,
+      "Z": 15.0
+    },
+    "PrimaryComponentTick": {
+      "bStartWithTickEnabled": false,
+      "AggregateClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  }
+}

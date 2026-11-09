@@ -1,0 +1,30 @@
+{
+  "Type": "BoxComponent",
+  "Name": "DrawBox0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'BoxComponent'",
+  "Outer": {
+    "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.BoxReflectionCapture_0'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.4"
+  },
+  "Properties": {
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Obstacle'",
+      "ObjectPath": "/Script/NavigationSystem"
+    },
+    "PrimitiveGuid": "D17BB7D6-460F076C-F1147E8E-CB25456D",
+    "BodyInstance": {
+      "MaxAngularVelocity": 3599.9998
+    },
+    "AttachParent": {
+      "ObjectName": "BoxReflectionCaptureComponent'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.BoxReflectionCapture_0.NewReflectionComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.5"
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  }
+}

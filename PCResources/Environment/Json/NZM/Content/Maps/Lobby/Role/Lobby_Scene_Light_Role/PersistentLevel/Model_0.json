@@ -1,0 +1,33 @@
+{
+  "Type": "Model",
+  "Name": "Model_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Model'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.11"
+  },
+  "Bounds": {
+    "Origin": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BoxExtent": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "SphereRadius": 0.0
+  },
+  "Vectors": [],
+  "Points": [],
+  "Nodes": [],
+  "Surfs": [],
+  "NumSharedSides": 4,
+  "VertexBuffer": {
+    "Vertices": []
+  },
+  "LightingGuid": "57897A4D-4A7B499C-D963CDBD-2778C265",
+  "LightmassSettings": []
+}

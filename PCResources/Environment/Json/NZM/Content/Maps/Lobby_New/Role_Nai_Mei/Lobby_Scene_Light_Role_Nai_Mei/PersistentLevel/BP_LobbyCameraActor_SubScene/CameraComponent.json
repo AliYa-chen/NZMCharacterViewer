@@ -1,0 +1,48 @@
+{
+  "Type": "CineCameraComponent",
+  "Name": "CameraComponent",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'CineCameraComponent'",
+  "Outer": {
+    "ObjectName": "BP_LobbyCameraActor_C'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.BP_LobbyCameraActor_SubScene'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.10"
+  },
+  "Template": {
+    "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+    "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+  },
+  "Properties": {
+    "LensSettings": {
+      "MinFStop": 0.1
+    },
+    "FocusSettings": {
+      "FocusMethod": "ECameraFocusMethod::Manual",
+      "ManualFocusDistance": 360.0
+    },
+    "CurrentFocalLength": 67.5,
+    "CurrentAperture": 6.0,
+    "CurrentFocusDistance": 360.0,
+    "FieldOfView": 17.06153,
+    "PostProcessSettings": {
+      "bOverride_DepthOfFieldUseMobileImpl": true,
+      "bOverride_DepthOfFieldFarTransitionRegion": true,
+      "bOverride_DepthOfFieldScale": true,
+      "bOverride_DepthOfFieldFarBlurSize": true,
+      "bOverride_MobileHQGaussian": true,
+      "bMobileHQGaussian": true,
+      "DepthOfFieldUseMobileImpl": false,
+      "DepthOfFieldFarTransitionRegion": 1000.0,
+      "DepthOfFieldScale": 0.3
+    },
+    "AttachParent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.BP_LobbyCameraActor_SubScene.SceneComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.39"
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'CineCameraComponent'",
+        "ObjectPath": "/Script/CinematicCamera"
+      }
+    }
+  }
+}

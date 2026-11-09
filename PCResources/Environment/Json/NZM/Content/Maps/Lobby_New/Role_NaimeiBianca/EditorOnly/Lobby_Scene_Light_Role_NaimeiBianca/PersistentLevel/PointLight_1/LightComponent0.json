@@ -1,0 +1,41 @@
+{
+  "Type": "PointLightComponent",
+  "Name": "LightComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'PointLightComponent'",
+  "Outer": {
+    "ObjectName": "PointLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.PointLight_1'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.33"
+  },
+  "Properties": {
+    "IntensityUnits": "ELightUnits::Lumens",
+    "AttenuationRadius": 1500.0,
+    "bMobileAffectForwardObject": true,
+    "ShadowBias": 0.1,
+    "bOverride_MaxShadowQualityOverride": true,
+    "MaxShadowQualityOverride": 3,
+    "LightGuid": "BE23F79E-44D9343D-8B72E9A7-B2025B77",
+    "Intensity": 2000.0,
+    "LightColor": {
+      "B": 199,
+      "G": 236,
+      "R": 255,
+      "A": 255,
+      "Hex": "FFECC7"
+    },
+    "VolumetricScatteringIntensity": 0.0,
+    "RelativeLocation": {
+      "X": -2250.0117,
+      "Y": -7864.8286,
+      "Z": -8401.866
+    },
+    "Mobility": "EComponentMobility::Static",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  "IntensityNits": 0.0
+}

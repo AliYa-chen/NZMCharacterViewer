@@ -1,0 +1,24 @@
+{
+  "Type": "SpotLight",
+  "Name": "SpotLight_env",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SpotLight'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Queen:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.48"
+  },
+  "Properties": {
+    "SpotLightComponent": {
+      "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight_env.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.87"
+    },
+    "LightComponent": {
+      "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight_env.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.87"
+    },
+    "RootComponent": {
+      "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight_env.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.87"
+    }
+  }
+}

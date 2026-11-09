@@ -1,0 +1,194 @@
+{
+  "Type": "PostProcessVolume",
+  "Name": "PostProcessVolume_Role",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'PostProcessVolume'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.11"
+  },
+  "Properties": {
+    "Settings": {
+      "bOverride_ColorContrastMidtones": true,
+      "bOverride_AutoExposureMinBrightness": true,
+      "bOverride_AutoExposureMaxBrightness": true,
+      "bOverride_VignetteIntensity": true,
+      "bOverride_DepthOfFieldNearDistance": true,
+      "bOverride_DepthOfFieldFocalRegion": true,
+      "bOverride_DepthOfFieldNearTransitionRegion": true,
+      "bOverride_DepthOfFieldFarTransitionRegion": true,
+      "bOverride_DepthOfFieldScale": true,
+      "bOverride_DepthOfFieldNearBlurSize": true,
+      "bOverride_DepthOfFieldFarBlurSize": true,
+      "bOverride_MobileHQGaussian": true,
+      "bOverride_IsUI": true,
+      "bOverride_UIRenderResolution": true,
+      "ColorContrastMidtones": {
+        "X": 1.1,
+        "Y": 1.1,
+        "Z": 1.1,
+        "W": 1.0
+      },
+      "MobileBloomSettings": {
+        "bOverride_BloomThreshold": true,
+        "bOverride_BloomSizeScale": true,
+        "bOverride_Bloom1Size": true,
+        "bOverride_Bloom2Size": true,
+        "bOverride_Bloom3Size": true,
+        "bOverride_Bloom4Size": true,
+        "bOverride_Bloom5Size": true,
+        "bOverride_Bloom6Size": true,
+        "bOverride_Bloom1Tint": true,
+        "bOverride_Bloom2Tint": true,
+        "bOverride_Bloom3Tint": true,
+        "bOverride_Bloom4Tint": true,
+        "bOverride_Bloom5Tint": true,
+        "bOverride_Bloom6Tint": true,
+        "BloomIntensity": 2.631746,
+        "BloomThreshold": 0.232,
+        "Bloom1Size": 1.447619,
+        "Bloom2Size": 3.2,
+        "Bloom3Size": 5.892064,
+        "Bloom4Size": 13.282539,
+        "Bloom1Tint": {
+          "R": 0.140625,
+          "G": 0.140625,
+          "B": 0.140625,
+          "A": 0.0,
+          "Hex": "696969"
+        },
+        "Bloom2Tint": {
+          "R": 0.157986,
+          "G": 0.157986,
+          "B": 0.157986,
+          "A": 0.0,
+          "Hex": "6F6F6F"
+        },
+        "Bloom3Tint": {
+          "R": 0.128472,
+          "G": 0.128472,
+          "B": 0.128472,
+          "A": 0.0,
+          "Hex": "646464"
+        },
+        "Bloom4Tint": {
+          "R": 0.128472,
+          "G": 0.128472,
+          "B": 0.128472,
+          "A": 0.0,
+          "Hex": "646464"
+        },
+        "Bloom5Tint": {
+          "R": 0.066,
+          "G": 0.066,
+          "B": 0.066,
+          "A": 0.0,
+          "Hex": "484848"
+        },
+        "Bloom6Tint": {
+          "R": 0.066,
+          "G": 0.066,
+          "B": 0.066,
+          "A": 0.0,
+          "Hex": "484848"
+        }
+      },
+      "DesktopBloomSettings": {
+        "bOverride_BloomIntensity": true,
+        "bOverride_BloomThreshold": true,
+        "bOverride_BloomSizeScale": true,
+        "bOverride_Bloom1Size": true,
+        "bOverride_Bloom2Size": true,
+        "bOverride_Bloom3Size": true,
+        "bOverride_Bloom4Size": true,
+        "bOverride_Bloom5Size": true,
+        "bOverride_Bloom6Size": true,
+        "bOverride_Bloom1Tint": true,
+        "bOverride_Bloom2Tint": true,
+        "bOverride_Bloom3Tint": true,
+        "bOverride_Bloom4Tint": true,
+        "bOverride_Bloom5Tint": true,
+        "bOverride_Bloom6Tint": true,
+        "BloomIntensity": 2.0,
+        "BloomThreshold": 1.0,
+        "Bloom1Size": 0.152381,
+        "Bloom2Size": 0.050794,
+        "Bloom3Size": 1.625397,
+        "Bloom4Size": 6.095238,
+        "Bloom5Size": 12.190476,
+        "Bloom6Size": 27.631748,
+        "Bloom1Tint": {
+          "R": 0.3465,
+          "G": 0.3465,
+          "B": 0.3465,
+          "A": 0.0,
+          "Hex": "9F9F9F"
+        },
+        "Bloom2Tint": {
+          "R": 0.138,
+          "G": 0.138,
+          "B": 0.138,
+          "A": 0.0,
+          "Hex": "686868"
+        },
+        "Bloom3Tint": {
+          "R": 0.265625,
+          "G": 0.265625,
+          "B": 0.265625,
+          "A": 0.0,
+          "Hex": "8D8D8D"
+        },
+        "Bloom4Tint": {
+          "R": 0.251736,
+          "G": 0.251736,
+          "B": 0.251736,
+          "A": 0.0,
+          "Hex": "898989"
+        },
+        "Bloom5Tint": {
+          "R": 0.232639,
+          "G": 0.232639,
+          "B": 0.232639,
+          "A": 0.0,
+          "Hex": "858585"
+        },
+        "Bloom6Tint": {
+          "R": 0.229167,
+          "G": 0.229167,
+          "B": 0.229167,
+          "A": 0.0,
+          "Hex": "848484"
+        }
+      },
+      "AutoExposureMinBrightness": 0.0,
+      "AutoExposureMaxBrightness": 0.0,
+      "LensFlareIntensity": 3.7,
+      "VignetteIntensity": 0.25,
+      "DepthOfFieldFocalRegion": 150.0,
+      "DepthOfFieldFarTransitionRegion": 1200.0,
+      "DepthOfFieldNearDistance": 380.0,
+      "DepthOfFieldNearTransitionRegion": 10000.0,
+      "bIsUI": true
+    },
+    "Priority": 5.0,
+    "bUnbound": true,
+    "BrushType": "Brush_Add",
+    "Brush": {
+      "ObjectName": "Model'Lobby_Scene_Light_Role:PersistentLevel.PostProcessVolume_Role.Model_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.14"
+    },
+    "BrushComponent": {
+      "ObjectName": "BrushComponent'Lobby_Scene_Light_Role:PersistentLevel.PostProcessVolume_Role.BrushComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.7"
+    },
+    "bHidden": false,
+    "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+    "RootComponent": {
+      "ObjectName": "BrushComponent'Lobby_Scene_Light_Role:PersistentLevel.PostProcessVolume_Role.BrushComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.7"
+    },
+    "Tags": [
+      "SequencerPostVolume"
+    ]
+  }
+}

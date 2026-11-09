@@ -1,0 +1,42 @@
+{
+  "Type": "PointLightComponent",
+  "Name": "LightComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'PointLightComponent'",
+  "Outer": {
+    "ObjectName": "PointLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.PointLight2_4'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.54"
+  },
+  "Properties": {
+    "IntensityUnits": "ELightUnits::Lumens",
+    "AttenuationRadius": 800.0,
+    "ShadowBias": 0.1,
+    "LightingChannels": {
+      "bChannel0": false,
+      "bChannel2": true
+    },
+    "LightGuid": "CF6F1C3E-47C325BB-207D3DB8-6EBE7674",
+    "Intensity": 2500.0,
+    "LightColor": {
+      "B": 88,
+      "G": 33,
+      "R": 255,
+      "A": 255,
+      "Hex": "FF2158"
+    },
+    "IndirectLightingIntensity": 0.5,
+    "RelativeLocation": {
+      "X": 62307.54,
+      "Y": -7279.812,
+      "Z": 8264.663
+    },
+    "Mobility": "EComponentMobility::Static",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  "IntensityNits": 0.0
+}

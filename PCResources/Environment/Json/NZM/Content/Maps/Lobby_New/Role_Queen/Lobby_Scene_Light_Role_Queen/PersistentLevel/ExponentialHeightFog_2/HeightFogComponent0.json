@@ -1,0 +1,37 @@
+{
+  "Type": "ExponentialHeightFogComponent",
+  "Name": "HeightFogComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ExponentialHeightFogComponent'",
+  "Outer": {
+    "ObjectName": "ExponentialHeightFog'Lobby_Scene_Light_Role_Queen:PersistentLevel.ExponentialHeightFog_2'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.46"
+  },
+  "Properties": {
+    "FogInscatteringColor": {
+      "R": 0.14657,
+      "G": 0.029194,
+      "B": 0.039833,
+      "A": 1.0,
+      "Hex": "6B2F38"
+    },
+    "FogMaxOpacity": 0.1,
+    "VolumetricFogScatteringDistribution": 1.0,
+    "RelativeLocation": {
+      "X": 6535541.0,
+      "Y": 2707618.8,
+      "Z": 937220.9
+    },
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": 0.0,
+      "Roll": 1.5905842E-12
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'ExponentialHeightFogComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  }
+}

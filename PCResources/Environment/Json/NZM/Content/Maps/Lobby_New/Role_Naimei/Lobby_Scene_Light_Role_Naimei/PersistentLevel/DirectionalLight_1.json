@@ -1,0 +1,24 @@
+{
+  "Type": "DirectionalLight",
+  "Name": "DirectionalLight_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'DirectionalLight'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Naimei:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.7"
+  },
+  "Properties": {
+    "LightComponent": {
+      "ObjectName": "DirectionalLightComponent'Lobby_Scene_Light_Role_Naimei:PersistentLevel.DirectionalLight_1.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.4"
+    },
+    "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+    "RootComponent": {
+      "ObjectName": "DirectionalLightComponent'Lobby_Scene_Light_Role_Naimei:PersistentLevel.DirectionalLight_1.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.4"
+    },
+    "Tags": [
+      "SequencerSubLight4"
+    ]
+  }
+}

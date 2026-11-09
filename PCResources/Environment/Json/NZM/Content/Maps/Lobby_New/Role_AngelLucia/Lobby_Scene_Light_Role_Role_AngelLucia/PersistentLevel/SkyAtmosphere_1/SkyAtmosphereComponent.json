@@ -1,0 +1,40 @@
+{
+  "Type": "SkyAtmosphereComponent",
+  "Name": "SkyAtmosphereComponent",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SkyAtmosphereComponent'",
+  "Outer": {
+    "ObjectName": "SkyAtmosphere'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.SkyAtmosphere_1'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.133"
+  },
+  "Properties": {
+    "RayleighScattering": {
+      "R": 0.175287,
+      "G": 0.409607,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "74ACFF"
+    },
+    "RayleighExponentialDistribution": 1.0,
+    "OtherAbsorption": {
+      "R": 0.345561,
+      "G": 1.0,
+      "B": 0.045189,
+      "A": 531.6321,
+      "Hex": "9FFF3C"
+    },
+    "bStaticLightingBuiltGUID": "7AA44468-46BC0E82-3004548B-8FC8EA91",
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": 89.999954,
+      "Roll": 0.0
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SkyAtmosphereComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  "bStaticLightingBuiltGUID": "7AA44468-46BC0E82-3004548B-8FC8EA91"
+}

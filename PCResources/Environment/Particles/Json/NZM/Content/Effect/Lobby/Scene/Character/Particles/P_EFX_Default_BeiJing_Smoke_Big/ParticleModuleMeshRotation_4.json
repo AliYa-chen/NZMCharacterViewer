@@ -1,0 +1,37 @@
+{
+  "Type": "ParticleModuleMeshRotation",
+  "Name": "ParticleModuleMeshRotation_4",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleModuleMeshRotation'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Big'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big.31"
+  },
+  "Properties": {
+    "StartRotation": {
+      "MaxValue": 0.25,
+      "MinValueVec": {
+        "X": 0.0,
+        "Y": 0.25,
+        "Z": 0.0
+      },
+      "MaxValueVec": {
+        "X": 0.0,
+        "Y": 0.25,
+        "Z": 0.0
+      },
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          0.0,
+          0.25,
+          0.0
+        ],
+        "Op": 1,
+        "EntryCount": 1,
+        "EntryStride": 3
+      }
+    },
+    "LODValidity": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Type": "SpotLight",
+  "Name": "SpotLight_Main_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SpotLight'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.19"
+  },
+  "Properties": {
+    "SpotLightComponent": {
+      "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.SpotLight_Main_0.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.58"
+    },
+    "LightComponent": {
+      "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.SpotLight_Main_0.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.58"
+    },
+    "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+    "RootComponent": {
+      "ObjectName": "SpotLightComponent'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.SpotLight_Main_0.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.58"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "Type": "Model",
+  "Name": "Model_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Model'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Naimei:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.7"
+  },
+  "Bounds": {
+    "Origin": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BoxExtent": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "SphereRadius": 0.0
+  },
+  "Vectors": [],
+  "Points": [],
+  "Nodes": [],
+  "Surfs": [],
+  "NumSharedSides": 4,
+  "VertexBuffer": {
+    "Vertices": []
+  },
+  "LightingGuid": "CB5F605D-4DF09C3E-549D00A4-D82FABC3",
+  "LightmassSettings": []
+}

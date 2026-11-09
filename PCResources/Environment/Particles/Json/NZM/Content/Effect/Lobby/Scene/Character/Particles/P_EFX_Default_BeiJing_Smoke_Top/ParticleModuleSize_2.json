@@ -1,0 +1,38 @@
+{
+  "Type": "ParticleModuleSize",
+  "Name": "ParticleModuleSize_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleModuleSize'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Top'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top.66"
+  },
+  "Properties": {
+    "StartSize": {
+      "MinValue": 5000.0,
+      "MaxValue": 10000.0,
+      "MinValueVec": {
+        "X": 10000.0,
+        "Y": 8000.0,
+        "Z": 5000.0
+      },
+      "MaxValueVec": {
+        "X": 10000.0,
+        "Y": 8000.0,
+        "Z": 5000.0
+      },
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          10000.0,
+          8000.0,
+          5000.0
+        ],
+        "Op": 1,
+        "EntryCount": 1,
+        "EntryStride": 3
+      }
+    },
+    "LODValidity": 1
+  }
+}

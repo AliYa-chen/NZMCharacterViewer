@@ -1,0 +1,20 @@
+{
+  "Type": "ParticleSpriteEmitter",
+  "Name": "ParticleSpriteEmitter_4",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleSpriteEmitter'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Big'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big.31"
+  },
+  "Properties": {
+    "EmitterName": "di",
+    "LODLevels": [
+      {
+        "ObjectName": "ParticleLODLevel'P_EFX_Default_BeiJing_Smoke_Big:ParticleSpriteEmitter_4.ParticleLODLevel_0'",
+        "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big.4"
+      }
+    ],
+    "DetailModeBitmask": 7
+  }
+}

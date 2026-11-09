@@ -1,0 +1,51 @@
+{
+  "Type": "LF_BaseLight_Point_01_C",
+  "Name": "LF_BaseLight_Point_3",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "BlueprintGeneratedClass'NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.LF_BaseLight_Point_01_C'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.19"
+  },
+  "Template": {
+    "ObjectName": "LF_BaseLight_Point_01_C'Default__LF_BaseLight_Point_01_C'",
+    "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Point_01.12"
+  },
+  "Properties": {
+    "PointLight": {
+      "ObjectName": "PointLightComponent'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.LF_BaseLight_Point_3.PointLight'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.32"
+    },
+    "DefaultSceneRoot": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.LF_BaseLight_Point_3.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.37"
+    },
+    "SourceRadius": 2.0,
+    "AttenuationRadius": 140.0,
+    "SourceLength": 50.0,
+    "BrightMul": 5E-05,
+    "LightColor": {
+      "R": 0.848892,
+      "G": 0.571283,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "EEC7FF"
+    },
+    "PCfeature": true,
+    "SetMobility": "EComponentMobility::Movable",
+    "RootComponent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.LF_BaseLight_Point_3.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.37"
+    },
+    "BlueprintCreatedComponents": [
+      {
+        "ObjectName": "SceneComponent'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.LF_BaseLight_Point_3.DefaultSceneRoot'",
+        "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.37"
+      },
+      {
+        "ObjectName": "PointLightComponent'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.LF_BaseLight_Point_3.PointLight'",
+        "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.32"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "Type": "Level",
+  "Name": "PersistentLevel",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Level'",
+  "Outer": {
+    "ObjectName": "World'Lobby_Scene_General_Background'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.21"
+  },
+  "Properties": {
+    "Model": {
+      "ObjectName": "Model'Lobby_Scene_General_Background:PersistentLevel.Model_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.8"
+    },
+    "LevelBuildDataId": "405F39D8-437FD882-5F42B6A6-A26999E1",
+    "WorldSettings": {
+      "ObjectName": "NZWorldSettings'Lobby_Scene_General_Background:PersistentLevel.NZWorldSettings'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.10"
+    }
+  },
+  "Actors": [
+    {
+      "ObjectName": "NZWorldSettings'Lobby_Scene_General_Background:PersistentLevel.NZWorldSettings'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.10"
+    },
+    null,
+    {
+      "ObjectName": "LF_Generic_Building_FreeStyle_Base_C'Lobby_Scene_General_Background:PersistentLevel.LF_Generic_Building_FreeStyle_Base11_2'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.7"
+    },
+    {
+      "ObjectName": "Emitter'Lobby_Scene_General_Background:PersistentLevel.P_EFX_Default_BeiJing_Smoke_Top_21'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.5"
+    },
+    {
+      "ObjectName": "Emitter'Lobby_Scene_General_Background:PersistentLevel.P_EFX_Default_BeiJing_Smoke_Round_22'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.4"
+    },
+    {
+      "ObjectName": "Emitter'Lobby_Scene_General_Background:PersistentLevel.P_EFX_Default_BeiJing_Light_Line_Right'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.1"
+    },
+    {
+      "ObjectName": "Emitter'Lobby_Scene_General_Background:PersistentLevel.P_EFX_Default_BeiJing_Light_Line_Left'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.0"
+    },
+    {
+      "ObjectName": "Emitter'Lobby_Scene_General_Background:PersistentLevel.P_EFX_Default_BeiJing_Light_Top_Right'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.3"
+    },
+    {
+      "ObjectName": "Emitter'Lobby_Scene_General_Background:PersistentLevel.P_EFX_Default_BeiJing_Light_Top_Left'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.2"
+    },
+    {
+      "ObjectName": "StaticMeshActor'Lobby_Scene_General_Background:PersistentLevel.SkyMesh_2'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.18"
+    }
+  ],
+  "URL": {
+    "Protocol": "unreal",
+    "Host": "",
+    "Port": 7777,
+    "Valid": true,
+    "Map": "/Game/Startup/StartupMap",
+    "Op": [],
+    "Portal": ""
+  },
+  "Model": {
+    "ObjectName": "Model'Lobby_Scene_General_Background:PersistentLevel.Model_0'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.8"
+  },
+  "ModelComponents": [],
+  "LevelScriptActor": null,
+  "NavListStart": null,
+  "NavListEnd": null,
+  "PrecomputedVisibilityHandler": {
+    "PrecomputedVisibilityCellBucketOriginXY": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "PrecomputedVisibilityCellSizeXY": 0.0,
+    "PrecomputedVisibilityCellSizeZ": 0.0,
+    "PrecomputedVisibilityCellBucketSizeXY": 0,
+    "PrecomputedVisibilityNumCellBuckets": 0,
+    "PrecomputedVisibilityCellBuckets": []
+  },
+  "PrecomputedVolumeDistanceField": {
+    "VolumeMaxDistance": 0.0,
+    "VolumeBox": {
+      "Min": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Max": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "IsValid": 0
+    },
+    "VolumeSizeX": 0,
+    "VolumeSizeY": 0,
+    "VolumeSizeZ": 0,
+    "Data": []
+  }
+}

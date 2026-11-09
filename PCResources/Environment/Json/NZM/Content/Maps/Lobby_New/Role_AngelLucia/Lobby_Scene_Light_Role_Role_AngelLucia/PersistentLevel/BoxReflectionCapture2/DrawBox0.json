@@ -1,0 +1,30 @@
+{
+  "Type": "BoxComponent",
+  "Name": "DrawBox0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'BoxComponent'",
+  "Outer": {
+    "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.BoxReflectionCapture2'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.9"
+  },
+  "Properties": {
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Obstacle'",
+      "ObjectPath": "/Script/NavigationSystem"
+    },
+    "PrimitiveGuid": "5A9049BD-4A2624DA-B20B1C8C-2F61E05E",
+    "BodyInstance": {
+      "MaxAngularVelocity": 3599.9998
+    },
+    "AttachParent": {
+      "ObjectName": "BoxReflectionCaptureComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.BoxReflectionCapture2.NewReflectionComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.13"
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  }
+}

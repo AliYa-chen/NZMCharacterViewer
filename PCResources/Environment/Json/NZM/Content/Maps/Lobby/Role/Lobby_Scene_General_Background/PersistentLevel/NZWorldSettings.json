@@ -1,0 +1,28 @@
+{
+  "Type": "NZWorldSettings",
+  "Name": "NZWorldSettings",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'NZWorldSettings'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_General_Background:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.6"
+  },
+  "Properties": {
+    "NavigationSystemConfig": {
+      "ObjectName": "NavigationSystemModuleConfig'Lobby_Scene_General_Background:PersistentLevel.NZWorldSettings.NavigationSystemModuleConfig_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_General_Background.9"
+    },
+    "BookmarkArray": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

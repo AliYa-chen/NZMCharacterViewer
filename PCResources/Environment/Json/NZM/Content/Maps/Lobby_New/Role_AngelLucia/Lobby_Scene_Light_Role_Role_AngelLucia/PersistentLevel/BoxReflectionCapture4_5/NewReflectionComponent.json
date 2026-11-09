@@ -1,0 +1,44 @@
+{
+  "Type": "BoxReflectionCaptureComponent",
+  "Name": "NewReflectionComponent",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'BoxReflectionCaptureComponent'",
+  "Outer": {
+    "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.BoxReflectionCapture4_5'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.11"
+  },
+  "Properties": {
+    "PreviewInfluenceBox": {
+      "ObjectName": "BoxComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.BoxReflectionCapture4_5.DrawBox0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.5"
+    },
+    "PreviewCaptureBox": {
+      "ObjectName": "BoxComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.BoxReflectionCapture4_5.DrawBox1'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.6"
+    },
+    "CaptureOffsetComponent": null,
+    "ReflectionSourceType": "EReflectionSourceType::SpecifiedCubemap",
+    "Cubemap": {
+      "ObjectName": "TextureCube'Reflection_Atelier02_PC'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/Reflection_Atelier02_PC.0"
+    },
+    "bNeedIBLFallOff": false,
+    "CubemapAverageBrightness": 0.0,
+    "MapBuildDataId": "67BC7C1B-481CB361-433CA3BF-3AE5A1C3",
+    "MapBuildDataId_HD": "6ACD1DC2-4B7EA7DF-6553E1BB-5D63826E",
+    "RelativeLocation": {
+      "X": -27670.0,
+      "Y": -206550.0,
+      "Z": 59.0
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'BoxReflectionCaptureComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  "bLegacy": false,
+  "SavedVersion": null,
+  "AverageBrightness": 1.0
+}

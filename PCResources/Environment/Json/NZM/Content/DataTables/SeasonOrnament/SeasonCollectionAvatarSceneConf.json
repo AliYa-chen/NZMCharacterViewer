@@ -1,0 +1,135 @@
+{
+  "Type": "DataTable",
+  "Name": "SeasonCollectionAvatarSceneConf",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'DataTable'",
+  "Package": "NZM/Content/DataTables/SeasonOrnament/SeasonCollectionAvatarSceneConf",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'SeasonCollectionAvatarSceneConfRaw'",
+      "ObjectPath": "/Script/DataDefines"
+    }
+  },
+  "Rows": {
+    "0": {
+      "AvatarTypeID": 0,
+      "SceneTypeID": 129,
+      "CameraTag": "Lobby.Camera.SeasonCollect.Weapon",
+      "ModelLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ModelRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "ModelScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "1": {
+      "AvatarTypeID": 1,
+      "SceneTypeID": 107,
+      "CameraTag": "Lobby.Camera.SubScene",
+      "ModelLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ModelRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "ModelScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "3": {
+      "AvatarTypeID": 3,
+      "SceneTypeID": 130,
+      "CameraTag": "Lobby.Camera.SeasonCollect.RoleAccessory",
+      "ModelLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ModelRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "ModelScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "5": {
+      "AvatarTypeID": 5,
+      "SceneTypeID": 131,
+      "CameraTag": "Lobby.Camera.SeasonCollect.TowerDefense",
+      "ModelLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ModelRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "ModelScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "6": {
+      "AvatarTypeID": 6,
+      "SceneTypeID": 133,
+      "CameraTag": "Lobby.Camera.SeasonCollect.TDGun",
+      "ModelLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ModelRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "ModelScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "9": {
+      "AvatarTypeID": 9,
+      "SceneTypeID": 132,
+      "CameraTag": "Lobby.Camera.SeasonCollect.Card",
+      "ModelLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ModelRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "ModelScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  }
+}

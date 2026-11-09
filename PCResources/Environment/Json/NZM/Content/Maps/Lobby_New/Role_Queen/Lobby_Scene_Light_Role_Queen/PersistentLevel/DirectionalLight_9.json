@@ -1,0 +1,23 @@
+{
+  "Type": "DirectionalLight",
+  "Name": "DirectionalLight_9",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'DirectionalLight'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Queen:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.48"
+  },
+  "Properties": {
+    "LightComponent": {
+      "ObjectName": "DirectionalLightComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.DirectionalLight_9.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.45"
+    },
+    "RootComponent": {
+      "ObjectName": "DirectionalLightComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.DirectionalLight_9.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.45"
+    },
+    "Tags": [
+      "SequencerSubLight4"
+    ]
+  }
+}

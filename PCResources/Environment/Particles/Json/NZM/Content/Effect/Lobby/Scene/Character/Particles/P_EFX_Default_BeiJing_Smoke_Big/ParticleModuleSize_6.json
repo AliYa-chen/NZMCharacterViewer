@@ -1,0 +1,38 @@
+{
+  "Type": "ParticleModuleSize",
+  "Name": "ParticleModuleSize_6",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleModuleSize'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Big'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Big.31"
+  },
+  "Properties": {
+    "StartSize": {
+      "MinValue": 11.0,
+      "MaxValue": 30.0,
+      "MinValueVec": {
+        "X": 11.0,
+        "Y": 20.0,
+        "Z": 30.0
+      },
+      "MaxValueVec": {
+        "X": 11.0,
+        "Y": 20.0,
+        "Z": 30.0
+      },
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          11.0,
+          20.0,
+          30.0
+        ],
+        "Op": 1,
+        "EntryCount": 1,
+        "EntryStride": 3
+      }
+    },
+    "LODValidity": 1
+  }
+}

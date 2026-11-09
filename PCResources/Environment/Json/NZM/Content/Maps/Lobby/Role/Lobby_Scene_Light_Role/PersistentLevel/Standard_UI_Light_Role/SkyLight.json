@@ -1,0 +1,60 @@
+{
+  "Type": "SkyLightComponent",
+  "Name": "SkyLight",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SkyLightComponent'",
+  "Outer": {
+    "ObjectName": "Standard_UI_Light_C'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.26"
+  },
+  "Template": {
+    "ObjectName": "SkyLightComponent'Standard_UI_Light_C:SkyLight_GEN_VARIABLE'",
+    "ObjectPath": "NZM/Content/Env/LE_LightingEffect/Standard_Light/Standard_UI_Light.11"
+  },
+  "Properties": {
+    "Cubemap": {
+      "ObjectName": "TextureCube'IBL_Role01_PC'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_Role01_PC.0"
+    },
+    "bUseNormalization": false,
+    "CubemapAverageBrightness": 0.29540038,
+    "LightColor": {
+      "B": 255,
+      "G": 232,
+      "R": 218,
+      "A": 255,
+      "Hex": "DAE8FF"
+    },
+    "AttachParent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role:PersistentLevel.Standard_UI_Light_Role.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.20"
+    },
+    "Mobility": "EComponentMobility::Movable",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SkyLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "bNetAddressable": true,
+    "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+    "UCSModifiedProperties": [
+      {
+        "MemberParent": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "Mobility",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'ActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "PrimaryComponentTick",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      }
+    ]
+  }
+}

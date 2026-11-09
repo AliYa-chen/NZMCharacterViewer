@@ -1,0 +1,16 @@
+{
+  "Type": "World",
+  "Name": "Lobby_Scene_Light_Role_NaimeiBianca",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'World'",
+  "Package": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca",
+  "Properties": {
+    "DefaultPhysicsVolume": null
+  },
+  "PersistentLevel": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.14"
+  },
+  "ExtraReferencedObjects": [],
+  "StreamingLevels": []
+}

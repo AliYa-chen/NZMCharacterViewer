@@ -1,0 +1,37 @@
+{
+  "Type": "BP_LobbyCameraActor_C",
+  "Name": "CameraActor_RoleAction",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "BlueprintGeneratedClass'NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.BP_LobbyCameraActor_C'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Queen:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.48"
+  },
+  "Template": {
+    "ObjectName": "BP_LobbyCameraActor_C'Default__BP_LobbyCameraActor_C'",
+    "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.1"
+  },
+  "Properties": {
+    "CameraComponent": {
+      "ObjectName": "CineCameraComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.CameraActor_RoleAction.CameraComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.41"
+    },
+    "SceneComponent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.CameraActor_RoleAction.SceneComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.61"
+    },
+    "PrimaryActorTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'LobbyCineCameraActor'",
+        "ObjectPath": "/Script/GameFramework"
+      }
+    },
+    "RootComponent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.CameraActor_RoleAction.SceneComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.61"
+    },
+    "Tags": [
+      "Lobby.Camera.SubScene.Action"
+    ]
+  }
+}

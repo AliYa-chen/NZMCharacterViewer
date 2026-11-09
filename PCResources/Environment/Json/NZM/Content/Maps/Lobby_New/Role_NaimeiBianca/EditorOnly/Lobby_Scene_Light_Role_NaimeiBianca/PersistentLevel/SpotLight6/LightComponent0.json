@@ -1,0 +1,51 @@
+{
+  "Type": "SpotLightComponent",
+  "Name": "LightComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SpotLightComponent'",
+  "Outer": {
+    "ObjectName": "SpotLight'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SpotLight6'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.58"
+  },
+  "Properties": {
+    "OuterConeAngle": 40.0,
+    "bIgnoreShadowVolume": true,
+    "IntensityUnits": "ELightUnits::Lumens",
+    "AttenuationRadius": 3000.0,
+    "bMobileAffectForwardObject": true,
+    "ShadowBias": 0.05,
+    "bOverride_MaxShadowQualityOverride": true,
+    "bOverride_PCSSOverride": true,
+    "MaxShadowQualityOverride": 3,
+    "MobileDynamicShadowMapResolution": 1024,
+    "LightGuid": "B785C5E6-4CF9090C-3AA3D08C-FF97CE47",
+    "Intensity": 1000.0,
+    "LightColor": {
+      "B": 255,
+      "G": 220,
+      "R": 199,
+      "A": 255,
+      "Hex": "C7DCFF"
+    },
+    "IndirectLightingIntensity": 0.2,
+    "VolumetricScatteringIntensity": 0.0,
+    "RelativeLocation": {
+      "X": -228.56044,
+      "Y": -8243.12,
+      "Z": -8955.906
+    },
+    "RelativeRotation": {
+      "Pitch": -31.790314,
+      "Yaw": -991.69794,
+      "Roll": 0.0006649532
+    },
+    "Mobility": "EComponentMobility::Static",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  "IntensityNits": 0.0
+}

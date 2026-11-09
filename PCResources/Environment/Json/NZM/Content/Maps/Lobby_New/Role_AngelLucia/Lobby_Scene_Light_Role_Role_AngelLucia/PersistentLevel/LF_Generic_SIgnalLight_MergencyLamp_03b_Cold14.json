@@ -1,0 +1,87 @@
+{
+  "Type": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C",
+  "Name": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "BlueprintGeneratedClass'NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.24"
+  },
+  "Template": {
+    "ObjectName": "LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'Default__LF_Generic_SIgnalLight_MergencyLamp_03b_Cold_C'",
+    "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_Generic_SignalLight/LF_Generic_SIgnalLight_MergencyLamp_03b_Cold.1"
+  },
+  "Properties": {
+    "TickInEditorComponent": null,
+    "Arrow": null,
+    "StaticMesh": {
+      "ObjectName": "StaticMeshComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14.StaticMesh'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.141"
+    },
+    "DefaultSceneRoot": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.115"
+    },
+    "Transform": {
+      "Translation": {
+        "X": 0.0,
+        "Y": 100.59234,
+        "Z": 2.0
+      }
+    },
+    "LightingType": "LightingType::NewEnumerator2",
+    "MidLumens": 700.0,
+    "AttenuationRaius": 1500.0,
+    "LightColor": {
+      "R": 0.55,
+      "G": 0.7375,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "C4DFFF"
+    },
+    "OpenAddtionalLight": false,
+    "SequencerIntensity": 700.0,
+    "PointLightComp": {
+      "ObjectName": "PointLightComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14.NODE_AddPointLightComponent-9'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.67"
+    },
+    "FinalIntensity（只读别改）": 700.0,
+    "VLFLightComp": {
+      "ObjectName": "PointLightComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14.NODE_AddPointLightComponent-11'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.66"
+    },
+    "SetMobility": "EComponentMobility::Movable",
+    "ShadowBias": 0.1,
+    "OpenVolumeLF": true,
+    "VLFFogLightType": "LightingType::NewEnumerator2",
+    "VLFAttenuationRadius": 1000.0,
+    "VolumetricScatteringIntensity": 40.0,
+    "AdjustedBloomValueForEmissive": 0.1,
+    "AdjustedBloomValueForMaterial": 50.0,
+    "DrawDistance": 10000.0,
+    "RootComponent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.115"
+    },
+    "BlueprintCreatedComponents": [
+      {
+        "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14.DefaultSceneRoot'",
+        "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.115"
+      },
+      {
+        "ObjectName": "StaticMeshComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14.StaticMesh'",
+        "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.141"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "PointLightComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14.NODE_AddPointLightComponent-9'",
+        "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.67"
+      },
+      {
+        "ObjectName": "PointLightComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.LF_Generic_SIgnalLight_MergencyLamp_03b_Cold14.NODE_AddPointLightComponent-11'",
+        "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.66"
+      }
+    ]
+  }
+}

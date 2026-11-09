@@ -1,0 +1,26 @@
+{
+  "Type": "SkyAtmosphere",
+  "Name": "SkyAtmosphere_Bianca",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SkyAtmosphere'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.14"
+  },
+  "Properties": {
+    "SkyAtmosphereComponent": {
+      "ObjectName": "SkyAtmosphereComponent'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SkyAtmosphere_Bianca.SkyAtmosphereComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.51"
+    },
+    "PrimaryActorTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SkyAtmosphere'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "RootComponent": {
+      "ObjectName": "SkyAtmosphereComponent'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.SkyAtmosphere_Bianca.SkyAtmosphereComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.51"
+    }
+  }
+}

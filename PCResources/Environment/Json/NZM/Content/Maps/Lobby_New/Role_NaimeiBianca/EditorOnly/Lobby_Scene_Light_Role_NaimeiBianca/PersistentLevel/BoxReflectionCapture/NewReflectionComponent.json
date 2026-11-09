@@ -1,0 +1,51 @@
+{
+  "Type": "BoxReflectionCaptureComponent",
+  "Name": "NewReflectionComponent",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'BoxReflectionCaptureComponent'",
+  "Outer": {
+    "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.BoxReflectionCapture'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.5"
+  },
+  "Properties": {
+    "BoxTransitionDistance": 10.0,
+    "PreviewInfluenceBox": {
+      "ObjectName": "BoxComponent'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.BoxReflectionCapture.DrawBox0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.1"
+    },
+    "PreviewCaptureBox": {
+      "ObjectName": "BoxComponent'Lobby_Scene_Light_Role_NaimeiBianca:PersistentLevel.BoxReflectionCapture.DrawBox1'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_NaimeiBianca/EditorOnly/Lobby_Scene_Light_Role_NaimeiBianca.2"
+    },
+    "CaptureOffsetComponent": null,
+    "ReflectionSourceType": "EReflectionSourceType::SpecifiedCubemap",
+    "Cubemap": {
+      "ObjectName": "TextureCube'IBL_Studio_02_HD'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/IBL_Studio_02_HD.0"
+    },
+    "bNeedIBLFallOff": false,
+    "CubemapAverageBrightness": 0.0,
+    "MapBuildDataId": "86937F4B-41F5D08A-2DB06FB6-1D0ABB1E",
+    "MapBuildDataId_HD": "91AD126C-47385E9A-8B9EDAB0-E6C1DFF6",
+    "RelativeLocation": {
+      "X": 0.0029296875,
+      "Y": -3313.2996,
+      "Z": 2435.2964
+    },
+    "RelativeScale3D": {
+      "X": 5000.0,
+      "Y": 8000.0,
+      "Z": 3000.0
+    },
+    "Mobility": "EComponentMobility::Movable",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'BoxReflectionCaptureComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  "bLegacy": false,
+  "SavedVersion": null,
+  "AverageBrightness": 1.0
+}

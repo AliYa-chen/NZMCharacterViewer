@@ -1,0 +1,25 @@
+{
+  "Type": "PointLight",
+  "Name": "PointLight4",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'PointLight'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.24"
+  },
+  "Properties": {
+    "PointLightComponent": {
+      "ObjectName": "PointLightComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.PointLight4.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.105"
+    },
+    "LightComponent": {
+      "ObjectName": "PointLightComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.PointLight4.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.105"
+    },
+    "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+    "RootComponent": {
+      "ObjectName": "PointLightComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.PointLight4.LightComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.105"
+    }
+  }
+}

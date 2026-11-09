@@ -1,0 +1,84 @@
+{
+  "Type": "PostProcessVolume",
+  "Name": "PostProcessVolume_Queen",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'PostProcessVolume'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Queen:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.48"
+  },
+  "Properties": {
+    "Settings": {
+      "bOverride_ColorContrast": true,
+      "bOverride_ColorGain": true,
+      "bOverride_ColorContrastMidtones": true,
+      "bOverride_ColorGainMidtones": true,
+      "bOverride_AutoExposureMinBrightness": true,
+      "bOverride_AutoExposureMaxBrightness": true,
+      "bOverride_VignetteIntensity": true,
+      "bOverride_SSRTAOIntensity": true,
+      "bOverride_ForceEnableSpotLightShadow": true,
+      "bOverride_IsUI": true,
+      "ColorContrast": {
+        "X": 1.05,
+        "Y": 1.05,
+        "Z": 1.05,
+        "W": 1.0
+      },
+      "ColorGain": {
+        "X": 1.1,
+        "Y": 1.1,
+        "Z": 1.1,
+        "W": 1.0
+      },
+      "ColorContrastMidtones": {
+        "X": 1.05,
+        "Y": 1.05,
+        "Z": 1.05,
+        "W": 1.0
+      },
+      "ColorGainMidtones": {
+        "X": 1.05,
+        "Y": 1.05,
+        "Z": 1.05,
+        "W": 1.0
+      },
+      "MobileBloomSettings": {
+        "bOverride_BloomIntensity": true,
+        "bOverride_BloomThreshold": true,
+        "BloomIntensity": 2.0,
+        "BloomThreshold": -0.5
+      },
+      "DesktopBloomSettings": {
+        "bOverride_BloomIntensity": true,
+        "bOverride_BloomThreshold": true,
+        "BloomIntensity": 2.0,
+        "BloomThreshold": -0.5
+      },
+      "AutoExposureMinBrightness": 0.0,
+      "AutoExposureMaxBrightness": 0.0,
+      "VignetteIntensity": 0.5,
+      "SSRTAOIntensity": 0.6,
+      "bForceEnableSpotLightShadow": true,
+      "bIsUI": true
+    },
+    "bUnbound": true,
+    "BrushType": "Brush_Add",
+    "Brush": {
+      "ObjectName": "Model'Lobby_Scene_Light_Role_Queen:PersistentLevel.PostProcessVolume_Queen.Model_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.51"
+    },
+    "BrushComponent": {
+      "ObjectName": "BrushComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.PostProcessVolume_Queen.BrushComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.38"
+    },
+    "bHidden": false,
+    "RootComponent": {
+      "ObjectName": "BrushComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.PostProcessVolume_Queen.BrushComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.38"
+    },
+    "Tags": [
+      "SequencerPostVolume"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "Type": "PostProcessVolume",
+  "Name": "PostProcessVolume_lucia",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'PostProcessVolume'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.24"
+  },
+  "Properties": {
+    "Settings": {
+      "bOverride_ColorSaturation": true,
+      "bOverride_ColorContrast": true,
+      "bOverride_ColorGain": true,
+      "bOverride_ColorGammaShadows": true,
+      "bOverride_ColorGainShadows": true,
+      "bOverride_ColorContrastMidtones": true,
+      "bOverride_ColorGainMidtones": true,
+      "bOverride_SceneFringeIntensity": true,
+      "bOverride_ChromaticAberrationStartOffset": true,
+      "bOverride_BloomMethod": true,
+      "bOverride_BloomDirtMaskIntensity": true,
+      "bOverride_BloomDirtMask": true,
+      "bOverride_AutoExposureMinBrightness": true,
+      "bOverride_AutoExposureMaxBrightness": true,
+      "bOverride_VignetteIntensity": true,
+      "bOverride_GrainIntensity": true,
+      "bOverride_SSRTAOIntensity": true,
+      "bOverride_DepthOfFieldUseMobileImpl": true,
+      "bOverride_ShadowAffectGIIntensity": true,
+      "bOverride_ShadowAffectLitGIIntensity": true,
+      "bOverride_DistantShadowAffectGIIntensity": true,
+      "bOverride_IsUI": true,
+      "ColorContrast": {
+        "X": 1.1,
+        "Y": 1.1,
+        "Z": 1.1,
+        "W": 1.0
+      },
+      "ColorGain": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5,
+        "W": 1.0
+      },
+      "ColorContrastMidtones": {
+        "X": 1.1,
+        "Y": 1.1,
+        "Z": 1.1,
+        "W": 1.0
+      },
+      "ColorGainMidtones": {
+        "X": 1.2,
+        "Y": 1.2,
+        "Z": 1.2,
+        "W": 1.0
+      },
+      "SceneFringeIntensity": 0.5,
+      "ChromaticAberrationStartOffset": 0.7,
+      "MobileBloomSettings": {
+        "bOverride_BloomIntensity": true,
+        "BloomIntensity": 5.0
+      },
+      "DesktopBloomSettings": {
+        "bOverride_BloomIntensity": true,
+        "BloomIntensity": 3.5
+      },
+      "BloomDirtMask": {
+        "ObjectName": "Texture2D't_dirtmask'",
+        "ObjectPath": "NZM/Content/Env/PhysicLighting/LF_DirtyMask/t_dirtmask.0"
+      },
+      "BloomDirtMaskIntensity": 5.0,
+      "AutoExposureLowPercent": 20.0,
+      "AutoExposureHighPercent": 70.0,
+      "AutoExposureMinBrightness": 0.0,
+      "AutoExposureMaxBrightness": 0.0,
+      "AutoExposureCalibrationConstant": 21.4,
+      "LensFlareIntensity": 0.0,
+      "VignetteIntensity": 1.0,
+      "GrainIntensity": 0.2,
+      "SSRTAOIntensity": 0.8,
+      "DepthOfFieldUseMobileImpl": false,
+      "bIsUI": true
+    },
+    "bUnbound": true,
+    "BrushType": "Brush_Add",
+    "Brush": {
+      "ObjectName": "Model'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.PostProcessVolume_lucia.Model_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.45"
+    },
+    "BrushComponent": {
+      "ObjectName": "BrushComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.PostProcessVolume_lucia.BrushComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.18"
+    },
+    "bHidden": false,
+    "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+    "RootComponent": {
+      "ObjectName": "BrushComponent'Lobby_Scene_Light_Role_Role_AngelLucia:PersistentLevel.PostProcessVolume_lucia.BrushComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_AngelLucia/Lobby_Scene_Light_Role_Role_AngelLucia.18"
+    },
+    "Tags": [
+      "SequencerPostVolume"
+    ]
+  }
+}

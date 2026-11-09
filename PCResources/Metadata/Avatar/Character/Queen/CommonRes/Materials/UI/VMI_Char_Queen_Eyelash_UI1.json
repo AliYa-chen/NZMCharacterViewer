@@ -1,0 +1,109 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Queen_Eyelash_UI1",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Eyelash_UI1",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_Translucent_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent_UI.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_8e7bf50e43954924fa74d677573a34bb'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_BaseColorMap_8e7bf50e43954924fa74d677573a34bb.0"
+        },
+        "ExpressionGUID": "5C8EF357-43EBE9DA-6F2D778A-31AC5D13"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_25671443a031a1ade8db494094355ceb'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_NormalMap_25671443a031a1ade8db494094355ceb.0"
+        },
+        "ExpressionGUID": "39EE56C0-4B4381F6-9A013F85-E8621073"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_EmissiveMap_31878fab1cf26b6c6fb410017d5f56e9'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_EmissiveMap_31878fab1cf26b6c6fb410017d5f56e9.0"
+        },
+        "ExpressionGUID": "F28A088A-4A42E09E-1C9F2492-7C397E84"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_RAMMap_6239d34c75a4ae9da15f09678026cc3e'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_6239d34c75a4ae9da15f09678026cc3e.0"
+        },
+        "ExpressionGUID": "63DD2FFD-48D9C996-224D3D92-B64D0DBA"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bOverride_ShadingModel": true,
+      "bOverride_TwoSided": true,
+      "TwoSided": true,
+      "bTranslucentReceivesLocalLightShadow": true,
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "OpacityMaskClipValue": 0.3333,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseNormalOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true,
+      "TranslucencyDistanceSortPriority": 1
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "bTwoSideSign",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "35FC1C6B-4BDC821B-4211CE8B-75967BCE"
+        }
+      ]
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMGen_BaseColorMap_8e7bf50e43954924fa74d677573a34bb"
+      }
+    ]
+  }
+}

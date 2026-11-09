@@ -1,0 +1,18 @@
+{
+  "Type": "NavigationSystemModuleConfig",
+  "Name": "NavigationSystemModuleConfig_0",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'NavigationSystemModuleConfig'",
+  "Outer": {
+    "ObjectName": "NZWorldSettings'Lobby_Scene_Light_Role:PersistentLevel.NZWorldSettings'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.16"
+  },
+  "Properties": {
+    "bAutoSpawnMissingNavData": true,
+    "bSpawnNavDataInNavBoundsLevel": true,
+    "NavigationSystemClass": {
+      "AssetPathName": "/Script/GPAIBase.GPNavigationSystem",
+      "SubPathString": ""
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "Type": "ParticleModuleLocationPrimitiveSphere_Seeded",
+  "Name": "ParticleModuleLocationPrimitiveSphere_Seeded_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ParticleModuleLocationPrimitiveSphere_Seeded'",
+  "Outer": {
+    "ObjectName": "ParticleSystem'P_EFX_Default_BeiJing_Smoke_Top'",
+    "ObjectPath": "NZM/Content/Effect/Lobby/Scene/Character/Particles/P_EFX_Default_BeiJing_Smoke_Top.66"
+  },
+  "Properties": {
+    "RandomSeedInfo": {
+      "bResetSeedOnEmitterLooping": false,
+      "RandomSeeds": [
+        0
+      ]
+    },
+    "StartRadius": {
+      "MinValue": 1500.0,
+      "MaxValue": 1500.0,
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          1500.0
+        ],
+        "Op": 1,
+        "EntryCount": 1,
+        "EntryStride": 1
+      }
+    },
+    "Negative_Z": false,
+    "Velocity": true,
+    "VelocityScale": {
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          0.0
+        ],
+        "Op": 1,
+        "EntryCount": 1,
+        "EntryStride": 1
+      }
+    },
+    "StartLocation": {
+      "Distribution": null,
+      "Table": {
+        "Values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Op": 1,
+        "EntryCount": 1,
+        "EntryStride": 3
+      }
+    },
+    "LODValidity": 1
+  }
+}

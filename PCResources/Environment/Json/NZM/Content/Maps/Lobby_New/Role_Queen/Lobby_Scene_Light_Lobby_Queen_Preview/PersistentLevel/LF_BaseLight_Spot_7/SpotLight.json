@@ -1,0 +1,162 @@
+{
+  "Type": "SpotLightComponent",
+  "Name": "SpotLight",
+  "Flags": "RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SpotLightComponent'",
+  "Outer": {
+    "ObjectName": "LF_BaseLight_Spot_01_C'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.LF_BaseLight_Spot_7'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.23"
+  },
+  "Template": {
+    "ObjectName": "SpotLightComponent'LF_BaseLight_Spot_01_C:SpotLight_GEN_VARIABLE'",
+    "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_Generic/LF_BaseLight/LF_BaseLight_Spot_01.15"
+  },
+  "Properties": {
+    "InnerConeAngle": 1.0,
+    "OuterConeAngle": 10.0,
+    "bIgnoreShadowVolume": true,
+    "SourceRadius": 300.0,
+    "SourceLength": 1.0,
+    "IntensityUnits": "ELightUnits::Lumens",
+    "AttenuationRadius": 300.0,
+    "bCastStationaryWholeSceneShadow": true,
+    "MaxDrawDistance": 8000.0,
+    "SpecularScale": 3.0,
+    "ShadowBias": 0.1,
+    "bOverride_MaxShadowQualityOverride": true,
+    "bOverride_PCSSOverride": true,
+    "MaxShadowQualityOverride": 3,
+    "bPCSSOverride": true,
+    "LightGuid": "69194DC4-43205CB2-8A804EB7-B74B33CE",
+    "Intensity": 3.0,
+    "LightColor": {
+      "B": 204,
+      "G": 227,
+      "R": 255,
+      "A": 255,
+      "Hex": "FFE3CC"
+    },
+    "AttachParent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Lobby_Queen_Preview:PersistentLevel.LF_BaseLight_Spot_7.DefaultSceneRoot'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Lobby_Queen_Preview.39"
+    },
+    "RelativeLocation": {
+      "X": -0.484445,
+      "Y": -2.351499,
+      "Z": 2.775577
+    },
+    "RelativeRotation": {
+      "Pitch": -81.64568,
+      "Yaw": -165.92671,
+      "Roll": 169.95816
+    },
+    "Mobility": "EComponentMobility::Movable",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    },
+    "bNetAddressable": true,
+    "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+    "UCSModifiedProperties": [
+      {
+        "MemberParent": {
+          "ObjectName": "Class'SpotLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "InnerConeAngle",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'SpotLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "OuterConeAngle",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "SourceRadius",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "SourceLength",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'LocalLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "bCastStationaryWholeSceneShadow",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'LightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "MaxDrawDistance",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'LightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "SpecularScale",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'LightComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "ShadowBias",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'LightComponentBase'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "Intensity",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'LightComponentBase'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "LightColor",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "Mobility",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "MemberParent": {
+          "ObjectName": "Class'ActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "MemberName": "PrimaryComponentTick",
+        "MemberGuid": "00000000-00000000-00000000-00000000"
+      }
+    ]
+  },
+  "IntensityNits": 36.582516
+}

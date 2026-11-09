@@ -1,0 +1,23 @@
+{
+  "Type": "ExponentialHeightFog",
+  "Name": "ExponentialHeightFog_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'ExponentialHeightFog'",
+  "Outer": {
+    "ObjectName": "Level'Lobby_Scene_Light_Role_Queen:PersistentLevel'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.48"
+  },
+  "Properties": {
+    "Component": {
+      "ObjectName": "ExponentialHeightFogComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.ExponentialHeightFog_2.HeightFogComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.47"
+    },
+    "RootComponent": {
+      "ObjectName": "ExponentialHeightFogComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.ExponentialHeightFog_2.HeightFogComponent0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.47"
+    },
+    "Tags": [
+      "SequencerFog"
+    ]
+  }
+}

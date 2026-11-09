@@ -1,0 +1,35 @@
+{
+  "Type": "BoxComponent",
+  "Name": "DrawBox1",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'BoxComponent'",
+  "Outer": {
+    "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role:PersistentLevel.BoxReflectionCapture3'",
+    "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.5"
+  },
+  "Properties": {
+    "BoxExtent": {
+      "X": 0.95,
+      "Y": 0.96,
+      "Z": 0.8
+    },
+    "AreaClass": {
+      "ObjectName": "Class'NavArea_Obstacle'",
+      "ObjectPath": "/Script/NavigationSystem"
+    },
+    "PrimitiveGuid": "D7D92C70-4A6FAFE8-188E3389-ABD2CF23",
+    "BodyInstance": {
+      "MaxAngularVelocity": 3599.9998
+    },
+    "AttachParent": {
+      "ObjectName": "BoxReflectionCaptureComponent'Lobby_Scene_Light_Role:PersistentLevel.BoxReflectionCapture3.NewReflectionComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby/Role/Lobby_Scene_Light_Role.6"
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  }
+}

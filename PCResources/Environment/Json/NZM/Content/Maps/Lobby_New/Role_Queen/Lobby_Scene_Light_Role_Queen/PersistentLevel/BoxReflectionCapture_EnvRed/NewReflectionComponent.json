@@ -1,0 +1,53 @@
+{
+  "Type": "BoxReflectionCaptureComponent",
+  "Name": "NewReflectionComponent",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'BoxReflectionCaptureComponent'",
+  "Outer": {
+    "ObjectName": "BoxReflectionCapture'Lobby_Scene_Light_Role_Queen:PersistentLevel.BoxReflectionCapture_EnvRed'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.24"
+  },
+  "Properties": {
+    "PreviewInfluenceBox": {
+      "ObjectName": "BoxComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.BoxReflectionCapture_EnvRed.DrawBox0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.15"
+    },
+    "PreviewCaptureBox": {
+      "ObjectName": "BoxComponent'Lobby_Scene_Light_Role_Queen:PersistentLevel.BoxReflectionCapture_EnvRed.DrawBox1'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.16"
+    },
+    "CaptureOffsetComponent": null,
+    "ReflectionSourceType": "EReflectionSourceType::SpecifiedCubemap",
+    "Cubemap": {
+      "ObjectName": "TextureCube'Office_Lounge'",
+      "ObjectPath": "NZM/Content/Env/LF_LightingLibary/LF_IBL/IBL_UI/Office_Lounge.0"
+    },
+    "CubemapAverageBrightness": 0.0,
+    "MapBuildDataId": "5FBCD767-4C8C9D23-A42DFC94-BC8DBF11",
+    "MapBuildDataId_HD": "D73BD262-416B097C-577DE988-A3D98A14",
+    "RelativeLocation": {
+      "X": 61807.312,
+      "Y": -5655.8057,
+      "Z": 9679.2
+    },
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": -17.254606,
+      "Roll": 0.0
+    },
+    "RelativeScale3D": {
+      "X": 6000.0,
+      "Y": 6000.0,
+      "Z": 6700.0
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'BoxReflectionCaptureComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  "bLegacy": false,
+  "SavedVersion": null,
+  "AverageBrightness": 1.0
+}

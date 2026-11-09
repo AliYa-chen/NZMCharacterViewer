@@ -9,3 +9,10 @@
 *.umap binary
 *.otf binary
 *.png binary
+*.psk binary
+*.pskx binary
+*.hdr binary
+# Preserve exported bytes so SHA256 manifests survive cross-platform checkouts.
+PCResources/** -text whitespace=cr-at-eol
+# Keep upstream notice text intact, including original trailing spaces.
+Tools/PCAssetPipeline/**/NOTICE-CUE4Parse.txt -whitespace

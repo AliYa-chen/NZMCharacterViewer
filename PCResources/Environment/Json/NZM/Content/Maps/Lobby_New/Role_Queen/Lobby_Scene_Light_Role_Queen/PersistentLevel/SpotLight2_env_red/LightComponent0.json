@@ -1,0 +1,49 @@
+{
+  "Type": "SpotLightComponent",
+  "Name": "LightComponent0",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'SpotLightComponent'",
+  "Outer": {
+    "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Queen:PersistentLevel.SpotLight2_env_red'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Queen/Lobby_Scene_Light_Role_Queen.68"
+  },
+  "Properties": {
+    "InnerConeAngle": 5.0,
+    "OuterConeAngle": 35.0,
+    "bUseInverseSquaredFalloff": false,
+    "LightFalloffExponent": 2.0,
+    "AttenuationRadius": 4000.0,
+    "LightingChannels": {
+      "bChannel0": false,
+      "bChannel2": true
+    },
+    "LightGuid": "F0525770-41368B67-6489FD9D-39B73DD6",
+    "Intensity": 50.0,
+    "LightColor": {
+      "B": 81,
+      "G": 0,
+      "R": 255,
+      "A": 255,
+      "Hex": "FF0051"
+    },
+    "VolumetricScatteringIntensity": 0.0,
+    "RelativeLocation": {
+      "X": 60907.344,
+      "Y": -7007.4775,
+      "Z": 13365.092
+    },
+    "RelativeRotation": {
+      "Pitch": -73.95822,
+      "Yaw": -192.02208,
+      "Roll": -167.50613
+    },
+    "Mobility": "EComponentMobility::Static",
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      }
+    }
+  },
+  "IntensityNits": 50.0
+}

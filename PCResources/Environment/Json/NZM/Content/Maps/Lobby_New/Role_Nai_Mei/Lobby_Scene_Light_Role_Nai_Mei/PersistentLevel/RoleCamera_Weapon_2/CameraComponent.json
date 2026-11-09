@@ -1,0 +1,34 @@
+{
+  "Type": "CineCameraComponent",
+  "Name": "CameraComponent",
+  "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'CineCameraComponent'",
+  "Outer": {
+    "ObjectName": "BP_LobbyCameraActor_C'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.RoleCamera_Weapon_2'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.15"
+  },
+  "Template": {
+    "ObjectName": "CineCameraComponent'Default__BP_LobbyCameraActor_C:CameraComponent'",
+    "ObjectPath": "NZM/Content/Blueprints/FrontEnd/BP_LobbyCameraActor.2"
+  },
+  "Properties": {
+    "LensSettings": {
+      "MinFocalLength": 10.0
+    },
+    "FocusSettings": {
+      "ManualFocusDistance": 0.0
+    },
+    "CurrentFocalLength": 135.0,
+    "FieldOfView": 8.578305,
+    "AttachParent": {
+      "ObjectName": "SceneComponent'Lobby_Scene_Light_Role_Nai_Mei:PersistentLevel.RoleCamera_Weapon_2.SceneComponent'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Nai_Mei/Lobby_Scene_Light_Role_Nai_Mei.45"
+    },
+    "PrimaryComponentTick": {
+      "AggregateClass": {
+        "ObjectName": "Class'CineCameraComponent'",
+        "ObjectPath": "/Script/CinematicCamera"
+      }
+    }
+  }
+}

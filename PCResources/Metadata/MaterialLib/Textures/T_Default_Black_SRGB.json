@@ -1,0 +1,33 @@
+{
+  "Type": "Texture2D",
+  "Name": "T_Default_Black_SRGB",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Texture2D'",
+  "Package": "NZM/Content/MaterialLib/Textures/T_Default_Black_SRGB",
+  "Properties": {
+    "ImportedSize": {
+      "X": 1,
+      "Y": 1
+    },
+    "LightingGuid": "81EA98E7-4D998794-1390EAA2-EFEC8468",
+    "CompressionSettings": "TC_BC7"
+  },
+  "SizeX": 1,
+  "SizeY": 1,
+  "PackedData": 1,
+  "PixelFormat": "PF_B8G8R8A8",
+  "FirstMipToSerialize": 0,
+  "Mips": [
+    {
+      "BulkData": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 4,
+        "SizeOnDisk": 4,
+        "OffsetInFile": "0x8D4"
+      },
+      "SizeX": 1,
+      "SizeY": 1,
+      "SizeZ": 1
+    }
+  ]
+}

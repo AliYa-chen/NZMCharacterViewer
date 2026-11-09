@@ -1,0 +1,140 @@
+{
+  "Type": "Level",
+  "Name": "PersistentLevel",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Level'",
+  "Outer": {
+    "ObjectName": "World'Lobby_Scene_Light_Role_Naimei'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.40"
+  },
+  "Properties": {
+    "Model": {
+      "ObjectName": "Model'Lobby_Scene_Light_Role_Naimei:PersistentLevel.Model_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.8"
+    },
+    "LevelBuildDataId": "5E8AD377-4165D1AB-FEDE4BAA-7443E840",
+    "WorldSettings": {
+      "ObjectName": "NZWorldSettings'Lobby_Scene_Light_Role_Naimei:PersistentLevel.NZWorldSettings'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.11"
+    }
+  },
+  "Actors": [
+    {
+      "ObjectName": "NZWorldSettings'Lobby_Scene_Light_Role_Naimei:PersistentLevel.NZWorldSettings'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.11"
+    },
+    null,
+    {
+      "ObjectName": "PostProcessVolume'Lobby_Scene_Light_Role_Naimei:PersistentLevel.PostProcessVolume_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.32"
+    },
+    {
+      "ObjectName": "DirectionalLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.DirectionalLight_1'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.3"
+    },
+    {
+      "ObjectName": "SkyLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.SkyLight_1'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.34"
+    },
+    {
+      "ObjectName": "ExponentialHeightFog'Lobby_Scene_Light_Role_Naimei:PersistentLevel.ExponentialHeightFog_0'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.5"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.PointLight_1'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.22"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.PointLight2_3'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.14"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.PointLight3'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.15"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.PointLight4'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.16"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.PointLight5'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.17"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.PointLight6'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.18"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.SpotLight_1'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.37"
+    },
+    {
+      "ObjectName": "SpotLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.SpotLight2'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.36"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.PointLight7_3'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.19"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.PointLight8'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.20"
+    },
+    {
+      "ObjectName": "PointLight'Lobby_Scene_Light_Role_Naimei:PersistentLevel.PointLight9'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.21"
+    },
+    {
+      "ObjectName": "PlanarReflection'Lobby_Scene_Light_Role_Naimei:PersistentLevel.PlanarReflection_1'",
+      "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.12"
+    }
+  ],
+  "URL": {
+    "Protocol": "unreal",
+    "Host": "",
+    "Port": 7777,
+    "Valid": true,
+    "Map": "/Game/Startup/StartupMap",
+    "Op": [],
+    "Portal": ""
+  },
+  "Model": {
+    "ObjectName": "Model'Lobby_Scene_Light_Role_Naimei:PersistentLevel.Model_0'",
+    "ObjectPath": "NZM/Content/Maps/Lobby_New/Role_Naimei/Lobby_Scene_Light_Role_Naimei.8"
+  },
+  "ModelComponents": [],
+  "LevelScriptActor": null,
+  "NavListStart": null,
+  "NavListEnd": null,
+  "PrecomputedVisibilityHandler": {
+    "PrecomputedVisibilityCellBucketOriginXY": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "PrecomputedVisibilityCellSizeXY": 0.0,
+    "PrecomputedVisibilityCellSizeZ": 0.0,
+    "PrecomputedVisibilityCellBucketSizeXY": 0,
+    "PrecomputedVisibilityNumCellBuckets": 0,
+    "PrecomputedVisibilityCellBuckets": []
+  },
+  "PrecomputedVolumeDistanceField": {
+    "VolumeMaxDistance": 0.0,
+    "VolumeBox": {
+      "Min": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Max": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "IsValid": 0
+    },
+    "VolumeSizeX": 0,
+    "VolumeSizeY": 0,
+    "VolumeSizeZ": 0,
+    "Data": []
+  }
+}
