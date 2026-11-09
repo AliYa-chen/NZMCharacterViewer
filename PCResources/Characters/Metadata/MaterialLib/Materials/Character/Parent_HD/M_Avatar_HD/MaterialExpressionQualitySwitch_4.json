@@ -1,0 +1,82 @@
+{
+  "Type": "MaterialExpressionQualitySwitch",
+  "Name": "MaterialExpressionQualitySwitch_4",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionQualitySwitch'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_HD'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent_HD/M_Avatar_HD.0"
+  },
+  "Properties": {
+    "Default": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionCustom_6"
+    },
+    "Inputs": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionConstant_11"
+    },
+    "Inputs[1]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionCustom_6"
+    },
+    "Inputs[2]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionCustom_6"
+    },
+    "Inputs[3]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionCustom_6"
+    },
+    "Inputs[4]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionCustom_6"
+    },
+    "Material": {
+      "ObjectName": "Material'M_Avatar_HD'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent_HD/M_Avatar_HD.0"
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "Type": "Material",
+  "Name": "M_Avatar_Brushed_Cloth",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Material'",
+  "Package": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth",
+  "Properties": {
+    "Metallic": {
+      "Expression": null,
+      "OutputIndex": 3,
+      "InputName": "None",
+      "Mask": 1,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 1,
+      "MaskA": 0,
+      "ExpressionName": "None",
+      "UseConstant": false,
+      "Constant": 0.0
+    },
+    "MaterialAttributes": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMakeMaterialAttributes_0"
+    },
+    "bUsedWithSkeletalMesh": true,
+    "bUsedWithClothing": true,
+    "bMobileUseIBLOnULTRALOWQUALITY": true,
+    "bMobileUseNormalOnULTRALOWQUALITY": true,
+    "bMobileUseMetallicOnULTRALOWQUALITY": true,
+    "bMobileUseExposureCorrection": true,
+    "bMobileUseCustomAvatar": true,
+    "bMobileAllowSpotLightShadow": true,
+    "Expressions": [
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Brushed_Cloth:MaterialExpressionMaterialFunctionCall_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.4"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Brushed_Cloth:MaterialExpressionMaterialFunctionCall_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.3"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Brushed_Cloth:MaterialExpressionMaterialFunctionCall_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.2"
+      },
+      {
+        "ObjectName": "MaterialExpressionExtraOutput'M_Avatar_Brushed_Cloth:MaterialExpressionExtraOutput_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.1"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionTextureSampleParameter2D'M_Avatar_Brushed_Cloth:MaterialExpressionTextureSampleParameter2D_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.13"
+      },
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Brushed_Cloth:MaterialExpressionScalarParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.5"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Brushed_Cloth:MaterialExpressionScalarParameter_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.8"
+      },
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'M_Avatar_Brushed_Cloth:MaterialExpressionVectorParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.15"
+      },
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'M_Avatar_Brushed_Cloth:MaterialExpressionVectorParameter_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.16"
+      },
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'M_Avatar_Brushed_Cloth:MaterialExpressionVectorParameter_5'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.17"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Brushed_Cloth:MaterialExpressionScalarParameter_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.9"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Brushed_Cloth:MaterialExpressionScalarParameter_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.6"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Brushed_Cloth:MaterialExpressionScalarParameter_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.7"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Brushed_Cloth:MaterialExpressionScalarParameter_6'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.10"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionStaticSwitchParameter'M_Avatar_Brushed_Cloth:MaterialExpressionStaticSwitchParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.12"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Brushed_Cloth:MaterialExpressionScalarParameter_7'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.11"
+      },
+      {
+        "ObjectName": "MaterialExpressionTextureSampleParameter2D'M_Avatar_Brushed_Cloth:MaterialExpressionTextureSampleParameter2D_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.14"
+      }
+    ],
+    "MaterialFunctionInfos": [
+      {
+        "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+        "Function": {
+          "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+        }
+      },
+      {
+        "StateId": "660B98D0-424FCDA7-43ED6C91-B95DE5C1",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_DataPBREmissive_MatLayer'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/DataProvider/MF_DataPBREmissive_MatLayer.36"
+        }
+      },
+      {
+        "StateId": "58AAED97-458EF9E5-A621CD8A-6182243C",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FX_PreExposure'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_PreExposure.0"
+        }
+      },
+      {
+        "StateId": "ECF7E32D-43414A85-DE6838BC-7C437BD6",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FX_SceneLightColor+PreExposure'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_SceneLightColor+PreExposure.1"
+        }
+      },
+      {
+        "StateId": "3EB49919-44EA794E-A2CE10BF-426A9380",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_AvatarFillLight'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/MF_AvatarFillLight.3"
+        }
+      }
+    ],
+    "MaterialParameterCollectionInfos": [
+      {
+        "StateId": "94ECCB59-45FDB418-97296EB4-0A3F6B85",
+        "ParameterCollection": {
+          "ObjectName": "MaterialParameterCollection'MPC_CharacterNormalizationSwitch'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/MPC_CharacterNormalizationSwitch.0"
+        }
+      }
+    ],
+    "bUseMaterialAttributes": true,
+    "StateId": "FD771803-4235E397-BD24E389-C7C2CAAD",
+    "CachedQualityLevelsUsed": [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_D_BasicBaseColor_Gray"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_D_black"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_MAC_BasicMix"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      }
+    ]
+  }
+}

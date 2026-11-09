@@ -1,0 +1,40 @@
+{
+  "Type": "MaterialExpressionStaticSwitchParameter",
+  "Name": "MaterialExpressionStaticSwitchParameter_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionStaticSwitchParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_LiquidCrystal_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_LiquidCrystal_UI.0"
+  },
+  "Properties": {
+    "A": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionLinearInterpolate_0"
+    },
+    "B": {
+      "Expression": null,
+      "OutputIndex": 1,
+      "InputName": "None",
+      "Mask": 1,
+      "MaskR": 1,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionTextureSample_1"
+    },
+    "ParameterName": "UseFlowMap",
+    "ExpressionGUID": "423F1F04-46DE401C-17428EA3-05E3CCFE",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_LiquidCrystal_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_LiquidCrystal_UI.0"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_3",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Fur_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Fur_UI.0"
+  },
+  "Properties": {
+    "DefaultValue": -1.0,
+    "ParameterName": "FurMipBias",
+    "ExpressionGUID": "14F10F02-4DE191BD-B226819A-0B7110C9",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Fur_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Fur_UI.0"
+    }
+  }
+}

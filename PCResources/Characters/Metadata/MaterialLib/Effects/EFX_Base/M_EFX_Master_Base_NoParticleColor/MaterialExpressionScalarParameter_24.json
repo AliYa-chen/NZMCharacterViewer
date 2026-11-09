@@ -1,0 +1,18 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_24",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+    "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+  },
+  "Properties": {
+    "ParameterName": "CameraDirectionOffset",
+    "ExpressionGUID": "4638B6A9-4F9471C2-BC29B194-34D77E11",
+    "Material": {
+      "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+      "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+    }
+  }
+}

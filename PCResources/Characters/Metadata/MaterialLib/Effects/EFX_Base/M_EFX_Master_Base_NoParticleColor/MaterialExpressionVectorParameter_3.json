@@ -1,0 +1,25 @@
+{
+  "Type": "MaterialExpressionVectorParameter",
+  "Name": "MaterialExpressionVectorParameter_3",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+    "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+  },
+  "Properties": {
+    "DefaultValue": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 0.0,
+      "Hex": "FFFFFF"
+    },
+    "ParameterName": "Adjust_BaseTex",
+    "ExpressionGUID": "10D1B89B-48D510E4-0ADDEBBA-C004DACA",
+    "Material": {
+      "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+      "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+    }
+  }
+}

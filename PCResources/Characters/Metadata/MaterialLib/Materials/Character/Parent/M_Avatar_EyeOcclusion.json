@@ -1,0 +1,299 @@
+{
+  "Type": "Material",
+  "Name": "M_Avatar_EyeOcclusion",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Material'",
+  "Package": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion",
+  "Properties": {
+    "BlendMode": "BLEND_Translucent",
+    "ShadingModel": "MSM_Unlit",
+    "ShadingModels": {
+      "ShadingModelField": 1
+    },
+    "MaterialAttributes": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMaterialFunctionCall_0"
+    },
+    "bEnableSeparateTranslucency": false,
+    "bUsedWithSkeletalMesh": true,
+    "Expressions": [
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_EyeOcclusion:MaterialExpressionMaterialFunctionCall_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.3"
+      },
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionFeatureLevelSwitch'M_Avatar_EyeOcclusion:MaterialExpressionFeatureLevelSwitch_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.1"
+      },
+      {
+        "ObjectName": "MaterialExpressionFeatureLevelSwitch'M_Avatar_EyeOcclusion:MaterialExpressionFeatureLevelSwitch_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.2"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_6'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.34"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_7'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.35"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_9'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.37"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_10'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.6"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_11'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.7"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_13'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.8"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_14'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.9"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_15'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.10"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_24'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.16"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_25'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.17"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_27'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.18"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_31'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.19"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_32'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.20"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_33'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.21"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_34'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.22"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_37'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.23"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_38'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.24"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_39'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.25"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_40'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.27"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_41'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.28"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_42'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.29"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_43'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.30"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_44'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.31"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_45'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.32"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'M_Avatar_EyeOcclusion:MaterialExpressionVectorParameter_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.39"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.5"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.26"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_5'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.33"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_8'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.36"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_16'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.11"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_17'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.12"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_18'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.13"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_19'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.14"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.15"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'M_Avatar_EyeOcclusion:MaterialExpressionVectorParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.38"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_EyeOcclusion:MaterialExpressionScalarParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.4"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'M_Avatar_EyeOcclusion:MaterialExpressionVectorParameter_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.40"
+      },
+      null
+    ],
+    "MaterialFunctionInfos": [
+      {
+        "StateId": "C311B13A-43D25936-E44AF49F-B3A66925",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_EyeOcclusion'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_EyeOcclusion.39"
+        }
+      }
+    ],
+    "bUseMaterialAttributes": true,
+    "StateId": "E13BD219-43907D39-701C228C-F41F6A3D",
+    "CachedQualityLevelsUsed": [
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_12",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Liquid'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Liquid.0"
+  },
+  "Properties": {
+    "DefaultValue": 1.5,
+    "ParameterName": "Fresnel_Range",
+    "ExpressionGUID": "A5D28EBA-4E09D7F7-A6DF659A-0B4B3BA9",
+    "Material": {
+      "ObjectName": "Material'M_Liquid'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Liquid.0"
+    }
+  }
+}

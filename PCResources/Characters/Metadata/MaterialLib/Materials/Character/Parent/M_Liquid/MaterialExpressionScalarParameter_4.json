@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_4",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Liquid'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Liquid.0"
+  },
+  "Properties": {
+    "DefaultValue": 0.01,
+    "ParameterName": "Wave Density",
+    "ExpressionGUID": "D007A193-4328B533-C847419E-AA46FB8B",
+    "Material": {
+      "ObjectName": "Material'M_Liquid'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Liquid.0"
+    }
+  }
+}

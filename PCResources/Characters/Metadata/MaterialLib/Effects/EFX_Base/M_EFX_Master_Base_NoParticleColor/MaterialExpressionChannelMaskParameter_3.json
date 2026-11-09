@@ -1,0 +1,29 @@
+{
+  "Type": "MaterialExpressionChannelMaskParameter",
+  "Name": "MaterialExpressionChannelMaskParameter_3",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionChannelMaskParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+    "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+  },
+  "Properties": {
+    "Input": {
+      "Expression": null,
+      "OutputIndex": 5,
+      "InputName": "None",
+      "Mask": 1,
+      "MaskR": 1,
+      "MaskG": 1,
+      "MaskB": 1,
+      "MaskA": 1,
+      "ExpressionName": "MaterialExpressionTextureSampleParameter2D_7"
+    },
+    "ParameterName": "AlphaChannel_A",
+    "ExpressionGUID": "23A6744C-4A0AFF2A-CB542E84-338FACC8",
+    "Material": {
+      "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+      "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+    }
+  }
+}

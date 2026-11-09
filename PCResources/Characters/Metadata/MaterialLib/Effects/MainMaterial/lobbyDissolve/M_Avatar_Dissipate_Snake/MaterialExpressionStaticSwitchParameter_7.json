@@ -1,0 +1,40 @@
+{
+  "Type": "MaterialExpressionStaticSwitchParameter",
+  "Name": "MaterialExpressionStaticSwitchParameter_7",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionStaticSwitchParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Dissipate_Snake'",
+    "ObjectPath": "NZM/Content/MaterialLib/Effects/MainMaterial/lobbyDissolve/M_Avatar_Dissipate_Snake.0"
+  },
+  "Properties": {
+    "A": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionAdd_2"
+    },
+    "B": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionStaticSwitchParameter_2"
+    },
+    "ParameterName": "UseCustomReflection",
+    "ExpressionGUID": "27A22F5D-4A019D48-1A810FA8-85258BB6",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Dissipate_Snake'",
+      "ObjectPath": "NZM/Content/MaterialLib/Effects/MainMaterial/lobbyDissolve/M_Avatar_Dissipate_Snake.0"
+    }
+  }
+}

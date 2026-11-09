@@ -1,0 +1,397 @@
+{
+  "Type": "Material",
+  "Name": "M_Avatar_Stocking_PC",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Material'",
+  "Package": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC",
+  "Properties": {
+    "Metallic": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionScalarParameter_10",
+      "UseConstant": false,
+      "Constant": 0.0
+    },
+    "Specular": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionScalarParameter_4",
+      "UseConstant": false,
+      "Constant": 0.5
+    },
+    "Anisotropy": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMultiply_0",
+      "UseConstant": false,
+      "Constant": 0.0
+    },
+    "Normal": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMaterialFunctionCall_0",
+      "UseConstant": false,
+      "Constant": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Tangent": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionLinearInterpolate_0",
+      "UseConstant": false,
+      "Constant": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "EmissiveColor": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionAdd_1",
+      "UseConstant": false,
+      "Constant": {
+        "B": 0,
+        "G": 0,
+        "R": 0,
+        "A": 0,
+        "Hex": "000000"
+      }
+    },
+    "WorldPositionOffset": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionStaticSwitchParameter_0",
+      "UseConstant": false,
+      "Constant": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "MaterialAttributes": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMaterialFunctionCall_4"
+    },
+    "bUsedWithSkeletalMesh": true,
+    "Expressions": [
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_10'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.7"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.16"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Stocking_PC:MaterialExpressionMaterialFunctionCall_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.1"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionStaticSwitchParameter'M_Avatar_Stocking_PC:MaterialExpressionStaticSwitchParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.22"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Stocking_PC:MaterialExpressionMaterialFunctionCall_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.4"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Stocking_PC:MaterialExpressionMaterialFunctionCall_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.2"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Stocking_PC:MaterialExpressionMaterialFunctionCall_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.5"
+      },
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'M_Avatar_Stocking_PC:MaterialExpressionVectorParameter_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.27"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_9'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.21"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_11'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.8"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_14'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.11"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_15'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.12"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_16'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.13"
+      },
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_18'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.14"
+      },
+      {
+        "ObjectName": "MaterialExpressionTextureSampleParameter2D'M_Avatar_Stocking_PC:MaterialExpressionTextureSampleParameter2D_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.23"
+      },
+      {
+        "ObjectName": "MaterialExpressionTextureSampleParameter2D'M_Avatar_Stocking_PC:MaterialExpressionTextureSampleParameter2D_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.24"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Stocking_PC:MaterialExpressionMaterialFunctionCall_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.3"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.15"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_6'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.18"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'M_Avatar_Stocking_PC:MaterialExpressionVectorParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.25"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_7'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.19"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_13'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.10"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_5'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.17"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_8'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.20"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_12'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.9"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'M_Avatar_Stocking_PC:MaterialExpressionVectorParameter_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.26"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionVectorParameter'M_Avatar_Stocking_PC:MaterialExpressionVectorParameter_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.28"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Stocking_PC:MaterialExpressionScalarParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.6"
+      }
+    ],
+    "MaterialFunctionInfos": [
+      {
+        "StateId": "F5C2D477-4BA63455-E32B4B96-0D7674B6",
+        "Function": {
+          "ObjectName": "MaterialFunction'BlendAngleCorrectedNormals'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.0"
+        }
+      },
+      {
+        "StateId": "4100E73C-4C3CCA50-18BBBF9F-8356B9F5",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FullPrecision_AppendV4'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/FullPrecisonFunctions/MF_FullPrecision_AppendV4.0"
+        }
+      },
+      {
+        "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+        "Function": {
+          "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+        }
+      },
+      {
+        "StateId": "660B98D0-424FCDA7-43ED6C91-B95DE5C1",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_DataPBREmissive_MatLayer'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/DataProvider/MF_DataPBREmissive_MatLayer.36"
+        }
+      },
+      {
+        "StateId": "F5C2D477-4BA63455-E32B4B96-0D7674B6",
+        "Function": {
+          "ObjectName": "MaterialFunction'BlendAngleCorrectedNormals'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.0"
+        }
+      },
+      {
+        "StateId": "4100E73C-4C3CCA50-18BBBF9F-8356B9F5",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FullPrecision_AppendV4'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/FullPrecisonFunctions/MF_FullPrecision_AppendV4.0"
+        }
+      },
+      {
+        "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+        "Function": {
+          "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+        }
+      },
+      {
+        "StateId": "660B98D0-424FCDA7-43ED6C91-B95DE5C1",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_DataPBREmissive_MatLayer'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/DataProvider/MF_DataPBREmissive_MatLayer.36"
+        }
+      },
+      {
+        "StateId": "FE67B48A-44296B30-FBF15EBB-0FC10ADF",
+        "Function": {
+          "ObjectName": "MaterialFunction'FlattenNormal'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.0"
+        }
+      },
+      {
+        "StateId": "C87F1818-474A27DF-394637A0-75A7FB2C",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_Avatar_Stocking_PC'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Avatar/MF_Avatar_Stocking_PC.26"
+        }
+      },
+      {
+        "StateId": "FE67B48A-44296B30-FBF15EBB-0FC10ADF",
+        "Function": {
+          "ObjectName": "MaterialFunction'FlattenNormal'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.0"
+        }
+      }
+    ],
+    "bUseMaterialAttributes": true,
+    "bDisallowCompileAsync": true,
+    "StateId": "EDD268B5-43127A75-FCCBE9AE-D401B314",
+    "CachedQualityLevelsUsed": [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_D_BasicBaseColor_Gray"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_MAC_BasicMix"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      }
+    ]
+  }
+}

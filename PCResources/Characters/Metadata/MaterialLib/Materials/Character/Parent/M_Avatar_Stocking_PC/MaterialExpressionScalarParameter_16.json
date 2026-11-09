@@ -1,0 +1,18 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_16",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Stocking_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.0"
+  },
+  "Properties": {
+    "ParameterName": "RoughnessB",
+    "ExpressionGUID": "07337AFE-406380AC-86DB98BF-038FFBAD",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Stocking_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.0"
+    }
+  }
+}

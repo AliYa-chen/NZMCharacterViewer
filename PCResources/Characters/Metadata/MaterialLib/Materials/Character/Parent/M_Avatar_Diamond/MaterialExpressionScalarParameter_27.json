@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_27",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Diamond'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Diamond.0"
+  },
+  "Properties": {
+    "DefaultValue": -0.01,
+    "ParameterName": "Refraction_PCOnly",
+    "ExpressionGUID": "3CF79A6C-48839C51-FF5DBEA7-47550FD6",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Diamond'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Diamond.0"
+    }
+  }
+}

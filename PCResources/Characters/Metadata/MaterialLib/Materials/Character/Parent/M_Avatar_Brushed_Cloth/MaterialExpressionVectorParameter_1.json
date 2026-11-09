@@ -1,0 +1,25 @@
+{
+  "Type": "MaterialExpressionVectorParameter",
+  "Name": "MaterialExpressionVectorParameter_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Brushed_Cloth'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.0"
+  },
+  "Properties": {
+    "DefaultValue": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 1.0,
+      "Hex": "FFFFFF"
+    },
+    "ParameterName": "Flip colour",
+    "ExpressionGUID": "5191E876-4C6C7B99-6DB77387-6343F71B",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Brushed_Cloth'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.0"
+    }
+  }
+}

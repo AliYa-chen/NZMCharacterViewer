@@ -1,0 +1,40 @@
+{
+  "Type": "MaterialExpressionStaticSwitchParameter",
+  "Name": "MaterialExpressionStaticSwitchParameter_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionStaticSwitchParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Translucent_Mask'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent_Mask.0"
+  },
+  "Properties": {
+    "A": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMaterialFunctionCall_13"
+    },
+    "B": {
+      "Expression": null,
+      "OutputIndex": 3,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMaterialFunctionCall_6"
+    },
+    "ParameterName": "DitherTemporalAA",
+    "ExpressionGUID": "0535D585-4A2EE716-766A8582-09724A6F",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Translucent_Mask'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent_Mask.0"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "Type": "MaterialExpressionFeatureLevelSwitch",
+  "Name": "MaterialExpressionFeatureLevelSwitch_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionFeatureLevelSwitch'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Effect_Mask'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_Mask.0"
+  },
+  "Properties": {
+    "Default": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionLinearInterpolate_12"
+    },
+    "Inputs": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionQualitySwitch_1"
+    },
+    "Inputs[1]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionQualitySwitch_1"
+    },
+    "Inputs[2]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionLinearInterpolate_12"
+    },
+    "Inputs[3]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionLinearInterpolate_12"
+    },
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Effect_Mask'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_Mask.0"
+    }
+  }
+}

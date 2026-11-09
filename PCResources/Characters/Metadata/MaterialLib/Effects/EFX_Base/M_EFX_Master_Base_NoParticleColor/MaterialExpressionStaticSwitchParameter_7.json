@@ -1,0 +1,40 @@
+{
+  "Type": "MaterialExpressionStaticSwitchParameter",
+  "Name": "MaterialExpressionStaticSwitchParameter_7",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionStaticSwitchParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+    "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+  },
+  "Properties": {
+    "A": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionQualitySwitch_0"
+    },
+    "B": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionReroute_18"
+    },
+    "ParameterName": "K_UseDepthFade",
+    "ExpressionGUID": "9D85C2B6-4DEBC097-F2F8B6A2-DCE38DA6",
+    "Material": {
+      "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+      "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+    }
+  }
+}

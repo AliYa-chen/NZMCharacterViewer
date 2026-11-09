@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_9",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Liquid'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Liquid.0"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "TexTlie",
+    "ExpressionGUID": "03680985-45CF6699-FE9C64B3-43CD565D",
+    "Material": {
+      "ObjectName": "Material'M_Liquid'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Liquid.0"
+    }
+  }
+}

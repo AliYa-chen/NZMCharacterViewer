@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_14",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+    "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+  },
+  "Properties": {
+    "DefaultValue": 0.15,
+    "ParameterName": "PannerSpeedU_Distort",
+    "ExpressionGUID": "5D678E45-4EAA1686-A7B15FAF-2B544ED5",
+    "Material": {
+      "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+      "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+    }
+  }
+}

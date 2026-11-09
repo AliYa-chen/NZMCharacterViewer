@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Dissipate_Snake'",
+    "ObjectPath": "NZM/Content/MaterialLib/Effects/MainMaterial/lobbyDissolve/M_Avatar_Dissipate_Snake.0"
+  },
+  "Properties": {
+    "DefaultValue": 0.15,
+    "ParameterName": "SSSIntensity",
+    "ExpressionGUID": "A525C532-48C6F6BF-5AEDA0A6-49BCF48C",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Dissipate_Snake'",
+      "ObjectPath": "NZM/Content/MaterialLib/Effects/MainMaterial/lobbyDissolve/M_Avatar_Dissipate_Snake.0"
+    }
+  }
+}

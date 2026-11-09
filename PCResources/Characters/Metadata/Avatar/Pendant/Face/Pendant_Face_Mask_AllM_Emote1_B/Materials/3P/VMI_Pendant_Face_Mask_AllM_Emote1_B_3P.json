@@ -1,0 +1,110 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Pendant_Face_Mask_AllM_Emote1_B_3P",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Materials/3P/VMI_Pendant_Face_Mask_AllM_Emote1_B_3P",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EmissionScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 5.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_6fa6de4ed906e66ae1a349f1a1d5c137'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Textures/T_VMGen_BaseColorMap_6fa6de4ed906e66ae1a349f1a1d5c137.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_894b6c52c390b1fcc0cee1220b9fbdeb'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Textures/T_VMGen_NormalMap_894b6c52c390b1fcc0cee1220b9fbdeb.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_EmissiveMap_31878fab1cf26b6c6fb410017d5f56e9'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_EmissiveMap_31878fab1cf26b6c6fb410017d5f56e9.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_RAMMap_3a477057b934e76f007cb55e3ecd6f72'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Textures/T_VMGen_RAMMap_3a477057b934e76f007cb55e3ecd6f72.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333
+    },
+    "StaticParameters": {
+      "MaterialLayersParameters": [
+        {
+          "Value": {
+            "Layers": [
+              null
+            ],
+            "Blends": [],
+            "LayerStates": [
+              true
+            ]
+          },
+          "ParameterInfo": {
+            "Name": "AvatarLens",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "969F6A03-4C028091-C09EDF88-4A03569C"
+        }
+      ]
+    }
+  }
+}

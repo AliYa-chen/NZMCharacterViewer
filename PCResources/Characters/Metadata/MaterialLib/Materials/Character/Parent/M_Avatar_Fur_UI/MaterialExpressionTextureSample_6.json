@@ -1,0 +1,50 @@
+{
+  "Type": "MaterialExpressionTextureSample",
+  "Name": "MaterialExpressionTextureSample_6",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionTextureSample'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Fur_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Fur_UI.0"
+  },
+  "Properties": {
+    "Coordinates": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionAdd_0"
+    },
+    "TextureObject": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionTextureObjectParameter_11"
+    },
+    "MipValue": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionScalarParameter_3"
+    },
+    "MipValueMode": "TMVM_MipBias",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Fur_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Fur_UI.0"
+    }
+  }
+}

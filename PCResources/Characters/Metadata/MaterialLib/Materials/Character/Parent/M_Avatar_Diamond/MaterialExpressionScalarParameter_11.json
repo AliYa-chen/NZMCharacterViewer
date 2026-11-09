@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_11",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Diamond'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Diamond.0"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "cIrradianceUpperScale",
+    "ExpressionGUID": "FABEF00D-446912C3-162D9BA8-6B46527E",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Diamond'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Diamond.0"
+    }
+  }
+}

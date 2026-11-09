@@ -1,0 +1,25 @@
+{
+  "Type": "MaterialExpressionVectorParameter",
+  "Name": "MaterialExpressionVectorParameter_12",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Diamond'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Diamond.0"
+  },
+  "Properties": {
+    "DefaultValue": {
+      "R": 0.288565,
+      "G": 0.316481,
+      "B": 0.329861,
+      "A": 1.0,
+      "Hex": "92999C"
+    },
+    "ParameterName": "EdgeBaseColor02",
+    "ExpressionGUID": "91B90414-4DBBC692-188DFA8E-4D62465B",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Diamond'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Diamond.0"
+    }
+  }
+}

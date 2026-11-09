@@ -1,0 +1,82 @@
+{
+  "Type": "MaterialExpressionQualitySwitch",
+  "Name": "MaterialExpressionQualitySwitch_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionQualitySwitch'",
+  "Outer": {
+    "ObjectName": "Material'M_Liquid'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Liquid.0"
+  },
+  "Properties": {
+    "Default": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionSaturate_13"
+    },
+    "Inputs": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionConstant_1"
+    },
+    "Inputs[1]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionConstant_1"
+    },
+    "Inputs[2]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionSaturate_13"
+    },
+    "Inputs[3]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionSaturate_13"
+    },
+    "Inputs[4]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionSaturate_13"
+    },
+    "Material": {
+      "ObjectName": "Material'M_Liquid'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Liquid.0"
+    }
+  }
+}

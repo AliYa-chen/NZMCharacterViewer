@@ -1,0 +1,114 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Char_Widow_Suit_C_Finger_3P_PC",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Materials/3P/VMI_Char_Widow_Suit_C_Finger_3P_PC",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Skin_Master_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Master_PC.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_ea8fbd7bf6208bec1976778fd5d935bc'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_ea8fbd7bf6208bec1976778fd5d935bc.0"
+        },
+        "ExpressionGUID": "794121A2-4A8DDFB6-4A763492-CBAFE635"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_89f78048c93939e93b1b8c757855ebfd'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_NormalMap_89f78048c93939e93b1b8c757855ebfd.0"
+        },
+        "ExpressionGUID": "BF98B7FE-4646CF20-4129919E-BAE6F8C0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_EmissiveMap_5c772414711e52ae74f5b5748ea72c07'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_EmissiveMap_5c772414711e52ae74f5b5748ea72c07.0"
+        },
+        "ExpressionGUID": "B3C63C14-4E921AE8-ADA9DD8C-B0C19F7D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "MetallicMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_MetallicMap_7a3aeb6bf866adb57e25f7243ac205c4'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_MetallicMap_7a3aeb6bf866adb57e25f7243ac205c4.0"
+        },
+        "ExpressionGUID": "0E9DCA70-4B1FDC6E-2EADC89A-BEC85573"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "PSARMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_PSARMap_26a9e56adacf0b114ddd64f419ec69b5'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_PSARMap_26a9e56adacf0b114ddd64f419ec69b5.0"
+        },
+        "ExpressionGUID": "E1611FC2-4D2522FB-515EBC85-6C203CD1"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "ShadingModel": "MSM_SubsurfaceProfile",
+      "OpacityMaskClipValue": 0.3333,
+      "bOverride_UseIBLOnULTRALOWQUALITY": true,
+      "bOverride_UseMetallicOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "EnableMetallic",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "77EF2E8D-4797111D-A9BB5599-361F079D"
+        }
+      ]
+    },
+    "SubsurfaceProfile": {
+      "ObjectName": "SubsurfaceProfile'SubsurfaceProfile_Skin'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/SubsurfaceProfile_Skin.0"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Translucent_Mask'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent_Mask.0"
+  },
+  "Properties": {
+    "ParameterName": "MaskRandom",
+    "ExpressionGUID": "2B7ACF9B-43BA9B5E-19EE3895-22FA541E",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Translucent_Mask'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent_Mask.0"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Type": "MaterialExpressionVectorParameter",
+  "Name": "MaterialExpressionVectorParameter_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Liquid'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Liquid.0"
+  },
+  "Properties": {
+    "DefaultValue": {
+      "R": 0.10978,
+      "G": 0.774306,
+      "B": 0.712591,
+      "A": 1.0,
+      "Hex": "5DE4DC"
+    },
+    "ParameterName": "TopColor",
+    "ExpressionGUID": "FC68A801-48295D50-D99A8F82-B19C7332",
+    "Material": {
+      "ObjectName": "Material'M_Liquid'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Liquid.0"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Type": "MaterialExpressionVectorParameter",
+  "Name": "MaterialExpressionVectorParameter_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_LiquidCrystal_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_LiquidCrystal_UI.0"
+  },
+  "Properties": {
+    "DefaultValue": {
+      "R": 0.036892,
+      "G": 0.083232,
+      "B": 0.125,
+      "A": 1.0,
+      "Hex": "365163"
+    },
+    "ParameterName": "Color Dark",
+    "ExpressionGUID": "408FD8CB-4B5A20F4-0B568C87-C487C7E0",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_LiquidCrystal_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_LiquidCrystal_UI.0"
+    }
+  }
+}

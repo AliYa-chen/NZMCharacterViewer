@@ -1,0 +1,78 @@
+{
+  "Type": "MaterialExpressionExtraOutput",
+  "Name": "MaterialExpressionExtraOutput_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionExtraOutput'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_HD'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent_HD/M_Avatar_HD.0"
+  },
+  "Properties": {
+    "CustomOutputs": [
+      {
+        "Name": "SubsurfaceColor",
+        "UseAsTexture": false,
+        "Input": {
+          "Expression": null,
+          "OutputIndex": 0,
+          "InputName": "None",
+          "Mask": 1,
+          "MaskR": 1,
+          "MaskG": 1,
+          "MaskB": 1,
+          "MaskA": 0,
+          "ExpressionName": "MaterialExpressionVectorParameter_0"
+        }
+      },
+      {
+        "Name": "SSSDepth",
+        "UseAsTexture": false,
+        "Input": {
+          "Expression": null,
+          "OutputIndex": 0,
+          "InputName": "None",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0,
+          "ExpressionName": "MaterialExpressionScalarParameter_4"
+        }
+      },
+      {
+        "Name": "SSSIntensity",
+        "UseAsTexture": false,
+        "Input": {
+          "Expression": null,
+          "OutputIndex": 0,
+          "InputName": "None",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0,
+          "ExpressionName": "MaterialExpressionScalarParameter_0"
+        }
+      },
+      {
+        "Name": "Warp",
+        "UseAsTexture": false,
+        "Input": {
+          "Expression": null,
+          "OutputIndex": 0,
+          "InputName": "None",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0,
+          "ExpressionName": "MaterialExpressionScalarParameter_10"
+        }
+      }
+    ],
+    "Material": {
+      "ObjectName": "Material'M_Avatar_HD'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent_HD/M_Avatar_HD.0"
+    }
+  }
+}

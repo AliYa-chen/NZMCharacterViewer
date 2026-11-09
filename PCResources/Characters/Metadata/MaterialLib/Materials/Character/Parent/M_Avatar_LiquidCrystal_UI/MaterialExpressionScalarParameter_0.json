@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_LiquidCrystal_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_LiquidCrystal_UI.0"
+  },
+  "Properties": {
+    "DefaultValue": 0.1,
+    "ParameterName": "POM Height",
+    "ExpressionGUID": "88E663BC-4FC883D3-1BEC1485-65044D0C",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_LiquidCrystal_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_LiquidCrystal_UI.0"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_EyeOcclusion'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.0"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "opc",
+    "ExpressionGUID": "2B3E7800-41B07659-66ACDE8F-8E3CCC89",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_EyeOcclusion'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.0"
+    }
+  }
+}

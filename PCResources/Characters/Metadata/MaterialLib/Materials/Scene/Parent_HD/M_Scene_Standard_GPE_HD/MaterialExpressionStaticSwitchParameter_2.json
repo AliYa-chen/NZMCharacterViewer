@@ -1,0 +1,41 @@
+{
+  "Type": "MaterialExpressionStaticSwitchParameter",
+  "Name": "MaterialExpressionStaticSwitchParameter_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionStaticSwitchParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Scene_Standard_GPE_HD'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Scene/Parent_HD/M_Scene_Standard_GPE_HD.0"
+  },
+  "Properties": {
+    "A": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionAdd_1"
+    },
+    "B": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionCustom_0"
+    },
+    "DefaultValue": true,
+    "ParameterName": "DISABLE_GI_COLORCHANGE",
+    "ExpressionGUID": "CB838AD1-4DFFD874-851E54A3-B79E8C4A",
+    "Material": {
+      "ObjectName": "Material'M_Scene_Standard_GPE_HD'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Scene/Parent_HD/M_Scene_Standard_GPE_HD.0"
+    }
+  }
+}

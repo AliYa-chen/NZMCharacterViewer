@@ -1,0 +1,61 @@
+{
+  "Type": "Material",
+  "Name": "M_SimpleSolid",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Material'",
+  "Package": "NZM/Content/MaterialLib/Materials/Common/M_SimpleSolid",
+  "Properties": {
+    "Metallic": {
+      "Expression": null,
+      "OutputIndex": 3,
+      "InputName": "None",
+      "Mask": 1,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 1,
+      "MaskA": 0,
+      "ExpressionName": "None",
+      "UseConstant": false,
+      "Constant": 0.0
+    },
+    "MaterialAttributes": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMakeMaterialAttributes_0"
+    },
+    "bUsedWithSkeletalMesh": true,
+    "bUsedWithStaticLighting": true,
+    "bUsedWithInstancedStaticMeshes": true,
+    "Expressions": [
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_SimpleSolid:MaterialExpressionMaterialFunctionCall_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Common/M_SimpleSolid.1"
+      }
+    ],
+    "MaterialFunctionInfos": [
+      {
+        "StateId": "EBE95790-45DF43C3-F26B7C81-E0C3272D",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_DataConstant_MatLayer'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/DataProvider/MF_DataConstant_MatLayer.7"
+        }
+      }
+    ],
+    "bUseMaterialAttributes": true,
+    "StateId": "E683E8F2-4B4CF653-7186FE8B-15997F06",
+    "CachedQualityLevelsUsed": [
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  }
+}

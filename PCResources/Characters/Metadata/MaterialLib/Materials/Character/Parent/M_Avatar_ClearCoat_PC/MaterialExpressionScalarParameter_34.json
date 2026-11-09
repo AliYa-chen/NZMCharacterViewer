@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_34",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_ClearCoat_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_ClearCoat_PC.0"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "Normaliling",
+    "ExpressionGUID": "E4602A62-43E71A22-BF5CF295-F3BDFB5B",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_ClearCoat_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_ClearCoat_PC.0"
+    }
+  }
+}

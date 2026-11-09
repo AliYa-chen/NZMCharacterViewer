@@ -1,0 +1,20 @@
+{
+  "Type": "MaterialExpressionMaterialFunctionCall",
+  "Name": "MaterialExpressionMaterialFunctionCall_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Cloth_Laser_Metallic_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Cloth_Laser_Metallic_UI.0"
+  },
+  "Properties": {
+    "MaterialFunction": {
+      "ObjectName": "MaterialFunction'MF_DataPBREmissive_MaskOpacity_MatLayer'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/DataProvider/MF_DataPBREmissive_MaskOpacity_MatLayer.33"
+    },
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Cloth_Laser_Metallic_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Cloth_Laser_Metallic_UI.0"
+    }
+  }
+}

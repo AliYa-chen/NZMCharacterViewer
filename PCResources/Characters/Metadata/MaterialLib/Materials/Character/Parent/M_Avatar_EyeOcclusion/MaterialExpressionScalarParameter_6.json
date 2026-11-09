@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_6",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_EyeOcclusion'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.0"
+  },
+  "Properties": {
+    "DefaultValue": 0.3,
+    "ParameterName": "OuterBlur_Radius",
+    "ExpressionGUID": "BA095A68-49BD97DB-168E2295-91575C66",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_EyeOcclusion'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.0"
+    }
+  }
+}

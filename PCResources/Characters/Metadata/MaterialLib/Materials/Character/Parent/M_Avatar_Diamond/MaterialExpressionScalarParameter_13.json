@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_13",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Diamond'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Diamond.0"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "06_IridescentHeightRatioInput",
+    "ExpressionGUID": "8739E11E-4378BA4D-552C0F81-C0845BD9",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Diamond'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Diamond.0"
+    }
+  }
+}

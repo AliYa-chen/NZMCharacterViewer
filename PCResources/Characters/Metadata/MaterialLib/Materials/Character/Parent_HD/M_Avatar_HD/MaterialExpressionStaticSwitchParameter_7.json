@@ -1,0 +1,40 @@
+{
+  "Type": "MaterialExpressionStaticSwitchParameter",
+  "Name": "MaterialExpressionStaticSwitchParameter_7",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionStaticSwitchParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_HD'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent_HD/M_Avatar_HD.0"
+  },
+  "Properties": {
+    "A": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionAdd_2"
+    },
+    "B": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionStaticSwitchParameter_2"
+    },
+    "ParameterName": "UseCustomReflection",
+    "ExpressionGUID": "2411E7B7-43C721AF-6D4F33B5-740ADCF9",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_HD'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent_HD/M_Avatar_HD.0"
+    }
+  }
+}

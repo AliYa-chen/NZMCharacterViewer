@@ -1,0 +1,82 @@
+{
+  "Type": "MaterialExpressionQualitySwitch",
+  "Name": "MaterialExpressionQualitySwitch_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionQualitySwitch'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Dissipate_Snake'",
+    "ObjectPath": "NZM/Content/MaterialLib/Effects/MainMaterial/lobbyDissolve/M_Avatar_Dissipate_Snake.0"
+  },
+  "Properties": {
+    "Default": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionLinearInterpolate_2"
+    },
+    "Inputs": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionConstant_10"
+    },
+    "Inputs[1]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionLinearInterpolate_2"
+    },
+    "Inputs[2]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionLinearInterpolate_2"
+    },
+    "Inputs[3]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionLinearInterpolate_2"
+    },
+    "Inputs[4]": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionLinearInterpolate_2"
+    },
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Dissipate_Snake'",
+      "ObjectPath": "NZM/Content/MaterialLib/Effects/MainMaterial/lobbyDissolve/M_Avatar_Dissipate_Snake.0"
+    }
+  }
+}

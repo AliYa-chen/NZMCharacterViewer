@@ -1,0 +1,23 @@
+{
+  "Type": "MaterialExpressionTextureObjectParameter",
+  "Name": "MaterialExpressionTextureObjectParameter_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Effect'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect.0"
+  },
+  "Properties": {
+    "ParameterName": "UltraLowCookedBaseColorMap",
+    "ExpressionGUID": "63720BD6-4BDD02A7-4E250A84-9E3DBC1A",
+    "Group": "AssetDataLayer",
+    "Texture": {
+      "ObjectName": "Texture2D'T_D_BasicBaseColor_Gray'",
+      "ObjectPath": "NZM/Content/MaterialLib/Textures/T_D_BasicBaseColor_Gray.0"
+    },
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Effect'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect.0"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_29",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Fur_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Fur_UI.0"
+  },
+  "Properties": {
+    "DefaultValue": 4.0,
+    "ParameterName": "ExponentEmssive",
+    "ExpressionGUID": "EB9F0038-4843D019-D8D43BAA-01DCAAB0",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Fur_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Fur_UI.0"
+    }
+  }
+}

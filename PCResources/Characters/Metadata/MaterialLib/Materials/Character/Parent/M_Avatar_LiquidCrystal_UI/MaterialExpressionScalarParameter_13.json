@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_13",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_LiquidCrystal_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_LiquidCrystal_UI.0"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "Mask B Mul",
+    "ExpressionGUID": "8939FA63-4C21545F-B2802E9E-E048E5A5",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_LiquidCrystal_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_LiquidCrystal_UI.0"
+    }
+  }
+}

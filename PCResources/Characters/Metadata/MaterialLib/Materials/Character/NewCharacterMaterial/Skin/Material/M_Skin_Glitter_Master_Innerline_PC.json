@@ -1,0 +1,199 @@
+{
+  "Type": "Material",
+  "Name": "M_Skin_Glitter_Master_Innerline_PC",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Material'",
+  "Package": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Glitter_Master_Innerline_PC",
+  "Properties": {
+    "ShadingModel": "MSM_SubsurfaceProfile",
+    "ShadingModels": {
+      "ShadingModelField": 32
+    },
+    "MaterialAttributes": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMaterialFunctionCall_0"
+    },
+    "NumCustomizedUVs": 1,
+    "bUsedWithSkeletalMesh": true,
+    "bUsedWithStaticLighting": true,
+    "bMobileUseStaticLayeredShadow": false,
+    "bMobileUseExposureCorrection": true,
+    "bMobileAllowSpotLightShadow": true,
+    "Expressions": [
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Skin_Glitter_Master_Innerline_PC:MaterialExpressionMaterialFunctionCall_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/M_Skin_Glitter_Master_Innerline_PC.1"
+      },
+      null
+    ],
+    "MaterialFunctionInfos": [
+      {
+        "StateId": "F5C2D477-4BA63455-E32B4B96-0D7674B6",
+        "Function": {
+          "ObjectName": "MaterialFunction'BlendAngleCorrectedNormals'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.0"
+        }
+      },
+      {
+        "StateId": "E6A85460-4E707DD6-EBF457B4-A3E80A43",
+        "Function": {
+          "ObjectName": "MaterialFunction'MakeFloat3'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.0"
+        }
+      },
+      {
+        "StateId": "B2573543-47CEAFDF-4555EC9A-594F4635",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FullPrecision_MultiplyV2'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/FullPrecisonFunctions/MF_FullPrecision_MultiplyV2.0"
+        }
+      },
+      {
+        "StateId": "58AAED97-458EF9E5-A621CD8A-6182243C",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FX_PreExposure'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_PreExposure.0"
+        }
+      },
+      {
+        "StateId": "ECF7E32D-43414A85-DE6838BC-7C437BD6",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FX_SceneLightColor+PreExposure'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_SceneLightColor+PreExposure.1"
+        }
+      },
+      {
+        "StateId": "FE67B48A-44296B30-FBF15EBB-0FC10ADF",
+        "Function": {
+          "ObjectName": "MaterialFunction'FlattenNormal'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.0"
+        }
+      },
+      {
+        "StateId": "D1F6BD57-41F871A2-10E9D89C-8949C85D",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_Glitter_LocalizeNoisyReflection'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Avatar/MF_Glitter_LocalizeNoisyReflection.0"
+        }
+      },
+      {
+        "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+        "Function": {
+          "ObjectName": "MaterialFunction'CameraDirectionVector'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+        }
+      },
+      {
+        "StateId": "B1759E52-45B097F8-ED116FAD-08DDF8D6",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_Glitter_SimulateLightReflection'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Avatar/MF_Glitter_SimulateLightReflection.3"
+        }
+      },
+      {
+        "StateId": "F8928F32-4B14428C-2169F5A1-09BE9ADF",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_Glitter_ViewSkinGlitter'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Avatar/MF_Glitter_ViewSkinGlitter.8"
+        }
+      },
+      {
+        "StateId": "696E04F3-4F6D7C38-C56D1B86-6547ACC7",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_UnpackNormal'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/MF_UnpackNormal.0"
+        }
+      },
+      {
+        "StateId": "15A07BC2-4CA708B3-2091729E-B3E4558F",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_Glitter_Skin'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Avatar/MF_Glitter_Skin.6"
+        }
+      },
+      {
+        "StateId": "191EC524-4CB9BE45-2EC30C8D-AB9FA664",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_Data_Skin_Glitter'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/DataProvider/MF_Data_Skin_Glitter.24"
+        }
+      },
+      {
+        "StateId": "B6067F67-4AC0092A-9D7DF581-EBEEE180",
+        "Function": {
+          "ObjectName": "MaterialFunction'HueShift'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/HueShift.0"
+        }
+      },
+      {
+        "StateId": "BF4C35A2-41694269-CB7E7AB8-38AC31E3",
+        "Function": {
+          "ObjectName": "MaterialFunction'RemapValueRange'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions03/Math/RemapValueRange.0"
+        }
+      },
+      {
+        "StateId": "85188B7F-45EEE9D0-5E6582AD-6AE3AF12",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_InnerLine'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_InnerLine.6"
+        }
+      },
+      {
+        "StateId": "993322F6-446BB90E-176E8698-494D812A",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_Basic_Skin_Glitter_PC_Innerline_layer'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_Basic_Skin_Glitter_PC_Innerline_layer.25"
+        }
+      }
+    ],
+    "bUseMaterialAttributes": true,
+    "bDisallowCompileAsync": true,
+    "StateId": "93F17C44-47F6259A-5181E9A2-EF6FD91E",
+    "CachedQualityLevelsUsed": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "SubsurfaceProfile": {
+      "ObjectName": "SubsurfaceProfile'SubsurfaceProfile_Skin'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/Skin/Material/SubsurfaceProfile_Skin.0"
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Default_Mask_3P"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Default_N"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Default_White"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_MAC_BasicMix"
+      },
+      {
+        "SamplingScale": 20.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      }
+    ]
+  }
+}

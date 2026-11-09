@@ -1,0 +1,34 @@
+{
+  "Type": "MaterialExpressionTextureSampleParameter2D",
+  "Name": "MaterialExpressionTextureSampleParameter2D_7",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+  "Outer": {
+    "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+    "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+  },
+  "Properties": {
+    "ParameterName": "AlphaMask _A",
+    "ExpressionGUID": "D7733F99-4483366B-D1598CB9-2FC1CC65",
+    "Group": "AlphaMask",
+    "Coordinates": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMaterialFunctionCall_48"
+    },
+    "Texture": {
+      "ObjectName": "Texture2D'T_Default_White_SRGB'",
+      "ObjectPath": "NZM/Content/MaterialLib/Textures/Default/T_Default_White_SRGB.0"
+    },
+    "Material": {
+      "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+      "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+    }
+  }
+}

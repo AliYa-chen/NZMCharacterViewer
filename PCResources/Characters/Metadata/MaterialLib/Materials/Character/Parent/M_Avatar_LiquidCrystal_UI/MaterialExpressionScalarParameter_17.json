@@ -1,0 +1,18 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_17",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_LiquidCrystal_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_LiquidCrystal_UI.0"
+  },
+  "Properties": {
+    "ParameterName": "Mask B Offset",
+    "ExpressionGUID": "7CBA7384-4CFA0F80-9DE53593-B5FBE55A",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_LiquidCrystal_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_LiquidCrystal_UI.0"
+    }
+  }
+}

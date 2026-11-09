@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_14",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Stocking_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.0"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "DetailNormalTiling",
+    "ExpressionGUID": "932699EC-44C958C6-EC9EE6A6-2DB02562",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Stocking_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.0"
+    }
+  }
+}

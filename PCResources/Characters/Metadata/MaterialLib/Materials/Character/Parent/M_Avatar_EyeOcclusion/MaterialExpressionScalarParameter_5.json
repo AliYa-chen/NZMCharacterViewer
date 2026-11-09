@@ -1,0 +1,18 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_5",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_EyeOcclusion'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.0"
+  },
+  "Properties": {
+    "ParameterName": "InnerShadowBorder_Hardness",
+    "ExpressionGUID": "46E5030A-48DFC62B-ECF5DCA9-C9DF2770",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_EyeOcclusion'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_EyeOcclusion.0"
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_LobbyCutScene_Nai_Mei_Petal_01a",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Env/Lobby/LobbyCutScene_Nai_Mei/Materials/VMI_LobbyCutScene_Nai_Mei_Petal_01a",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Scene_Translucent_HD'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Scene/Parent_HD/M_Scene_Translucent_HD.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "NormalScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.9,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissionScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 100.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EmissionColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.14,
+          "G": 0.0196,
+          "B": 0.035653,
+          "A": 1.0,
+          "Hex": "682635"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_b97eb3dfbc25e0195f88f07d946102a5'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Env/Lobby/LobbyCutScene_Nai_Mei/Textures/T_VMGen_BaseColorMap_b97eb3dfbc25e0195f88f07d946102a5.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_36f00f1dc6db244a7661d496525a44d7'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Env/Lobby/LobbyCutScene_Nai_Mei/Textures/T_VMGen_NormalMap_36f00f1dc6db244a7661d496525a44d7.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_EmissiveMap_bd4c883a5b4ac6cda7f4391f878ebd47'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Env/Lobby/LobbyCutScene_Nai_Mei/Textures/T_VMGen_EmissiveMap_bd4c883a5b4ac6cda7f4391f878ebd47.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_RAMMap_c58ced83288932a916b28df9d59411d7'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Env/Structure/HurricaneArmy/Branding/Texture/T_VMGen_RAMMap_c58ced83288932a916b28df9d59411d7.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bOverride_BlendMode": true,
+      "bOverride_TwoSided": true,
+      "TwoSided": true,
+      "BlendMode": "BLEND_Masked",
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "UseEmissive",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "E535E6DC-4A822111-8FDA568E-B37173CC"
+        }
+      ]
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMGen_BaseColorMap_b97eb3dfbc25e0195f88f07d946102a5"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMGen_EmissiveMap_bd4c883a5b4ac6cda7f4391f878ebd47"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMGen_NormalMap_36f00f1dc6db244a7661d496525a44d7"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_VMGen_RAMMap_c58ced83288932a916b28df9d59411d7"
+      }
+    ]
+  }
+}

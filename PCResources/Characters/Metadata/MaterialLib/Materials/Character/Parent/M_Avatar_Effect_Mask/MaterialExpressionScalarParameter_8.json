@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_8",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Effect_Mask'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_Mask.0"
+  },
+  "Properties": {
+    "DefaultValue": 0.5,
+    "ParameterName": "[Decal] Roughness",
+    "ExpressionGUID": "4DAAE343-46A73DDC-0CD65F91-8C6F6F73",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Effect_Mask'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_Mask.0"
+    }
+  }
+}

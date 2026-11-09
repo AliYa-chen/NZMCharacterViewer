@@ -1,0 +1,18 @@
+{
+  "Type": "MaterialExpressionMaterialAttributeLayers",
+  "Name": "MaterialExpressionMaterialAttributeLayers_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionMaterialAttributeLayers'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Dissipate_Snake'",
+    "ObjectPath": "NZM/Content/MaterialLib/Effects/MainMaterial/lobbyDissolve/M_Avatar_Dissipate_Snake.0"
+  },
+  "Properties": {
+    "ParameterName": "AvatarLens",
+    "ExpressionGUID": "09A80E1D-4B63B0E1-6C4D43A4-CCB8AF2B",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Dissipate_Snake'",
+      "ObjectPath": "NZM/Content/MaterialLib/Effects/MainMaterial/lobbyDissolve/M_Avatar_Dissipate_Snake.0"
+    }
+  }
+}

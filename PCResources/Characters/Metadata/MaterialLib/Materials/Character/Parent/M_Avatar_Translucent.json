@@ -1,0 +1,196 @@
+{
+  "Type": "Material",
+  "Name": "M_Avatar_Translucent",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Material'",
+  "Package": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent",
+  "Properties": {
+    "BlendMode": "BLEND_Translucent",
+    "MaterialAttributes": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMakeMaterialAttributes_0"
+    },
+    "bEnableSeparateTranslucency": false,
+    "TranslucencyLightingMode": "TLM_SurfacePerPixelLighting",
+    "bUsedWithSkeletalMesh": true,
+    "bMobileRenderAfterDepth": true,
+    "bMobileUseExposureCorrection": true,
+    "bMobileUseCustomAvatar": true,
+    "Expressions": [
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Translucent:MaterialExpressionMaterialFunctionCall_6'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent.5"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Translucent:MaterialExpressionMaterialFunctionCall_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent.4"
+      },
+      {
+        "ObjectName": "MaterialExpressionExtraOutput'M_Avatar_Translucent:MaterialExpressionExtraOutput_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent.1"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Translucent:MaterialExpressionMaterialFunctionCall_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent.2"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Translucent:MaterialExpressionMaterialFunctionCall_13'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent.3"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionStaticSwitchParameter'M_Avatar_Translucent:MaterialExpressionStaticSwitchParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent.8"
+      },
+      {
+        "ObjectName": "MaterialExpressionStaticSwitchParameter'M_Avatar_Translucent:MaterialExpressionStaticSwitchParameter_13'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent.9"
+      },
+      {
+        "ObjectName": "MaterialExpressionTextureObjectParameter'M_Avatar_Translucent:MaterialExpressionTextureObjectParameter_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent.11"
+      },
+      {
+        "ObjectName": "MaterialExpressionTextureSample'M_Avatar_Translucent:MaterialExpressionTextureSample_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent.12"
+      },
+      {
+        "ObjectName": "MaterialExpressionQualitySwitch'M_Avatar_Translucent:MaterialExpressionQualitySwitch_6'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent.7"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionStaticSwitchParameter'M_Avatar_Translucent:MaterialExpressionStaticSwitchParameter_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent.10"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionQualitySwitch'M_Avatar_Translucent:MaterialExpressionQualitySwitch_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent.6"
+      }
+    ],
+    "MaterialFunctionInfos": [
+      {
+        "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+        "Function": {
+          "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+        }
+      },
+      {
+        "StateId": "03F4F0B6-4E77455D-79D2F2AC-525D17E4",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_BatchSample'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/MF_BatchSample.0"
+        }
+      },
+      {
+        "StateId": "69CF1127-443D5DC8-6CBCF9A4-55E4135A",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FullPrecision_AppendV2'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/FullPrecisonFunctions/MF_FullPrecision_AppendV2.0"
+        }
+      },
+      {
+        "StateId": "B2573543-47CEAFDF-4555EC9A-594F4635",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FullPrecision_MultiplyV2'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/FullPrecisonFunctions/MF_FullPrecision_MultiplyV2.0"
+        }
+      },
+      {
+        "StateId": "63388596-426D39E6-25D0C4A0-90CC6919",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FullPrecision_Panner'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MaterialLayers/MF_FullPrecision_Panner.0"
+        }
+      },
+      {
+        "StateId": "4AC97D25-496DF185-64159BBD-31597433",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_DataTranslucentCharPBR_MatLayer'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/DataProvider/MF_DataTranslucentCharPBR_MatLayer.38"
+        }
+      },
+      {
+        "StateId": "58AAED97-458EF9E5-A621CD8A-6182243C",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FX_PreExposure'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_PreExposure.0"
+        }
+      },
+      {
+        "StateId": "ECF7E32D-43414A85-DE6838BC-7C437BD6",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FX_SceneLightColor+PreExposure'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_SceneLightColor+PreExposure.1"
+        }
+      },
+      {
+        "StateId": "3EB49919-44EA794E-A2CE10BF-426A9380",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_AvatarFillLight'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/MF_AvatarFillLight.3"
+        }
+      },
+      {
+        "StateId": "71028A8D-47BF4037-3A3A0B8A-D7B60E53",
+        "Function": {
+          "ObjectName": "MaterialFunction'ScreenAlignedPixelToPixelUVs'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.0"
+        }
+      },
+      {
+        "StateId": "22D58D0F-45CC84AB-89A3628B-351D83C8",
+        "Function": {
+          "ObjectName": "MaterialFunction'DitherTemporalAA'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DitherTemporalAA.2"
+        }
+      }
+    ],
+    "MaterialParameterCollectionInfos": [
+      {
+        "StateId": "94ECCB59-45FDB418-97296EB4-0A3F6B85",
+        "ParameterCollection": {
+          "ObjectName": "MaterialParameterCollection'MPC_CharacterNormalizationSwitch'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/MPC_CharacterNormalizationSwitch.0"
+        }
+      }
+    ],
+    "bUseMaterialAttributes": true,
+    "StateId": "518A6249-403CF0BE-CD6AC9BE-99D97E16",
+    "CachedQualityLevelsUsed": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_D_BasicBaseColor_Gray"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_MAC_BasicMix"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      }
+    ]
+  }
+}

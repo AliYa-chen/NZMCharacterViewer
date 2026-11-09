@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Brushed_Cloth'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.0"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "Scale",
+    "ExpressionGUID": "9F876B8C-4AB1BDB9-25C35580-1EA34364",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Brushed_Cloth'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth.0"
+    }
+  }
+}

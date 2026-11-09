@@ -1,0 +1,23 @@
+{
+  "Type": "MaterialExpressionTextureObjectParameter",
+  "Name": "MaterialExpressionTextureObjectParameter_11",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Fur_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Fur_UI.0"
+  },
+  "Properties": {
+    "ParameterName": "FurPatternMap",
+    "ExpressionGUID": "34A19237-41053A2E-B0FDDC84-EFB8BA80",
+    "Group": "AssetDataLayer",
+    "Texture": {
+      "ObjectName": "Texture2D'T_Default_White_SRGB'",
+      "ObjectPath": "NZM/Content/MaterialLib/Textures/Default/T_Default_White_SRGB.0"
+    },
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Fur_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Fur_UI.0"
+    }
+  }
+}

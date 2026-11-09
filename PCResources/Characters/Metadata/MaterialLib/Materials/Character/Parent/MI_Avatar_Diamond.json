@@ -1,0 +1,401 @@
+{
+  "Type": "MaterialInstanceConstant",
+  "Name": "MI_Avatar_Diamond",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialInstanceConstant'",
+  "Package": "NZM/Content/MaterialLib/Materials/Character/Parent/MI_Avatar_Diamond",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_Diamond'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Diamond.0"
+    },
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EdgeBaseColorExp01",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 10.0,
+        "ExpressionGUID": "F435A809-43C3487B-319D5093-A45C510B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EdgeBaseColorExp02",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 5.0,
+        "ExpressionGUID": "758EF375-430BA14E-BD2BFEB7-95A69C55"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "01_DiamondUVScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.1,
+        "ExpressionGUID": "5DE1D19A-43EE249F-5C2A568B-D51BABCC"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "01_DiamondHeight",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "0B1DAE92-4B1A9ADA-52F51BA8-52FA8D3E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "02_DiamondUVScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "4C644425-489DAB0B-B4F0EA97-961BD31D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "02_DiamondHeight",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "96FF87AA-438FB19B-0077E1B3-E2636CAF"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "03_NoiseU",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.0,
+        "ExpressionGUID": "B7270269-49F06858-2F1A1892-C8D22A92"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "03_NoiseV",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.0,
+        "ExpressionGUID": "89819372-48A6EDAB-27B6A58D-E27A7E1B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "03_NoiseHeightRatio",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "CC260E28-41C6A571-56CCA59F-5EC5E4E6"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "03_NoiseIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "7E67DB1D-485B66F0-5F9BFAA2-8C7B715A"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Diamond Normal Flatten",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "391AACAA-4EEE3AED-997A7AA1-53570638"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Metallic",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "6E751544-4F18FF0A-D262DEA4-7D4361FB"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Specular",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "94FDEB70-4FFAB0FB-48ADB3AA-D8D69F41"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "06_IridescentDistortion",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.1,
+        "ExpressionGUID": "64A84F23-48B92FA0-9CE277B4-975B1D7D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "06_IridescentHeightRatioInput",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "8739E11E-4378BA4D-552C0F81-C0845BD9"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "06_IridescentUVScale_U",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "8BB94C07-4ECB8E36-AB2A19A6-E8CA86C4"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "06_IridescentUVScale_V",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "1155B05E-4A76B6CE-D9F55DAA-D5EC5550"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "06_IridescentFraction",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "D027A4DF-4FB57C90-26D00EB0-32E52543"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "06_IridescentExp",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "446EB46E-4D7990BC-4F600388-A8DD57DE"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "06_IridescentIntensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "320A2E48-4CF21373-A626FCBB-22AB9D45"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "07_RoughnessNoiseScale",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 10.0,
+        "ExpressionGUID": "73B9845E-44444C3A-96557996-61052EDE"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "07_RoughnessRatio",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "122EBD13-49105007-4D04EA80-65C15818"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Roughness Noise",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.1,
+        "ExpressionGUID": "418B3D46-49E18B05-DE111090-FAE941C1"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EdgeBaseColor01",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.701517,
+          "G": 0.796819,
+          "B": 0.845486,
+          "A": 1.0,
+          "Hex": "DAE7ED"
+        },
+        "ExpressionGUID": "A26024C5-4D1E26B5-C92AAE9C-4C33EE73"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EdgeBaseColor02",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.288565,
+          "G": 0.316481,
+          "B": 0.329861,
+          "A": 1.0,
+          "Hex": "92999C"
+        },
+        "ExpressionGUID": "91B90414-4DBBC692-188DFA8E-4D62465B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EdgeBaseColor03",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.472473,
+          "G": 0.572255,
+          "B": 0.92882,
+          "A": 1.0,
+          "Hex": "B7C7F7"
+        },
+        "ExpressionGUID": "6A08FD0F-4FA79446-9AB89693-1F9026BB"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FinalColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.493055,
+          "G": 0.493055,
+          "B": 0.493055,
+          "A": 0.0,
+          "Hex": "BBBBBB"
+        },
+        "ExpressionGUID": "4CA2F22B-40F1257D-052CFDAB-6A6DDFC0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "04_GlobalColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.426192,
+          "G": 0.701389,
+          "B": 0.675196,
+          "A": 2.0,
+          "Hex": "AFDAD7"
+        },
+        "ExpressionGUID": "3E15FDC8-4F92DB10-81E3C6A5-E75B1B23"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_N_StandardNormal'",
+          "ObjectPath": "NZM/Content/MaterialLib/Textures/T_N_StandardNormal.0"
+        },
+        "ExpressionGUID": "39EE56C0-4B4381F6-9A013F85-E8621073"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'Tex_cloud_ZB'",
+          "ObjectPath": "NZM/Content/Effect/Texture/Noise/Tex_cloud_ZB.0"
+        },
+        "ExpressionGUID": "63DD2FFD-48D9C996-224D3D92-B64D0DBA"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Diamond",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Diamond_Noise'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Weapon/Texture/T_Diamond_Noise.0"
+        },
+        "ExpressionGUID": "0C3A6658-4F5DBA56-D7961CB6-9483C61B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Diamond Color",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Diamond_Iridescent'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Weapon/Texture/T_Diamond_Iridescent.0"
+        },
+        "ExpressionGUID": "B926008E-4FB3D821-8F054680-CEED94EC"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Diamond Normal",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Diamond_N'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Weapon/Texture/T_Diamond_N.0"
+        },
+        "ExpressionGUID": "C0CE9543-4B493A6D-41F304AF-95A6FE0F"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333
+    },
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_D_BasicBaseColor_Gray"
+      },
+      {
+        "SamplingScale": 2.006897,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Diamond_N"
+      },
+      {
+        "SamplingScale": 0.09375,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Diamond_Noise"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "Tex_cloud_ZB"
+      }
+    ]
+  }
+}

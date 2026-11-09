@@ -1,0 +1,552 @@
+{
+  "Type": "Material",
+  "Name": "M_Avatar_Effect_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Material'",
+  "Package": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI",
+  "Properties": {
+    "Metallic": {
+      "Expression": null,
+      "OutputIndex": 3,
+      "InputName": "None",
+      "Mask": 1,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 1,
+      "MaskA": 0,
+      "ExpressionName": "None",
+      "UseConstant": false,
+      "Constant": 0.0
+    },
+    "bUsingFullWorldNormal": true,
+    "MaterialAttributes": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMaterialFunctionCall_6"
+    },
+    "bUsedWithSkeletalMesh": true,
+    "bUsedWithClothing": true,
+    "bMobileUseExposureCorrection": true,
+    "bMobileUseCustomAvatar": true,
+    "bUseUltraMaterialQualityLevel": true,
+    "Expressions": [
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Effect_UI:MaterialExpressionMaterialFunctionCall_6'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.12"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialAttributeLayers'M_Avatar_Effect_UI:MaterialExpressionMaterialAttributeLayers_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.3"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Effect_UI:MaterialExpressionMaterialFunctionCall_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.11"
+      },
+      {
+        "ObjectName": "MaterialExpressionExtraOutput'M_Avatar_Effect_UI:MaterialExpressionExtraOutput_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.1"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Effect_UI:MaterialExpressionMaterialFunctionCall_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.4"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionStaticSwitchParameter'M_Avatar_Effect_UI:MaterialExpressionStaticSwitchParameter_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.16"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionStaticSwitchParameter'M_Avatar_Effect_UI:MaterialExpressionStaticSwitchParameter_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.17"
+      },
+      {
+        "ObjectName": "MaterialExpressionScalarParameter'M_Avatar_Effect_UI:MaterialExpressionScalarParameter_9'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.14"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Effect_UI:MaterialExpressionMaterialFunctionCall_7'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.13"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Effect_UI:MaterialExpressionMaterialFunctionCall_10'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.5"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Effect_UI:MaterialExpressionMaterialFunctionCall_18'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.9"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Effect_UI:MaterialExpressionMaterialFunctionCall_11'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.6"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Effect_UI:MaterialExpressionMaterialFunctionCall_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.10"
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionStaticBoolParameter'M_Avatar_Effect_UI:MaterialExpressionStaticBoolParameter_8'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.15"
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Effect_UI:MaterialExpressionMaterialFunctionCall_14'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.8"
+      },
+      {
+        "ObjectName": "MaterialExpressionFeatureLevelSwitch'M_Avatar_Effect_UI:MaterialExpressionFeatureLevelSwitch_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.2"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Effect_UI:MaterialExpressionMaterialFunctionCall_13'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_UI.7"
+      }
+    ],
+    "MaterialFunctionInfos": [
+      {
+        "StateId": "F4C09FFE-46396457-E5373C9C-81E9B7B0",
+        "Function": {
+          "ObjectName": "MaterialFunction'SCurve'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/SCurve.0"
+        }
+      },
+      {
+        "StateId": "A1327A97-475DCF7F-4FF96982-7D6574E9",
+        "Function": {
+          "ObjectName": "MaterialFunction'TriplanarCameraVector'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/TriplanarCameraVector.6"
+        }
+      },
+      {
+        "StateId": "58AAED97-458EF9E5-A621CD8A-6182243C",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FX_PreExposure'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_PreExposure.0"
+        }
+      },
+      {
+        "StateId": "ECF7E32D-43414A85-DE6838BC-7C437BD6",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FX_SceneLightColor+PreExposure'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_SceneLightColor+PreExposure.1"
+        }
+      },
+      {
+        "StateId": "CEB825F7-49B3784E-3010779E-623B62DB",
+        "Function": {
+          "ObjectName": "MaterialFunction'ObjectLocalBounds'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.0"
+        }
+      },
+      {
+        "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+        "Function": {
+          "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+        }
+      },
+      {
+        "StateId": "62DA9865-4653E449-3385F69C-97674F2E",
+        "Function": {
+          "ObjectName": "MaterialFunction'BoundingBoxBased_0-1_UVW'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.2"
+        }
+      },
+      {
+        "StateId": "A4319CD5-49A62354-D37FA58F-33945568",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_AbnormalBuff'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Avatar/MF_AbnormalBuff.68"
+        }
+      },
+      {
+        "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+        "Function": {
+          "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+        }
+      },
+      {
+        "StateId": "2BDC3858-481DC9A5-19C8B491-AA2AF329",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_DataPBREmissive_Mask_Effect_MatLayer'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/DataProvider/MF_DataPBREmissive_Mask_Effect_MatLayer.18"
+        }
+      },
+      {
+        "StateId": "3EB49919-44EA794E-A2CE10BF-426A9380",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_AvatarFillLight'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/MF_AvatarFillLight.3"
+        }
+      },
+      {
+        "StateId": "58AAED97-458EF9E5-A621CD8A-6182243C",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FX_PreExposure'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_PreExposure.0"
+        }
+      },
+      {
+        "StateId": "ECF7E32D-43414A85-DE6838BC-7C437BD6",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FX_SceneLightColor+PreExposure'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_SceneLightColor+PreExposure.1"
+        }
+      },
+      {
+        "StateId": "DF33B04D-4BBC1F5F-5F0031B3-614BE455",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_Gold'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Avatar/MF_Gold.13"
+        }
+      },
+      {
+        "StateId": "58AAED97-458EF9E5-A621CD8A-6182243C",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FX_PreExposure'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_PreExposure.0"
+        }
+      },
+      {
+        "StateId": "ECF7E32D-43414A85-DE6838BC-7C437BD6",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FX_SceneLightColor+PreExposure'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_SceneLightColor+PreExposure.1"
+        }
+      },
+      {
+        "StateId": "DFCF3AE0-4681A9AD-33AC0EBF-2AB9D407",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_LOD_3_SWITCHER_VEC3'",
+          "ObjectPath": "NZM/Content/MaterialLib/MLMI/MF_LOD_3_SWITCHER_VEC3.3"
+        }
+      },
+      {
+        "StateId": "127A25CC-4BE0E6F9-0A2D99BF-43C74E15",
+        "Function": {
+          "ObjectName": "MaterialFunction'BreakOutFloat4Components'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.0"
+        }
+      },
+      {
+        "StateId": "A6CB758D-496F2228-F1591EB4-56F2387F",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FullPrecision_SubtractV3'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/FullPrecisonFunctions/MF_FullPrecision_SubtractV3.0"
+        }
+      },
+      {
+        "StateId": "0F0EA528-47CADA32-3E4E31AD-CDB653AA",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FullPrecision_FloatMultiplyV3'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/FullPrecisonFunctions/MF_FullPrecision_FloatMultiplyV3.0"
+        }
+      },
+      {
+        "StateId": "DA50630A-4A4E1E1D-5F4445BB-87312FE0",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FullPrecision_MultiplyV3'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/FullPrecisonFunctions/MF_FullPrecision_MultiplyV3.0"
+        }
+      },
+      {
+        "StateId": "833D57AA-4DF1C6AD-1EBC6C89-F2DAD76C",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FullPrecision_AddV3'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/FullPrecisonFunctions/MF_FullPrecision_AddV3.0"
+        }
+      },
+      {
+        "StateId": "143B10ED-46EA5E36-8E219EB0-CE6C147D",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FullPrecision_NormalizeV3'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/FullPrecisonFunctions/MF_FullPrecision_NormalizeV3.0"
+        }
+      },
+      {
+        "StateId": "E6A85460-4E707DD6-EBF457B4-A3E80A43",
+        "Function": {
+          "ObjectName": "MaterialFunction'MakeFloat3'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.0"
+        }
+      },
+      {
+        "StateId": "4F6C7B21-45C86E70-00550CB8-001A2771",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_Weapon_MuzzleFlash'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Weapon/MF_Weapon_MuzzleFlash.13"
+        }
+      },
+      {
+        "StateId": "ECFCEC67-4C8B1635-97413896-B055ADDC",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_RemapValueTo0-1'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/MF_RemapValueTo0-1.0"
+        }
+      },
+      {
+        "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+        "Function": {
+          "ObjectName": "MaterialFunction'BreakOutFloat2Components'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+        }
+      },
+      {
+        "StateId": "E9781E2D-48772DFE-771FD7AA-22AFD04B",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_StepFloat'",
+          "ObjectPath": "NZM/Content/UI/UI_Effect/Function/MF_StepFloat.0"
+        }
+      },
+      {
+        "StateId": "DC19BD72-4A97FB2E-180E6BBA-3E885E34",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_Fast_Sine'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/MF_Fast_Sine.0"
+        }
+      },
+      {
+        "StateId": "A9E4F021-46161CC9-A22A4F96-722D7232",
+        "Function": {
+          "ObjectName": "MaterialFunction'SplitComponents'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SplitComponents.0"
+        }
+      },
+      {
+        "StateId": "D672C69B-45BFC2D8-B60A399E-52E5ACD9",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FlipBook_Weapon'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Weapon/MaterialFunction/MF_FlipBook_Weapon.5"
+        }
+      },
+      {
+        "StateId": "B6067F67-4AC0092A-9D7DF581-EBEEE180",
+        "Function": {
+          "ObjectName": "MaterialFunction'HueShift'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/HueShift.0"
+        }
+      },
+      {
+        "StateId": "FE67B48A-44296B30-FBF15EBB-0FC10ADF",
+        "Function": {
+          "ObjectName": "MaterialFunction'FlattenNormal'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.0"
+        }
+      },
+      {
+        "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+        "Function": {
+          "ObjectName": "MaterialFunction'CameraDirectionVector'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+        }
+      },
+      {
+        "StateId": "5E28F255-4817E6E7-2D027C9A-2F7126C6",
+        "Function": {
+          "ObjectName": "MaterialFunction'VectorToRadialValue'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorToRadialValue.0"
+        }
+      },
+      {
+        "StateId": "D50B298A-40A51340-9050FA90-F447D03F",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_Laser'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Weapon/MaterialFunction/MF_Laser.16"
+        }
+      },
+      {
+        "StateId": "AF384CC5-44609023-156D919D-D07B4831",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_UnpackNormal'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Tools/MF_UnpackNormal.0"
+        }
+      },
+      {
+        "StateId": "AB126D3E-46D0D8F7-A271B2BC-7BC932DA",
+        "Function": {
+          "ObjectName": "MaterialFunction'SmoothStep'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SmoothStep.0"
+        }
+      },
+      {
+        "StateId": "6D37F0FA-4B9D2030-AD6E2890-FEA39F8A",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FullPrecision_Random'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/FullPrecisonFunctions/MF_FullPrecision_Random.0"
+        }
+      },
+      {
+        "StateId": "917EB268-40C7E267-26D08999-CBF02920",
+        "Function": {
+          "ObjectName": "MaterialFunction'TransformToClipSpace'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/TransformToClipSpace.1"
+        }
+      },
+      {
+        "StateId": "391DDAD7-4E9DCC58-FD37D7B7-2AF07FC2",
+        "Function": {
+          "ObjectName": "MaterialFunction'ScreenResolution'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ScreenResolution.0"
+        }
+      },
+      {
+        "StateId": "DE36398D-4742C47A-21AFADA6-0CA5CB70",
+        "Function": {
+          "ObjectName": "MaterialFunction'FOV'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/FOV.0"
+        }
+      },
+      {
+        "StateId": "51BAB8B3-4E7EFBFD-B4515E9F-9703A6B1",
+        "Function": {
+          "ObjectName": "MaterialFunction'ComponentPivotLocation'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ComponentPivotLocation.0"
+        }
+      },
+      {
+        "StateId": "DBBC4F54-4A140916-0555BF8C-40137B4F",
+        "Function": {
+          "ObjectName": "MaterialFunction'WorldSpaceAlignedScreenCoordinates'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/UVs/WorldSpaceAlignedScreenCoordinates.5"
+        }
+      },
+      {
+        "StateId": "DA89B9C2-4089EEB1-DE263BBB-27309846",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_Random_Shine'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/MF_Random_Shine.20"
+        }
+      },
+      {
+        "StateId": "A814EC0E-42AB9310-A657F5AF-08DD24CF",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF-GeneralEffect'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Pandant/MaterialFunction/MF-GeneralEffect.96"
+        }
+      },
+      {
+        "StateId": "F5C2D477-4BA63455-E32B4B96-0D7674B6",
+        "Function": {
+          "ObjectName": "MaterialFunction'BlendAngleCorrectedNormals'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.0"
+        }
+      },
+      {
+        "StateId": "AB126D3E-46D0D8F7-A271B2BC-7BC932DA",
+        "Function": {
+          "ObjectName": "MaterialFunction'SmoothStep'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SmoothStep.0"
+        }
+      },
+      {
+        "StateId": "FE67B48A-44296B30-FBF15EBB-0FC10ADF",
+        "Function": {
+          "ObjectName": "MaterialFunction'FlattenNormal'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.0"
+        }
+      },
+      {
+        "StateId": "2198BFF2-47B4F530-F123198B-47D76AD0",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_Weapon_Detail'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Weapon/MaterialFunction/Detail/MF_Weapon_Detail.22"
+        }
+      },
+      {
+        "StateId": "A39041B8-4FF891FE-E47C14A8-8BAC1436",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_UltraLowMetallicCorrect'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/MatFunction/MF_UltraLowMetallicCorrect.8"
+        }
+      }
+    ],
+    "MaterialParameterCollectionInfos": [
+      {
+        "StateId": "94ECCB59-45FDB418-97296EB4-0A3F6B85",
+        "ParameterCollection": {
+          "ObjectName": "MaterialParameterCollection'MPC_CharacterNormalizationSwitch'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/MPC_CharacterNormalizationSwitch.0"
+        }
+      },
+      {
+        "StateId": "0B666E32-4E2FB524-A35F6FB0-C2607A66",
+        "ParameterCollection": {
+          "ObjectName": "MaterialParameterCollection'MPC_WeaponMuzzleFlash'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Weapon/MPC_WeaponMuzzleFlash.0"
+        }
+      }
+    ],
+    "bUseMaterialAttributes": true,
+    "StateId": "40730A21-4349DA66-E83B21A9-EF4DB741",
+    "CachedQualityLevelsUsed": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_D_BasicBaseColor_Gray"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_Default_Gray"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      }
+    ]
+  }
+}

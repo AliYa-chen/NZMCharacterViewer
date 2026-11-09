@@ -1,0 +1,18 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_12",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_ClearCoat_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_ClearCoat_PC.0"
+  },
+  "Properties": {
+    "ParameterName": "LaserAlpha",
+    "ExpressionGUID": "8D64166F-40A43C4A-C2B79E93-8D1E541D",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_ClearCoat_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_ClearCoat_PC.0"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Type": "MaterialExpressionMaterialAttributeLayers",
+  "Name": "MaterialExpressionMaterialAttributeLayers_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionMaterialAttributeLayers'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar.0"
+  },
+  "Properties": {
+    "ParameterName": "AvatarLens",
+    "ExpressionGUID": "B93A1943-4E6F55EC-C78A44BC-160835C9",
+    "Material": {
+      "ObjectName": "Material'M_Avatar'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar.0"
+    }
+  }
+}

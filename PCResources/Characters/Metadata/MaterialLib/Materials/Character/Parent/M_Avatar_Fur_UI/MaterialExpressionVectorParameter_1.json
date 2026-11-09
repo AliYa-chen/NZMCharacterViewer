@@ -1,0 +1,25 @@
+{
+  "Type": "MaterialExpressionVectorParameter",
+  "Name": "MaterialExpressionVectorParameter_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Fur_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Fur_UI.0"
+  },
+  "Properties": {
+    "DefaultValue": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": -1.0,
+      "A": 1.0,
+      "Hex": "000000"
+    },
+    "ParameterName": "Param_1",
+    "ExpressionGUID": "88215D00-48F1655F-059A4C98-6F5B53AA",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Fur_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Fur_UI.0"
+    }
+  }
+}

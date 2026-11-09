@@ -1,0 +1,477 @@
+{
+  "Type": "MaterialInstanceConstant",
+  "Name": "MI_Avatar_StarRotate_PC",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialInstanceConstant'",
+  "Package": "NZM/Content/MaterialLib/Materials/Character/Parent/MI_Avatar_StarRotate_PC",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_StarRotate'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_StarRotate.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "FresnelExp",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.74234,
+        "ExpressionGUID": "28DB1619-4F93618C-9C32F28C-18AF756E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Metallic",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "B5F89B8F-415A972E-D47D43AD-E044D5A7"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Roughenss",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.01,
+        "ExpressionGUID": "380A54FC-42967E85-E49330B4-82ED5B7E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BGMaskSphereSize",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 14.51427,
+        "ExpressionGUID": "027C25C3-4336C784-118A6FB5-CA607592"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BGSphereSize",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 4.058051,
+        "ExpressionGUID": "15730190-4C50EFF0-E4F0F0BD-C7CDE433"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Density",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 4.5,
+        "ExpressionGUID": "311A4DC9-421475EC-05FC2B94-71DEA9D7"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "SoftEdge",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 25.0,
+        "ExpressionGUID": "DD124E66-4C925DC8-0F8C6E92-FA264EC1"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BGRotateSpeed",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.03,
+        "ExpressionGUID": "6DEC4CE9-481E06D4-99953EBC-5821D3F4"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BGTiling",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.744922,
+        "ExpressionGUID": "89F92A3F-41127186-55406CAB-080DD62B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BGFadeTriplanar",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.109288,
+        "ExpressionGUID": "6108C444-40D8A7E3-B130EFBB-7ACC3DC7"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RandomMoveSpeed",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.009286,
+        "ExpressionGUID": "19A5B296-456DFF61-B57D66A7-E50A9EAE"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FlowSpeed",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -0.05,
+        "ExpressionGUID": "968FD52C-4421D1FB-157C488E-34950AC0"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "ColorVariationSpeed",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.1,
+        "ExpressionGUID": "5D32A7E2-462196D8-8A802EB3-1482A877"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "AngleOffsetMax",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 10.305811,
+        "ExpressionGUID": "20F5CF4B-4B53DA37-C1EB6D97-2EBE929E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "AngleSpeed",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "61ACD1F4-4FA4D451-D24A4691-02AA3346"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "LineHalfWidth",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "CDD7A38E-4A0E4F7B-F516B181-ABF78633"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RadiusMax",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 4.554531,
+        "ExpressionGUID": "FB688A73-4772AD8C-24BD958A-EE077A27"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RadiusMin",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.089012,
+        "ExpressionGUID": "F29CDA13-4C7D879E-DA102B94-106C2DCA"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Seed",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.812176,
+        "ExpressionGUID": "6D15FB92-4E0589D3-D97D69A3-BD2C6253"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "SpreadRadius",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 5.0,
+        "ExpressionGUID": "2F0C6270-4FE6D84B-019A26AF-091103DB"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Star2SphereSize",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 4.428278,
+        "ExpressionGUID": "F5ABA55A-47CBFFA8-A2B55DA0-D42A8C87"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "StarFadeTriplanar",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": -0.179458,
+        "ExpressionGUID": "7AB5B39A-434421EB-FE13899E-B4A93AFD"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "StarSphereSize",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 3.829878,
+        "ExpressionGUID": "10A77CF5-47B76268-2FB8A5AA-5E8D4F45"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Star2Tiling",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "4F97625C-4F69B316-E31A0F86-CAC391B2"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "StarTiling",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "30397FDF-4B5E205A-64A2B584-8212DC52"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Star2Speed U",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.1,
+        "ExpressionGUID": "0FB10A43-4BAE5A8A-4ABFAD8E-BACEAB82"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "StarSpeed U",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.1,
+        "ExpressionGUID": "C6F6EBCB-47981E17-09AF1180-D11A1864"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BaseColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 0.986001,
+          "B": 0.986001,
+          "A": 1.0,
+          "Hex": "FFFEFE"
+        },
+        "ExpressionGUID": "1E13FEB2-40D0FE69-26AA28B0-C94351E5"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "SphereBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.0,
+          "G": 15.0,
+          "B": 132.53462,
+          "A": 1.0,
+          "Hex": "00FFFF"
+        },
+        "ExpressionGUID": "75101E46-4A5FEAC8-A53BB49A-68248488"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "HueShift HSV",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.884654,
+          "G": 0.309098,
+          "B": 1.096597,
+          "A": 1.0,
+          "Hex": "F297FF"
+        },
+        "ExpressionGUID": "B8D1F64C-4F6A5B6A-867B2DA1-A8A8642B"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "FresnelColorTint",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.704664,
+          "G": 0.33125,
+          "B": 1.2,
+          "A": 1.0,
+          "Hex": "DB9CFF"
+        },
+        "ExpressionGUID": "FCF0CCC0-454E37BB-8C79AABA-A7911433"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMax",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.0,
+          "G": -1.071895,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "0000FF"
+        },
+        "ExpressionGUID": "776E62D1-4C489F0C-C8EF7AA1-B6F5302D"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMin",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 0.0,
+          "G": 1.366243,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "00FFFF"
+        },
+        "ExpressionGUID": "C1974C82-43FDC586-73463888-4CCF15F2"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RayTintColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 16.413017,
+          "G": 5.309267,
+          "B": 20.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "F90EC7E2-401BE66D-D9BE6D8D-F3F641A8"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "UVScaleBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.079714,
+          "G": 0.842127,
+          "B": 0.0,
+          "A": 1.476101,
+          "Hex": "FFED00"
+        },
+        "ExpressionGUID": "C2A0B40B-4F4ED639-500E37BB-71EAC47F"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "StarTintColor",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 13.307433,
+          "G": 8.308306,
+          "B": 40.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "2A572617-42413D87-4C91B887-C7C69FEC"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "BGTexture",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_BGStar'",
+          "ObjectPath": "NZM/Content/MaterialLib/Textures/T_BGStar.0"
+        },
+        "ExpressionGUID": "817BB314-4EBAB438-BD708C9F-6453AB6E"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Line",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Ray'",
+          "ObjectPath": "NZM/Content/MaterialLib/Textures/T_Ray.0"
+        },
+        "ExpressionGUID": "4F7DE4F4-4CB383F6-7130B2AE-0754B1CF"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Star",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Star_005'",
+          "ObjectPath": "NZM/Content/MaterialLib/Textures/T_Star_005.0"
+        },
+        "ExpressionGUID": "DCA75FED-4A5A94C0-0398EAA1-DD596FAF"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "Star2",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_Star_003'",
+          "ObjectPath": "NZM/Content/MaterialLib/Textures/T_Star_003.0"
+        },
+        "ExpressionGUID": "8B73D6D8-46885352-B4D8D590-1D5414A6"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333,
+      "bUseSpecularOnULTRALOWQUALITY": true,
+      "bUseIBLOnULTRALOWQUALITY": true,
+      "bUseNormalOnULTRALOWQUALITY": true,
+      "bUseMetallicOnULTRALOWQUALITY": true
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": false,
+          "ParameterInfo": {
+            "Name": "Switch2Tex",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "6591CDCD-428CB7E4-DE7037A7-45D66A53"
+        }
+      ]
+    }
+  }
+}

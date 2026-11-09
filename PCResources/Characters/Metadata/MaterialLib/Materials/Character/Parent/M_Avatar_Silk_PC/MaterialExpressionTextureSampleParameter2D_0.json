@@ -1,0 +1,34 @@
+{
+  "Type": "MaterialExpressionTextureSampleParameter2D",
+  "Name": "MaterialExpressionTextureSampleParameter2D_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Silk_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Silk_PC.0"
+  },
+  "Properties": {
+    "ParameterName": "DetailNormal",
+    "ExpressionGUID": "92FC21D6-44A25C5C-494EE693-CEB3EDB2",
+    "Coordinates": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMultiply_0"
+    },
+    "Texture": {
+      "ObjectName": "Texture2D'T_N_StandardNormal'",
+      "ObjectPath": "NZM/Content/MaterialLib/Textures/T_N_StandardNormal.0"
+    },
+    "SamplerType": "SAMPLERTYPE_Normal",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Silk_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Silk_PC.0"
+    }
+  }
+}

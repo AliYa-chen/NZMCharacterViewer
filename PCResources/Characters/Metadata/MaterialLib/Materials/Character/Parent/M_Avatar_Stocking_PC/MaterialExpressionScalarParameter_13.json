@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_13",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Stocking_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.0"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "FresnelIntensity",
+    "ExpressionGUID": "F4C6F097-4A11A759-CFE40AAE-F0F77E1C",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Stocking_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.0"
+    }
+  }
+}

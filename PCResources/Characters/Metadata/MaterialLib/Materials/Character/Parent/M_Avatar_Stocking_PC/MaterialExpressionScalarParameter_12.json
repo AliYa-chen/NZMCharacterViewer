@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_12",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Stocking_PC'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.0"
+  },
+  "Properties": {
+    "DefaultValue": 4.0,
+    "ParameterName": "FresnelRange",
+    "ExpressionGUID": "367C98F9-419A6AF5-D241A8A7-32295C04",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Stocking_PC'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC.0"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "Type": "MaterialExpressionTextureObjectParameter",
+  "Name": "MaterialExpressionTextureObjectParameter_2",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+    "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+  },
+  "Properties": {
+    "ParameterName": "DetailTex",
+    "ExpressionGUID": "F67815F3-4986FD82-07576E88-27D79E62",
+    "Group": "DetailTex",
+    "Texture": {
+      "ObjectName": "Texture2D'T_Default_White_SRGB'",
+      "ObjectPath": "NZM/Content/MaterialLib/Textures/Default/T_Default_White_SRGB.0"
+    },
+    "Material": {
+      "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+      "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+    }
+  }
+}

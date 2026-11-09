@@ -1,0 +1,18 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_18",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Tran_Front_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Tran_Front_UI.0"
+  },
+  "Properties": {
+    "ParameterName": "[CubrReflection] CubeRotation",
+    "ExpressionGUID": "14EC4A63-44ECE56C-7BA06682-973EB2D9",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Tran_Front_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Tran_Front_UI.0"
+    }
+  }
+}

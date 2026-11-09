@@ -1,0 +1,254 @@
+{
+  "Type": "VirtualMaterialInstanceConstant",
+  "Name": "VMI_Pendant_Head_Up_C03_Earphone_B_3P",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'VirtualMaterialInstanceConstant'",
+  "Package": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Materials/3P/VMI_Pendant_Head_Up_C03_Earphone_B_3P",
+  "Properties": {
+    "Parent": {
+      "ObjectName": "Material'M_Avatar_Effect'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect.0"
+    },
+    "bHasStaticPermutationResource": true,
+    "ScalarParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "[Emissive] Emissive Intensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.4,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Alpha Mask Control",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Blink Speed",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.5,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Blink Min",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.2,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Blink Max",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Scaning Light Speed",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 2.1586,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Scaning Light X",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 1.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Scaning Light Y",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 62.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Scaning Light Intensity",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 6.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "[EmissiveEffect] Scaning Light Offset",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.2,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RefractionDepthBias",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": 0.0,
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "VectorParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "[Emissive] Color Tint",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "TextureParameterValues": [
+      {
+        "ParameterInfo": {
+          "Name": "EffectTextureA",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_EffectTextureA_5df0acbb067c7c2fd9a72f1cc8cb1dbe'",
+          "ObjectPath": "NZM/Content/GenTexDir/T_VMGen_EffectTextureA_5df0acbb067c7c2fd9a72f1cc8cb1dbe.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EffectTextureB",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_EffectTextureB_a50e95bd4a7dfa6fbef51333608f70cc'",
+          "ObjectPath": "NZM/Content/GenTexDir/T_VMGen_EffectTextureB_a50e95bd4a7dfa6fbef51333608f70cc.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "BaseColorMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_BaseColorMap_d0e59a41f2690b89d4e0838d8a3708b8'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Textures/T_VMGen_BaseColorMap_d0e59a41f2690b89d4e0838d8a3708b8.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "NormalMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_NormalMap_abcfb8d1f5215cd268b9261ae3a18ecc'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Textures/T_VMGen_NormalMap_abcfb8d1f5215cd268b9261ae3a18ecc.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "EmissiveMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_EmissiveMap_2349b8e1256904edf97a34443653df52'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Textures/T_VMGen_EmissiveMap_2349b8e1256904edf97a34443653df52.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      },
+      {
+        "ParameterInfo": {
+          "Name": "RAMMap",
+          "Association": "GlobalParameter",
+          "Index": -1
+        },
+        "ParameterValue": {
+          "ObjectName": "Texture2D'T_VMGen_RAMMap_34f9b5f5a8f2e042cc7da80db7b463e4'",
+          "ObjectPath": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Textures/T_VMGen_RAMMap_34f9b5f5a8f2e042cc7da80db7b463e4.0"
+        },
+        "ExpressionGUID": "00000000-00000000-00000000-00000000"
+      }
+    ],
+    "BasePropertyOverrides": {
+      "bTranslucencyAfterDOF": true,
+      "OpacityMaskClipValue": 0.3333
+    },
+    "StaticParameters": {
+      "StaticSwitchParameters": [
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "[Switch] Use Emissive Effect",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "F390AD85-4895B51A-7B757A99-59B897B3"
+        },
+        {
+          "Value": true,
+          "ParameterInfo": {
+            "Name": "UseEmissive",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "18D9E7E3-42C8EB02-EAC571B9-B44DA462"
+        }
+      ],
+      "MaterialLayersParameters": [
+        {
+          "Value": {
+            "Layers": [
+              null
+            ],
+            "Blends": [],
+            "LayerStates": [
+              true
+            ]
+          },
+          "ParameterInfo": {
+            "Name": "AvatarLens",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "bOverride": true,
+          "ExpressionGUID": "969F6A03-4C028091-C09EDF88-4A03569C"
+        }
+      ]
+    }
+  }
+}

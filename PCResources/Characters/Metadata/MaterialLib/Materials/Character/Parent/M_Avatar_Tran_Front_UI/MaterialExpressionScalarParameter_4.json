@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_4",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Tran_Front_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Tran_Front_UI.0"
+  },
+  "Properties": {
+    "DefaultValue": 0.5,
+    "ParameterName": "cube",
+    "ExpressionGUID": "14E192B0-407264CC-A0453C8B-50F65784",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Tran_Front_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Tran_Front_UI.0"
+    }
+  }
+}

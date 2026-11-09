@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Tran_Front_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Tran_Front_UI.0"
+  },
+  "Properties": {
+    "DefaultValue": -1.0,
+    "ParameterName": "NormalSide",
+    "ExpressionGUID": "4D28EAF2-4A1220CE-A5C6589C-5088F3D1",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Tran_Front_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Tran_Front_UI.0"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "Type": "MaterialExpressionQualitySwitch",
+  "Name": "MaterialExpressionQualitySwitch_6",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionQualitySwitch'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Effect'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect.0"
+  },
+  "Properties": {
+    "Default": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionReroute_9"
+    },
+    "Inputs": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 1,
+      "MaskR": 1,
+      "MaskG": 1,
+      "MaskB": 1,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionTextureSample_0"
+    },
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Effect'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect.0"
+    }
+  }
+}

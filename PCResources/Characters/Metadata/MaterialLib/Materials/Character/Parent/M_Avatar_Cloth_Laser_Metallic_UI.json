@@ -1,0 +1,180 @@
+{
+  "Type": "Material",
+  "Name": "M_Avatar_Cloth_Laser_Metallic_UI",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Material'",
+  "Package": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Cloth_Laser_Metallic_UI",
+  "Properties": {
+    "Metallic": {
+      "Expression": null,
+      "OutputIndex": 3,
+      "InputName": "None",
+      "Mask": 1,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 1,
+      "MaskA": 0,
+      "ExpressionName": "None",
+      "UseConstant": false,
+      "Constant": 0.0
+    },
+    "MaterialAttributes": {
+      "Expression": null,
+      "OutputIndex": 0,
+      "InputName": "None",
+      "Mask": 0,
+      "MaskR": 0,
+      "MaskG": 0,
+      "MaskB": 0,
+      "MaskA": 0,
+      "ExpressionName": "MaterialExpressionMakeMaterialAttributes_0"
+    },
+    "TranslucencyLightingMode": "TLM_SurfacePerPixelLighting",
+    "bUsedWithSkeletalMesh": true,
+    "bMobileUseIBLOnULTRALOWQUALITY": true,
+    "bMobileUseNormalOnULTRALOWQUALITY": true,
+    "bMobileUseMetallicOnULTRALOWQUALITY": true,
+    "Expressions": [
+      null,
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Cloth_Laser_Metallic_UI:MaterialExpressionMaterialFunctionCall_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Cloth_Laser_Metallic_UI.4"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Cloth_Laser_Metallic_UI:MaterialExpressionMaterialFunctionCall_4'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Cloth_Laser_Metallic_UI.6"
+      },
+      null,
+      {
+        "ObjectName": "MaterialExpressionExtraOutput'M_Avatar_Cloth_Laser_Metallic_UI:MaterialExpressionExtraOutput_2'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Cloth_Laser_Metallic_UI.2"
+      },
+      {
+        "ObjectName": "MaterialExpressionExtraOutput'M_Avatar_Cloth_Laser_Metallic_UI:MaterialExpressionExtraOutput_1'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Cloth_Laser_Metallic_UI.1"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Cloth_Laser_Metallic_UI:MaterialExpressionMaterialFunctionCall_0'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Cloth_Laser_Metallic_UI.3"
+      },
+      {
+        "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Avatar_Cloth_Laser_Metallic_UI:MaterialExpressionMaterialFunctionCall_3'",
+        "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Cloth_Laser_Metallic_UI.5"
+      }
+    ],
+    "MaterialFunctionInfos": [
+      {
+        "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+        "Function": {
+          "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+        }
+      },
+      {
+        "StateId": "1AEB8F85-415F05F6-9BCE73A6-72074ACF",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_DataPBREmissive_MaskOpacity_MatLayer'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/DataProvider/MF_DataPBREmissive_MaskOpacity_MatLayer.33"
+        }
+      },
+      {
+        "StateId": "B6067F67-4AC0092A-9D7DF581-EBEEE180",
+        "Function": {
+          "ObjectName": "MaterialFunction'HueShift'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/HueShift.0"
+        }
+      },
+      {
+        "StateId": "FE67B48A-44296B30-FBF15EBB-0FC10ADF",
+        "Function": {
+          "ObjectName": "MaterialFunction'FlattenNormal'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.0"
+        }
+      },
+      {
+        "StateId": "B2573543-47CEAFDF-4555EC9A-594F4635",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FullPrecision_MultiplyV2'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Common/FullPrecisonFunctions/MF_FullPrecision_MultiplyV2.0"
+        }
+      },
+      {
+        "StateId": "F5C2D477-4BA63455-E32B4B96-0D7674B6",
+        "Function": {
+          "ObjectName": "MaterialFunction'BlendAngleCorrectedNormals'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.0"
+        }
+      },
+      {
+        "StateId": "E6715291-45CBD5A7-9C2DB096-ABFA19DF",
+        "Function": {
+          "ObjectName": "MaterialFunction'AppendMany'",
+          "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/AppendMany.0"
+        }
+      },
+      {
+        "StateId": "C289FDFA-4EF51F5C-6000658C-876D28BE",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_Clearcoat_Metallic'",
+          "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Avatar/MF_Clearcoat_Metallic.14"
+        }
+      },
+      {
+        "StateId": "3EB49919-44EA794E-A2CE10BF-426A9380",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_AvatarFillLight'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/MF_AvatarFillLight.3"
+        }
+      },
+      {
+        "StateId": "58AAED97-458EF9E5-A621CD8A-6182243C",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FX_PreExposure'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_PreExposure.0"
+        }
+      },
+      {
+        "StateId": "ECF7E32D-43414A85-DE6838BC-7C437BD6",
+        "Function": {
+          "ObjectName": "MaterialFunction'MF_FX_SceneLightColor+PreExposure'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_SceneLightColor+PreExposure.1"
+        }
+      }
+    ],
+    "MaterialParameterCollectionInfos": [
+      {
+        "StateId": "94ECCB59-45FDB418-97296EB4-0A3F6B85",
+        "ParameterCollection": {
+          "ObjectName": "MaterialParameterCollection'MPC_CharacterNormalizationSwitch'",
+          "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/MPC_CharacterNormalizationSwitch.0"
+        }
+      }
+    ],
+    "bUseMaterialAttributes": true,
+    "StateId": "7A5314F1-4576F8C8-1F7A2B97-E1BE0487",
+    "CachedQualityLevelsUsed": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "TextureStreamingData": [
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_D_BasicBaseColor_Gray"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_MAC_BasicMix"
+      },
+      {
+        "SamplingScale": 1.0,
+        "UVChannelIndex": 0,
+        "TextureName": "T_N_StandardNormal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Type": "MaterialExpressionDynamicParameter",
+  "Name": "MaterialExpressionDynamicParameter_3",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionDynamicParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+    "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+  },
+  "Properties": {
+    "ParamNames": [
+      "DistortIntensity",
+      "DissolvePercent",
+      "BaseDetailPannerSpeed",
+      "AlphaMaskPannerSpeed"
+    ],
+    "Material": {
+      "ObjectName": "Material'M_EFX_Master_Base_NoParticleColor'",
+      "ObjectPath": "NZM/Content/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor.0"
+    }
+  }
+}

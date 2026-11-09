@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_3",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Tran_Front_UI'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Tran_Front_UI.0"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "[CubrReflection] Strength",
+    "ExpressionGUID": "449DD91D-4995D9A5-25A69AA1-2090F4D1",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Tran_Front_UI'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Tran_Front_UI.0"
+    }
+  }
+}

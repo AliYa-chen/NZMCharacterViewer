@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_3",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_HD'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent_HD/M_Avatar_HD.0"
+  },
+  "Properties": {
+    "DefaultValue": 500.0,
+    "ParameterName": "EmissionDistanceEnd",
+    "ExpressionGUID": "3A1E4B60-4A27BF64-E12B10AE-7FFD3699",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_HD'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent_HD/M_Avatar_HD.0"
+    }
+  }
+}

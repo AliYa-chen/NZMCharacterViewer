@@ -1,0 +1,100 @@
+{
+  "Type": "Texture2D",
+  "Name": "T_VMGen_EffectTextureB_a50e95bd4a7dfa6fbef51333608f70cc",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'Texture2D'",
+  "Package": "NZM/Content/GenTexDir/T_VMGen_EffectTextureB_a50e95bd4a7dfa6fbef51333608f70cc",
+  "Properties": {
+    "ImportedSize": {
+      "X": 64,
+      "Y": 64
+    },
+    "LightingGuid": "7399DC48-4915A012-FEFC8494-888F1E95",
+    "LODGroup": "TEXTUREGROUP_Weapon",
+    "SRGB": false
+  },
+  "SizeX": 64,
+  "SizeY": 64,
+  "PackedData": 1,
+  "PixelFormat": "PF_DXT1",
+  "FirstMipToSerialize": 0,
+  "Mips": [
+    {
+      "BulkData": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 2048,
+        "SizeOnDisk": 2048,
+        "OffsetInFile": "0x1526"
+      },
+      "SizeX": 64,
+      "SizeY": 64,
+      "SizeZ": 1
+    },
+    {
+      "BulkData": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 512,
+        "SizeOnDisk": 512,
+        "OffsetInFile": "0x1D4A"
+      },
+      "SizeX": 32,
+      "SizeY": 32,
+      "SizeZ": 1
+    },
+    {
+      "BulkData": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 128,
+        "SizeOnDisk": 128,
+        "OffsetInFile": "0x1F6E"
+      },
+      "SizeX": 16,
+      "SizeY": 16,
+      "SizeZ": 1
+    },
+    {
+      "BulkData": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 32,
+        "SizeOnDisk": 32,
+        "OffsetInFile": "0x2012"
+      },
+      "SizeX": 8,
+      "SizeY": 8,
+      "SizeZ": 1
+    },
+    {
+      "BulkData": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 8,
+        "SizeOnDisk": 8,
+        "OffsetInFile": "0x2056"
+      },
+      "SizeX": 4,
+      "SizeY": 4,
+      "SizeZ": 1
+    },
+    {
+      "BulkData": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 8,
+        "SizeOnDisk": 8,
+        "OffsetInFile": "0x2082"
+      },
+      "SizeX": 4,
+      "SizeY": 4,
+      "SizeZ": 1
+    },
+    {
+      "BulkData": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 8,
+        "SizeOnDisk": 8,
+        "OffsetInFile": "0x20AE"
+      },
+      "SizeX": 4,
+      "SizeY": 4,
+      "SizeZ": 1
+    }
+  ]
+}

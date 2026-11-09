@@ -1,0 +1,19 @@
+{
+  "Type": "MaterialExpressionScalarParameter",
+  "Name": "MaterialExpressionScalarParameter_1",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_HD'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent_HD/M_Avatar_HD.0"
+  },
+  "Properties": {
+    "DefaultValue": 1.0,
+    "ParameterName": "cRoughnessMax",
+    "ExpressionGUID": "8C0C149D-4FC582E2-DE1B6190-8257FE4A",
+    "Material": {
+      "ObjectName": "Material'M_Avatar_HD'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent_HD/M_Avatar_HD.0"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Type": "MaterialExpressionMaterialFunctionCall",
+  "Name": "MaterialExpressionMaterialFunctionCall_6",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+  "Outer": {
+    "ObjectName": "Material'M_Avatar_Effect_Translucent'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_Translucent.0"
+  },
+  "Properties": {
+    "MaterialFunction": {
+      "ObjectName": "MaterialFunction'MF_AbnormalBuff'",
+      "ObjectPath": "NZM/Content/MaterialLib/MaterialFunctions/Avatar/MF_AbnormalBuff.68"
+    },
+    "Material": {
+      "ObjectName": "Material'M_Avatar_Effect_Translucent'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_Translucent.0"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Type": "MaterialExpressionMaterialFunctionCall",
+  "Name": "MaterialExpressionMaterialFunctionCall_0",
+  "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+  "Outer": {
+    "ObjectName": "Material'M_Scene_Translucent_HD'",
+    "ObjectPath": "NZM/Content/MaterialLib/Materials/Scene/Parent_HD/M_Scene_Translucent_HD.0"
+  },
+  "Properties": {
+    "MaterialFunction": {
+      "ObjectName": "MaterialFunction'MF_FX_SceneLightColor+PreExposure'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/FX/MaterialFunction/MF_FX_SceneLightColor+PreExposure.1"
+    },
+    "Material": {
+      "ObjectName": "Material'M_Scene_Translucent_HD'",
+      "ObjectPath": "NZM/Content/MaterialLib/Materials/Scene/Parent_HD/M_Scene_Translucent_HD.0"
+    }
+  }
+}
