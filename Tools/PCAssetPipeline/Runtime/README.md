@@ -2,6 +2,8 @@
 
 要求 **Windows、PowerShell 7.6+、.NET 10+**。在仓库根目录的新 PowerShell 会话中执行。工具只处理指定目录中的资源文件，不使用进程枚举、内存读取、调试、注入、游戏启动或反作弊接口。
 
+本页是按需重新导出的流程，不是查看器构建或运行依赖。完整高清导出在全部转换与最终核验通过后从工作树清理，原结果保留在 [PCResources 历史快照](https://github.com/AliYa-chen/NZMCharacterViewer/tree/03152adb7ce937649f890455d6650f346e82acc1/PCResources)。本页从游戏安装重新导出到 `Saved`，不要求恢复旧源目录；其他工具需要历史源文件时，见[上级说明](../README.md)中的可选恢复命令。
+
 ## 准备与核验
 
 ```powershell

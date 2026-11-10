@@ -21,6 +21,8 @@ struct FViewerPart
     UPROPERTY(EditAnywhere, BlueprintReadWrite) TSoftObjectPtr<USkeletalMesh> Mesh;
     UPROPERTY(EditAnywhere, BlueprintReadWrite) TArray<TSoftObjectPtr<UMaterialInterface>> Materials;
     UPROPERTY(EditAnywhere, BlueprintReadWrite) FTransform RelativeTransform = FTransform::Identity;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite) FName ParentPartId;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite) FName AttachSocket;
     UPROPERTY(EditAnywhere, BlueprintReadWrite) bool bVisibleByDefault = true;
     UPROPERTY(EditAnywhere, BlueprintReadWrite) TSoftObjectPtr<UAnimSequence> Animation;
     UPROPERTY(EditAnywhere, BlueprintReadWrite) TSoftObjectPtr<UViewerDynamicsProfile> Dynamics;
@@ -36,6 +38,8 @@ struct FViewerOutfit
     UPROPERTY(EditAnywhere, BlueprintReadWrite) FText DisplayName;
     UPROPERTY(EditAnywhere, BlueprintReadWrite) TArray<FViewerPart> Parts;
     UPROPERTY(EditAnywhere, BlueprintReadWrite) TSoftObjectPtr<UViewerEnvironment> Environment;
+    // A short user-facing distinction such as shared idle or partial recovery.
+    UPROPERTY(EditAnywhere, BlueprintReadWrite) FText PreviewNotes;
 };
 
 USTRUCT(BlueprintType)

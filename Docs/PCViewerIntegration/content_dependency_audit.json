@@ -1,0 +1,31 @@
+{
+  "roots": [
+    "/Game/Viewer/Maps/L_Viewer",
+    "/Game/Viewer/Data/DA_ViewerCatalog",
+    "/Game/Viewer/Environment/DA_Environment",
+    "/Game/Viewer/Materials/M_Stage",
+    "/Game/Viewer/UI/T_HideUI",
+    "/Game/Viewer/UI/T_Replay",
+    "/Game/PCAssets/Collections/DA_PCAssetLibrary",
+    "/Game/Viewer/PCEnvironment/DA_PC_Lobby_Scene_Light_Role_NaimeiBianca_dd6783b9_Mobile",
+    "/Game/Viewer/PCEnvironment/DA_PC_Lobby_Scene_Light_Role_Naimei_7bdaea2f_Desktop",
+    "/Game/Viewer/PCEnvironment/DA_PC_Lobby_Scene_Light_Role_Nai_Mei_7c36d20d_Desktop",
+    "/Game/Viewer/PCEnvironment/DA_PC_Lobby_Scene_Light_Role_Queen_4dcfee38_Desktop",
+    "/Game/Viewer/PCEnvironment/DA_PC_Lobby_Scene_Light_Role_Role_AngelLucia_e0394c7e_Mobile",
+    "/Game/Viewer/PCEnvironment/DA_PC_Lobby_Scene_Light_Role_Role_AngelLucia_e0394c7e_Desktop",
+    "/Game/Viewer/PCEnvironment/DA_PC_Lobby_Scene_Light_Role_Naimei_7bdaea2f_Mobile",
+    "/Game/Viewer/PCEnvironment/DA_PC_Lobby_Scene_Light_Role_NaimeiBianca_dd6783b9_Desktop",
+    "/Game/Viewer/PCEnvironment/DA_PC_Lobby_Scene_Light_Role_3a192ae4_Mobile",
+    "/Game/Viewer/PCEnvironment/DA_PC_Lobby_Scene_Light_Role_Nai_Mei_7c36d20d_Mobile",
+    "/Game/Viewer/PCEnvironment/DA_PC_Lobby_Scene_Light_Lobby_Queen_Preview_31e09944_Desktop",
+    "/Game/Viewer/PCEnvironment/DA_PC_Lobby_Scene_Light_Lobby_Queen_Preview_31e09944_Mobile",
+    "/Game/Viewer/PCEnvironment/DA_PC_Lobby_Scene_Light_Role_3a192ae4_Desktop",
+    "/Game/Viewer/PCEnvironment/DA_PC_Lobby_Scene_Light_Role_Queen_4dcfee38_Mobile"
+  ],
+  "project_packages": 7573,
+  "reachable_packages": 7573,
+  "missing_packages": [],
+  "unknown_dependencies": [],
+  "unused": [],
+  "unused_bytes": 0
+}

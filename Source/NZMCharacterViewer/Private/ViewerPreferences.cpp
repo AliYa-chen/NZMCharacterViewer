@@ -94,9 +94,25 @@ void UViewerPreferences::Persist()
         UE_LOG(LogTemp, Warning, TEXT("Viewer preferences could not be saved."));
 }
 
-void UViewerPreferences::ApplyEngineSettings()
+void UViewerPreferences::ApplyEngineSettings(bool bPreserveSourceRendering)
 {
     Sanitize();
+    // Preserve the engine's launch defaults before any legacy stage writes an
+    // artistic preset. Switching to a PC source stage must not inherit those
+    // older overrides. Explicit source CVars are applied by the owning Pawn.
+    static TMap<FName, float> LaunchRenderingDefaults;
+    static const TCHAR* RenderingVariables[] = {
+        TEXT("r.BloomQuality"), TEXT("r.DepthOfFieldQuality"), TEXT("r.Tonemapper.Sharpen"),
+        TEXT("r.Tonemapper.Quality"), TEXT("r.Mobile.AmbientOcclusionQuality"),
+        TEXT("r.AmbientOcclusionLevels"), TEXT("r.AmbientOcclusionMaxQuality"),
+        TEXT("r.SSR.Quality"), TEXT("r.SSR.HalfResSceneColor") };
+    if (LaunchRenderingDefaults.IsEmpty())
+        for (const TCHAR* Name : RenderingVariables)
+            if (const IConsoleVariable* Variable = IConsoleManager::Get().FindConsoleVariable(Name))
+                LaunchRenderingDefaults.Add(FName(Name), Variable->GetFloat());
+    if (bPreserveSourceRendering)
+        for (const auto& Value : LaunchRenderingDefaults)
+            SetVariable(*Value.Key.ToString(), Value.Value);
     Scalability::FQualityLevels Levels;
     Levels.SetFromSingleQualityLevel(FMath::Min(Quality, 3));
     Levels.TextureQuality = Textures;
@@ -118,16 +134,27 @@ void UViewerPreferences::ApplyEngineSettings()
     SetVariable(TEXT("r.Shadow.MaxNumPointShadowCacheUpdatesPerFrame"), 4.f);
     SetVariable(TEXT("r.MaxAnisotropy"), Textures == 0 ? 1.f : Textures == 1 ? 4.f : Textures == 2 ? 8.f : 16.f);
     SetVariable(TEXT("r.Streaming.MipBias"), Textures == 0 ? 1.5f : Textures == 1 ? 1.f : 0.f);
-    SetVariable(TEXT("r.BloomQuality"), bPostProcessing && bBloom ? 4.f : 0.f);
-    SetVariable(TEXT("r.DepthOfFieldQuality"), bPostProcessing && bDepthOfField ? 2.f : 0.f);
-    SetVariable(TEXT("r.Tonemapper.Sharpen"), bPostProcessing ? 0.35f : 0.f);
-    SetVariable(TEXT("r.Tonemapper.Quality"), bPostProcessing ? 5.f : 0.f);
-    SetVariable(TEXT("r.Mobile.AmbientOcclusionQuality"), bPostProcessing && bAmbientOcclusion ? 3.f : 0.f);
-    SetVariable(TEXT("r.AmbientOcclusionLevels"), bPostProcessing && bAmbientOcclusion ? 1.f : 0.f);
-    SetVariable(TEXT("r.AmbientOcclusionMaxQuality"), bPostProcessing && bAmbientOcclusion ? 100.f : 0.f);
-    SetVariable(TEXT("r.SSR.Quality"), bPostProcessing && bScreenSpaceReflections && Antialiasing == 0
-        ? UsesMobileRenderer() ? 2.f : 4.f : 0.f);
-    SetVariable(TEXT("r.SSR.HalfResSceneColor"), 0.f);
+    if (!bPreserveSourceRendering)
+    {
+        SetVariable(TEXT("r.BloomQuality"), bPostProcessing && bBloom ? 4.f : 0.f);
+        SetVariable(TEXT("r.DepthOfFieldQuality"), bPostProcessing && bDepthOfField ? 2.f : 0.f);
+        SetVariable(TEXT("r.Tonemapper.Sharpen"), bPostProcessing ? 0.35f : 0.f);
+        SetVariable(TEXT("r.Tonemapper.Quality"), bPostProcessing ? 5.f : 0.f);
+        SetVariable(TEXT("r.Mobile.AmbientOcclusionQuality"), bPostProcessing && bAmbientOcclusion ? 3.f : 0.f);
+        SetVariable(TEXT("r.AmbientOcclusionLevels"), bPostProcessing && bAmbientOcclusion ? 1.f : 0.f);
+        SetVariable(TEXT("r.AmbientOcclusionMaxQuality"), bPostProcessing && bAmbientOcclusion ? 100.f : 0.f);
+        SetVariable(TEXT("r.SSR.Quality"), bPostProcessing && bScreenSpaceReflections && Antialiasing == 0
+            ? UsesMobileRenderer() ? 2.f : 4.f : 0.f);
+        SetVariable(TEXT("r.SSR.HalfResSceneColor"), 0.f);
+    }
+    if (!bPostProcessing || !bBloom) SetVariable(TEXT("r.BloomQuality"), 0.f);
+    if (!bPostProcessing || !bDepthOfField) SetVariable(TEXT("r.DepthOfFieldQuality"), 0.f);
+    if (!bPostProcessing || !bAmbientOcclusion)
+    {
+        SetVariable(TEXT("r.Mobile.AmbientOcclusionQuality"), 0.f);
+        SetVariable(TEXT("r.AmbientOcclusionLevels"), 0.f);
+    }
+    if (!bPostProcessing || !bScreenSpaceReflections || Antialiasing != 0) SetVariable(TEXT("r.SSR.Quality"), 0.f);
     SetVariable(TEXT("r.Streaming.PoolSize"), Textures == 0 ? 160.f : Textures == 1 ? 256.f : Textures == 2 ? 512.f : 768.f);
 }
 

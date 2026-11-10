@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "scope": "Original final conversion/Metal/preview/build evidence retained before removal of disposable Saved intermediates",
+  "archive": "Docs/PCAssetConversion/conversion_evidence.tar.gz",
+  "archive_bytes": 5836032,
+  "archive_sha256": "117f4fc462eca8bdcbf5d3068bed83d9fef6277a71c6f096d6e36eae003c752c",
+  "uncompressed_bytes": 53874237,
+  "files": [
+    {
+      "original_file": "Saved/PCAssetConversion/asset_plan.json",
+      "bytes": 32655801,
+      "sha256": "454ef00449aba7a924949b13ae2825219e0fe7f37fa111aacf6ff292d2ae2894"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/import_state.json",
+      "bytes": 15304570,
+      "sha256": "15a847a4dc259d66e4f99e7345743e3c73a6585f21982ce9be238d047e232232"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/final_report.json",
+      "bytes": 82215,
+      "sha256": "9f5923725e2ec932d8882aedcede4f51928bbb4f54db19724e0fc0eadffaf8f6"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/environment_plan.json",
+      "bytes": 4194401,
+      "sha256": "448658fb21f9959d2c8d23e078157f34df5dc2cc645ae62cc8a4cc76fddd798f"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/environment_report.json",
+      "bytes": 87974,
+      "sha256": "8a5491cf2be1bfb79d6f3877bebce96bdb7f6ae2a0f19ec498948fa572a0998a"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/collections_report.json",
+      "bytes": 9448,
+      "sha256": "dd9be08a9f977333573550f544ccf66b403e05ada3430dc0f3f3c1a27c65d322"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/shader_summary.json",
+      "bytes": 156464,
+      "sha256": "52660bfafb64f3511cd048cd0d288f9d68cc7ac02d53e67f4ad0919e4ed3bd31"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/Shaders/materials_00000.json",
+      "bytes": 72629,
+      "sha256": "6ab10e6e5d7029a40077966642bc542b75eaae493386e0d0f8e9378baf07f86d"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/Shaders/materials_00064.json",
+      "bytes": 72996,
+      "sha256": "12cca00034b2258a704716775b54aac30a542bedaa75ca81601f2f7e39af791a"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/Shaders/materials_00128.json",
+      "bytes": 72540,
+      "sha256": "94815a995ab0fe31761197d1f503be6baf8efb6d1ad0c40e40f6eee583c4fc61"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/Shaders/materials_00192.json",
+      "bytes": 72229,
+      "sha256": "ebf06df377573c722a9a5f5c36ba46ae47924c59759ddee243aa2763e8aaad48"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/Shaders/materials_00256.json",
+      "bytes": 72219,
+      "sha256": "0e3098b2324231474be844182c19f11335d29e8b525066185820b9ff6bdb96cd"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/Shaders/materials_00320.json",
+      "bytes": 72000,
+      "sha256": "c388ce119a010412bdd69bc9f871284638823d9e900a2a36d0020a07924f466c"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/Shaders/materials_00384.json",
+      "bytes": 71999,
+      "sha256": "3f6f3b1fa3bf3ec7363cc0aac73b4dedfc738eb7b37ec17eb7abad77162fe79a"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/Shaders/materials_00448.json",
+      "bytes": 72669,
+      "sha256": "0bfa2127ea396adcdaf3562ce6a9c401bec378d3d38dd031d751ff8117c2e14f"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/Shaders/materials_00512.json",
+      "bytes": 72252,
+      "sha256": "0cad321aa2aeec116d6181c6e024f291f47f166d38916a1046a23aacfe193714"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/Shaders/materials_00576.json",
+      "bytes": 60085,
+      "sha256": "f4a8602b46be8522e89086ecaa1f59f59ab7dcd1529dd858cfe0b3031f2aa028"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/Preview/preview_report.json",
+      "bytes": 44417,
+      "sha256": "f175db82d692a272a7812247c9866b67348272a08bbe02e944828cd0deb78e80"
+    },
+    {
+      "original_file": "Saved/PCAssetConversion/Preview/SK_SK_Char_Angel_Lucia_A_Preview_Mesh_db254e986d08_yaw35_0.png",
+      "bytes": 609202,
+      "sha256": "9152695e1789513cf5271bbea7f477c04c6dc98cac04c8b2975763a9bfa7e067"
+    },
+    {
+      "original_file": "Saved/BuildIOSCompileVerification.json",
+      "bytes": 5023,
+      "sha256": "763bfabae0a03b09ff506d9e349a3f99d516071a9447cc16857762a7a5d5c50d"
+    },
+    {
+      "original_file": "Saved/BuildIOSCompile.log",
+      "bytes": 4221,
+      "sha256": "1f448d66e170e1cd5bffe3d682730e8721ab80787a6dd8ed588649ca4f5de694"
+    },
+    {
+      "original_file": "Saved/ContentAudit.json",
+      "bytes": 5878,
+      "sha256": "041af12d363d6f3591bbef0df1215021b0fac8d23f45eb7aa824d4ecc2619822"
+    },
+    {
+      "original_file": "Saved/PCAssetAnalysis/ue_mesh_description_mikk_build.log",
+      "bytes": 3005,
+      "sha256": "d65b2fd9a6e8c8a14db1b6d25e308b83789e87c37ec2a1df06d08ab4e69dc94d"
+    }
+  ],
+  "restore_command": "tar -xzf Docs/PCAssetConversion/conversion_evidence.tar.gz -C .",
+  "audit_after_restore": "python3 Scripts/validate_pc_asset_conversion.py --require-render-validation",
+  "limitations": "This is a record of the completed validation; loading the saved UE Content does not require these local reports. Re-running the full audit requires the archived Saved records and matching local build products."
+}

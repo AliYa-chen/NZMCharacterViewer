@@ -22,7 +22,15 @@ Scripts/import_assets.sh
 
 ## PC 高清源资源
 
-本次新转换的源文件已单独保存在 [PCResources](../PCResources/README.md)，无需重建原 `SourceAssets/manifest.json`。其中 `upgrade_manifest.json` 只包含 93 张已核对当前材质／PC 参数引用链的高清纹理，目标是现有纹理资产路径；模型源采用 ActorX，尚需保留权重的 FBX 转换与骨架／材质槽适配。
+完整 PC 原始导出已转换为 UE 资产，来源文件可从 [已发布的 PCResources 快照](https://github.com/AliYa-chen/NZMCharacterViewer/tree/03152adb7ce937649f890455d6650f346e82acc1/PCResources) 恢复，无需重建原 `SourceAssets/manifest.json`。模型采用原生 ActorX 导入，保留权重、骨架和分段槽映射，无需 FBX 中转。运行 Catalog 已接入十二名角色的高清组合，见 [高清角色接入](PC_VIEWER_INTEGRATION.md)。不要用原旧版全量清单重建高清 Catalog；该流程会按旧清单覆盖人物目录。
+
+仅在需要重新转换或核对来源时恢复原始导出：
+
+```bash
+git restore --source=03152adb7ce937649f890455d6650f346e82acc1 -- PCResources
+```
+
+`upgrade_manifest.json` 中的 93 张定点纹理覆盖是此前的小范围核对流程；当前高清模型、材质和纹理使用独立的 `Content/PCAssets`，完整转换说明见 [PC 资源转换](PC_ASSET_CONVERSION.md)。
 
 普通 Python 可先检查文件，不写 Content：
 
@@ -31,4 +39,4 @@ python3 Scripts/validate_pc_resources.py
 python3 Scripts/import_pc_textures.py --validate-files
 ```
 
-在有 UE5.8 的机器上构建工程后，用编辑器执行 `Scripts/import_pc_textures.py` 默认为 `audit`；命令行模式显式增加 `-PCTextureMode=apply` 才备份并重导入。报告和备份位于 `Saved/PCAssetAnalysis`。不要用原全量导入脚本处理这份小清单；定点脚本不重建材质、其他角色或 Catalog。当前只完成源数据与文件模式验证，UE 应用、着色器、动画、外观与设备性能仍需另行验证。
+在有 UE5.8 的机器上构建工程后，用编辑器执行 `Scripts/import_pc_textures.py` 默认为 `audit`；命令行模式显式增加 `-PCTextureMode=apply` 才备份并重导入。报告和备份位于 `Saved/PCAssetAnalysis`。不要用原全量导入脚本处理这份小清单；定点脚本不重建材质、其他角色或 Catalog。此处 93 张定点覆盖流程的历史状态只完成源数据与文件模式验证，其对原运行资产的 UE 应用、动画、外观与设备性能仍需另行验证；独立 PC 资源库的验证结果见上方转换说明。

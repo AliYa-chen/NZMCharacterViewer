@@ -11,6 +11,8 @@
 #include "Components/ExponentialHeightFogComponent.h"
 #include "Components/InputComponent.h"
 #include "Components/PointLightComponent.h"
+#include "Components/LocalLightComponent.h"
+#include "Components/RectLightComponent.h"
 #include "Components/SpotLightComponent.h"
 #include "Components/SkyLightComponent.h"
 #include "Components/LightComponent.h"
@@ -30,6 +32,7 @@
 #include "Materials/MaterialInterface.h"
 #include "MaterialShaderPrecompileMode.h"
 #include "HAL/PlatformTime.h"
+#include "HAL/IConsoleManager.h"
 #include "Misc/CommandLine.h"
 #include "Misc/Parse.h"
 #include "RHI.h"
@@ -190,6 +193,7 @@ void AViewerPawn::EndPlay(const EEndPlayReason::Type EndPlayReason)
     PrefetchHandle.Reset();
     ReleaseSelection();
     ClearStage();
+    RestoreSourceConsoleVariables();
     if (ViewerUI) ViewerUI->RemoveFromParent();
     ViewerUI = nullptr;
     Super::EndPlay(EndPlayReason);
@@ -328,9 +332,17 @@ void AViewerPawn::FinishSelectionLoad(int32 Generation)
     for (const FViewerPart& Part : Outfit->Parts)
     {
         Valid &= Part.Mesh.Get() && (Part.Animation.IsNull() || Part.Animation.Get());
+        // PC imports keep their source bindings on the mesh. A Catalog part
+        // may therefore have no override array; those native materials still
+        // need shader and texture preparation before it becomes visible.
+        if (const USkeletalMesh* Mesh = Part.Mesh.Get())
+            for (const FSkeletalMaterial& Slot : Mesh->GetMaterials())
+                AddMaterial(Slot.MaterialInterface);
         for (const auto& Material : Part.Materials)
         {
-            Valid &= Material.Get() != nullptr;
+            // A source slot may intentionally be empty. Only a nonempty
+            // reference that failed to load is an incomplete selection.
+            Valid &= Material.IsNull() || Material.Get() != nullptr;
             AddMaterial(Material.Get());
         }
     }
@@ -359,6 +371,7 @@ void AViewerPawn::BuildPreparingComponents()
 {
     const FViewerOutfit* Outfit = GetCurrentOutfit();
     if (!Outfit || !PreparingEnvironment) return;
+    PreparingRoot->SetRelativeTransform(PreparingEnvironment->ModelTransform);
     for (const FViewerPart& Part : Outfit->Parts)
     {
         UViewerSkeletalMeshComponent* Component = NewObject<UViewerSkeletalMeshComponent>(this);
@@ -369,7 +382,9 @@ void AViewerPawn::BuildPreparingComponents()
         Component->SetSkeletalMesh(Part.Mesh.Get());
         Component->SetAnimationMode(EAnimationMode::AnimationSingleNode);
         Component->SetCastShadow(true);
-        Component->SetLightingChannels(true, true, false);
+        const int32 ChannelMask = PreparingEnvironment->bUseSourceRendering
+            ? PreparingEnvironment->CharacterLightingChannelMask : 3;
+        Component->SetLightingChannels((ChannelMask & 1) != 0, (ChannelMask & 2) != 0, (ChannelMask & 4) != 0);
         // Bind every material before registration; never register a visible
         // mesh with the importer's temporary/default material slots.
         for (int32 Slot = 0; Slot < Part.Materials.Num(); ++Slot)
@@ -388,6 +403,27 @@ void AViewerPawn::BuildPreparingComponents()
         Component->PrecachePSOs();
         Component->UpdateBounds();
         PreparingParts.Add(Component);
+    }
+    // Separate accessory skeletons (for example rabbit ears and leg wheels)
+    // are authored in socket-local space, rather than the avatar's bind space.
+    for (int32 Index = 0; Index < Outfit->Parts.Num(); ++Index)
+    {
+        const FViewerPart& Part = Outfit->Parts[Index];
+        if (Part.ParentPartId.IsNone()) continue;
+        const int32 ParentIndex = Outfit->Parts.IndexOfByPredicate([&Part](const FViewerPart& Candidate)
+        { return Candidate.Id == Part.ParentPartId; });
+        if (!PreparingParts.IsValidIndex(ParentIndex) || ParentIndex == Index ||
+            Part.AttachSocket.IsNone() || !PreparingParts[ParentIndex]->DoesSocketExist(Part.AttachSocket))
+        {
+            FailSelectionPreparation(FText::FromString(TEXT("无法使用附件挂点，当前角色已保留。")));
+            return;
+        }
+        USkeletalMeshComponent* Parent = PreparingParts[ParentIndex];
+        USkeletalMeshComponent* Child = PreparingParts[Index];
+        Child->AttachToComponent(Parent, FAttachmentTransformRules::KeepRelativeTransform, Part.AttachSocket);
+        Child->SetRelativeTransform(Part.RelativeTransform);
+        Child->AddTickPrerequisiteComponent(Parent);
+        Child->UpdateBounds();
     }
     for (const FViewerEnvironmentMesh& Spec : PreparingEnvironment->Meshes)
     {
@@ -457,6 +493,7 @@ void AViewerPawn::TickSelectionPreparation()
         bPreparationTexturesRequested = true;
     }
     if (!bPreparationComponentsBuilt) BuildPreparingComponents();
+    if (!bPreparingSelection) return;
     for (UTexture* Texture : PreparingTextures)
         if (!Texture || Texture->IsCompiling() || !Texture->GetResource() || Texture->HasPendingInitOrStreaming()
             || (Texture->IsStreamable() && !Texture->IsFullyStreamedIn()))
@@ -548,6 +585,11 @@ void AViewerPawn::CommitPreparedSelection()
                     if (BoneName == FName(TEXT("b_Head"))) PartPoseBounds += Position + FVector(0.f, 0.f, 12.f);
                 }
             }
+            // Socket-local accessories are part of the visible silhouette.
+            // Anatomy alone omits tall rabbit ears and leg-mounted wheels.
+            if (!Outfit->Parts[Index].ParentPartId.IsNone())
+                PartPoseBounds += Component->GetSkeletalMeshAsset()->GetBounds()
+                    .TransformBy(Component->GetComponentTransform()).GetBox();
             if (PartPoseBounds.IsValid) PoseBounds += PartPoseBounds.ExpandBy(8.f);
         }
     }
@@ -565,7 +607,7 @@ void AViewerPawn::CommitPreparedSelection()
         ModelWidth = FMath::Max(20.f, FMath::Max(Bounds.GetSize().X, Bounds.GetSize().Y));
         const FVector Center = Bounds.GetCenter();
         ModelRoot->SetRelativeLocation(Environment && Environment->bPreserveModelOrigin
-            ? FVector::ZeroVector : FVector(-Center.X, -Center.Y, -Bounds.Min.Z));
+            ? Environment->ModelTransform.GetLocation() : FVector(-Center.X, -Center.Y, -Bounds.Min.Z));
         const FVector NormalizationOffset = ModelRoot->GetComponentLocation() - PreviousModelLocation;
         FramingBounds = (PoseBounds.IsValid ? PoseBounds : Bounds).ShiftBy(NormalizationOffset);
         UE_LOG(LogTemp, Display, TEXT("Viewer stable pose framing: center=%s, size=%s, evaluated pose=%s"),
@@ -695,7 +737,8 @@ void AViewerPawn::InvalidateViewHistory()
 void AViewerPawn::SetPartVisible(int32 Index, bool bVisible)
 {
     if (bPreparingSelection) return;
-    if (Parts.IsValidIndex(Index) && Parts[Index]) Parts[Index]->SetVisibility(bVisible, true);
+    // Attached accessories remain independently selectable in the parts list.
+    if (Parts.IsValidIndex(Index) && Parts[Index]) Parts[Index]->SetVisibility(bVisible, false);
 }
 
 bool AViewerPawn::IsPartVisible(int32 Index) const
@@ -814,6 +857,17 @@ void AViewerPawn::UpdateCamera()
         // direction, rather than retreating through furniture or background walls.
         FramingCameraLocation = bSourceCamera ? Environment->SourceCameraTransform.GetLocation()
             : Focus - BaseRotation.Vector() * DefaultDistance;
+        const bool bExactSourceCamera = bSourceCamera && Environment->bUseSourceRendering
+            && FParse::Param(FCommandLine::Get(), TEXT("ViewerPCSourceCamera"));
+        if (bExactSourceCamera)
+        {
+            // A comparison capture uses the serialized camera rotation and FOV.
+            // The normal interactive view below fits the available UI rectangle.
+            FramingCameraRotation = Environment->SourceCameraTransform.Rotator();
+            FramingHorizontalFOV = Environment->CameraHorizontalFOV;
+        }
+        else
+        {
         const FBox FitBounds = FramingBounds.IsValid ? FramingBounds
             : FBox(Focus - FVector(ModelWidth * 0.5f, ModelWidth * 0.5f, ModelHeight * 0.5f),
                 Focus + FVector(ModelWidth * 0.5f, ModelWidth * 0.5f, ModelHeight * 0.5f));
@@ -860,6 +914,7 @@ void AViewerPawn::UpdateCamera()
         }
         FramingCameraRotation = RotationForTangent(MaximumTangent).Rotator();
         FramingHorizontalFOV = FMath::RadiansToDegrees(2.0 * FMath::Atan(MaximumTangent));
+        }
         LastViewportSize = Size;
         LastModelViewportRect = Available;
         InvalidateViewHistory();
@@ -886,7 +941,8 @@ void AViewerPawn::UpdateCamera()
         Camera->SetWorldLocationAndRotation(Pivot + Orbit.RotateVector(FramingCameraLocation - Pivot),
             Orbit * FramingCameraRotation.Quaternion());
     }
-    if (StagePostProcess && Preferences && Preferences->bDepthOfField)
+    if (StagePostProcess && Preferences && Preferences->bDepthOfField
+        && (!Environment || !Environment->bUseSourceRendering))
         StagePostProcess->Settings.DepthOfFieldFocalDistance = FramingBounds.IsValid
             ? FVector::Distance(FramingCameraLocation, FramingBounds.GetCenter()) : DefaultDistance;
 }
@@ -972,7 +1028,9 @@ void AViewerPawn::ReplayAnimation()
     if (!bPreparingSelection)
     {
         const bool bHasAnimation = Outfit->Parts.ContainsByPredicate([](const FViewerPart& Part) { return !Part.Animation.IsNull(); });
-        Status = FText::FromString(bHasAnimation ? TEXT("待机动作 · 可分部件查看") : TEXT("原始绑定姿势 · 可分部件查看"));
+        Status = Outfit->PreviewNotes.IsEmpty()
+            ? FText::FromString(bHasAnimation ? TEXT("待机动作 · 可分部件查看") : TEXT("原始绑定姿势 · 可分部件查看"))
+            : Outfit->PreviewNotes;
         if (ViewerUI) ViewerUI->Refresh();
     }
 }
@@ -980,9 +1038,12 @@ void AViewerPawn::ReplayAnimation()
 void AViewerPawn::ApplyPreferences()
 {
     if (!Preferences) return;
-    Preferences->ApplyEngineSettings();
+    RestoreSourceConsoleVariables();
+    const bool bSourceRendering = Environment && Environment->bUseSourceRendering;
+    Preferences->ApplyEngineSettings(bSourceRendering);
     InvalidateViewHistory();
-    if (StagePostProcess)
+    if (bSourceRendering) ApplySourceRenderingPreferences();
+    if (StagePostProcess && !bSourceRendering)
     {
         FPostProcessSettings& Post = StagePostProcess->Settings;
         if (Environment) Post = Environment->PostProcess;
@@ -1055,6 +1116,82 @@ void AViewerPawn::ApplyPreferences()
             Dynamic->SetSecondaryMotionEnabled(Preferences->bSecondaryMotion);
 }
 
+void AViewerPawn::RestoreSourceConsoleVariables()
+{
+    for (const auto& Value : SourceConsoleRestoreValues)
+        if (IConsoleVariable* Variable = IConsoleManager::Get().FindConsoleVariable(*Value.Key.ToString()))
+            Variable->Set(Value.Value, ECVF_SetByGameOverride);
+    SourceConsoleRestoreValues.Reset();
+}
+
+void AViewerPawn::ApplySourceRenderingPreferences()
+{
+    if (!Environment || !Preferences) return;
+    const bool bMobile = UViewerPreferences::UsesMobileRenderer();
+    const TMap<FName, float>& Variables = bMobile
+        ? Environment->MobileSourceConsoleVariables : Environment->SourceConsoleVariables;
+    for (const auto& Value : Variables)
+    {
+        const FString Name = Value.Key.ToString();
+        IConsoleVariable* Variable = IConsoleManager::Get().FindConsoleVariable(*Name);
+        if (!Name.StartsWith(TEXT("r.")) || !Variable || !FMath::IsFinite(Value.Value)
+            || Variable->TestFlags(ECVF_ReadOnly))
+        {
+            UE_LOG(LogTemp, Warning, TEXT("PC source rendering variable unavailable at runtime: %s"), *Name);
+            continue;
+        }
+        SourceConsoleRestoreValues.Add(Value.Key, Variable->GetFloat());
+        Variable->Set(Value.Value, ECVF_SetByGameOverride);
+    }
+    const auto DisableVariable = [](const TCHAR* Name)
+    {
+        if (IConsoleVariable* Variable = IConsoleManager::Get().FindConsoleVariable(Name))
+            Variable->Set(0.f, ECVF_SetByGameOverride);
+    };
+    if (!Preferences->bPostProcessing || !Preferences->bBloom) DisableVariable(TEXT("r.BloomQuality"));
+    if (!Preferences->bPostProcessing || !Preferences->bDepthOfField) DisableVariable(TEXT("r.DepthOfFieldQuality"));
+    if (!Preferences->bPostProcessing || !Preferences->bAmbientOcclusion)
+    {
+        DisableVariable(TEXT("r.AmbientOcclusionLevels"));
+        DisableVariable(TEXT("r.Mobile.AmbientOcclusionQuality"));
+    }
+    if (!Preferences->bPostProcessing || !Preferences->bScreenSpaceReflections || Preferences->Antialiasing != 0)
+        DisableVariable(TEXT("r.SSR.Quality"));
+    if (!StagePostProcess) return;
+    FPostProcessSettings& Post = StagePostProcess->Settings;
+    Post = bMobile && Environment->bHasMobilePostProcess
+        ? Environment->MobilePostProcess : Environment->PostProcess;
+    StagePostProcess->bEnabled = Environment->bSourcePostEnabled;
+    StagePostProcess->bUnbound = Environment->bSourcePostUnbound;
+    StagePostProcess->Priority = Environment->SourcePostPriority;
+    StagePostProcess->BlendWeight = Environment->SourcePostBlendWeight;
+    // Enabled features keep both the source value and its source override bit.
+    // User switches can disable a feature without creating a new artistic preset.
+    if (!Preferences->bPostProcessing || !Preferences->bBloom)
+    { Post.bOverride_BloomIntensity = true; Post.BloomIntensity = 0.f; }
+    if (!Preferences->bPostProcessing || !Preferences->bVignette)
+    { Post.bOverride_VignetteIntensity = true; Post.VignetteIntensity = 0.f; }
+    if (!Preferences->bPostProcessing || !Preferences->bDepthOfField)
+    { Post.bOverride_DepthOfFieldScale = true; Post.DepthOfFieldScale = 0.f; }
+    if (!Preferences->bPostProcessing || !Preferences->bAmbientOcclusion)
+    { Post.bOverride_AmbientOcclusionIntensity = true; Post.AmbientOcclusionIntensity = 0.f; }
+    if (!Preferences->bPostProcessing || !Preferences->bScreenSpaceReflections)
+    {
+        Post.bOverride_ScreenSpaceReflectionIntensity = true;
+        Post.ScreenSpaceReflectionIntensity = 0.f;
+        Post.bOverride_ReflectionMethod = true;
+        Post.ReflectionMethod = EReflectionMethod::None;
+    }
+    if (!Preferences->bPostProcessing)
+    {
+        Post.bOverride_LensFlareIntensity = true; Post.LensFlareIntensity = 0.f;
+        Post.bOverride_SceneFringeIntensity = true; Post.SceneFringeIntensity = 0.f;
+        Post.bOverride_ColorContrast = true; Post.ColorContrast = FVector4(1.f);
+        Post.bOverride_ColorSaturation = true; Post.ColorSaturation = FVector4(1.f);
+        Post.bOverride_ColorContrastMidtones = true; Post.ColorContrastMidtones = FVector4(1.f);
+    }
+}
+
 void AViewerPawn::ClearStage()
 {
     for (UStaticMeshComponent* Mesh : StageMeshes) if (Mesh) Mesh->DestroyComponent();
@@ -1091,7 +1228,8 @@ void AViewerPawn::CreateStage(bool bUsePreparedMeshes)
 {
     USceneComponent* Root = SceneRoot;
 #if !PLATFORM_IOS
-    const bool bFogScatteringRequested = (Environment && Environment->bEnableFogScattering)
+    const bool bSourceFog = Environment && Environment->bUseSourceRendering && Environment->bUseSourceFog;
+    const bool bFogScatteringRequested = bSourceFog || (Environment && Environment->bEnableFogScattering)
         || FParse::Param(FCommandLine::Get(), TEXT("ViewerFogScattering"));
     const FSceneInterface* Scene = GetWorld() ? GetWorld()->Scene : nullptr;
     const bool bDesktopFogSupported = Scene && Scene->GetFeatureLevel() >= ERHIFeatureLevel::SM5
@@ -1101,18 +1239,22 @@ void AViewerPawn::CreateStage(bool bUsePreparedMeshes)
         StageFog = NewObject<UExponentialHeightFogComponent>(this);
         StageFog->SetupAttachment(Root);
         StageFog->SetMobility(EComponentMobility::Movable);
-        StageFog->SetFogDensity(FMath::Clamp(Environment ? Environment->FogDensity : 0.003f, 0.f, 0.05f));
+        if (bSourceFog) StageFog->SetRelativeTransform(Environment->FogTransform);
+        StageFog->SetFogDensity(bSourceFog ? Environment->FogDensity
+            : FMath::Clamp(Environment ? Environment->FogDensity : 0.003f, 0.f, 0.05f));
         StageFog->SetFogHeightFalloff(FMath::Clamp(Environment ? Environment->FogHeightFalloff : 0.2f, 0.001f, 2.f));
         StageFog->SetStartDistance(FMath::Max(0.f, Environment ? Environment->FogStartDistance : 100.f));
         StageFog->SetFogInscatteringColor(Environment ? Environment->FogColor : FLinearColor(0.04f, 0.055f, 0.075f));
-        StageFog->SetVolumetricFog(true);
-        StageFog->SetVolumetricFogAlbedo(FColor(180, 180, 180));
-        StageFog->SetVolumetricFogScatteringDistribution(0.2f);
-        StageFog->SetVolumetricFogDistance(1200.f);
+        StageFog->SetFogMaxOpacity(bSourceFog ? Environment->FogMaxOpacity : 1.f);
+        StageFog->SetVolumetricFog(bSourceFog ? Environment->bSourceVolumetricFog : true);
+        StageFog->SetVolumetricFogAlbedo(bSourceFog ? FColor::White : FColor(180, 180, 180));
+        StageFog->SetVolumetricFogScatteringDistribution(bSourceFog
+            ? Environment->FogVolumetricScatteringDistribution : 0.2f);
+        StageFog->SetVolumetricFogDistance(bSourceFog ? Environment->FogVolumetricDistance : 1200.f);
         StageFog->SetVolumetricFogStartDistance(FMath::Max(0.f, Environment ? Environment->FogStartDistance : 100.f));
         // Conservative native FSSS controls keep the character readable. The
         // renderer's separate fog composition still decides actual pass support.
-        StageFog->bEnableFSSS = true;
+        StageFog->bEnableFSSS = !bSourceFog;
         StageFog->FSSSSceneColorScatteringAmountScale = 0.15f;
         StageFog->FSSSSceneColorScatteringAmountPower = 1.f;
         StageFog->FSSSSpreadScale = 0.15f;
@@ -1156,39 +1298,66 @@ void AViewerPawn::CreateStage(bool bUsePreparedMeshes)
         Sky->SetCubemap(Environment->Cubemap.LoadSynchronous());
         Sky->SetIntensity(Environment->SkyIntensity);
         Sky->SetLightColor(Environment->SkyColor);
-        Sky->SetCastShadows(false);
+        Sky->SetCastShadows(Environment->bUseSourceRendering && Environment->bSkyCastShadows);
+        if (Environment->bUseSourceRendering)
+        {
+            Sky->SetSourceCubemapAngle(Environment->SkyCubemapAngle);
+            Sky->VolumetricScatteringIntensity = Environment->SkyVolumetricScatteringIntensity;
+        }
         Sky->RegisterComponent();
         UE_LOG(LogTemp, Display, TEXT("Role environment: %s; meshes=%d; HDR=%s; source lights=%d"),
             *Environment->GetPathName(), StageMeshes.Num(), *GetPathNameSafe(Sky->Cubemap), Environment->Lights.Num());
         for (const FViewerEnvironmentLight& Spec : Environment->Lights)
         {
+            const bool bSourceRendering = Environment->bUseSourceRendering;
             ULightComponent* Light = Spec.Kind == TEXT("Directional")
                 ? static_cast<ULightComponent*>(NewObject<UDirectionalLightComponent>(this))
                 : Spec.Kind == TEXT("Point") ? static_cast<ULightComponent*>(NewObject<UPointLightComponent>(this))
+                : Spec.Kind == TEXT("Rect") ? static_cast<ULightComponent*>(NewObject<URectLightComponent>(this))
                 : static_cast<ULightComponent*>(NewObject<USpotLightComponent>(this));
             Light->ComponentTags.Add(Spec.Id);
             Light->SetupAttachment(Root);
-            Light->SetMobility(EComponentMobility::Movable);
+            Light->SetMobility(bSourceRendering
+                ? static_cast<EComponentMobility::Type>(FMath::Clamp(Spec.Mobility, 0, 2)) : EComponentMobility::Movable);
             Light->SetRelativeLocationAndRotation(Spec.Location, Spec.Rotation);
+            if (bSourceRendering)
+            {
+                Light->SetRelativeScale3D(Spec.Scale);
+                Light->SetVisibility(Spec.bVisible);
+                Light->bAffectsWorld = Spec.bAffectsWorld;
+                Light->ShadowResolutionScale = Spec.ShadowResolutionScale;
+                Light->SetIndirectLightingIntensity(Spec.IndirectLightingIntensity);
+                Light->SetVolumetricScatteringIntensity(Spec.VolumetricScatteringIntensity);
+            }
             Light->SetLightingChannels((Spec.LightingChannelMask & 1) != 0,
                 (Spec.LightingChannelMask & 2) != 0, (Spec.LightingChannelMask & 4) != 0);
             if (UDirectionalLightComponent* Directional = Cast<UDirectionalLightComponent>(Light))
             {
                 // This is a small character stage: spend shadow texels around
                 // the subject rather than the engine's outdoor default range.
-                Directional->DynamicShadowDistanceMovableLight = 1600.f;
-                Directional->DynamicShadowCascades = 3;
-                Directional->CascadeDistributionExponent = 2.f;
-                Directional->CascadeTransitionFraction = 0.15f;
+                Directional->DynamicShadowDistanceMovableLight = bSourceRendering ? Spec.DynamicShadowDistance : 1600.f;
+                Directional->DynamicShadowCascades = bSourceRendering ? Spec.DynamicShadowCascades : 3;
+                Directional->CascadeDistributionExponent = bSourceRendering ? Spec.CascadeDistributionExponent : 2.f;
+                Directional->CascadeTransitionFraction = bSourceRendering ? Spec.CascadeTransitionFraction : 0.15f;
             }
-            if (UPointLightComponent* Local = Cast<UPointLightComponent>(Light))
+            if (ULocalLightComponent* Local = Cast<ULocalLightComponent>(Light))
             {
                 Local->SetIntensityUnits(static_cast<ELightUnits>(Spec.IntensityUnits));
                 Local->SetAttenuationRadius(Spec.Radius);
+            }
+            if (UPointLightComponent* Local = Cast<UPointLightComponent>(Light))
+            {
                 Local->SetUseInverseSquaredFalloff(Spec.bInverseSquaredFalloff);
                 Local->SetLightFalloffExponent(Spec.FalloffExponent);
                 Local->SetSourceRadius(Spec.SourceRadius);
                 Local->SetSourceLength(Spec.SourceLength);
+            }
+            if (URectLightComponent* Rect = Cast<URectLightComponent>(Light))
+            {
+                Rect->SetSourceWidth(Spec.SourceWidth);
+                Rect->SetSourceHeight(Spec.SourceHeight);
+                Rect->SetBarnDoorAngle(Spec.BarnDoorAngle);
+                Rect->SetBarnDoorLength(Spec.BarnDoorLength);
             }
             if (USpotLightComponent* Spot = Cast<USpotLightComponent>(Light))
             {
@@ -1207,8 +1376,13 @@ void AViewerPawn::CreateStage(bool bUsePreparedMeshes)
         }
         StagePostProcess = NewObject<UPostProcessComponent>(this);
         StagePostProcess->SetupAttachment(Root);
-        StagePostProcess->bUnbound = true;
-        StagePostProcess->Settings = Environment->PostProcess;
+        const bool bSourceRendering = Environment->bUseSourceRendering;
+        StagePostProcess->bUnbound = !bSourceRendering || Environment->bSourcePostUnbound;
+        StagePostProcess->bEnabled = !bSourceRendering || Environment->bSourcePostEnabled;
+        StagePostProcess->Priority = bSourceRendering ? Environment->SourcePostPriority : 0.f;
+        StagePostProcess->BlendWeight = bSourceRendering ? Environment->SourcePostBlendWeight : 1.f;
+        StagePostProcess->Settings = bSourceRendering && UViewerPreferences::UsesMobileRenderer()
+            && Environment->bHasMobilePostProcess ? Environment->MobilePostProcess : Environment->PostProcess;
         StagePostProcess->RegisterComponent();
         return;
     }

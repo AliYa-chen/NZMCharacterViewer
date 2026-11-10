@@ -1,0 +1,875 @@
+{
+  "catalog_sha256": "d73102bc503ef7157579ea5910df6af57d42c379c7c5a6c61f40c58d6e6adf07",
+  "runtime_module_sha256": "5ad24c403392c3f6f6500b01157dd44daf83b345e69b2cceaac41b94c1b5e678",
+  "source_commit": "03152adb7ce937649f890455d6650f346e82acc1",
+  "source_tree": "1af1c54bc56f6fed78cfaa9ec254781107c3cc07",
+  "source_restore_command": "git restore --source=03152adb7ce937649f890455d6650f346e82acc1 -- PCResources",
+  "project_head": "03152adb7ce937649f890455d6650f346e82acc1",
+  "mac_build_log": "Saved/PCViewerIntegration/source_rendering_build.log",
+  "asset_index_sha256": "7c7219c6971d583061d88a7ebd93d414f0b42f84a4e8acc572003f3f94d26f95",
+  "counts": {
+    "characters": 12,
+    "pc_outfits": 17,
+    "baseline_outfits": 9,
+    "total_outfits": 26,
+    "pc_parts": 72,
+    "adapted_animation_assets": 67,
+    "portraits": 12,
+    "desktop_smoke_cases": 26,
+    "mobile_smoke_cases": 0
+  },
+  "mobile_runtime_validation": "not_run_user_requested_cleanup",
+  "validation_reports": {
+    "Saved/PCViewerIntegration/animation_report.json": "8f03edaca18e8a082e19ef830df3a283227c67bb77f0a8a04dbb5585acedb0e8",
+    "Saved/PCViewerIntegration/animation_summary.json": "e357488b934d0c052cf953fc64d0fca67b2daa477027306ce2ff31611b2ea756",
+    "Saved/PCViewerIntegration/material_overrides_report.json": "aad077e142912f591a7f0f745e1e02e4eccf57036784c2aa5ea23670bdf05e08",
+    "Saved/PCViewerIntegration/dynamics_report.json": "a05eb4ecc45580c8a47d818ceb2fe73044be1ea7205a05247833f216d440a885",
+    "Saved/PCViewerIntegration/dynamics_preflight.json": "6d831d32e98e9ec43cd396a5145ce7768ab14ff678a9d62fdd8de4e143f14e74",
+    "Saved/PCViewerIntegration/viewer_environment_report.json": "7e55134b1cda1ede3b4ccb70e2dd8af465f90ef02ab4806e57d3890592b06826",
+    "Saved/PCViewerIntegration/viewer_environments_fresh_verification.json": "96008fb0a0a112990f685bf58d3a64fdf9e841db89fad9bddace1677916b5734",
+    "Saved/PCViewerIntegration/catalog_import_report.json": "a65230da4d02ea5337ec211db829959381e31a6f1bc27c9fe6ed243c3b4b4cf9",
+    "Saved/PCViewerIntegration/integration_audit.json": "cef253f1676b52bf53310ce79ebfc0663555ccb755eb0f11ab28af3716499113",
+    "Saved/PCViewerIntegration/portraits_report.json": "0028a096ad73ffc9153c7a2e06e69f257f7c273f7374b701e71f16a2a8da62e0"
+  },
+  "scope": "Final local HD viewer evidence, original Catalog rollback bytes and current authoring/runtime code. Raw exports and the previous conversion asset_plan are excluded; original shader parity and iOS device validation are not inferred.",
+  "schema_version": 1,
+  "status": "passed",
+  "recorded_at_utc": "2026-11-10T07:55:07.220191+00:00",
+  "archive": {
+    "file": "Docs/PCViewerIntegration/integration_evidence.tar.gz",
+    "bytes": 43764839,
+    "sha256": "bf73e42e24608fa06bb30d23800629a662a3c4abbbd505346b09ad06908fee76"
+  },
+  "files": [
+    {
+      "file": "Config/Custom/CinematicIOS/DefaultEngine.ini",
+      "bytes": 1160,
+      "sha256": "ebe68a60fade740c95d12e0e0a21237d199fae1634a01e398ef145395b4cc731"
+    },
+    {
+      "file": "Config/DefaultDeviceProfiles.ini",
+      "bytes": 264,
+      "sha256": "aac2bb191c01df2942cdaa94070842199fbb1b687317a51a764a22ebc25b98e5"
+    },
+    {
+      "file": "Config/DefaultEngine.ini",
+      "bytes": 1857,
+      "sha256": "1a4aa2c9e82ee179121785c56d11c7a45497ad87c6a7dd8f00d45a8e4112e511"
+    },
+    {
+      "file": "Config/DefaultGame.ini",
+      "bytes": 861,
+      "sha256": "e3b45ce6d8c06e916c9456866c4b1a5a7d5e999aaa230905ee22a65732eba16a"
+    },
+    {
+      "file": "Config/DefaultInput.ini",
+      "bytes": 9375,
+      "sha256": "11797f505d5ea07cf0c888bb426a7a2be2dfa3a43929b9bccf64711c29c8444b"
+    },
+    {
+      "file": "Config/Mac/MacEngine.ini",
+      "bytes": 746,
+      "sha256": "7f5e0f9df5748f6d50c15c3f2f620d381154211c854649600b233f235ce15b8d"
+    },
+    {
+      "file": "Content/Viewer/Data/DA_ViewerCatalog.uasset",
+      "bytes": 158939,
+      "sha256": "d73102bc503ef7157579ea5910df6af57d42c379c7c5a6c61f40c58d6e6adf07"
+    },
+    {
+      "file": "Docs/PCAssetConversion/asset_index.json",
+      "bytes": 8415633,
+      "sha256": "7c7219c6971d583061d88a7ebd93d414f0b42f84a4e8acc572003f3f94d26f95"
+    },
+    {
+      "file": "Docs/PCAssetConversion/evidence_manifest.json",
+      "bytes": 5258,
+      "sha256": "79e6a3b82ff28e7d3b012d184ab5c00d03b409d2d1843a635d721b20ed9ca722"
+    },
+    {
+      "file": "Docs/PCViewerIntegration/content_cleanup_plan.json",
+      "bytes": 19248,
+      "sha256": "782eebcd77f475632a2ce0ef38295e9bc6aa15c3e164d6fbc592e554f21acf7e"
+    },
+    {
+      "file": "Docs/PCViewerIntegration/unused_assets_backup.tar.gz",
+      "bytes": 1839645,
+      "sha256": "bd929324658c0b2cef0c84d2400907ef7e15347723e1383a1cb1bfbc80d54196"
+    },
+    {
+      "file": "Docs/PC_VIEWER_INTEGRATION.md",
+      "bytes": 8320,
+      "sha256": "30ef23ecb854d6bf92881a1398a330430ca8c5df21b05fa57af6c6694541c721"
+    },
+    {
+      "file": "NZMCharacterViewer.uproject",
+      "bytes": 982,
+      "sha256": "c9d563d7f74007fd0c8864c65f454f6c43150039df32834d6d57ee9491c134d3"
+    },
+    {
+      "file": "Plugins/PCAssetImporter/PCAssetImporter.uplugin",
+      "bytes": 545,
+      "sha256": "e93b09ec0806dedfd782565dc14053aae2ef976bbb64483376e22d278fbc2b76"
+    },
+    {
+      "file": "Plugins/PCAssetImporter/Source/PCAssetData/PCAssetData.Build.cs",
+      "bytes": 291,
+      "sha256": "c09618a17d6083375486c566d2ddf3b687b602696e54625a262b6cb467e8ace0"
+    },
+    {
+      "file": "Plugins/PCAssetImporter/Source/PCAssetData/Private/PCAssetDataModule.cpp",
+      "bytes": 85,
+      "sha256": "97c6c7c6d0b8bc87e9e4580e94e05b589eccda57c38d4c31c13cecccbb58e1d7"
+    },
+    {
+      "file": "Plugins/PCAssetImporter/Source/PCAssetData/Public/PCSourceRecord.h",
+      "bytes": 971,
+      "sha256": "fb5b1b16d5e276fc120005ecdfdfc2886fec06778ece394e936ac9ddab9c83bd"
+    },
+    {
+      "file": "Plugins/PCAssetImporter/Source/PCAssetImporter/PCAssetImporter.Build.cs",
+      "bytes": 659,
+      "sha256": "b0d1c4c33c0459265cd2a63c0b41b101adffbbaff6e1bebf0e5bef852514e40f"
+    },
+    {
+      "file": "Plugins/PCAssetImporter/Source/PCAssetImporter/Private/PCAssetImportLibrary.cpp",
+      "bytes": 56433,
+      "sha256": "2f5c42d755acd57a8d1794b17a904bb9ba2e7dc9b478f2f7de71cba381f0004f"
+    },
+    {
+      "file": "Plugins/PCAssetImporter/Source/PCAssetImporter/Private/PCAssetImporterModule.cpp",
+      "bytes": 89,
+      "sha256": "65148438285b5f6f8a98b86e9984f656fb0aed64dc67c2ab39536c537acec26a"
+    },
+    {
+      "file": "Plugins/PCAssetImporter/Source/PCAssetImporter/Private/PCMaterialShaderVerification.cpp",
+      "bytes": 11399,
+      "sha256": "9cc165d6ae79c4151f1ef9864a791536089345a075355dc8b138a661ad092dce"
+    },
+    {
+      "file": "Plugins/PCAssetImporter/Source/PCAssetImporter/Private/PCSourceRecordReferences.cpp",
+      "bytes": 1582,
+      "sha256": "2f5d6b45eb560ebd32cb104104589dca5e87e2296ac5c15e13df6c6683f9158c"
+    },
+    {
+      "file": "Plugins/PCAssetImporter/Source/PCAssetImporter/Private/PCViewerAnimationBridge.cpp",
+      "bytes": 32517,
+      "sha256": "3c7111339f2510fc6f690732e825d2ca6c8b07a55266f7f6ff331dbbbb4ea51d"
+    },
+    {
+      "file": "Plugins/PCAssetImporter/Source/PCAssetImporter/Public/PCAssetImportLibrary.h",
+      "bytes": 1356,
+      "sha256": "a1a5a0d1ecd7e481ac93c5daeb85d6f87f1683f47f40ea85683e72b1838bd086"
+    },
+    {
+      "file": "Plugins/PCAssetImporter/Source/PCAssetImporter/Public/PCViewerAnimationLibrary.h",
+      "bytes": 1620,
+      "sha256": "6b0d6c2cfd5a7bc9dfba4ea19e1437de10529bbcde47b5475c3fc391490cbe69"
+    },
+    {
+      "file": "README.md",
+      "bytes": 11990,
+      "sha256": "d312b21f00c826051f763403b23602a448fffd909d8b05dda788a20d476d24a3"
+    },
+    {
+      "file": "Saved/BuildIOSCompile.log",
+      "bytes": 3710,
+      "sha256": "56c6a57e92ef21e567d91bcbdb881f6460f7f4f05fd0d2de1c9754333641fa44"
+    },
+    {
+      "file": "Saved/BuildIOSCompileVerification.json",
+      "bytes": 5022,
+      "sha256": "596b28080b0a801bfd9c5d01b1c7262dadfd4873d5ac20d6f1153b86dc20b442"
+    },
+    {
+      "file": "Saved/ContentAudit.json",
+      "bytes": 7178,
+      "sha256": "f9ca1a04db334d9f9572b1c583bdddffc42014aba3698405f78fa82a04021493"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/DA_ViewerCatalog.before_integration.uasset",
+      "bytes": 71670,
+      "sha256": "24c94e15b498f4d3f267fcafa951e02034e7ed058af8d68df6f055c930f26c89"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/OcclusionZero/T_PC_angel.png",
+      "bytes": 315909,
+      "sha256": "e9ac44a986195a641d306c180790894b04c64a2009819dd2de8ad5271033523e"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/OcclusionZero/T_PC_angela.png",
+      "bytes": 439995,
+      "sha256": "d3926b24a0fd8b71bdef2735252bb2032468d12ad08f32beb500cb10bc2b80d1"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/OcclusionZero/occlusion_zero_report.json",
+      "bytes": 69683,
+      "sha256": "345e343fb1ccb34abc72a4b2aa5f8ce574082e3966acbdef90508cf916ce570b"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/before_white_angel.png",
+      "bytes": 315909,
+      "sha256": "295babb708ab11d74995cec28f272a1096136a76898ae7ff2458cb1db2e874c3"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/before_white_angela.png",
+      "bytes": 315909,
+      "sha256": "4361b49c0b57efd0190494ca69c2ec54e01ea6bd9b44db0be00b45813a9f51d5"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/before_white_portraits_report.json",
+      "bytes": 56065,
+      "sha256": "abcfb1f8d6e4843adb89256f55c9fc14a2d6ead057d5b22e534b4afb0e37ece1"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/eye_before_after_contact_sheet.png",
+      "bytes": 537965,
+      "sha256": "5c72f5854d3ca8cff8fe1836f03aef40c93c53d6c1b22101adbcd8132251be34"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/eye_t04_angel.png",
+      "bytes": 315909,
+      "sha256": "6a1bf744032ee6d071fc2029a935a0932647450a354576a32c0a95ddf535e5d9"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/eye_t04_angela.png",
+      "bytes": 439995,
+      "sha256": "b1e0b0273d43ed0a33400c7720353c8939eef7b3f11eabaf76d19d1abe4c6927"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/eye_t04_report.json",
+      "bytes": 73367,
+      "sha256": "7f8ec44ff3f9bcc4e88341ebb8b6be6a1329ec6c6e1f16282f89524d1ca2c2f3"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/eye_visual_review.json",
+      "bytes": 2184,
+      "sha256": "e8650731d52d53865a9c590e9aff7226c1795c4d5aa62916dbf54aac847428a8"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/final_eye_t04_angel.png",
+      "bytes": 315909,
+      "sha256": "1ce4aceeac087ac9045b6017840924045a39c1b78053697a5d546b25b3030aca"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/final_eye_t04_angela.png",
+      "bytes": 439995,
+      "sha256": "414addf34939295bb24855db1bd4893f0be8aaa498110bec8b71d4565ec3d083"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/final_eye_t04_report.json",
+      "bytes": 73286,
+      "sha256": "6aa3ec3246e17048bb6417c5a4ce661fd6aedce350426f471d90f7c7de01ab6c"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/final_eye_t08_angel.png",
+      "bytes": 315909,
+      "sha256": "10404ca0ee9e1a0439f1cc5ea8223411feaa32100a7d3c67f04b6ea46b9cad0e"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/final_eye_t08_angela.png",
+      "bytes": 439995,
+      "sha256": "0f1f733ce5a4237b33be57d468522c1a2c0574d859a95347850ade07f9ed189b"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/final_eye_t08_report.json",
+      "bytes": 73284,
+      "sha256": "c933c3c210ffa94328a5cb2a875ccce34526146954ebdfde080d15c7f35a1fd8"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/EyeValidation/shell_transient_report.json",
+      "bytes": 3185,
+      "sha256": "76b05334f373d595072e67b0a272086837f971ec201cb83ff38dd1e633ca0ee4"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/Portraits/T_PC_angel.png",
+      "bytes": 315909,
+      "sha256": "e6354ad7f6af216023c3d0b2e63b7f126cb19101becaece4ef0a5a1ad807e774"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/Portraits/T_PC_angela.png",
+      "bytes": 315909,
+      "sha256": "6f7ccfae4a605d71e130bbab1c7267bb4c519c61e14c20cbf97c2e2c1c3fed8b"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/Portraits/T_PC_bella.png",
+      "bytes": 315909,
+      "sha256": "07d16a252ba8610326572e108b7d11847e8d8b39a9db1a4a50bcc6a51a11a7af"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/Portraits/T_PC_bunny.png",
+      "bytes": 315909,
+      "sha256": "73af39e3c031e0f49976b08a923dc2f58f90febe1b0508ab514f997bea4da38c"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/Portraits/T_PC_emma.png",
+      "bytes": 315909,
+      "sha256": "a69f0803c483ea76a9b7b3a9088d76286ada54faa8c853294b1c5d146d8cee25"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/Portraits/T_PC_lilith.png",
+      "bytes": 439995,
+      "sha256": "d9399bbe1be29f43a02a9663c184fe71c9925346e05faa359edc7be5ff9279ff"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/Portraits/T_PC_molly.png",
+      "bytes": 439995,
+      "sha256": "01a767f6144f705245a440efa853eedbe96be0275e0916f2ac9b5469de84c973"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/Portraits/T_PC_naimei.png",
+      "bytes": 439995,
+      "sha256": "8adf10e0e411c8b3a8c0538ff812ce44be0bf7631112dd3861ccb82e6c6f38f4"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/Portraits/T_PC_queen.png",
+      "bytes": 439995,
+      "sha256": "6a36e574e8f1d16e5575fe933b35a11582ded1222d75f245d04ed0823e60e680"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/Portraits/T_PC_shirley.png",
+      "bytes": 315909,
+      "sha256": "910c946b1da77a6f977d4c1e6c5497a1f6073f4e2e6ea8ae5d480f85292b726f"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/Portraits/T_PC_tina.png",
+      "bytes": 315909,
+      "sha256": "c91e408da2f47e7627c05135cc5643d15a40ae80912fc8c8be07bc005b035b90"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/Portraits/T_PC_widow.png",
+      "bytes": 315909,
+      "sha256": "e3358831908fd767a6b0a81c45e837e55bf33ecb194728c25c204582f219fe7f"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/QueenValidation/ProductionComponent/T_PC_queen.png",
+      "bytes": 439995,
+      "sha256": "8654dd5553b776365c8269bbd9346a635351a922d209d832c34a985fc4da588d"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/QueenValidation/ProductionComponent/queen_production_report.json",
+      "bytes": 50044,
+      "sha256": "570d380b700584905417556bd5593d5c6756ace58b73dd23da5984e5e07c6e4f"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/QueenValidation/T_PC_queen.png",
+      "bytes": 225665,
+      "sha256": "7070aa38fe3f4f4d37e0eb52ab2206b2edf7f0a900b5bffb3a35f823e3148199"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/QueenValidation/queen_bounds4_report.json",
+      "bytes": 50878,
+      "sha256": "7be0cc76d4c0555a37378f94687b329bc8320b66345a67e0fce1754212105127"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/animation_jobs.json",
+      "bytes": 54046,
+      "sha256": "c449ee4753d0a6ba9fd0cac7c3b7b7a88fae6ee82657c6e3d48d9e21574ba4dd"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/animation_report.json",
+      "bytes": 687695,
+      "sha256": "8f03edaca18e8a082e19ef830df3a283227c67bb77f0a8a04dbb5585acedb0e8"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/animation_summary.json",
+      "bytes": 2507,
+      "sha256": "e357488b934d0c052cf953fc64d0fca67b2daa477027306ce2ff31611b2ea756"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/baseline_catalog.json",
+      "bytes": 61639,
+      "sha256": "1e6901e9043ba11ddbd93e8f8588325406e428934ebdeec30c0effcdbb3270d9"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/build_fingerprints.json",
+      "bytes": 6017,
+      "sha256": "c018c3e47e6a255aa2a17bfe943a8ce00e210481b8e0eb6e9bea3764a0c453dd"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/catalog_import_report.json",
+      "bytes": 311365,
+      "sha256": "a65230da4d02ea5337ec211db829959381e31a6f1bc27c9fe6ed243c3b4b4cf9"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/desktop_smoke_report.json",
+      "bytes": 1767819,
+      "sha256": "a24c9240155b773ae718135d18e92a5aa3d8387bbe4c62adefd9979f89325221"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/desktop_visual_observations.json",
+      "bytes": 17689,
+      "sha256": "29855576d2f2dc08af53c2da441d080993f09e40f1885f22eaac9fe129fb2f6e"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/dynamics_differences.json",
+      "bytes": 7883,
+      "sha256": "d22da52bed182071027af0e8ab584a5ad9b4e2fc14bcc6796120b39e31a29f1e"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/dynamics_preflight.json",
+      "bytes": 361739,
+      "sha256": "6d831d32e98e9ec43cd396a5145ce7768ab14ff678a9d62fdd8de4e143f14e74"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/dynamics_preflight_strict_baseline.json",
+      "bytes": 437160,
+      "sha256": "183329650085769664b444a056bb05d0b81d123aa46a919c6ff3ed5a06807f94"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/dynamics_report.json",
+      "bytes": 361197,
+      "sha256": "a05eb4ecc45580c8a47d818ceb2fe73044be1ea7205a05247833f216d440a885"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/environment_queen_alignment_comparison.json",
+      "bytes": 13705,
+      "sha256": "96c301ee9fecbae7e030f9ba6df7d283970eb1947ff8fb3dd5ee1a0ba73d045d"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/environment_specular_adaptation_comparison.json",
+      "bytes": 1575,
+      "sha256": "1f583ac308683acff92e53192cc8e5efdc6cdfbc3af71aa12e9f24e0126e7e7d"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/eye_occlusion_override_plan.json",
+      "bytes": 1618931,
+      "sha256": "bf59514a29416f55ce7c2c53f3892550e0aa3b9ccf14f699390e754e09c4d434"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/eye_plan_summary.json",
+      "bytes": 1640,
+      "sha256": "1c11309f9eab42d419fa980486f050d2e2e379bcc69b418f2510528aefb08e01"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/immutable_conversion_validation.json",
+      "bytes": 180,
+      "sha256": "7a65ce5f5f9271a92350e0b9e97ea51549846b531e099316ef9f4dbc7e65fc9c"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/integration_audit.json",
+      "bytes": 4526475,
+      "sha256": "cef253f1676b52bf53310ce79ebfc0663555ccb755eb0f11ab28af3716499113"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/material_overrides_iris_only_report.json",
+      "bytes": 740638,
+      "sha256": "8dea2fd694e209cda5e25273849a455b4eb7229bc1beb551fcd817bc02b45753"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/material_overrides_plan.json",
+      "bytes": 735553,
+      "sha256": "77c8a55c555307896bdaf2bd9c80e8612ac597915abe98cd497b6ca21599e2b5"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/material_overrides_report.json",
+      "bytes": 2070367,
+      "sha256": "aad077e142912f591a7f0f745e1e02e4eccf57036784c2aa5ea23670bdf05e08"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/pc_outfits_contact_sheet.png",
+      "bytes": 1808607,
+      "sha256": "f739a507de241899c3a9067b4effb5ab7a919173fa070d895fbaf137ef7b4422"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/portraits_contact_sheet.png",
+      "bytes": 736284,
+      "sha256": "1167a42cff0d5dc93a6922d846324dabe5df49c8366ac8ec9c1b9ca3cd5d18c6"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/portraits_report.json",
+      "bytes": 463041,
+      "sha256": "0028a096ad73ffc9153c7a2e06e69f257f7c273f7374b701e71f16a2a8da62e0"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/portraits_visual_review.json",
+      "bytes": 13857,
+      "sha256": "574800761de3bddea36f6b794f8519dd93aab13cef249e97f28f8860f0bdb227"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/runtime_visual_review.json",
+      "bytes": 18929,
+      "sha256": "c6702161ec3d1e94d91bf6430c0e5e7228b15619114ea707822ba2dab516836c"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/shader_restoration_gap_audit.json",
+      "bytes": 25647,
+      "sha256": "64d8e3344601734ed935f0aa96731fdd21ec7c88fb09c458db2e48c93ee7fcd7"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/source_conversion_recheck.json",
+      "bytes": 119145,
+      "sha256": "3b61f019a65254fd4a12025f701511509763f23eecc67cd438fa149d502afbb8"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/source_environment_gaps.json",
+      "bytes": 18658,
+      "sha256": "c87fe2aa296de3f9fbf6ffa8b06bb2299527ba52135b2c156abe407f4a344c54"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/source_rendering_build.log",
+      "bytes": 3318,
+      "sha256": "a09b1b58fae0f7e47989a6dac64a857d012709756dc5e88ea6aa9ee0dae12e57"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/viewer_environment_plan.json",
+      "bytes": 2416265,
+      "sha256": "bea909534e353ab98db6d3f4c8faccc1212c8a48b01acee564af158e21a37767"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/viewer_environment_report.json",
+      "bytes": 1919557,
+      "sha256": "7e55134b1cda1ede3b4ccb70e2dd8af465f90ef02ab4806e57d3890592b06826"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/viewer_environments_fresh_verification.json",
+      "bytes": 5636,
+      "sha256": "96008fb0a0a112990f685bf58d3a64fdf9e841db89fad9bddace1677916b5734"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/viewer_plan.json",
+      "bytes": 975097,
+      "sha256": "c897702f443e641a3892851133bab8e09bb685f61731d44408e6bfd7262d61e7"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_000_Character_00_Outfit_00.png",
+      "bytes": 901013,
+      "sha256": "91a4b7cd2e7544bbb0a59841d70c9bd7f4190f619e00d26842ed78020aed73bd"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_001_Character_00_Outfit_01.png",
+      "bytes": 1013309,
+      "sha256": "e632228fd5d6b0397e2dd4db298db1d0a0c4d9a97ab4a48798568f7d9b49aee6"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_002_Character_01_Outfit_00.png",
+      "bytes": 904579,
+      "sha256": "53cd853ee890dbf17e786b5f707d382a8b58c94160422dc7b76d62d7af095107"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_003_Character_01_Outfit_01.png",
+      "bytes": 924156,
+      "sha256": "d91a8d3a5fdcc15765c0c700c1b61e667ecd64d0b3ad15582478a61d70849571"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_004_Character_01_Outfit_02.png",
+      "bytes": 1014944,
+      "sha256": "d4f90c647a630cabfa0fbe16e2e10cf284e82df3d881c2defc9724fa270104bb"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_005_Character_01_Outfit_03.png",
+      "bytes": 1023993,
+      "sha256": "5498f5a455f1e5cf611c665d58cf116e6690fe4b7161cd1f3ece300f7e312137"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_006_Character_02_Outfit_00.png",
+      "bytes": 1592425,
+      "sha256": "c875e276dc2d077bee7e8fd4c57552aeefa7043da55c0b4342220cb84d3ae089"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_007_Character_02_Outfit_01.png",
+      "bytes": 1596752,
+      "sha256": "6ea19ec5d64abd09c81ed9637b35fcdec0634a0a433b58056cf2e2df68fedef1"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_008_Character_02_Outfit_02.png",
+      "bytes": 1651768,
+      "sha256": "d026c23f7f4f9684f87f34536bd615df7d6fc36bd1d30ac98dab2351daf4d3d4"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_009_Character_02_Outfit_03.png",
+      "bytes": 1651731,
+      "sha256": "e7c3d551c9979f0530b5172fecd273ae16a8dc283bd423fcbc5d42774dce9aba"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_010_Character_03_Outfit_00.png",
+      "bytes": 1096571,
+      "sha256": "06d52f821053f0396b266cf9aae70cb860fcfc40d16b1cda061455ae978f3666"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_011_Character_03_Outfit_01.png",
+      "bytes": 919358,
+      "sha256": "aca52fa16755e17150ec77ffb9171ed566fed1eb1d05601ab3e675f95f25146a"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_012_Character_03_Outfit_02.png",
+      "bytes": 1147788,
+      "sha256": "bdd8278ff0c8bdb6d1c6e1c714f90a8e15f2617717ffd33c8bdced11a43a6daa"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_013_Character_03_Outfit_03.png",
+      "bytes": 1008908,
+      "sha256": "18edc07d6484be4747813443757c1989a5dbf61d3793eeef73b4d6b787090065"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_014_Character_04_Outfit_00.png",
+      "bytes": 901285,
+      "sha256": "8bb0f20e42f4e4f75b434983dba826cccc3b196b9c5ad8f922a44f844561abc5"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_015_Character_04_Outfit_01.png",
+      "bytes": 919677,
+      "sha256": "9bcdfa53c6815e1abb89a7b0e95d31ef358cd421e3ba2b226cd9d38d4ce50f47"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_016_Character_04_Outfit_02.png",
+      "bytes": 1017078,
+      "sha256": "4fe1f31a796957884e8ce9412b900836fb9b4db3421bde7d424c78f4bc325148"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_017_Character_04_Outfit_03.png",
+      "bytes": 933305,
+      "sha256": "cb5e172dea623d4344f71abe68a1a3949009069551634e420bf19e3b2eb70d8e"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_018_Character_05_Outfit_00.png",
+      "bytes": 887453,
+      "sha256": "4cb4455d65f76596f183f20523cf5272b661e82976145e337b9aa92e88ad8609"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_019_Character_05_Outfit_01.png",
+      "bytes": 888553,
+      "sha256": "df6d54168df8d0a78c702305aed9bdf02183b17bf902ef1b58259bd246704c39"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_020_Character_06_Outfit_00.png",
+      "bytes": 909352,
+      "sha256": "f51a3374a76990ff466606da9d2e527eab5d6628ab549e69d81ec84d9cf917ed"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_021_Character_07_Outfit_00.png",
+      "bytes": 909624,
+      "sha256": "2223b8099534b36768a75122f6a14ca3b009a6147f33bf96bdf8926f6b8d6ad3"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_022_Character_08_Outfit_00.png",
+      "bytes": 908166,
+      "sha256": "73766befbcc8ec3d7b8edde3afa4f15eb4affd5408302a09c60050b9559a8367"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_023_Character_09_Outfit_00.png",
+      "bytes": 897408,
+      "sha256": "34a32711162601cae3930b88faa55cb9b411c0898375b28745fe16b80528b4cd"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_024_Character_10_Outfit_00.png",
+      "bytes": 898264,
+      "sha256": "f31d13138890e304247230277904a76b5b19a652e10bc37bcec09bc439810dc8"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_025_Character_11_Outfit_00.png",
+      "bytes": 912120,
+      "sha256": "a23347069ad0d84dd32e5b8c321d3035f1cd44a096ce4ee1336b848756e7f90a"
+    },
+    {
+      "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Report.json",
+      "bytes": 1504924,
+      "sha256": "c7d83dbe5ece8de593de3da320978e7cebba02c81a26317b8aec6d892f1f2b61"
+    },
+    {
+      "file": "Scripts/archive_pc_viewer_evidence.py",
+      "bytes": 29585,
+      "sha256": "0e3e970eff8e4a7ec56cc7c2eaf8754feac33f5c9ec60ef0e20124378f25aace"
+    },
+    {
+      "file": "Scripts/attach_pc_viewer_animations.py",
+      "bytes": 12866,
+      "sha256": "e9483a3e3d05764e03659137785d24c761b642522f376b62c8eff21b55a3de07"
+    },
+    {
+      "file": "Scripts/audit_pc_viewer_integration.py",
+      "bytes": 50092,
+      "sha256": "fab00b0af4a4824306a791c9a68d037003e228bad82e84dd05ea2f5cd91a7537"
+    },
+    {
+      "file": "Scripts/build_pc_viewer_eye_materials.py",
+      "bytes": 29991,
+      "sha256": "f0782091ead8a93fb7ff48cc74050d7fed9b4cd86f964ad26eadc1452c7ee6c1"
+    },
+    {
+      "file": "Scripts/build_pc_viewer_plan.py",
+      "bytes": 12093,
+      "sha256": "fdedafc878941029332fffeabdd0bd4e5e908540ecef5466ebf321b747467b34"
+    },
+    {
+      "file": "Scripts/cleanup_pc_source_exports.py",
+      "bytes": 14478,
+      "sha256": "893926db3326e87471c84291d61896fcf9a3ef4dc0bdaf2b768ca38727948360"
+    },
+    {
+      "file": "Scripts/extend_pc_viewer_eye_occlusion.py",
+      "bytes": 15688,
+      "sha256": "b2ccb87b4bdcb79efb12174aad647fc2c0353333236acfde67831850000b0785"
+    },
+    {
+      "file": "Scripts/import_pc_viewer_catalog.py",
+      "bytes": 14790,
+      "sha256": "4ad4a1e06c2c1a2766b2221c4c381accc629d5f938c7343a6c077b593de48ac0"
+    },
+    {
+      "file": "Scripts/pc_viewer_dynamics.py",
+      "bytes": 26463,
+      "sha256": "46b0a472f703d1b9078e7f8ef9fec7fd7de01181e52e3079cd3deba8e5ec65e9"
+    },
+    {
+      "file": "Scripts/pc_viewer_environments.py",
+      "bytes": 22980,
+      "sha256": "2309dad579ba274787b68a1a00c699bfde51fb5a1d6c4763b3c06f0e26daec53"
+    },
+    {
+      "file": "Scripts/pc_viewer_materials.py",
+      "bytes": 5725,
+      "sha256": "2fba397b9c12daae7586735d16f3dfe35cc348096698f7e165e4ffd80d073227"
+    },
+    {
+      "file": "Scripts/pc_viewer_retired_assets.py",
+      "bytes": 1888,
+      "sha256": "d6f44417cc5b14b9b4a9c8a2ab02aa5a7baab51d0c4346e067d1131547b83bf5"
+    },
+    {
+      "file": "Scripts/prepare_pc_dynamics.py",
+      "bytes": 6712,
+      "sha256": "b2251c0acd9f9389b07b9a5af8f9cf7092aaf3fc0adc6fce0c2ea00248eff1d3"
+    },
+    {
+      "file": "Scripts/prepare_pc_viewer_environments.py",
+      "bytes": 25021,
+      "sha256": "ed9adfb367b10a7e0a4715447cf6fc4b6c3248c91a30f4ed967f083ce8013cab"
+    },
+    {
+      "file": "Scripts/render_pc_viewer_portraits.py",
+      "bytes": 39619,
+      "sha256": "bad56f2365379e7e80745384d5063c2fce5bbfa1de245bcf663f3ac63d893416"
+    },
+    {
+      "file": "Source/NZMCharacterViewer.Target.cs",
+      "bytes": 417,
+      "sha256": "3806a95fb013e3e22c221670a40e9b29e72b3d37a6a57800b89ee38b53d3e93f"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/NZMCharacterViewer.Build.cs",
+      "bytes": 1034,
+      "sha256": "cfa8a1cfa2f9c201e0d1542d8d49f5e1ed879a77c7531762d35bc97acbe7f52b"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Private/NZMCharacterViewer.cpp",
+      "bytes": 133,
+      "sha256": "05f23fe6d001bfd0a3c2089d016003d5c171832b7eaf27124f1490e95e52a3d9"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Private/ViewerAnimationImportLibrary.cpp",
+      "bytes": 9965,
+      "sha256": "bf22463b1d5c22db87fd9cba2bd87485f9df4e5126e267a5229ad209fef374cc"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Private/ViewerDynamics.cpp",
+      "bytes": 20806,
+      "sha256": "191c53f6f4dd2a324590d55cb55da32e5935e53c777f134ba14a1b54403a6c45"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Private/ViewerGameMode.cpp",
+      "bytes": 249,
+      "sha256": "c85ed21cb15955788a71d4dae951404ff33f8c159f595b667f9fe64944834444"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Private/ViewerGraphicsCapabilities.mm",
+      "bytes": 5606,
+      "sha256": "d81ae69f86109744f0ccf477386a53ed9e795daaf6893dd328316e6047ec6839"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Private/ViewerIOSViewport.h",
+      "bytes": 131,
+      "sha256": "22e83b929afbc8f03bb1112bb6c28e9dadb384252b64fd5877385731c222a8bc"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Private/ViewerIOSViewport.mm",
+      "bytes": 11299,
+      "sha256": "3f766c14ce264fbc1467fdaf3107c4fb5df15c4e887c1fa803b171863e1228e9"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Private/ViewerPawn.cpp",
+      "bytes": 70407,
+      "sha256": "ba70939cf3c06e6497c36b490b5e7f78a39b4eab7bdba8b77c85f52e9a586f30"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Private/ViewerPreferences.cpp",
+      "bytes": 11235,
+      "sha256": "2ccdd4c1b57529122ff6eb7b274d64010bf82e9e41c189bb1237d0d33504bbf8"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Private/ViewerSmokeTestComponent.cpp",
+      "bytes": 133915,
+      "sha256": "1236736ebd8461a05c86a89f5d123acf3e464b31f3cb5201cc75e0b15107e391"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Private/ViewerSmokeTestComponent.h",
+      "bytes": 5670,
+      "sha256": "9cfa41880be2e845bdf0ff5b60f7970ad3336926b50a1051a83a43b0d926872f"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Private/ViewerStyle.cpp",
+      "bytes": 1047,
+      "sha256": "c1fec0f3cf2a4267cdb58835c85b2fcaa15cc750b590e83926dee5c963cc5c7e"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Private/ViewerWidget.cpp",
+      "bytes": 40886,
+      "sha256": "39a2f275b6fa9d22824b2447c2dc9996ce367bea6c3f2813342bddb3494d75ab"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Public/ViewerAnimationImportLibrary.h",
+      "bytes": 607,
+      "sha256": "9b4743ca86c434463fb0c2b93e02fd0924132403e46699bfc311839355db485c"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Public/ViewerCatalog.h",
+      "bytes": 2295,
+      "sha256": "777dd697f6ac7e2e926d5c9585fa9662ecf1737747421c49581d183287c6a59d"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Public/ViewerDynamics.h",
+      "bytes": 7673,
+      "sha256": "7bbbde9456a47a2a58071f7c92f101195f3bfa674d273bc93b30e43bb3a657b8"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Public/ViewerEnvironment.h",
+      "bytes": 7231,
+      "sha256": "d3203a293388a89e9dbbcad27f64c5d473e89ee4cde8c3abd6fc903b05f14379"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Public/ViewerGameMode.h",
+      "bytes": 252,
+      "sha256": "89bb09631609481afc92ec41aa34f5ba9ee7130e5d1e8c9638417a418ef7770e"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Public/ViewerGraphicsCapabilities.h",
+      "bytes": 1144,
+      "sha256": "b42f740a32c44b3c9424935cbb42dfe5ca7aab50a043f7fe1277d60dffa1caa7"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Public/ViewerPawn.h",
+      "bytes": 5938,
+      "sha256": "1209c1596a961b7871ba7d4102f606941af81ad4fb4930039408d6ba68c7c8b0"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Public/ViewerPreferences.h",
+      "bytes": 1831,
+      "sha256": "f8fe4447d476ffae60cd2132d54e3335bdbfc9078de1841867d82d0a64897c32"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Public/ViewerStyle.h",
+      "bytes": 136,
+      "sha256": "96e77e5b0a912d5869a829b048198d54431269a67eecdc269beb1e2ff45d064a"
+    },
+    {
+      "file": "Source/NZMCharacterViewer/Public/ViewerWidget.h",
+      "bytes": 7397,
+      "sha256": "f2f78fbff3d0a206f291f80fdf7bbfc29b0b6019427f10fc57d75bb6371ad79e"
+    },
+    {
+      "file": "Source/NZMCharacterViewerEditor.Target.cs",
+      "bytes": 431,
+      "sha256": "e41b4b187b016b7c86afd17f31e86756332dfe720181ee25c6611cd2f3c8214b"
+    }
+  ]
+}

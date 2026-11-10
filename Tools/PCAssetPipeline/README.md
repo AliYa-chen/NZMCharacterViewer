@@ -2,6 +2,12 @@
 
 本次实际使用的文件分析、解包、转换和验证入口。Windows 侧要求 PowerShell 7.6／.NET 10；只读取指定 NZM 磁盘目录，输出写入工程 `Saved/PCAssetAnalysis`。不需要启动游戏、附加进程或读取内存。查看器不依赖这些工具。
 
+完整 PC 高清导出保留在提交 `03152adb7ce937649f890455d6650f346e82acc1` 的 [PCResources 源快照](https://github.com/AliYa-chen/NZMCharacterViewer/tree/03152adb7ce937649f890455d6650f346e82acc1/PCResources)。全部转换与最终核验通过后，工作树中的原始导出目录会清理；当前查看器使用已保存的 `Content`。本页的分析、重新导出和发布步骤均为按需复现；依赖旧源文件的步骤可先在仓库根目录恢复快照：
+
+```bash
+git restore --source=03152adb7ce937649f890455d6650f346e82acc1 -- PCResources
+```
+
 ## 已包含的工具
 
 | 入口 | 用途 |
@@ -48,7 +54,7 @@ $cipher = & ./Tools/PCAssetPipeline/Cipher/Build-CipherAdapter.ps1
   -OodleDll ./Saved/PCAssetAnalysis/ToolRuntime/Native/oodle-data-shared.dll
 ```
 
-`Analysis` 中的比较工具还需要本次生成的候选索引和本地导出报告，参数默认指向 `Saved/PCAssetAnalysis`；它们不会根据模糊命名自动确认纹理兼容性。已审阅的候选与最终证据同时发布在 [PCResources](../../PCResources/README.md)，使用发布源文件时无需重跑解包。
+`Analysis` 中的比较工具还需要本次生成的候选索引和本地导出报告，参数默认指向 `Saved/PCAssetAnalysis`；它们不会根据模糊命名自动确认纹理兼容性。已审阅的候选与最终证据见 [PCResources 历史说明](https://github.com/AliYa-chen/NZMCharacterViewer/blob/03152adb7ce937649f890455d6650f346e82acc1/PCResources/README.md)。恢复发布源文件后无需重跑解包；已清理的本地分析报告仍需另行恢复或重新生成。
 
 ## 来源与本次验证
 

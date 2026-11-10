@@ -18,7 +18,13 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/SkyLightComponent.h"
+#include "Components/TextBlock.h"
 #include "Components/LightComponent.h"
+#include "Components/DirectionalLightComponent.h"
+#include "Components/LocalLightComponent.h"
+#include "Components/PointLightComponent.h"
+#include "Components/RectLightComponent.h"
+#include "Components/SpotLightComponent.h"
 #include "Components/ExponentialHeightFogComponent.h"
 #include "Dom/JsonObject.h"
 #include "Dom/JsonValue.h"
@@ -27,6 +33,7 @@
 #include "Engine/GameViewportClient.h"
 #include "Engine/SkeletalMesh.h"
 #include "Engine/StreamableManager.h"
+#include "Engine/TextureCube.h"
 #include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
 #include "HAL/FileManager.h"
@@ -49,7 +56,10 @@
 #include "SceneInterface.h"
 #include "UnrealClient.h"
 #include "ReferenceSkeleton.h"
+#include "Rendering/SkeletalMeshRenderData.h"
+#include "Rendering/SkinWeightVertexBuffer.h"
 #include "RenderUtils.h"
+#include "UObject/UnrealType.h"
 #if WITH_EDITOR
 #include "AssetCompilingManager.h"
 #endif
@@ -80,6 +90,49 @@ namespace ViewerSmokeTest
                 ? StaticCastSharedRef<FJsonValue>(MakeShared<FJsonValueNumber>(Number))
                 : StaticCastSharedRef<FJsonValue>(MakeShared<FJsonValueNull>()));
         return Values;
+    }
+
+    bool CollectWeightedRenderBones(USkeletalMeshComponent* Component, TSet<int32>& Bones, FString& Reason)
+    {
+        const USkeletalMesh* Mesh = Component ? Component->GetSkeletalMeshAsset() : nullptr;
+        const FSkeletalMeshRenderData* RenderData = Mesh ? Mesh->GetResourceForRendering() : nullptr;
+        const FSkinWeightVertexBuffer* Weights = Component ? Component->GetSkinWeightBuffer(0) : nullptr;
+        if (!RenderData || !RenderData->LODRenderData.IsValidIndex(0) || !Weights ||
+            !Weights->GetDataVertexBuffer()->GetWeightData() ||
+            (Weights->GetVariableBonesPerVertex() && !Weights->GetLookupVertexBuffer()->GetLookupData()))
+        {
+            Reason = TEXT("CPU-readable LOD0 skin-weight data is unavailable; bone presence alone does not prove this part is skinned to it.");
+            return false;
+        }
+        const FSkeletalMeshLODRenderData& LOD = RenderData->LODRenderData[0];
+        for (const FSkelMeshRenderSection& Section : LOD.RenderSections)
+        {
+            if (Section.bDisabled || !Component->IsMaterialSectionShown(Section.MaterialIndex, 0)) continue;
+            const uint64 End = uint64(Section.BaseVertexIndex) + Section.NumVertices;
+            if (End > Weights->GetNumVertices())
+            {
+                Reason = TEXT("LOD0 section vertices exceed the readable skin-weight buffer; containment is not established.");
+                return false;
+            }
+            for (uint32 Vertex = Section.BaseVertexIndex; Vertex < End; ++Vertex)
+            {
+                uint32 Offset = 0, Count = 0;
+                Weights->GetVertexInfluenceOffsetCount(Vertex, Offset, Count);
+                for (uint32 Influence = 0; Influence < Count; ++Influence)
+                {
+                    if (Weights->GetBoneWeight(Vertex, Influence) == 0) continue;
+                    const uint32 LocalBone = Weights->GetBoneIndex(Vertex, Influence);
+                    if (!Section.BoneMap.IsValidIndex(LocalBone))
+                    {
+                        Reason = TEXT("LOD0 weighted bone index is outside its section bone map; containment is not established.");
+                        return false;
+                    }
+                    Bones.Add(Section.BoneMap[LocalBone]);
+                }
+            }
+        }
+        Reason = TEXT("LOD0 nonzero vertex influences resolved through the actual component skin-weight buffer and section bone maps.");
+        return true;
     }
 }
 
@@ -438,16 +491,30 @@ void UViewerSmokeTestComponent::InspectCurrentSelection()
         Detail->SetArrayField(TEXT("bounds_extent"), ViewerSmokeTest::VectorValues(Bounds.BoxExtent));
         Detail->SetBoolField(TEXT("visible"), Component->IsVisible());
         Detail->SetNumberField(TEXT("bone_count"), Component->GetNumBones());
+        TSet<int32> WeightedBones;
+        FString WeightedBoneReason;
+        const bool WeightedBonesReadable = ViewerSmokeTest::CollectWeightedRenderBones(Component, WeightedBones, WeightedBoneReason);
+        Detail->SetBoolField(TEXT("weighted_render_bones_readable"), WeightedBonesReadable);
+        Detail->SetNumberField(TEXT("weighted_render_bone_count"), WeightedBones.Num());
+        Detail->SetStringField(TEXT("weighted_render_bone_basis"), WeightedBoneReason);
         if (Component->GetBoneIndex(TEXT("b_Head")) != INDEX_NONE)
             Detail->SetArrayField(TEXT("source_head_world_cm"), ViewerSmokeTest::VectorValues(Component->GetBoneLocation(TEXT("b_Head"))));
         for (const FName Bone : { FName(TEXT("b_Head")), FName(TEXT("b_Hips")) })
         {
-            if (Component->GetBoneIndex(Bone) == INDEX_NONE) continue;
+            const int32 BoneIndex = Component->GetBoneIndex(Bone);
+            if (BoneIndex == INDEX_NONE) continue;
             const FVector Position = Component->GetBoneLocation(Bone);
-            const bool Contained = ViewerSmokeTest::FiniteVector(Position)
-                && Bounds.GetBox().ExpandBy(0.5).IsInsideOrOn(Position);
+            const bool Finite = ViewerSmokeTest::FiniteVector(Position);
+            AddCheck(Prefix + Bone.ToString() + TEXT(".finite_position"), Finite ? TEXT("pass") : TEXT("fail"));
+            if (!WeightedBonesReadable || !WeightedBones.Contains(BoneIndex))
+            {
+                AddCheck(Prefix + Bone.ToString() + TEXT(".contained_in_render_bounds"), TEXT("not_applicable"),
+                    !WeightedBonesReadable ? WeightedBoneReason : TEXT("The reference skeleton contains this bone, but no rendered LOD0 vertex has a nonzero influence from it."));
+                continue;
+            }
+            const bool Contained = Finite && Bounds.GetBox().ExpandBy(0.5).IsInsideOrOn(Position);
             AddCheck(Prefix + Bone.ToString() + TEXT(".contained_in_render_bounds"), Contained ? TEXT("pass") : TEXT("fail"),
-                TEXT("The actual animated bone must remain within the renderer's bounds, including source root-motion offsets."));
+                TEXT("The actual bone has a nonzero rendered LOD0 skin influence and must remain within the renderer's bounds, including source root-motion offsets."));
         }
         if (Component->IsVisible())
             AddCheck(Prefix + TEXT("recent_render_observed"), Component->WasRecentlyRendered(1.f) ? TEXT("pass") : TEXT("unknown"));
@@ -478,9 +545,25 @@ void UViewerSmokeTestComponent::InspectCurrentSelection()
         PartResults.Add(MakeShared<FJsonValueObject>(Detail));
     }
     CurrentResult->SetArrayField(TEXT("parts"), PartResults);
+    CheckAttachmentVisibility();
     const bool UiVisible = Pawn->ViewerUI && Pawn->ViewerUI->IsInViewport() && Pawn->ViewerUI->IsVisible()
         && Pawn->ViewerUI->GetCachedGeometry().GetLocalSize().GetMin() > 0.f;
     AddCheck(TEXT("viewer_ui_attached_and_laid_out"), UiVisible ? TEXT("pass") : TEXT("unknown"));
+    CurrentResult->SetStringField(TEXT("outfit_preview_notes"), Outfit->PreviewNotes.ToString());
+    if (!Outfit->PreviewNotes.IsEmpty())
+    {
+        const FObjectPropertyBase* Property = Pawn->ViewerUI
+            ? FindFProperty<FObjectPropertyBase>(Pawn->ViewerUI->GetClass(), TEXT("StatusText")) : nullptr;
+        const UTextBlock* Text = Cast<UTextBlock>(Property
+            ? Property->GetObjectPropertyValue_InContainer(Pawn->ViewerUI) : nullptr);
+        const FString Actual = Text ? Text->GetText().ToString() : FString();
+        CurrentResult->SetStringField(TEXT("ui_preview_notes"), Actual);
+        const bool Matches = UiVisible && Text && Text->IsVisible()
+            && Text->GetCachedGeometry().GetLocalSize().GetMin() > 0.f && Actual == Outfit->PreviewNotes.ToString();
+        AddCheck(TEXT("preview_notes_visible_in_production_ui"), Matches ? TEXT("pass") : TEXT("fail"),
+            TEXT("Read the actual StatusText widget and layout after the normal queued Refresh, including shared-idle and partial-recovery labels."));
+    }
+    else AddCheck(TEXT("preview_notes_visible_in_production_ui"), TEXT("not_applicable"), TEXT("This baseline outfit declares no additional preview note."));
 }
 
 void UViewerSmokeTestComponent::RequestScreenshot()
@@ -1233,6 +1316,166 @@ void UViewerSmokeTestComponent::CheckResetState(const FString& Prefix)
     if (!Count) AddCheck(Prefix + TEXT(".state_cleared"), TEXT("unknown"), TEXT("No reconstructed dynamics component exists in this case."));
 }
 
+void UViewerSmokeTestComponent::BeginAttachmentProbe()
+{
+    AttachmentObservations.Reset();
+    AViewerPawn* Pawn = Viewer.Get();
+    const FViewerOutfit* Outfit = Pawn ? Pawn->GetCurrentOutfit() : nullptr;
+    if (!Pawn || !Outfit) return;
+    for (int32 Index = 0; Index < Outfit->Parts.Num(); ++Index)
+    {
+        const FViewerPart& Part = Outfit->Parts[Index];
+        if (Part.ParentPartId.IsNone()) continue;
+        const int32 ParentIndex = Outfit->Parts.IndexOfByPredicate([&Part](const FViewerPart& Candidate)
+        { return Candidate.Id == Part.ParentPartId; });
+        USkeletalMeshComponent* Child = Pawn->Parts.IsValidIndex(Index) ? Pawn->Parts[Index].Get() : nullptr;
+        USkeletalMeshComponent* Parent = Pawn->Parts.IsValidIndex(ParentIndex) ? Pawn->Parts[ParentIndex].Get() : nullptr;
+        const bool Valid = Child && Parent && Child != Parent && !Part.AttachSocket.IsNone()
+            && Parent->DoesSocketExist(Part.AttachSocket);
+        AddCheck(FString::Printf(TEXT("attachment.part[%d].declared_parent_socket_available"), Index),
+            Valid ? TEXT("pass") : TEXT("fail"));
+        if (!Valid) continue;
+        FAttachmentObservation Observation;
+        Observation.Child = Child;
+        Observation.Parent = Parent;
+        Observation.PartIndex = Index;
+        Observation.Socket = Part.AttachSocket;
+        Observation.Relative = Part.RelativeTransform;
+        Observation.PreviousSocket = Parent->GetSocketTransform(Part.AttachSocket, RTS_World);
+        AttachmentObservations.Add(Observation);
+    }
+}
+
+void UViewerSmokeTestComponent::SampleAttachments()
+{
+    for (FAttachmentObservation& Observation : AttachmentObservations)
+    {
+        USkeletalMeshComponent* Child = Observation.Child.Get();
+        USkeletalMeshComponent* Parent = Observation.Parent.Get();
+        if (!Child || !Parent)
+        {
+            Observation.bParentAndSocketMatch = false;
+            continue;
+        }
+        ++Observation.Samples;
+        Observation.bParentAndSocketMatch &= Child->GetAttachParent() == Parent
+            && Child->GetAttachSocketName() == Observation.Socket && Parent->DoesSocketExist(Observation.Socket);
+        Observation.bRelativeTransformMatches &= Child->GetRelativeTransform().Equals(Observation.Relative, 0.0001);
+        const FTransform Socket = Parent->GetSocketTransform(Observation.Socket, RTS_World);
+        const FTransform Expected = Observation.Relative * Socket;
+        const FTransform Actual = Child->GetComponentTransform();
+        const double PositionError = FVector::Distance(Actual.GetLocation(), Expected.GetLocation());
+        const double RotationError = FMath::RadiansToDegrees(Actual.GetRotation().AngularDistance(Expected.GetRotation()));
+        const double ScaleError = (Actual.GetScale3D() - Expected.GetScale3D()).GetAbsMax();
+        const double ParentTravel = FVector::Distance(Socket.GetLocation(), Observation.PreviousSocket.GetLocation());
+        const double ParentRotation = FMath::RadiansToDegrees(Socket.GetRotation().AngularDistance(Observation.PreviousSocket.GetRotation()));
+        const bool Finite = !Socket.ContainsNaN() && !Expected.ContainsNaN() && !Actual.ContainsNaN()
+            && FMath::IsFinite(PositionError) && FMath::IsFinite(RotationError) && FMath::IsFinite(ScaleError)
+            && FMath::IsFinite(ParentTravel) && FMath::IsFinite(ParentRotation);
+        Observation.bFinite &= Finite;
+        if (Finite)
+        {
+            Observation.MaxPositionErrorCm = FMath::Max(Observation.MaxPositionErrorCm, PositionError);
+            Observation.MaxRotationErrorDegrees = FMath::Max(Observation.MaxRotationErrorDegrees, RotationError);
+            Observation.MaxScaleError = FMath::Max(Observation.MaxScaleError, ScaleError);
+            Observation.ParentTranslationTravelCm += ParentTravel;
+            Observation.ParentRotationTravelDegrees += ParentRotation;
+        }
+        Observation.PreviousSocket = Socket;
+    }
+}
+
+void UViewerSmokeTestComponent::FinishAttachmentProbe()
+{
+    TArray<TSharedPtr<FJsonValue>> AttachmentResults;
+    for (const FAttachmentObservation& Observation : AttachmentObservations)
+    {
+        const FString Prefix = FString::Printf(TEXT("attachment.part[%d]."), Observation.PartIndex);
+        AddCheck(Prefix + TEXT("actual_parent_and_socket"), Observation.bParentAndSocketMatch ? TEXT("pass") : TEXT("fail"));
+        AddCheck(Prefix + TEXT("configured_relative_transform"), Observation.bRelativeTransformMatches ? TEXT("pass") : TEXT("fail"));
+        const bool Followed = Observation.bFinite && Observation.Samples >= 2 && Observation.MaxPositionErrorCm < 0.05
+            && Observation.MaxRotationErrorDegrees < 0.05 && Observation.MaxScaleError < 0.001;
+        AddCheck(Prefix + TEXT("world_transform_matches_animated_socket"), Followed ? TEXT("pass") : TEXT("fail"),
+            TEXT("Observed production child transforms over real animation frames against configured relative transform * current parent socket; no pose or transform was injected."));
+        const bool Moved = Observation.ParentTranslationTravelCm > 0.0001 || Observation.ParentRotationTravelDegrees > 0.0001;
+        AddCheck(Prefix + TEXT("moving_parent_socket_followed"), !Moved ? TEXT("not_applicable") : Followed ? TEXT("pass") : TEXT("fail"),
+            Moved ? TEXT("The actual parent socket changed across the observed animation frames.")
+                : TEXT("The actual parent socket remained stationary during this window; moving-socket following is not inferred."));
+        TSharedPtr<FJsonObject> Detail = MakeShared<FJsonObject>();
+        Detail->SetNumberField(TEXT("part_index"), Observation.PartIndex);
+        Detail->SetStringField(TEXT("socket"), Observation.Socket.ToString());
+        Detail->SetStringField(TEXT("actual_parent"), GetNameSafe(Observation.Parent.Get()));
+        Detail->SetNumberField(TEXT("samples"), Observation.Samples);
+        Detail->SetBoolField(TEXT("finite"), Observation.bFinite);
+        Detail->SetNumberField(TEXT("maximum_world_position_error_cm"), Observation.MaxPositionErrorCm);
+        Detail->SetNumberField(TEXT("maximum_world_rotation_error_degrees"), Observation.MaxRotationErrorDegrees);
+        Detail->SetNumberField(TEXT("maximum_world_scale_error"), Observation.MaxScaleError);
+        Detail->SetNumberField(TEXT("parent_socket_translation_travel_cm"), Observation.ParentTranslationTravelCm);
+        Detail->SetNumberField(TEXT("parent_socket_rotation_travel_degrees"), Observation.ParentRotationTravelDegrees);
+        AttachmentResults.Add(MakeShared<FJsonValueObject>(Detail));
+    }
+    if (AttachmentObservations.IsEmpty())
+        AddCheck(TEXT("socket_attachment_following"), TEXT("not_applicable"), TEXT("Catalog declares no available parent/socket attachments for this outfit."));
+    CurrentResult->SetArrayField(TEXT("socket_attachments"), AttachmentResults);
+}
+
+void UViewerSmokeTestComponent::CheckAttachmentVisibility()
+{
+    AViewerPawn* Pawn = Viewer.Get();
+    const FViewerOutfit* Outfit = Pawn ? Pawn->GetCurrentOutfit() : nullptr;
+    if (!Pawn || !Outfit || Pawn->bPreparingSelection || Pawn->Parts.Num() != Outfit->Parts.Num()) return;
+    TArray<bool> SavedVisibility;
+    for (USkeletalMeshComponent* Component : Pawn->Parts) SavedVisibility.Add(Component && Component->IsVisible());
+    const FObjectPropertyBase* Property = Pawn->ViewerUI
+        ? FindFProperty<FObjectPropertyBase>(Pawn->ViewerUI->GetClass(), TEXT("PartList")) : nullptr;
+    UPanelWidget* ToggleList = Cast<UPanelWidget>(Property
+        ? Property->GetObjectPropertyValue_InContainer(Pawn->ViewerUI) : nullptr);
+    const auto SetViaCheckbox = [Pawn, ToggleList](int32 Index, bool Visible)
+    {
+        UViewerPartToggle* Toggle = ToggleList ? Cast<UViewerPartToggle>(ToggleList->GetChildAt(Index)) : nullptr;
+        if (!Toggle)
+        {
+            Pawn->SetPartVisible(Index, Visible);
+            return false;
+        }
+        Toggle->SetIsChecked(Visible);
+        // Exercise the actual UMG-bound production action. This does not
+        // claim a native Slate pointer/touch event was generated.
+        Toggle->OnCheckStateChanged.Broadcast(Visible);
+        return Toggle->IsChecked() == Visible && Pawn->IsPartVisible(Index) == Visible;
+    };
+    for (int32 Index = 0; Index < Outfit->Parts.Num(); ++Index)
+    {
+        const FViewerPart& Part = Outfit->Parts[Index];
+        if (Part.ParentPartId.IsNone()) continue;
+        const int32 ParentIndex = Outfit->Parts.IndexOfByPredicate([&Part](const FViewerPart& Candidate)
+        { return Candidate.Id == Part.ParentPartId; });
+        if (!Pawn->Parts.IsValidIndex(ParentIndex) || !Pawn->Parts[Index] || !Pawn->Parts[ParentIndex]) continue;
+        const FString Prefix = FString::Printf(TEXT("attachment.part[%d]."), Index);
+        const bool ParentAction = SetViaCheckbox(ParentIndex, !SavedVisibility[ParentIndex]);
+        const UViewerPartToggle* ChildToggle = ToggleList ? Cast<UViewerPartToggle>(ToggleList->GetChildAt(Index)) : nullptr;
+        const bool ChildPreserved = Pawn->IsPartVisible(Index) == SavedVisibility[Index] && ChildToggle
+            && ChildToggle->IsChecked() == SavedVisibility[Index];
+        AddCheck(Prefix + TEXT("parent_checkbox_production_action"), ParentAction ? TEXT("pass") : TEXT("fail"));
+        AddCheck(Prefix + TEXT("parent_visibility_toggle_preserves_child"), ChildPreserved ? TEXT("pass") : TEXT("fail"),
+            TEXT("Actual parent UMG checkbox action preserves this accessory's visibility and checked state; no native pointer event is inferred."));
+        SetViaCheckbox(ParentIndex, SavedVisibility[ParentIndex]);
+        const bool ChildAction = SetViaCheckbox(Index, !SavedVisibility[Index]);
+        bool Independent = ChildAction && Pawn->IsPartVisible(Index) != SavedVisibility[Index];
+        for (int32 Other = 0; Other < SavedVisibility.Num(); ++Other)
+            if (Other != Index) Independent &= Pawn->IsPartVisible(Other) == SavedVisibility[Other];
+        AddCheck(Prefix + TEXT("child_visibility_toggle_independent"), Independent ? TEXT("pass") : TEXT("fail"));
+        // Restore all flags even after a failed propagation check, so neither
+        // a later attachment probe nor the final screenshot inherits it.
+        for (int32 Other = 0; Other < SavedVisibility.Num(); ++Other)
+        {
+            Pawn->SetPartVisible(Other, SavedVisibility[Other]);
+            if (UViewerPartToggle* Toggle = ToggleList ? Cast<UViewerPartToggle>(ToggleList->GetChildAt(Other)) : nullptr)
+                Toggle->SetIsChecked(SavedVisibility[Other]);
+        }
+    }
+}
+
 void UViewerSmokeTestComponent::BeginDynamicsProbe()
 {
     AViewerPawn* Pawn = Viewer.Get();
@@ -1246,6 +1489,7 @@ void UViewerSmokeTestComponent::BeginDynamicsProbe()
         bPreferencesRestored = false;
     }
     Pawn->ResetView();
+    BeginAttachmentProbe();
     CheckResetState(TEXT("selection_reset"));
     SceneRelativeTransforms.Reset();
     MaxSceneTranslationErrorCm = MaxSceneRotationErrorDegrees = 0.f;
@@ -1282,6 +1526,7 @@ void UViewerSmokeTestComponent::BeginDynamicsProbe()
 
 void UViewerSmokeTestComponent::SampleDynamics()
 {
+    SampleAttachments();
     if (AViewerPawn* Pawn = Viewer.Get())
     {
         bSceneStayedWithCharacter &= Pawn->StageMeshes.Num() == SceneRelativeTransforms.Num();
@@ -1321,6 +1566,7 @@ void UViewerSmokeTestComponent::SampleDynamics()
 
 void UViewerSmokeTestComponent::FinishDynamicsProbe()
 {
+    FinishAttachmentProbe();
     CurrentResult->SetNumberField(TEXT("max_scene_relative_translation_error_cm"), MaxSceneTranslationErrorCm);
     CurrentResult->SetNumberField(TEXT("max_scene_relative_rotation_error_degrees"), MaxSceneRotationErrorDegrees);
     AddCheck(TEXT("scene_and_character_preserve_relative_placement_during_turn"),
@@ -1368,7 +1614,14 @@ void UViewerSmokeTestComponent::FinishDynamicsProbe()
     CurrentResult->SetStringField(TEXT("driver"), LegacyTurntable
         ? TEXT("1.2 second +/-32 degree sinusoidal Pawn.Yaw target driving the legacy SceneRoot turntable; no teleport or simulated-result injection.")
         : TEXT("1.2 second +/-32 degree sinusoidal Pawn.Yaw target driving the camera around fixed world geometry. Solver bounds/frame progression are observed; turn-induced physical response is not applicable."));
-    AddCheck(TEXT("dynamics_has_matched_chain"), MatchedComponents > 0 ? TEXT("pass") : TEXT("unknown"));
+    const AViewerPawn* Pawn = Viewer.Get();
+    const FViewerOutfit* Outfit = Pawn ? Pawn->GetCurrentOutfit() : nullptr;
+    const bool DynamicsDeclared = Outfit && Outfit->Parts.ContainsByPredicate(
+        [](const FViewerPart& Part) { return !Part.Dynamics.IsNull(); });
+    AddCheck(TEXT("dynamics_has_matched_chain"), !DynamicsDeclared ? TEXT("not_applicable")
+        : MatchedComponents > 0 ? TEXT("pass") : TEXT("unknown"),
+        !DynamicsDeclared ? TEXT("Catalog declares no secondary-motion profiles for this outfit.")
+        : TEXT("A declared profile must match an actual dynamic chain; absence is not treated as a passed dynamics test."));
 }
 
 void UViewerSmokeTestComponent::CheckDisabledDynamicsPose()
@@ -1502,6 +1755,203 @@ void UViewerSmokeTestComponent::InspectViewportAndUi()
         Rendering->SetNumberField(TEXT("stage_ssr_quality"), Post.ScreenSpaceReflectionQuality);
         Rendering->SetNumberField(TEXT("stage_ssr_max_roughness"), Post.ScreenSpaceReflectionMaxRoughness);
     }
+    const UViewerEnvironment* SourceEnvironment = Pawn->Environment;
+    const bool bSourceRendering = SourceEnvironment && SourceEnvironment->bUseSourceRendering;
+    Rendering->SetBoolField(TEXT("source_rendering_mode"), bSourceRendering);
+    if (bSourceRendering && Pawn->Preferences)
+    {
+        const UViewerPreferences* Settings = Pawn->Preferences;
+        const bool bMobileSource = UViewerPreferences::UsesMobileRenderer();
+        const auto SourceDetail = MakeShared<FJsonObject>();
+        SourceDetail->SetStringField(TEXT("environment"), SourceEnvironment->GetPathName());
+        SourceDetail->SetBoolField(TEXT("mobile_postprocess_branch"), bMobileSource && SourceEnvironment->bHasMobilePostProcess);
+        SourceDetail->SetStringField(TEXT("scope"), TEXT("Read-only observations of production components, source asset values/override bits and effective CVars. No render settings or poses are forced. Component agreement does not establish original shader fidelity, rendered pass execution or original-game pixel equivalence."));
+        const auto CloseNumber = [](double Actual, double Expected)
+        { return FMath::IsFinite(Actual) && FMath::IsFinite(Expected) && FMath::IsNearlyEqual(Actual, Expected, FMath::Max(1.e-4, FMath::Abs(Expected) * 1.e-5)); };
+        TArray<TSharedPtr<FJsonValue>> SourceLightRows;
+        TSet<FName> ObservedLightIds;
+        for (const ULightComponent* Light : Pawn->StageLights)
+        {
+            const auto LightRow = MakeShared<FJsonObject>();
+            const FViewerEnvironmentLight* Spec = Light ? SourceEnvironment->Lights.FindByPredicate(
+                [Light](const FViewerEnvironmentLight& Candidate) { return Light->ComponentHasTag(Candidate.Id); }) : nullptr;
+            if (!Light || !Spec)
+            {
+                AddCheck(TEXT("source_stage_light_has_source_identity"), TEXT("fail"));
+                continue;
+            }
+            const FString Prefix = TEXT("source_light.") + Spec->Id.ToString() + TEXT(".");
+            AddCheck(Prefix + TEXT("unique_source_id"), !ObservedLightIds.Contains(Spec->Id) ? TEXT("pass") : TEXT("fail"));
+            ObservedLightIds.Add(Spec->Id);
+            const bool bKindMatches = Spec->Kind == TEXT("Directional") ? Light->IsA<UDirectionalLightComponent>()
+                : Spec->Kind == TEXT("Rect") ? Light->IsA<URectLightComponent>()
+                : Spec->Kind == TEXT("Point") ? Light->IsA<UPointLightComponent>() && !Light->IsA<USpotLightComponent>()
+                : Spec->Kind == TEXT("Spot") && Light->IsA<USpotLightComponent>();
+            const int32 Channels = (Light->LightingChannels.bChannel0 ? 1 : 0) | (Light->LightingChannels.bChannel1 ? 2 : 0)
+                | (Light->LightingChannels.bChannel2 ? 4 : 0);
+            bool bFieldsMatch = bKindMatches && Light->IsRegistered()
+                && CloseNumber(Light->Intensity, Spec->Intensity) && Light->GetLightColor().Equals(Spec->Color, .01f)
+                && Light->GetRelativeTransform().Equals(FTransform(Spec->Rotation, Spec->Location, Spec->Scale), .01f)
+                && static_cast<int32>(Light->GetMobility()) == FMath::Clamp(Spec->Mobility, 0, 2)
+                && Light->IsVisible() == Spec->bVisible && bool(Light->bAffectsWorld) == Spec->bAffectsWorld
+                && bool(Light->CastShadows) == (Settings->Shadows > 0 && Spec->bCastShadows)
+                && Channels == Spec->LightingChannelMask && CloseNumber(Light->Temperature, Spec->Temperature)
+                && bool(Light->bUseTemperature) == Spec->bUseTemperature && CloseNumber(Light->SpecularScale, Spec->SpecularScale)
+                && CloseNumber(Light->ShadowBias, Spec->ShadowBias) && CloseNumber(Light->ShadowResolutionScale, Spec->ShadowResolutionScale)
+                && CloseNumber(Light->IndirectLightingIntensity, Spec->IndirectLightingIntensity)
+                && CloseNumber(Light->VolumetricScatteringIntensity, Spec->VolumetricScatteringIntensity);
+            LightRow->SetStringField(TEXT("id"), Spec->Id.ToString());
+            LightRow->SetStringField(TEXT("actual_class"), Light->GetClass()->GetName());
+            LightRow->SetNumberField(TEXT("intensity"), Light->Intensity);
+            LightRow->SetNumberField(TEXT("expected_intensity"), Spec->Intensity);
+            LightRow->SetStringField(TEXT("linear_color"), Light->GetLightColor().ToString());
+            LightRow->SetStringField(TEXT("relative_transform"), Light->GetRelativeTransform().ToString());
+            LightRow->SetNumberField(TEXT("mobility"), static_cast<int32>(Light->GetMobility()));
+            LightRow->SetNumberField(TEXT("lighting_channel_mask"), Channels);
+            LightRow->SetBoolField(TEXT("visible"), Light->IsVisible());
+            LightRow->SetBoolField(TEXT("affects_world"), Light->bAffectsWorld);
+            LightRow->SetBoolField(TEXT("cast_shadows"), Light->CastShadows);
+            if (const ULocalLightComponent* Local = Cast<ULocalLightComponent>(Light))
+            {
+                bFieldsMatch &= static_cast<int32>(Local->GetLightUnits()) == Spec->IntensityUnits && CloseNumber(Local->AttenuationRadius, Spec->Radius);
+                LightRow->SetNumberField(TEXT("intensity_units"), static_cast<int32>(Local->GetLightUnits()));
+                LightRow->SetNumberField(TEXT("expected_intensity_units"), Spec->IntensityUnits);
+                LightRow->SetNumberField(TEXT("attenuation_radius_cm"), Local->AttenuationRadius);
+            }
+            if (const UPointLightComponent* Point = Cast<UPointLightComponent>(Light))
+                bFieldsMatch &= bool(Point->bUseInverseSquaredFalloff) == Spec->bInverseSquaredFalloff
+                    && CloseNumber(Point->LightFalloffExponent, Spec->FalloffExponent)
+                    && CloseNumber(Point->SourceRadius, Spec->SourceRadius) && CloseNumber(Point->SourceLength, Spec->SourceLength);
+            if (const USpotLightComponent* Spot = Cast<USpotLightComponent>(Light))
+                bFieldsMatch &= CloseNumber(Spot->InnerConeAngle, Spec->InnerCone) && CloseNumber(Spot->OuterConeAngle, Spec->OuterCone);
+            if (const URectLightComponent* Rect = Cast<URectLightComponent>(Light))
+                bFieldsMatch &= CloseNumber(Rect->SourceWidth, Spec->SourceWidth) && CloseNumber(Rect->SourceHeight, Spec->SourceHeight)
+                    && CloseNumber(Rect->BarnDoorAngle, Spec->BarnDoorAngle) && CloseNumber(Rect->BarnDoorLength, Spec->BarnDoorLength);
+            if (const UDirectionalLightComponent* Directional = Cast<UDirectionalLightComponent>(Light))
+                bFieldsMatch &= CloseNumber(Directional->DynamicShadowDistanceMovableLight, Spec->DynamicShadowDistance)
+                    && Directional->DynamicShadowCascades == Spec->DynamicShadowCascades
+                    && CloseNumber(Directional->CascadeDistributionExponent, Spec->CascadeDistributionExponent)
+                    && CloseNumber(Directional->CascadeTransitionFraction, Spec->CascadeTransitionFraction);
+            LightRow->SetBoolField(TEXT("matches_source_fields_and_user_shadow_switch"), bFieldsMatch);
+            AddCheck(Prefix + TEXT("production_component_matches_source"), bFieldsMatch ? TEXT("pass") : TEXT("fail"));
+            SourceLightRows.Add(MakeShared<FJsonValueObject>(LightRow));
+        }
+        SourceDetail->SetArrayField(TEXT("lights"), SourceLightRows);
+        AddCheck(TEXT("source_stage_exact_light_count"), Pawn->StageLights.Num() == SourceEnvironment->Lights.Num()
+            && ObservedLightIds.Num() == SourceEnvironment->Lights.Num() ? TEXT("pass") : TEXT("fail"));
+        bool bCharacterChannelsMatch = !Pawn->Parts.IsEmpty();
+        for (const USkeletalMeshComponent* Part : Pawn->Parts)
+            bCharacterChannelsMatch &= Part && ((Part->LightingChannels.bChannel0 ? 1 : 0) | (Part->LightingChannels.bChannel1 ? 2 : 0)
+                | (Part->LightingChannels.bChannel2 ? 4 : 0)) == SourceEnvironment->CharacterLightingChannelMask;
+        SourceDetail->SetNumberField(TEXT("expected_character_lighting_channel_mask"), SourceEnvironment->CharacterLightingChannelMask);
+        AddCheck(TEXT("source_character_lighting_channels_match"), bCharacterChannelsMatch ? TEXT("pass") : TEXT("fail"));
+        const USkyLightComponent* SourceSky = Pawn->StageSky;
+        const bool bSkyMatches = SourceSky && SourceSky->IsRegistered() && SourceSky->Cubemap == SourceEnvironment->Cubemap.Get()
+            && CloseNumber(SourceSky->Intensity, SourceEnvironment->SkyIntensity) && SourceSky->GetLightColor().Equals(SourceEnvironment->SkyColor, .01f)
+            && bool(SourceSky->CastShadows) == SourceEnvironment->bSkyCastShadows
+            && CloseNumber(SourceSky->SourceCubemapAngle, SourceEnvironment->SkyCubemapAngle)
+            && CloseNumber(SourceSky->VolumetricScatteringIntensity, SourceEnvironment->SkyVolumetricScatteringIntensity);
+        AddCheck(TEXT("source_skylight_matches_source"), bSkyMatches ? TEXT("pass") : TEXT("fail"));
+        AddCheck(TEXT("source_postprocess_component_exists"), Pawn->StagePostProcess ? TEXT("pass") : TEXT("fail"));
+        if (Pawn->StagePostProcess)
+        {
+            const UPostProcessComponent* Component = Pawn->StagePostProcess;
+            const FPostProcessSettings& ActualPost = Component->Settings;
+            const FPostProcessSettings& ExpectedPost = bMobileSource && SourceEnvironment->bHasMobilePostProcess
+                ? SourceEnvironment->MobilePostProcess : SourceEnvironment->PostProcess;
+            const bool bVolumeMatches = Component->IsRegistered() && bool(Component->bEnabled) == SourceEnvironment->bSourcePostEnabled
+                && bool(Component->bUnbound) == SourceEnvironment->bSourcePostUnbound
+                && CloseNumber(Component->Priority, SourceEnvironment->SourcePostPriority)
+                && CloseNumber(Component->BlendWeight, SourceEnvironment->SourcePostBlendWeight);
+            AddCheck(TEXT("source_postprocess_volume_controls_match"), bVolumeMatches ? TEXT("pass") : TEXT("fail"));
+            TSet<FName> DisabledFeatureFields;
+            const auto ExemptPair = [&DisabledFeatureFields](const TCHAR* Name)
+            { DisabledFeatureFields.Add(FName(Name)); DisabledFeatureFields.Add(FName(FString(TEXT("bOverride_")) + Name)); };
+            if (!Settings->bPostProcessing || !Settings->bBloom) ExemptPair(TEXT("BloomIntensity"));
+            if (!Settings->bPostProcessing || !Settings->bVignette) ExemptPair(TEXT("VignetteIntensity"));
+            if (!Settings->bPostProcessing || !Settings->bDepthOfField) ExemptPair(TEXT("DepthOfFieldScale"));
+            if (!Settings->bPostProcessing || !Settings->bAmbientOcclusion) ExemptPair(TEXT("AmbientOcclusionIntensity"));
+            if (!Settings->bPostProcessing || !Settings->bScreenSpaceReflections)
+            { ExemptPair(TEXT("ScreenSpaceReflectionIntensity")); ExemptPair(TEXT("ReflectionMethod")); }
+            if (!Settings->bPostProcessing)
+                for (const TCHAR* Name : {TEXT("LensFlareIntensity"), TEXT("SceneFringeIntensity"), TEXT("ColorContrast"), TEXT("ColorSaturation"), TEXT("ColorContrastMidtones")}) ExemptPair(Name);
+            TArray<TSharedPtr<FJsonValue>> PostMismatches;
+            int32 ComparedPostFields = 0;
+            for (TFieldIterator<FProperty> Property(FPostProcessSettings::StaticStruct()); Property; ++Property)
+            {
+                if (DisabledFeatureFields.Contains(Property->GetFName())) continue;
+                ++ComparedPostFields;
+                const void* ActualValue = Property->ContainerPtrToValuePtr<void>(&ActualPost);
+                const void* SourceValue = Property->ContainerPtrToValuePtr<void>(&ExpectedPost);
+                if (Property->Identical(ActualValue, SourceValue)) continue;
+                const auto Mismatch = MakeShared<FJsonObject>();
+                FString ActualText, SourceText;
+                Property->ExportTextItem_Direct(ActualText, ActualValue, nullptr, nullptr, PPF_None);
+                Property->ExportTextItem_Direct(SourceText, SourceValue, nullptr, nullptr, PPF_None);
+                Mismatch->SetStringField(TEXT("property"), Property->GetName());
+                Mismatch->SetStringField(TEXT("actual"), ActualText); Mismatch->SetStringField(TEXT("source"), SourceText);
+                PostMismatches.Add(MakeShared<FJsonValueObject>(Mismatch));
+            }
+            SourceDetail->SetNumberField(TEXT("postprocess_source_fields_compared"), ComparedPostFields);
+            SourceDetail->SetArrayField(TEXT("postprocess_source_mismatches"), PostMismatches);
+            SourceDetail->SetNumberField(TEXT("actual_dof_focal_distance_cm"), ActualPost.DepthOfFieldFocalDistance);
+            SourceDetail->SetNumberField(TEXT("source_dof_focal_distance_cm"), ExpectedPost.DepthOfFieldFocalDistance);
+            SourceDetail->SetBoolField(TEXT("actual_dof_distance_override"), ActualPost.bOverride_DepthOfFieldFocalDistance);
+            SourceDetail->SetBoolField(TEXT("source_dof_distance_override"), ExpectedPost.bOverride_DepthOfFieldFocalDistance);
+            AddCheck(TEXT("source_postprocess_values_and_override_bits_retained"), ComparedPostFields > 0 && PostMismatches.IsEmpty() ? TEXT("pass") : TEXT("fail"));
+        }
+        TArray<TSharedPtr<FJsonValue>> SourceVariables;
+        const TMap<FName, float>& RequestedVariables = bMobileSource ? SourceEnvironment->MobileSourceConsoleVariables : SourceEnvironment->SourceConsoleVariables;
+        for (const auto& Requested : RequestedVariables)
+        {
+            const auto VariableRow = MakeShared<FJsonObject>();
+            const FString Name = Requested.Key.ToString();
+            const IConsoleVariable* Variable = IConsoleManager::Get().FindConsoleVariable(*Name);
+            float Expected = Requested.Value;
+            if ((!Settings->bPostProcessing || !Settings->bBloom) && Name == TEXT("r.BloomQuality")) Expected = 0.f;
+            if ((!Settings->bPostProcessing || !Settings->bDepthOfField) && Name == TEXT("r.DepthOfFieldQuality")) Expected = 0.f;
+            if ((!Settings->bPostProcessing || !Settings->bAmbientOcclusion) && (Name == TEXT("r.AmbientOcclusionLevels") || Name == TEXT("r.Mobile.AmbientOcclusionQuality"))) Expected = 0.f;
+            if ((!Settings->bPostProcessing || !Settings->bScreenSpaceReflections || Settings->Antialiasing != 0) && Name == TEXT("r.SSR.Quality")) Expected = 0.f;
+            VariableRow->SetStringField(TEXT("name"), Name); VariableRow->SetNumberField(TEXT("source_value"), Requested.Value);
+            VariableRow->SetNumberField(TEXT("expected_with_user_switches"), Expected);
+            if (Variable)
+            {
+                const uint32 Priority = Variable->GetFlags() & ECVF_SetByMask;
+                VariableRow->SetNumberField(TEXT("actual"), Variable->GetFloat());
+                VariableRow->SetNumberField(TEXT("set_by_priority"), Priority);
+                const bool Matches = CloseNumber(Variable->GetFloat(), Expected);
+                AddCheck(TEXT("source_cvar.") + Name, Matches ? TEXT("pass") : Priority > ECVF_SetByGameOverride || Variable->TestFlags(ECVF_ReadOnly)
+                    ? TEXT("unknown") : TEXT("fail"), TEXT("Actual readback is compared to the source map after explicit user disable switches. Higher-priority launch/console overrides and read-only variables are reported as unknown when they prevent source application."));
+            }
+            else AddCheck(TEXT("source_cvar.") + Name, TEXT("unknown"), TEXT("The source variable is unavailable in this renderer."));
+            SourceVariables.Add(MakeShared<FJsonValueObject>(VariableRow));
+        }
+        SourceDetail->SetArrayField(TEXT("effective_source_console_variables"), SourceVariables);
+        if (SourceEnvironment->bUseSourceFog)
+        {
+            const FSceneInterface* SourceScene = Pawn->GetWorld() ? Pawn->GetWorld()->Scene : nullptr;
+            const bool FogSupported = !PLATFORM_IOS && SourceScene && SourceScene->GetFeatureLevel() >= ERHIFeatureLevel::SM5
+                && !IsMobilePlatform(SourceScene->GetShaderPlatform());
+            const UExponentialHeightFogComponent* Fog = Pawn->StageFog;
+            AddCheck(TEXT("source_fog_platform_presence"), FogSupported == (Fog != nullptr) ? TEXT("pass") : TEXT("fail"));
+            if (Fog)
+            {
+                const bool Matches = Fog->GetRelativeTransform().Equals(SourceEnvironment->FogTransform, .01f)
+                    && CloseNumber(Fog->FogDensity, SourceEnvironment->FogDensity) && CloseNumber(Fog->FogHeightFalloff, SourceEnvironment->FogHeightFalloff)
+                    && CloseNumber(Fog->StartDistance, SourceEnvironment->FogStartDistance) && CloseNumber(Fog->FogMaxOpacity, SourceEnvironment->FogMaxOpacity)
+                    && Fog->FogInscatteringLuminance.Equals(SourceEnvironment->FogColor, .001f)
+                    && bool(Fog->bEnableVolumetricFog) == SourceEnvironment->bSourceVolumetricFog
+                    && CloseNumber(Fog->VolumetricFogScatteringDistribution, SourceEnvironment->FogVolumetricScatteringDistribution)
+                    && CloseNumber(Fog->VolumetricFogDistance, SourceEnvironment->FogVolumetricDistance)
+                    && Fog->IsVisible() == Settings->bPostProcessing && !Fog->bEnableFSSS;
+                SourceDetail->SetBoolField(TEXT("source_fog_component_matches"), Matches);
+                AddCheck(TEXT("source_fog_fields_and_visibility_match"), Matches ? TEXT("pass") : TEXT("fail"));
+            }
+            else SourceDetail->SetStringField(TEXT("source_fog_scope"), TEXT("Source fog is declared but this mobile renderer does not create the desktop fog component."));
+        }
+        Rendering->SetObjectField(TEXT("source_stage_observations"), SourceDetail);
+    }
+    else AddCheck(TEXT("source_stage_observations"), TEXT("not_applicable"), TEXT("This Catalog environment uses the retained viewer rendering path."));
     TSharedPtr<FJsonObject> RenderCVars = MakeShared<FJsonObject>();
     for (const TCHAR* Name : { TEXT("r.DynamicGlobalIlluminationMethod"), TEXT("r.ReflectionMethod"),
         TEXT("r.Lumen.DiffuseIndirect.Allow"), TEXT("r.Lumen.Reflections.Allow"), TEXT("r.GenerateMeshDistanceFields"),

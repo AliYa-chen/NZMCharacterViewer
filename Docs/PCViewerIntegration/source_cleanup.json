@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "status": "removed",
+  "directory": "PCResources",
+  "source_files": 5855,
+  "source_bytes": 3635692277,
+  "finder_sidecars": [],
+  "total_removal_bytes": 3635692277,
+  "published_source_commit": "03152adb7ce937649f890455d6650f346e82acc1",
+  "published_source_tree": "1af1c54bc56f6fed78cfaa9ec254781107c3cc07",
+  "source_restore_command": "git restore --source=03152adb7ce937649f890455d6650f346e82acc1 -- PCResources",
+  "asset_index_sha256": "7c7219c6971d583061d88a7ebd93d414f0b42f84a4e8acc572003f3f94d26f95",
+  "verified_converted_packages": 6833,
+  "plan_sha256": "454ef00449aba7a924949b13ae2825219e0fe7f37fa111aacf6ff292d2ae2894",
+  "input_aliases": [
+    {
+      "file": "PCResources/Textures/Avatar/Base/Textures/T_Base_Black.png",
+      "source_sha256": "5a06d6d1851fac0a7aae4334254d8219e733ba1725edd9a8eee11ede74f24cd6",
+      "converted_exact_image_aliases": [
+        "/Game/PCAssets/Textures/60/T_T_Base_Black_60d8d3f58d59",
+        "/Game/PCAssets/Textures/97/T_T_Base_Black_97e80bb8837a",
+        "/Game/PCAssets/Textures/aa/T_T_Base_Black_aa28017125df"
+      ]
+    },
+    {
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_EmissiveMap_31878fab1cf26b6c6fb410017d5f56e9.png",
+      "source_sha256": "5a06d6d1851fac0a7aae4334254d8219e733ba1725edd9a8eee11ede74f24cd6",
+      "converted_exact_image_aliases": [
+        "/Game/PCAssets/Textures/60/T_T_Base_Black_60d8d3f58d59",
+        "/Game/PCAssets/Textures/97/T_T_Base_Black_97e80bb8837a",
+        "/Game/PCAssets/Textures/aa/T_T_Base_Black_aa28017125df"
+      ]
+    },
+    {
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/Character/Molly/Molly_Nanami_B/Textures/Head/T_VMGen_BaseColorMap_c72dfceeaf8f307ef5bd52a741bc051c.png",
+      "source_sha256": "3672236c9f961ea190c6984d03f855291b597e5e76c39d5fd6f682c4d0f84109",
+      "converted_exact_image_aliases": [
+        "/Game/PCAssets/Textures/44/T_T_VMGen_BaseColorMap_e98b28dc3eae1aa1e65_4401a788c922"
+      ]
+    },
+    {
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/NPC/ParkerLee/Textures/T_VMGen_NormalMap_4b6adde844c9b6c25cc28dfd3b84b8b9.png",
+      "source_sha256": "a9cc7e0d9e3c0a635d0fbf8205088d0f6b6e51ef2f0aa5072efa886d322069cf",
+      "converted_exact_image_aliases": [
+        "/Game/PCAssets/Textures/41/T_T_VMGen_NormalMap_25671443a031a1ade8db49_4116c81b8b3a",
+        "/Game/PCAssets/Textures/9b/T_T_VMGen_NormalMap_25671443a031a1ade8db49_9b2fdf9a539a"
+      ]
+    },
+    {
+      "file": "PCResources/Textures/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_EyeSclera_D3.png",
+      "source_sha256": "2ef16f9289b796a0e1de5521e3404c726a28c9d6b2c7ae30723329e37c51388a",
+      "converted_exact_image_aliases": [
+        "/Game/PCAssets/Textures/66/T_T_VMGen_ScleraColor_31d5b74fe59e5caf5d64_6637beb933e1"
+      ]
+    },
+    {
+      "file": "PCResources/Textures/MaterialLib/Textures/GenTexDir/T_VMGen_EmissiveMap_31878fab1cf26b6c6fb410017d5f56e9.png",
+      "source_sha256": "5a06d6d1851fac0a7aae4334254d8219e733ba1725edd9a8eee11ede74f24cd6",
+      "converted_exact_image_aliases": [
+        "/Game/PCAssets/Textures/60/T_T_Base_Black_60d8d3f58d59",
+        "/Game/PCAssets/Textures/97/T_T_Base_Black_97e80bb8837a",
+        "/Game/PCAssets/Textures/aa/T_T_Base_Black_aa28017125df"
+      ]
+    },
+    {
+      "file": "PCResources/Textures/MaterialLib/Textures/T_Default_Black_SRGB.png",
+      "source_sha256": "7fb5302e2a68adbd15e9f60efbe2efb9cb2f658be19ec8b102e2085f1fbd044e",
+      "converted_exact_image_aliases": [
+        "/Game/PCAssets/Textures/2d/T_T_Default_Black_SRGB_2df325553015",
+        "/Game/PCAssets/Textures/7d/T_T_Default_Black_SRGB_7ded5bd2309f"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "file": "Saved/PCViewerIntegration/animation_report.json",
+      "sha256": "8f03edaca18e8a082e19ef830df3a283227c67bb77f0a8a04dbb5585acedb0e8",
+      "status": "passed"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/portraits_report.json",
+      "sha256": "0028a096ad73ffc9153c7a2e06e69f257f7c273f7374b701e71f16a2a8da62e0",
+      "status": "passed"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/material_overrides_report.json",
+      "sha256": "aad077e142912f591a7f0f745e1e02e4eccf57036784c2aa5ea23670bdf05e08",
+      "status": "passed"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/dynamics_report.json",
+      "sha256": "a05eb4ecc45580c8a47d818ceb2fe73044be1ea7205a05247833f216d440a885",
+      "status": "passed"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/viewer_environment_report.json",
+      "sha256": "7e55134b1cda1ede3b4ccb70e2dd8af465f90ef02ab4806e57d3890592b06826",
+      "status": "passed"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/catalog_import_report.json",
+      "sha256": "a65230da4d02ea5337ec211db829959381e31a6f1bc27c9fe6ed243c3b4b4cf9",
+      "status": "passed"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/integration_audit.json",
+      "sha256": "cef253f1676b52bf53310ce79ebfc0663555ccb755eb0f11ab28af3716499113",
+      "status": "passed"
+    },
+    {
+      "file": "Saved/PCViewerIntegration/desktop_smoke_report.json",
+      "sha256": "a24c9240155b773ae718135d18e92a5aa3d8387bbe4c62adefd9979f89325221",
+      "status": "pass"
+    }
+  ],
+  "ios_compile_report_sha256": "596b28080b0a801bfd9c5d01b1c7262dadfd4873d5ac20d6f1153b86dc20b442",
+  "runtime_catalog_sha256": "d73102bc503ef7157579ea5910df6af57d42c379c7c5a6c61f40c58d6e6adf07",
+  "verified_new_packages": 113,
+  "evidence_manifest_sha256": "81ac70af250e1d933c1c92fdb827b276f2f7386da9bb821e3cfdf5cc78d1630f",
+  "mobile_runtime_validation": "not_run_user_requested_cleanup",
+  "scope": "Remove only redundant raw working-tree exports. Saved editable Content packages and published source Git history are retained.",
+  "recorded_at_utc": "2026-11-10T07:55:26.925192+00:00"
+}

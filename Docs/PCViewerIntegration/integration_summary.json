@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "characters": 12,
+  "hd_outfits": 17,
+  "legacy_comparison_outfits": 9,
+  "total_outfits": 26,
+  "runtime_parts": 112,
+  "original_portraits_reused": 5,
+  "available_portraits_for_new_characters": 7,
+  "desktop_runtime_cases_passed": 26,
+  "mobile_runtime_validation": "not_run_user_requested_cleanup",
+  "retained_content_packages": 7573,
+  "retained_original_conversion_packages": 6833,
+  "retained_new_viewer_packages": 101,
+  "unused_packages_removed": 40,
+  "raw_source_files_removed": 5855,
+  "raw_source_bytes_removed": 3635692277,
+  "generated_cache_bytes_removed": 1903555831,
+  "total_removed_logical_bytes": 5542299898,
+  "source_directory_absent": true,
+  "missing_dependencies": 0,
+  "unused_dependencies": 0,
+  "evidence_archive": "Docs/PCViewerIntegration/integration_evidence.tar.gz",
+  "cleanup_reports": [
+    "Docs/PCViewerIntegration/source_cleanup.json",
+    "Docs/PCViewerIntegration/content_cleanup.json",
+    "Docs/PCViewerIntegration/cache_cleanup.json"
+  ],
+  "scope": "Local PC HD viewer integration, recoverable source lighting/postprocess, user-requested cleanup and local Git commit. Private shader/physics and unresolved special scene coordinates remain documented."
+}

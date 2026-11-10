@@ -83,6 +83,7 @@ private:
     UPROPERTY() TArray<TObjectPtr<UStaticMeshComponent>> PreparingStageMeshes;
     UPROPERTY() TArray<TObjectPtr<UMaterialInterface>> PreparingMaterials;
     UPROPERTY() TArray<TObjectPtr<UTexture>> PreparingTextures;
+    TMap<FName, float> SourceConsoleRestoreValues;
     UPROPERTY() TObjectPtr<UViewerEnvironment> PreparingEnvironment;
     int32 CharacterIndex = 0;
     int32 OutfitIndex = 0;
@@ -140,6 +141,8 @@ private:
     void InvalidateViewHistory();
     void ReadPointerInput();
     void ApplyPreferences();
+    void ApplySourceRenderingPreferences();
+    void RestoreSourceConsoleVariables();
     void Orbit(FVector2D Delta);
     void Zoom(float Amount);
 };

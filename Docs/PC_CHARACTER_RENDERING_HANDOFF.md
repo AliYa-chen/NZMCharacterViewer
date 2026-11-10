@@ -1,8 +1,10 @@
 # PC 人物光照、后期与特效还原交接
 
-更新：2026-11-09。目标是在现有 UE **5.8.4** 人物查看器中建立有来源证据的 PC 人物页渲染候选，重点是人物受光、环境反射、曝光／色调／Bloom、皮肤／眼球／毛发响应及背景特效。先固定人物和镜头恢复这些表现，再处理模型／贴图升级，避免同时改变多项输入而无法判断原因。
+提取基线：2026-11-09；接手进度：2026-11-10。目标是在现有 UE **5.8.4** 人物查看器中建立有来源证据的 PC 人物页渲染候选，重点是人物受光、环境反射、曝光／色调／Bloom、皮肤／眼球／毛发响应及背景特效。先固定人物和镜头恢复这些表现，再处理模型／贴图升级，避免同时改变多项输入而无法判断原因。
 
-**这是一份提取数据与实施交接文档。当前机器没有 Unreal Engine；以下编译、编辑器导入、shader 集成和画面验收必须在接手机器完成。** 普通编译只构建现有代码，不会把 `PCResources` 的 JSON 自动变成环境、材质或特效资产。当前 `Content` 和 Catalog 保留原状态。
+**这是一份提取数据与实施交接文档。2026-11-09 提取时的机器没有 Unreal Engine；编译、编辑器导入、shader 集成和画面验收交给接手机器完成。** 普通编译只构建现有代码，不会把 `PCResources` 的 JSON 自动变成环境、材质或特效资产。
+
+2026-11-10 接手进度：已生成独立可编辑资源库，按 `UIConfig` 接入 12 名角色、17 套 PC 高清组合，原九套保留为旧版对照。PC 来源模式已实现灯光、HDR、桌面／移动后期显式 override 与画质覆盖隔离，另建十二个运行／核对环境，原十四个环境候选保持不变。已完成待机适配、局部挂点、眼部白色遮挡层修正及动态骨链兼容。入口和索引见 [PC 资源转换](PC_ASSET_CONVERSION.md)，实际验收范围与未恢复项见 [高清角色接入](PC_VIEWER_INTEGRATION.md)。私有 shader／粒子、缺失场景定位与原游戏逐帧画面对照仍按本文来源证据继续处理。
 
 代码核对基线：`84503b60865057a9c3c4b481d7369548b5dbad21`。数据来自 PC 安装基础 `Content/Paks` 的 80 个包；137 个基础／更新包的目录均已检查，但本次渲染资源没有合并 `Saved` 更新包。不能把这份快照直接标成某次在线运行的最终参数。
 
@@ -10,17 +12,17 @@
 
 | 文件 | 用途 |
 | --- | --- |
-| [PCResources/README.md](../PCResources/README.md) | 导出范围、格式、验证与限制 |
-| [女性角色与服装集合](../PCResources/Characters/README.md) | 新增 309 个网格包及配置、材质／纹理依赖；与本篇原始 80 包渲染快照分别记录来源 |
-| [source_manifest.json](../PCResources/source_manifest.json) | 工具版本、文件 SHA256、原始包来源 |
-| [Environment/scene_parameters.json](../PCResources/Environment/scene_parameters.json) | 9 张候选地图：129 灯光组件、7 后期 Volume、7 粒子组件、雾／反射数据 |
-| [Environment/Dependencies](../PCResources/Environment/Dependencies) | 补取的灯光蓝图／模板、真实导出索引和实例继承证据 |
-| [Lighting/postprocess_profiles.json](../PCResources/Lighting/postprocess_profiles.json) | 后期字段值与 override 状态；桌面和移动 Bloom 分开记录 |
-| [Lighting/pc_quality_settings.json](../PCResources/Lighting/pc_quality_settings.json) | 41 项本地画质配置、128 项历史设置请求；不是当前有效 CVar dump |
-| [Shading](../PCResources/Shading) | 皮肤、发丝、眼球的 PC 母材质／函数／SSS 依赖与可恢复程度 |
-| [Metadata/Avatar/Character](../PCResources/Metadata/Avatar/Character) | 角色 VMI 参数和网格的具体材质槽绑定 |
-| [Environment/HDR](../PCResources/Environment/HDR) | 已导出 6 个 HDR 全景 |
-| [Environment/Particles](../PCResources/Environment/Particles) | 5 个背景粒子包的 emitter／module／cooked distribution 参数 |
+| [PCResources/README.md](https://github.com/AliYa-chen/NZMCharacterViewer/blob/03152adb7ce937649f890455d6650f346e82acc1/PCResources/README.md) | 导出范围、格式、验证与限制 |
+| [女性角色与服装集合](https://github.com/AliYa-chen/NZMCharacterViewer/blob/03152adb7ce937649f890455d6650f346e82acc1/PCResources/Characters/README.md) | 新增 309 个网格包及配置、材质／纹理依赖；与本篇原始 80 包渲染快照分别记录来源 |
+| [source_manifest.json](https://github.com/AliYa-chen/NZMCharacterViewer/blob/03152adb7ce937649f890455d6650f346e82acc1/PCResources/source_manifest.json) | 工具版本、文件 SHA256、原始包来源 |
+| [Environment/scene_parameters.json](https://github.com/AliYa-chen/NZMCharacterViewer/blob/03152adb7ce937649f890455d6650f346e82acc1/PCResources/Environment/scene_parameters.json) | 9 张候选地图：129 灯光组件、7 后期 Volume、7 粒子组件、雾／反射数据 |
+| [Environment/Dependencies](https://github.com/AliYa-chen/NZMCharacterViewer/tree/03152adb7ce937649f890455d6650f346e82acc1/PCResources/Environment/Dependencies) | 补取的灯光蓝图／模板、真实导出索引和实例继承证据 |
+| [Lighting/postprocess_profiles.json](https://github.com/AliYa-chen/NZMCharacterViewer/blob/03152adb7ce937649f890455d6650f346e82acc1/PCResources/Lighting/postprocess_profiles.json) | 后期字段值与 override 状态；桌面和移动 Bloom 分开记录 |
+| [Lighting/pc_quality_settings.json](https://github.com/AliYa-chen/NZMCharacterViewer/blob/03152adb7ce937649f890455d6650f346e82acc1/PCResources/Lighting/pc_quality_settings.json) | 41 项本地画质配置、128 项历史设置请求；不是当前有效 CVar dump |
+| [Shading](https://github.com/AliYa-chen/NZMCharacterViewer/tree/03152adb7ce937649f890455d6650f346e82acc1/PCResources/Shading) | 皮肤、发丝、眼球的 PC 母材质／函数／SSS 依赖与可恢复程度 |
+| [Metadata/Avatar/Character](https://github.com/AliYa-chen/NZMCharacterViewer/tree/03152adb7ce937649f890455d6650f346e82acc1/PCResources/Metadata/Avatar/Character) | 角色 VMI 参数和网格的具体材质槽绑定 |
+| [Environment/HDR](https://github.com/AliYa-chen/NZMCharacterViewer/tree/03152adb7ce937649f890455d6650f346e82acc1/PCResources/Environment/HDR) | 已导出 6 个 HDR 全景 |
+| [Environment/Particles](https://github.com/AliYa-chen/NZMCharacterViewer/tree/03152adb7ce937649f890455d6650f346e82acc1/PCResources/Environment/Particles) | 5 个背景粒子包的 emitter／module／cooked distribution 参数 |
 | [Tools/PCAssetPipeline](../Tools/PCAssetPipeline/README.md) | 本次实际使用的工具与固定依赖准备、导出和验证入口 |
 
 后期 profile 可用普通 Python 重建和检查：
@@ -92,7 +94,7 @@ HDR 源为 128×128／面的 FloatRGBA cubemap，当前发布的是重投影后�
 
 ## 当前代码必须先处理的覆盖点
 
-这些位置已在基线源码核对。接手机器应为候选增加明确的“来源参数模式”，与当前查看器画质模式隔离；具体字段名由实现决定。下面是待完成的实施项，当前仓库没有宣称它们已经改好。
+下表保留初始旧版代码的覆盖点。新接入的高清组合已增加 `UViewerEnvironment::bUseSourceRendering` 分支，分别读取桌面与移动后期，保留来源值和 override 位，跳过固定曝光、Fstop、自动对焦、AO／SSR／Lumen 与调色常量；旧版对照继续使用原逻辑。来源 CVar 的运行读回、灯／HDR／后期与实际组件比对另有回归检查。表中私有渲染、数据缺失及需要原游戏画面对照的项目仍有边界，不能因增加来源分支而称全部原版效果已恢复。
 
 | 位置 | 现有行为 | 来源模式应处理的内容 |
 | --- | --- | --- |
@@ -172,4 +174,4 @@ Catalog 索引从实际数据读取，不固定假定角色顺序。报告位于
 | 平台 | Mac 桌面 SM6、移动预览、iOS 实机分别记录，不相互替代；SSR 开关与实际 CVar 一并记录 |
 | 原游戏对照 | 有授权取得的同场景画面，记录原版本和设置；缺少对照时不写“1:1通过” |
 
-当前已完成的是资源提取、数据／文件核验及实施交接；候选环境桥接、来源模式、shader／粒子重建和真实画面验收仍在接手机器执行。此状态必须与文档和提交说明保持一致。
+资源提取、数据／文件核验及实施交接已经完成。2026-11-10 另完成独立 UE 资产库、候选环境数据桥接、候选材质编译和单模型预览；来源模式、原 shader／粒子重建、场景路由与同条件原游戏画面验收仍待执行。候选材质能够编译／渲染不表示原私有着色算法已恢复。此状态必须与文档和提交说明保持一致。

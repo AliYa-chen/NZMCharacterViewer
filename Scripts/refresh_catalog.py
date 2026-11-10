@@ -30,7 +30,12 @@ try:
         outfits = list(character.get_editor_property("outfits"))
         for outfit in outfits:
             oid = str(outfit.get_editor_property("id"))
-            source = sources[cid, oid]
+            source = sources.get((cid, oid))
+            if source is None:
+                # PC combinations have their own verified plan and bindings.
+                report.setdefault("skipped_outside_source_manifest", []).append(
+                    {"character": cid, "outfit": oid})
+                continue
             environment_path = source.get("environment_asset", "/Game/Viewer/Environment/DA_Environment")
             environment = importer.LIBRARY.load_asset(environment_path)
             if not isinstance(environment, unreal.ViewerEnvironment):

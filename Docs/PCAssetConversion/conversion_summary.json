@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "status": "passed_structural_conversion",
+  "plan_sha256": "454ef00449aba7a924949b13ae2825219e0fe7f37fa111aacf6ff292d2ae2894",
+  "overall_status": "passed_required_validation",
+  "require_render_validation": true,
+  "source_manifest": "PCResources/source_manifest.json",
+  "source_manifest_sha256": "b15adb8d43e285fbad31b368567656a3f5943c4a02d30b72fc4df4aa7caa3e96",
+  "importer_version": 2,
+  "counts": {
+    "planned_textures": 1081,
+    "planned_materials": 629,
+    "planned_meshes": 309,
+    "planned_documents": 4472,
+    "manifest_resource_files": 5854,
+    "planned_input_files_including_manifest": 5855,
+    "verified_input_bytes": 3635692277,
+    "planned_output_packages": 6833,
+    "existing_output_packages": 6833,
+    "fresh_verified_main_assets": 6491,
+    "native_verified_meshes": 309,
+    "independent_skeletons_present": 309,
+    "stock_support_assets": 4,
+    "character_navigation_collections": 14,
+    "planned_navigation_collections": 15,
+    "verified_navigation_collections": 15,
+    "environment_candidates_saved": 14,
+    "source_texture_references_unavailable": 173,
+    "unique_texture_packages_unavailable": 12,
+    "failure_count": 0
+  },
+  "validation": {
+    "editor_asset_structure": "passed_structural_conversion",
+    "target_RHI_shader_validation": "passed_Metal_SM6",
+    "animation_and_cloth": "not_reconstructed_or_verified",
+    "visual_result": "captured_single_model_reference_pose_Metal_SM6",
+    "mac_editor_build": "passed_editor_build_log_observed",
+    "ios_unsigned_compile_link": "passed_unsigned_compile_link_only",
+    "viewer_catalog_integration": "not_performed",
+    "device_runtime": "not_run",
+    "original_game_visual_comparison": "not_run"
+  },
+  "limitations": [
+    "Material assets are editable stock UE candidates; the original private shaders and complete output wiring are not reconstructed.",
+    "Source JSON/Markdown records are editor-only evidence assets, not playable animation, cloth, Blueprint, Niagara or recovered material graphs.",
+    "Unavailable source texture references remain unavailable; stock helper textures do not count as converted game resources.",
+    "Environment assets are inactive candidates with documented unresolved fields; current viewer routing is unchanged.",
+    "ActorX preserves the exported highest LOD; original bone scales and tangent vectors were absent, and tangents are recomputed.",
+    "Structural/fresh-load verification does not establish target-RHI shader success, appearance, animation or device performance."
+  ],
+  "native_mesh_validation": {
+    "verified_mesh_count": 309,
+    "source_points": 4809886,
+    "source_triangles": 5643310,
+    "source_bones": 21418,
+    "source_weight_rows_checked": 10679023,
+    "built_vertices_checked": 4328600,
+    "built_weight_rows_checked": 9539890,
+    "maximum_influences": 8,
+    "maximum_uv_channels": 3,
+    "uv_channel_distribution": {
+      "1": 248,
+      "3": 47,
+      "2": 14
+    },
+    "mesh_count_with_vertex_colors": 52,
+    "maximum_weight_absolute_tolerance": 6.103608758678569e-05,
+    "corner_layout_version": 2,
+    "tangent_build_method": "MeshDescriptionMikkTSpace",
+    "mesh_description_corner_wedge_mismatches": 0,
+    "mesh_description_mikk_zero_tangents": 8,
+    "mesh_count_with_mesh_description_mikk_zero_tangents": 2,
+    "mesh_description_mikk_zero_tangent_scope": "Raw generated MeshDescription vertex-instance count, which may include vertices on the reported degenerate geometry/UV triangles. It is a different counting domain from built render-vertex tangent exceptions and need not be zero. Built nondegenerate frames must still verify with built_tangent_frames_invalid equal to zero.",
+    "built_tangent_frames_checked": 4327373,
+    "built_tangent_frames_invalid": 0,
+    "normalized_source_normal_component_error_max": 1.1920928955078125e-07,
+    "normalized_built_normal_length_squared_error_max": 3.5762786865234375e-07,
+    "tangent_orthogonality_error_max_including_degenerate_exceptions": 0.999984622001648,
+    "tangent_orthogonality_error_max_among_meshes_without_exceptions": 7.116049528121948e-05,
+    "degenerate_uv_or_geometry_tangent_exceptions": 1227,
+    "near_degenerate_geometry_tangent_exceptions": 326,
+    "mesh_count_with_near_degenerate_geometry_tangent_exceptions": 6,
+    "geometry_normal_squared_tolerance": 1e-08,
+    "uv_determinant_absolute_tolerance": 1e-12,
+    "tangent_degeneracy_classification": "Stable incident geometry requires finite triangle cross-product squared length >= UE_SMALL_NUMBER (1e-8), matching UE safe normalization, and finite absolute UV determinant > 1e-12. This is not MikkTSpace's internal degeneracy threshold. Near-degenerate exceptions touch a nonzero cross product below that geometry threshold and have no stable incident geometry/UV triangle.",
+    "mesh_count_with_degenerate_tangent_exceptions": 85,
+    "tangent_exception_policy": "Only render vertices whose every incident built triangle has degenerate UVs or geometry, including geometry below the UE safe-normal threshold, may have a finite invalid tangent frame; these are counted separately and are not claimed as verified nondegenerate tangent frames. Nonfinite tangent vectors cannot receive an exception.",
+    "nondegenerate_tangent_frame_orthogonality_limit": 0.001,
+    "tangent_orthogonality_metric_scope": "Native per-mesh maximum includes degenerate exceptions; a separate exact maximum restricted to nondegenerate vertices is not emitted by the native report.",
+    "corner_rebuild_meshes_with_comparison": 309,
+    "built_vertices_before_corner_rebuild": 6643740,
+    "built_vertices_after_corner_rebuild": 4328600,
+    "built_vertices_removed_by_corner_rebuild": 2315140,
+    "corner_rebuild_comparison_scope": "Before/after values describe each mesh's latest recorded MeshDescription Mikk rebuild. Before may already use an intermediate canonical layout; these totals are not claimed as the original pre-fix baseline."
+  },
+  "render_evidence": {
+    "shaders": {
+      "status": "passed_Metal_SM6",
+      "rhi": "Metal",
+      "shader_platform": "METAL_SM6",
+      "shader_format": "SF_METAL_SM6",
+      "feature_level": "SM6",
+      "expected_materials": 629,
+      "validated_materials": 629,
+      "batch_reports": [
+        {
+          "file": "Saved/PCAssetConversion/Shaders/materials_00000.json",
+          "report_sha256": "6ab10e6e5d7029a40077966642bc542b75eaae493386e0d0f8e9378baf07f86d",
+          "start": 0,
+          "count": 64
+        },
+        {
+          "file": "Saved/PCAssetConversion/Shaders/materials_00064.json",
+          "report_sha256": "12cca00034b2258a704716775b54aac30a542bedaa75ca81601f2f7e39af791a",
+          "start": 64,
+          "count": 64
+        },
+        {
+          "file": "Saved/PCAssetConversion/Shaders/materials_00128.json",
+          "report_sha256": "94815a995ab0fe31761197d1f503be6baf8efb6d1ad0c40e40f6eee583c4fc61",
+          "start": 128,
+          "count": 64
+        },
+        {
+          "file": "Saved/PCAssetConversion/Shaders/materials_00192.json",
+          "report_sha256": "ebf06df377573c722a9a5f5c36ba46ae47924c59759ddee243aa2763e8aaad48",
+          "start": 192,
+          "count": 64
+        },
+        {
+          "file": "Saved/PCAssetConversion/Shaders/materials_00256.json",
+          "report_sha256": "0e3098b2324231474be844182c19f11335d29e8b525066185820b9ff6bdb96cd",
+          "start": 256,
+          "count": 64
+        },
+        {
+          "file": "Saved/PCAssetConversion/Shaders/materials_00320.json",
+          "report_sha256": "c388ce119a010412bdd69bc9f871284638823d9e900a2a36d0020a07924f466c",
+          "start": 320,
+          "count": 64
+        },
+        {
+          "file": "Saved/PCAssetConversion/Shaders/materials_00384.json",
+          "report_sha256": "3f6f3b1fa3bf3ec7363cc0aac73b4dedfc738eb7b37ec17eb7abad77162fe79a",
+          "start": 384,
+          "count": 64
+        },
+        {
+          "file": "Saved/PCAssetConversion/Shaders/materials_00448.json",
+          "report_sha256": "0bfa2127ea396adcdaf3562ce6a9c401bec378d3d38dd031d751ff8117c2e14f",
+          "start": 448,
+          "count": 64
+        },
+        {
+          "file": "Saved/PCAssetConversion/Shaders/materials_00512.json",
+          "report_sha256": "0cad321aa2aeec116d6181c6e024f291f47f166d38916a1046a23aacfe193714",
+          "start": 512,
+          "count": 64
+        },
+        {
+          "file": "Saved/PCAssetConversion/Shaders/materials_00576.json",
+          "report_sha256": "f4a8602b46be8522e89086ecaa1f59f59ab7dcd1529dd858cfe0b3031f2aa028",
+          "start": 576,
+          "count": 53
+        }
+      ],
+      "summary_file": "Saved/PCAssetConversion/shader_summary.json",
+      "summary_sha256": "52660bfafb64f3511cd048cd0d288f9d68cc7ac02d53e67f4ad0919e4ed3bd31",
+      "limitations": [
+        "Cached/compiled shader maps do not establish a rendered image, PSO execution, original shader equivalence, animation or iOS/device performance.",
+        "Existing reports are reused after all report flags and current file hashes pass validation; their native producer-binary hashes were not recorded by the commandlet report."
+      ]
+    },
+    "preview": {
+      "status": "captured_single_model_reference_pose_Metal_SM6",
+      "scope": "single_model_static_reference_pose_only",
+      "mesh": "/Game/PCAssets/Meshes/db/SK_SK_Char_Angel_Lucia_A_Preview_Mesh_db254e986d08",
+      "source_package": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_Preview_Mesh",
+      "png": {
+        "file": "Saved/PCAssetConversion/Preview/SK_SK_Char_Angel_Lucia_A_Preview_Mesh_db254e986d08_yaw35_0.png",
+        "sha256": "9152695e1789513cf5271bbea7f477c04c6dc98cac04c8b2975763a9bfa7e067",
+        "bytes": 609202,
+        "width": 900,
+        "height": 1200,
+        "bit_depth": 8,
+        "color_type": 6,
+        "pixel_check": "nonuniform_rendered_pixels",
+        "rgb_min": [
+          0,
+          0,
+          0
+        ],
+        "rgb_max": [
+          239,
+          231,
+          231
+        ],
+        "quantized_rgb_bins": 305,
+        "pixels_different_from_first": 954045,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "validation_scope": "PNG integrity and nonblank pixels; subject appearance still requires visual review"
+      },
+      "report_file": "Saved/PCAssetConversion/Preview/preview_report.json",
+      "report_sha256": "f175db82d692a272a7812247c9866b67348272a08bbe02e944828cd0deb78e80",
+      "pixel_integrity": "PNG_CRC_dimensions_SHA256_and_decoded_nonuniform_pixels_verified",
+      "original_game_comparison": "not_performed",
+      "all_character_visual_validation": "not_performed",
+      "visual_review": "image_requires_separate_subject_review_not_established_by_pixel_statistics",
+      "asset_hash_binding": "capture report records planned assets; per-capture package hashes were not recorded",
+      "limitations": [
+        "Stock three-light inspection with manual exposure, not the recovered source lighting or camera.",
+        "Converted materials are documented stock approximations; original private shaders are not recovered.",
+        "Reference-pose capture does not verify animation, cloth, viewer interaction, other characters or iOS.",
+        "An active Metal shader map and nonblank PNG do not establish original-game visual equivalence."
+      ]
+    },
+    "builds": {
+      "mac_editor": {
+        "status": "passed_editor_build_log_observed",
+        "log": "Saved/PCAssetAnalysis/ue_mesh_description_mikk_build.log",
+        "log_sha256": "d65b2fd9a6e8c8a14db1b6d25e308b83789e87c37ec2a1df06d08ab4e69dc94d",
+        "scope": "Mac Development Editor build log; no full compiler-input snapshot"
+      },
+      "ios": {
+        "status": "passed_unsigned_compile_link_only",
+        "report": "Saved/BuildIOSCompileVerification.json",
+        "report_sha256": "763bfabae0a03b09ff506d9e349a3f99d516071a9447cc16857762a7a5d5c50d",
+        "binary_sha256": "7a5fc835e29e2a31b8f249c7686f0e2c9091eb80f581123f6f22e1bc7181a468",
+        "asset_cooking": "not_performed",
+        "signing": "not_performed",
+        "device_runtime": "not_run",
+        "scope": "C++ target compilation/linking only; does not verify iOS asset cooking, signing or device runtime."
+      }
+    },
+    "errors": [],
+    "required_render_validation_satisfied": true
+  },
+  "output_tree_coverage": {
+    "pc_assets": {
+      "expected": 6819,
+      "actual": 6819,
+      "missing": 0,
+      "unindexed": 0,
+      "exact_match": true
+    },
+    "environment_candidates": {
+      "expected": 14,
+      "actual": 14,
+      "missing": 0,
+      "unindexed": 0,
+      "exact_match": true
+    }
+  },
+  "navigation_collections": {
+    "report_status": "passed",
+    "planned": 15,
+    "verified": 15,
+    "source_indices": [
+      {
+        "file": "PCResources/Characters/catalog.json",
+        "sha256": "d287414d911985012d86aff89162800d584da6e61fe8d14e45d67c81bae5ee2b",
+        "source_record": "/Game/PCAssets/Documents/e1/D_catalog_e167a751e96a"
+      },
+      {
+        "file": "PCResources/source_manifest.json",
+        "sha256": "b15adb8d43e285fbad31b368567656a3f5943c4a02d30b72fc4df4aa7caa3e96",
+        "source_record": "/Game/PCAssets/Documents/bd/D_source_manifest_bd3d4b33cd07"
+      },
+      {
+        "file": "Saved/PCAssetConversion/asset_plan.json",
+        "sha256": "454ef00449aba7a924949b13ae2825219e0fe7f37fa111aacf6ff292d2ae2894",
+        "scope": "deterministically_generated_local_import_plan"
+      }
+    ]
+  },
+  "stage_completion": {
+    "textures": {
+      "expected": 1081,
+      "passed_current": 1081,
+      "missing": 0,
+      "failed": 0,
+      "stale": 0,
+      "extra": 0
+    },
+    "materials": {
+      "expected": 629,
+      "passed_current": 629,
+      "missing": 0,
+      "failed": 0,
+      "stale": 0,
+      "extra": 0
+    },
+    "meshes": {
+      "expected": 309,
+      "passed_current": 309,
+      "missing": 0,
+      "failed": 0,
+      "stale": 0,
+      "extra": 0
+    },
+    "bindings": {
+      "expected": 309,
+      "passed_current": 309,
+      "missing": 0,
+      "failed": 0,
+      "stale": 0,
+      "extra": 0
+    },
+    "documents": {
+      "expected": 4472,
+      "passed_current": 4472,
+      "missing": 0,
+      "failed": 0,
+      "stale": 0,
+      "extra": 0
+    },
+    "verify": {
+      "expected": 6491,
+      "passed_current": 6491,
+      "missing": 0,
+      "failed": 0,
+      "stale": 0,
+      "extra": 0
+    }
+  },
+  "remaining_structural_failures": 0,
+  "source_snapshot": {
+    "character_mesh_packages": 309,
+    "unique_geometry": 309,
+    "source_packages": 2181
+  },
+  "unavailable_texture_policy": {
+    "reference_count": 173,
+    "unique_packages": [
+      "/Game/Avatar/Base/Textures/T_Basic_Gray",
+      "/Game/MaterialLib/Textures/Default/T_Default_BlackA",
+      "/Game/MaterialLib/Textures/Default/T_Default_N",
+      "/Game/MaterialLib/Textures/Default/T_Default_NRMap",
+      "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "/Game/MaterialLib/Textures/HDRI/T_HDRI_LightSphere",
+      "/Game/MaterialLib/Textures/Noise/T_NoiseLava",
+      "/Game/MaterialLib/Textures/Noise/T_NoiseSmooth",
+      "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "/Game/MaterialLib/Textures/T_Default_StandardNormal",
+      "/Game/MaterialLib/Textures/T_Default_White",
+      "/Game/MaterialLib/Textures/T_ReflectionMap"
+    ],
+    "converted": false,
+    "empty_original_assets_created": false
+  },
+  "unfinished_implementation": [
+    "Original private shader/function graph recovery",
+    "Animation and cloth reconstruction",
+    "Executable particle/Blueprint recreation",
+    "Viewer source mode and scene routing",
+    "All-character rendered appearance and motion validation",
+    "iOS asset cook and device validation"
+  ]
+}

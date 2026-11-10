@@ -1,13 +1,13 @@
 # 人物页灯光模板继承提取
 
-这些是本次实际使用的离线入口。先按 `../Runtime/README.md` 准备固定版本缓存，再在仓库根目录的新 PowerShell 7.6 会话运行：
+这些是本次实际使用的离线入口。以下为可选复查流程；完整导出在全部转换及最终核验通过后从工作树清理，源证据见 [Environment 历史快照](https://github.com/AliYa-chen/NZMCharacterViewer/tree/03152adb7ce937649f890455d6650f346e82acc1/PCResources/Environment)。需要按默认路径重跑时，先按[上级说明](../README.md)恢复源快照，再按 [Runtime 说明](../Runtime/README.md)准备固定版本缓存，在仓库根目录的新 PowerShell 7.6 会话运行：
 
 ```powershell
 $gameRoot = Read-Host 'NZM 目录（其下包含 Content/Paks）'
 & ./Tools/PCAssetPipeline/Lighting/Export-LightingDependencies.ps1 -GameDirectory $gameRoot
 ```
 
-默认读取 `PCResources/Environment/scene_parameters.json` 和 `Json` 中已经选定的九张地图。中间结果写入 `Saved/PCAssetAnalysis/PCLightingDependencies`；纯 JSON、来源清单和合并证据写入 `PCResources/Environment/Dependencies`。入口可传 `-EnvironmentDirectory`、`-WorkDirectory` 和 `-CacheDirectory`。缓存只由现有 Runtime 检查和加载，本入口没有网络下载操作。
+默认读取恢复后的 `PCResources/Environment/scene_parameters.json` 和 `Json` 中已经选定的九张地图，原参数见[历史文件](https://github.com/AliYa-chen/NZMCharacterViewer/blob/03152adb7ce937649f890455d6650f346e82acc1/PCResources/Environment/scene_parameters.json)。中间结果写入 `Saved/PCAssetAnalysis/PCLightingDependencies`；纯 JSON、来源清单和合并证据写入 `PCResources/Environment/Dependencies`。入口可传 `-EnvironmentDirectory`、`-WorkDirectory` 和 `-CacheDirectory`，使用另行恢复的证据目录。缓存只由现有 Runtime 检查和加载，本入口没有网络下载操作。
 
 `Get-TemplateSeeds.ps1` 收集地图对象明确的外部 `Template` 引用；`Find-TemplateClosure.ps1` 仅继续追踪 `Template`、`ComponentTemplate`、`Super`、`SuperStruct`、`ParentClass` 和 `ClassDefaultObject`。总量上限为 30 个依赖包、3 层。达到层数上限仍有引用时记录未完成项；超过包数上限则停止，不自动选取部分依赖。本次得到 8 个种子包、2 个父模板包，共 2 层、148 个 JSON，均成功解析。
 

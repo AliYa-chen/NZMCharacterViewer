@@ -38,7 +38,7 @@ public:
     /** 1 disables AA; 0 selects TAA; other values are supported MSAA counts. */
     static TArray<int32> AntialiasingSamples();
     void Persist();
-    void ApplyEngineSettings();
+    void ApplyEngineSettings(bool bPreserveSourceRendering = false);
     void SetChoice(EViewerSetting Setting, int32 Index);
     int32 GetChoice(EViewerSetting Setting) const;
     void SetToggle(EViewerSetting Setting, bool bEnabled);

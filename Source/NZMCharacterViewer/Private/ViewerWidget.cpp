@@ -526,8 +526,10 @@ void UViewerWidget::RefreshNow()
     OutfitTitle->SetText(Viewer->GetCurrentOutfit() ? Viewer->GetOutfitLabel() : FText::FromString(TEXT("人物预览")));
     const FString Status = Viewer->GetStatusLabel().ToString();
     const bool Failed = Status.Contains(TEXT("未能")) || Status.Contains(TEXT("无法"));
+    const FViewerOutfit* CurrentOutfit = Viewer->GetCurrentOutfit();
     StatusText->SetText(Failed ? FText::FromString(TEXT("载入失败，请重新选择"))
-        : Status.Contains(TEXT("载入")) ? FText::FromString(TEXT("正在载入…")) : FText::GetEmpty());
+        : Status.Contains(TEXT("载入")) ? FText::FromString(TEXT("正在载入…"))
+        : CurrentOutfit && !CurrentOutfit->PreviewNotes.IsEmpty() ? CurrentOutfit->PreviewNotes : FText::GetEmpty());
     const TArray<FString> Options = Viewer->GetOutfitOptions();
     if (CachedOutfitOptions != Options)
     {

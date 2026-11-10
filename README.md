@@ -1,6 +1,6 @@
 # NZMCharacterViewer
 
-基于 Unreal Engine 5.8.4 的非官方离线人物查看器，面向 macOS 和 iPhone／iPad。当前工程包含 5 名角色、9 套服装、40 个运行部件及待机动画。
+基于 Unreal Engine 5.8.4 的非官方离线人物查看器，面向 macOS 和 iPhone／iPad。当前 Catalog 包含 **12 名角色、17 套 PC 高清组合**，另保留 9 套“旧版对照”，总计 26 套、112 个运行部件。每名角色默认选择高清组合；已有五名角色沿用原头像。
 
 支持人物／服装切换、触摸与鼠标旋转缩放、视角复位、待机动画重播、隐藏界面、部件开关，以及保存画质设置。标准展台和部分服装场景已导入；Bianca 当前使用标准展台。角色过场演出已取消，切换角色后直接进入待机。
 
@@ -34,9 +34,9 @@ Scripts/build_macos.sh
 
 运行时按服装加载软引用资产，准备完成后切换显示；拖动时相机围绕固定的人物与场景旋转，使局部灯和 HDR 保持同一世界坐标。人物按安全区与界面留下的区域构图，窗口改变后重新拟合；复位、设置和布局变化会清理旧视图的历史帧。设置包含帧率、分辨率、阴影、抗锯齿、后期、环境光遮蔽、屏幕空间反射和动态效果；点击设置面板外可关闭。实际效果受设备和渲染路径限制。
 
-标准场景保留原 HDR 与几何，三盏局部灯经过自然光校准：共同主光与轮廓光使用通道 0，人物补光使用通道 1，角色接收两者、场景仅接收通道 0。自定义服装场景保留原灯光与 HDR；后期使用较轻的接触 AO、Bloom 和暗角，皮肤及眼球分别校准镜面反射。可重复应用与原件恢复见 [自然光校准](Docs/NATURAL_LIGHTING.md)。
+高清组合使用独立的 PC 来源光照模式，恢复有模板和实例依据的灯位、颜色、强度、单位、HDR 与桌面／移动后期 override。原查看器的固定曝光、景深、SSR 和调色常量不会覆盖这些组合。来源缺少在线场景路由、模型世界坐标或私有 shader 的部分会明确记录；Lucia、Bianca 专用灯光的定位尚未恢复，当前使用标准 PC 人物页灯光。原九套对照保留此前的自然光校准。完整范围见 [PC 高清角色接入](Docs/PC_VIEWER_INTEGRATION.md)，原校准流程见 [自然光校准](Docs/NATURAL_LIGHTING.md)。
 
-Mac 的 Metal 配置启用 Lumen 全局光照和反射；本机 Metal SM6 已运行硬件光追，保留距离场以支持软件回退。普通 iOS 继续使用移动前向渲染、TAA、屏幕空间反射与环境光遮蔽。跨设备判断光追是否生效时，应同时核实原生能力、UE RHI 和运行状态。
+Mac 的 Metal 配置支持 Lumen 与硬件光追；旧版对照沿用原查看器的 GI 设置。PC 来源模式未用 Lumen 代替未恢复的私有 PRT／GI，使用显式记录的标准材质与反射兼容设置。普通 iOS 使用移动前向渲染、TAA、屏幕空间反射与环境光遮蔽。跨设备判断光追是否生效时，应同时核实原生能力、UE RHI 和运行状态。
 
 ## iOS
 
@@ -62,6 +62,7 @@ Scripts/package_ios.sh
 
 ## 验证状态与限制
 
+- 2026-11-10 高清接入完成桌面 Metal SM6 全部 26 套组合的加载、待机、切换、设置和部件检查；17 套高清截图逐套核对。Mac Editor 与 iOS arm64 编译／链接通过。本轮按要求停止追加移动／真机测试，并清理原始导出、40 个未引用资产包与生成缓存；证据见 [高清接入说明](Docs/PC_VIEWER_INTEGRATION.md)。
 - 基线工程在不含 `SourceAssets` 的干净 Git 克隆中通过过 Mac Editor 全量编译和 iOS Development arm64 编译／链接。
 - 开发版本已完成多轮 iOS cook、签名、打包、真机安装和运行检查。本机记录位于 `Saved/DevicePreparation`；这些结果对应各次被测版本，不能代替取消过场及后续画质修改后的回归验证。
 - 最新 Mac Editor 模块及常规 iOS Development arm64 编译／链接已通过。取消过场后的本机 Metal SM6／硬件 Lumen 已完成全部 9 套服装的加载、动画、动态、共转、设置关闭和截图回归，结果为 pass，无 fail／unknown；600×900 竖屏另经运行与截图复核，窄屏保持源相机位置并扩展纵向视野，避免退入场景遮挡。材质缺失着色器编译任务造成的加载等待已修复；此前的 Metal 断言在本轮未复现，不能据此认定所有崩溃路径都已排除。最新安装状态见下方真机记录。
@@ -78,11 +79,12 @@ Scripts/package_ios.sh
 | `Source` | C++ 运行模块和构建目标 |
 | `Config` | 游戏、输入、渲染、设备和打包配置 |
 | `Content/Characters` | 角色、服装、动画、材质和贴图 |
+| `Content/PCAssets` | PC 高清模型／纹理、来源记录、适配待机和运行材质／环境 |
 | `Content/Viewer` | Catalog、地图、展台、场景和界面 |
 | `Content/Slate/Fonts` | 中文字体、来源与 OFL 许可 |
 | `Scripts` | 构建、检查、可选重新导入与设备流程 |
 
-离线预览、原始转换输入、未使用资产和构建输出已从工程中清理。取消过场后，运行时的 `Presentation`／`EntryAnimation` 引用和跳过按钮已移除；重新保存当前 Catalog 后完成依赖清理，累计 73 个不可达资产（约 167.5 MiB）已备份移至本机忽略目录 `Saved/Cleanup`。最新依赖报告包含 634 个工程包，全部可达，无缺失、未知依赖或未使用资产；原 `RoleIdle` 待机资产与曲线继续保留。
+离线预览、原始转换输入、未使用资产和构建输出已从工程中清理。取消过场后，运行时的 `Presentation`／`EntryAnimation` 引用和跳过按钮已移除；重新保存当前 Catalog 后完成依赖清理，累计 73 个不可达资产（约 167.5 MiB）已备份移至本机忽略目录 `Saved/Cleanup`。当次清理报告包含 634 个工程包，全部可达，无缺失、未知依赖或未使用资产；原 `RoleIdle` 待机资产与曲线继续保留。
 
 贴图的本机重导入路径已清除，283 张贴图经新进程加载核对，原始 mip 像素哈希、源 ID 和压缩／色彩设置保持一致。资源清理依据运行时入口及 UE AssetRegistry 的硬引用、软引用和管理引用闭包，保留字体和代码动态加载的界面资产。可重复运行只读检查：
 
@@ -96,9 +98,11 @@ Scripts/package_ios.sh
 
 需要重新导入 FBX／PNG 时，见 [导入说明](Docs/ASSET_IMPORT.md) 和 [清单格式](Scripts/MANIFEST.md)。
 
-PC 版新提取的 194 张 PNG、36 个 LOD0 ActorX 网格、6 个 HDR 以及人物页灯光／后期／粒子参数位于 [PCResources](PCResources/README.md)。其中 93 张高清纹理已有当前材质到 PC 参数的绑定核验和定点导入清单；这些源文件尚未在 UE5.8 中导入，现有 `Content` 继续使用原资产。离线工具及固定版本依赖安装入口见 [PCAssetPipeline](Tools/PCAssetPipeline/README.md)，具体差异与证据见 [PC 端资源分析](Docs/PC_ASSET_ANALYSIS.md)。
+PC 提取的模型、高清纹理、HDR 及人物页灯光／后期参数已转换为可编辑 UE 资产，并接入查看器。完整原始导出可从已发布的 [PC 资源快照](https://github.com/AliYa-chen/NZMCharacterViewer/tree/03152adb7ce937649f890455d6650f346e82acc1/PCResources) 恢复；普通打开、编译和运行不依赖根目录导出文件。离线工具及固定版本依赖安装入口见 [PCAssetPipeline](Tools/PCAssetPipeline/README.md)，来源差异见 [PC 端资源分析](Docs/PC_ASSET_ANALYSIS.md)。
 
-另已按安装内全部女性资源补充 [角色与服装源集合](PCResources/Characters/README.md)：309 个骨骼网格包、629 个材质包、1101 个纹理包，涵盖 Bunny／兔女郎、Naimei Suit_A／Suit_C／Bianca 等分支及共享附件。未安装的旧配置引用已跳过，只提交实际导出并验证的资源。新增内容尚未接入查看器，当前运行角色数量仍为本文开头的 5 名／9 套服装。
+安装内女性角色的 [原始源集合说明](https://github.com/AliYa-chen/NZMCharacterViewer/blob/03152adb7ce937649f890455d6650f346e82acc1/PCResources/Characters/README.md) 覆盖 309 个骨骼网格包、629 个材质包和 1,101 个纹理包。运行组合按真实 `UIConfig` 部件清单生成，不把资源包数量当作服装数量。Bunny 耳饰和七实腿部挂件按骨骼挂点运动；女王蛇使用专用待机，球保留参考姿势；艾玛缺失的来源部件会明确标注。
+
+原生转换库共有 6,833 个资产，其中 14 个独立环境候选位于 `Content/Viewer/PCEnvironment`，其余位于 `Content/PCAssets`，编辑器入口为 `/Game/PCAssets/Collections/DA_PCAssetLibrary`。运行接入另建待机、眼部覆盖、动态子集与 PC 环境，保持原库索引字节不变。完整索引见 [PC 资源转换](Docs/PC_ASSET_CONVERSION.md)，运行验证和已知差异见 [高清接入说明](Docs/PC_VIEWER_INTEGRATION.md)。新角色使用明确标注的共享待机，私有 Hair／Eye／SSS、面部、粒子和完整布料仍有缺口。
 
 后续机器优先恢复人物受光、后期与特效时，按 [PC 人物渲染还原交接](Docs/PC_CHARACTER_RENDERING_HANDOFF.md) 执行。文档汇总补取的灯光模板、后期 override、肤／眼／发材质依赖和当前代码中的覆盖点，明确哪些仍需实现、编译和实际画面验收；普通构建不会自动完成这些还原工作。
 

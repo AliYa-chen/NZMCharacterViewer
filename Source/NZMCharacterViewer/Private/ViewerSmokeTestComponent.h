@@ -9,6 +9,7 @@ class FJsonObject;
 class FJsonValue;
 class UViewerPreferences;
 class UViewerSkeletalMeshComponent;
+class USkeletalMeshComponent;
 
 /** Created only by explicit development smoke-test or lighting-sweep flags. */
 UCLASS(Transient)
@@ -45,6 +46,24 @@ private:
         FQuat PreviousRotation = FQuat::Identity;
         bool bFinite = true;
     };
+    struct FAttachmentObservation
+    {
+        TWeakObjectPtr<USkeletalMeshComponent> Child;
+        TWeakObjectPtr<USkeletalMeshComponent> Parent;
+        int32 PartIndex = INDEX_NONE;
+        FName Socket;
+        FTransform Relative = FTransform::Identity;
+        FTransform PreviousSocket = FTransform::Identity;
+        int32 Samples = 0;
+        double MaxPositionErrorCm = 0.0;
+        double MaxRotationErrorDegrees = 0.0;
+        double MaxScaleError = 0.0;
+        double ParentTranslationTravelCm = 0.0;
+        double ParentRotationTravelDegrees = 0.0;
+        bool bFinite = true;
+        bool bParentAndSocketMatch = true;
+        bool bRelativeTransformMatches = true;
+    };
 
     TWeakObjectPtr<AViewerPawn> Viewer;
     TArray<FSelection> Selections;
@@ -68,6 +87,7 @@ private:
     UPROPERTY(Transient) TObjectPtr<UViewerPreferences> SavedPreferences;
     TMap<FString, FString> SavedConsoleVariables;
     TArray<FDynamicObservation> DynamicObservations;
+    TArray<FAttachmentObservation> AttachmentObservations;
     TArray<FTransform> SceneRelativeTransforms;
     float MaxSceneTranslationErrorCm = 0.f;
     float MaxSceneRotationErrorDegrees = 0.f;
@@ -114,6 +134,10 @@ private:
     void BeginDynamicsProbe();
     void SampleDynamics();
     void FinishDynamicsProbe();
+    void BeginAttachmentProbe();
+    void SampleAttachments();
+    void FinishAttachmentProbe();
+    void CheckAttachmentVisibility();
     void CheckResetState(const FString& Prefix);
     void CheckDisabledDynamicsPose();
     void FinishReplayProbe();

@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "status": "passed_visual_review_with_documented_scene_and_shader_limits",
+  "run_started_utc": "2026-11-10T07:46:46.489Z",
+  "run_directory": "/Users/aliya/NZMCharacterViewer/Saved/ViewerSmokeTest/Run_20261110T074646_92159",
+  "launch": {
+    "file": "Saved/PCViewerIntegration/desktop_smoke_launch.json",
+    "sha256": "347b3e39325587e3274fb8e5e6732f93217264c6f18a86dcf91b0c1c9cc05ae8",
+    "catalog_sha256": "d73102bc503ef7157579ea5910df6af57d42c379c7c5a6c61f40c58d6e6adf07",
+    "runtime_module_sha256": "5ad24c403392c3f6f6500b01157dd44daf83b345e69b2cceaac41b94c1b5e678",
+    "environment_report_sha256": "7e55134b1cda1ede3b4ccb70e2dd8af465f90ef02ab4806e57d3890592b06826",
+    "command": "desktop_sm6_full_catalog_final_queen_alignment_and_socket_framing"
+  },
+  "runtime_report": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Report.json",
+  "review_scope": "Read-only image QA of current final actual Metal SM6 desktop run. Only this run screenshots are included; no new render or asset mutation.",
+  "expected_pc_outfits": 17,
+  "reviewed_pc_outfits": 17,
+  "rows": [
+    {
+      "character_id": "angela",
+      "outfit_name": "安吉拉晚宴特工",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_000_Character_00_Outfit_00.png",
+        "sha256": "91a4b7cd2e7544bbb0a59841d70c9bd7f4190f619e00d26842ed78020aed73bd",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000046",
+      "framing": "Head, both hands, complete legs and shoes are inside the model area with clear margins.",
+      "attachments": "Flower/head accessory and dress panels visible.",
+      "eyes": "Eye region is visible but small at full-body screenshot scale; no obvious white EyeOcclusion shell.",
+      "material_observation": "Black dress and skin render with coherent textures; no checker/grid fallback or missing body region observed.",
+      "status": "visually_reviewed_no_new_blocker"
+    },
+    {
+      "character_id": "molly",
+      "outfit_name": "茉莉",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_002_Character_01_Outfit_00.png",
+        "sha256": "53cd853ee890dbf17e786b5f707d382a8b58c94160422dc7b76d62d7af095107",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000028",
+      "framing": "Full anatomy from head to both boot soles is inside the frame.",
+      "attachments": "Hands, jacket and boots visible.",
+      "eyes": "Face visible at limited screenshot scale; no obvious opaque white eye shell.",
+      "material_observation": "Skin, jacket and cloth render coherently; no blank/grid material found.",
+      "status": "visually_reviewed_no_new_blocker"
+    },
+    {
+      "character_id": "molly",
+      "outfit_name": "茉莉-七实",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_003_Character_01_Outfit_01.png",
+        "sha256": "d91a8d3a5fdcc15765c0c700c1b61e667ecd64d0b3ad15582478a61d70849571",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000054",
+      "framing": "Head ornament, both extended hands and complete feet remain inside the frame.",
+      "attachments": "Both lower-leg wheel/accessory structures are visible beside the legs and below the body; no screen-edge clipping observed.",
+      "eyes": "Face/eyes readable only at full-body scale; no obvious white eye-shell regression.",
+      "material_observation": "White/gold outfit and leg accessories render with coherent material assignments; no checker/grid fallback.",
+      "status": "visually_reviewed_no_new_blocker"
+    },
+    {
+      "character_id": "queen",
+      "outfit_name": "精绝女王",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_006_Character_02_Outfit_00.png",
+        "sha256": "c875e276dc2d077bee7e8fd4c57552aeefa7043da55c0b4342220cb84d3ae089",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000044",
+      "framing": "Seated head, torso, both hands, both complete legs and both feet are visible at the center of the throne. Throne top and snake head remain inside the screen; old foreground-throne occlusion is absent.",
+      "attachments": "Snake, throne and static ball remain present. Bottom UI slightly overlays the foreground ball/floor without hiding the character.",
+      "eyes": "Face visible and properly assembled; no obvious white EyeOcclusion shell at this screenshot scale.",
+      "material_observation": "Purple scene and costume/throne materials render coherently. No grid, blank material, missing anatomy or excessive bloom observed.",
+      "status": "visually_reviewed_no_new_blocker"
+    },
+    {
+      "character_id": "queen",
+      "outfit_name": "精绝女王遮脸",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_007_Character_02_Outfit_01.png",
+        "sha256": "6ea19ec5d64abd09c81ed9637b35fcdec0634a0a433b58056cf2e2df68fedef1",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002010044",
+      "framing": "Seated head, torso, both hands, both complete legs and both feet are visible at the center of the throne. Throne top and snake head remain inside the screen; old foreground-throne occlusion is absent.",
+      "attachments": "Snake, throne and static ball remain present. Bottom UI slightly overlays the foreground ball/floor without hiding the character.",
+      "eyes": "Source head mask intentionally covers the eyes; no fine iris claim.",
+      "material_observation": "Purple scene and costume/throne materials render coherently. No grid, blank material, missing anatomy or excessive bloom observed.",
+      "status": "visually_reviewed_no_new_blocker"
+    },
+    {
+      "character_id": "naimei",
+      "outfit_name": "奈美",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_010_Character_03_Outfit_00.png",
+        "sha256": "06d52f821053f0396b266cf9aae70cb860fcfc40d16b1cda061455ae978f3666",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000045",
+      "framing": "Head and complete feet are inside the frame, with ample vertical margins. Hands and cloak are visible.",
+      "attachments": "Cloak, boots and head/ear ornament are present; no screen-edge crop.",
+      "eyes": "Small/downward gaze at full-body scale limits iris judgment; no obvious opaque white eye shell.",
+      "material_observation": "Red hair is intensely emissive with a localized bright halo; floor/reflection has broad dark bands/noise. Scene is not blank or overwhelmed by bloom, and the full character remains identifiable. This retains known private-Hair/SSR approximation limits.",
+      "status": "visually_reviewed_with_material_limits"
+    },
+    {
+      "character_id": "naimei",
+      "outfit_name": "悦-比安卡",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_011_Character_03_Outfit_01.png",
+        "sha256": "aca52fa16755e17150ec77ffb9171ed566fed1eb1d05601ab3e675f95f25146a",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000055",
+      "framing": "Crown, head, full legs and heels remain inside the frame. Side profile/overlapping legs arise from the sampled pose.",
+      "attachments": "Crown, rear hair train and garment panels are visible.",
+      "eyes": "Profile face is small; fine iris verification is not reliable from this screenshot.",
+      "material_observation": "White/gold materials render coherently. No checker/grid fallback, blank material region or excessive bloom observed.",
+      "status": "visually_reviewed_no_new_blocker"
+    },
+    {
+      "character_id": "angel",
+      "outfit_name": "安琪儿",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_014_Character_04_Outfit_00.png",
+        "sha256": "8bb0f20e42f4e4f75b434983dba826cccc3b196b9c5ad8f922a44f844561abc5",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000008",
+      "framing": "Hat, hands, full legs and both boot soles are inside the model region.",
+      "attachments": "Hat/hair and clothing panels are visible.",
+      "eyes": "Eye region visible at full-body scale; no obvious opaque white shell.",
+      "material_observation": "Skin and black/red suit render coherently with no checker/grid material or missing anatomy.",
+      "status": "visually_reviewed_no_new_blocker"
+    },
+    {
+      "character_id": "angel",
+      "outfit_name": "安琪儿-永恒之火",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_015_Character_04_Outfit_01.png",
+        "sha256": "9bcdfa53c6815e1abb89a7b0e95d31ef358cd421e3ba2b226cd9d38d4ce50f47",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000053",
+      "framing": "Long head/hair ornament, body and complete feet remain within the frame.",
+      "attachments": "Long ponytail, head ornament and clothing panels visible.",
+      "eyes": "Side profile is small; fine iris detail cannot be confidently reviewed.",
+      "material_observation": "Character textures render coherently without checker/grid fallback. Retained stage consists of a rectangular city backdrop plane and fragmented dark floor, leaving substantial pure-black area around the background.",
+      "status": "visually_reviewed_with_scene_limits"
+    },
+    {
+      "character_id": "bella",
+      "outfit_name": "贝拉",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_018_Character_05_Outfit_00.png",
+        "sha256": "4cb4455d65f76596f183f20523cf5272b661e82976145e337b9aa92e88ad8609",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000026",
+      "framing": "Head, both hands, complete legs and boots are inside the model region.",
+      "attachments": "Hair, harness and clothing elements visible.",
+      "eyes": "Face visible at small full-body scale; no obvious opaque white shell.",
+      "material_observation": "White hair and dark outfit remain the known stock approximation; no checker/grid fallback or missing body region.",
+      "status": "visually_reviewed_no_new_blocker"
+    },
+    {
+      "character_id": "bella",
+      "outfit_name": "贝拉女团",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_019_Character_05_Outfit_01.png",
+        "sha256": "df6d54168df8d0a78c702305aed9bdf02183b17bf902ef1b58259bd246704c39",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000029",
+      "framing": "Head through complete feet is inside the frame; no anatomy crop.",
+      "attachments": "Jacket, belt/hanging accessory and boots visible.",
+      "eyes": "Small full-body face allows coarse eye appearance only; no obvious white eye shell.",
+      "material_observation": "Outfit renders with coherent white/black fabric and skin materials, no grid/fallback region.",
+      "status": "visually_reviewed_no_new_blocker"
+    },
+    {
+      "character_id": "bunny",
+      "outfit_name": "芭比",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_020_Character_06_Outfit_00.png",
+        "sha256": "f51a3374a76990ff466606da9d2e527eab5d6628ab549e69d81ec84d9cf917ed",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000056",
+      "framing": "Both entire rabbit ears including tips, head, hands, full legs and both shoes are inside the model area. Ear tips are around y265 and shoe bottoms around y690 in the1440x900 capture.",
+      "attachments": "Rabbit-ear socket accessory visibly follows the head. Earlier top/foot cropping is absent in this current capture.",
+      "eyes": "Face/eyes visible but fine iris color remains limited by full-body resolution; no white eye-shell regression apparent.",
+      "material_observation": "Pink ear emission is localized and controlled; black/white costume is readable without checker/grid fallback or missing anatomy.",
+      "status": "visually_reviewed_no_new_blocker"
+    },
+    {
+      "character_id": "emma",
+      "outfit_name": "艾玛（已恢复部件）",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_021_Character_07_Outfit_00.png",
+        "sha256": "2223b8099534b36768a75122f6a14ca3b009a6147f33bf96bdf8926f6b8d6ad3",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000061",
+      "framing": "Helmet, full armored body, both hands and both complete feet are inside the model region.",
+      "attachments": "Recovered helmet/body are assembled; UI explicitly discloses partial recovery and missing source part.",
+      "eyes": "Not applicable: opaque source helmet has no visible human eyes.",
+      "material_observation": "Blue visor, white armor and dark suit textures are coherent; no checker/grid fallback or unintended material holes visible.",
+      "status": "visually_reviewed_no_new_blocker"
+    },
+    {
+      "character_id": "lilith",
+      "outfit_name": "无主-莉莉丝",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_022_Character_08_Outfit_00.png",
+        "sha256": "73766befbcc8ec3d7b8edde3afa4f15eb4affd5408302a09c60050b9559a8367",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000050",
+      "framing": "Head through full boots, both arms and shoulder armor remain inside the model region.",
+      "attachments": "Hair, shoulder armor and vest visible.",
+      "eyes": "Small face/dark makeup limits iris judgment; no obvious white-eye shell.",
+      "material_observation": "Red hair and green/brown clothes are readable, no grid/checker fallback or missing anatomy.",
+      "status": "visually_reviewed_no_new_blocker"
+    },
+    {
+      "character_id": "shirley",
+      "outfit_name": "雪莉杨",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_023_Character_09_Outfit_00.png",
+        "sha256": "34a32711162601cae3930b88faa55cb9b411c0898375b28745fe16b80528b4cd",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000041",
+      "framing": "Hair, both hands, full legs and both shoes fit inside the model region.",
+      "attachments": "Shirt, harness and holsters visible.",
+      "eyes": "Face visible at small full-body scale; no obvious opaque white eye shell.",
+      "material_observation": "Shirt/skin/black boot materials are coherent; no fallback grid or material holes.",
+      "status": "visually_reviewed_no_new_blocker"
+    },
+    {
+      "character_id": "tina",
+      "outfit_name": "黑暗天使",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_024_Character_10_Outfit_00.png",
+        "sha256": "f31d13138890e304247230277904a76b5b19a652e10bc37bcec09bc439810dc8",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000027",
+      "framing": "Head through full boots and both arms are visible with margins.",
+      "attachments": "Pink shoulder/arm attachments remain inside the frame.",
+      "eyes": "Eye region is small; fine iris detail not established from the full-body screenshot.",
+      "material_observation": "Black armor and pink highlights render coherently without oversize bloom or checker/grid fallback.",
+      "status": "visually_reviewed_no_new_blocker"
+    },
+    {
+      "character_id": "widow",
+      "outfit_name": "黑寡妇麻辣教官",
+      "screenshot": {
+        "file": "Saved/ViewerSmokeTest/Run_20261110T074646_92159/Case_025_Character_11_Outfit_00.png",
+        "sha256": "a23347069ad0d84dd32e5b8c321d3035f1cd44a096ce4ee1336b848756e7f90a",
+        "width": 1440,
+        "height": 900
+      },
+      "outfit_id": "pc_10002000039",
+      "framing": "Beret, both hands, full legs and both boot soles remain inside the model region.",
+      "attachments": "Beret, sunglasses, clothing and holsters visible.",
+      "eyes": "Not directly inspectable: source sunglasses intentionally cover the eyes.",
+      "material_observation": "Camouflage and dark cloth materials are coherent; no blank/fallback region or material hole visible.",
+      "status": "visually_reviewed_no_new_blocker"
+    }
+  ],
+  "blocking_findings": [],
+  "limitations": [
+    "Fine iris colors and private shader fidelity cannot be established from a full-body screenshot.",
+    "Known private Hair/SSR and retained stage/background reconstruction limits are recorded per outfit.",
+    "Original online camera/scene routing, performance and original-game pixel equivalence are not claimed."
+  ],
+  "updated_utc": "2026-11-10T07:50:28.595Z",
+  "runtime_report_status": "pass",
+  "runtime_completed_combinations_at_update": 26,
+  "runtime_report_sha256": "c7d83dbe5ece8de593de3da320978e7cebba02c81a26317b8aec6d892f1f2b61",
+  "summary": {
+    "reviewed_pc_outfits": 17,
+    "anatomy_or_framing_blockers": 0,
+    "checker_or_grid_fallbacks_observed": 0,
+    "blank_character_captures": 0,
+    "queen_old_occlusion_resolved": true,
+    "bunny_ears_and_feet_complete": true,
+    "nanami_leg_accessories_complete": true
+  },
+  "contact_sheet": {
+    "file": "Saved/PCViewerIntegration/desktop_final_pc_outfits_contact_sheet.png",
+    "sha256": "f739a507de241899c3a9067b4effb5ab7a919173fa070d895fbaf137ef7b4422",
+    "scope": "All17PCoutfits from final desktop Run_20261110T074646_92159; verified Queen common placement and socket accessory framing."
+  }
+}

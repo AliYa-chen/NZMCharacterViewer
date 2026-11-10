@@ -1,0 +1,12 @@
+{
+  "status": "passed_read_only_dependency_cleanup",
+  "recorded_at_utc": "2026-11-10T07:56:52.214353+00:00",
+  "raw_source_directory_absent": true,
+  "removed_unreferenced_packages": 40,
+  "retained_project_packages": 7573,
+  "missing_or_unknown_dependencies": 0,
+  "unreferenced_packages": 0,
+  "additional_runtime_testing_performed": false,
+  "mobile_runtime_validation": "not_run_user_requested_cleanup",
+  "scope": "Post-removal read-only AssetRegistry reference scan. Existing desktop Metal 26-case results were retained; no further gameplay/mobile test was started."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "original_indexed_packages_retained": 6833,
+  "new_viewer_packages_retained": 101,
+  "total_indexed_packages_checked": 6934,
+  "retired_unreferenced_packages": 40,
+  "catalog_sha256": "d73102bc503ef7157579ea5910df6af57d42c379c7c5a6c61f40c58d6e6adf07",
+  "recorded_at_utc": "2026-11-10T07:57:22.811120+00:00",
+  "scope": "Retained converted/native/runtime asset file hashes remain identical to their completed validation reports after source and unused-package cleanup."
+}

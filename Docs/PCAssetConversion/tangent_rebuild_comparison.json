@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "scope": "Early imported render vertices vs final MeshDescriptionMikkTSpace build; not FPS or device performance",
+  "initial_report_sha256": "3b9fe50a65968ce5b61894b6bea36f2b840a2a4221e2d5d1100538c8a5fc354f",
+  "plan_sha256": "454ef00449aba7a924949b13ae2825219e0fe7f37fa111aacf6ff292d2ae2894",
+  "meshes": 309,
+  "source_points": 4809886,
+  "source_triangles": 5643310,
+  "built_vertices_before": 15572087,
+  "built_vertices_after": 4328600,
+  "built_invalid_nondegenerate_tangent_frames": 0,
+  "source_geometry_weights": "native source and built influence checks passed on all meshes"
+}

@@ -1,0 +1,2810 @@
+{
+  "schema_version": 1,
+  "status": "passed_structural_conversion",
+  "plan_sha256": "454ef00449aba7a924949b13ae2825219e0fe7f37fa111aacf6ff292d2ae2894",
+  "overall_status": "passed_structural_conversion",
+  "require_render_validation": false,
+  "source_manifest": "PCResources/source_manifest.json",
+  "source_manifest_sha256": "b15adb8d43e285fbad31b368567656a3f5943c4a02d30b72fc4df4aa7caa3e96",
+  "importer_version": 2,
+  "counts": {
+    "planned_textures": 1081,
+    "planned_materials": 629,
+    "planned_meshes": 309,
+    "planned_documents": 4472,
+    "manifest_resource_files": 5854,
+    "planned_input_files_including_manifest": 5855,
+    "verified_input_bytes": 3635692277,
+    "planned_output_packages": 6833,
+    "existing_output_packages": 6833,
+    "fresh_verified_main_assets": 6491,
+    "native_verified_meshes": 309,
+    "independent_skeletons_present": 309,
+    "stock_support_assets": 4,
+    "character_navigation_collections": 14,
+    "planned_navigation_collections": 15,
+    "verified_navigation_collections": 15,
+    "environment_candidates_saved": 14,
+    "source_texture_references_unavailable": 173,
+    "unique_texture_packages_unavailable": 12,
+    "failure_count": 0
+  },
+  "validation": {
+    "editor_asset_structure": "passed_structural_conversion",
+    "target_RHI_shader_validation": "failed",
+    "animation_and_cloth": "not_reconstructed_or_verified",
+    "visual_result": "captured_single_model_reference_pose_Metal_SM6",
+    "mac_editor_build": "not_verified",
+    "ios_unsigned_compile_link": "passed_unsigned_compile_link_only",
+    "viewer_catalog_integration": "not_performed",
+    "device_runtime": "not_run",
+    "original_game_visual_comparison": "not_run"
+  },
+  "limitations": [
+    "Material assets are editable stock UE candidates; the original private shaders and complete output wiring are not reconstructed.",
+    "Source JSON/Markdown records are editor-only evidence assets, not playable animation, cloth, Blueprint, Niagara or recovered material graphs.",
+    "Unavailable source texture references remain unavailable; stock helper textures do not count as converted game resources.",
+    "Environment assets are inactive candidates with documented unresolved fields; current viewer routing is unchanged.",
+    "ActorX preserves the exported highest LOD; original bone scales and tangent vectors were absent, and tangents are recomputed.",
+    "Structural/fresh-load verification does not establish target-RHI shader success, appearance, animation or device performance."
+  ],
+  "generated_at_utc": "2026-11-10T07:46:44.828118+00:00",
+  "stages": {
+    "textures": {
+      "expected": 1081,
+      "passed_current": 1081,
+      "missing": 0,
+      "failed": 0,
+      "stale": 0,
+      "extra": 0
+    },
+    "materials": {
+      "expected": 629,
+      "passed_current": 629,
+      "missing": 0,
+      "failed": 0,
+      "stale": 0,
+      "extra": 0
+    },
+    "meshes": {
+      "expected": 309,
+      "passed_current": 309,
+      "missing": 0,
+      "failed": 0,
+      "stale": 0,
+      "extra": 0
+    },
+    "bindings": {
+      "expected": 309,
+      "passed_current": 309,
+      "missing": 0,
+      "failed": 0,
+      "stale": 0,
+      "extra": 0
+    },
+    "documents": {
+      "expected": 4472,
+      "passed_current": 4472,
+      "missing": 0,
+      "failed": 0,
+      "stale": 0,
+      "extra": 0
+    },
+    "verify": {
+      "expected": 6491,
+      "passed_current": 6491,
+      "missing": 0,
+      "failed": 0,
+      "stale": 0,
+      "extra": 0
+    }
+  },
+  "native_mesh_validation": {
+    "verified_mesh_count": 309,
+    "source_points": 4809886,
+    "source_triangles": 5643310,
+    "source_bones": 21418,
+    "source_weight_rows_checked": 10679023,
+    "built_vertices_checked": 4328600,
+    "built_weight_rows_checked": 9539890,
+    "maximum_influences": 8,
+    "maximum_uv_channels": 3,
+    "uv_channel_distribution": {
+      "1": 248,
+      "3": 47,
+      "2": 14
+    },
+    "mesh_count_with_vertex_colors": 52,
+    "maximum_weight_absolute_tolerance": 6.103608758678569e-05,
+    "corner_layout_version": 2,
+    "tangent_build_method": "MeshDescriptionMikkTSpace",
+    "mesh_description_corner_wedge_mismatches": 0,
+    "mesh_description_mikk_zero_tangents": 8,
+    "mesh_count_with_mesh_description_mikk_zero_tangents": 2,
+    "mesh_description_mikk_zero_tangent_scope": "Raw generated MeshDescription vertex-instance count, which may include vertices on the reported degenerate geometry/UV triangles. It is a different counting domain from built render-vertex tangent exceptions and need not be zero. Built nondegenerate frames must still verify with built_tangent_frames_invalid equal to zero.",
+    "built_tangent_frames_checked": 4327373,
+    "built_tangent_frames_invalid": 0,
+    "normalized_source_normal_component_error_max": 1.1920928955078125e-07,
+    "normalized_built_normal_length_squared_error_max": 3.5762786865234375e-07,
+    "tangent_orthogonality_error_max_including_degenerate_exceptions": 0.999984622001648,
+    "tangent_orthogonality_error_max_among_meshes_without_exceptions": 7.116049528121948e-05,
+    "degenerate_uv_or_geometry_tangent_exceptions": 1227,
+    "near_degenerate_geometry_tangent_exceptions": 326,
+    "mesh_count_with_near_degenerate_geometry_tangent_exceptions": 6,
+    "geometry_normal_squared_tolerance": 1e-08,
+    "uv_determinant_absolute_tolerance": 1e-12,
+    "tangent_degeneracy_classification": "Stable incident geometry requires finite triangle cross-product squared length >= UE_SMALL_NUMBER (1e-8), matching UE safe normalization, and finite absolute UV determinant > 1e-12. This is not MikkTSpace's internal degeneracy threshold. Near-degenerate exceptions touch a nonzero cross product below that geometry threshold and have no stable incident geometry/UV triangle.",
+    "mesh_count_with_degenerate_tangent_exceptions": 85,
+    "tangent_exception_policy": "Only render vertices whose every incident built triangle has degenerate UVs or geometry, including geometry below the UE safe-normal threshold, may have a finite invalid tangent frame; these are counted separately and are not claimed as verified nondegenerate tangent frames. Nonfinite tangent vectors cannot receive an exception.",
+    "nondegenerate_tangent_frame_orthogonality_limit": 0.001,
+    "tangent_orthogonality_metric_scope": "Native per-mesh maximum includes degenerate exceptions; a separate exact maximum restricted to nondegenerate vertices is not emitted by the native report.",
+    "corner_rebuild_meshes_with_comparison": 309,
+    "built_vertices_before_corner_rebuild": 6643740,
+    "built_vertices_after_corner_rebuild": 4328600,
+    "built_vertices_removed_by_corner_rebuild": 2315140,
+    "corner_rebuild_comparison_scope": "Before/after values describe each mesh's latest recorded MeshDescription Mikk rebuild. Before may already use an intermediate canonical layout; these totals are not claimed as the original pre-fix baseline."
+  },
+  "failure_kinds": {},
+  "render_evidence": {
+    "shaders": {
+      "status": "failed",
+      "expected_materials": 629,
+      "validated_materials": 0
+    },
+    "preview": {
+      "status": "captured_single_model_reference_pose_Metal_SM6",
+      "scope": "single_model_static_reference_pose_only",
+      "mesh": "/Game/PCAssets/Meshes/db/SK_SK_Char_Angel_Lucia_A_Preview_Mesh_db254e986d08",
+      "source_package": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_Preview_Mesh",
+      "png": {
+        "file": "Saved/PCAssetConversion/Preview/SK_SK_Char_Angel_Lucia_A_Preview_Mesh_db254e986d08_yaw35_0.png",
+        "sha256": "9152695e1789513cf5271bbea7f477c04c6dc98cac04c8b2975763a9bfa7e067",
+        "bytes": 609202,
+        "width": 900,
+        "height": 1200,
+        "bit_depth": 8,
+        "color_type": 6,
+        "pixel_check": "nonuniform_rendered_pixels",
+        "rgb_min": [
+          0,
+          0,
+          0
+        ],
+        "rgb_max": [
+          239,
+          231,
+          231
+        ],
+        "quantized_rgb_bins": 305,
+        "pixels_different_from_first": 954045,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "validation_scope": "PNG integrity and nonblank pixels; subject appearance still requires visual review"
+      },
+      "report_file": "Saved/PCAssetConversion/Preview/preview_report.json",
+      "report_sha256": "f175db82d692a272a7812247c9866b67348272a08bbe02e944828cd0deb78e80",
+      "pixel_integrity": "PNG_CRC_dimensions_SHA256_and_decoded_nonuniform_pixels_verified",
+      "original_game_comparison": "not_performed",
+      "all_character_visual_validation": "not_performed",
+      "visual_review": "image_requires_separate_subject_review_not_established_by_pixel_statistics",
+      "asset_hash_binding": "capture report records planned assets; per-capture package hashes were not recorded",
+      "limitations": [
+        "Stock three-light inspection with manual exposure, not the recovered source lighting or camera.",
+        "Converted materials are documented stock approximations; original private shaders are not recovered.",
+        "Reference-pose capture does not verify animation, cloth, viewer interaction, other characters or iOS.",
+        "An active Metal shader map and nonblank PNG do not establish original-game visual equivalence."
+      ]
+    },
+    "builds": {
+      "mac_editor": {
+        "status": "not_verified"
+      },
+      "ios": {
+        "status": "passed_unsigned_compile_link_only",
+        "report": "Saved/BuildIOSCompileVerification.json",
+        "report_sha256": "596b28080b0a801bfd9c5d01b1c7262dadfd4873d5ac20d6f1153b86dc20b442",
+        "binary_sha256": "56a8d6895dc89022f36d10c14e90d25c8adf8d5283f560ce8f5481caab57ce46",
+        "asset_cooking": "not_performed",
+        "signing": "not_performed",
+        "device_runtime": "not_run",
+        "scope": "C++ target compilation/linking only; does not verify iOS asset cooking, signing or device runtime."
+      }
+    },
+    "errors": [
+      {
+        "scope": "shaders",
+        "error": "Shader execution input changed: Plugins/PCAssetImporter/Binaries/Mac/libUnrealEditor-PCAssetImporter.dylib"
+      }
+    ],
+    "required_render_validation_satisfied": false
+  },
+  "output_tree_coverage": {
+    "pc_assets": {
+      "expected": 6932,
+      "actual": 6932,
+      "missing": 0,
+      "unindexed": 0,
+      "exact_match": true,
+      "original_conversion_expected": 6819,
+      "approved_viewer_additions": 113
+    },
+    "environment_candidates": {
+      "expected": 14,
+      "actual": 14,
+      "missing": 0,
+      "unindexed": 0,
+      "exact_match": true,
+      "original_conversion_expected": 14,
+      "approved_viewer_additions": 0
+    }
+  },
+  "failures": [],
+  "unknown_source_texture_references": [
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Base/Materials/VMI_EyeTearduc",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Base/Materials/VMI_EyeTearduc_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Base/Materials/VMI_Eyelash_01",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Base/Materials/VMI_Eyelash_01_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Arm_3P_FX",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI_FX",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI_FX_ACC",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_B_UI_FX",
+      "texture_package": "/Game/MaterialLib/Textures/Noise/T_NoiseLava",
+      "parameter_info": {
+        "Name": "POM Noise",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_B_UI_FX",
+      "texture_package": "/Game/MaterialLib/Textures/Noise/T_NoiseSmooth",
+      "parameter_info": {
+        "Name": "DistortionMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Eyelash_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_Eye_UI",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "IrisHighlightTex",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Materials/3P/VMI_Pendant_Hand_Band_A04_LXYring_A_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Cloak_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_EyeTearduc_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Hat_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angel/CommonRes/Materials/VMI_Wristband_OP",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/1P/VMI_Char_Angela_Suit_B_1P_Arm",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/1P/VMI_Char_Angela_Suit_B_1P_Hand",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Part_Hat_3P",
+      "texture_package": "/Game/MaterialLib/Textures/HDRI/T_HDRI_LightSphere",
+      "parameter_info": {
+        "Name": "HDR",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Trousers_02_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Part_Hat_UI",
+      "texture_package": "/Game/MaterialLib/Textures/HDRI/T_HDRI_LightSphere",
+      "parameter_info": {
+        "Name": "HDR",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Eyelash_01_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Angela/CommonRes/Materials/UI/VMI_Char_Angela_Suit_B_Eyelash_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bella/Bella_Pop_C/Materials/3P/VMI_Char_Bella_Pop_C_Accessory_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bella/Bella_Pop_C/Materials/3P/VMI_Char_Bella_Pop_C_EyeTearduc_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bella/Bella_Pop_C/Materials/3P/VMI_Char_Bella_Pop_C_Eyelash_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bella/Bella_Pop_C/Materials/UI/VMI_Char_Bella_Pop_C_Eyelash_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bella/Bella_Pop_C/Materials/VMI_Char_Bella_Pop_C_1P",
+      "texture_package": "/Game/MaterialLib/Textures/T_ReflectionMap",
+      "parameter_info": {
+        "Name": "CustomReflectionMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bella/Bella_Suit_D/Meterials/3p/VMI_Bella_Suit_Arm_3p",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bella/Bella_Suit_D/Meterials/3p/VMI_Bella_Suit_Clothes_3p",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bella/Bella_Suit_D/Meterials/3p/VMI_Bella_Suit_body_D_1p",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bella/Bella_Suit_D/Meterials/3p/VMI_Char_Bella_Suit_EyeTearduc_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bunny/Bunny_Suit_C/Materials/UI/VMI_Char_Bunny_Suit_C_Clothes_UI_Mask",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bunny/Bunny_Suit_C/Materials/UI/VMI_Char_Bunny_Suit_C_Suits_UI_Mask",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bunny/Bunny_Suit_C/Materials/VMI_Char_Bunny_Suit_C_Accessory_02",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bunny/Bunny_Suit_C/Materials/VMI_Char_Bunny_Suit_C_Clothes",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bunny/Bunny_Suit_C/Materials/VMI_Char_Bunny_Suit_C_Clothes_Mask",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bunny/Bunny_Suit_C/Materials/VMI_Char_Bunny_Suit_C_Shoes",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bunny/Bunny_Suit_C/Materials/VMI_Char_Bunny_Suit_C_Suits_Mask",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bunny/Bunny_Suit_C/Materials/VMI_Char_Bunny_Suit_C_Trousers",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bunny/CommonRes/Materials/UI/VMI_Mat_Char_Bunny_Eyelash_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Bunny/CommonRes/Materials/VMI_Mat_Char_Bunny_Eyelash",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Eyelash_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Eyelash_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Eyelash_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Eyelash_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Eyelash_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Eyelash_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Coat_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Limbs_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Shorts_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Eyelash_01_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Eyelash_01_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Arm_1P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/Head/VMI_Char_Naimei_Bianca_A_EyeTearduc_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/Head/VMI_Char_Naimei_Bianca_A_Eyelash_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/Head/VMI_Char_Naimei_Bianca_A_Eyelash_3P_PC",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/VMI_Char_Naimei_Bianca_A_Accessory_3P_Mask",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/VMI_Char_Naimei_Bianca_A_Accessory_Trans_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/VMI_Char_Naimei_Bianca_A_Dress_3P_Trans",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/VMI_Char_Naimei_Bianca_A_Shoes_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/VMI_Char_Naimei_Bianca_A_Veil_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/VMI_Char_Naimei_Bianca_A_Veil_3P_Trans",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/UI/Head/VMI_Char_Naimei_Bianca_A_Eyelash_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/UI/VMI_Char_Naimei_Bianca_A_Dress_Trans_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_A/Materials/1P/VMI_Char_Naimei_Suit_A_1P_Arm_FX",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_A/Materials/3P/VMI_Char_Naimei_Suit_A_Accessory_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_A/Materials/3P/VMI_Char_Naimei_Suit_A_Arm_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_A/Materials/3P/VMI_Char_Naimei_Suit_A_Arm_3P_Lod1",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_A/Materials/3P/VMI_Char_Naimei_Suit_A_Dress_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_A/Materials/3P/VMI_Char_Naimei_Suit_A_Shoes_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_A/Materials/VMI_Char_Naimei_Suit_A_Accessory_Diamond_UI",
+      "texture_package": "/Game/MaterialLib/Textures/HDRI/T_HDRI_LightSphere",
+      "parameter_info": {
+        "Name": "HDR",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_A/Materials/VMI_Char_Naimei_Suit_A_Clothes_UI",
+      "texture_package": "/Game/Avatar/Base/Textures/T_Basic_Gray",
+      "parameter_info": {
+        "Name": "ReflectionMatcapMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_A/Pendant/Hand/Pendant_Hand_Band_A03_Nami_A/Materials/3P/VMI_Pendant_Hand_Band_A03_Nami_A_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/3P/Head/VMI_Char_Naimei_Suit_C_Eyelash_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/3P/VMI_Char_Naimei_Suit_C_Arm_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/3P/VMI_Char_Naimei_Suit_C_Arm_Trans_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/3P/VMI_Char_Naimei_Suit_C_Clothes_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Eyelash_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Arm_UI_Trans",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Eyelash_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Eyelash_UI1",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Arm",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Accessory_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Accessory_Mask_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Arm_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Belt_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Belt_Mask_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Clothes_Mask_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Hat_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A_3P",
+      "texture_package": "/Game/MaterialLib/Textures/HDRI/T_HDRI_LightSphere",
+      "parameter_info": {
+        "Name": "HDR",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Tran_Weapon",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon_A_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Accessory_Mask_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Belt_Mask_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_Mask_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_Tran_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A",
+      "texture_package": "/Game/MaterialLib/Textures/HDRI/T_HDRI_LightSphere",
+      "parameter_info": {
+        "Name": "HDR",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Materials/3P/VMI_Pendant_Hand_Band_S02_JQueen_S_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Eyelash_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Eyelash_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Shirley/Shirley_Suit_B/Materials/3P/VMI_Char_Shirley_Suit_B_Accessories_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Shirley/Shirley_Suit_B/Materials/3P/VMI_Char_Shirley_Suit_B_Arm_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Shirley/Shirley_Suit_B/Materials/3P/VMI_Char_Shirley_Suit_B_Shoe_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Shirley/Shirley_Suit_B/Materials/3P/VMI_Char_Shirley_Suit_B_Trousers_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Shirley/Shirley_Suit_B/Materials/UI/VMI_Char_Shirley_Suit_B_Shoe_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Tina/Tina_Drone_B/Materials/UI/VMI_Char_Tina_Drone_B_Stoking_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_Default_StandardNormal",
+      "parameter_info": {
+        "Name": "DetailNormal",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Tina/Tina_Drone_B/Materials/UI/VMI_Char_Tina_Drone_B_Stoking_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_Default_White",
+      "parameter_info": {
+        "Name": "DetailHeight",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Widow/CommonRes/Materials/3P/VMI_Char_Widow_Suit_C_Eyelash_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Widow/CommonRes/Materials/UI/VMI_Char_Widow_Eyelash_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Widow/Widow_Suit_C/Materials/3P/VMI_Char_Widow_Suit_C_Accessory_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Widow/Widow_Suit_C/Materials/3P/VMI_Char_Widow_Suit_C_Cloths_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Widow/Widow_Suit_C/Materials/3P/VMI_Char_Widow_Suit_C_Glasses_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Widow/Widow_Suit_C/Materials/3P/VMI_Char_Widow_Suit_C_Glasses_Trans_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Character/Widow/Widow_Suit_C/Materials/UI/VMI_Char_Widow_Suit_C_Glasses_Trans_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_A/Materials/3P/VMI_Pendant_Back_Bag_All_Termite_A_OP_3P",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_BlackA",
+      "parameter_info": {
+        "Name": "DecalMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_A/Materials/3P/VMI_Pendant_Back_Bag_All_Termite_A_OP_3P",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_NRMap",
+      "parameter_info": {
+        "Name": "DecalNormalMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_B/Materials/3P/VMI_Pendant_Back_Bag_All_Termite_B_3P",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_BlackA",
+      "parameter_info": {
+        "Name": "DecalMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_B/Materials/3P/VMI_Pendant_Back_Bag_All_Termite_B_3P",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_NRMap",
+      "parameter_info": {
+        "Name": "DecalNormalMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Pendant/Bag/Pendant_Bag_Back_All_Lls04_A/Materials/3P/VMI_Pendant_Bag_Back_All_Lls04_A_01",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Pendant/Bag/Pendant_Bag_Back_All_Lls04_A/Materials/3P/VMI_Pendant_Bag_Back_All_Lls04_A_02",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_BlackA",
+      "parameter_info": {
+        "Name": "DecalMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Pendant/Bag/Pendant_Bag_Back_All_Lls04_A/Materials/3P/VMI_Pendant_Bag_Back_All_Lls04_A_02",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_NRMap",
+      "parameter_info": {
+        "Name": "DecalNormalMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Materials/3P/VMI_Pendant_Face_Glass_C04_Cyber_B_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Materials/3P/VMI_Pendant_Head_Up_C03_Earphone_B_3P",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Effect/Avatar/Pendant/S_S02_JQueen/Wing/TPP/Material/MI_EFX_Queen_Dissolve_CC_02",
+      "texture_package": "/Game/Avatar/Base/Textures/T_Basic_Gray",
+      "parameter_info": {
+        "Name": "ReflectionMatcapMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Effect/Avatar/Pendant/S_S02_JQueen/Wing/TPP/Material/MI_EFX_Queen_Dissolve_CC_02",
+      "texture_package": "/Game/MaterialLib/Textures/T_ReflectionMap",
+      "parameter_info": {
+        "Name": "CustomReflectionMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Queen_Snake_Eye_LJJ",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "DetailTex",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Snake_LJJ_5",
+      "texture_package": "/Game/Avatar/Base/Textures/T_Basic_Gray",
+      "parameter_info": {
+        "Name": "ReflectionMatcapMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Snake_LJJ_5",
+      "texture_package": "/Game/MaterialLib/Textures/T_ReflectionMap",
+      "parameter_info": {
+        "Name": "CustomReflectionMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "BaseTex",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "DetailTex",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Effects/EFX_Base/M_EFX_Master_Base_NoParticleColor",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "AlphaMask _A",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Effects/MainMaterial/lobbyDissolve/M_Avatar_Dissipate_Snake",
+      "texture_package": "/Game/Avatar/Base/Textures/T_Basic_Gray",
+      "parameter_info": {
+        "Name": "ReflectionMatcapMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Effects/MainMaterial/lobbyDissolve/M_Avatar_Dissipate_Snake",
+      "texture_package": "/Game/Avatar/Base/Textures/T_Basic_Gray",
+      "parameter_info": {
+        "Name": "SnakeClipMask",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Effects/MainMaterial/lobbyDissolve/M_Avatar_Dissipate_Snake",
+      "texture_package": "/Game/MaterialLib/Textures/T_ReflectionMap",
+      "parameter_info": {
+        "Name": "CustomReflectionMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "IrisHighlightTex",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_N",
+      "parameter_info": {
+        "Name": "Normal",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_N",
+      "parameter_info": {
+        "Name": "DetailNormal",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "IrisMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_BlackA",
+      "parameter_info": {
+        "Name": "EmissiveMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "ScleraColor",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC_Default",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "IrisHighlightTex",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC_Default",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_N",
+      "parameter_info": {
+        "Name": "Normal",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC_Default",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_N",
+      "parameter_info": {
+        "Name": "DetailNormal",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC_Default",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "IrisMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC_Default",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_BlackA",
+      "parameter_info": {
+        "Name": "EmissiveMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_Emssive_PC_Default",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "ScleraColor",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "IrisHighlightTex",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_N",
+      "parameter_info": {
+        "Name": "Normal",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_N",
+      "parameter_info": {
+        "Name": "DetailNormal",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "IrisMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/VM_Eye_Master_PC",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "ScleraColor",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/MI_Avatar_Diamond",
+      "texture_package": "/Game/MaterialLib/Textures/HDRI/T_HDRI_LightSphere",
+      "parameter_info": {
+        "Name": "HDR",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_Brushed_Cloth",
+      "texture_package": "/Game/Avatar/Base/Textures/T_Basic_Gray",
+      "parameter_info": {
+        "Name": "ReflectionMatcapMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_ClearCoat_PC",
+      "texture_package": "/Game/Avatar/Base/Textures/T_Basic_Gray",
+      "parameter_info": {
+        "Name": "ReflectionMatcapMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_Diamond",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_N",
+      "parameter_info": {
+        "Name": "Diamond Normal",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_Diamond",
+      "texture_package": "/Game/MaterialLib/Textures/HDRI/T_HDRI_LightSphere",
+      "parameter_info": {
+        "Name": "HDR",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_Effect",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_Mask",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_BlackA",
+      "parameter_info": {
+        "Name": "DecalMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_Effect_Mask",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_NRMap",
+      "parameter_info": {
+        "Name": "DecalNormalMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_Fur_UI",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+      "parameter_info": {
+        "Name": "FurPatternMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_LiquidCrystal_UI",
+      "texture_package": "/Game/MaterialLib/Textures/Noise/T_NoiseLava",
+      "parameter_info": {
+        "Name": "POM Noise",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_LiquidCrystal_UI",
+      "texture_package": "/Game/MaterialLib/Textures/Noise/T_NoiseSmooth",
+      "parameter_info": {
+        "Name": "DistortionMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_LiquidCrystal_UI",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_N",
+      "parameter_info": {
+        "Name": "NormalMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC",
+      "texture_package": "/Game/MaterialLib/Textures/T_Default_StandardNormal",
+      "parameter_info": {
+        "Name": "DetailNormal",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_Stocking_PC",
+      "texture_package": "/Game/MaterialLib/Textures/T_Default_White",
+      "parameter_info": {
+        "Name": "DetailHeight",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_Tran_Front_UI",
+      "texture_package": "/Game/MaterialLib/Textures/Default/T_Default_BlackA",
+      "parameter_info": {
+        "Name": "[CubrReflection] CubeMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent_Mask",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_Avatar_Translucent_UI",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "UltraLowCookedBaseColorMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent/M_EyeTearduc",
+      "texture_package": "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+      "parameter_info": {
+        "Name": "OpacityMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    },
+    {
+      "kind": "material_texture_target_missing",
+      "source_package": "/Game/MaterialLib/Materials/Character/Parent_HD/M_Avatar_HD",
+      "texture_package": "/Game/MaterialLib/Textures/T_ReflectionMap",
+      "parameter_info": {
+        "Name": "CustomReflectionMap",
+        "Association": "GlobalParameter",
+        "Index": -1
+      }
+    }
+  ],
+  "unknown_source_texture_packages": [
+    "/Game/Avatar/Base/Textures/T_Basic_Gray",
+    "/Game/MaterialLib/Textures/Default/T_Default_BlackA",
+    "/Game/MaterialLib/Textures/Default/T_Default_N",
+    "/Game/MaterialLib/Textures/Default/T_Default_NRMap",
+    "/Game/MaterialLib/Textures/Default/T_Default_White_SRGB",
+    "/Game/MaterialLib/Textures/HDRI/T_HDRI_LightSphere",
+    "/Game/MaterialLib/Textures/Noise/T_NoiseLava",
+    "/Game/MaterialLib/Textures/Noise/T_NoiseSmooth",
+    "/Game/MaterialLib/Textures/T_D_BasicBaseColor_Gray",
+    "/Game/MaterialLib/Textures/T_Default_StandardNormal",
+    "/Game/MaterialLib/Textures/T_Default_White",
+    "/Game/MaterialLib/Textures/T_ReflectionMap"
+  ],
+  "output_main_asset_bytes": 3948261708,
+  "allow_viewer_integration": true,
+  "viewer_integration_additions": {
+    "status": "passed_current_report_and_package_hashes",
+    "counts": {
+      "Animations": 67,
+      "Portraits": 12,
+      "ViewerMaterials": 18,
+      "Dynamics": 4,
+      "ViewerEnvironments": 12
+    },
+    "approved_additions": 113,
+    "inputs": {
+      "Saved/PCViewerIntegration/viewer_plan.json": "c897702f443e641a3892851133bab8e09bb685f61731d44408e6bfd7262d61e7",
+      "Saved/PCViewerIntegration/baseline_catalog.json": "1e6901e9043ba11ddbd93e8f8588325406e428934ebdeec30c0effcdbb3270d9",
+      "Saved/PCViewerIntegration/animation_report.json": "8f03edaca18e8a082e19ef830df3a283227c67bb77f0a8a04dbb5585acedb0e8",
+      "Saved/PCViewerIntegration/portraits_report.json": "0028a096ad73ffc9153c7a2e06e69f257f7c273f7374b701e71f16a2a8da62e0",
+      "Saved/PCViewerIntegration/material_overrides_report.json": "aad077e142912f591a7f0f745e1e02e4eccf57036784c2aa5ea23670bdf05e08",
+      "Saved/PCViewerIntegration/dynamics_report.json": "a05eb4ecc45580c8a47d818ceb2fe73044be1ea7205a05247833f216d440a885",
+      "Saved/PCViewerIntegration/viewer_environment_plan.json": "bea909534e353ab98db6d3f4c8faccc1212c8a48b01acee564af158e21a37767",
+      "Saved/PCViewerIntegration/viewer_environment_report.json": "7e55134b1cda1ede3b4ccb70e2dd8af465f90ef02ab4806e57d3890592b06826",
+      "Docs/PCAssetConversion/asset_index.json": "7c7219c6971d583061d88a7ebd93d414f0b42f84a4e8acc572003f3f94d26f95",
+      "Saved/PCViewerIntegration/integration_audit.json": "cef253f1676b52bf53310ce79ebfc0663555ccb755eb0f11ab28af3716499113",
+      "Content/Viewer/Data/DA_ViewerCatalog.uasset": "d73102bc503ef7157579ea5910df6af57d42c379c7c5a6c61f40c58d6e6adf07"
+    },
+    "assets": [
+      {
+        "target": "/Game/PCAssets/Animations/04/A_PC_Bella_12901050001_043fc86bfedb28",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/04/A_PC_Bella_12901050001_043fc86bfedb28.uasset",
+        "bytes": 61231,
+        "sha256": "54b997ca668628086c7525a53cd21d8439add170aebac30cf6968684ae54804c"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/06/A_PC_Angel_10801060002_060d65af377c90",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/06/A_PC_Angel_10801060002_060d65af377c90.uasset",
+        "bytes": 246450,
+        "sha256": "06c4901d683401580a3ea6d85bbe5dd80241ca4ac1b56296a9227767a8058619"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/0d/A_PC_Bella_12801040001_0d5dc209bb17a1",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/0d/A_PC_Bella_12801040001_0d5dc209bb17a1.uasset",
+        "bytes": 162823,
+        "sha256": "1e56d973a76e2518448a6298f26a40ed80c64afe1e8f539a81fe87cdeb11b81b"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/14/A_PC_Widow_13901010001_14e3e75de556a7",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/14/A_PC_Widow_13901010001_14e3e75de556a7.uasset",
+        "bytes": 742772,
+        "sha256": "f0f053df2675e618e1ed21044921dc6ec9fa07d085b89aa4f4d48e14ad52133c"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/1b/A_PC_Shirley_14101010001_1b5910f9fe729d",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/1b/A_PC_Shirley_14101010001_1b5910f9fe729d.uasset",
+        "bytes": 800986,
+        "sha256": "359240a54d03b9802c171f35b8aa22690cd8dd4bd34f0d63d550926a233c9e43"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/20/A_PC_Bella_12801010001_209ca9fb638a7c",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/20/A_PC_Bella_12801010001_209ca9fb638a7c.uasset",
+        "bytes": 615932,
+        "sha256": "f333acf91ed1158bf84a7986c3ff1bba12e39bf19d2d23bddb92e7080c7c7967"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/21/A_PC_Molly_10054010004_21d13af6521f70",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/21/A_PC_Molly_10054010004_21d13af6521f70.uasset",
+        "bytes": 394148,
+        "sha256": "f3de033aab874b20732c2910f6e3b48a5e0d07d52ce5afb43056de39bf139685"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/21/A_PC_Molly_12601010001_2110422ee9bc72",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/21/A_PC_Molly_12601010001_2110422ee9bc72.uasset",
+        "bytes": 728173,
+        "sha256": "8d09ac6f0138dc1b3e3d817028d9c5914f79d37580996e35170bfd5ee4930530"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/23/A_PC_Shirley_14101040001_239e8ad933c325",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/23/A_PC_Shirley_14101040001_239e8ad933c325.uasset",
+        "bytes": 318427,
+        "sha256": "bb2a5ae44cce6194aee04fc15e178460bec94edf8f76d8ef07e7ad64a844b73f"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/25/A_PC_Queen_14401060001_25701a8e06d974",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/25/A_PC_Queen_14401060001_25701a8e06d974.uasset",
+        "bytes": 598853,
+        "sha256": "605e4341117e1244f982fa48a569258967f6188a2779ac9f99846353db127930"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/29/A_PC_Molly_12601070001_2979d2228ea020",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/29/A_PC_Molly_12601070001_2979d2228ea020.uasset",
+        "bytes": 240750,
+        "sha256": "b00176b2e0902d6705220d26638e42bacb7286ba4bb62d873869ea7f44442a1e"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/33/A_PC_Naimei_10055010004_336633567cee16",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/33/A_PC_Naimei_10055010004_336633567cee16.uasset",
+        "bytes": 586621,
+        "sha256": "1363ed3d981cdd1cae068a4a554c37b7fe9381389f0597ae600aecdb497ad8cc"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/33/A_PC_Tina_12501010001_334507e2673a67",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/33/A_PC_Tina_12501010001_334507e2673a67.uasset",
+        "bytes": 625651,
+        "sha256": "0c319e63437e1ddb785ff3a681e299e5d86a0f7a17feacf41268a1b8c8e8a12c"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/35/A_PC_Queen_14401070002_35e3f4a1572a8d",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/35/A_PC_Queen_14401070002_35e3f4a1572a8d.uasset",
+        "bytes": 64784,
+        "sha256": "65cc06d1d4ee751c9ca07532ca0996c843a36f3e1021026425cea7058e52ac48"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/37/A_PC_Lilith_10050010002_3726711ce6eb4e",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/37/A_PC_Lilith_10050010002_3726711ce6eb4e.uasset",
+        "bytes": 742732,
+        "sha256": "b052bb8fb9ae32bc39cc0d4c569ba710016f2589c418591b22d1d679036b3730"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/3d/A_PC_Angel_10801040001_3d59c0f7d19bfd",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/3d/A_PC_Angel_10801040001_3d59c0f7d19bfd.uasset",
+        "bytes": 768167,
+        "sha256": "a78e1660e4921a26298bc614b8252fc7d997207e19ffd6f59e41cb555314ff58"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/43/A_PC_Molly_12601040001_4334529d5fe407",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/43/A_PC_Molly_12601040001_4334529d5fe407.uasset",
+        "bytes": 177664,
+        "sha256": "c451a09e24b0376bed3475a89d5d4b987da77da3689e1604420f0cca563a50d8"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/46/A_PC_Tina_12501050002_46e31fbe8595d0",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/46/A_PC_Tina_12501050002_46e31fbe8595d0.uasset",
+        "bytes": 61163,
+        "sha256": "22f261e153cc247ee8dd766198f1a3349a4eb83f877b31266c6bd57728d641e8"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/4a/A_PC_Naimei_14501050001_4acd3700437f18",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/4a/A_PC_Naimei_14501050001_4acd3700437f18.uasset",
+        "bytes": 465987,
+        "sha256": "f40f4ce638cab4fbd6fca7fe7ed4d4648e2593f6dca739b1ef29f5854c08ae7b"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/50/A_PC_Bunny_10056010002_504d9b0be508cb",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/50/A_PC_Bunny_10056010002_504d9b0be508cb.uasset",
+        "bytes": 742718,
+        "sha256": "c2180f7b27af8908daf5ee47f717fdb5e34f458b6e01a60d3ca20c1fca2165aa"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/56/A_PC_Angel_10053010003_566163954f2287",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/56/A_PC_Angel_10053010003_566163954f2287.uasset",
+        "bytes": 308591,
+        "sha256": "6a6bbb016a10d3bb993d76d36c7c18955cb7888f5f255d358fd47e66f92b166b"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/57/A_PC_Widow_13901050001_57ef58cc9a74ff",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/57/A_PC_Widow_13901050001_57ef58cc9a74ff.uasset",
+        "bytes": 61204,
+        "sha256": "c5e6105887c67625656bd5ae99d6812d76bbe1492172bdd45dc57610ae4ace27"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/58/A_PC_Angel_10801050002_580f37603a95a0",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/58/A_PC_Angel_10801050002_580f37603a95a0.uasset",
+        "bytes": 317468,
+        "sha256": "f39fedde2dbc22776b7fdf882eadd8dbd7a702b2d5b98a8f571667076e4d04db"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/64/A_PC_Angela_14601080001_644265dc57b1bd",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/64/A_PC_Angela_14601080001_644265dc57b1bd.uasset",
+        "bytes": 87851,
+        "sha256": "49c413ec76a25cf21dea42d68007c4412631884082b8ddbd6e25621b326915b3"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/67/A_PC_Widow_13901040001_67cf7f11980ccc",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/67/A_PC_Widow_13901040001_67cf7f11980ccc.uasset",
+        "bytes": 161938,
+        "sha256": "c8739ed46466ee1afd387756440a1d08fe3cb75d24db41d8953abd702909de77"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/6c/A_PC_Angela_14601010001_6cc6604ce4554e",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/6c/A_PC_Angela_14601010001_6cc6604ce4554e.uasset",
+        "bytes": 1026463,
+        "sha256": "a8a28d21458ba3b22230eb155f39ed061fa493edad6711418c22131615c82146"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/72/A_PC_Naimei_14501060001_723d652fdff5c6",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/72/A_PC_Naimei_14501060001_723d652fdff5c6.uasset",
+        "bytes": 402716,
+        "sha256": "4a6f2be99c4a585b7886ffb17aa6c97f0b0ae428564cb662dfe1ae6f130c5932"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/77/A_PC_Queen_14401010001_77a63366ce0628",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/77/A_PC_Queen_14401010001_77a63366ce0628.uasset",
+        "bytes": 1342249,
+        "sha256": "9ffe914fa40fbfcb64e869c15b8febdf0d207be08527efea96df762a199d3749"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/7b/A_PC_Lilith_10050010004_7ba83ff75ecb7a",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/7b/A_PC_Lilith_10050010004_7ba83ff75ecb7a.uasset",
+        "bytes": 61191,
+        "sha256": "32a08fce9beae02ae5fe5c4c5121a71589ad93cb40d622078f87639356d86f52"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/7f/A_PC_Molly_10054010002_7f3e2bbcea509e",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/7f/A_PC_Molly_10054010002_7f3e2bbcea509e.uasset",
+        "bytes": 699685,
+        "sha256": "6d5b5cdcd5071b811cbb5c9a4f61f95fb3a153675e924446ea74c095c7cc2a14"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/7f/A_PC_Queen_14401080001_7f5e467fdfe54d",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/7f/A_PC_Queen_14401080001_7f5e467fdfe54d.uasset",
+        "bytes": 1336434,
+        "sha256": "2bf8e72683a52c359185ca6602b1b83958f13c4e4032d8d06008c08ccca72ba3"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/85/A_PC_Queen_14401010001_8586821024ce17",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/85/A_PC_Queen_14401010001_8586821024ce17.uasset",
+        "bytes": 1342242,
+        "sha256": "732d489aed37c6fa35b344053302e933bb17edf679e67aa9c4d479d879540112"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/88/A_PC_Naimei_10055010003_88cb628055344f",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/88/A_PC_Naimei_10055010003_88cb628055344f.uasset",
+        "bytes": 329062,
+        "sha256": "7572564d307a2ef384c8f07ed50489511c43ed0da1ed7feccca7251cd2a9f738"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/8c/A_PC_Molly_10054010008_8c191522386ab7",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/8c/A_PC_Molly_10054010008_8c191522386ab7.uasset",
+        "bytes": 234968,
+        "sha256": "5d7725cb3c3d763015583f2b6a86894379ecb402e0729171a772e77f18c52237"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/8e/A_PC_Emma_10061010002_8ed05a240f7135",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/8e/A_PC_Emma_10061010002_8ed05a240f7135.uasset",
+        "bytes": 623813,
+        "sha256": "1314933cf774caeea327a0e31c0b5a5144c7ac87da60d90920127a4c72666e75"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/8e/A_PC_Queen_14401060001_8e71ba4358fc62",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/8e/A_PC_Queen_14401060001_8e71ba4358fc62.uasset",
+        "bytes": 598860,
+        "sha256": "ebe93829c6d5d955180f3ff38f0b2e19bf7a09d677d1a0a89fceef3015b9a541"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/8f/A_PC_Molly_10054010003_8f76a046822e7b",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/8f/A_PC_Molly_10054010003_8f76a046822e7b.uasset",
+        "bytes": 973697,
+        "sha256": "3f8d38cdba35e0acde3bed6ed1b48a9ac8c6d65e16b354c38ebd2925b3efddac"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/91/A_PC_Naimei_14501010001_91ea6dbd6b0a9e",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/91/A_PC_Naimei_14501010001_91ea6dbd6b0a9e.uasset",
+        "bytes": 893928,
+        "sha256": "56987a58a8b4c73a76efb7d51a166b5ef3a4588d1d7c8db904ccd707cb5cb6eb"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/93/A_PC_Queen_14401050001_93f80bbd9cf1d5",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/93/A_PC_Queen_14401050001_93f80bbd9cf1d5.uasset",
+        "bytes": 345018,
+        "sha256": "a4fa4ebbe3d507aa2a368b982654466375ada285a2fe7e081d1686073352de16"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/9a/A_PC_Naimei_14501040001_9ad01fe9513217",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/9a/A_PC_Naimei_14501040001_9ad01fe9513217.uasset",
+        "bytes": 327157,
+        "sha256": "bb0dd92f3fbbf32d82d16eed19a593321faf103f385e4922d0912b93c44e6e9e"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/9a/A_PC_Queen_14401050002_9ad403e7a69540",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/9a/A_PC_Queen_14401050002_9ad403e7a69540.uasset",
+        "bytes": 127021,
+        "sha256": "15327832613799e27efabe4ad632c7aeffc549d772aa82a9e9e51d6702d094fb"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/9b/A_PC_Emma_10061010003_9b9b818830953a",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/9b/A_PC_Emma_10061010003_9b9b818830953a.uasset",
+        "bytes": 71654,
+        "sha256": "ae34fa1f361ff97e8b6346b7ba8e8bbe580cbbc79d0e81e0264e30686d4b97cc"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/9f/A_PC_Molly_12601050001_9fdda575192f38",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/9f/A_PC_Molly_12601050001_9fdda575192f38.uasset",
+        "bytes": 78664,
+        "sha256": "875aca32b84d33458c71c60db586ed6c5ce0d74bde6725c7dfc5cb14b64e0ba0"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/a1/A_PC_Queen_14401080001_a1b18b7411e7d1",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/a1/A_PC_Queen_14401080001_a1b18b7411e7d1.uasset",
+        "bytes": 1336427,
+        "sha256": "2232224c009d7d3c33b2e415eb788d66c3313bbce86522f19f086f5c4547fd38"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/a2/A_PC_Bunny_10056010008_a2c7437f72ae8d",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/a2/A_PC_Bunny_10056010008_a2c7437f72ae8d.uasset",
+        "bytes": 268422,
+        "sha256": "89c68007dc271bb4ce5530a073e338d8f93f7d8f8edf1b56129dd9480180517b"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/a3/A_PC_Angel_10053010004_a3e43ff8526335",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/a3/A_PC_Angel_10053010004_a3e43ff8526335.uasset",
+        "bytes": 276085,
+        "sha256": "aeffa500c692533bda6ddf4b515b1528179837cc859cab8d24050e026d690720"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/a3/A_PC_Angel_10053010007_a3233704a066df",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/a3/A_PC_Angel_10053010007_a3233704a066df.uasset",
+        "bytes": 237573,
+        "sha256": "331f84ff09dcc2b0086a1af9829f3930b739b0ce0cdd4643b9937bf4bddb17b9"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/a3/A_PC_Angela_14601050001_a3d64180fa493b",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/a3/A_PC_Angela_14601050001_a3d64180fa493b.uasset",
+        "bytes": 106532,
+        "sha256": "196b2f965e733a17624c4adab616316c2f473e455a229a343ba441bfc3c53129"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/a6/A_PC_Bella_12901040001_a6a2bc9ca48677",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/a6/A_PC_Bella_12901040001_a6a2bc9ca48677.uasset",
+        "bytes": 162877,
+        "sha256": "406e73e6b6328ac902a87e28c28f02d07fb037dcbe290e09f6da05a26b3950c6"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/a7/A_PC_Naimei_14501100101_a798e10a00b805",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/a7/A_PC_Naimei_14501100101_a798e10a00b805.uasset",
+        "bytes": 258894,
+        "sha256": "8b364ac23a52d3c8b2594d6a4245f5bfeb72d65c90184e360c664b3de4f484d1"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/a7/A_PC_Queen_14401040001_a73aa1d91af862",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/a7/A_PC_Queen_14401040001_a73aa1d91af862.uasset",
+        "bytes": 170471,
+        "sha256": "7a5373e125a3ae5fed1cc142a5a40510cf2e9c05ed1a31745f38292896af6b8d"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/ae/A_PC_Shirley_14101050001_ae493dd81c350d",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/ae/A_PC_Shirley_14101050001_ae493dd81c350d.uasset",
+        "bytes": 517428,
+        "sha256": "385ef29c05f5b2430fbc895f607ff64ddc512d37b3dff3190a9cb58456a7f1cd"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/b6/A_PC_Tina_12501040003_b684cfcf60c751",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/b6/A_PC_Tina_12501040003_b684cfcf60c751.uasset",
+        "bytes": 163699,
+        "sha256": "116994b819b071f2cfc8a27591c44a06c2629038873cdcbcd321f82356f15355"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/b8/A_PC_Bunny_10056010003_b8aaf52d8dfd5a",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/b8/A_PC_Bunny_10056010003_b8aaf52d8dfd5a.uasset",
+        "bytes": 318404,
+        "sha256": "e813044221d19e8ddde9e5dbe080f610ca0e476a8d56a04c939246d7fbd71fdf"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/ba/A_PC_Bella_12901010001_ba11b219eaf582",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/ba/A_PC_Bella_12901010001_ba11b219eaf582.uasset",
+        "bytes": 815529,
+        "sha256": "132ebad2b578e868b33ae1832d9bcae2dad695fad7b90f2d2708123fc4eb559c"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/d0/A_PC_Bunny_10056010004_d0f17c05e73abc",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/d0/A_PC_Bunny_10056010004_d0f17c05e73abc.uasset",
+        "bytes": 273021,
+        "sha256": "4a75f509d361abb8d14548d443850e12909fb0aacfef8dca48149eb0507687ae"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/da/A_PC_Angel_10053010002_daca66c91103a9",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/da/A_PC_Angel_10053010002_daca66c91103a9.uasset",
+        "bytes": 663028,
+        "sha256": "951409bf015bc61d7b8e7c91502ef90a194bed8b0facbb27aadc4cb0006a253c"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/df/A_PC_Naimei_10055010002_df1ccdcc436214",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/df/A_PC_Naimei_10055010002_df1ccdcc436214.uasset",
+        "bytes": 950523,
+        "sha256": "8c8e435f1d7895b7c7ccf6f317c8513eb7484c898cafd71f3aee3d768cc1ed5f"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/e2/A_PC_Queen_14401040001_e2a3a466179961",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/e2/A_PC_Queen_14401040001_e2a3a466179961.uasset",
+        "bytes": 170478,
+        "sha256": "90065c53711f2f6d8a43cfc87ff85d35a7937efa4fc54e3dd6a7185c026b81ec"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/e4/A_PC_Bella_12801050001_e4520665ac13f2",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/e4/A_PC_Bella_12801050001_e4520665ac13f2.uasset",
+        "bytes": 61177,
+        "sha256": "d0805e34b3d72df698b4c7cd0d83a386dbcc21a90ac8aba67e37b6a9e4ec4cc7"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/ec/A_PC_Naimei_10055010007_ec9a1fb51fff6f",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/ec/A_PC_Naimei_10055010007_ec9a1fb51fff6f.uasset",
+        "bytes": 370581,
+        "sha256": "8d865777be0a2c9fa07334a81495379d9407525a993362d75d0ce03be6891930"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/ed/A_PC_Lilith_10050010003_ed977e45b7491a",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/ed/A_PC_Lilith_10050010003_ed977e45b7491a.uasset",
+        "bytes": 162842,
+        "sha256": "4a5883571202d53d747012a4b545ba9e6b2911c3f9d45de864b5b4e75e4fc402"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/f1/A_PC_Widow_13901060001_f100328d736b65",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/f1/A_PC_Widow_13901060001_f100328d736b65.uasset",
+        "bytes": 61249,
+        "sha256": "31eb32624fbc738b1bf0e6486258ed6947209f7376e06dbfc7a1fe36cf86ba89"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/f5/A_PC_Bella_12901090001_f5add10c891d68",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/f5/A_PC_Bella_12901090001_f5add10c891d68.uasset",
+        "bytes": 61285,
+        "sha256": "d4bbfd7c556aefe068cfd6a5fffacb6b1ea9410eab061b654ff56f4b536e5136"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/f8/A_PC_Naimei_14501070001_f869aedbcfdce5",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/f8/A_PC_Naimei_14501070001_f869aedbcfdce5.uasset",
+        "bytes": 313046,
+        "sha256": "81476028e5b50372b04c633223ff8d3eaf1852c8b5ef2289f5f7ad73bee52db9"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/fa/A_PC_Angela_14601040001_faf96246d27b8c",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/fa/A_PC_Angela_14601040001_faf96246d27b8c.uasset",
+        "bytes": 752685,
+        "sha256": "4a7e96e3119994451eaffe3403758d86efef791f9e46d43bd5bb6649a4804931"
+      },
+      {
+        "target": "/Game/PCAssets/Animations/fe/A_PC_Angel_10053010008_fecc452862d573",
+        "kind": "Animations",
+        "file": "Content/PCAssets/Animations/fe/A_PC_Angel_10053010008_fecc452862d573.uasset",
+        "bytes": 290365,
+        "sha256": "016fd1edb58262fbdbeeaa4ffa55c050f9342ec80ecc8253605faf31b518597d"
+      },
+      {
+        "target": "/Game/PCAssets/Dynamics/0f/VD_PC_10054010004_0f0f4abbe9fba573",
+        "kind": "Dynamics",
+        "file": "Content/PCAssets/Dynamics/0f/VD_PC_10054010004_0f0f4abbe9fba573.uasset",
+        "bytes": 5949,
+        "sha256": "c185fd773636b40ad90fc6734bdbd6be57082203fe0283d98ae61042764583f0"
+      },
+      {
+        "target": "/Game/PCAssets/Dynamics/79/VD_PC_10053010002_79149483c5672634",
+        "kind": "Dynamics",
+        "file": "Content/PCAssets/Dynamics/79/VD_PC_10053010002_79149483c5672634.uasset",
+        "bytes": 6758,
+        "sha256": "7b768bc3b2d0a10418ef371f94b8c54c6c2bfcab048f3b34440f6126a6fdfe89"
+      },
+      {
+        "target": "/Game/PCAssets/Dynamics/ce/VD_PC_10053010004_ceb46daa7532a742",
+        "kind": "Dynamics",
+        "file": "Content/PCAssets/Dynamics/ce/VD_PC_10053010004_ceb46daa7532a742.uasset",
+        "bytes": 5114,
+        "sha256": "8e4cdad6fbc58cd415e23731addc7158b251cf68c3ad194d39b6f303421032fc"
+      },
+      {
+        "target": "/Game/PCAssets/Dynamics/f9/VD_PC_14601010001_f9866be817149519",
+        "kind": "Dynamics",
+        "file": "Content/PCAssets/Dynamics/f9/VD_PC_14601010001_f9866be817149519.uasset",
+        "bytes": 4265,
+        "sha256": "03cb8a01cfdceda5016c6308a0d67d973b0745eb8571b98549f56effc23496af"
+      },
+      {
+        "target": "/Game/PCAssets/Portraits/T_PC_angel",
+        "kind": "Portraits",
+        "file": "Content/PCAssets/Portraits/T_PC_angel.uasset",
+        "bytes": 271064,
+        "sha256": "3c195b803ac4cd9fac4e0768e2191cb65f34294115912672b2d5698fd767fc48"
+      },
+      {
+        "target": "/Game/PCAssets/Portraits/T_PC_angela",
+        "kind": "Portraits",
+        "file": "Content/PCAssets/Portraits/T_PC_angela.uasset",
+        "bytes": 269581,
+        "sha256": "3fb1a7a748e62bc44db5827a07d4c5c6b5bfc69ec8b0515d3d562a434d235b64"
+      },
+      {
+        "target": "/Game/PCAssets/Portraits/T_PC_bella",
+        "kind": "Portraits",
+        "file": "Content/PCAssets/Portraits/T_PC_bella.uasset",
+        "bytes": 276515,
+        "sha256": "70fd6b74aecc5fec78d0f6f8ea40450d35dabc0508fefc2e030ee50434d3c6b3"
+      },
+      {
+        "target": "/Game/PCAssets/Portraits/T_PC_bunny",
+        "kind": "Portraits",
+        "file": "Content/PCAssets/Portraits/T_PC_bunny.uasset",
+        "bytes": 235205,
+        "sha256": "69dc95b25f73cc15802557f0e8378e8f56aac11310f7a2d533173bc1fcdc5a43"
+      },
+      {
+        "target": "/Game/PCAssets/Portraits/T_PC_emma",
+        "kind": "Portraits",
+        "file": "Content/PCAssets/Portraits/T_PC_emma.uasset",
+        "bytes": 279919,
+        "sha256": "b450c366bedcf691bfc35d238a5dc8d8c631e7fb11cb1491c50500f484b7187d"
+      },
+      {
+        "target": "/Game/PCAssets/Portraits/T_PC_lilith",
+        "kind": "Portraits",
+        "file": "Content/PCAssets/Portraits/T_PC_lilith.uasset",
+        "bytes": 300966,
+        "sha256": "3ec4b15ce9b654223ab321cb165bb17945435ee97b53e86ffa72a83962e3ef20"
+      },
+      {
+        "target": "/Game/PCAssets/Portraits/T_PC_molly",
+        "kind": "Portraits",
+        "file": "Content/PCAssets/Portraits/T_PC_molly.uasset",
+        "bytes": 309642,
+        "sha256": "69361299033779f260edac9a7d1496d0e18aecc6ae5b217ed9d072b18518f22a"
+      },
+      {
+        "target": "/Game/PCAssets/Portraits/T_PC_naimei",
+        "kind": "Portraits",
+        "file": "Content/PCAssets/Portraits/T_PC_naimei.uasset",
+        "bytes": 357549,
+        "sha256": "1baaef27290259feb8415f6d9cb206263edd78ee484c9f45f9ed418bba418198"
+      },
+      {
+        "target": "/Game/PCAssets/Portraits/T_PC_queen",
+        "kind": "Portraits",
+        "file": "Content/PCAssets/Portraits/T_PC_queen.uasset",
+        "bytes": 386010,
+        "sha256": "cc40661f6efbaf2c31321c83ac752d46aaadaabc292d05b1f9de6824c2d198c4"
+      },
+      {
+        "target": "/Game/PCAssets/Portraits/T_PC_shirley",
+        "kind": "Portraits",
+        "file": "Content/PCAssets/Portraits/T_PC_shirley.uasset",
+        "bytes": 259250,
+        "sha256": "0e90df41d4a5eb015e7c5861ce69cb6d8490f2ae8341aca34478a4e0f546e121"
+      },
+      {
+        "target": "/Game/PCAssets/Portraits/T_PC_tina",
+        "kind": "Portraits",
+        "file": "Content/PCAssets/Portraits/T_PC_tina.uasset",
+        "bytes": 274193,
+        "sha256": "fca745035d7ab49fe9e8fe6245d55c31d4dec17719aa77b49b02e488471f6804"
+      },
+      {
+        "target": "/Game/PCAssets/Portraits/T_PC_widow",
+        "kind": "Portraits",
+        "file": "Content/PCAssets/Portraits/T_PC_widow.uasset",
+        "bytes": 290254,
+        "sha256": "19b6784d30a5cd4c10146974cbc2d13d8a168f132661089ab139d3ceb0505a0c"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_NaiMei",
+        "kind": "ViewerEnvironments",
+        "file": "Content/PCAssets/ViewerEnvironments/DA_PC_NaiMei.uasset",
+        "bytes": 83243,
+        "sha256": "32e4a8b1e8c0f9b9486034bd327a90303c7fc49bdcc8e0267d3159c9e64c4559"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_QueenPreview",
+        "kind": "ViewerEnvironments",
+        "file": "Content/PCAssets/ViewerEnvironments/DA_PC_QueenPreview.uasset",
+        "bytes": 29661,
+        "sha256": "886e19ed059c46ecf74cb1a436fd1f6e878d1ec53a8766fbe2f496890ca597d4"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Source_Bianca",
+        "kind": "ViewerEnvironments",
+        "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Source_Bianca.uasset",
+        "bytes": 36601,
+        "sha256": "788fa1d98777d83451384d624ea56488ca8c4851c2b73d2a47a624e1598b6480"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Source_Lucia",
+        "kind": "ViewerEnvironments",
+        "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Source_Lucia.uasset",
+        "bytes": 70572,
+        "sha256": "cf7adff4a573515b7db6ad1f1d95562452a1f95b70eb4b7201623ea3067b0445"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Source_NaiMei",
+        "kind": "ViewerEnvironments",
+        "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Source_NaiMei.uasset",
+        "bytes": 83272,
+        "sha256": "d659adcc71501bdd388d775d9b29ca14a3152704d4d13077bb2bd1799cf3d469"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Source_NaimeiOther",
+        "kind": "ViewerEnvironments",
+        "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Source_NaimeiOther.uasset",
+        "bytes": 22997,
+        "sha256": "4e1213cb2c21a8d8ce54a560dd542e88be28aa90cb1807c03e0dcf796a7693f7"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Source_QueenPreview",
+        "kind": "ViewerEnvironments",
+        "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Source_QueenPreview.uasset",
+        "bytes": 29690,
+        "sha256": "4b39c6afcd310ddc5a6de5341ed80439042512d83850823a3cd2b2c50c4968dc"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Source_QueenRole",
+        "kind": "ViewerEnvironments",
+        "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Source_QueenRole.uasset",
+        "bytes": 27640,
+        "sha256": "7f32e1558dcd4e42bf761e0d600fa0ffe05c0abbd8010552b0e91ee4a52f9e65"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Source_Standard",
+        "kind": "ViewerEnvironments",
+        "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Source_Standard.uasset",
+        "bytes": 16239,
+        "sha256": "dd8ad781d81aa649968197290ba81ecd4dd9a4283c7c10f7805688c87deaac98"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Standard",
+        "kind": "ViewerEnvironments",
+        "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Standard.uasset",
+        "bytes": 16210,
+        "sha256": "2f5acd7c2f36dc7b90e6f2ec6e7696b70ea4b34e09e57f0eada46b60532a71cd"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Standard_BiancaGeometry",
+        "kind": "ViewerEnvironments",
+        "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Standard_BiancaGeometry.uasset",
+        "bytes": 16270,
+        "sha256": "538cb23a1cd231f7123f1e69dad82f9d85d1c4b1d078a2643817af44d3a18a15"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Standard_LuciaGeometry",
+        "kind": "ViewerEnvironments",
+        "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Standard_LuciaGeometry.uasset",
+        "bytes": 17008,
+        "sha256": "4c97a4c7b980be8b5f2d4f48afbc9d0d359f0a26df9d2b89f6b056cd7d0f5e00"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_EyeOcclusionDisabled_v1",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_EyeOcclusionDisabled_v1.uasset",
+        "bytes": 295712,
+        "sha256": "10b57a037b5cc3728eafa41e8264461ad0f7f503f448811814897fcc2ff3aaeb"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Bella_Suit_Eye_UI_611b68b3a0c5",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Bella_Suit_Eye_UI_611b68b3a0c5.uasset",
+        "bytes": 25356,
+        "sha256": "949c8364009ff7a158b37fdfe969fe153a5a1568ab3b2b221a5246a28e525987"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Angel_Eye_UI_de1bc4645166",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Angel_Eye_UI_de1bc4645166.uasset",
+        "bytes": 23201,
+        "sha256": "f8a1e10f38d2ec5ac01bc560dad5b97c44b2c102bae2ab9f37a91cf95d4357a7"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Angel_Lucia_Eye_UI_Em_e51ec12482c1",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Angel_Lucia_Eye_UI_Em_e51ec12482c1.uasset",
+        "bytes": 29298,
+        "sha256": "5e820a10fe820ca1c5c0b21266471f1ebf7212ba7e13bcb4f274de49148de5b5"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Angela_Suit_B_Eye_UI_22e453283a83",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Angela_Suit_B_Eye_UI_22e453283a83.uasset",
+        "bytes": 23544,
+        "sha256": "12f49e370a24f5d03788ceef02ac5564088883dc6fb43d219efc62c6cdab2def"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Bella_Pop_C_Eye_UI_32d379de62c7",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Bella_Pop_C_Eye_UI_32d379de62c7.uasset",
+        "bytes": 25865,
+        "sha256": "5b62fd74d363619c35447a859e10a6a92d912ae0db129451ba596369abc49a4c"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Bunny_Eye_UI_a8618e83a6e9",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Bunny_Eye_UI_a8618e83a6e9.uasset",
+        "bytes": 25274,
+        "sha256": "23f5828831496e63bf4ccffecec531b535934ec9c30386fee8d72b91f281d112"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Lilith_Suit_C_Eye_UI_6117d3dd678e",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Lilith_Suit_C_Eye_UI_6117d3dd678e.uasset",
+        "bytes": 25846,
+        "sha256": "571c09ad24f1eb9f8cb884e37046932d55a9138222960e7577c35ddb517524ad"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Molly_Eye_UI_6689c0895f9b",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Molly_Eye_UI_6689c0895f9b.uasset",
+        "bytes": 26534,
+        "sha256": "9ad803a28fd11027f873b0bf5b5d1f4b7df1430e99f8d7c3bc1e015e80f42f31"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Molly_Nanami_B_Eye_UI_c87fb5db6ba5",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Molly_Nanami_B_Eye_UI_c87fb5db6ba5.uasset",
+        "bytes": 26233,
+        "sha256": "eb90e2d0e9b6b7b82f7e0bd96d76ab02e4e430419edda6dceba864fb39383d71"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Naimei_Bianca_A_Eye_UI_38eae5250bd0",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Naimei_Bianca_A_Eye_UI_38eae5250bd0.uasset",
+        "bytes": 24980,
+        "sha256": "5206831f386ffa0dad3ee29f54e215f31497b0604b52d2380351744c15e6b08b"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Naimei_Suit_A_Eye_UI_5240b876e059",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Naimei_Suit_A_Eye_UI_5240b876e059.uasset",
+        "bytes": 23545,
+        "sha256": "c3f591c6f4a96ba3c5079850face46d18d9f4154a3260379b9ac67900236e20d"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Shirley_Eye_UI_b11f81fad80c",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Shirley_Eye_UI_b11f81fad80c.uasset",
+        "bytes": 27129,
+        "sha256": "6645872567678e8093f6544a77927d5d3e5925985126ea5166345e087f351380"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Tina_Eye_UI_922abedeb3eb",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Tina_Eye_UI_922abedeb3eb.uasset",
+        "bytes": 27024,
+        "sha256": "135af0282c78915b85fc744b5a52683dede4263b4f304bda0e4021ff15b1a140"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Widow_Eye_UI_89d1b81aa903",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Char_Widow_Eye_UI_89d1b81aa903.uasset",
+        "bytes": 25196,
+        "sha256": "98314c46b783ed01d119e5ca7dc1ff8c5f8ce0ba599ccbd31de58e580aa57ea5"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Queent_Eye_UI_9e8b1db76b76",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/MI_PC_Eye_VMI_Queent_Eye_UI_9e8b1db76b76.uasset",
+        "bytes": 25078,
+        "sha256": "3c304b769d5d1061d0a9cec43639bea52af81504c0229f83bf31cd63b0862ab0"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/M_PC_EyeOcclusionDisabled_v1",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/M_PC_EyeOcclusionDisabled_v1.uasset",
+        "bytes": 298171,
+        "sha256": "98f5b584002302947515e10dd8be2a9dde69000f603b7b13c95b342f7f4fe480"
+      },
+      {
+        "target": "/Game/PCAssets/ViewerMaterials/M_PC_ViewerEye_v1",
+        "kind": "ViewerMaterials",
+        "file": "Content/PCAssets/ViewerMaterials/M_PC_ViewerEye_v1.uasset",
+        "bytes": 25856,
+        "sha256": "53047449e99ac89fd1fe81fa02aab00b7b71a3a8c6c5e8e4133f59d0bbcda377"
+      }
+    ],
+    "scope": "Exact approved viewer additions only. Original conversion index, source validation and rendered-evidence requirements are unchanged."
+  },
+  "original_conversion_index_rewritten": false,
+  "viewer_approval_scope": "Current reports, saved package fingerprints and existing integration audit only; no new UE, shader or runtime test is performed."
+}

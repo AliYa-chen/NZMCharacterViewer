@@ -2,6 +2,8 @@
 
 工具只读取 NZM 安装文件及本地索引，不调用进程、内存、调试、注入、游戏启动或反作弊接口。依赖 PowerShell 7.6／.NET 10、Python 3.10+ 和相邻 Runtime 的固定版本缓存。
 
+以下为可选的源资源复查与重新导出流程。完整高清导出保留于 [PCResources 历史快照](https://github.com/AliYa-chen/NZMCharacterViewer/tree/03152adb7ce937649f890455d6650f346e82acc1/PCResources/Characters)；全部转换与最终核验通过后，工作树中的导出副本会清理。需要使用此前导出项作对照时，先按[上级说明](../README.md)恢复源快照；普通查看器运行不需要这些源文件。
+
 先按[上级说明](../README.md)生成 `Saved/PCAssetAnalysis/Indexing/index_summary.json`。本次安装有137个已验证档案；每个 `report` 指向包含 `entries[]` 的索引 JSON。跨机器时旧报告的绝对路径失效，工具按当前索引目录中的同名 JSON 查找。
 
 在仓库根目录运行：
@@ -19,7 +21,7 @@ python ./Tools/PCAssetPipeline/Characters/Inventory-Characters.py `
 
 第一次 Resolve 提供明确女性根供补充类型审查，第二次 Inventory 补充女性根与此前导出项的对照报告；最后一次 Resolve 将最终库存、审查摘要及哈希纳入证据。所有分析结果默认位于 `Saved/PCAssetAnalysis/ExpandedCharacters`。
 
-- `inventory.json`：全部角色目录、完整虚拟路径和基础／更新包出现位置；区分 UI、1P、3P、CutScene、预览、物理代理等命名候选。`PCResources/mesh_comparison.json` 仅用于对照此前已导出项。
+- `inventory.json`：全部角色目录、完整虚拟路径和基础／更新包出现位置；区分 UI、1P、3P、CutScene、预览、物理代理等命名候选。[历史 `mesh_comparison.json`](https://github.com/AliYa-chen/NZMCharacterViewer/blob/03152adb7ce937649f890455d6650f346e82acc1/PCResources/mesh_comparison.json) 仅用于对照此前已导出项。
 - `ConfigEvidence/base_content_paks`、`ConfigEvidence/provider_selected_all_archives`：基础包和包含更新包的 provider 分别选中的7种角色配置表、所需 DA 及已复核的补充网格 JSON。`outfit_config_evidence.json` 保留来源归档、哈希、模型行、显式性别、全部默认视图路线、实际部件配置和自定义替换规则。
 - `ReviewCandidates/review_summary.json`：从全部已验证索引独立寻找未知角色根及不以 `SK_` 命名的候选，记录实际解码类型。文件名、性别相关名称和目录后缀均不等于可选角色或完整服装证据。
 - `female_mesh_plan.json`：`mesh_paths` 仅包含本安装 provider 中存在的包；缺失引用保留在 `unavailable_mesh_references`，原始并集保留在 `all_candidate_mesh_paths`。默认路线、自定义替换、库存候选与 source-only 资源分别可查。包存在性不等于导出已成功。
@@ -47,7 +49,7 @@ python ./Tools/PCAssetPipeline/Characters/Inventory-Characters.py `
 
 验证将 ActorX 点、三角形、骨骼及全部非零权重／索引与解码源数据比较，并将 PNG 尺寸与最高可用 mip 比较。HDR 检查签名、尺寸和完整 RLE 像素数据，不比较 cubemap 重投影前后的逐像素数值。JSON 保留网格内嵌衣物对象、原骨架和计划。待机、动画和显示路线以配置证据保存；动画转换、UE5.8 导入、原 shader 重建与运行画面验收仍需在目标 UE 机器完成。
 
-数据验证全部通过后，可从仓库根目录发布并检查：
+仅在需要重新生成源导出副本时，数据验证全部通过后可从仓库根目录发布并检查；这会重新生成 `PCResources`：
 
 ```powershell
 python ./Scripts/publish_pc_characters.py `

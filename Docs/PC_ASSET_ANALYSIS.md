@@ -1,6 +1,8 @@
 # PC 端资源与渲染参数核对
 
-核对日期：2026-11-09。只读本机 PC 安装的 `NZM` 磁盘资源及现有工程，已转换 194 张 PNG、36 个独立 LOD0 ActorX 网格、6 个 HDR 全景，导出人物页场景、材质及粒子参数。发布源文件位于 [PCResources](../PCResources/README.md)，离线工具位于 [PCAssetPipeline](../Tools/PCAssetPipeline/README.md)。**本机没有 UE，尚未执行编辑器导入；运行时 Content、Catalog 和画质配置未改。**
+核对日期：2026-11-09。只读本机 PC 安装的 `NZM` 磁盘资源及现有工程，当时已转换 194 张 PNG、36 个独立 LOD0 ActorX 网格、6 个 HDR 全景，导出人物页场景、材质及粒子参数。发布源文件见固定提交 `03152adb7ce937649f890455d6650f346e82acc1` 的 [PCResources 历史快照](https://github.com/AliYa-chen/NZMCharacterViewer/blob/03152adb7ce937649f890455d6650f346e82acc1/PCResources/README.md)，离线工具位于 [PCAssetPipeline](../Tools/PCAssetPipeline/README.md)。**该次核对时本机没有 UE，尚未执行编辑器导入；运行时 Content、Catalog 和画质配置未改。**
+
+本文保留上述调查阶段的事实与限制；后续 UE 转换与运行时接入见 [PC 资源转换](PC_ASSET_CONVERSION.md)。完整 PC 高清导出在全部转换及最终核验通过后从工作树清理，源文件可从上述历史提交恢复。本文中读取 `PCResources` 的步骤仅供恢复源文件后的可选复查，普通构建和运行使用已保存的 `Content`。
 
 人物光照／后期优先的后续交接见 [PC 人物渲染还原交接](PC_CHARACTER_RENDERING_HANDOFF.md)。已进一步补取 10 包灯光模板、20 包肤／眼／发依赖；模板按真实导出序号核对，后期单列值／override 的已知与未知状态，并列出当前代码会覆盖来源参数的位置。该文档给出另一台 UE 机器需要实施的桥接导入、来源模式、shader／特效重建与验收步骤。
 
@@ -115,6 +117,6 @@ Naimei 使用 `body/head/hair/cloak` 部件 ID，其余多为数字 ID。后续�
 
 ActorX 已逐项核对原解码点坐标、面数、骨骼数和每条非零权重／索引；194 张 PNG 重新解码通过，且尺寸等于最高可用 mip。6 个环境源均为 128×128／面的 FloatRGBA cubemap，输出为 443×221 Radiance 全景，涉及重投影和 RGBE 量化。
 
-`PCResources/upgrade_manifest.json` 只列入 93 个引用链核验通过的高清纹理。`Scripts/import_pc_textures.py` 默认审计，`--validate-files` 可在普通 Python 中验证全部目标／源哈希、PNG 尺寸及当前 UE5.8 Source 元数据；已在本机通过 93／93。`apply` 才会在 UE 中备份并定点重导入现有纹理，保持当前设置和 metadata，不重建材质或 Catalog；该编辑器路径尚未实测。重导入会保留导入器管理的源文件路径，PNG 随仓库保留。
+[历史 `upgrade_manifest.json`](https://github.com/AliYa-chen/NZMCharacterViewer/blob/03152adb7ce937649f890455d6650f346e82acc1/PCResources/upgrade_manifest.json) 只列入当时 93 个引用链核验通过的高清纹理。`Scripts/import_pc_textures.py` 默认审计，恢复该历史快照后，`--validate-files` 可在普通 Python 中验证全部目标／源哈希、PNG 尺寸及 UE5.8 Source 元数据；该阶段已在本机通过 93／93。`apply` 才会在 UE 中备份并定点重导入现有纹理，保持当前设置和 metadata，不重建材质或 Catalog；该阶段的编辑器路径尚未实测。重导入会保留导入器管理的源文件路径；这些 PNG 可从历史快照恢复，不要求普通工作树保留导出副本。
 
 完整资源清单和 SHA256 检查通过；本机临时 Python 3.12.7 下的工程静态检查通过。后续仍需用 `verify_imported_assets.py` 核验结构与骨架、`audit_content.py` 核验依赖，并在真实渲染与目标设备上比较。本次不宣称通过 UE 导入、编译、视觉或设备验证。

@@ -1,0 +1,17 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "PC source asset importer",
+  "Description": "Imports validated CUE4Parse ActorX exports into editable, separately namespaced Unreal assets.",
+  "Category": "Importers",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "Plugins": [
+    {"Name": "ControlRig", "Enabled": true}
+  ],
+  "Modules": [
+    {"Name": "PCAssetData", "Type": "Runtime", "LoadingPhase": "Default"},
+    {"Name": "PCAssetImporter", "Type": "Editor", "LoadingPhase": "Default"}
+  ]
+}

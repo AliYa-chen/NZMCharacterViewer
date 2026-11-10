@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "status": "passed_mac_editor_and_unsigned_ios_compile_link",
+  "recorded_at_utc": "2026-11-10T07:26:48.408294+00:00",
+  "source_sha256": {
+    "Source/NZMCharacterViewerEditor.Target.cs": "e41b4b187b016b7c86afd17f31e86756332dfe720181ee25c6611cd2f3c8214b",
+    "Source/NZMCharacterViewer.Target.cs": "3806a95fb013e3e22c221670a40e9b29e72b3d37a6a57800b89ee38b53d3e93f",
+    "Source/NZMCharacterViewer/NZMCharacterViewer.Build.cs": "cfa8a1cfa2f9c201e0d1542d8d49f5e1ed879a77c7531762d35bc97acbe7f52b",
+    "Source/NZMCharacterViewer/Public/ViewerWidget.h": "f2f78fbff3d0a206f291f80fdf7bbfc29b0b6019427f10fc57d75bb6371ad79e",
+    "Source/NZMCharacterViewer/Public/ViewerGameMode.h": "89bb09631609481afc92ec41aa34f5ba9ee7130e5d1e8c9638417a418ef7770e",
+    "Source/NZMCharacterViewer/Public/ViewerPreferences.h": "f8fe4447d476ffae60cd2132d54e3335bdbfc9078de1841867d82d0a64897c32",
+    "Source/NZMCharacterViewer/Public/ViewerDynamics.h": "7bbbde9456a47a2a58071f7c92f101195f3bfa674d273bc93b30e43bb3a657b8",
+    "Source/NZMCharacterViewer/Public/ViewerPawn.h": "1209c1596a961b7871ba7d4102f606941af81ad4fb4930039408d6ba68c7c8b0",
+    "Source/NZMCharacterViewer/Public/ViewerCatalog.h": "777dd697f6ac7e2e926d5c9585fa9662ecf1737747421c49581d183287c6a59d",
+    "Source/NZMCharacterViewer/Public/ViewerEnvironment.h": "d3203a293388a89e9dbbcad27f64c5d473e89ee4cde8c3abd6fc903b05f14379",
+    "Source/NZMCharacterViewer/Public/ViewerGraphicsCapabilities.h": "b42f740a32c44b3c9424935cbb42dfe5ca7aab50a043f7fe1277d60dffa1caa7",
+    "Source/NZMCharacterViewer/Public/ViewerAnimationImportLibrary.h": "9b4743ca86c434463fb0c2b93e02fd0924132403e46699bfc311839355db485c",
+    "Source/NZMCharacterViewer/Public/ViewerStyle.h": "96e77e5b0a912d5869a829b048198d54431269a67eecdc269beb1e2ff45d064a",
+    "Source/NZMCharacterViewer/Private/ViewerGameMode.cpp": "c85ed21cb15955788a71d4dae951404ff33f8c159f595b667f9fe64944834444",
+    "Source/NZMCharacterViewer/Private/ViewerPreferences.cpp": "2ccdd4c1b57529122ff6eb7b274d64010bf82e9e41c189bb1237d0d33504bbf8",
+    "Source/NZMCharacterViewer/Private/ViewerPawn.cpp": "ba70939cf3c06e6497c36b490b5e7f78a39b4eab7bdba8b77c85f52e9a586f30",
+    "Source/NZMCharacterViewer/Private/ViewerSmokeTestComponent.cpp": "1236736ebd8461a05c86a89f5d123acf3e464b31f3cb5201cc75e0b15107e391",
+    "Source/NZMCharacterViewer/Private/NZMCharacterViewer.cpp": "05f23fe6d001bfd0a3c2089d016003d5c171832b7eaf27124f1490e95e52a3d9",
+    "Source/NZMCharacterViewer/Private/ViewerWidget.cpp": "39a2f275b6fa9d22824b2447c2dc9996ce367bea6c3f2813342bddb3494d75ab",
+    "Source/NZMCharacterViewer/Private/ViewerIOSViewport.h": "22e83b929afbc8f03bb1112bb6c28e9dadb384252b64fd5877385731c222a8bc",
+    "Source/NZMCharacterViewer/Private/ViewerSmokeTestComponent.h": "9cfa41880be2e845bdf0ff5b60f7970ad3336926b50a1051a83a43b0d926872f",
+    "Source/NZMCharacterViewer/Private/ViewerAnimationImportLibrary.cpp": "bf22463b1d5c22db87fd9cba2bd87485f9df4e5126e267a5229ad209fef374cc",
+    "Source/NZMCharacterViewer/Private/ViewerDynamics.cpp": "191c53f6f4dd2a324590d55cb55da32e5935e53c777f134ba14a1b54403a6c45",
+    "Source/NZMCharacterViewer/Private/ViewerStyle.cpp": "c1fec0f3cf2a4267cdb58835c85b2fcaa15cc750b590e83926dee5c963cc5c7e",
+    "Plugins/PCAssetImporter/Source/PCAssetData/PCAssetData.Build.cs": "c09618a17d6083375486c566d2ddf3b687b602696e54625a262b6cb467e8ace0",
+    "Plugins/PCAssetImporter/Source/PCAssetImporter/PCAssetImporter.Build.cs": "b0d1c4c33c0459265cd2a63c0b41b101adffbbaff6e1bebf0e5bef852514e40f",
+    "Plugins/PCAssetImporter/Source/PCAssetImporter/Public/PCViewerAnimationLibrary.h": "6b0d6c2cfd5a7bc9dfba4ea19e1437de10529bbcde47b5475c3fc391490cbe69",
+    "Plugins/PCAssetImporter/Source/PCAssetImporter/Public/PCAssetImportLibrary.h": "a1a5a0d1ecd7e481ac93c5daeb85d6f87f1683f47f40ea85683e72b1838bd086",
+    "Plugins/PCAssetImporter/Source/PCAssetImporter/Private/PCMaterialShaderVerification.cpp": "9cc165d6ae79c4151f1ef9864a791536089345a075355dc8b138a661ad092dce",
+    "Plugins/PCAssetImporter/Source/PCAssetImporter/Private/PCViewerAnimationBridge.cpp": "3c7111339f2510fc6f690732e825d2ca6c8b07a55266f7f6ff331dbbbb4ea51d",
+    "Plugins/PCAssetImporter/Source/PCAssetImporter/Private/PCAssetImporterModule.cpp": "65148438285b5f6f8a98b86e9984f656fb0aed64dc67c2ab39536c537acec26a",
+    "Plugins/PCAssetImporter/Source/PCAssetImporter/Private/PCAssetImportLibrary.cpp": "2f5c42d755acd57a8d1794b17a904bb9ba2e7dc9b478f2f7de71cba381f0004f",
+    "Plugins/PCAssetImporter/Source/PCAssetImporter/Private/PCSourceRecordReferences.cpp": "2f5d6b45eb560ebd32cb104104589dca5e87e2296ac5c15e13df6c6683f9158c",
+    "Plugins/PCAssetImporter/Source/PCAssetData/Public/PCSourceRecord.h": "fb5b1b16d5e276fc120005ecdfdfc2886fec06778ece394e936ac9ddab9c83bd",
+    "Plugins/PCAssetImporter/Source/PCAssetData/Private/PCAssetDataModule.cpp": "97c6c7c6d0b8bc87e9e4580e94e05b589eccda57c38d4c31c13cecccbb58e1d7"
+  },
+  "mac_binaries": [
+    {
+      "file": "Binaries/Mac/libUnrealEditor-NZMCharacterViewer.dylib",
+      "bytes": 1456264,
+      "sha256": "5ad24c403392c3f6f6500b01157dd44daf83b345e69b2cceaac41b94c1b5e678"
+    },
+    {
+      "file": "Plugins/PCAssetImporter/Binaries/Mac/libUnrealEditor-PCAssetImporter.dylib",
+      "bytes": 604744,
+      "sha256": "7ac95e430ac54dfe73a42f79f8887bb8a59e33cfb8a4933135210ef57c5eafee"
+    },
+    {
+      "file": "Plugins/PCAssetImporter/Binaries/Mac/libUnrealEditor-PCAssetData.dylib",
+      "bytes": 120384,
+      "sha256": "915ca31f00a15f57ce1c07ed88a9c46ab758e3b6666df55be5dd1f1777d9e99c"
+    }
+  ],
+  "mac_build_log": {
+    "file": "Saved/PCViewerIntegration/source_rendering_build.log",
+    "sha256": "a09b1b58fae0f7e47989a6dac64a857d012709756dc5e88ea6aa9ee0dae12e57"
+  },
+  "ios_report": {
+    "file": "Saved/BuildIOSCompileVerification.json",
+    "sha256": "596b28080b0a801bfd9c5d01b1c7262dadfd4873d5ac20d6f1153b86dc20b442"
+  },
+  "scope": "Mac Editor modules and iOS arm64 executable compile/link; no cook, signing, IPA, installation or physical iOS-device test."
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "recorded_at_utc": "2026-11-10T07:57:44.527154+00:00",
+  "deleted": [
+    {
+      "path": "Saved/ViewerSmokeTest",
+      "files": 84,
+      "bytes": 90573608
+    },
+    {
+      "path": "Saved/PCAssetConversion",
+      "files": 19,
+      "bytes": 53856110
+    },
+    {
+      "path": "Saved/BuildIOSCompile.log",
+      "files": 1,
+      "bytes": 3710
+    },
+    {
+      "path": "Saved/ShaderDebugInfo",
+      "files": 1,
+      "bytes": 20240
+    },
+    {
+      "path": "Saved/PCViewerIntegration",
+      "files": 1341,
+      "bytes": 130605227
+    },
+    {
+      "path": "Saved/BuildIOSCompileVerification.json",
+      "files": 1,
+      "bytes": 5022
+    },
+    {
+      "path": "Saved/ContentAudit.json",
+      "files": 1,
+      "bytes": 1690
+    },
+    {
+      "path": "Saved/UnrealBuildTool",
+      "files": 1,
+      "bytes": 129
+    },
+    {
+      "path": "Saved/SourceControl",
+      "files": 1,
+      "bytes": 10308
+    },
+    {
+      "path": "Intermediate",
+      "files": 245,
+      "bytes": 1354302202
+    },
+    {
+      "path": "DerivedDataCache",
+      "files": 5,
+      "bytes": 1627828
+    },
+    {
+      "path": "Plugins/PCAssetImporter/Intermediate",
+      "files": 62,
+      "bytes": 272549757
+    }
+  ],
+  "deleted_files": 1762,
+  "deleted_bytes": 1903555831,
+  "retained": [
+    "Content",
+    "Binaries",
+    "Plugins/PCAssetImporter/Binaries",
+    "Saved/Config",
+    "Saved/Collections"
+  ],
+  "evidence": "Docs/PCViewerIntegration/integration_evidence.tar.gz",
+  "scope": "Generated test outputs, restored conversion audit copies, temporary image tooling, build intermediates and project DDC. Personal editor configuration/collections and compiled products retained."
+}

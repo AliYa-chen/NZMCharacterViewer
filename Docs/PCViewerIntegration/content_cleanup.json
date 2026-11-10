@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "recorded_at_utc": "2026-11-10T07:54:40.214491+00:00",
+  "reference_audit_sha256": "f9ca1a04db334d9f9572b1c583bdddffc42014aba3698405f78fa82a04021493",
+  "source_reference_audit": "Saved/ContentAudit.json",
+  "removed_assets": [
+    {
+      "target": "/Game/Characters/angel/angel/10801050002/Materials/M_VMI_Char_Angel_Head_UI_341f9c30",
+      "file": "Content/Characters/angel/angel/10801050002/Materials/M_VMI_Char_Angel_Head_UI_341f9c30.uasset",
+      "bytes": 13450,
+      "sha256": "e96a23a477b9a544b80fd7f912461d9db785106314063a506d674bcf145678d8",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/angel/angel/10801050002/Materials/M_VMI_Char_Angel_head_3P_ded39fc5",
+      "file": "Content/Characters/angel/angel/10801050002/Materials/M_VMI_Char_Angel_head_3P_ded39fc5.uasset",
+      "bytes": 15372,
+      "sha256": "8028d23842dec69af6c16c24fb989eb6a16065df021a3c4260dc09720291bd5d",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/angel/angel/10801060002/Materials/M_VMI_Char_Angel_Hair_Blend_FirstPass_UI_68d86594",
+      "file": "Content/Characters/angel/angel/10801060002/Materials/M_VMI_Char_Angel_Hair_Blend_FirstPass_UI_68d86594.uasset",
+      "bytes": 13503,
+      "sha256": "1cfff633bdfa6314a1c7731176fdf14cf9c1c5e7bdccbca266d521b2c83c8a2e",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/angel/angellucia/10053010003/Materials/M_VMI_Char_Angel_Lucia_A_Head_UI_002bb753",
+      "file": "Content/Characters/angel/angellucia/10053010003/Materials/M_VMI_Char_Angel_Lucia_A_Head_UI_002bb753.uasset",
+      "bytes": 13386,
+      "sha256": "ec7cb0ff9eb9dca70df78d3bb56f611c6ae96d2fc57419bce13bfcf1f5986913",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/angel/angellucia/10053010004/Materials/M_VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_a820700a",
+      "file": "Content/Characters/angel/angellucia/10053010004/Materials/M_VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_a820700a.uasset",
+      "bytes": 13465,
+      "sha256": "3de5494caadc2e0f3d9fef397d9bcb32b0c78bd5117f94acdecd1704920da0d8",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/angela/angela/14601010001/Materials/M_VMI_Char_Angela_Suit_B_body_UI_3a91fbe6",
+      "file": "Content/Characters/angela/angela/14601010001/Materials/M_VMI_Char_Angela_Suit_B_body_UI_3a91fbe6.uasset",
+      "bytes": 13991,
+      "sha256": "202648f27019f94bd822ce4f8c8e1dfb976ed84ddd0df72136404d7b8707378c",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/angela/angela/14601040001/Animations/A_14601040001_RoleIdle",
+      "file": "Content/Characters/angela/angela/14601040001/Animations/A_14601040001_RoleIdle.uasset",
+      "bytes": 672102,
+      "sha256": "d618fc89bc88b03de0aaccb515c1edd590554ae87bc77e3b0ca215fae069c72a",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/angela/angela/14601040001/Materials/M_VMI_Char_Angela_Suit_B_Head_UI_00e62c68",
+      "file": "Content/Characters/angela/angela/14601040001/Materials/M_VMI_Char_Angela_Suit_B_Head_UI_00e62c68.uasset",
+      "bytes": 14170,
+      "sha256": "f7a56f9a43083bd570d407bd2f79ed37ea63e32e5c2587793dbe5c06ae3c730e",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/angela/angela/14601050001/Materials/M_VMI_Char_Angela_Suit_B_Hair_FirstPass_UI_1331d11c",
+      "file": "Content/Characters/angela/angela/14601050001/Materials/M_VMI_Char_Angela_Suit_B_Hair_FirstPass_UI_1331d11c.uasset",
+      "bytes": 13276,
+      "sha256": "46b6f89424d4d07c019ff444226239b43dbee5d79de1c02cf742cacc57e9389b",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/molly/molly/12601010001/Materials/M_VMI_Molly_Suit_body_UI_d20e6bbb",
+      "file": "Content/Characters/molly/molly/12601010001/Materials/M_VMI_Molly_Suit_body_UI_d20e6bbb.uasset",
+      "bytes": 13155,
+      "sha256": "32050542987e7bfc03e8cc4c2e7834b995d72fcea7dc1590599fc51a343aeab3",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/molly/molly/12601040001/Materials/M_VMI_Char_Molly_Head_UI_f67987c1",
+      "file": "Content/Characters/molly/molly/12601040001/Materials/M_VMI_Char_Molly_Head_UI_f67987c1.uasset",
+      "bytes": 13558,
+      "sha256": "3d2534b576425dfab4b462fdb34241e6814901a441e4be0cc3b33b6c4952e7cb",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/molly/molly/12601050001/Materials/M_VMI_Char_Molly_Hair_FirstPass_UI_1278a7a9",
+      "file": "Content/Characters/molly/molly/12601050001/Materials/M_VMI_Char_Molly_Hair_FirstPass_UI_1278a7a9.uasset",
+      "bytes": 16141,
+      "sha256": "f3fc301b65ec0023e5b94274c1ef3b0642017a78e7182c836f451b41d675a1c5",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/molly/mollynanami/10054010002/Materials/M_VMI_Char_Molly_Nanami_B_Body_UI_2ab737a6",
+      "file": "Content/Characters/molly/mollynanami/10054010002/Materials/M_VMI_Char_Molly_Nanami_B_Body_UI_2ab737a6.uasset",
+      "bytes": 13044,
+      "sha256": "1a4d1b287d3a24f9c5f819c988aa20d4d630c48026948687c450adb51dd68c71",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/molly/mollynanami/10054010003/Materials/M_VMI_Char_Molly_Nanami_B_Head_UI_538e4faa",
+      "file": "Content/Characters/molly/mollynanami/10054010003/Materials/M_VMI_Char_Molly_Nanami_B_Head_UI_538e4faa.uasset",
+      "bytes": 13478,
+      "sha256": "3b97303004a31134ed598f34bd3e48b853afe26d0907ed517605cd256ac1708c",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/molly/mollynanami/10054010004/Materials/M_VMI_Char_Molly_Nanami_B_Hair_FirstPass_UI_fcc715eb",
+      "file": "Content/Characters/molly/mollynanami/10054010004/Materials/M_VMI_Char_Molly_Nanami_B_Hair_FirstPass_UI_fcc715eb.uasset",
+      "bytes": 14589,
+      "sha256": "08190bb7eaf0ea1d9a3ff9c63a026d2b7d531c5f501786519b7b0352147e0421",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/naimei/naimeibianca/10055010003/Materials/M_VMI_Char_Naimei_Bianca_A_Head_UI1_455b838a",
+      "file": "Content/Characters/naimei/naimeibianca/10055010003/Materials/M_VMI_Char_Naimei_Bianca_A_Head_UI1_455b838a.uasset",
+      "bytes": 13571,
+      "sha256": "e569200e8acf12151c185e620b90fd5ebf127c0d5834f113a4d615cad3a65ab8",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/naimei/naimeibianca/10055010004/Materials/M_VMI_Char_Naimei_Bianca_A_Hair_FirstPass_UI_9d9f26b7",
+      "file": "Content/Characters/naimei/naimeibianca/10055010004/Materials/M_VMI_Char_Naimei_Bianca_A_Hair_FirstPass_UI_9d9f26b7.uasset",
+      "bytes": 17278,
+      "sha256": "1653040a06665aad90ed462acbc067565917b9ff938444367c32febcb9db8328",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/naimei/suit_a/hair/Materials/M_VMI_Char_Naimei_Suit_A_Hair_FirstPass_UI_c891fe5d",
+      "file": "Content/Characters/naimei/suit_a/hair/Materials/M_VMI_Char_Naimei_Suit_A_Hair_FirstPass_UI_c891fe5d.uasset",
+      "bytes": 16665,
+      "sha256": "f15b289d055d8d5988c84dda51e03424817ac20c04b1e25966a106f526cd8d80",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/naimei/suit_a/head/Materials/M_VMI_Char_Naimei_Suit_A_Head_UI_bb1c326a",
+      "file": "Content/Characters/naimei/suit_a/head/Materials/M_VMI_Char_Naimei_Suit_A_Head_UI_bb1c326a.uasset",
+      "bytes": 14213,
+      "sha256": "08a7b297430a278f5e57921b6efad7f55653a75bea24aa0760670aeefeda4871",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/queen/queen/14401040001/Materials/M_VMI_Char_Queen_Head_UI_c7b8c712",
+      "file": "Content/Characters/queen/queen/14401040001/Materials/M_VMI_Char_Queen_Head_UI_c7b8c712.uasset",
+      "bytes": 13426,
+      "sha256": "e9492f7c6c2fb18bdbf40d4f3a0b89c65306250f1712631b1fe0ed93b6a3c403",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/queen/queen/14401050001/Materials/M_VMI_Char_Queen_Hair_FirstPass_UI_5945365a",
+      "file": "Content/Characters/queen/queen/14401050001/Materials/M_VMI_Char_Queen_Hair_FirstPass_UI_5945365a.uasset",
+      "bytes": 17186,
+      "sha256": "6da5729998b61119c53cb7412eab916962f6cf20ba794d320ffd13574a375cca",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/queen/queen_masked/14401040001/Materials/M_VMI_Char_Queen_Head_UI_c7b8c712",
+      "file": "Content/Characters/queen/queen_masked/14401040001/Materials/M_VMI_Char_Queen_Head_UI_c7b8c712.uasset",
+      "bytes": 13440,
+      "sha256": "2aa40ee528e16c7f6181dccb1a8e751c4645141690b65b61aae9738b2a7e5fcd",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Characters/queen/queen_masked/14401050002/Materials/M_VMI_Char_Queen_Hair_FirstPass_UI_5945365a",
+      "file": "Content/Characters/queen/queen_masked/14401050002/Materials/M_VMI_Char_Queen_Hair_FirstPass_UI_5945365a.uasset",
+      "bytes": 17200,
+      "sha256": "cc270fecb054bec69c520ed81169738b0fa6403aa06f2778736dbb95f6ff063d",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/PCAssets/Portraits/T_PC_angel",
+      "file": "Content/PCAssets/Portraits/T_PC_angel.uasset",
+      "bytes": 271064,
+      "sha256": "3c195b803ac4cd9fac4e0768e2191cb65f34294115912672b2d5698fd767fc48",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/PCAssets/Portraits/T_PC_angela",
+      "file": "Content/PCAssets/Portraits/T_PC_angela.uasset",
+      "bytes": 269581,
+      "sha256": "3fb1a7a748e62bc44db5827a07d4c5c6b5bfc69ec8b0515d3d562a434d235b64",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/PCAssets/Portraits/T_PC_molly",
+      "file": "Content/PCAssets/Portraits/T_PC_molly.uasset",
+      "bytes": 309642,
+      "sha256": "69361299033779f260edac9a7d1496d0e18aecc6ae5b217ed9d072b18518f22a",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/PCAssets/Portraits/T_PC_naimei",
+      "file": "Content/PCAssets/Portraits/T_PC_naimei.uasset",
+      "bytes": 357549,
+      "sha256": "1baaef27290259feb8415f6d9cb206263edd78ee484c9f45f9ed418bba418198",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/PCAssets/Portraits/T_PC_queen",
+      "file": "Content/PCAssets/Portraits/T_PC_queen.uasset",
+      "bytes": 386010,
+      "sha256": "cc40661f6efbaf2c31321c83ac752d46aaadaabc292d05b1f9de6824c2d198c4",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Source_Bianca",
+      "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Source_Bianca.uasset",
+      "bytes": 36601,
+      "sha256": "788fa1d98777d83451384d624ea56488ca8c4851c2b73d2a47a624e1598b6480",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Source_Lucia",
+      "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Source_Lucia.uasset",
+      "bytes": 70572,
+      "sha256": "cf7adff4a573515b7db6ad1f1d95562452a1f95b70eb4b7201623ea3067b0445",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Source_NaiMei",
+      "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Source_NaiMei.uasset",
+      "bytes": 83272,
+      "sha256": "d659adcc71501bdd388d775d9b29ca14a3152704d4d13077bb2bd1799cf3d469",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Source_NaimeiOther",
+      "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Source_NaimeiOther.uasset",
+      "bytes": 22997,
+      "sha256": "4e1213cb2c21a8d8ce54a560dd542e88be28aa90cb1807c03e0dcf796a7693f7",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Source_QueenPreview",
+      "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Source_QueenPreview.uasset",
+      "bytes": 29690,
+      "sha256": "4b39c6afcd310ddc5a6de5341ed80439042512d83850823a3cd2b2c50c4968dc",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Source_QueenRole",
+      "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Source_QueenRole.uasset",
+      "bytes": 27640,
+      "sha256": "7f32e1558dcd4e42bf761e0d600fa0ffe05c0abbd8010552b0e91ee4a52f9e65",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/PCAssets/ViewerEnvironments/DA_PC_Source_Standard",
+      "file": "Content/PCAssets/ViewerEnvironments/DA_PC_Source_Standard.uasset",
+      "bytes": 16239,
+      "sha256": "dd8ad781d81aa649968197290ba81ecd4dd9a4283c7c10f7805688c87deaac98",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Viewer/GI/L_GI_Standard",
+      "file": "Content/Viewer/GI/L_GI_Standard.umap",
+      "bytes": 35035,
+      "sha256": "786df119113f28d9916b4418e1dae4ffa747cfa49e58baa0337becf785d671d1",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Viewer/GI/L_GI_Standard_BuiltData",
+      "file": "Content/Viewer/GI/L_GI_Standard_BuiltData.uasset",
+      "bytes": 38294,
+      "sha256": "4709ed6b170fc5823acf697f32a46a121880ff2b2ada753280a7ed3ec5df8d7e",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Viewer/GI/Materials/M_GI_M_Env_VMI_General_Background_Ground_01b_021a0ff6",
+      "file": "Content/Viewer/GI/Materials/M_GI_M_Env_VMI_General_Background_Ground_01b_021a0ff6.uasset",
+      "bytes": 10126,
+      "sha256": "bc715e01bafc27b6a4e93cf6808484ceb27c8d9cefdb237f0bc12fa411479a03",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Viewer/GI/Materials/M_GI_M_Env_VMI_Generic_EmmisiveLighting_PatchLight02a_03f406d4",
+      "file": "Content/Viewer/GI/Materials/M_GI_M_Env_VMI_Generic_EmmisiveLighting_PatchLight02a_03f406d4.uasset",
+      "bytes": 12161,
+      "sha256": "c22d3f5fded439fb31d4a9ec59a3cbf488985eda7bba545cb69258e5e3ca6d11",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    },
+    {
+      "target": "/Game/Viewer/GI/Meshes/SM_GI_SM_General_Background_Ground01a",
+      "file": "Content/Viewer/GI/Meshes/SM_GI_SM_General_Background_Ground01a.uasset",
+      "bytes": 85658,
+      "sha256": "7c5149af1cc6cd5686a4284e540deb2d47ed236e7231c1e6f3a35a6c4edaa62e",
+      "reason": "Not reachable from the actual saved map/Catalog/editor resource-library and dynamically loaded UI entry dependency closure."
+    }
+  ],
+  "counts": {
+    "unreferenced_packages": 40,
+    "bytes": 3051790,
+    "unused_prepared_portraits": 5,
+    "inactive_runtime_environment_candidates": 7,
+    "old_unreferenced_packages": 28
+  },
+  "backup": {
+    "file": "Docs/PCViewerIntegration/unused_assets_backup.tar.gz",
+    "bytes": 1839645,
+    "sha256": "bd929324658c0b2cef0c84d2400907ef7e15347723e1383a1cb1bfbc80d54196"
+  },
+  "scope": "User-requested cleanup of packages absent from the saved dependency closure. Runtime and the complete original indexed PC source library remain referenced and retained.",
+  "completed_at_utc": "2026-11-10T07:55:51.711506+00:00",
+  "post_removal_dependency_audit": {
+    "status": "passed",
+    "file": "Docs/PCViewerIntegration/content_dependency_audit.json",
+    "sha256": "af5a213d95cfba571587646cfa4e94c9daf23a8ad3d4e76ee12126118726c54f",
+    "project_packages": 7573,
+    "reachable_packages": 7573,
+    "missing_packages": 0,
+    "unknown_dependencies": 0,
+    "unused_packages": 0
+  }
+}

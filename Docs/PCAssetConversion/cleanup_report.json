@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "completed_at_utc": "2026-11-10T05:31:00.368378+00:00",
+  "status": "completed_assets_unchanged",
+  "scope": "Disposable extracted copies, test outputs, mesh backups, local tool caches and generated Intermediate/DDC; retained editor personal settings and compiled Binaries",
+  "deleted_files": 17723,
+  "deleted_logical_bytes": 11842173138,
+  "deleted_allocated_bytes": 11886870528,
+  "deleted": [
+    {
+      "path": "Saved/PCAssetConversion",
+      "files": 788,
+      "bytes": 3026351834,
+      "allocated_bytes": 3032252416
+    },
+    {
+      "path": "Saved/BuildIOSCompile.log",
+      "files": 1,
+      "bytes": 4221,
+      "allocated_bytes": 8192
+    },
+    {
+      "path": "Saved/PubSmoke_k3o0ootr",
+      "files": 178,
+      "bytes": 140497716,
+      "allocated_bytes": 140918784
+    },
+    {
+      "path": "Saved/PubSmoke_9wvpgso3",
+      "files": 179,
+      "bytes": 140498898,
+      "allocated_bytes": 140922880
+    },
+    {
+      "path": "Saved/ShaderDebugInfo",
+      "files": 1,
+      "bytes": 17493,
+      "allocated_bytes": 20480
+    },
+    {
+      "path": "Saved/PubSmoke_gkhfdhk6",
+      "files": 178,
+      "bytes": 140497716,
+      "allocated_bytes": 140918784
+    },
+    {
+      "path": "Saved/PubSmoke_uhhv2jvu",
+      "files": 178,
+      "bytes": 140501451,
+      "allocated_bytes": 140918784
+    },
+    {
+      "path": "Saved/BuildIOSCompileVerification.json",
+      "files": 1,
+      "bytes": 5023,
+      "allocated_bytes": 8192
+    },
+    {
+      "path": "Saved/PubSmoke_m85ibytn",
+      "files": 178,
+      "bytes": 140501435,
+      "allocated_bytes": 140918784
+    },
+    {
+      "path": "Saved/PubSmoke_85fsdpze",
+      "files": 179,
+      "bytes": 140498898,
+      "allocated_bytes": 140922880
+    },
+    {
+      "path": "Saved/PubSmoke_5tgyydz0",
+      "files": 179,
+      "bytes": 140498992,
+      "allocated_bytes": 140922880
+    },
+    {
+      "path": "Saved/Collections",
+      "files": 0,
+      "bytes": 0,
+      "allocated_bytes": 0
+    },
+    {
+      "path": "Saved/ContentAudit.json",
+      "files": 1,
+      "bytes": 5878,
+      "allocated_bytes": 8192
+    },
+    {
+      "path": "Saved/PCAssetAnalysis",
+      "files": 15045,
+      "bytes": 6107110588,
+      "allocated_bytes": 6138732544
+    },
+    {
+      "path": "Saved/UnrealBuildTool",
+      "files": 1,
+      "bytes": 129,
+      "allocated_bytes": 4096
+    },
+    {
+      "path": "Saved/SourceControl",
+      "files": 1,
+      "bytes": 1601184,
+      "allocated_bytes": 1601536
+    },
+    {
+      "path": "Saved/PubSmoke_0auefhtl",
+      "files": 179,
+      "bytes": 140498898,
+      "allocated_bytes": 140922880
+    },
+    {
+      "path": "Saved/Config/CrashReportClient",
+      "files": 146,
+      "bytes": 33580,
+      "allocated_bytes": 598016
+    },
+    {
+      "path": "Intermediate",
+      "files": 241,
+      "bytes": 1351235278,
+      "allocated_bytes": 1352953856
+    },
+    {
+      "path": "DerivedDataCache",
+      "files": 5,
+      "bytes": 1627828,
+      "allocated_bytes": 1646592
+    },
+    {
+      "path": "Plugins/PCAssetImporter/Intermediate",
+      "files": 50,
+      "bytes": 229753314,
+      "allocated_bytes": 231202816
+    },
+    {
+      "path": "Scripts/__pycache__",
+      "files": 14,
+      "bytes": 432784,
+      "allocated_bytes": 466944
+    }
+  ],
+  "evidence_archive": "Docs/PCAssetConversion/conversion_evidence.tar.gz",
+  "evidence_archive_sha256": "117f4fc462eca8bdcbf5d3068bed83d9fef6277a71c6f096d6e36eae003c752c",
+  "evidence_archive_bytes": 5836032,
+  "retained_saved_settings": {
+    "Saved/Config/MacEditor/Editor.ini": "75089a65f4b4bd0a2bebac44635c605287ff3abe740540832fac55c11dc9bb98",
+    "Saved/Config/MacEditor/EditorPerProjectUserSettings.ini": "bec5eec0eb973c4ddaf9ba34fc01ed7f02b9e78300a78b68e29dd9e2c21be50a"
+  },
+  "converted_asset_packages_verified_unchanged": 6833,
+  "pcresources_source_manifest_unchanged": "b15adb8d43e285fbad31b368567656a3f5943c4a02d30b72fc4df4aa7caa3e96",
+  "compiled_binaries_retained": true,
+  "remaining_saved": {
+    "files": 2,
+    "bytes": 65359,
+    "allocated_bytes": 69632
+  }
+}

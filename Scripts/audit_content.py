@@ -16,6 +16,12 @@ roots = ['/Game/Viewer/Maps/L_Viewer', '/Game/Viewer/Data/DA_ViewerCatalog',
 # These two icons are loaded by formatted paths in ViewerWidget.cpp.
 # Do not use the entire UI directory as a root: unused icons must remain visible.
 roots += ['/Game/Viewer/UI/T_HideUI', '/Game/Viewer/UI/T_Replay']
+# The editable PC source library is intentionally separate from the runtime
+# Catalog. Follow its explicit reference graph so source evidence stays useful
+# during cleanup, while unreferenced imports are still reported below.
+if (content / 'PCAssets/Collections/DA_PCAssetLibrary.uasset').is_file():
+    roots.append('/Game/PCAssets/Collections/DA_PCAssetLibrary')
+roots += [str(asset.package_name) for asset in registry.get_assets_by_path('/Game/Viewer/PCEnvironment', recursive=True)]
 queue, seen, missing, unknown = list(roots), set(), [], []
 while queue:
     package = queue.pop()
