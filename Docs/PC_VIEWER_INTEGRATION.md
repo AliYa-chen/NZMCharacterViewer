@@ -35,7 +35,7 @@
 
 原有 20 处动态绑定只在相同服装、相同部件上复用，并比较实际参与求解的骨骼顺序和父子关系：14 处完整复用，4 处生成完全匹配的骨链子集；Angela 的头发与帽子缺少全部旧骨链，明确标为不可沿用。不猜测骨骼改名，也不把其他人物的参数套给新角色。逐项原因和保存资产见动态报告。此处保留的是查看器已有的有限骨链求解，未恢复原私有 DynamicBone 求解器、碰撞或 Chaos Cloth。
 
-眼部径向 UV 与标准材质响应属于有来源参数的近似。原 EyeOcclusion 辅助壳缺少私有 AO 方程，通用材质会把它画成白色遮挡层；运行覆盖将这层设为透明，实际 Metal 的相同姿态前后图确认虹膜与瞳孔恢复。原版折射、瞳孔控制、私有 Hair／Eye／SSS shader、面部混合、粒子和完整布料仍未恢复。皮肤／毛发关键函数缺少输入、输出及连接，无法仅凭材质枚举或 packed 贴图名字恢复；具体缺图数量与 SSS 单位边界保存在 shader 缺口报告中。
+眼部径向 UV 与标准材质响应属于有来源参数的近似。原 EyeOcclusion 辅助壳缺少私有 AO 方程，通用材质会把它画成白色遮挡层；运行覆盖将这层设为透明，实际 Metal 的相同姿态前后图确认虹膜与瞳孔恢复。后续已接入原生 Hair／Subsurface Profile 着色重建及有来源物理数据的 Chaos 布料，见 [着色与布料接入](PC_FEATURE_INTEGRATION.md)。原版折射、瞳孔控制、私有着色运算、面部混合、粒子及未导出的布料仍有缺口。皮肤／毛发关键函数缺少输入、输出及连接，无法仅凭材质枚举或 packed 贴图名字恢复；具体缺图数量与 SSS 单位边界保存在 shader 缺口报告中。
 
 ## 重复验证与可选重导入
 
@@ -51,4 +51,4 @@ git restore --source=03152adb7ce937649f890455d6650f346e82acc1 -- PCResources
 
 主要脚本按依赖顺序为 `build_pc_viewer_plan.py`、`attach_pc_viewer_animations.py`、`prepare_pc_dynamics.py`、`build_pc_viewer_eye_materials.py`、`extend_pc_viewer_eye_occlusion.py`、`prepare_pc_viewer_environments.py`、`render_pc_viewer_portraits.py`、`import_pc_viewer_catalog.py` 和只读的 `audit_pc_viewer_integration.py`。来源计划生成需要恢复原始导出；运行时审计只读取保存的计划、Catalog 和 UE 资产。眼部第二阶段报告包含虹膜与遮挡壳覆盖；不能只重跑第一阶段后把虹膜报告误当最终覆盖报告。
 
-动画与头像需要 Editor 的 `AnimationData`、`ControlRig` 和 `RigVM` 支持。使用 `-NoEnginePlugins` 的精简命令时，必须显式启用这些插件；普通编辑器启动沿用引擎默认插件。头像和画面验证使用实际 Metal，不能加 `-nullrhi`。静态依赖、编译与动画数据验证不能代替实际画面、cook 或 iOS 真机检查。
+动画与头像需要 Editor 的 `AnimationData`、`ControlRig` 和 `RigVM` 支持。使用 `-NoEnginePlugins` 的精简命令时，必须显式启用这些插件，并保留 `ChaosCloth` 与输入设置依赖的 `EnhancedInput`；普通编辑器启动沿用引擎默认插件。头像和画面验证使用实际 Metal，不能加 `-nullrhi`。静态依赖、编译与动画数据验证不能代替实际画面、cook 或 iOS 真机检查。

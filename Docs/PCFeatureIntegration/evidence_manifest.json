@@ -1,0 +1,583 @@
+{
+  "catalog_sha256": "a262b657a4ed84228c8f482166bd49794213900509cf155769f0fd24ec9aa4da",
+  "runtime_module_sha256": "486d126babc70112df2b91e4cc9de5cd8d066c8a29dff460da78f76bef990bea",
+  "source_commit": "03152adb7ce937649f890455d6650f346e82acc1",
+  "published_source_url": "https://github.com/AliYa-chen/NZMCharacterViewer/tree/03152adb7ce937649f890455d6650f346e82acc1/PCResources",
+  "source_manifest_sha256": "802da2f89b0380abfeb63df35a5c5182804a3f98b5bd1ecff608d9436a96a205",
+  "validation_summary_sha256": "f6fa0d0fa3f9b74412ecb0edf1c7b0a2b8257165169610e3a2ae76039a3ce86f",
+  "counts": {
+    "pc_parts": 72,
+    "protected_packages_unchanged": 6918,
+    "new_shading_packages": 66,
+    "verified_metal_sm6_materials": 63,
+    "new_cloth_meshes": 7,
+    "native_cloth_assets": 19,
+    "runtime_outfit_cases": 6,
+    "runtime_native_cloth_parts": 7,
+    "runtime_PNGs": 6,
+    "project_packages": 7646
+  },
+  "new_package_fingerprints_not_archived": [
+    {
+      "package": "/Game/PCAssets/ViewerCloth/SK_SK_Char_Angle_UI_HatHair_Mesh_c0b50a533b4e_Chaos",
+      "file": "Content/PCAssets/ViewerCloth/SK_SK_Char_Angle_UI_HatHair_Mesh_c0b50a533b4e_Chaos.uasset",
+      "bytes": 36250092,
+      "sha256": "b17b685e9100b0c3eb3996e2bc9b457a5f2ba314975e3fe4b69c41118b4d2c53"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerCloth/SK_SK_Char_Bella_Pop_C_UI_Hair_Mesh_55c86db65ba6_Chaos",
+      "file": "Content/PCAssets/ViewerCloth/SK_SK_Char_Bella_Pop_C_UI_Hair_Mesh_55c86db65ba6_Chaos.uasset",
+      "bytes": 31541034,
+      "sha256": "b9609fb8ab2615bb9f94f03ca4c5f536d6976af7d454050df98ffaa86515990c"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerCloth/SK_SK_Char_Bella_UI_Hair_Mesh_88fb227b3bed_Chaos",
+      "file": "Content/PCAssets/ViewerCloth/SK_SK_Char_Bella_UI_Hair_Mesh_88fb227b3bed_Chaos.uasset",
+      "bytes": 34635096,
+      "sha256": "86bda8d5f5996732f90ab8f947b63be30db855d051de4ce1ea76812eb19f5e01"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerCloth/SK_SK_Char_Molly_UI_Hair_Mesh_098e31046601_Chaos",
+      "file": "Content/PCAssets/ViewerCloth/SK_SK_Char_Molly_UI_Hair_Mesh_098e31046601_Chaos.uasset",
+      "bytes": 31983984,
+      "sha256": "d600ce8708f3a770dbf80fabd132fecfa2dcba1ffdece19eb69b85915da2431f"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerCloth/SK_SK_Char_Tina_UI_Hair_Mesh_3c7e1642c3de_Chaos",
+      "file": "Content/PCAssets/ViewerCloth/SK_SK_Char_Tina_UI_Hair_Mesh_3c7e1642c3de_Chaos.uasset",
+      "bytes": 32435046,
+      "sha256": "e267aa98bd6ad4d79d28cb3530093e8bd55a3d5482943e5f5ed2d250bff83a27"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerCloth/SK_SK_Char_Widow_Suit_C_CutScene_Body_Mesh_09671bee252d_Chaos",
+      "file": "Content/PCAssets/ViewerCloth/SK_SK_Char_Widow_Suit_C_CutScene_Body_Mesh_09671bee252d_Chaos.uasset",
+      "bytes": 14013615,
+      "sha256": "29c745add35c1d1036614eb56d78d44a6e1686823c3ea36da5e566ef774d0c71"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerCloth/SK_SK_Char_Widow_UI_HatHair_Mesh_4ac5ee9998d4_Chaos",
+      "file": "Content/PCAssets/ViewerCloth/SK_SK_Char_Widow_UI_HatHair_Mesh_4ac5ee9998d4_Chaos.uasset",
+      "bytes": 20271434,
+      "sha256": "920b13e1564c784a59444570abef4a68180e5b926ae5a616c1ca027516994215"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Cloth_Surface_51b23c9c482c",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Cloth_Surface_51b23c9c482c.uasset",
+      "bytes": 13903,
+      "sha256": "7962806f63336c514da6e754f9154a1b8c7b40c18b5950ecbb002b71a36812c5"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_1e4f735e20e2",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_1e4f735e20e2.uasset",
+      "bytes": 15712,
+      "sha256": "9e7f92b1558f02cc46a5b7b3e9e868de2b84037ec59df40858db512b82bea3a0"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_203ba8276645",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_203ba8276645.uasset",
+      "bytes": 15766,
+      "sha256": "3191cb9b129406e8c69c460c6f3e25639072eb8dd5b87f592942a674077bde9f"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_49dbfa5fb036",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_49dbfa5fb036.uasset",
+      "bytes": 15772,
+      "sha256": "166e52dd00bb820f0a212c9bb3a81961d78799f33e2168221296996882f60ebd"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_5356d58c9eae",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_5356d58c9eae.uasset",
+      "bytes": 15768,
+      "sha256": "068abc69bb2b998112811f410facbcde422bbd009b030c5ac6457e11f786ac91"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_56369eb29b00",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_56369eb29b00.uasset",
+      "bytes": 15766,
+      "sha256": "8c8fa32971e1afeae69e5c40f82d71ea43b27897997bc5c56b8083128283566f"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_67ad9804b9d8",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_67ad9804b9d8.uasset",
+      "bytes": 15774,
+      "sha256": "4307b5635525aac3348a3525815ba46a364b120e0e497393216c8e07c18e3585"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_697247d29212",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_697247d29212.uasset",
+      "bytes": 15773,
+      "sha256": "09b586a764d791294205d566b7f91d964de63682aeba9af9392c65c0bf336c47"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_81123f8c7acc",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_81123f8c7acc.uasset",
+      "bytes": 15774,
+      "sha256": "e525ecdc50a05afc448455993e9aed86f91dd7081ad16c5492fb35194eac0b7d"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_96ec23e54a60",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_96ec23e54a60.uasset",
+      "bytes": 15744,
+      "sha256": "001fead3c122c03754e6ede22533d8c311806010f1e0ff36c9d4a43ee733e2a2"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_9e63e9a5f921",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_9e63e9a5f921.uasset",
+      "bytes": 15756,
+      "sha256": "d3c1f09ae724a96b4d1f06f83bc6eb9643320a6792df15f9035dbdb5c1815fc9"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_9e734c00cb79",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_9e734c00cb79.uasset",
+      "bytes": 15774,
+      "sha256": "7493debecce99eb5f9e60e740c5c32f6fd7eb5593f0f98190dc0be6214af6f88"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_aa4a8c5c448b",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_aa4a8c5c448b.uasset",
+      "bytes": 15765,
+      "sha256": "5be78ead9ffb8284a5b1a880755cb6c793876fee323d7e6b09a169455b16ba8b"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_af0c9f17038f",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_af0c9f17038f.uasset",
+      "bytes": 15743,
+      "sha256": "dd00f57bb2f27e1c402902b121e82a2c29cd7b025df962e6ed6ec52c52a889e0"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_ba31d8196787",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_ba31d8196787.uasset",
+      "bytes": 15772,
+      "sha256": "d3aa5d4ac346ec4acb3f7bec14fbf6c2f2aa3610332d188657fd1b454c293e05"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_c271bbca37b3",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_c271bbca37b3.uasset",
+      "bytes": 15768,
+      "sha256": "296558dfceb4153adaa5452611d698f808436cf329ae20a276abfd308e183f28"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_d8028015fc13",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_d8028015fc13.uasset",
+      "bytes": 15728,
+      "sha256": "1257121931c25967032ba921f2cee601eaf04548d866e956596bda41c62d56f3"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Hair_f73c9bd59ddd",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Hair_f73c9bd59ddd.uasset",
+      "bytes": 15766,
+      "sha256": "e51d1cdfc8456f5b865442e32ec4ed7f99ff6eec5bc0e80eeefbf3b514e381b3"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_00515f5e7e65",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_00515f5e7e65.uasset",
+      "bytes": 15879,
+      "sha256": "a72ce2590e60bf9ec054b2a68ed00adf49a116ac7e37c54e384077c54b65acc6"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_02d104d8ae4d",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_02d104d8ae4d.uasset",
+      "bytes": 15309,
+      "sha256": "cd405335ded3fe14deb8ce69eafe92dc39e64f3c1ed1825f45f23d58247738b2"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_0b3c552e5217",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_0b3c552e5217.uasset",
+      "bytes": 15377,
+      "sha256": "438b6870313da6bda345b00da607bb3ac37636bab67156275986d18d31a33f24"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_0d4b3bc4f549",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_0d4b3bc4f549.uasset",
+      "bytes": 15437,
+      "sha256": "2847ae5474154a36a1e6f2396f1f6cf3bef9ac03d9fd3755c142d14a02a14b17"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_0d95db2ad90b",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_0d95db2ad90b.uasset",
+      "bytes": 15897,
+      "sha256": "306c987083eae44a871347938328efe56b9163168efe5be17d7091610ac3fc06"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_15f93d6fbd1d",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_15f93d6fbd1d.uasset",
+      "bytes": 15367,
+      "sha256": "a7c8a8e2b25953972630708f0ce64eddeda271dd87bd74d7c0beb4d4de21c23a"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_1e7cc005790f",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_1e7cc005790f.uasset",
+      "bytes": 15891,
+      "sha256": "7a15b7fc45f9ff26c0026ea02ab90640a87a6f235c8f01966437b0c052364d88"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_30772498b7df",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_30772498b7df.uasset",
+      "bytes": 15864,
+      "sha256": "d65c79b140b3ba206e60fad71a95607b35d2d0538f0ba1b0ccfdde406208b2bc"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_3234d76542f8",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_3234d76542f8.uasset",
+      "bytes": 15437,
+      "sha256": "1c656170d5e13ca08477fdf5ba28d3a8b99184f342bd7fbfd439a7950ebb8384"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_335e0e74c829",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_335e0e74c829.uasset",
+      "bytes": 15377,
+      "sha256": "58bf9dd830187ba4f422c525954d32d73c69e29e5fde3d7ec31c57d595c33e4a"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_38703eaaeb23",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_38703eaaeb23.uasset",
+      "bytes": 15386,
+      "sha256": "a4f17cd1be333edd03f26cfe0cf9c17d1ea0761db64bcdebcc90c39d06ec924b"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_45e75e98850e",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_45e75e98850e.uasset",
+      "bytes": 15474,
+      "sha256": "9d06aec28e8b52fb23129a57af4b7aa0471eca9566474ea6826e1e09075479ae"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_4a7f8534cdf5",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_4a7f8534cdf5.uasset",
+      "bytes": 15891,
+      "sha256": "5d673013d57fcdfc9f0e5a7bb9701055d810c549b367e16f35cecf853b782262"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_4ffeeb14333e",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_4ffeeb14333e.uasset",
+      "bytes": 15418,
+      "sha256": "83003358f77418b087a3f67ad231000f7e4ea6f478a6f268718c46194ef99241"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_512af384e755",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_512af384e755.uasset",
+      "bytes": 15897,
+      "sha256": "a2eae9a49ce9a6c83259b8ba882caced552dd4e15d73f4e3ea9dba01916903e9"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_574553388ad8",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_574553388ad8.uasset",
+      "bytes": 15866,
+      "sha256": "36abbd357722bf8c6aa7f8c25e4e56d509f8e2908c3e61217e51d4d34374150b"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_602f4885a484",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_602f4885a484.uasset",
+      "bytes": 15355,
+      "sha256": "8062c5628927b206932b0d91b295df0af14dbde501498ab21ddbec07ecb6a143"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_619110f488c3",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_619110f488c3.uasset",
+      "bytes": 15859,
+      "sha256": "c49074629509d0af4083bd7657e8f576afa079152158f7f9c310b32582cc05ac"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_6ab46bd6248d",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_6ab46bd6248d.uasset",
+      "bytes": 15896,
+      "sha256": "cbb5034d3b293f155d3d9d3767a9fde915ee302666b29e2c574509e754544e78"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_71ad948c3b16",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_71ad948c3b16.uasset",
+      "bytes": 15872,
+      "sha256": "5de3e3ba0e40acf6408a1dbac79df2d9aa99ec136768dd532b67872fc83ed0c8"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_783cfb1eb47c",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_783cfb1eb47c.uasset",
+      "bytes": 15349,
+      "sha256": "2069e4347fc0c569c6b7483f5c2be23d642b3869a7a2d7018e48aeb26d6b4663"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_7aac3c2e3db3",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_7aac3c2e3db3.uasset",
+      "bytes": 15816,
+      "sha256": "d334fa6f1674d03d24718d8323e7020a9c82663fd96125e8a1923b5bb02ea6ea"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_7eda6107dfc6",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_7eda6107dfc6.uasset",
+      "bytes": 15891,
+      "sha256": "a316661bd76aa43dd7ff81f9fe36979fab2792fa0251be45dc47c62b1223c31d"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_87dd2bd3aaeb",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_87dd2bd3aaeb.uasset",
+      "bytes": 15309,
+      "sha256": "cb09e2315aa5b27d75ad183e137e797b8e460778600b8835244e2e9b17bce03a"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_896a0e5693b6",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_896a0e5693b6.uasset",
+      "bytes": 15347,
+      "sha256": "dce703dcb66a431239058fc705fe5b8f7dba61f5932e522265f402207038c7f9"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_8b840d83e25d",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_8b840d83e25d.uasset",
+      "bytes": 15831,
+      "sha256": "227c1aa4112d0a4274b933258dae7a37f1507055e7cd01aaee6b1ff8d5359a5f"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_8eb020ed36ea",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_8eb020ed36ea.uasset",
+      "bytes": 15823,
+      "sha256": "70dcab15825a636cff9163e0335e3801e04970756709035c779d811337ae90a6"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_91a646f88eeb",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_91a646f88eeb.uasset",
+      "bytes": 15347,
+      "sha256": "7921af4c700f691bdb4dc069ec47200b69bd61b14c86fc38601136ede3b4fdea"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_ae0be972d5e8",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_ae0be972d5e8.uasset",
+      "bytes": 15352,
+      "sha256": "5e27a3bc77dd856005162cbf0f14179a6c017f98364a1163600f5b861734d42f"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_b5eaf57b3786",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_b5eaf57b3786.uasset",
+      "bytes": 15497,
+      "sha256": "8f94c8f183ab787df38ec825eabab54ecac33908a14e0900cf3b9a307558367b"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_b78ef074a6e9",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_b78ef074a6e9.uasset",
+      "bytes": 15821,
+      "sha256": "9a54f524da808eff86b59368a0f012360502ed680277dac8c8c258fd951a6780"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_bcad62bdf5c3",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_bcad62bdf5c3.uasset",
+      "bytes": 15375,
+      "sha256": "a36270e161c390a8bfa24b12c52fc2718336b8e93a5e006424f6748210fb86f3"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_bfba2b4d6d3b",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_bfba2b4d6d3b.uasset",
+      "bytes": 15865,
+      "sha256": "42a7f211419b4bd8fcb4b5dede66fe03f98ebf97d4e129e0bbcddd07f0f0bd92"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_d13b2f63afea",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_d13b2f63afea.uasset",
+      "bytes": 15387,
+      "sha256": "4db28e3f5a86e9e528e290f44a8552889c8af3c5cca6f970f3543c431499c3f1"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_d2088a776e3f",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_d2088a776e3f.uasset",
+      "bytes": 15859,
+      "sha256": "a001fda5ff7c57be4c7daf205436fb05bc1a0fd9de27a8eb410831f9e5e482f0"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_d3c0037b4481",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_d3c0037b4481.uasset",
+      "bytes": 15435,
+      "sha256": "eceab0e5e17eceb0d0954710b1d608bc02a4b911ed36b5d1b3746b7ed4342e60"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_d65c68bb0441",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_d65c68bb0441.uasset",
+      "bytes": 15423,
+      "sha256": "beefa7518c257a8364a47d29462ff4e8f230e3cc41db91b46b1398afe3bc1429"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_dbd1b288b11f",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_dbd1b288b11f.uasset",
+      "bytes": 15372,
+      "sha256": "7e249fa11d156baabb796f738fbbd50619a62d5c1755b2873402c953913d3268"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_dbffee9775df",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_dbffee9775df.uasset",
+      "bytes": 15863,
+      "sha256": "a8f626d7952ac6e8e302ab419793355ba13095e9f4b39e6e384bb37572ff5585"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_e8f7812514b2",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_e8f7812514b2.uasset",
+      "bytes": 15368,
+      "sha256": "d2a4031310fcf16b094336ad040c33feac524adb0e157835f35783ab9c4fe357"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_f63c117b7169",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_f63c117b7169.uasset",
+      "bytes": 15402,
+      "sha256": "94cc9c77bd7f8d4c24d33bf42a15242396656f8e02e5080f2bf9087a600c1444"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/MI_PC_Skin_ffb23a55addd",
+      "file": "Content/PCAssets/ViewerShading/MI_PC_Skin_ffb23a55addd.uasset",
+      "bytes": 15891,
+      "sha256": "072caa8c32e0cd79e5730a136e7dc1a25769fdbba08da6f75f2f372fff18bc59"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/M_PC_Cloth_Surface_Native_v1",
+      "file": "Content/PCAssets/ViewerShading/M_PC_Cloth_Surface_Native_v1.uasset",
+      "bytes": 25942,
+      "sha256": "aed645e98fbd5d0ad52f29b97a4a6c11ae0924cb82f03fb09bd202a3ece3ef77"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/M_PC_Hair_Native_v1",
+      "file": "Content/PCAssets/ViewerShading/M_PC_Hair_Native_v1.uasset",
+      "bytes": 47434,
+      "sha256": "37d32e4aee8e2417eb41d25d12dc3328e4448886acae0744852647cc27166ab7"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/M_PC_Skin_Native_v1",
+      "file": "Content/PCAssets/ViewerShading/M_PC_Skin_Native_v1.uasset",
+      "bytes": 41309,
+      "sha256": "24b7c69540fb811879f4fd52660297e6b8097fa5dbdfa3e2b00f3e812ea0b421"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/SP_PC_24d6f5eeede3",
+      "file": "Content/PCAssets/ViewerShading/SP_PC_24d6f5eeede3.uasset",
+      "bytes": 1999,
+      "sha256": "1ef3a20bd0595925e897913153e2f2dce702d7a5ca3aa02e7511fa750fdca23d"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/SP_PC_bd75c9d37bd6",
+      "file": "Content/PCAssets/ViewerShading/SP_PC_bd75c9d37bd6.uasset",
+      "bytes": 2019,
+      "sha256": "2f60f1aa75464306115995cbbda61118994403e2c9bed93ca1a0a870ab6b310a"
+    },
+    {
+      "package": "/Game/PCAssets/ViewerShading/SP_PC_f13cbf2334a8",
+      "file": "Content/PCAssets/ViewerShading/SP_PC_f13cbf2334a8.uasset",
+      "bytes": 2022,
+      "sha256": "0323b82b8ecd0fd041541e7f3ffe57f2e4dd4eab2026aed86ad9f233251e1ded"
+    }
+  ],
+  "mobile_runtime_validation": "not_run",
+  "ios_validation": "unsigned_compile_link_only",
+  "ios_cook_performed": false,
+  "scope": "Native stock shader reconstruction and Chaos cloth integration evidence. Raw source JSON, Content packages, checkpoints, temporary drivers and upload state are excluded. Original private shader/solver equivalence, mobile runtime, iOS cooking/signing and device performance are not inferred.",
+  "schema_version": 1,
+  "status": "passed",
+  "archive": {
+    "file": "Docs/PCFeatureIntegration/integration_evidence.tar.gz",
+    "bytes": 6126272,
+    "sha256": "b63f48d26b3e87b8dbd6e482aa48187d511c0a9ffd3409578971772e2ae227d3"
+  },
+  "files": [
+    {
+      "file": "Saved/PCFeatureIntegration/ContentAudit.json",
+      "bytes": 1690,
+      "sha256": "00f08396a7b709a7a9c6928354136e80cce2610c612841b167c110172a8899f6"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/Runtime/Case_000_Character_01_Outfit_00.png",
+      "bytes": 904938,
+      "sha256": "10ef864507cafaaf9561466c8a49a7dce16fcea1f841faef1b5d3c5a35ea1e0c"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/Runtime/Case_001_Character_04_Outfit_00.png",
+      "bytes": 900460,
+      "sha256": "b566fcd04e88f55e205c1716e2b74ebd73e1adddff5331bf8cac56e9fe8a44de"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/Runtime/Case_002_Character_05_Outfit_00.png",
+      "bytes": 884410,
+      "sha256": "51f271259390f36419f35a9433d9f8fec76b69ec9e02be80aceccc7bc3b00d36"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/Runtime/Case_003_Character_05_Outfit_01.png",
+      "bytes": 887828,
+      "sha256": "f903b8b2da422b54d1589b128fe82c52020341c5b56f2f303ea7f9b6a4439468"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/Runtime/Case_004_Character_10_Outfit_00.png",
+      "bytes": 898011,
+      "sha256": "68ca657657d8f0ba4a3e94ac271582b423cb32109fcc4401443b7eb239d6bd21"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/Runtime/Case_005_Character_11_Outfit_00.png",
+      "bytes": 914505,
+      "sha256": "9f2a43bf4bcda54b3b4c67096bd90e437f370ddb5f901a524ad699fa16295f1b"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/Runtime/Report.json",
+      "bytes": 368862,
+      "sha256": "07edba15e85bfba165ffc952948874aa5a41c186c7bddbbd9558d5efcd6ed4db"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/build_macos_verified.log",
+      "bytes": 2982,
+      "sha256": "a85c24ec86b277d0209efb5c11cf9c788dcfdf459392ca5421cb2394336f5fbc"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/catalog_feature_report.json",
+      "bytes": 53886,
+      "sha256": "58c644fe55b92aa78f76f9b613c54d41b3841864fccd0edd4f0c5d532ea33db6"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/catalog_feature_snapshot.json",
+      "bytes": 161251,
+      "sha256": "99cea56813d4b7a0c0f45bea3a9c33b81c0be2f9acdd43a34c784eb18bed245e"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/cloth_fresh_verification.json",
+      "bytes": 24238,
+      "sha256": "306286d7befdc949fd032bc847b056ced5b6344c9cd7ce184ca17b6ba7810c94"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/cloth_plan.json",
+      "bytes": 140628,
+      "sha256": "bca89e0d9739bf396ceb13a21d7063f5bd9634d4aa591dffb282825f064d4e63"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/cloth_report.json",
+      "bytes": 81853,
+      "sha256": "092cd56cd29f4f5e8fba754dfd9146faaa0ababa4f8cbdc886855bc5d9d131b5"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/cloth_source_array_review.json",
+      "bytes": 7405,
+      "sha256": "cdaebd38d42b09d1831f69a77b45ab9c9c0f6f842ffbe0af89ce9cfe39b99c91"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/iOS/BuildIOSCompile.log",
+      "bytes": 4142,
+      "sha256": "54438d029bbc2926642e03a3119de3a9fb04b434d8bd5dbb626db0e464f65326"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/iOS/BuildIOSCompileVerification.json",
+      "bytes": 5023,
+      "sha256": "733fb4a12e6dd6fd0c2b5938f080190a984efedd90a3d29dc29725bdde06eea6"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/shading_plan.json",
+      "bytes": 183205,
+      "sha256": "abad7e864234b5c33e20742f369786064aa7f69aa4b9aa5845712dd1729cd2c8"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/shading_report.json",
+      "bytes": 2367063,
+      "sha256": "fd33f39db6ff23c06422e5f3a1a86012db43d510703076b9a2be7baeb92ced65"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/shading_shader_verification.json",
+      "bytes": 47622,
+      "sha256": "5480f8f5f54833c3cf91d4782f107d253f98d89413c6cceead35a48df01cd5a6"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/source_manifest.json",
+      "bytes": 1075546,
+      "sha256": "802da2f89b0380abfeb63df35a5c5182804a3f98b5bd1ecff608d9436a96a205"
+    },
+    {
+      "file": "Saved/PCFeatureIntegration/validation_summary.json",
+      "bytes": 17690,
+      "sha256": "f6fa0d0fa3f9b74412ecb0edf1c7b0a2b8257165169610e3a2ae76039a3ce86f"
+    }
+  ]
+}

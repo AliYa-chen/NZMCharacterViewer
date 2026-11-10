@@ -8,7 +8,8 @@
   "EnabledByDefault": true,
   "CanContainContent": false,
   "Plugins": [
-    {"Name": "ControlRig", "Enabled": true}
+    {"Name": "ControlRig", "Enabled": true},
+    {"Name": "ChaosCloth", "Enabled": true}
   ],
   "Modules": [
     {"Name": "PCAssetData", "Type": "Runtime", "LoadingPhase": "Default"},

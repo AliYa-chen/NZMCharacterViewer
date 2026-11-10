@@ -62,6 +62,8 @@ Scripts/package_ios.sh
 
 ## 验证状态与限制
 
+- 2026-11-10 着色与布料接入新增 66 个材质／散射资产及 7 个 Chaos 网格副本；Metal SM6 的 63 个材质与 6 套服装、7 个布料部件通过检查。Mac／iOS 编译链接通过，本轮未追加移动或真机验证。原私有函数、原碰撞与未导出的布料仍按 [接入范围和实测差异](Docs/PC_FEATURE_INTEGRATION.md) 区分。
+
 - 2026-11-10 高清接入完成桌面 Metal SM6 全部 26 套组合的加载、待机、切换、设置和部件检查；17 套高清截图逐套核对。Mac Editor 与 iOS arm64 编译／链接通过。本轮按要求停止追加移动／真机测试，并清理原始导出、40 个未引用资产包与生成缓存；证据见 [高清接入说明](Docs/PC_VIEWER_INTEGRATION.md)。
 - 基线工程在不含 `SourceAssets` 的干净 Git 克隆中通过过 Mac Editor 全量编译和 iOS Development arm64 编译／链接。
 - 开发版本已完成多轮 iOS cook、签名、打包、真机安装和运行检查。本机记录位于 `Saved/DevicePreparation`；这些结果对应各次被测版本，不能代替取消过场及后续画质修改后的回归验证。
@@ -102,7 +104,7 @@ PC 提取的模型、高清纹理、HDR 及人物页灯光／后期参数已转�
 
 安装内女性角色的 [原始源集合说明](https://github.com/AliYa-chen/NZMCharacterViewer/blob/03152adb7ce937649f890455d6650f346e82acc1/PCResources/Characters/README.md) 覆盖 309 个骨骼网格包、629 个材质包和 1,101 个纹理包。运行组合按真实 `UIConfig` 部件清单生成，不把资源包数量当作服装数量。Bunny 耳饰和七实腿部挂件按骨骼挂点运动；女王蛇使用专用待机，球保留参考姿势；艾玛缺失的来源部件会明确标注。
 
-原生转换库共有 6,833 个资产，其中 14 个独立环境候选位于 `Content/Viewer/PCEnvironment`，其余位于 `Content/PCAssets`，编辑器入口为 `/Game/PCAssets/Collections/DA_PCAssetLibrary`。运行接入另建待机、眼部覆盖、动态子集与 PC 环境，保持原库索引字节不变。完整索引见 [PC 资源转换](Docs/PC_ASSET_CONVERSION.md)，运行验证和已知差异见 [高清接入说明](Docs/PC_VIEWER_INTEGRATION.md)。新角色使用明确标注的共享待机，私有 Hair／Eye／SSS、面部、粒子和完整布料仍有缺口。
+原生转换库共有 6,833 个资产，其中 14 个独立环境候选位于 `Content/Viewer/PCEnvironment`，其余位于 `Content/PCAssets`，编辑器入口为 `/Game/PCAssets/Collections/DA_PCAssetLibrary`。运行接入另建待机、眼部覆盖、动态子集与 PC 环境，保持原库索引字节不变。完整索引见 [PC 资源转换](Docs/PC_ASSET_CONVERSION.md)，运行验证和已知差异见 [高清接入说明](Docs/PC_VIEWER_INTEGRATION.md)。新角色使用明确标注的共享待机。PC 皮肤／头发已增加原生 UE 着色重建，有来源物理数据的运行部件使用 Chaos 布料；原私有运算、缺失碰撞和未导出的布料仍有边界，见 [着色与布料接入](Docs/PC_FEATURE_INTEGRATION.md)。
 
 后续机器优先恢复人物受光、后期与特效时，按 [PC 人物渲染还原交接](Docs/PC_CHARACTER_RENDERING_HANDOFF.md) 执行。文档汇总补取的灯光模板、后期 override、肤／眼／发材质依赖和当前代码中的覆盖点，明确哪些仍需实现、编译和实际画面验收；普通构建不会自动完成这些还原工作。
 

@@ -5,6 +5,10 @@
 #include "ViewerPreferences.h"
 #include "ViewerEnvironment.h"
 #include "ViewerGraphicsCapabilities.h"
+#include "ClothingSystemRuntimeTypes.h"
+#include "ClothingAsset.h"
+#include "ClothingSimulationFactory.h"
+#include "ClothingSimulationInstance.h"
 #include "Blueprint/SlateBlueprintLibrary.h"
 #include "Blueprint/WidgetTree.h"
 #include "Camera/CameraComponent.h"
@@ -186,9 +190,14 @@ void UViewerSmokeTestComponent::Start(AViewerPawn* InViewer)
         else
             for (int32 Character = 0; Character < InViewer->Catalog->Characters.Num(); ++Character)
                 for (int32 Outfit = 0; Outfit < InViewer->Catalog->Characters[Character].Outfits.Num(); ++Outfit)
+                {
+                    const bool FeatureCase = InViewer->Catalog->Characters[Character].Outfits[Outfit].Parts.ContainsByPredicate(
+                        [](const FViewerPart& Part) { return Part.Mesh.ToSoftObjectPath().GetLongPackageName().StartsWith(TEXT("/Game/PCAssets/ViewerCloth/")); });
                     if ((FilterCharacter == INDEX_NONE || Character == FilterCharacter)
-                        && (FilterOutfit == INDEX_NONE || Outfit == FilterOutfit))
+                        && (FilterOutfit == INDEX_NONE || Outfit == FilterOutfit)
+                        && (!FParse::Param(FCommandLine::Get(), TEXT("ViewerPCFeatures")) || FeatureCase))
                         Selections.Add({ Character, Outfit });
+                }
     }
     if (Selections.IsEmpty())
     {
@@ -663,6 +672,7 @@ FString UViewerSmokeTestComponent::CaseStatus() const
 
 void UViewerSmokeTestComponent::FinishCase()
 {
+    RestoreClothProbeSettings();
     if (CurrentResult)
     {
         if (bLightingSweep) StoreLightingSweepReport();
@@ -721,6 +731,7 @@ void UViewerSmokeTestComponent::WriteReport(const FString& Status)
 
 void UViewerSmokeTestComponent::Complete()
 {
+    RestoreClothProbeSettings();
     RestoreLightingGridOverride();
     RestoreUserSettings(false);
     RestoreRenderingCaptureSettings();
@@ -754,6 +765,7 @@ void UViewerSmokeTestComponent::Complete()
 
 void UViewerSmokeTestComponent::Stop()
 {
+    RestoreClothProbeSettings();
     if (!IsRunning()) return;
     bUnexpectedInterruption = true;
     if (bLightingSweep && FScreenshotRequest::IsScreenshotRequested()
@@ -1481,6 +1493,9 @@ void UViewerSmokeTestComponent::BeginDynamicsProbe()
     AViewerPawn* Pawn = Viewer.Get();
     if (!Pawn) return;
     DynamicObservations.Reset();
+    RestoreClothProbeSettings();
+    ClothObservations.Reset();
+    ExpectedClothParts = 0;
     ProbeFrames = 0;
     if (Pawn->Preferences)
     {
@@ -1499,10 +1514,27 @@ void UViewerSmokeTestComponent::BeginDynamicsProbe()
     for (UStaticMeshComponent* Mesh : Pawn->StageMeshes)
         SceneRelativeTransforms.Add(Mesh->GetComponentTransform().GetRelativeTransform(View).GetRelativeTransform(ModelInView));
     const FViewerOutfit* Outfit = Pawn->GetCurrentOutfit();
+    if (Outfit)
+        for (const FViewerPart& Part : Outfit->Parts)
+            ExpectedClothParts += Part.Mesh.ToSoftObjectPath().GetLongPackageName().StartsWith(TEXT("/Game/PCAssets/ViewerCloth/"));
     for (int32 Index = 0; Index < Pawn->Parts.Num(); ++Index)
     {
         UViewerSkeletalMeshComponent* Component = Cast<UViewerSkeletalMeshComponent>(Pawn->Parts[Index]);
+        const bool ExpectedCloth = Outfit && Outfit->Parts.IsValidIndex(Index)
+            && Outfit->Parts[Index].Mesh.ToSoftObjectPath().GetLongPackageName().StartsWith(TEXT("/Game/PCAssets/ViewerCloth/"));
+        if (ExpectedCloth)
+            AddCheck(FString::Printf(TEXT("cloth.part[%d].expected_native_binding_active"), Index), Component
+                && Component->GetSkeletalMeshAsset() && Component->GetSkeletalMeshAsset()->HasActiveClothingAssets() ? TEXT("pass") : TEXT("fail"));
         if (!Component) continue;
+        if (Component->GetSkeletalMeshAsset() && Component->GetSkeletalMeshAsset()->HasActiveClothingAssets())
+        {
+            FClothObservation Cloth;
+            Cloth.Component = Component;
+            Cloth.PartIndex = Index;
+            Cloth.bSavedWaitForParallelClothTask = Component->bWaitForParallelClothTask;
+            Component->bWaitForParallelClothTask = true;
+            ClothObservations.Add(MoveTemp(Cloth));
+        }
         if (Outfit && Outfit->Parts.IsValidIndex(Index) && Outfit->Parts[Index].Dynamics.IsNull())
         {
             AddCheck(FString::Printf(TEXT("dynamics.part[%d].source_profile_declared"), Index), TEXT("not_applicable"),
@@ -1527,6 +1559,121 @@ void UViewerSmokeTestComponent::BeginDynamicsProbe()
 void UViewerSmokeTestComponent::SampleDynamics()
 {
     SampleAttachments();
+    for (FClothObservation& Observation : ClothObservations)
+        if (UViewerSkeletalMeshComponent* Component = Observation.Component.Get())
+        {
+            ++Observation.Samples;
+            Component->WaitForExistingParallelClothSimulation_GameThread();
+            int32 SolverCloths = 0, KinematicParticles = 0, DynamicParticles = 0;
+            for (const FClothingSimulationInstance& Instance : Component->GetClothingSimulationInstances())
+                if (const IClothingSimulationInterface* Simulation = Instance.GetClothingSimulation())
+                {
+                    SolverCloths += Simulation->GetNumCloths();
+                    KinematicParticles += Simulation->GetNumKinematicParticles();
+                    DynamicParticles += Simulation->GetNumDynamicParticles();
+                    if (const UClothingSimulationFactory* Factory = Instance.GetClothingSimulationFactory())
+                        Observation.SolverFactories.Add(Factory->GetClass()->GetPathName());
+                }
+            Observation.MaxSolverCloths = FMath::Max(Observation.MaxSolverCloths, SolverCloths);
+            Observation.MaxKinematicParticles = FMath::Max(Observation.MaxKinematicParticles, KinematicParticles);
+            Observation.MaxDynamicParticles = FMath::Max(Observation.MaxDynamicParticles, DynamicParticles);
+            const USkeletalMesh* Mesh = Component->GetSkeletalMeshAsset();
+            TArray<FTransform> Reference = Mesh->GetRefSkeleton().GetRefBonePose();
+            for (int32 Bone = 0; Bone < Reference.Num(); ++Bone)
+            {
+                const int32 Parent = Mesh->GetRefSkeleton().GetParentIndex(Bone);
+                if (Parent != INDEX_NONE) Reference[Bone] *= Reference[Parent];
+            }
+            const TArray<FTransform>& Published = Component->GetComponentSpaceTransforms();
+            const TMap<int32, FClothSimulData>& Data = Component->GetCurrentClothingData_GameThread();
+            int32 Particles = 0;
+            int32 PinnedThisFrame = 0;
+            bool Moving = false;
+            for (const TPair<int32, FClothSimulData>& Pair : Data)
+            {
+                const FClothSimulData& Cloth = Pair.Value;
+                Particles += Cloth.Positions.Num();
+                Observation.bFinite &= !Cloth.Transform.ContainsNaN() && !Cloth.ComponentRelativeTransform.ContainsNaN()
+                    && Cloth.Positions.Num() == Cloth.Normals.Num();
+                const UClothingAssetCommon* Asset = Mesh->GetMeshClothingAssets().IsValidIndex(Pair.Key)
+                    ? Cast<UClothingAssetCommon>(Mesh->GetMeshClothingAssets()[Pair.Key]) : nullptr;
+                const FClothPhysicalMeshData* Physical = Asset && Asset->LodData.IsValidIndex(Cloth.LODIndex)
+                    ? &Asset->LodData[Cloth.LODIndex].PhysicalMeshData : nullptr;
+                const FPointWeightMap* Distances = Physical ? Physical->FindWeightMap(EWeightMapTargetCommon::MaxDistance) : nullptr;
+                const bool Comparable = Physical && Distances && Physical->Vertices.Num() == Cloth.Positions.Num()
+                    && Physical->BoneData.Num() == Cloth.Positions.Num() && Distances->Num() == Cloth.Positions.Num()
+                    && Published.Num() == Reference.Num();
+                Observation.bPinBindingComparable &= Comparable;
+                const TArray<FVector3f>* Previous = Observation.PreviousPositions.Find(Pair.Key);
+                for (int32 Vertex = 0; Vertex < Cloth.Positions.Num(); ++Vertex)
+                {
+                    const FVector3f& Position = Cloth.Positions[Vertex];
+                    Observation.bFinite &= !Position.ContainsNaN() && Cloth.Normals.IsValidIndex(Vertex)
+                        && !Cloth.Normals[Vertex].ContainsNaN();
+                    if (Comparable)
+                    {
+                        const FClothVertBoneData& Bones = Physical->BoneData[Vertex];
+                        bool VertexComparable = Bones.NumInfluences > 0 && Bones.NumInfluences <= FClothVertBoneData::MaxTotalInfluences;
+                        FVector Expected = FVector::ZeroVector;
+                        for (int32 Influence = 0; VertexComparable && Influence < Bones.NumInfluences; ++Influence)
+                        {
+                            const int32 LocalBone = Bones.BoneIndices[Influence];
+                            if (!Asset->UsedBoneIndices.IsValidIndex(LocalBone)
+                                || !Published.IsValidIndex(Asset->UsedBoneIndices[LocalBone]))
+                            { VertexComparable = false; break; }
+                            const int32 Bone = Asset->UsedBoneIndices[LocalBone];
+                            Expected += Published[Bone].TransformPosition(Reference[Bone].InverseTransformPosition(
+                                FVector(Physical->Vertices[Vertex]))) * Bones.BoneWeights[Influence];
+                        }
+                        Observation.bPinBindingComparable &= VertexComparable;
+                        if (VertexComparable)
+                        {
+                            const FVector ActualWorld = Cloth.Transform.TransformPosition(FVector(Position));
+                            const FVector ExpectedWorld = Component->GetComponentTransform().TransformPosition(Expected);
+                            const double Offset = FVector::Distance(ActualWorld, ExpectedWorld);
+                            Observation.bFinite &= ViewerSmokeTest::FiniteVector(ActualWorld)
+                                && ViewerSmokeTest::FiniteVector(ExpectedWorld) && FMath::IsFinite(Offset);
+                            if (FMath::IsFinite(Offset))
+                            {
+                                const double Scale = Component->GetComponentScale().GetAbsMax();
+                                const double SourceDistance = (*Distances)[Vertex] * Scale;
+                                Observation.MaxSourceDistanceCm = FMath::Max(Observation.MaxSourceDistanceCm, SourceDistance);
+                                if ((*Distances)[Vertex] == 0.f)
+                                {
+                                    ++PinnedThisFrame;
+                                    Observation.MaxPinnedErrorCm = FMath::Max(Observation.MaxPinnedErrorCm, Offset);
+                                }
+                                else
+                                {
+                                    Observation.MaxDynamicSkinnedOffsetCm = FMath::Max(Observation.MaxDynamicSkinnedOffsetCm, Offset);
+                                    Observation.MaxSourceConstraintExcessCm = FMath::Max(Observation.MaxSourceConstraintExcessCm, Offset - SourceDistance);
+                                    // A generous explosion check, not a claim that collision
+                                    // projection exactly reproduces the original Nv response.
+                                    const double Safety = FMath::Max(10. * Scale, 1.1 * SourceDistance + 4. * Scale);
+                                    Observation.bDeformationWithinSafety &= Offset <= Safety;
+                                }
+                            }
+                        }
+                    }
+                    if (Previous && Previous->IsValidIndex(Vertex))
+                    {
+                        const double Step = FVector3f::Distance(Position, (*Previous)[Vertex]);
+                        Observation.bFinite &= FMath::IsFinite(Step);
+                        if (FMath::IsFinite(Step))
+                        {
+                            Observation.MaxParticleStepCm = FMath::Max(Observation.MaxParticleStepCm, Step);
+                            Moving |= Step > 0.00001;
+                        }
+                    }
+                }
+                Observation.PreviousPositions.FindOrAdd(Pair.Key) = TArray<FVector3f>(Cloth.Positions);
+            }
+            Observation.MaxParticles = FMath::Max(Observation.MaxParticles, Particles);
+            Observation.MaxPinnedVerticesChecked = FMath::Max(Observation.MaxPinnedVerticesChecked, PinnedThisFrame);
+            if (PinnedThisFrame > 0) ++Observation.PinFrames;
+            if (Particles > 0) ++Observation.DataFrames;
+            if (Moving) ++Observation.MovingFrames;
+        }
     if (AViewerPawn* Pawn = Viewer.Get())
     {
         bSceneStayedWithCharacter &= Pawn->StageMeshes.Num() == SceneRelativeTransforms.Num();
@@ -1567,6 +1714,52 @@ void UViewerSmokeTestComponent::SampleDynamics()
 void UViewerSmokeTestComponent::FinishDynamicsProbe()
 {
     FinishAttachmentProbe();
+    CurrentResult->SetNumberField(TEXT("expected_native_cloth_parts"), ExpectedClothParts);
+    AddCheck(TEXT("cloth.expected_component_observation_coverage"), ExpectedClothParts == ClothObservations.Num() ? TEXT("pass") : TEXT("fail"));
+    TArray<TSharedPtr<FJsonValue>> ClothResults;
+    for (const FClothObservation& Observation : ClothObservations)
+    {
+        TSharedPtr<FJsonObject> Row = MakeShared<FJsonObject>();
+        Row->SetNumberField(TEXT("part_index"), Observation.PartIndex);
+        Row->SetNumberField(TEXT("samples"), Observation.Samples);
+        Row->SetNumberField(TEXT("frames_with_simulation_data"), Observation.DataFrames);
+        Row->SetNumberField(TEXT("simulated_particles"), Observation.MaxParticles);
+        Row->SetNumberField(TEXT("moving_frames"), Observation.MovingFrames);
+        Row->SetNumberField(TEXT("max_particle_step_cm"), Observation.MaxParticleStepCm);
+        Row->SetNumberField(TEXT("solver_cloths_max"), Observation.MaxSolverCloths);
+        Row->SetNumberField(TEXT("kinematic_particles_max"), Observation.MaxKinematicParticles);
+        Row->SetNumberField(TEXT("dynamic_particles_max"), Observation.MaxDynamicParticles);
+        Row->SetNumberField(TEXT("pin_frames"), Observation.PinFrames);
+        Row->SetNumberField(TEXT("source_zero_distance_pins_checked"), Observation.MaxPinnedVerticesChecked);
+        Row->SetNumberField(TEXT("source_zero_pin_error_max_cm"), Observation.MaxPinnedErrorCm);
+        Row->SetNumberField(TEXT("source_zero_pin_tolerance_cm"), 0.1);
+        Row->SetNumberField(TEXT("dynamic_skinned_offset_max_cm"), Observation.MaxDynamicSkinnedOffsetCm);
+        Row->SetNumberField(TEXT("source_distance_max_cm"), Observation.MaxSourceDistanceCm);
+        Row->SetNumberField(TEXT("source_constraint_excess_max_cm"), Observation.MaxSourceConstraintExcessCm);
+        Row->SetBoolField(TEXT("pin_binding_comparable"), Observation.bPinBindingComparable);
+        Row->SetBoolField(TEXT("deformation_within_conservative_safety_bound"), Observation.bDeformationWithinSafety);
+        Row->SetStringField(TEXT("deformation_safety_policy"), TEXT("World-space offset from current source-vertex skinning; max(10 cm,1.1*source distance+4 cm) times component scale. This is a generous explosion check; strict max-distance parity after collision projection is not inferred."));
+        TArray<FString> Factories = Observation.SolverFactories.Array();
+        Factories.Sort();
+        TArray<TSharedPtr<FJsonValue>> FactoryValues;
+        for (const FString& Factory : Factories) FactoryValues.Add(MakeShared<FJsonValueString>(Factory));
+        Row->SetArrayField(TEXT("solver_factories"), FactoryValues);
+        Row->SetBoolField(TEXT("finite"), Observation.bFinite);
+        const FString Prefix = FString::Printf(TEXT("cloth.part[%d]."), Observation.PartIndex);
+        AddCheck(Prefix + TEXT("native_particle_data_present"), Observation.DataFrames >= 3 && Observation.MaxParticles > 0 ? TEXT("pass") : TEXT("fail"));
+        AddCheck(Prefix + TEXT("finite_particle_positions_and_normals"), Observation.bFinite ? TEXT("pass") : TEXT("fail"));
+        AddCheck(Prefix + TEXT("simulation_positions_advance"), Observation.MovingFrames >= 2 ? TEXT("pass") : TEXT("fail"));
+        AddCheck(Prefix + TEXT("native_chaos_solver_has_fixed_and_dynamic_particles"), Observation.MaxSolverCloths > 0
+            && Observation.MaxKinematicParticles > 0 && Observation.MaxDynamicParticles > 0
+            && Factories.ContainsByPredicate([](const FString& Factory) { return Factory.Contains(TEXT("ChaosCloth")); }) ? TEXT("pass") : TEXT("fail"));
+        AddCheck(Prefix + TEXT("source_pin_bindings_comparable"), Observation.bPinBindingComparable ? TEXT("pass") : TEXT("fail"));
+        AddCheck(Prefix + TEXT("source_zero_distance_pins_hold"), !Observation.bPinBindingComparable ? TEXT("unknown")
+            : Observation.PinFrames >= 3 && Observation.MaxPinnedVerticesChecked > 0 && Observation.MaxPinnedErrorCm <= 0.1 ? TEXT("pass") : TEXT("fail"));
+        AddCheck(Prefix + TEXT("particle_deformation_stays_within_sanity_bound"), !Observation.bPinBindingComparable ? TEXT("unknown")
+            : Observation.bFinite && Observation.bDeformationWithinSafety ? TEXT("pass") : TEXT("fail"));
+        ClothResults.Add(MakeShared<FJsonValueObject>(Row));
+    }
+    CurrentResult->SetArrayField(TEXT("native_cloth"), ClothResults);
     CurrentResult->SetNumberField(TEXT("max_scene_relative_translation_error_cm"), MaxSceneTranslationErrorCm);
     CurrentResult->SetNumberField(TEXT("max_scene_relative_rotation_error_degrees"), MaxSceneRotationErrorDegrees);
     AddCheck(TEXT("scene_and_character_preserve_relative_placement_during_turn"),
@@ -1637,6 +1830,9 @@ void UViewerSmokeTestComponent::CheckDisabledDynamicsPose()
         const bool Cleared = !Component->IsSecondaryMotionEnabled() && Component->GetActiveDynamicChainCount() == 0
             && Component->GetLastSolvedFrame() == MAX_uint64 && Component->GetLastMaxDisplacementCm() == 0.f;
         AddCheck(Prefix + TEXT("disabled_and_solver_state_stays_clear"), Cleared ? TEXT("pass") : TEXT("fail"));
+        if (Component->GetSkeletalMeshAsset()->HasActiveClothingAssets())
+            AddCheck(Prefix + TEXT("native_cloth_disabled"), Component->bDisableClothSimulation
+                && Component->IsClothingSimulationSuspended() ? TEXT("pass") : TEXT("fail"));
         // The reconstruction edits pending component-space transforms only.
         // Public local animation transforms are an independent unmodified base
         // for animated parts; reference-pose parts use the mesh reference pose.
@@ -1682,6 +1878,11 @@ void UViewerSmokeTestComponent::CheckDisabledDynamicsPose()
 
 void UViewerSmokeTestComponent::FinishReplayProbe()
 {
+    for (const FClothObservation& Observation : ClothObservations)
+        if (UViewerSkeletalMeshComponent* Component = Observation.Component.Get())
+            AddCheck(FString::Printf(TEXT("replay.cloth.part[%d].simulation_resumed"), Observation.PartIndex),
+                !Component->bDisableClothSimulation && !Component->IsClothingSimulationSuspended()
+                && !Component->GetCurrentClothingData_GameThread().IsEmpty() ? TEXT("pass") : TEXT("fail"));
     TArray<TSharedPtr<FJsonValue>> ReplayDiagnostics;
     for (const FDynamicObservation& Observation : DynamicObservations)
         if (UViewerSkeletalMeshComponent* Component = Observation.Component.Get())
@@ -1703,6 +1904,18 @@ void UViewerSmokeTestComponent::FinishReplayProbe()
                 : Component->GetLastSolvedFrame() != MAX_uint64 && Component->GetActiveDynamicChainCount() > 0 ? TEXT("pass") : TEXT("fail"));
         }
     CurrentResult->SetArrayField(TEXT("replay_dynamics"), ReplayDiagnostics);
+    RestoreClothProbeSettings();
+}
+
+void UViewerSmokeTestComponent::RestoreClothProbeSettings()
+{
+    for (FClothObservation& Observation : ClothObservations)
+        if (!Observation.bWaitOverrideRestored)
+        {
+            if (UViewerSkeletalMeshComponent* Component = Observation.Component.Get())
+                Component->bWaitForParallelClothTask = Observation.bSavedWaitForParallelClothTask;
+            Observation.bWaitOverrideRestored = true;
+        }
 }
 
 void UViewerSmokeTestComponent::InspectViewportAndUi()

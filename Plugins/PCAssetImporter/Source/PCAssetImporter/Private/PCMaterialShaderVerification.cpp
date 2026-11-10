@@ -27,7 +27,8 @@ static FString Encode(const TSharedRef<FJsonObject>& Object)
 
 static bool Allowed(const FString& Package)
 {
-    return (Package.StartsWith(TEXT("/Game/PCAssets/Materials/")) || Package.StartsWith(TEXT("/Game/PCAssets/ViewerMaterials/"))) &&
+    return (Package.StartsWith(TEXT("/Game/PCAssets/Materials/")) || Package.StartsWith(TEXT("/Game/PCAssets/ViewerMaterials/")) ||
+        Package.StartsWith(TEXT("/Game/PCAssets/ViewerShading/"))) &&
         FPackageName::IsValidLongPackageName(Package) && !Package.Contains(TEXT("."));
 }
 
@@ -90,7 +91,7 @@ FString UPCAssetImportLibrary::VerifyMaterialShaders(const TArray<FString>& Mate
         Entry.Result->SetBoolField(TEXT("compile_jobs_submitted"),false);
         if(!Allowed(Package) || Seen.Contains(Package))
         {
-            Entry.Result->SetStringField(TEXT("error"),TEXT("Package is outside the PC Materials/ViewerMaterials namespaces, invalid, or duplicated."));
+            Entry.Result->SetStringField(TEXT("error"),TEXT("Package is outside the PC Materials/ViewerMaterials/ViewerShading namespaces, invalid, or duplicated."));
             continue;
         }
         Seen.Add(Package);

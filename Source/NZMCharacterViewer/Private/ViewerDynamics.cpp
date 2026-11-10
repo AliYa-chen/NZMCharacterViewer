@@ -32,6 +32,9 @@ UViewerSkeletalMeshComponent::UViewerSkeletalMeshComponent()
     // We never feed a previously modified render pose back into animation caches.
     VisibilityBasedAnimTickOption = EVisibilityBasedAnimTickOption::AlwaysTickPoseAndRefreshBones;
     bEnableUpdateRateOptimizations = false;
+    // Native clothing assets select their solver through the registered engine
+    // factory. ChaosCloth is enabled by the project; bone chains stay separate.
+    SetAllowClothActors(true);
 }
 
 void UViewerSkeletalMeshComponent::SetDynamicsProfile(UViewerDynamicsProfile* InProfile)
@@ -47,6 +50,17 @@ void UViewerSkeletalMeshComponent::SetSecondaryMotionEnabled(bool bInEnabled)
     check(IsInGameThread());
     if (bSecondaryMotionEnabled == bInEnabled) return;
     bSecondaryMotionEnabled = bInEnabled;
+    bDisableClothSimulation = !bInEnabled;
+    if (bInEnabled)
+    {
+        ResumeClothingSimulation();
+    }
+    else
+    {
+        // Suspend alone freezes the last deformed frame. The disable flag also
+        // restores normal skinning while secondary motion is switched off.
+        SuspendClothingSimulation();
+    }
     ResetSecondaryMotion();
     // Disable immediately reevaluates the unmodified animation pose. This uses
     // the normal engine path, including completion of a pending parallel eval.
@@ -66,6 +80,7 @@ void UViewerSkeletalMeshComponent::ResetSecondaryMotion()
     LastSolvedFrame = MAX_uint64;
     LastMaxDisplacementCm = 0.f;
     PreviousComponentTransform = GetComponentTransform();
+    ForceClothNextUpdateTeleportAndReset();
 }
 
 void UViewerSkeletalMeshComponent::OnRegister()
@@ -73,6 +88,8 @@ void UViewerSkeletalMeshComponent::OnRegister()
     AnimatedBoundsMesh.Reset();
     AnimatedLocalBounds = FBox(ForceInit);
     Super::OnRegister();
+    bDisableClothSimulation = !bSecondaryMotionEnabled;
+    if (!bSecondaryMotionEnabled) SuspendClothingSimulation();
     ResetSecondaryMotion();
 }
 

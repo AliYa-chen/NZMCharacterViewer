@@ -7,7 +7,7 @@ public class NZMCharacterViewer : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
         PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "UMG" });
-        PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore", "Json", "ApplicationCore", "RenderCore", "RHI" });
+        PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore", "Json", "ApplicationCore", "RenderCore", "RHI", "ClothingSystemRuntimeInterface", "ClothingSystemRuntimeCommon" });
         if (Target.Platform == UnrealTargetPlatform.IOS || Target.Platform == UnrealTargetPlatform.Mac)
         {
             // Native capability reporting uses public MTLDevice queries.

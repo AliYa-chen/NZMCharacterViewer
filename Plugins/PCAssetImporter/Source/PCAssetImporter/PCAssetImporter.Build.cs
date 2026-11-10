@@ -9,7 +9,8 @@ public class PCAssetImporter : ModuleRules
         PrivateDependencyModuleNames.AddRange(new[] {
             "PCAssetData", "UnrealEd", "AssetRegistry", "Json", "JsonUtilities",
             "MeshBuilder", "TargetPlatform", "MeshDescription", "StaticMeshDescription", "SkeletalMeshDescription",
-            "AnimationCore", "RenderCore", "RHI", "MovieScene", "MovieSceneTracks", "ControlRig"
+            "AnimationCore", "RenderCore", "RHI", "MovieScene", "MovieSceneTracks", "ControlRig",
+            "ClothingSystemRuntimeCommon", "ClothingSystemRuntimeInterface", "ChaosCloth", "PhysicsCore", "PhysicsUtilities"
         });
     }
 }

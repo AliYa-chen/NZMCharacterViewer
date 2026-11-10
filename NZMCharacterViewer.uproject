@@ -12,6 +12,10 @@
   ],
   "Plugins": [
     {
+      "Name": "ChaosCloth",
+      "Enabled": true
+    },
+    {
       "Name": "PythonScriptPlugin",
       "Enabled": true,
       "TargetAllowList": [

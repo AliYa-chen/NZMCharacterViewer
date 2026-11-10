@@ -64,6 +64,32 @@ private:
         bool bParentAndSocketMatch = true;
         bool bRelativeTransformMatches = true;
     };
+    struct FClothObservation
+    {
+        TWeakObjectPtr<UViewerSkeletalMeshComponent> Component;
+        int32 PartIndex = INDEX_NONE;
+        int32 Samples = 0;
+        int32 DataFrames = 0;
+        int32 MaxParticles = 0;
+        int32 MovingFrames = 0;
+        int32 MaxSolverCloths = 0;
+        int32 MaxKinematicParticles = 0;
+        int32 MaxDynamicParticles = 0;
+        int32 PinFrames = 0;
+        int32 MaxPinnedVerticesChecked = 0;
+        bool bFinite = true;
+        bool bPinBindingComparable = true;
+        bool bDeformationWithinSafety = true;
+        bool bSavedWaitForParallelClothTask = false;
+        bool bWaitOverrideRestored = false;
+        double MaxParticleStepCm = 0.;
+        double MaxPinnedErrorCm = 0.;
+        double MaxDynamicSkinnedOffsetCm = 0.;
+        double MaxSourceDistanceCm = 0.;
+        double MaxSourceConstraintExcessCm = 0.;
+        TSet<FString> SolverFactories;
+        TMap<int32, TArray<FVector3f>> PreviousPositions;
+    };
 
     TWeakObjectPtr<AViewerPawn> Viewer;
     TArray<FSelection> Selections;
@@ -88,6 +114,8 @@ private:
     TMap<FString, FString> SavedConsoleVariables;
     TArray<FDynamicObservation> DynamicObservations;
     TArray<FAttachmentObservation> AttachmentObservations;
+    TArray<FClothObservation> ClothObservations;
+    int32 ExpectedClothParts = 0;
     TArray<FTransform> SceneRelativeTransforms;
     float MaxSceneTranslationErrorCm = 0.f;
     float MaxSceneRotationErrorDegrees = 0.f;
@@ -134,6 +162,7 @@ private:
     void BeginDynamicsProbe();
     void SampleDynamics();
     void FinishDynamicsProbe();
+    void RestoreClothProbeSettings();
     void BeginAttachmentProbe();
     void SampleAttachments();
     void FinishAttachmentProbe();
