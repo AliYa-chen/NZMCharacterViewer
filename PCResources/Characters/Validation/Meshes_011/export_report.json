@@ -1,0 +1,789 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:00:04.5793770Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Head_Mesh",
+      "name": "SK_Char_Lilith_3P_Head_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Head_Mesh.SK_Char_Lilith_3P_Head_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Head_Mesh.uasset",
+          "size": 4419,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 820744192
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Head_Mesh.uexp",
+          "size": 1556665,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 820746601
+        }
+      },
+      "mesh": {
+        "reference_bones": 12,
+        "material_slots": 5,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 7592,
+            "triangles": 12810,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 4180,
+            "triangles": 7391,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2400,
+            "triangles": 4302,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1319,
+            "triangles": 2300,
+            "sections": 3,
+            "texcoords": 1
+          },
+          {
+            "vertices": 643,
+            "triangles": 1108,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 372,
+            "triangles": 612,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 166,
+            "triangles": 240,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 7592,
+            "indices": 38430,
+            "sections": 4,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_PropHead_Mesh",
+      "name": "SK_Char_Lilith_3P_PropHead_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_PropHead_Mesh.SK_Char_Lilith_3P_PropHead_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_PropHead_Mesh.uasset",
+          "size": 3620,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 821358592
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_PropHead_Mesh.uexp",
+          "size": 143185,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 821360825
+        }
+      },
+      "mesh": {
+        "reference_bones": 12,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 512,
+            "triangles": 894,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 334,
+            "triangles": 562,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 208,
+            "triangles": 326,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 171,
+            "triangles": 259,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 111,
+            "triangles": 156,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 64,
+            "triangles": 84,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 50,
+            "triangles": 64,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 512,
+            "indices": 2682,
+            "sections": 1,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_CutScene_Hair_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_CutScene_Hair_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_CutScene_Hair_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_CutScene_Head_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_CutScene_Head_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_CutScene_Head_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_Mesh_Master",
+      "name": "SK_Char_Lilith_Mesh_Master",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_Mesh_Master.SK_Char_Lilith_Mesh_Master",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_Mesh_Master.uasset",
+          "size": 7839,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 821420032
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_Mesh_Master.uexp",
+          "size": 16056,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 821423657
+        }
+      },
+      "mesh": {
+        "reference_bones": 186,
+        "material_slots": 1,
+        "source_lod_count": 1,
+        "source_lods": [
+          {
+            "vertices": 24,
+            "triangles": 12,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 24,
+            "indices": 36,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Hair_Mesh",
+      "name": "SK_Char_Lilith_UI_Hair_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Hair_Mesh.SK_Char_Lilith_UI_Hair_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Hair_Mesh.uasset",
+          "size": 3774,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 821430272
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Hair_Mesh.uexp",
+          "size": 3770588,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 821432505
+        }
+      },
+      "mesh": {
+        "reference_bones": 8,
+        "material_slots": 1,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 14238,
+            "triangles": 13278,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 14238,
+            "triangles": 13278,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 9898,
+            "triangles": 8998,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 8798,
+            "triangles": 7952,
+            "sections": 1,
+            "texcoords": 3
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 14238,
+            "indices": 39834,
+            "sections": 1,
+            "maximum_nonzero_influences": 2,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Head_Mesh",
+      "name": "SK_Char_Lilith_UI_Head_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Head_Mesh.SK_Char_Lilith_UI_Head_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Head_Mesh.uasset",
+          "size": 7093,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 822888448
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Head_Mesh.uexp",
+          "size": 2540570,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 822891689
+        }
+      },
+      "mesh": {
+        "reference_bones": 93,
+        "material_slots": 7,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 8826,
+            "triangles": 14448,
+            "sections": 7,
+            "texcoords": 1
+          },
+          {
+            "vertices": 8826,
+            "triangles": 14448,
+            "sections": 7,
+            "texcoords": 1
+          },
+          {
+            "vertices": 4912,
+            "triangles": 8237,
+            "sections": 7,
+            "texcoords": 1
+          },
+          {
+            "vertices": 3068,
+            "triangles": 5092,
+            "sections": 7,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 8826,
+            "indices": 43344,
+            "sections": 7,
+            "maximum_nonzero_influences": 8,
+            "vertices_over_four_influences": 3070
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_PropHead_Mesh",
+      "name": "SK_Char_Lilith_UI_PropHead_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_PropHead_Mesh.SK_Char_Lilith_UI_PropHead_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_PropHead_Mesh.uasset",
+          "size": 3601,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 823928832
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_PropHead_Mesh.uexp",
+          "size": 152118,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 823931065
+        }
+      },
+      "mesh": {
+        "reference_bones": 12,
+        "material_slots": 1,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 512,
+            "triangles": 894,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 512,
+            "triangles": 894,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 334,
+            "triangles": 562,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 208,
+            "triangles": 326,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 512,
+            "indices": 2682,
+            "sections": 1,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Body_Mesh",
+      "name": "SK_Char_Lilith_Suit_C_1P_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Body_Mesh.SK_Char_Lilith_Suit_C_1P_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Body_Mesh.uasset",
+          "size": 5576,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830236672
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Body_Mesh.uexp",
+          "size": 1656452,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830239577
+        }
+      },
+      "mesh": {
+        "reference_bones": 67,
+        "material_slots": 4,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 11830,
+            "triangles": 19823,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 6400,
+            "triangles": 9898,
+            "sections": 4,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 11830,
+            "indices": 59469,
+            "sections": 4,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Lower_Mesh",
+      "name": "SK_Char_Lilith_Suit_C_1P_Lower_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Lower_Mesh.SK_Char_Lilith_Suit_C_1P_Lower_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Lower_Mesh.uasset",
+          "size": 5452,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830892032
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Lower_Mesh.uexp",
+          "size": 2829242,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830894905
+        }
+      },
+      "mesh": {
+        "reference_bones": 61,
+        "material_slots": 4,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 16679,
+            "triangles": 26661,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 13689,
+            "triangles": 21218,
+            "sections": 4,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 16679,
+            "indices": 79983,
+            "sections": 4,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_3P_Body_Mesh",
+      "name": "SK_Char_Lilith_Suit_C_3P_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_3P_Body_Mesh.SK_Char_Lilith_Suit_C_3P_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_3P_Body_Mesh.uasset",
+          "size": 6947,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 832034816
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_3P_Body_Mesh.uexp",
+          "size": 6861933,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 832038185
+        }
+      },
+      "mesh": {
+        "reference_bones": 104,
+        "material_slots": 6,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 29842,
+            "triangles": 47653,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 17847,
+            "triangles": 26433,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 12253,
+            "triangles": 17085,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 6709,
+            "triangles": 8650,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 4739,
+            "triangles": 5904,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2098,
+            "triangles": 2122,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 798,
+            "triangles": 669,
+            "sections": 4,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 29842,
+            "indices": 142959,
+            "sections": 6,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_CutScene_Body_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_CutScene_Body_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_CutScene_Body_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Head_Mesh.SK_Char_Lilith_3P_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Head_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_PropHead_Mesh.SK_Char_Lilith_3P_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_PropHead_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_Mesh_Master.SK_Char_Lilith_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_Mesh_Master.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Hair_Mesh.SK_Char_Lilith_UI_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Hair_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Head_Mesh.SK_Char_Lilith_UI_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Head_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_PropHead_Mesh.SK_Char_Lilith_UI_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_PropHead_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Body_Mesh.SK_Char_Lilith_Suit_C_1P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Lower_Mesh.SK_Char_Lilith_Suit_C_1P_Lower_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Lower_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_3P_Body_Mesh.SK_Char_Lilith_Suit_C_3P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_3P_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Head_Mesh.SK_Char_Lilith_3P_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Head_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_PropHead_Mesh.SK_Char_Lilith_3P_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_PropHead_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_Mesh_Master.SK_Char_Lilith_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_Mesh_Master.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Hair_Mesh.SK_Char_Lilith_UI_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Hair_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Head_Mesh.SK_Char_Lilith_UI_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_Head_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_PropHead_Mesh.SK_Char_Lilith_UI_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_UI_PropHead_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Body_Mesh.SK_Char_Lilith_Suit_C_1P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Body_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Lower_Mesh.SK_Char_Lilith_Suit_C_1P_Lower_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Lower_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_3P_Body_Mesh.SK_Char_Lilith_Suit_C_3P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_3P_Body_Mesh.psk"
+      ],
+      "error": null
+    }
+  ]
+}

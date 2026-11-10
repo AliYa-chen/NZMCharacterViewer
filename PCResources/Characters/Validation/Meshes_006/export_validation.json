@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:02:40.9185403Z",
+  "scope": "Offline data checks: ActorX points and every nonzero weight/index exactly compared against decoded source DTO; PNG decoded and dimensions checked against highest available source mip. No UE import, rig animation, material appearance or device validation.",
+  "results": [
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_CutScene_PropHead_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_CutScene_PropHead_Mesh.SK_Char_Angela_CutScene_PropHead_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 374,
+        "WrittenVertices": 374,
+        "SourceBones": 9,
+        "WrittenBones": 9,
+        "SourceWeightRows": 828,
+        "WrittenWeightRows": 828,
+        "MaximumInfluences": 3,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 568
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_Mesh_Master.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_Mesh_Master.SK_Char_Angela_Mesh_Master",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 24,
+        "WrittenVertices": 24,
+        "SourceBones": 299,
+        "WrittenBones": 299,
+        "SourceWeightRows": 24,
+        "WrittenWeightRows": 24,
+        "MaximumInfluences": 1,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 12
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_UI_Hair_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_UI_Hair_Mesh.SK_Char_Angela_UI_Hair_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 18427,
+        "WrittenVertices": 18427,
+        "SourceBones": 49,
+        "WrittenBones": 49,
+        "SourceWeightRows": 39985,
+        "WrittenWeightRows": 39985,
+        "MaximumInfluences": 5,
+        "VerticesOverFourInfluences": 9,
+        "WrittenTriangles": 17985
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_UI_Head_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_UI_Head_Mesh.SK_Char_Angela_UI_Head_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 8204,
+        "WrittenVertices": 8204,
+        "SourceBones": 298,
+        "WrittenBones": 298,
+        "SourceWeightRows": 31461,
+        "WrittenWeightRows": 31461,
+        "MaximumInfluences": 8,
+        "VerticesOverFourInfluences": 3382,
+        "WrittenTriangles": 14116
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_CutScene_PropHead_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_UI_PropHead_Mesh.SK_Char_Angela_UI_PropHead_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 374,
+        "WrittenVertices": 374,
+        "SourceBones": 9,
+        "WrittenBones": 9,
+        "SourceWeightRows": 828,
+        "WrittenWeightRows": 828,
+        "MaximumInfluences": 3,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 568
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/LobbyRes_Angela/Prop/Goblet/Mesh/SK_Char_Angela_CutScene_Goblet_Bubby_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/LobbyRes_Angela/Prop/Goblet/Mesh/SK_Char_Angela_CutScene_Goblet_Bubby_Mesh.SK_Char_Angela_CutScene_Goblet_Bubby_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 7920,
+        "WrittenVertices": 7920,
+        "SourceBones": 1,
+        "WrittenBones": 1,
+        "SourceWeightRows": 7920,
+        "WrittenWeightRows": 7920,
+        "MaximumInfluences": 1,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 4150
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/LobbyRes_Angela/Prop/Weapon/Mesh/SK_Char_Angela_CutScene_Weapon_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/LobbyRes_Angela/Prop/Weapon/Mesh/SK_Char_Angela_CutScene_Weapon_Mesh.SK_Char_Angela_CutScene_Weapon_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 10295,
+        "WrittenVertices": 10295,
+        "SourceBones": 3,
+        "WrittenBones": 3,
+        "SourceWeightRows": 10295,
+        "WrittenWeightRows": 10295,
+        "MaximumInfluences": 1,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 6490
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_1P_Body_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_1P_Body_Mesh.SK_Char_Bella_Pop_C_1P_Body_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 9760,
+        "WrittenVertices": 9760,
+        "SourceBones": 67,
+        "WrittenBones": 67,
+        "SourceWeightRows": 20888,
+        "WrittenWeightRows": 20888,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 16646
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_1P_Lower_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_1P_Lower_Mesh.SK_Char_Bella_Pop_C_1P_Lower_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 17377,
+        "WrittenVertices": 17377,
+        "SourceBones": 27,
+        "WrittenBones": 27,
+        "SourceWeightRows": 44517,
+        "WrittenWeightRows": 44517,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 28799
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_3P_Body_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_3P_Body_Mesh.SK_Char_Bella_Pop_C_3P_Body_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 22383,
+        "WrittenVertices": 22383,
+        "SourceBones": 104,
+        "WrittenBones": 104,
+        "SourceWeightRows": 58739,
+        "WrittenWeightRows": 58739,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 35092
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_3P_Hair_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_3P_Hair_Mesh.SK_Char_Bella_Pop_C_3P_Hair_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 13313,
+        "WrittenVertices": 13313,
+        "SourceBones": 8,
+        "WrittenBones": 8,
+        "SourceWeightRows": 14133,
+        "WrittenWeightRows": 14133,
+        "MaximumInfluences": 3,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 13085
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_3P_Head_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_3P_Head_Mesh.SK_Char_Bella_Pop_C_3P_Head_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 7557,
+        "WrittenVertices": 7557,
+        "SourceBones": 12,
+        "WrittenBones": 12,
+        "SourceWeightRows": 8252,
+        "WrittenWeightRows": 8252,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 12386
+      }
+    }
+  ]
+}

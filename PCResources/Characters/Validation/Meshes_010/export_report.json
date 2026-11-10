@@ -1,0 +1,615 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:00:03.0072994Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_Mesh_Master",
+      "name": "SK_Char_Emma_Mesh_Master",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_Mesh_Master.SK_Char_Emma_Mesh_Master",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_Mesh_Master.uasset",
+          "size": 5369,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 345092096
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_Mesh_Master.uexp",
+          "size": 11052,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 345095033
+        }
+      },
+      "mesh": {
+        "reference_bones": 104,
+        "material_slots": 1,
+        "source_lod_count": 1,
+        "source_lods": [
+          {
+            "vertices": 30,
+            "triangles": 12,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 30,
+            "indices": 36,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_UI_Head_Mesh",
+      "name": "SK_Char_Emma_UI_Head_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_UI_Head_Mesh.SK_Char_Emma_UI_Head_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_UI_Head_Mesh.uasset",
+          "size": 3750,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 345100288
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_UI_Head_Mesh.uexp",
+          "size": 3749394,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 345102521
+        }
+      },
+      "mesh": {
+        "reference_bones": 10,
+        "material_slots": 2,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 31647,
+            "triangles": 10871,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 7866,
+            "triangles": 9559,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 6487,
+            "triangles": 7526,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 5055,
+            "triangles": 5540,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 31647,
+            "indices": 32613,
+            "sections": 2,
+            "maximum_nonzero_influences": 3,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Body_Mesh",
+      "name": "SK_Char_Emma_Suit_C_1P_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Body_Mesh.SK_Char_Emma_Suit_C_1P_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Body_Mesh.uasset",
+          "size": 4999,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 350111744
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Body_Mesh.uexp",
+          "size": 1858730,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 350114537
+        }
+      },
+      "mesh": {
+        "reference_bones": 67,
+        "material_slots": 2,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 14710,
+            "triangles": 19982,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 7494,
+            "triangles": 9994,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 14710,
+            "indices": 59946,
+            "sections": 2,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Lower_Mesh",
+      "name": "SK_Char_Emma_Suit_C_1P_Lower_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Lower_Mesh.SK_Char_Emma_Suit_C_1P_Lower_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Lower_Mesh.uasset",
+          "size": 5145,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 350861312
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Lower_Mesh.uexp",
+          "size": 2477978,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 350864073
+        }
+      },
+      "mesh": {
+        "reference_bones": 54,
+        "material_slots": 4,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 15250,
+            "triangles": 19439,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 15208,
+            "triangles": 19397,
+            "sections": 4,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 15250,
+            "indices": 58317,
+            "sections": 4,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_3P_Body_Mesh",
+      "name": "SK_Char_Emma_Suit_C_3P_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_3P_Body_Mesh.SK_Char_Emma_Suit_C_3P_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_3P_Body_Mesh.uasset",
+          "size": 6277,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 351862784
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_3P_Body_Mesh.uexp",
+          "size": 8872133,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 351865993
+        }
+      },
+      "mesh": {
+        "reference_bones": 102,
+        "material_slots": 4,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 38667,
+            "triangles": 51053,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 25788,
+            "triangles": 32471,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 19880,
+            "triangles": 24458,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 10325,
+            "triangles": 12479,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 5092,
+            "triangles": 6254,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2070,
+            "triangles": 2558,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 851,
+            "triangles": 856,
+            "sections": 4,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 38667,
+            "indices": 153159,
+            "sections": 4,
+            "maximum_nonzero_influences": 5,
+            "vertices_over_four_influences": 181
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_UI_Body_Mesh",
+      "name": "SK_Char_Emma_Suit_C_UI_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_UI_Body_Mesh.SK_Char_Emma_Suit_C_UI_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_UI_Body_Mesh.uasset",
+          "size": 6509,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 355305472
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_UI_Body_Mesh.uexp",
+          "size": 11054226,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 355308649
+        }
+      },
+      "mesh": {
+        "reference_bones": 88,
+        "material_slots": 6,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 38713,
+            "triangles": 51097,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 38667,
+            "triangles": 51053,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 25788,
+            "triangles": 32471,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 19880,
+            "triangles": 24458,
+            "sections": 4,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 38713,
+            "indices": 153291,
+            "sections": 6,
+            "maximum_nonzero_influences": 5,
+            "vertices_over_four_influences": 364
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_1P_Lower_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_1P_Lower_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_1P_Lower_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_3P_Body_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_3P_Body_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_3P_Body_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_3P_Head_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_3P_Head_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_3P_Head_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_UI_Body_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_UI_Body_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_UI_Body_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_UI_Head_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_UI_Head_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Emma/Sasha_Suit_C/Mesh/SK_Char_Sasha_Suit_C_UI_Head_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Hair_Mesh",
+      "name": "SK_Char_Lilith_3P_Hair_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Hair_Mesh.SK_Char_Lilith_3P_Hair_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Hair_Mesh.uasset",
+          "size": 3561,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819572736
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Hair_Mesh.uexp",
+          "size": 3042110,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819574937
+        }
+      },
+      "mesh": {
+        "reference_bones": 8,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 14238,
+            "triangles": 13278,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 9898,
+            "triangles": 8998,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 8798,
+            "triangles": 7952,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 4488,
+            "triangles": 3990,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 345,
+            "triangles": 293,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 212,
+            "triangles": 178,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 106,
+            "triangles": 88,
+            "sections": 1,
+            "texcoords": 3
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 14238,
+            "indices": 39834,
+            "sections": 1,
+            "maximum_nonzero_influences": 2,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_Mesh_Master.SK_Char_Emma_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_Mesh_Master.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_UI_Head_Mesh.SK_Char_Emma_UI_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_UI_Head_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Body_Mesh.SK_Char_Emma_Suit_C_1P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Lower_Mesh.SK_Char_Emma_Suit_C_1P_Lower_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Lower_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_3P_Body_Mesh.SK_Char_Emma_Suit_C_3P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_3P_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_UI_Body_Mesh.SK_Char_Emma_Suit_C_UI_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_UI_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Hair_Mesh.SK_Char_Lilith_3P_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Hair_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_Mesh_Master.SK_Char_Emma_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_Mesh_Master.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_UI_Head_Mesh.SK_Char_Emma_UI_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Emma/CommonRes/Mesh/SK_Char_Emma_UI_Head_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Body_Mesh.SK_Char_Emma_Suit_C_1P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Body_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Lower_Mesh.SK_Char_Emma_Suit_C_1P_Lower_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_1P_Lower_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_3P_Body_Mesh.SK_Char_Emma_Suit_C_3P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_3P_Body_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_UI_Body_Mesh.SK_Char_Emma_Suit_C_UI_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Emma/Emma_Suit_C/Mesh/SK_Char_Emma_Suit_C_UI_Body_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Hair_Mesh.SK_Char_Lilith_3P_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_3P_Hair_Mesh.psk"
+      ],
+      "error": null
+    }
+  ]
+}

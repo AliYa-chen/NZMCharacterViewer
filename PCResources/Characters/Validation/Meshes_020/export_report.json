@@ -1,0 +1,981 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:00:20.4730175Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Mesh/SK_Char_Naimei_Weapons_UI_Mesh",
+      "name": "SK_Char_Naimei_Weapons_UI_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Mesh/SK_Char_Naimei_Weapons_UI_Mesh.SK_Char_Naimei_Weapons_UI_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Mesh/SK_Char_Naimei_Weapons_UI_Mesh.uasset",
+          "size": 4234,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 553984000
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Mesh/SK_Char_Naimei_Weapons_UI_Mesh.uexp",
+          "size": 3296271,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 553986265
+        }
+      },
+      "mesh": {
+        "reference_bones": 29,
+        "material_slots": 2,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 19781,
+            "triangles": 26718,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 10111,
+            "triangles": 11910,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 8376,
+            "triangles": 9781,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2457,
+            "triangles": 2419,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 19781,
+            "indices": 80154,
+            "sections": 2,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Goldcoin/Mesh/SK_Char_Queen_Goldcoin_Mesh",
+      "name": "SK_Char_Queen_Goldcoin_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Goldcoin/Mesh/SK_Char_Queen_Goldcoin_Mesh.SK_Char_Queen_Goldcoin_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Goldcoin/Mesh/SK_Char_Queen_Goldcoin_Mesh.uasset",
+          "size": 3522,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk25-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 15050752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Goldcoin/Mesh/SK_Char_Queen_Goldcoin_Mesh.uexp",
+          "size": 46778,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk25-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 15052793
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 1,
+        "source_lod_count": 1,
+        "source_lods": [
+          {
+            "vertices": 610,
+            "triangles": 252,
+            "sections": 1,
+            "texcoords": 2
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 610,
+            "indices": 756,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Insect_S_SFX_Snake/Mesh/SK_Char_Queen_Insect_S_SFX_Snake_Mesh",
+      "name": "SK_Char_Queen_Insect_S_SFX_Snake_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Insect_S_SFX_Snake/Mesh/SK_Char_Queen_Insect_S_SFX_Snake_Mesh.SK_Char_Queen_Insect_S_SFX_Snake_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Insect_S_SFX_Snake/Mesh/SK_Char_Queen_Insect_S_SFX_Snake_Mesh.uasset",
+          "size": 4506,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 556963840
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Insect_S_SFX_Snake/Mesh/SK_Char_Queen_Insect_S_SFX_Snake_Mesh.uexp",
+          "size": 1695455,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 556966281
+        }
+      },
+      "mesh": {
+        "reference_bones": 33,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 7922,
+            "triangles": 14156,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 4427,
+            "triangles": 7477,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 3041,
+            "triangles": 4623,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1395,
+            "triangles": 2003,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 857,
+            "triangles": 1167,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 576,
+            "triangles": 759,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 232,
+            "triangles": 293,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 7922,
+            "indices": 42468,
+            "sections": 1,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Cinematic/RoleInspection/Mesh/SK_Boss_RMSerpent_Hand_1P_Mesh",
+      "name": "SK_Boss_RMSerpent_Hand_1P_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/RoleInspection/Mesh/SK_Boss_RMSerpent_Hand_1P_Mesh.SK_Boss_RMSerpent_Hand_1P_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/RoleInspection/Mesh/SK_Boss_RMSerpent_Hand_1P_Mesh.uasset",
+          "size": 4303,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk25-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 16259072
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/RoleInspection/Mesh/SK_Boss_RMSerpent_Hand_1P_Mesh.uexp",
+          "size": 3616262,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk25-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 16261417
+        }
+      },
+      "mesh": {
+        "reference_bones": 27,
+        "material_slots": 2,
+        "source_lod_count": 3,
+        "source_lods": [
+          {
+            "vertices": 21583,
+            "triangles": 10648,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 18051,
+            "triangles": 8857,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 14307,
+            "triangles": 6997,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 21583,
+            "indices": 31944,
+            "sections": 2,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Hair_Mesh",
+      "name": "SK_Char_Queen_3P_Hair_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Hair_Mesh.SK_Char_Queen_3P_Hair_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Hair_Mesh.uasset",
+          "size": 5011,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1126195200
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Hair_Mesh.uexp",
+          "size": 4315539,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1126197881
+        }
+      },
+      "mesh": {
+        "reference_bones": 46,
+        "material_slots": 2,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 23345,
+            "triangles": 22691,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 14260,
+            "triangles": 13497,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 8543,
+            "triangles": 7821,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 4680,
+            "triangles": 4247,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 1363,
+            "triangles": 1160,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 712,
+            "triangles": 626,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 385,
+            "triangles": 208,
+            "sections": 2,
+            "texcoords": 3
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 23345,
+            "indices": 68073,
+            "sections": 2,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_HatHair_Mesh",
+      "name": "SK_Char_Queen_3P_HatHair_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_HatHair_Mesh.SK_Char_Queen_3P_HatHair_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_HatHair_Mesh.uasset",
+          "size": 4384,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1127868416
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_HatHair_Mesh.uexp",
+          "size": 3787707,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1127870841
+        }
+      },
+      "mesh": {
+        "reference_bones": 20,
+        "material_slots": 2,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 15653,
+            "triangles": 13708,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 12848,
+            "triangles": 11112,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 10284,
+            "triangles": 7488,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 6248,
+            "triangles": 4409,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 1836,
+            "triangles": 1408,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 962,
+            "triangles": 639,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 253,
+            "triangles": 235,
+            "sections": 2,
+            "texcoords": 3
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 15653,
+            "indices": 41124,
+            "sections": 2,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Head_Mesh",
+      "name": "SK_Char_Queen_3P_Head_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Head_Mesh.SK_Char_Queen_3P_Head_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Head_Mesh.uasset",
+          "size": 4637,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1129332736
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Head_Mesh.uexp",
+          "size": 2110137,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1129335241
+        }
+      },
+      "mesh": {
+        "reference_bones": 12,
+        "material_slots": 6,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 9278,
+            "triangles": 15002,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 5707,
+            "triangles": 8254,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 4611,
+            "triangles": 5993,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2780,
+            "triangles": 3016,
+            "sections": 3,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1443,
+            "triangles": 1672,
+            "sections": 3,
+            "texcoords": 1
+          },
+          {
+            "vertices": 612,
+            "triangles": 938,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 320,
+            "triangles": 400,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 9278,
+            "indices": 45006,
+            "sections": 5,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_PropHead_Mesh",
+      "name": "SK_Char_Queen_3P_PropHead_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_PropHead_Mesh.SK_Char_Queen_3P_PropHead_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_PropHead_Mesh.uasset",
+          "size": 3624,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1130147840
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_PropHead_Mesh.uexp",
+          "size": 147519,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1130150057
+        }
+      },
+      "mesh": {
+        "reference_bones": 12,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 487,
+            "triangles": 848,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 317,
+            "triangles": 534,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 199,
+            "triangles": 318,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 169,
+            "triangles": 268,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 117,
+            "triangles": 167,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 97,
+            "triangles": 135,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 140,
+            "triangles": 56,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 487,
+            "indices": 2544,
+            "sections": 1,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Hair_Mesh",
+      "name": "SK_Char_Queen_CutScene_Hair_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Hair_Mesh.SK_Char_Queen_CutScene_Hair_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Hair_Mesh.uasset",
+          "size": 5220,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1130211328
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Hair_Mesh.uexp",
+          "size": 6150135,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1130214041
+        }
+      },
+      "mesh": {
+        "reference_bones": 46,
+        "material_slots": 2,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 28626,
+            "triangles": 30132,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 23345,
+            "triangles": 22691,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 14260,
+            "triangles": 13497,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 8543,
+            "triangles": 7821,
+            "sections": 2,
+            "texcoords": 3
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 28626,
+            "indices": 90396,
+            "sections": 2,
+            "maximum_nonzero_influences": 3,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_HatHair_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_HatHair_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_HatHair_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Head_Mesh",
+      "name": "SK_Char_Queen_CutScene_Head_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Head_Mesh.SK_Char_Queen_CutScene_Head_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Head_Mesh.uasset",
+          "size": 7230,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1132560384
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Head_Mesh.uexp",
+          "size": 3193717,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1132563673
+        }
+      },
+      "mesh": {
+        "reference_bones": 92,
+        "material_slots": 8,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 10656,
+            "triangles": 16966,
+            "sections": 8,
+            "texcoords": 1
+          },
+          {
+            "vertices": 10500,
+            "triangles": 16652,
+            "sections": 8,
+            "texcoords": 1
+          },
+          {
+            "vertices": 6849,
+            "triangles": 9776,
+            "sections": 8,
+            "texcoords": 1
+          },
+          {
+            "vertices": 5669,
+            "triangles": 7421,
+            "sections": 8,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 10656,
+            "indices": 50898,
+            "sections": 8,
+            "maximum_nonzero_influences": 8,
+            "vertices_over_four_influences": 3283
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_Mesh_Master",
+      "name": "SK_Char_Queen_Mesh_Master",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_Mesh_Master.SK_Char_Queen_Mesh_Master",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_Mesh_Master.uasset",
+          "size": 9625,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1133824000
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_Mesh_Master.uexp",
+          "size": 22322,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1133828105
+        }
+      },
+      "mesh": {
+        "reference_bones": 281,
+        "material_slots": 1,
+        "source_lod_count": 1,
+        "source_lods": [
+          {
+            "vertices": 24,
+            "triangles": 12,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 24,
+            "indices": 36,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Mesh/SK_Char_Naimei_Weapons_UI_Mesh.SK_Char_Naimei_Weapons_UI_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Suit_C/Mesh/SK_Char_Naimei_Weapons_UI_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Goldcoin/Mesh/SK_Char_Queen_Goldcoin_Mesh.SK_Char_Queen_Goldcoin_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Goldcoin/Mesh/SK_Char_Queen_Goldcoin_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Insect_S_SFX_Snake/Mesh/SK_Char_Queen_Insect_S_SFX_Snake_Mesh.SK_Char_Queen_Insect_S_SFX_Snake_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Insect_S_SFX_Snake/Mesh/SK_Char_Queen_Insect_S_SFX_Snake_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/RoleInspection/Mesh/SK_Boss_RMSerpent_Hand_1P_Mesh.SK_Boss_RMSerpent_Hand_1P_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Cinematic/RoleInspection/Mesh/SK_Boss_RMSerpent_Hand_1P_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Hair_Mesh.SK_Char_Queen_3P_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Hair_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_HatHair_Mesh.SK_Char_Queen_3P_HatHair_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_HatHair_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Head_Mesh.SK_Char_Queen_3P_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Head_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_PropHead_Mesh.SK_Char_Queen_3P_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_PropHead_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Hair_Mesh.SK_Char_Queen_CutScene_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Hair_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Head_Mesh.SK_Char_Queen_CutScene_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Head_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_Mesh_Master.SK_Char_Queen_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_Mesh_Master.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Mesh/SK_Char_Naimei_Weapons_UI_Mesh.SK_Char_Naimei_Weapons_UI_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Naimei/Naimei_Suit_C/Mesh/SK_Char_Naimei_Weapons_CutScene_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Goldcoin/Mesh/SK_Char_Queen_Goldcoin_Mesh.SK_Char_Queen_Goldcoin_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Goldcoin/Mesh/SK_Char_Queen_Goldcoin_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Insect_S_SFX_Snake/Mesh/SK_Char_Queen_Insect_S_SFX_Snake_Mesh.SK_Char_Queen_Insect_S_SFX_Snake_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Insect_S_SFX_Snake/Mesh/SK_Char_Queen_Insect_S_SFX_Snake_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/RoleInspection/Mesh/SK_Boss_RMSerpent_Hand_1P_Mesh.SK_Boss_RMSerpent_Hand_1P_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/CommonRes/Cinematic/RoleInspection/Mesh/SK_Boss_RMSerpent_Hand_1P_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Hair_Mesh.SK_Char_Queen_3P_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Hair_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_HatHair_Mesh.SK_Char_Queen_3P_HatHair_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_HatHair_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Head_Mesh.SK_Char_Queen_3P_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_Head_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_PropHead_Mesh.SK_Char_Queen_3P_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_3P_PropHead_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Hair_Mesh.SK_Char_Queen_CutScene_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Hair_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Head_Mesh.SK_Char_Queen_CutScene_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_CutScene_Head_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_Mesh_Master.SK_Char_Queen_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_Mesh_Master.psk"
+      ],
+      "error": null
+    }
+  ]
+}

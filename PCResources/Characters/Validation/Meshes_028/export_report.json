@@ -1,0 +1,1153 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:00:36.7901940Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Body_Mesh",
+      "name": "SK_Char_Widow_Suit_C_1P_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Body_Mesh.SK_Char_Widow_Suit_C_1P_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Body_Mesh.uasset",
+          "size": 5211,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1361735680
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Body_Mesh.uexp",
+          "size": 1824687,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1361738537
+        }
+      },
+      "mesh": {
+        "reference_bones": 67,
+        "material_slots": 2,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 13970,
+            "triangles": 19808,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 7710,
+            "triangles": 9944,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 13970,
+            "indices": 59424,
+            "sections": 2,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Lower_Mesh",
+      "name": "SK_Char_Widow_Suit_C_1P_Lower_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Lower_Mesh.SK_Char_Widow_Suit_C_1P_Lower_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Lower_Mesh.uasset",
+          "size": 4985,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1362462720
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Lower_Mesh.uexp",
+          "size": 1777827,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1362465353
+        }
+      },
+      "mesh": {
+        "reference_bones": 30,
+        "material_slots": 4,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 14305,
+            "triangles": 20920,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 6622,
+            "triangles": 8570,
+            "sections": 4,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 14305,
+            "indices": 62760,
+            "sections": 4,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Body_Mesh",
+      "name": "SK_Char_Widow_Suit_C_3P_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Body_Mesh.SK_Char_Widow_Suit_C_3P_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Body_Mesh.uasset",
+          "size": 7122,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1363197952
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Body_Mesh.uexp",
+          "size": 5654399,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1363201353
+        }
+      },
+      "mesh": {
+        "reference_bones": 104,
+        "material_slots": 7,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 27761,
+            "triangles": 40754,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 13540,
+            "triangles": 17657,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 13023,
+            "triangles": 16804,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 7660,
+            "triangles": 8851,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 4083,
+            "triangles": 4558,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1488,
+            "triangles": 1626,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 748,
+            "triangles": 623,
+            "sections": 6,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 27761,
+            "indices": 122262,
+            "sections": 6,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Glass_Mesh",
+      "name": "SK_Char_Widow_Suit_C_3P_Glass_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Glass_Mesh.SK_Char_Widow_Suit_C_3P_Glass_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Glass_Mesh.uasset",
+          "size": 3820,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1365497856
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Glass_Mesh.uexp",
+          "size": 322678,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1365500089
+        }
+      },
+      "mesh": {
+        "reference_bones": 8,
+        "material_slots": 2,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 1263,
+            "triangles": 1756,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1039,
+            "triangles": 1326,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 709,
+            "triangles": 858,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 573,
+            "triangles": 692,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 149,
+            "triangles": 123,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 76,
+            "triangles": 60,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 15,
+            "triangles": 9,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 1263,
+            "indices": 5268,
+            "sections": 2,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_CutScene_Body_Mesh",
+      "name": "SK_Char_Widow_Suit_C_CutScene_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_CutScene_Body_Mesh.SK_Char_Widow_Suit_C_CutScene_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_CutScene_Body_Mesh.uasset",
+          "size": 6873,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1365614592
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_CutScene_Body_Mesh.uexp",
+          "size": 7932862,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1365617961
+        }
+      },
+      "mesh": {
+        "reference_bones": 104,
+        "material_slots": 6,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 33392,
+            "triangles": 50903,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 27761,
+            "triangles": 40754,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 13540,
+            "triangles": 17657,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 13023,
+            "triangles": 16804,
+            "sections": 6,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 33392,
+            "indices": 152709,
+            "sections": 6,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_CutScene_Glass_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_CutScene_Glass_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_CutScene_Glass_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh",
+      "name": "ClothConfigNv",
+      "class": "ClothConfigNv",
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.SK_Char_Widow_Suit_C_UI_Body_Mesh:SK_Char_Widow_UI_Gloves_ProxyMesh_Lod0_Clothing_0.ClothConfigNv",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.uasset",
+          "size": 8629,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1368684544
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.uexp",
+          "size": 12806935,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1368688457
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh",
+      "name": "SK_Char_Widow_UI_Gloves_ProxyMesh_Lod0_Clothing_0",
+      "class": "ClothingAssetNv",
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.SK_Char_Widow_Suit_C_UI_Body_Mesh:SK_Char_Widow_UI_Gloves_ProxyMesh_Lod0_Clothing_0",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.uasset",
+          "size": 8629,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1368684544
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.uexp",
+          "size": 12806935,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1368688457
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh",
+      "name": "ClothLODDataNv_0",
+      "class": "ClothLODDataNv",
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.SK_Char_Widow_Suit_C_UI_Body_Mesh:SK_Char_Widow_UI_Gloves_ProxyMesh_Lod0_Clothing_0.ClothLODDataNv_0",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.uasset",
+          "size": 8629,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1368684544
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.uexp",
+          "size": 12806935,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1368688457
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh",
+      "name": "ClothPhysicalMeshDataNv",
+      "class": "ClothPhysicalMeshDataNv",
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.SK_Char_Widow_Suit_C_UI_Body_Mesh:SK_Char_Widow_UI_Gloves_ProxyMesh_Lod0_Clothing_0.ClothLODDataNv_0.ClothPhysicalMeshDataNv",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.uasset",
+          "size": 8629,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1368684544
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.uexp",
+          "size": 12806935,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1368688457
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh",
+      "name": "SK_Char_Widow_Suit_C_UI_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.SK_Char_Widow_Suit_C_UI_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.uasset",
+          "size": 8629,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1368684544
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.uexp",
+          "size": 12806935,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1368688457
+        }
+      },
+      "mesh": {
+        "reference_bones": 104,
+        "material_slots": 6,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 33392,
+            "triangles": 50903,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 27761,
+            "triangles": 40754,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 13540,
+            "triangles": 17657,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 13023,
+            "triangles": 16804,
+            "sections": 6,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 33392,
+            "indices": 152709,
+            "sections": 6,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Glass_Mesh",
+      "name": "SK_Char_Widow_Suit_C_UI_Glass_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Glass_Mesh.SK_Char_Widow_Suit_C_UI_Glass_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Glass_Mesh.uasset",
+          "size": 3801,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1372657664
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Glass_Mesh.uexp",
+          "size": 301362,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1372659881
+        }
+      },
+      "mesh": {
+        "reference_bones": 8,
+        "material_slots": 2,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 1263,
+            "triangles": 1756,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1039,
+            "triangles": 1326,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 709,
+            "triangles": 858,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 573,
+            "triangles": 692,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 1263,
+            "indices": 5268,
+            "sections": 2,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_A/Mesh/SK_Pendant_Back_Bag_All_Termite_A_Mesh",
+      "name": "SK_Pendant_Back_Bag_All_Termite_A_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_A/Mesh/SK_Pendant_Back_Bag_All_Termite_A_Mesh.SK_Pendant_Back_Bag_All_Termite_A_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_A/Mesh/SK_Pendant_Back_Bag_All_Termite_A_Mesh.uasset",
+          "size": 4100,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1487710208
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_A/Mesh/SK_Pendant_Back_Bag_All_Termite_A_Mesh.uexp",
+          "size": 1169379,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1487712409
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 2,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 7030,
+            "triangles": 7961,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 4051,
+            "triangles": 3986,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2134,
+            "triangles": 1996,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1091,
+            "triangles": 995,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 605,
+            "triangles": 499,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 306,
+            "triangles": 200,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 194,
+            "triangles": 100,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 7030,
+            "indices": 23883,
+            "sections": 2,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_B/Mesh/SK_Pendant_Back_Bag_All_Termite_B_Mesh",
+      "name": "SK_Pendant_Back_Bag_All_Termite_B_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_B/Mesh/SK_Pendant_Back_Bag_All_Termite_B_Mesh.SK_Pendant_Back_Bag_All_Termite_B_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_B/Mesh/SK_Pendant_Back_Bag_All_Termite_B_Mesh.uasset",
+          "size": 4100,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1493262336
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_B/Mesh/SK_Pendant_Back_Bag_All_Termite_B_Mesh.uexp",
+          "size": 1169379,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1493264521
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 2,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 7030,
+            "triangles": 7961,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 4051,
+            "triangles": 3986,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2134,
+            "triangles": 1996,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1091,
+            "triangles": 995,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 605,
+            "triangles": 499,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 306,
+            "triangles": 200,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 194,
+            "triangles": 100,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 7030,
+            "indices": 23883,
+            "sections": 2,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Pendant/Bag/Pendant_Bag_Back_All_Lls04_A/Mesh/SK_Pendant_Bag_Back_All_Lls04_A_Mesh",
+      "name": "SK_Pendant_Bag_Back_All_Lls04_A_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Bag_Back_All_Lls04_A/Mesh/SK_Pendant_Bag_Back_All_Lls04_A_Mesh.SK_Pendant_Bag_Back_All_Lls04_A_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Bag_Back_All_Lls04_A/Mesh/SK_Pendant_Bag_Back_All_Lls04_A_Mesh.uasset",
+          "size": 4015,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 144339362
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Bag_Back_All_Lls04_A/Mesh/SK_Pendant_Bag_Back_All_Lls04_A_Mesh.uexp",
+          "size": 1307027,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 144341547
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 2,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 4946,
+            "triangles": 7875,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 3865,
+            "triangles": 5888,
+            "sections": 2,
+            "texcoords": 2
+          },
+          {
+            "vertices": 2799,
+            "triangles": 3910,
+            "sections": 2,
+            "texcoords": 2
+          },
+          {
+            "vertices": 1542,
+            "triangles": 1907,
+            "sections": 2,
+            "texcoords": 2
+          },
+          {
+            "vertices": 853,
+            "triangles": 900,
+            "sections": 2,
+            "texcoords": 2
+          },
+          {
+            "vertices": 487,
+            "triangles": 462,
+            "sections": 1,
+            "texcoords": 2
+          },
+          {
+            "vertices": 234,
+            "triangles": 175,
+            "sections": 1,
+            "texcoords": 2
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 4946,
+            "indices": 23625,
+            "sections": 2,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Mesh/SK_Pendant_Face_Glass_C04_Cyber_B_Mesh",
+      "name": "SK_Pendant_Face_Glass_C04_Cyber_B_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Mesh/SK_Pendant_Face_Glass_C04_Cyber_B_Mesh.SK_Pendant_Face_Glass_C04_Cyber_B_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Mesh/SK_Pendant_Face_Glass_C04_Cyber_B_Mesh.uasset",
+          "size": 4103,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1506668544
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Mesh/SK_Pendant_Face_Glass_C04_Cyber_B_Mesh.uexp",
+          "size": 549497,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1506670745
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 2,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 2460,
+            "triangles": 2470,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1734,
+            "triangles": 1632,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1486,
+            "triangles": 1356,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 764,
+            "triangles": 680,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 518,
+            "triangles": 436,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 260,
+            "triangles": 198,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 120,
+            "triangles": 100,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 2460,
+            "indices": 7410,
+            "sections": 2,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Body_Mesh.SK_Char_Widow_Suit_C_1P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Lower_Mesh.SK_Char_Widow_Suit_C_1P_Lower_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Lower_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Body_Mesh.SK_Char_Widow_Suit_C_3P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Glass_Mesh.SK_Char_Widow_Suit_C_3P_Glass_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Glass_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_CutScene_Body_Mesh.SK_Char_Widow_Suit_C_CutScene_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_CutScene_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh/SK_Char_Widow_UI_Gloves_ProxyMesh_Lod0_Clothing_0.ClothConfigNv",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh/SK_Char_Widow_UI_Gloves_ProxyMesh_Lod0_Clothing_0/ClothConfigNv.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.SK_Char_Widow_UI_Gloves_ProxyMesh_Lod0_Clothing_0",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh/SK_Char_Widow_UI_Gloves_ProxyMesh_Lod0_Clothing_0.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh/SK_Char_Widow_UI_Gloves_ProxyMesh_Lod0_Clothing_0.ClothLODDataNv_0",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh/SK_Char_Widow_UI_Gloves_ProxyMesh_Lod0_Clothing_0/ClothLODDataNv_0.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh/SK_Char_Widow_UI_Gloves_ProxyMesh_Lod0_Clothing_0/ClothLODDataNv_0.ClothPhysicalMeshDataNv",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh/SK_Char_Widow_UI_Gloves_ProxyMesh_Lod0_Clothing_0/ClothLODDataNv_0/ClothPhysicalMeshDataNv.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.SK_Char_Widow_Suit_C_UI_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Glass_Mesh.SK_Char_Widow_Suit_C_UI_Glass_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Glass_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_A/Mesh/SK_Pendant_Back_Bag_All_Termite_A_Mesh.SK_Pendant_Back_Bag_All_Termite_A_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_A/Mesh/SK_Pendant_Back_Bag_All_Termite_A_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_B/Mesh/SK_Pendant_Back_Bag_All_Termite_B_Mesh.SK_Pendant_Back_Bag_All_Termite_B_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_B/Mesh/SK_Pendant_Back_Bag_All_Termite_B_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Bag_Back_All_Lls04_A/Mesh/SK_Pendant_Bag_Back_All_Lls04_A_Mesh.SK_Pendant_Bag_Back_All_Lls04_A_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Pendant/Bag/Pendant_Bag_Back_All_Lls04_A/Mesh/SK_Pendant_Bag_Back_All_Lls04_A_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Mesh/SK_Pendant_Face_Glass_C04_Cyber_B_Mesh.SK_Pendant_Face_Glass_C04_Cyber_B_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Mesh/SK_Pendant_Face_Glass_C04_Cyber_B_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Body_Mesh.SK_Char_Widow_Suit_C_1P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Body_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Lower_Mesh.SK_Char_Widow_Suit_C_1P_Lower_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_1P_Lower_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Body_Mesh.SK_Char_Widow_Suit_C_3P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Body_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Glass_Mesh.SK_Char_Widow_Suit_C_3P_Glass_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_3P_Glass_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_CutScene_Body_Mesh.SK_Char_Widow_Suit_C_CutScene_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_CutScene_Body_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Body_Mesh.SK_Char_Widow_Suit_C_UI_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_CutScene_Body_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Glass_Mesh.SK_Char_Widow_Suit_C_UI_Glass_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Widow/Widow_Suit_C/Mesh/SK_Char_Widow_Suit_C_UI_Glass_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_A/Mesh/SK_Pendant_Back_Bag_All_Termite_A_Mesh.SK_Pendant_Back_Bag_All_Termite_A_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_A/Mesh/SK_Pendant_Back_Bag_All_Termite_A_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_B/Mesh/SK_Pendant_Back_Bag_All_Termite_B_Mesh.SK_Pendant_Back_Bag_All_Termite_B_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Pendant/Bag/Pendant_Back_Bag_All_Termite_B/Mesh/SK_Pendant_Back_Bag_All_Termite_B_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Bag/Pendant_Bag_Back_All_Lls04_A/Mesh/SK_Pendant_Bag_Back_All_Lls04_A_Mesh.SK_Pendant_Bag_Back_All_Lls04_A_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Pendant/Bag/Pendant_Bag_Back_All_Lls04_A/Mesh/SK_Pendant_Bag_Back_All_Lls04_A_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Mesh/SK_Pendant_Face_Glass_C04_Cyber_B_Mesh.SK_Pendant_Face_Glass_C04_Cyber_B_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Mesh/SK_Pendant_Face_Glass_C04_Cyber_B_Mesh.psk"
+      ],
+      "error": null
+    }
+  ]
+}

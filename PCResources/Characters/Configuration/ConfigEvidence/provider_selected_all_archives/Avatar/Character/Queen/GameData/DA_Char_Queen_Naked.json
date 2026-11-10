@@ -1,0 +1,52 @@
+{
+  "Type": "AvaCharItemData",
+  "Name": "DA_Char_Queen_Naked",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'AvaCharItemData'",
+  "Package": "NZM/Content/Avatar/Character/Queen/GameData/DA_Char_Queen_Naked",
+  "Properties": {
+    "TPPConfig": {
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_Mesh_Master.SK_Char_Queen_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true
+    },
+    "FPPConfig": {
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_1P_Body_Mesh.SK_Char_Queen_Insect_S_1P_Body_Mesh",
+        "SubPathString": ""
+      }
+    },
+    "UIConfig": {
+      "DefaultPartItems": [
+        "14401010102",
+        "14401040101",
+        "14401050101",
+        "14401010103",
+        "14401010104",
+        "14401010105",
+        "14401010106",
+        "14401010107",
+        "14401010108"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_Mesh_Master.SK_Char_Queen_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true
+    },
+    "FPPUIConfig": {
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_1P_Body_Mesh.SK_Char_Queen_Insect_S_1P_Body_Mesh",
+        "SubPathString": ""
+      }
+    },
+    "ModeConfig": {
+      "BindTag": {
+        "TagName": "Avatar.Character.Queen"
+      }
+    },
+    "AssetPathName": "/Game/Avatar/Character/Queen/GameData/DA_Char_Queen_Naked.DA_Char_Queen_Naked"
+  }
+}

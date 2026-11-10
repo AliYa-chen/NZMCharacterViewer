@@ -1,0 +1,3279 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:00:43.8783675Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_UI",
+      "name": "VMI_Char_Naimei_Suit_C_Trousers_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_UI.VMI_Char_Naimei_Suit_C_Trousers_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_UI.uasset",
+          "size": 2566,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101697536
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_UI.uexp",
+          "size": 1838,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101698969
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_UI_stocking",
+      "name": "VMI_Char_Naimei_Suit_C_Trousers_UI_stocking",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_UI_stocking.VMI_Char_Naimei_Suit_C_Trousers_UI_stocking",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_UI_stocking.uasset",
+          "size": 3556,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101699584
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_UI_stocking.uexp",
+          "size": 83014,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101701497
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_Skin_UI",
+      "name": "VMI_Char_Naimei_Suit_C_Trousers_Skin_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_Skin_UI.VMI_Char_Naimei_Suit_C_Trousers_Skin_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_Skin_UI.uasset",
+          "size": 2876,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101662720
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_Skin_UI.uexp",
+          "size": 392136,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101664345
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Hair_FirstPass_UI",
+      "name": "VMI_Char_Naimei_Suit_C_Hair_FirstPass_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Hair_FirstPass_UI.VMI_Char_Naimei_Suit_C_Hair_FirstPass_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Hair_FirstPass_UI.uasset",
+          "size": 3511,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101390336
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Hair_FirstPass_UI.uexp",
+          "size": 576120,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101392377
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Eyelash_UI",
+      "name": "VMI_Char_Naimei_Suit_C_Eyelash_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Eyelash_UI.VMI_Char_Naimei_Suit_C_Eyelash_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Eyelash_UI.uasset",
+          "size": 3285,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101240832
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Eyelash_UI.uexp",
+          "size": 418449,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101242697
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_head_AO_UI",
+      "name": "VMI_Char_Naimei_Suit_C_head_AO_UI",
+      "class": "MaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_head_AO_UI.VMI_Char_Naimei_Suit_C_head_AO_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_head_AO_UI.uasset",
+          "size": 2661,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101275648
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_head_AO_UI.uexp",
+          "size": 9329,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101277161
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Head_UI",
+      "name": "VMI_Char_Naimei_Suit_C_Head_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Head_UI.VMI_Char_Naimei_Suit_C_Head_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Head_UI.uasset",
+          "size": 3315,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101279744
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Head_UI.uexp",
+          "size": 397917,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101281417
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Eye_UI",
+      "name": "VMI_Char_Naimei_Suit_C_Eye_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Eye_UI.VMI_Char_Naimei_Suit_C_Eye_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Eye_UI.uasset",
+          "size": 4829,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101203968
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Eye_UI.uexp",
+          "size": 380966,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101206457
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_A_3P",
+      "name": "VMI_Char_Naimei_Suit_C_Weapon_A_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_A_3P.VMI_Char_Naimei_Suit_C_Weapon_A_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_A_3P.uasset",
+          "size": 2937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101711872
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_A_3P.uexp",
+          "size": 560890,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101713529
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_B_3P",
+      "name": "VMI_Char_Naimei_Suit_C_Weapon_B_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_B_3P.VMI_Char_Naimei_Suit_C_Weapon_B_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_B_3P.uasset",
+          "size": 2937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101758976
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_B_3P.uexp",
+          "size": 560890,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101760633
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_A",
+      "name": "VMI_Char_Naimei_Suit_C_Weapon_A",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_A.VMI_Char_Naimei_Suit_C_Weapon_A",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_A.uasset",
+          "size": 2408,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101709824
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_A.uexp",
+          "size": 1455,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101711177
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_B",
+      "name": "VMI_Char_Naimei_Suit_C_Weapon_B",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_B.VMI_Char_Naimei_Suit_C_Weapon_B",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_B.uasset",
+          "size": 2408,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101756928
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_B.uexp",
+          "size": 1455,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk89-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 101758281
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Blueprints/GPE/Resources/Unique/Materials/VMI_GPE_Unique_DroppedItems_02",
+      "name": "VMI_GPE_Unique_DroppedItems_02",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Blueprints/GPE/Resources/Unique/Materials/VMI_GPE_Unique_DroppedItems_02.VMI_GPE_Unique_DroppedItems_02",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Blueprints/GPE/Resources/Unique/Materials/VMI_GPE_Unique_DroppedItems_02.uasset",
+          "size": 3152,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk25-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 18536448
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Blueprints/GPE/Resources/Unique/Materials/VMI_GPE_Unique_DroppedItems_02.uexp",
+          "size": 582028,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk25-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 18538137
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Effect/Avatar/Pendant/S_S02_JQueen/Wing/TPP/Material/MI_EFX_Queen_Dissolve_CC_02",
+      "name": "MI_EFX_Queen_Dissolve_CC_02",
+      "class": "MaterialInstanceConstant",
+      "object_path": "NZM/Content/Effect/Avatar/Pendant/S_S02_JQueen/Wing/TPP/Material/MI_EFX_Queen_Dissolve_CC_02.MI_EFX_Queen_Dissolve_CC_02",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Effect/Avatar/Pendant/S_S02_JQueen/Wing/TPP/Material/MI_EFX_Queen_Dissolve_CC_02.uasset",
+          "size": 4623,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 641374208
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Effect/Avatar/Pendant/S_S02_JQueen/Wing/TPP/Material/MI_EFX_Queen_Dissolve_CC_02.uexp",
+          "size": 658058,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 641376649
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Snake_LJJ_5",
+      "name": "MI_EFX_Snake_LJJ_5",
+      "class": "MaterialInstanceConstant",
+      "object_path": "NZM/Content/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Snake_LJJ_5.MI_EFX_Snake_LJJ_5",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Snake_LJJ_5.uasset",
+          "size": 4523,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk25-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 28721152
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Snake_LJJ_5.uexp",
+          "size": 659783,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk25-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 28723609
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Queen_Snake_Eye_LJJ",
+      "name": "MI_EFX_Queen_Snake_Eye_LJJ",
+      "class": "MaterialInstanceConstant",
+      "object_path": "NZM/Content/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Queen_Snake_Eye_LJJ.MI_EFX_Queen_Snake_Eye_LJJ",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Queen_Snake_Eye_LJJ.uasset",
+          "size": 2707,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk25-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 28477440
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Queen_Snake_Eye_LJJ.uexp",
+          "size": 563744,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk25-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 28479129
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Hair_3P",
+      "name": "VMI_Char_Queen_Hair_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Hair_3P.VMI_Char_Queen_Hair_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Hair_3P.uasset",
+          "size": 3137,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1125818368
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Hair_3P.uexp",
+          "size": 552359,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1125820281
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon_A_3P",
+      "name": "VMI_Char_Queen_Insect_S_Weapon_A_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon_A_3P.VMI_Char_Queen_Insect_S_Weapon_A_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon_A_3P.uasset",
+          "size": 3230,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150109696
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon_A_3P.uexp",
+          "size": 394562,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150111401
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Hat_3P",
+      "name": "VMI_Char_Queen_Insect_S_Hat_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Hat_3P.VMI_Char_Queen_Insect_S_Hat_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Hat_3P.uasset",
+          "size": 3180,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149743104
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Hat_3P.uexp",
+          "size": 394537,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149744793
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Eyelash_3P",
+      "name": "VMI_Char_Queen_Eyelash_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Eyelash_3P.VMI_Char_Queen_Eyelash_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Eyelash_3P.uasset",
+          "size": 3154,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1125781504
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Eyelash_3P.uexp",
+          "size": 445049,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1125783273
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Head_3P",
+      "name": "VMI_Char_Queen_Head_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Head_3P.VMI_Char_Queen_Head_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Head_3P.uasset",
+          "size": 3390,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1125865472
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Head_3P.uexp",
+          "size": 561409,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1125867305
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Eye_3P",
+      "name": "VMI_Char_Queen_Eye_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Eye_3P.VMI_Char_Queen_Eye_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Eye_3P.uasset",
+          "size": 3519,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1125736448
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Eye_3P.uexp",
+          "size": 561404,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1125738377
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Head_PC",
+      "name": "VMI_Char_Queen_Head_PC",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Head_PC.VMI_Char_Queen_Head_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Head_PC.uasset",
+          "size": 3775,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1125910528
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Head_PC.uexp",
+          "size": 399936,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1125912521
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Head_UI",
+      "name": "VMI_Char_Queen_Head_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Head_UI.VMI_Char_Queen_Head_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Head_UI.uasset",
+          "size": 3628,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1126098944
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Head_UI.uexp",
+          "size": 404331,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1126100825
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Hair_FirstPass_UI",
+      "name": "VMI_Char_Queen_Hair_FirstPass_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Hair_FirstPass_UI.VMI_Char_Queen_Hair_FirstPass_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Hair_FirstPass_UI.uasset",
+          "size": 3195,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1125974016
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Hair_FirstPass_UI.uexp",
+          "size": 573430,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1125975977
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_A_UI",
+      "name": "VMI_Char_Queen_Insect_S_Weapon_A_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_A_UI.VMI_Char_Queen_Insect_S_Weapon_A_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_A_UI.uasset",
+          "size": 3061,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349889323
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_A_UI.uexp",
+          "size": 83212,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349890932
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Eyelash_UI1",
+      "name": "VMI_Char_Queen_Eyelash_UI1",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Eyelash_UI1.VMI_Char_Queen_Eyelash_UI1",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Eyelash_UI1.uasset",
+          "size": 3411,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1125955584
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Eyelash_UI1.uexp",
+          "size": 194209,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1125957545
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_head_AO_UI",
+      "name": "VMI_Char_Queen_head_AO_UI",
+      "class": "MaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_head_AO_UI.VMI_Char_Queen_head_AO_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_head_AO_UI.uasset",
+          "size": 2635,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1126094848
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_head_AO_UI.uexp",
+          "size": 9329,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1126096345
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Queent_Eye_UI",
+      "name": "VMI_Queent_Eye_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Queent_Eye_UI.VMI_Queent_Eye_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Queent_Eye_UI.uasset",
+          "size": 4373,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1126133760
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Queent_Eye_UI.uexp",
+          "size": 377694,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1126136025
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Hat_UI",
+      "name": "VMI_Char_Queen_Insect_S_Hat_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Hat_UI.VMI_Char_Queen_Insect_S_Hat_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Hat_UI.uasset",
+          "size": 3011,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349841337
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Hat_UI.uexp",
+          "size": 83207,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349842930
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Queent_Oral_UI",
+      "name": "VMI_Queent_Oral_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Queent_Oral_UI.VMI_Queent_Oral_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Queent_Oral_UI.uasset",
+          "size": 3173,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1126170624
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Queent_Oral_UI.uexp",
+          "size": 3239,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1126172393
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Accessory_Mask_3P",
+      "name": "VMI_Char_Queen_Insect_S_Accessory_Mask_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Accessory_Mask_3P.VMI_Char_Queen_Insect_S_Accessory_Mask_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Accessory_Mask_3P.uasset",
+          "size": 3206,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149388800
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Accessory_Mask_3P.uexp",
+          "size": 450912,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149390489
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Body_3P_PC",
+      "name": "VMI_Char_Queen_Insect_S_Body_3P_PC",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Body_3P_PC.VMI_Char_Queen_Insect_S_Body_3P_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Body_3P_PC.uasset",
+          "size": 3482,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149577216
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Body_3P_PC.uexp",
+          "size": 398398,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149579033
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Clothes_3P",
+      "name": "VMI_Char_Queen_Insect_S_Clothes_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Clothes_3P.VMI_Char_Queen_Insect_S_Clothes_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Clothes_3P.uasset",
+          "size": 3292,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149659136
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Clothes_3P.uexp",
+          "size": 569496,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149660873
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Legs_3P_PC",
+      "name": "VMI_Char_Queen_Insect_S_Legs_3P_PC",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Legs_3P_PC.VMI_Char_Queen_Insect_S_Legs_3P_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Legs_3P_PC.uasset",
+          "size": 3259,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149822976
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Legs_3P_PC.uexp",
+          "size": 397958,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149824729
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Accessory_3P",
+      "name": "VMI_Char_Queen_Insect_S_Accessory_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Accessory_3P.VMI_Char_Queen_Insect_S_Accessory_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Accessory_3P.uasset",
+          "size": 3240,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149353984
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Accessory_3P.uexp",
+          "size": 394567,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149355689
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Belt_3P",
+      "name": "VMI_Char_Queen_Insect_S_Belt_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Belt_3P.VMI_Char_Queen_Insect_S_Belt_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Belt_3P.uasset",
+          "size": 3123,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149460480
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Belt_3P.uexp",
+          "size": 394542,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149462201
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Belt_Mask_3P",
+      "name": "VMI_Char_Queen_Insect_S_Belt_Mask_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Belt_Mask_3P.VMI_Char_Queen_Insect_S_Belt_Mask_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Belt_Mask_3P.uasset",
+          "size": 2967,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149495296
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Belt_Mask_3P.uexp",
+          "size": 450328,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149496937
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Clothes_Mask_3P",
+      "name": "VMI_Char_Queen_Insect_S_Clothes_Mask_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Clothes_Mask_3P.VMI_Char_Queen_Insect_S_Clothes_Mask_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Clothes_Mask_3P.uasset",
+          "size": 3279,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149706240
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Clothes_Mask_3P.uexp",
+          "size": 450957,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149707945
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Legs_3P",
+      "name": "VMI_Char_Queen_Insect_S_Legs_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Legs_3P.VMI_Char_Queen_Insect_S_Legs_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Legs_3P.uasset",
+          "size": 2943,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149777920
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Legs_3P.uexp",
+          "size": 560875,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149779561
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Arm_3P",
+      "name": "VMI_Char_Queen_Insect_S_Arm_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Arm_3P.VMI_Char_Queen_Insect_S_Arm_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Arm_3P.uasset",
+          "size": 3180,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149425664
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Arm_3P.uexp",
+          "size": 394537,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149427353
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Body_3P",
+      "name": "VMI_Char_Queen_Insect_S_Body_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Body_3P.VMI_Char_Queen_Insect_S_Body_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Body_3P.uasset",
+          "size": 3159,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149532160
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Body_3P.uexp",
+          "size": 561137,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149533833
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Accessory_UI",
+      "name": "VMI_Char_Queen_Insect_S_Accessory_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Accessory_UI.VMI_Char_Queen_Insect_S_Accessory_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Accessory_UI.uasset",
+          "size": 3193,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349793489
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Accessory_UI.uexp",
+          "size": 83695,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349795178
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Arm_UI",
+      "name": "VMI_Char_Queen_Insect_S_Arm_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Arm_UI.VMI_Char_Queen_Insect_S_Arm_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Arm_UI.uasset",
+          "size": 3438,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150236672
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Arm_UI.uexp",
+          "size": 91763,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150238537
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Belt_UI",
+      "name": "VMI_Char_Queen_Insect_S_Belt_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Belt_UI.VMI_Char_Queen_Insect_S_Belt_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Belt_UI.uasset",
+          "size": 2734,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150251008
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Belt_UI.uexp",
+          "size": 1934,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150252537
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Belt_Mask_UI",
+      "name": "VMI_Char_Queen_Insect_S_Belt_Mask_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Belt_Mask_UI.VMI_Char_Queen_Insect_S_Belt_Mask_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Belt_Mask_UI.uasset",
+          "size": 2632,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150248960
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Belt_Mask_UI.uexp",
+          "size": 1551,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150250425
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_B_UI",
+      "name": "VMI_Char_Queen_Insect_S_NakedBody_B_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_B_UI.VMI_Char_Queen_Insect_S_NakedBody_B_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_B_UI.uasset",
+          "size": 3383,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150572544
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_B_UI.uexp",
+          "size": 398314,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150574281
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_C_UI",
+      "name": "VMI_Char_Queen_Insect_S_NakedBody_C_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_C_UI.VMI_Char_Queen_Insect_S_NakedBody_C_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_C_UI.uasset",
+          "size": 3383,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150607360
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_C_UI.uexp",
+          "size": 398314,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150609097
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_A_UI",
+      "name": "VMI_Char_Queen_Insect_S_NakedBody_A_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_A_UI.VMI_Char_Queen_Insect_S_NakedBody_A_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_A_UI.uasset",
+          "size": 3383,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150537728
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_A_UI.uexp",
+          "size": 398314,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150539465
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_UI1",
+      "name": "VMI_Char_Queen_Insect_S_Clothes_UI1",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_UI1.VMI_Char_Queen_Insect_S_Clothes_UI1",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_UI1.uasset",
+          "size": 3863,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150343168
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_UI1.uexp",
+          "size": 84368,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150345241
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Accessory_Mask_UI",
+      "name": "VMI_Char_Queen_Insect_S_Accessory_Mask_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Accessory_Mask_UI.VMI_Char_Queen_Insect_S_Accessory_Mask_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Accessory_Mask_UI.uasset",
+          "size": 3132,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150191616
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Accessory_Mask_UI.uexp",
+          "size": 423640,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150193273
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Arm",
+      "name": "VMI_Char_Queen_Insect_1P_Arm",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Arm.VMI_Char_Queen_Insect_1P_Arm",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Arm.uasset",
+          "size": 3054,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 572407808
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Arm.uexp",
+          "size": 394045,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 572409417
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Hand",
+      "name": "VMI_Char_Queen_Insect_1P_Hand",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Hand.VMI_Char_Queen_Insect_1P_Hand",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Hand.uasset",
+          "size": 3144,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 572442624
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Hand.uexp",
+          "size": 568989,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 572444281
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Hand_Skin",
+      "name": "VMI_Char_Queen_Insect_1P_Hand_Skin",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Hand_Skin.VMI_Char_Queen_Insect_1P_Hand_Skin",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Hand_Skin.uasset",
+          "size": 3880,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 572489728
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Hand_Skin.uexp",
+          "size": 405460,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 572491673
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Tran_Weapon",
+      "name": "VMI_Char_Queen_Insect_S_Tran_Weapon",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Tran_Weapon.VMI_Char_Queen_Insect_S_Tran_Weapon",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Tran_Weapon.uasset",
+          "size": 3179,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150038016
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Tran_Weapon.uexp",
+          "size": 450882,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150039689
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon",
+      "name": "VMI_Char_Queen_Insect_S_Weapon",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon.VMI_Char_Queen_Insect_S_Weapon",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon.uasset",
+          "size": 3204,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150074880
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon.uexp",
+          "size": 394537,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150076569
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Cloak",
+      "name": "VMI_Char_Queen_Insect_S_Cloak",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Cloak.VMI_Char_Queen_Insect_S_Cloak",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Cloak.uasset",
+          "size": 3266,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149612032
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Cloak.uexp",
+          "size": 569471,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149613769
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon_B_3P",
+      "name": "VMI_Char_Queen_Insect_S_Weapon_B_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon_B_3P.VMI_Char_Queen_Insect_S_Weapon_B_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon_B_3P.uasset",
+          "size": 3302,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150144512
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon_B_3P.uexp",
+          "size": 569501,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150146249
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A_3P",
+      "name": "VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A_3P.VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A_3P.uasset",
+          "size": 4296,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149997056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A_3P.uexp",
+          "size": 454112,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149999305
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_B",
+      "name": "VMI_Char_Queen_Insect_S_Snake_Plus01_B",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_B.VMI_Char_Queen_Insect_S_Snake_Plus01_B",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_B.uasset",
+          "size": 3356,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149857792
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_B.uexp",
+          "size": 569516,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149859545
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_Snake_Plus01_C_Back",
+      "name": "VMI_Char_Queen_Insect_S_Snake_Plus01_C_Back",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_Snake_Plus01_C_Back.VMI_Char_Queen_Insect_S_Snake_Plus01_C_Back",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_Snake_Plus01_C_Back.uasset",
+          "size": 4143,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150642176
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_Snake_Plus01_C_Back.uexp",
+          "size": 628923,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150644345
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_D",
+      "name": "VMI_Char_Queen_Insect_S_Snake_Plus01_D",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_D.VMI_Char_Queen_Insect_S_Snake_Plus01_D",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_D.uasset",
+          "size": 3356,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149949952
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_D.uexp",
+          "size": 569516,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149951705
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_C",
+      "name": "VMI_Char_Queen_Insect_S_Snake_Plus01_C",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_C.VMI_Char_Queen_Insect_S_Snake_Plus01_C",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_C.uasset",
+          "size": 3758,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149904896
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_C.uexp",
+          "size": 572117,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1149906841
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_Tran_UI",
+      "name": "VMI_Char_Queen_Insect_S_Weapon_Tran_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_Tran_UI.VMI_Char_Queen_Insect_S_Weapon_Tran_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_Tran_UI.uasset",
+          "size": 3102,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150492672
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_Tran_UI.uexp",
+          "size": 423625,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150494329
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_UI",
+      "name": "VMI_Char_Queen_Insect_S_Weapon_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_UI.VMI_Char_Queen_Insect_S_Weapon_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_UI.uasset",
+          "size": 3041,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349917895
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_UI.uexp",
+          "size": 83210,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349919504
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Cloak_UI",
+      "name": "VMI_Char_Queen_Insect_S_Cloak_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Cloak_UI.VMI_Char_Queen_Insect_S_Cloak_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Cloak_UI.uasset",
+          "size": 3232,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349803040
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Cloak_UI.uexp",
+          "size": 227362,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349804729
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_B_UI",
+      "name": "VMI_Char_Queen_Insect_S_Weapon_B_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_B_UI.VMI_Char_Queen_Insect_S_Weapon_B_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_B_UI.uasset",
+          "size": 3083,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349898737
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_B_UI.uexp",
+          "size": 227092,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349900362
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Arm_UI",
+      "name": "VMI_Char_Queen_Insect_1P_Arm_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Arm_UI.VMI_Char_Queen_Insect_1P_Arm_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Arm_UI.uasset",
+          "size": 3013,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349764974
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Arm_UI.uexp",
+          "size": 83208,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349766567
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Hand_UI",
+      "name": "VMI_Char_Queen_Insect_1P_Hand_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Hand_UI.VMI_Char_Queen_Insect_1P_Hand_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Hand_UI.uasset",
+          "size": 3313,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349774364
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Hand_UI.uexp",
+          "size": 227141,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349776069
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Hand_Skin_UI",
+      "name": "VMI_Char_Queen_Insect_1P_Hand_Skin_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Hand_Skin_UI.VMI_Char_Queen_Insect_1P_Hand_Skin_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Hand_Skin_UI.uasset",
+          "size": 3886,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 572536832
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Hand_Skin_UI.uexp",
+          "size": 405460,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 572538777
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A",
+      "name": "VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A.VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A.uasset",
+          "size": 4287,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150748672
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A.uexp",
+          "size": 454508,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150750905
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Snake_Plus01_B_UI",
+      "name": "VMI_Char_Queen_Insect_S_Snake_Plus01_B_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Snake_Plus01_B_UI.VMI_Char_Queen_Insect_S_Snake_Plus01_B_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Snake_Plus01_B_UI.uasset",
+          "size": 3277,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349850731
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Snake_Plus01_B_UI.uexp",
+          "size": 227354,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349852436
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Snake_Plus01_D_UI",
+      "name": "VMI_Char_Queen_Insect_S_Snake_Plus01_D_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Snake_Plus01_D_UI.VMI_Char_Queen_Insect_S_Snake_Plus01_D_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Snake_Plus01_D_UI.uasset",
+          "size": 3277,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349870035
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Snake_Plus01_D_UI.uexp",
+          "size": 226958,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349871740
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_Mask_UI",
+      "name": "VMI_Char_Queen_Insect_S_Clothes_Mask_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_Mask_UI.VMI_Char_Queen_Insect_S_Clothes_Mask_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_Mask_UI.uasset",
+          "size": 3155,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150308352
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_Mask_UI.uexp",
+          "size": 423656,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150310009
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Body_UI",
+      "name": "VMI_Char_Queen_Insect_S_Body_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Body_UI.VMI_Char_Queen_Insect_S_Body_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Body_UI.uasset",
+          "size": 3803,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150253056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Body_UI.uexp",
+          "size": 401099,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150255001
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_UI_Lod",
+      "name": "VMI_Char_Queen_Insect_S_Clothes_UI_Lod",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_UI_Lod.VMI_Char_Queen_Insect_S_Clothes_UI_Lod",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_UI_Lod.uasset",
+          "size": 2972,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349822280
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_UI_Lod.uexp",
+          "size": 226878,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 349823841
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Legs_UI",
+      "name": "VMI_Char_Queen_Insect_S_Legs_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Legs_UI.VMI_Char_Queen_Insect_S_Legs_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Legs_UI.uasset",
+          "size": 3602,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150386176
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Legs_UI.uexp",
+          "size": 399480,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1150388057
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Materials/3P/VMI_Pendant_Hand_Band_S02_JQueen_S_3P",
+      "name": "VMI_Pendant_Hand_Band_S02_JQueen_S_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Materials/3P/VMI_Pendant_Hand_Band_S02_JQueen_S_3P.VMI_Pendant_Hand_Band_S02_JQueen_S_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Materials/3P/VMI_Pendant_Hand_Band_S02_JQueen_S_3P.uasset",
+          "size": 4099,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk37-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 3940352
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Materials/3P/VMI_Pendant_Hand_Band_S02_JQueen_S_3P.uexp",
+          "size": 582843,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk37-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 3942345
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Materials/UI/VMI_Pendant_Hand_Band_S02_JQueen_S_UI",
+      "name": "VMI_Pendant_Hand_Band_S02_JQueen_S_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Materials/UI/VMI_Pendant_Hand_Band_S02_JQueen_S_UI.VMI_Pendant_Hand_Band_S02_JQueen_S_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Materials/UI/VMI_Pendant_Hand_Band_S02_JQueen_S_UI.uasset",
+          "size": 4186,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1179160576
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Materials/UI/VMI_Pendant_Hand_Band_S02_JQueen_S_UI.uexp",
+          "size": 585875,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1179162601
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Hair_3P",
+      "name": "VMI_Char_Shirley_Hair_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Hair_3P.VMI_Char_Shirley_Hair_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Hair_3P.uasset",
+          "size": 3214,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246689280
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Hair_3P.uexp",
+          "size": 552431,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246691241
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/Shirley_Suit_B/Materials/3P/VMI_Char_Shirley_Suit_B_Skin_3P",
+      "name": "VMI_Char_Shirley_Suit_B_Skin_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/Shirley_Suit_B/Materials/3P/VMI_Char_Shirley_Suit_B_Skin_3P.VMI_Char_Shirley_Suit_B_Skin_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/Shirley_Suit_B/Materials/3P/VMI_Char_Shirley_Suit_B_Skin_3P.uasset",
+          "size": 3077,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1265520640
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/Shirley_Suit_B/Materials/3P/VMI_Char_Shirley_Suit_B_Skin_3P.uexp",
+          "size": 561138,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1265522313
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Head_3p",
+      "name": "VMI_Char_Shirley_Head_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Head_3p.VMI_Char_Shirley_Head_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Head_3p.uasset",
+          "size": 2850,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246736384
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Head_3p.uexp",
+          "size": 560840,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246738009
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Eyelash_3P",
+      "name": "VMI_Char_Shirley_Eyelash_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Eyelash_3P.VMI_Char_Shirley_Eyelash_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Eyelash_3P.uasset",
+          "size": 3140,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246652416
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Eyelash_3P.uexp",
+          "size": 444797,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246654217
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Eye_3P",
+      "name": "VMI_Char_Shirley_Eye_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Eye_3P.VMI_Char_Shirley_Eye_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Eye_3P.uasset",
+          "size": 3123,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246607360
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Eye_3P.uexp",
+          "size": 561481,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246609097
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Head_PC_3P",
+      "name": "VMI_Char_Shirley_Head_PC_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Head_PC_3P.VMI_Char_Shirley_Head_PC_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Head_PC_3P.uasset",
+          "size": 3201,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246781440
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Head_PC_3P.uexp",
+          "size": 393712,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246783177
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Hair_FirstPass_Cut",
+      "name": "VMI_Char_Shirley_Hair_FirstPass_Cut",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Hair_FirstPass_Cut.VMI_Char_Shirley_Hair_FirstPass_Cut",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Hair_FirstPass_Cut.uasset",
+          "size": 3959,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246896128
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Hair_FirstPass_Cut.uexp",
+          "size": 581011,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246898473
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/Shirley_Suit_B/Materials/UI/VMI_Char_Shirley_Suit_B_Glove_UI",
+      "name": "VMI_Char_Shirley_Suit_B_Glove_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/Shirley_Suit_B/Materials/UI/VMI_Char_Shirley_Suit_B_Glove_UI.VMI_Char_Shirley_Suit_B_Glove_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/Shirley_Suit_B/Materials/UI/VMI_Char_Shirley_Suit_B_Glove_UI.uasset",
+          "size": 2767,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1265639424
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/Shirley_Suit_B/Materials/UI/VMI_Char_Shirley_Suit_B_Glove_UI.uexp",
+          "size": 2153,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1265640921
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_EyeAO_UI",
+      "name": "VMI_Char_Shirley_EyeAO_UI",
+      "class": "MaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_EyeAO_UI.VMI_Char_Shirley_EyeAO_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_EyeAO_UI.uasset",
+          "size": 2916,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246853120
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_EyeAO_UI.uexp",
+          "size": 62110,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246854793
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Base/Materials/VMI_Oral_UI_FixCrash",
+      "name": "VMI_Oral_UI_FixCrash",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Base/Materials/VMI_Oral_UI_FixCrash.VMI_Oral_UI_FixCrash",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/VMI_Oral_UI_FixCrash.uasset",
+          "size": 3040,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4777984
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/VMI_Oral_UI_FixCrash.uexp",
+          "size": 2191,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4779641
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Eye_UI",
+      "name": "VMI_Char_Shirley_Eye_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Eye_UI.VMI_Char_Shirley_Eye_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Eye_UI.uasset",
+          "size": 4202,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246816256
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Eye_UI.uexp",
+          "size": 375304,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246818377
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Eyelash_UI",
+      "name": "VMI_Char_Shirley_Eyelash_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Eyelash_UI.VMI_Char_Shirley_Eyelash_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Eyelash_UI.uasset",
+          "size": 3268,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246861312
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Eyelash_UI.uexp",
+          "size": 418419,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246863161
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Head_UI",
+      "name": "VMI_Char_Shirley_Head_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Head_UI.VMI_Char_Shirley_Head_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Head_UI.uasset",
+          "size": 3833,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1247064064
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Head_UI.uexp",
+          "size": 402712,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1247066121
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Hair_FirstPass_UI",
+      "name": "VMI_Char_Shirley_Hair_FirstPass_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Hair_FirstPass_UI.VMI_Char_Shirley_Hair_FirstPass_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Hair_FirstPass_UI.uasset",
+          "size": 3976,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246943232
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Hair_FirstPass_UI.uexp",
+          "size": 581273,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1246945593
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/LobbyRes/Knife/Materials/VMI_Knife_A",
+      "name": "VMI_Knife_A",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/LobbyRes/Knife/Materials/VMI_Knife_A.VMI_Knife_A",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/LobbyRes/Knife/Materials/VMI_Knife_A.uasset",
+          "size": 2425,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 614445056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/LobbyRes/Knife/Materials/VMI_Knife_A.uexp",
+          "size": 1838,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 614446473
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/LobbyRes/Knife/Materials/VMI_Knife_UI",
+      "name": "VMI_Knife_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/LobbyRes/Knife/Materials/VMI_Knife_UI.VMI_Knife_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/LobbyRes/Knife/Materials/VMI_Knife_UI.uasset",
+          "size": 2186,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 614447104
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/LobbyRes/Knife/Materials/VMI_Knife_UI.uexp",
+          "size": 1107,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 614448377
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Env/Lobby/Role_Shirley/Material/VMI__Lobby_Chain_01",
+      "name": "VMI__Lobby_Chain_01",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Env/Lobby/Role_Shirley/Material/VMI__Lobby_Chain_01.VMI__Lobby_Chain_01",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Env/Lobby/Role_Shirley/Material/VMI__Lobby_Chain_01.uasset",
+          "size": 3185,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1119621120
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Env/Lobby/Role_Shirley/Material/VMI__Lobby_Chain_01.uexp",
+          "size": 267851,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1119622937
+        }
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_UI.VMI_Char_Naimei_Suit_C_Trousers_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_UI_stocking.VMI_Char_Naimei_Suit_C_Trousers_UI_stocking",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_UI_stocking.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_Skin_UI.VMI_Char_Naimei_Suit_C_Trousers_Skin_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Trousers_Skin_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Hair_FirstPass_UI.VMI_Char_Naimei_Suit_C_Hair_FirstPass_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/VMI_Char_Naimei_Suit_C_Hair_FirstPass_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Eyelash_UI.VMI_Char_Naimei_Suit_C_Eyelash_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Eyelash_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_head_AO_UI.VMI_Char_Naimei_Suit_C_head_AO_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_head_AO_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Head_UI.VMI_Char_Naimei_Suit_C_Head_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Head_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Eye_UI.VMI_Char_Naimei_Suit_C_Eye_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Suit_C/Materials/UI/Head/VMI_Char_Naimei_Suit_C_Eye_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_A_3P.VMI_Char_Naimei_Suit_C_Weapon_A_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_A_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_B_3P.VMI_Char_Naimei_Suit_C_Weapon_B_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_B_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_A.VMI_Char_Naimei_Suit_C_Weapon_A",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_A.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_B.VMI_Char_Naimei_Suit_C_Weapon_B",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Suit_C/Materials/Weapon/VMI_Char_Naimei_Suit_C_Weapon_B.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Blueprints/GPE/Resources/Unique/Materials/VMI_GPE_Unique_DroppedItems_02.VMI_GPE_Unique_DroppedItems_02",
+      "files": [
+        "PCResources/Characters/Metadata/Blueprints/GPE/Resources/Unique/Materials/VMI_GPE_Unique_DroppedItems_02.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Effect/Avatar/Pendant/S_S02_JQueen/Wing/TPP/Material/MI_EFX_Queen_Dissolve_CC_02.MI_EFX_Queen_Dissolve_CC_02",
+      "files": [
+        "PCResources/Characters/Metadata/Effect/Avatar/Pendant/S_S02_JQueen/Wing/TPP/Material/MI_EFX_Queen_Dissolve_CC_02.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Snake_LJJ_5.MI_EFX_Snake_LJJ_5",
+      "files": [
+        "PCResources/Characters/Metadata/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Snake_LJJ_5.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Queen_Snake_Eye_LJJ.MI_EFX_Queen_Snake_Eye_LJJ",
+      "files": [
+        "PCResources/Characters/Metadata/Effect/Avatar/show/Queen/RedPacket/material/MI_EFX_Queen_Snake_Eye_LJJ.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Hair_3P.VMI_Char_Queen_Hair_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Hair_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon_A_3P.VMI_Char_Queen_Insect_S_Weapon_A_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon_A_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Hat_3P.VMI_Char_Queen_Insect_S_Hat_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Hat_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Eyelash_3P.VMI_Char_Queen_Eyelash_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Eyelash_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Head_3P.VMI_Char_Queen_Head_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Head_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Eye_3P.VMI_Char_Queen_Eye_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Eye_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Head_PC.VMI_Char_Queen_Head_PC",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/CommonRes/Materials/3P/VMI_Char_Queen_Head_PC.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Head_UI.VMI_Char_Queen_Head_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Head_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Hair_FirstPass_UI.VMI_Char_Queen_Hair_FirstPass_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Hair_FirstPass_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_A_UI.VMI_Char_Queen_Insect_S_Weapon_A_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_A_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Eyelash_UI1.VMI_Char_Queen_Eyelash_UI1",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_Eyelash_UI1.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_head_AO_UI.VMI_Char_Queen_head_AO_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Char_Queen_head_AO_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Queent_Eye_UI.VMI_Queent_Eye_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Queent_Eye_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Hat_UI.VMI_Char_Queen_Insect_S_Hat_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Hat_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Queent_Oral_UI.VMI_Queent_Oral_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/CommonRes/Materials/UI/VMI_Queent_Oral_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Accessory_Mask_3P.VMI_Char_Queen_Insect_S_Accessory_Mask_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Accessory_Mask_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Body_3P_PC.VMI_Char_Queen_Insect_S_Body_3P_PC",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Body_3P_PC.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Clothes_3P.VMI_Char_Queen_Insect_S_Clothes_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Clothes_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Legs_3P_PC.VMI_Char_Queen_Insect_S_Legs_3P_PC",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Legs_3P_PC.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Accessory_3P.VMI_Char_Queen_Insect_S_Accessory_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Accessory_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Belt_3P.VMI_Char_Queen_Insect_S_Belt_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Belt_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Belt_Mask_3P.VMI_Char_Queen_Insect_S_Belt_Mask_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Belt_Mask_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Clothes_Mask_3P.VMI_Char_Queen_Insect_S_Clothes_Mask_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Clothes_Mask_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Legs_3P.VMI_Char_Queen_Insect_S_Legs_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Legs_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Arm_3P.VMI_Char_Queen_Insect_S_Arm_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Arm_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Body_3P.VMI_Char_Queen_Insect_S_Body_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Body_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Accessory_UI.VMI_Char_Queen_Insect_S_Accessory_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Accessory_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Arm_UI.VMI_Char_Queen_Insect_S_Arm_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Arm_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Belt_UI.VMI_Char_Queen_Insect_S_Belt_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Belt_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Belt_Mask_UI.VMI_Char_Queen_Insect_S_Belt_Mask_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Belt_Mask_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_B_UI.VMI_Char_Queen_Insect_S_NakedBody_B_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_B_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_C_UI.VMI_Char_Queen_Insect_S_NakedBody_C_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_C_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_A_UI.VMI_Char_Queen_Insect_S_NakedBody_A_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_NakedBody_A_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_UI1.VMI_Char_Queen_Insect_S_Clothes_UI1",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_UI1.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Accessory_Mask_UI.VMI_Char_Queen_Insect_S_Accessory_Mask_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Accessory_Mask_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Arm.VMI_Char_Queen_Insect_1P_Arm",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Arm.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Hand.VMI_Char_Queen_Insect_1P_Hand",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Hand.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Hand_Skin.VMI_Char_Queen_Insect_1P_Hand_Skin",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_1P_Hand_Skin.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Tran_Weapon.VMI_Char_Queen_Insect_S_Tran_Weapon",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Tran_Weapon.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon.VMI_Char_Queen_Insect_S_Weapon",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Cloak.VMI_Char_Queen_Insect_S_Cloak",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Cloak.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon_B_3P.VMI_Char_Queen_Insect_S_Weapon_B_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Weapon_B_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A_3P.VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_B.VMI_Char_Queen_Insect_S_Snake_Plus01_B",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_B.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_Snake_Plus01_C_Back.VMI_Char_Queen_Insect_S_Snake_Plus01_C_Back",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_Snake_Plus01_C_Back.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_D.VMI_Char_Queen_Insect_S_Snake_Plus01_D",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_D.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_C.VMI_Char_Queen_Insect_S_Snake_Plus01_C",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/3P/VMI_Char_Queen_Insect_S_Snake_Plus01_C.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_Tran_UI.VMI_Char_Queen_Insect_S_Weapon_Tran_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_Tran_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_UI.VMI_Char_Queen_Insect_S_Weapon_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Cloak_UI.VMI_Char_Queen_Insect_S_Cloak_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Cloak_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_B_UI.VMI_Char_Queen_Insect_S_Weapon_B_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Weapon_B_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Arm_UI.VMI_Char_Queen_Insect_1P_Arm_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Arm_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Hand_UI.VMI_Char_Queen_Insect_1P_Hand_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Hand_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Hand_Skin_UI.VMI_Char_Queen_Insect_1P_Hand_Skin_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_1P_Hand_Skin_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A.VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/VMI_Char_Queen_Insect_S_Snake_Plus01_Diamond_A.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Snake_Plus01_B_UI.VMI_Char_Queen_Insect_S_Snake_Plus01_B_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Snake_Plus01_B_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Snake_Plus01_D_UI.VMI_Char_Queen_Insect_S_Snake_Plus01_D_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Snake_Plus01_D_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_Mask_UI.VMI_Char_Queen_Insect_S_Clothes_Mask_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_Mask_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Body_UI.VMI_Char_Queen_Insect_S_Body_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Body_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_UI_Lod.VMI_Char_Queen_Insect_S_Clothes_UI_Lod",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Clothes_UI_Lod.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Legs_UI.VMI_Char_Queen_Insect_S_Legs_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Materials/UI/VMI_Char_Queen_Insect_S_Legs_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Materials/3P/VMI_Pendant_Hand_Band_S02_JQueen_S_3P.VMI_Pendant_Hand_Band_S02_JQueen_S_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Materials/3P/VMI_Pendant_Hand_Band_S02_JQueen_S_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Materials/UI/VMI_Pendant_Hand_Band_S02_JQueen_S_UI.VMI_Pendant_Hand_Band_S02_JQueen_S_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Materials/UI/VMI_Pendant_Hand_Band_S02_JQueen_S_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Hair_3P.VMI_Char_Shirley_Hair_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Hair_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/Shirley_Suit_B/Materials/3P/VMI_Char_Shirley_Suit_B_Skin_3P.VMI_Char_Shirley_Suit_B_Skin_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/Shirley_Suit_B/Materials/3P/VMI_Char_Shirley_Suit_B_Skin_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Head_3p.VMI_Char_Shirley_Head_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Head_3p.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Eyelash_3P.VMI_Char_Shirley_Eyelash_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Eyelash_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Eye_3P.VMI_Char_Shirley_Eye_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Eye_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Head_PC_3P.VMI_Char_Shirley_Head_PC_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/CommonRes/Materials/3P/VMI_Char_Shirley_Head_PC_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Hair_FirstPass_Cut.VMI_Char_Shirley_Hair_FirstPass_Cut",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Hair_FirstPass_Cut.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/Shirley_Suit_B/Materials/UI/VMI_Char_Shirley_Suit_B_Glove_UI.VMI_Char_Shirley_Suit_B_Glove_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/Shirley_Suit_B/Materials/UI/VMI_Char_Shirley_Suit_B_Glove_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_EyeAO_UI.VMI_Char_Shirley_EyeAO_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_EyeAO_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Base/Materials/VMI_Oral_UI_FixCrash.VMI_Oral_UI_FixCrash",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Base/Materials/VMI_Oral_UI_FixCrash.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Eye_UI.VMI_Char_Shirley_Eye_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Eye_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Eyelash_UI.VMI_Char_Shirley_Eyelash_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Eyelash_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Head_UI.VMI_Char_Shirley_Head_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Head_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Hair_FirstPass_UI.VMI_Char_Shirley_Hair_FirstPass_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/CommonRes/Materials/UI/VMI_Char_Shirley_Hair_FirstPass_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/LobbyRes/Knife/Materials/VMI_Knife_A.VMI_Knife_A",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/LobbyRes/Knife/Materials/VMI_Knife_A.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/LobbyRes/Knife/Materials/VMI_Knife_UI.VMI_Knife_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/LobbyRes/Knife/Materials/VMI_Knife_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Env/Lobby/Role_Shirley/Material/VMI__Lobby_Chain_01.VMI__Lobby_Chain_01",
+      "files": [
+        "PCResources/Characters/Metadata/Env/Lobby/Role_Shirley/Material/VMI__Lobby_Chain_01.json"
+      ],
+      "error": null
+    }
+  ]
+}

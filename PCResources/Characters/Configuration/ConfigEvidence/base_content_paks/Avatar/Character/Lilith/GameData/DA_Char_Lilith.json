@@ -1,0 +1,83 @@
+{
+  "Type": "AvaCharItemData",
+  "Name": "DA_Char_Lilith",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'AvaCharItemData'",
+  "Package": "NZM/Content/Avatar/Character/Lilith/GameData/DA_Char_Lilith",
+  "Properties": {
+    "TPPConfig": {
+      "DefaultPartItems": [
+        "10050020001",
+        "10050020002",
+        "10050020003",
+        "10050020004"
+      ],
+      "CutPartItems": [
+        "10050020005"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Base/Female_Base_Mesh_Master.Female_Base_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "FPPConfig": {
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Mesh/SK_Char_Lilith_Suit_C_1P_Body_Mesh.SK_Char_Lilith_Suit_C_1P_Body_Mesh",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "UIConfig": {
+      "DefaultPartItems": [
+        "10050010002",
+        "10050010003",
+        "10050010004"
+      ],
+      "CutPartItems": [
+        "10050010005"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Lilith/CommonRes/Mesh/SK_Char_Lilith_Mesh_Master.SK_Char_Lilith_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "AvatarFeatureLinkBP": [
+        {
+          "AssetPathName": "/Game/Avatar/Character/Bella/GameData/ABP_Char_Bella_Anim_Linking.ABP_Char_Bella_Anim_Linking_C",
+          "SubPathString": ""
+        }
+      ],
+      "ExtendedAttribute": {
+        "Name_Attrs": [
+          {
+            "Key": "RoleID",
+            "Value": "10002000026"
+          }
+        ],
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null,
+        "FSoftObjectPath_Attrs": []
+      }
+    },
+    "Description": "莉莉丝",
+    "ModeConfig": {
+      "Gender": "EAvaGenderType::Female",
+      "BindTag": {
+        "TagName": "Avatar.Character.Lilith"
+      },
+      "SoundTag": {
+        "TagName": "Character.Female.Lilith"
+      },
+      "ClothType": "ENZAvatarClothType::NvCloth"
+    },
+    "AssetPathName": "/Game/Avatar/Character/Lilith/GameData/DA_Char_Lilith.DA_Char_Lilith"
+  }
+}

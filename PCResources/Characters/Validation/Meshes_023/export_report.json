@@ -1,0 +1,1023 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:00:26.2891725Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_CutScene_Snake_Mesh",
+      "name": "SK_Char_Queen_Insect_S_CutScene_Snake_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_CutScene_Snake_Mesh.SK_Char_Queen_Insect_S_CutScene_Snake_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_CutScene_Snake_Mesh.uasset",
+          "size": 4572,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1166471168
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_CutScene_Snake_Mesh.uexp",
+          "size": 4829301,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1166473529
+        }
+      },
+      "mesh": {
+        "reference_bones": 56,
+        "material_slots": 3,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 37302,
+            "triangles": 30994,
+            "sections": 3,
+            "texcoords": 2
+          },
+          {
+            "vertices": 18083,
+            "triangles": 9398,
+            "sections": 3,
+            "texcoords": 2
+          },
+          {
+            "vertices": 4003,
+            "triangles": 4271,
+            "sections": 3,
+            "texcoords": 2
+          },
+          {
+            "vertices": 3838,
+            "triangles": 4024,
+            "sections": 3,
+            "texcoords": 2
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 37302,
+            "indices": 92982,
+            "sections": 3,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Ball_Mesh",
+      "name": "SK_Char_Queen_Insect_S_UI_Ball_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Ball_Mesh.SK_Char_Queen_Insect_S_UI_Ball_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Ball_Mesh.uasset",
+          "size": 4354,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1168320512
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Ball_Mesh.uexp",
+          "size": 2612255,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1168322825
+        }
+      },
+      "mesh": {
+        "reference_bones": 21,
+        "material_slots": 2,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 15696,
+            "triangles": 17968,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 9807,
+            "triangles": 9982,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 6203,
+            "triangles": 5994,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2778,
+            "triangles": 2494,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 15696,
+            "indices": 53904,
+            "sections": 2,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Body_Mesh",
+      "name": "SK_Char_Queen_Insect_S_UI_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Body_Mesh.SK_Char_Queen_Insect_S_UI_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Body_Mesh.uasset",
+          "size": 5465,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1169258496
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Body_Mesh.uexp",
+          "size": 1846881,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1169261417
+        }
+      },
+      "mesh": {
+        "reference_bones": 67,
+        "material_slots": 3,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 13923,
+            "triangles": 22287,
+            "sections": 3,
+            "texcoords": 1
+          },
+          {
+            "vertices": 6983,
+            "triangles": 10059,
+            "sections": 3,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 13923,
+            "indices": 66861,
+            "sections": 3,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Mesh",
+      "name": "SK_Char_Queen_Insect_S_UI_Snake_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Mesh.SK_Char_Queen_Insect_S_UI_Snake_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Mesh.uasset",
+          "size": 4560,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1170040832
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Mesh.uexp",
+          "size": 4829301,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1170043193
+        }
+      },
+      "mesh": {
+        "reference_bones": 56,
+        "material_slots": 3,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 37302,
+            "triangles": 30994,
+            "sections": 3,
+            "texcoords": 2
+          },
+          {
+            "vertices": 18083,
+            "triangles": 9398,
+            "sections": 3,
+            "texcoords": 2
+          },
+          {
+            "vertices": 4003,
+            "triangles": 4271,
+            "sections": 3,
+            "texcoords": 2
+          },
+          {
+            "vertices": 3838,
+            "triangles": 4024,
+            "sections": 3,
+            "texcoords": 2
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 37302,
+            "indices": 92982,
+            "sections": 3,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Plus01_Mesh",
+      "name": "SK_Char_Queen_Insect_S_UI_Snake_Plus01_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Plus01_Mesh.SK_Char_Queen_Insect_S_UI_Snake_Plus01_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Plus01_Mesh.uasset",
+          "size": 5164,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1171890176
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Plus01_Mesh.uexp",
+          "size": 5988153,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1171892633
+        }
+      },
+      "mesh": {
+        "reference_bones": 56,
+        "material_slots": 4,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 30504,
+            "triangles": 40830,
+            "sections": 4,
+            "texcoords": 2
+          },
+          {
+            "vertices": 16078,
+            "triangles": 19970,
+            "sections": 4,
+            "texcoords": 2
+          },
+          {
+            "vertices": 12368,
+            "triangles": 14974,
+            "sections": 4,
+            "texcoords": 2
+          },
+          {
+            "vertices": 5482,
+            "triangles": 5986,
+            "sections": 4,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 30504,
+            "indices": 122490,
+            "sections": 4,
+            "maximum_nonzero_influences": 5,
+            "vertices_over_four_influences": 232
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Body_Mesh",
+      "name": "SK_Char_Queen_UI_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Body_Mesh.SK_Char_Queen_UI_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Body_Mesh.uasset",
+          "size": 12121,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1174042624
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Body_Mesh.uexp",
+          "size": 12104869,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1174047305
+        }
+      },
+      "mesh": {
+        "reference_bones": 281,
+        "material_slots": 10,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 63136,
+            "triangles": 75793,
+            "sections": 9,
+            "texcoords": 1
+          },
+          {
+            "vertices": 55387,
+            "triangles": 64886,
+            "sections": 9,
+            "texcoords": 1
+          },
+          {
+            "vertices": 8787,
+            "triangles": 11469,
+            "sections": 9,
+            "texcoords": 1
+          },
+          {
+            "vertices": 9558,
+            "triangles": 9743,
+            "sections": 9,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 63136,
+            "indices": 227379,
+            "sections": 9,
+            "maximum_nonzero_influences": 7,
+            "vertices_over_four_influences": 1216
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Mask_Mesh",
+      "name": "SK_Char_Queen_UI_Mask_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Mask_Mesh.SK_Char_Queen_UI_Mask_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Mask_Mesh.uasset",
+          "size": 3772,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1178572800
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Mask_Mesh.uexp",
+          "size": 585387,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1178575049
+        }
+      },
+      "mesh": {
+        "reference_bones": 9,
+        "material_slots": 1,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 4620,
+            "triangles": 6126,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1468,
+            "triangles": 1454,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 730,
+            "triangles": 610,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 574,
+            "triangles": 444,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 4620,
+            "indices": 18378,
+            "sections": 1,
+            "maximum_nonzero_influences": 2,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Shoes_Mesh",
+      "name": "SK_Char_Queen_UI_Shoes_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Shoes_Mesh.SK_Char_Queen_UI_Shoes_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Shoes_Mesh.uasset",
+          "size": 10400,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1178800128
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Shoes_Mesh.uexp",
+          "size": 1014513,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1178804505
+        }
+      },
+      "mesh": {
+        "reference_bones": 281,
+        "material_slots": 2,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 4524,
+            "triangles": 5582,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 4524,
+            "triangles": 5582,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1374,
+            "triangles": 1436,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1129,
+            "triangles": 1119,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 4524,
+            "indices": 16746,
+            "sections": 2,
+            "maximum_nonzero_influences": 5,
+            "vertices_over_four_influences": 10
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_1P_Mesh",
+      "name": "SK_Pendant_Hand_Band_S02_JQueen_S_1P_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_1P_Mesh.SK_Pendant_Hand_Band_S02_JQueen_S_1P_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_1P_Mesh.uasset",
+          "size": 4387,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk37-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 3987456
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_1P_Mesh.uexp",
+          "size": 439975,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk37-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 3989721
+        }
+      },
+      "mesh": {
+        "reference_bones": 29,
+        "material_slots": 1,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 4000,
+            "triangles": 4996,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1544,
+            "triangles": 1500,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 4000,
+            "indices": 14988,
+            "sections": 1,
+            "maximum_nonzero_influences": 3,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_3P_Mesh",
+      "name": "SK_Pendant_Hand_Band_S02_JQueen_S_3P_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_3P_Mesh.SK_Pendant_Hand_Band_S02_JQueen_S_3P_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_3P_Mesh.uasset",
+          "size": 4387,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk37-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4173824
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_3P_Mesh.uexp",
+          "size": 761575,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk37-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4176089
+        }
+      },
+      "mesh": {
+        "reference_bones": 29,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 4000,
+            "triangles": 4996,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2603,
+            "triangles": 2996,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1544,
+            "triangles": 1500,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 840,
+            "triangles": 748,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 491,
+            "triangles": 374,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 177,
+            "triangles": 94,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 153,
+            "triangles": 70,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 4000,
+            "indices": 14988,
+            "sections": 1,
+            "maximum_nonzero_influences": 3,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_UI_Mesh",
+      "name": "SK_Pendant_Hand_Band_S02_JQueen_S_UI_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_UI_Mesh.SK_Pendant_Hand_Band_S02_JQueen_S_UI_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_UI_Mesh.uasset",
+          "size": 4387,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1179213824
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_UI_Mesh.uexp",
+          "size": 1106287,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1179216089
+        }
+      },
+      "mesh": {
+        "reference_bones": 29,
+        "material_slots": 1,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 5504,
+            "triangles": 7472,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 4000,
+            "triangles": 4996,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2603,
+            "triangles": 2996,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1544,
+            "triangles": 1500,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 5504,
+            "indices": 22416,
+            "sections": 1,
+            "maximum_nonzero_influences": 3,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Shirley/CommonRes/Mesh/SK_Char_Shirley_3P_Hair_Mesh",
+      "name": "SK_Char_Shirley_3P_Hair_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Mesh/SK_Char_Shirley_3P_Hair_Mesh.SK_Char_Shirley_3P_Hair_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Mesh/SK_Char_Shirley_3P_Hair_Mesh.uasset",
+          "size": 5466,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1247119360
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Mesh/SK_Char_Shirley_3P_Hair_Mesh.uexp",
+          "size": 3486794,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1247122361
+        }
+      },
+      "mesh": {
+        "reference_bones": 83,
+        "material_slots": 2,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 21647,
+            "triangles": 21018,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 8779,
+            "triangles": 8085,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 7352,
+            "triangles": 6557,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 4505,
+            "triangles": 4082,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 389,
+            "triangles": 366,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 220,
+            "triangles": 187,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 120,
+            "triangles": 86,
+            "sections": 2,
+            "texcoords": 3
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 21647,
+            "indices": 63054,
+            "sections": 2,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_CutScene_Snake_Mesh.SK_Char_Queen_Insect_S_CutScene_Snake_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_CutScene_Snake_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Ball_Mesh.SK_Char_Queen_Insect_S_UI_Ball_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Ball_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Body_Mesh.SK_Char_Queen_Insect_S_UI_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Mesh.SK_Char_Queen_Insect_S_UI_Snake_Mesh",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Plus01_Mesh.SK_Char_Queen_Insect_S_UI_Snake_Plus01_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Plus01_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Body_Mesh.SK_Char_Queen_UI_Body_Mesh",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Mask_Mesh.SK_Char_Queen_UI_Mask_Mesh",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Mask_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Shoes_Mesh.SK_Char_Queen_UI_Shoes_Mesh",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Shoes_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_1P_Mesh.SK_Pendant_Hand_Band_S02_JQueen_S_1P_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_1P_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_3P_Mesh.SK_Pendant_Hand_Band_S02_JQueen_S_3P_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_3P_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_UI_Mesh.SK_Pendant_Hand_Band_S02_JQueen_S_UI_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_UI_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Mesh/SK_Char_Shirley_3P_Hair_Mesh.SK_Char_Shirley_3P_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Shirley/CommonRes/Mesh/SK_Char_Shirley_3P_Hair_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_CutScene_Snake_Mesh.SK_Char_Queen_Insect_S_CutScene_Snake_Mesh",
+      "files": [
+        "PCResources/Meshes/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Ball_Mesh.SK_Char_Queen_Insect_S_UI_Ball_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Ball_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Body_Mesh.SK_Char_Queen_Insect_S_UI_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Body_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Mesh.SK_Char_Queen_Insect_S_UI_Snake_Mesh",
+      "files": [
+        "PCResources/Meshes/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Plus01_Mesh.SK_Char_Queen_Insect_S_UI_Snake_Plus01_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Snake_Plus01_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Body_Mesh.SK_Char_Queen_UI_Body_Mesh",
+      "files": [
+        "PCResources/Meshes/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Body_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Mask_Mesh.SK_Char_Queen_UI_Mask_Mesh",
+      "files": [
+        "PCResources/Meshes/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Mask_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Shoes_Mesh.SK_Char_Queen_UI_Shoes_Mesh",
+      "files": [
+        "PCResources/Meshes/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_UI_Shoes_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_1P_Mesh.SK_Pendant_Hand_Band_S02_JQueen_S_1P_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_1P_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_3P_Mesh.SK_Pendant_Hand_Band_S02_JQueen_S_3P_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_1P_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_UI_Mesh.SK_Pendant_Hand_Band_S02_JQueen_S_UI_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Mesh/SK_Pendant_Hand_Band_S02_JQueen_S_UI_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Shirley/CommonRes/Mesh/SK_Char_Shirley_3P_Hair_Mesh.SK_Char_Shirley_3P_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Shirley/CommonRes/Mesh/SK_Char_Shirley_3P_Hair_Mesh.psk"
+      ],
+      "error": null
+    }
+  ]
+}

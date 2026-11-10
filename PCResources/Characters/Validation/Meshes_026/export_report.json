@@ -1,0 +1,1395 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:00:32.5587791Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_CutScene_Head_Mesh",
+      "name": "SK_Char_Tina_CutScene_Head_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_CutScene_Head_Mesh.SK_Char_Tina_CutScene_Head_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_CutScene_Head_Mesh.uasset",
+          "size": 6867,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1317947392
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_CutScene_Head_Mesh.uexp",
+          "size": 2453242,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1317950601
+        }
+      },
+      "mesh": {
+        "reference_bones": 94,
+        "material_slots": 7,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 8096,
+            "triangles": 14147,
+            "sections": 7,
+            "texcoords": 1
+          },
+          {
+            "vertices": 8096,
+            "triangles": 14147,
+            "sections": 7,
+            "texcoords": 1
+          },
+          {
+            "vertices": 4959,
+            "triangles": 8379,
+            "sections": 7,
+            "texcoords": 1
+          },
+          {
+            "vertices": 3126,
+            "triangles": 5210,
+            "sections": 7,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 8096,
+            "indices": 42441,
+            "sections": 7,
+            "maximum_nonzero_influences": 8,
+            "vertices_over_four_influences": 2465
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_Mesh_Master",
+      "name": "SK_Char_Tina_Mesh_Master",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_Mesh_Master.SK_Char_Tina_Mesh_Master",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_Mesh_Master.uasset",
+          "size": 7833,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318946816
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_Mesh_Master.uexp",
+          "size": 16052,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318950441
+        }
+      },
+      "mesh": {
+        "reference_bones": 186,
+        "material_slots": 1,
+        "source_lod_count": 1,
+        "source_lods": [
+          {
+            "vertices": 24,
+            "triangles": 12,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 24,
+            "indices": 36,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh",
+      "name": "ClothConfigNv",
+      "class": "ClothConfigNv",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh:SK_Char_Tina_UI_Hair_ProxyMesh_Lod0_Clothing_1.ClothConfigNv",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uasset",
+          "size": 6671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318957056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uexp",
+          "size": 23436937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318960089
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh",
+      "name": "ClothConfigNv",
+      "class": "ClothConfigNv",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh:SK_Char_Tina_UI_Hair_ProxyMesh_Lod1_Clothing_0.ClothConfigNv",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uasset",
+          "size": 6671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318957056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uexp",
+          "size": 23436937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318960089
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh",
+      "name": "ClothConfigNv",
+      "class": "ClothConfigNv",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh:SK_Char_Tina_UI_Hair_ProxyMesh_Lod2_Clothing_0.ClothConfigNv",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uasset",
+          "size": 6671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318957056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uexp",
+          "size": 23436937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318960089
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh",
+      "name": "SK_Char_Tina_UI_Hair_ProxyMesh_Lod0_Clothing_1",
+      "class": "ClothingAssetNv",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh:SK_Char_Tina_UI_Hair_ProxyMesh_Lod0_Clothing_1",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uasset",
+          "size": 6671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318957056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uexp",
+          "size": 23436937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318960089
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh",
+      "name": "SK_Char_Tina_UI_Hair_ProxyMesh_Lod1_Clothing_0",
+      "class": "ClothingAssetNv",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh:SK_Char_Tina_UI_Hair_ProxyMesh_Lod1_Clothing_0",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uasset",
+          "size": 6671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318957056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uexp",
+          "size": 23436937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318960089
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh",
+      "name": "SK_Char_Tina_UI_Hair_ProxyMesh_Lod2_Clothing_0",
+      "class": "ClothingAssetNv",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh:SK_Char_Tina_UI_Hair_ProxyMesh_Lod2_Clothing_0",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uasset",
+          "size": 6671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318957056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uexp",
+          "size": 23436937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318960089
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh",
+      "name": "ClothLODDataNv_0",
+      "class": "ClothLODDataNv",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh:SK_Char_Tina_UI_Hair_ProxyMesh_Lod0_Clothing_1.ClothLODDataNv_0",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uasset",
+          "size": 6671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318957056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uexp",
+          "size": 23436937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318960089
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh",
+      "name": "ClothLODDataNv_0",
+      "class": "ClothLODDataNv",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh:SK_Char_Tina_UI_Hair_ProxyMesh_Lod1_Clothing_0.ClothLODDataNv_0",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uasset",
+          "size": 6671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318957056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uexp",
+          "size": 23436937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318960089
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh",
+      "name": "ClothLODDataNv_0",
+      "class": "ClothLODDataNv",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh:SK_Char_Tina_UI_Hair_ProxyMesh_Lod2_Clothing_0.ClothLODDataNv_0",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uasset",
+          "size": 6671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318957056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uexp",
+          "size": 23436937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318960089
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh",
+      "name": "ClothPhysicalMeshDataNv",
+      "class": "ClothPhysicalMeshDataNv",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh:SK_Char_Tina_UI_Hair_ProxyMesh_Lod0_Clothing_1.ClothLODDataNv_0.ClothPhysicalMeshDataNv",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uasset",
+          "size": 6671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318957056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uexp",
+          "size": 23436937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318960089
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh",
+      "name": "ClothPhysicalMeshDataNv",
+      "class": "ClothPhysicalMeshDataNv",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh:SK_Char_Tina_UI_Hair_ProxyMesh_Lod1_Clothing_0.ClothLODDataNv_0.ClothPhysicalMeshDataNv",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uasset",
+          "size": 6671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318957056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uexp",
+          "size": 23436937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318960089
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh",
+      "name": "ClothPhysicalMeshDataNv",
+      "class": "ClothPhysicalMeshDataNv",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh:SK_Char_Tina_UI_Hair_ProxyMesh_Lod2_Clothing_0.ClothLODDataNv_0.ClothPhysicalMeshDataNv",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uasset",
+          "size": 6671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318957056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uexp",
+          "size": 23436937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318960089
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh",
+      "name": "SK_Char_Tina_UI_Hair_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uasset",
+          "size": 6671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318957056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.uexp",
+          "size": 23436937,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1318960089
+        }
+      },
+      "mesh": {
+        "reference_bones": 8,
+        "material_slots": 1,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 15154,
+            "triangles": 14422,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 15154,
+            "triangles": 14422,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 10845,
+            "triangles": 10060,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 7657,
+            "triangles": 7001,
+            "sections": 1,
+            "texcoords": 3
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 15154,
+            "indices": 43266,
+            "sections": 1,
+            "maximum_nonzero_influences": 3,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Head_Mesh",
+      "name": "SK_Char_Tina_UI_Head_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Head_Mesh.SK_Char_Tina_UI_Head_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Head_Mesh.uasset",
+          "size": 7037,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1322334208
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Head_Mesh.uexp",
+          "size": 2453242,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1322337433
+        }
+      },
+      "mesh": {
+        "reference_bones": 94,
+        "material_slots": 7,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 8096,
+            "triangles": 14147,
+            "sections": 7,
+            "texcoords": 1
+          },
+          {
+            "vertices": 8096,
+            "triangles": 14147,
+            "sections": 7,
+            "texcoords": 1
+          },
+          {
+            "vertices": 4959,
+            "triangles": 8379,
+            "sections": 7,
+            "texcoords": 1
+          },
+          {
+            "vertices": 3126,
+            "triangles": 5210,
+            "sections": 7,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 8096,
+            "indices": 42441,
+            "sections": 7,
+            "maximum_nonzero_influences": 8,
+            "vertices_over_four_influences": 2465
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_PropHead_Mesh",
+      "name": "SK_Char_Tina_UI_PropHead_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_PropHead_Mesh.SK_Char_Tina_UI_PropHead_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_PropHead_Mesh.uasset",
+          "size": 3571,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1323333632
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_PropHead_Mesh.uexp",
+          "size": 148602,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1323335833
+        }
+      },
+      "mesh": {
+        "reference_bones": 12,
+        "material_slots": 1,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 512,
+            "triangles": 894,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 512,
+            "triangles": 894,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 306,
+            "triangles": 514,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 199,
+            "triangles": 306,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 512,
+            "indices": 2682,
+            "sections": 1,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/LobbyRes/Rope/Mesh/SK_Rope_Mesh",
+      "name": "SK_Rope_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Tina/LobbyRes/Rope/Mesh/SK_Rope_Mesh.SK_Rope_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/LobbyRes/Rope/Mesh/SK_Rope_Mesh.uasset",
+          "size": 3358,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 635293696
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/LobbyRes/Rope/Mesh/SK_Rope_Mesh.uexp",
+          "size": 794254,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 635295817
+        }
+      },
+      "mesh": {
+        "reference_bones": 27,
+        "material_slots": 2,
+        "source_lod_count": 1,
+        "source_lods": [
+          {
+            "vertices": 8277,
+            "triangles": 15232,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 8277,
+            "indices": 45696,
+            "sections": 2,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Body_Mesh",
+      "name": "SK_Char_Tina_Drone_B_1P_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Body_Mesh.SK_Char_Tina_Drone_B_1P_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Body_Mesh.uasset",
+          "size": 5419,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1333921792
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Body_Mesh.uexp",
+          "size": 1706714,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1333924665
+        }
+      },
+      "mesh": {
+        "reference_bones": 67,
+        "material_slots": 4,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 12842,
+            "triangles": 19058,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 6932,
+            "triangles": 9626,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 12842,
+            "indices": 57174,
+            "sections": 2,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Lower_Mesh",
+      "name": "SK_Char_Tina_Drone_B_1P_Lower_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Lower_Mesh.SK_Char_Tina_Drone_B_1P_Lower_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Lower_Mesh.uasset",
+          "size": 4766,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1334622208
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Lower_Mesh.uexp",
+          "size": 4663474,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1334624777
+        }
+      },
+      "mesh": {
+        "reference_bones": 29,
+        "material_slots": 5,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 53254,
+            "triangles": 24639,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 13286,
+            "triangles": 17375,
+            "sections": 5,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 53254,
+            "indices": 73917,
+            "sections": 5,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_3P_Body_Mesh",
+      "name": "SK_Char_Tina_Drone_B_3P_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_3P_Body_Mesh.SK_Char_Tina_Drone_B_3P_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_3P_Body_Mesh.uasset",
+          "size": 5973,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1336528896
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_3P_Body_Mesh.uexp",
+          "size": 5929057,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1336531945
+        }
+      },
+      "mesh": {
+        "reference_bones": 82,
+        "material_slots": 5,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 27716,
+            "triangles": 37138,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 17374,
+            "triangles": 21524,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 14977,
+            "triangles": 17782,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 7176,
+            "triangles": 8262,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 3983,
+            "triangles": 4394,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1572,
+            "triangles": 1694,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 757,
+            "triangles": 704,
+            "sections": 5,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 27716,
+            "indices": 111414,
+            "sections": 5,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_CutScene_Body_Mesh",
+      "name": "SK_Char_Tina_Drone_B_CutScene_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_CutScene_Body_Mesh.SK_Char_Tina_Drone_B_CutScene_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_CutScene_Body_Mesh.uasset",
+          "size": 6364,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1338935296
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_CutScene_Body_Mesh.uexp",
+          "size": 13375934,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1338938473
+        }
+      },
+      "mesh": {
+        "reference_bones": 90,
+        "material_slots": 5,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 104773,
+            "triangles": 48141,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 27716,
+            "triangles": 37138,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 17374,
+            "triangles": 21524,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 14977,
+            "triangles": 17782,
+            "sections": 5,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 104773,
+            "indices": 144423,
+            "sections": 5,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_UI_Body_Mesh",
+      "name": "SK_Char_Tina_Drone_B_UI_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_UI_Body_Mesh.SK_Char_Tina_Drone_B_UI_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_UI_Body_Mesh.uasset",
+          "size": 6352,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1343741952
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_UI_Body_Mesh.uexp",
+          "size": 13375934,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1343745129
+        }
+      },
+      "mesh": {
+        "reference_bones": 90,
+        "material_slots": 5,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 104773,
+            "triangles": 48141,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 27716,
+            "triangles": 37138,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 17374,
+            "triangles": 21524,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 14977,
+            "triangles": 17782,
+            "sections": 5,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 104773,
+            "indices": 144423,
+            "sections": 5,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Widow/CommonRes/Mesh/SK_Char_Widow_3P_Hair_Mesh",
+      "name": "SK_Char_Widow_3P_Hair_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Widow/CommonRes/Mesh/SK_Char_Widow_3P_Hair_Mesh.SK_Char_Widow_3P_Hair_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/CommonRes/Mesh/SK_Char_Widow_3P_Hair_Mesh.uasset",
+          "size": 3541,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1349029888
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Widow/CommonRes/Mesh/SK_Char_Widow_3P_Hair_Mesh.uexp",
+          "size": 3013514,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1349032073
+        }
+      },
+      "mesh": {
+        "reference_bones": 8,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 12191,
+            "triangles": 11589,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 11255,
+            "triangles": 10711,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 7251,
+            "triangles": 6886,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 3867,
+            "triangles": 3635,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 1886,
+            "triangles": 1768,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 682,
+            "triangles": 624,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 131,
+            "triangles": 115,
+            "sections": 1,
+            "texcoords": 3
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 12191,
+            "indices": 34767,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_CutScene_Head_Mesh.SK_Char_Tina_CutScene_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_CutScene_Head_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_Mesh_Master.SK_Char_Tina_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_Mesh_Master.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod0_Clothing_1.ClothConfigNv",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod0_Clothing_1/ClothConfigNv.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod1_Clothing_0.ClothConfigNv",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod1_Clothing_0/ClothConfigNv.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod2_Clothing_0.ClothConfigNv",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod2_Clothing_0/ClothConfigNv.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_ProxyMesh_Lod0_Clothing_1",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod0_Clothing_1.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_ProxyMesh_Lod1_Clothing_0",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod1_Clothing_0.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_ProxyMesh_Lod2_Clothing_0",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod2_Clothing_0.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod0_Clothing_1.ClothLODDataNv_0",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod0_Clothing_1/ClothLODDataNv_0.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod1_Clothing_0.ClothLODDataNv_0",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod1_Clothing_0/ClothLODDataNv_0.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod2_Clothing_0.ClothLODDataNv_0",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod2_Clothing_0/ClothLODDataNv_0.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod0_Clothing_1/ClothLODDataNv_0.ClothPhysicalMeshDataNv",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod0_Clothing_1/ClothLODDataNv_0/ClothPhysicalMeshDataNv.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod1_Clothing_0/ClothLODDataNv_0.ClothPhysicalMeshDataNv",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod1_Clothing_0/ClothLODDataNv_0/ClothPhysicalMeshDataNv.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod2_Clothing_0/ClothLODDataNv_0.ClothPhysicalMeshDataNv",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh/SK_Char_Tina_UI_Hair_ProxyMesh_Lod2_Clothing_0/ClothLODDataNv_0/ClothPhysicalMeshDataNv.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Head_Mesh.SK_Char_Tina_UI_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Head_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_PropHead_Mesh.SK_Char_Tina_UI_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_PropHead_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/LobbyRes/Rope/Mesh/SK_Rope_Mesh.SK_Rope_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/LobbyRes/Rope/Mesh/SK_Rope_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Body_Mesh.SK_Char_Tina_Drone_B_1P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Lower_Mesh.SK_Char_Tina_Drone_B_1P_Lower_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Lower_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_3P_Body_Mesh.SK_Char_Tina_Drone_B_3P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_3P_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_CutScene_Body_Mesh.SK_Char_Tina_Drone_B_CutScene_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_CutScene_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_UI_Body_Mesh.SK_Char_Tina_Drone_B_UI_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_UI_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/CommonRes/Mesh/SK_Char_Widow_3P_Hair_Mesh.SK_Char_Widow_3P_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Widow/CommonRes/Mesh/SK_Char_Widow_3P_Hair_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_CutScene_Head_Mesh.SK_Char_Tina_CutScene_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_CutScene_Head_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_Mesh_Master.SK_Char_Tina_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_Mesh_Master.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.SK_Char_Tina_UI_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Hair_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Head_Mesh.SK_Char_Tina_UI_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_Head_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_PropHead_Mesh.SK_Char_Tina_UI_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Tina/CommonRes/Mesh/SK_Char_Tina_UI_PropHead_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/LobbyRes/Rope/Mesh/SK_Rope_Mesh.SK_Rope_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Tina/LobbyRes/Rope/Mesh/SK_Rope_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Body_Mesh.SK_Char_Tina_Drone_B_1P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Body_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Lower_Mesh.SK_Char_Tina_Drone_B_1P_Lower_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_1P_Lower_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_3P_Body_Mesh.SK_Char_Tina_Drone_B_3P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_3P_Body_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_CutScene_Body_Mesh.SK_Char_Tina_Drone_B_CutScene_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_CutScene_Body_Mesh.pskx"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_UI_Body_Mesh.SK_Char_Tina_Drone_B_UI_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Tina/Tina_Drone_B/Mesh/SK_Char_Tina_Drone_B_CutScene_Body_Mesh.pskx"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Widow/CommonRes/Mesh/SK_Char_Widow_3P_Hair_Mesh.SK_Char_Widow_3P_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Widow/CommonRes/Mesh/SK_Char_Widow_3P_Hair_Mesh.psk"
+      ],
+      "error": null
+    }
+  ]
+}

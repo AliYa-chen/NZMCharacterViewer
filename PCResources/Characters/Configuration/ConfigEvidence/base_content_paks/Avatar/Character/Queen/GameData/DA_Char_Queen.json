@@ -1,0 +1,110 @@
+{
+  "Type": "AvaCharItemData",
+  "Name": "DA_Char_Queen",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'AvaCharItemData'",
+  "Package": "NZM/Content/Avatar/Character/Queen/GameData/DA_Char_Queen",
+  "Properties": {
+    "TPPConfig": {
+      "DefaultPartItems": [
+        "14401010201",
+        "14401040201",
+        "14401050201",
+        "14401060201",
+        "14401010002",
+        "14401080201"
+      ],
+      "CutPartItems": [
+        "14401050202"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_Mesh_Master.SK_Char_Queen_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "AvatarFeatureLinkBP": [
+        {
+          "AssetPathName": "/Game/Avatar/Character/Queen/GameData/ABP_Char_Queen_Anim_Linking.ABP_Char_Queen_Anim_Linking_C",
+          "SubPathString": ""
+        }
+      ],
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null,
+        "FSoftObjectPath_Attrs": null
+      }
+    },
+    "FPPConfig": {
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_1P_Body_Mesh.SK_Char_Queen_Insect_S_1P_Body_Mesh",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null,
+        "FSoftObjectPath_Attrs": null
+      }
+    },
+    "UIConfig": {
+      "DefaultPartItems": [
+        "14401010001",
+        "14401040001",
+        "14401050001",
+        "14401060001",
+        "14401090001",
+        "14401080001"
+      ],
+      "CutPartItems": [
+        "14401050002"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Queen/CommonRes/Mesh/SK_Char_Queen_Mesh_Master.SK_Char_Queen_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "AvatarFeatureLinkBP": [
+        {
+          "AssetPathName": "/Game/Avatar/Character/Queen/LobbyRes/ani/ABP_Char_Queen_RoleExtra_Linking.ABP_Char_Queen_RoleExtra_Linking_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Avatar/Character/Queen/GameData/ABP_Char_Queen_UI_Anim_Linking.ABP_Char_Queen_UI_Anim_Linking_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Avatar/Character/Queen/LobbyRes/ani/ABP_UIAnimBP_Queen.ABP_UIAnimBP_Queen_C",
+          "SubPathString": ""
+        }
+      ],
+      "ExtendedAttribute": {
+        "Name_Attrs": [
+          {
+            "Key": "RoleID",
+            "Value": "10002000044"
+          }
+        ],
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null,
+        "FSoftObjectPath_Attrs": null
+      }
+    },
+    "FPPUIConfig": {
+      "DefaultPartItems": [
+        "14401100101"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Queen/Queen_Insect_S/Mesh/SK_Char_Queen_Insect_S_UI_Body_Mesh.SK_Char_Queen_Insect_S_UI_Body_Mesh",
+        "SubPathString": ""
+      }
+    },
+    "ModeConfig": {
+      "Gender": "EAvaGenderType::Female",
+      "BindTag": {
+        "TagName": "Avatar.Character.Queen"
+      },
+      "IsOverrideTemplate_ClothType": true,
+      "ClothType": "ENZAvatarClothType::Max"
+    },
+    "AssetPathName": "/Game/Avatar/Character/Queen/GameData/DA_Char_Queen.DA_Char_Queen"
+  }
+}

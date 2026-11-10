@@ -1,0 +1,95 @@
+{
+  "Type": "AvaCharItemData",
+  "Name": "DA_Char_NaimeiBianca",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'AvaCharItemData'",
+  "Package": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/GameData/DA_Char_NaimeiBianca",
+  "Properties": {
+    "TPPConfig": {
+      "DefaultPartItems": [
+        "10055020001",
+        "10055020002",
+        "10055020003",
+        "10055020004",
+        "10055020007"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Base/Female_Base_Mesh_Master.Female_Base_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "AvatarFeatureLinkBP": [
+        {
+          "AssetPathName": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/GameData/ABP_Char_Naimei_Bianca_A_Anim_Linking.ABP_Char_Naimei_Bianca_A_Anim_Linking_C",
+          "SubPathString": ""
+        }
+      ],
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "FPPConfig": {
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_1P_Body_Mesh.SK_Char_Naimei_Bianca_A_1P_Body_Mesh",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null,
+        "FSoftObjectPath_Attrs": null
+      }
+    },
+    "UIConfig": {
+      "DefaultPartItems": [
+        "10055010002",
+        "10055010003",
+        "10055010004",
+        "10055010007"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_Mesh_Master.SK_Char_Naimei_Bianca_A_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "AvatarFeatureLinkBP": [
+        {
+          "AssetPathName": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/GameData/ABP_Char_Naimei_Bianca_A_UI_Anim_Linking.ABP_Char_Naimei_Bianca_A_UI_Anim_Linking_C",
+          "SubPathString": ""
+        }
+      ],
+      "ExtendedAttribute": {
+        "Name_Attrs": [
+          {
+            "Key": "RoleID",
+            "Value": "10002000055"
+          }
+        ],
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "FPPUIConfig": {
+      "DefaultPartItems": [
+        "10055010006"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_1P_Body_Mesh.SK_Char_Naimei_Bianca_A_1P_Body_Mesh",
+        "SubPathString": ""
+      }
+    },
+    "Description": "比安卡",
+    "ModeConfig": {
+      "Gender": "EAvaGenderType::Female",
+      "BindTag": {
+        "TagName": "Avatar.Character.NaimeiBianca"
+      },
+      "SoundTag": {
+        "TagName": "Character.Female.NaimeiBianca"
+      },
+      "IsOverrideTemplate_UseCustomRagdoll": true,
+      "UseCustomRagdoll": true
+    },
+    "AssetPathName": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/GameData/DA_Char_NaimeiBianca.DA_Char_NaimeiBianca"
+  }
+}

@@ -1,0 +1,775 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:03:44.1508630Z",
+  "scope": "Offline data checks: ActorX points and every nonzero weight/index exactly compared against decoded source DTO; PNG decoded and dimensions checked against highest available source mip. No UE import, rig animation, material appearance or device validation.",
+  "results": [
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_BaseColorMap_e98b28dc3eae1aa1e650ec2772bd74f6.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Naimei/Naimei_Suit_C/Textures/Head/T_VMGen_BaseColorMap_222ed74f45f825ecd6081430c5c6b08a.T_VMGen_BaseColorMap_222ed74f45f825ecd6081430c5c6b08a",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Naimei/Naimei_Suit_C/Textures/Head/T_VMGen_BaseColorMap_92df2b70bb25f63ff7b64fa7803cefed.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Naimei/Naimei_Suit_C/Textures/Head/T_VMGen_BaseColorMap_92df2b70bb25f63ff7b64fa7803cefed.T_VMGen_BaseColorMap_92df2b70bb25f63ff7b64fa7803cefed",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Naimei/Naimei_Suit_C/Textures/T_VMGen_Alpha_ID_Roughness_Root_0a47c662491b3a3add9b3dd2bc78397f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Naimei/Naimei_Suit_C/Textures/T_VMGen_Alpha_ID_Roughness_Root_0a47c662491b3a3add9b3dd2bc78397f.T_VMGen_Alpha_ID_Roughness_Root_0a47c662491b3a3add9b3dd2bc78397f",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Naimei/Naimei_Suit_C/Textures/T_VMGen_Alpha_ID_Roughness_Root_fa2196c91de10e6dfd8966d56281a6c0.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Naimei/Naimei_Suit_C/Textures/T_VMGen_Alpha_ID_Roughness_Root_fa2196c91de10e6dfd8966d56281a6c0.T_VMGen_Alpha_ID_Roughness_Root_fa2196c91de10e6dfd8966d56281a6c0",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Naimei/Naimei_Suit_C/Textures/T_VMGen_BaseColorMap_c87b49cfb9197b6c4e9724f4547ba62e.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Naimei/Naimei_Suit_C/Textures/T_VMGen_BaseColorMap_c87b49cfb9197b6c4e9724f4547ba62e.T_VMGen_BaseColorMap_c87b49cfb9197b6c4e9724f4547ba62e",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Naimei/Naimei_Suit_C/Textures/T_VMGen_BaseColorMap_ff34e5d8799a71a720977414e7a9d1a2.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Naimei/Naimei_Suit_C/Textures/T_VMGen_BaseColorMap_ff34e5d8799a71a720977414e7a9d1a2.T_VMGen_BaseColorMap_ff34e5d8799a71a720977414e7a9d1a2",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_Alpha_ID_Roughness_Root_9623df640d1ba6ac9cc09f02cd6e2476.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_Alpha_ID_Roughness_Root_9623df640d1ba6ac9cc09f02cd6e2476.T_VMGen_Alpha_ID_Roughness_Root_9623df640d1ba6ac9cc09f02cd6e2476",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_Alpha_ID_Roughness_Root_d8f4f7988983da59e720842fa3f6c4e6.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_Alpha_ID_Roughness_Root_d8f4f7988983da59e720842fa3f6c4e6.T_VMGen_Alpha_ID_Roughness_Root_d8f4f7988983da59e720842fa3f6c4e6",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_BaseColorMap_4243d88c008dec28b5c7176295fc0b28.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_BaseColorMap_4243d88c008dec28b5c7176295fc0b28.T_VMGen_BaseColorMap_4243d88c008dec28b5c7176295fc0b28",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_BaseColorMap_75278becf9fc86a0f065a83be64c9a5a.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_BaseColorMap_75278becf9fc86a0f065a83be64c9a5a.T_VMGen_BaseColorMap_75278becf9fc86a0f065a83be64c9a5a",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_BaseColorMap_7989b9fd312b3283980928eaa33b350a.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_BaseColorMap_7989b9fd312b3283980928eaa33b350a.T_VMGen_BaseColorMap_7989b9fd312b3283980928eaa33b350a",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_BaseColorMap_8e7bf50e43954924fa74d677573a34bb.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_BaseColorMap_8e7bf50e43954924fa74d677573a34bb.T_VMGen_BaseColorMap_8e7bf50e43954924fa74d677573a34bb",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_BaseColorMap_d949d0eb8f55be60311ecde36b24c913.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_BaseColorMap_d949d0eb8f55be60311ecde36b24c913.T_VMGen_BaseColorMap_d949d0eb8f55be60311ecde36b24c913",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_IrisMap_19c386fdbb21783d92adaeee9a81d998.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Queen/CommonRes/Textures/T_VMGen_IrisMap_19c386fdbb21783d92adaeee9a81d998.T_VMGen_IrisMap_19c386fdbb21783d92adaeee9a81d998",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Shirley/CommonRes/Textures/T_VMGen_BaseColorMap_01d52f5cc243965d197107ed76412e4e.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Shirley/CommonRes/Textures/T_VMGen_BaseColorMap_01d52f5cc243965d197107ed76412e4e.T_VMGen_BaseColorMap_01d52f5cc243965d197107ed76412e4e",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Shirley/CommonRes/Textures/T_VMGen_BaseColorMap_a2bc4c2afc68f19a8fe1d08cb936fbce.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Shirley/CommonRes/Textures/T_VMGen_BaseColorMap_a2bc4c2afc68f19a8fe1d08cb936fbce.T_VMGen_BaseColorMap_a2bc4c2afc68f19a8fe1d08cb936fbce",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Shirley/CommonRes/Textures/T_VMGen_BaseColorMap_ae85c9d68c8f84f2357a059c6d476f84.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Shirley/CommonRes/Textures/T_VMGen_BaseColorMap_ae85c9d68c8f84f2357a059c6d476f84.T_VMGen_BaseColorMap_ae85c9d68c8f84f2357a059c6d476f84",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Shirley/CommonRes/Textures/T_VMGen_BaseColorMap_ef3d92ebc29f1afab8d27a7f3148aa16.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Shirley/CommonRes/Textures/T_VMGen_BaseColorMap_ef3d92ebc29f1afab8d27a7f3148aa16.T_VMGen_BaseColorMap_ef3d92ebc29f1afab8d27a7f3148aa16",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Shirley/CommonRes/Textures/T_VMGen_IrisMap_27a76c8d672f2b0ecc1e9fba46203e37.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Shirley/CommonRes/Textures/T_VMGen_IrisMap_27a76c8d672f2b0ecc1e9fba46203e37.T_VMGen_IrisMap_27a76c8d672f2b0ecc1e9fba46203e37",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/T_VMGen_Alpha_ID_Roughness_Root_91ce282b4ee49d70dd5eebea7c2bce7c.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/T_VMGen_Alpha_ID_Roughness_Root_91ce282b4ee49d70dd5eebea7c2bce7c.T_VMGen_Alpha_ID_Roughness_Root_91ce282b4ee49d70dd5eebea7c2bce7c",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/CommonRes/Textures/T_VMGen_Alpha_ID_Roughness_Root_24b6e5935e45545de0d8a2dadfa10644.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/CommonRes/Textures/T_VMGen_Alpha_ID_Roughness_Root_24b6e5935e45545de0d8a2dadfa10644.T_VMGen_Alpha_ID_Roughness_Root_24b6e5935e45545de0d8a2dadfa10644",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/CommonRes/Textures/T_VMGen_Alpha_ID_Roughness_Root_737dc86a29319938c1c960009467d431.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/CommonRes/Textures/T_VMGen_Alpha_ID_Roughness_Root_737dc86a29319938c1c960009467d431.T_VMGen_Alpha_ID_Roughness_Root_737dc86a29319938c1c960009467d431",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/CommonRes/Textures/T_VMGen_BaseColorMap_3c29d428bb524785eb9ec6ff32282c67.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/CommonRes/Textures/T_VMGen_BaseColorMap_3c29d428bb524785eb9ec6ff32282c67.T_VMGen_BaseColorMap_3c29d428bb524785eb9ec6ff32282c67",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/CommonRes/Textures/T_VMGen_BaseColorMap_bbd4414daa3ab6bc443faefb648a5ee3.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/CommonRes/Textures/T_VMGen_BaseColorMap_bbd4414daa3ab6bc443faefb648a5ee3.T_VMGen_BaseColorMap_bbd4414daa3ab6bc443faefb648a5ee3",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/CommonRes/Textures/T_VMGen_BaseColorMap_c1fb865fdbed530be7503cb20c8510e2.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/CommonRes/Textures/T_VMGen_BaseColorMap_c1fb865fdbed530be7503cb20c8510e2.T_VMGen_BaseColorMap_c1fb865fdbed530be7503cb20c8510e2",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/CommonRes/Textures/T_VMGen_IrisMap_d7a40d2e5e909678461ce0d2902bb249.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/CommonRes/Textures/T_VMGen_IrisMap_d7a40d2e5e909678461ce0d2902bb249.T_VMGen_IrisMap_d7a40d2e5e909678461ce0d2902bb249",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/T_VMGen_BaseColorMap_4fbcc0328ab18b171ed23dd42914bd9f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/T_VMGen_BaseColorMap_4fbcc0328ab18b171ed23dd42914bd9f.T_VMGen_BaseColorMap_4fbcc0328ab18b171ed23dd42914bd9f",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/T_VMGen_PSARMap_04b6375e0073333bcffe3b8a740a65b3.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/T_VMGen_PSARMap_04b6375e0073333bcffe3b8a740a65b3.T_VMGen_PSARMap_04b6375e0073333bcffe3b8a740a65b3",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/T_VMGen_PSARMap_96600203ecb1f5619530b538e25b2b3b.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/T_VMGen_PSARMap_96600203ecb1f5619530b538e25b2b3b.T_VMGen_PSARMap_96600203ecb1f5619530b538e25b2b3b",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_BaseColorMap_04e9823a3ff7ae2e7c8fb87beb68a728.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_BaseColorMap_04e9823a3ff7ae2e7c8fb87beb68a728.T_VMGen_BaseColorMap_04e9823a3ff7ae2e7c8fb87beb68a728",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_BaseColorMap_52e231b423ae5250bbe1ae371557875c.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_BaseColorMap_52e231b423ae5250bbe1ae371557875c.T_VMGen_BaseColorMap_52e231b423ae5250bbe1ae371557875c",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_EmissiveMap_e8ea07a391696d6cf707863660ac15a6.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_EmissiveMap_e8ea07a391696d6cf707863660ac15a6.T_VMGen_EmissiveMap_e8ea07a391696d6cf707863660ac15a6",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_NormalMap_1a919a0b94f9e17214d47216a8cf2785.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_NormalMap_1a919a0b94f9e17214d47216a8cf2785.T_VMGen_NormalMap_1a919a0b94f9e17214d47216a8cf2785",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_NormalMap_3ad5ac4985de86c6754d4435a99703bc.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_NormalMap_3ad5ac4985de86c6754d4435a99703bc.T_VMGen_NormalMap_3ad5ac4985de86c6754d4435a99703bc",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_NormalMap_733e5b1fa46d789e1e70df88dd43b91e.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_NormalMap_733e5b1fa46d789e1e70df88dd43b91e.T_VMGen_NormalMap_733e5b1fa46d789e1e70df88dd43b91e",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_NormalMap_8a8372622c9d14d7596ee11ebfd24d07.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_NormalMap_8a8372622c9d14d7596ee11ebfd24d07.T_VMGen_NormalMap_8a8372622c9d14d7596ee11ebfd24d07",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_RAMMap_3860e534faf2c143763757da62cd8f02.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_RAMMap_3860e534faf2c143763757da62cd8f02.T_VMGen_RAMMap_3860e534faf2c143763757da62cd8f02",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_RAMMap_ac556d368be1ee9e0474882721da008f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/1P/T_VMGen_RAMMap_ac556d368be1ee9e0474882721da008f.T_VMGen_RAMMap_ac556d368be1ee9e0474882721da008f",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_BaseColorMap_79b70bc4c97f230dd92befd7bfa2453c.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_BaseColorMap_79b70bc4c97f230dd92befd7bfa2453c.T_VMGen_BaseColorMap_79b70bc4c97f230dd92befd7bfa2453c",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_BaseColorMap_826e584a856f667331d8bad86735b861.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_BaseColorMap_826e584a856f667331d8bad86735b861.T_VMGen_BaseColorMap_826e584a856f667331d8bad86735b861",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_BaseColorMap_9de502b615b3b7b1549f135ace795aff.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_BaseColorMap_9de502b615b3b7b1549f135ace795aff.T_VMGen_BaseColorMap_9de502b615b3b7b1549f135ace795aff",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_BaseColorMap_c5b8afd347b8b4b0516d70c248434a89.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_BaseColorMap_c5b8afd347b8b4b0516d70c248434a89.T_VMGen_BaseColorMap_c5b8afd347b8b4b0516d70c248434a89",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_BaseColorMap_ec0be6d2c68b1a5629b91f1c89bcf977.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_BaseColorMap_ec0be6d2c68b1a5629b91f1c89bcf977.T_VMGen_BaseColorMap_ec0be6d2c68b1a5629b91f1c89bcf977",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_EmissiveMap_326dea59aa4695686beeae1aba6682bd.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_EmissiveMap_326dea59aa4695686beeae1aba6682bd.T_VMGen_EmissiveMap_326dea59aa4695686beeae1aba6682bd",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_EmissiveMap_f22e13716f023feaebfeec9152caebbf.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_EmissiveMap_f22e13716f023feaebfeec9152caebbf.T_VMGen_EmissiveMap_f22e13716f023feaebfeec9152caebbf",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_EmissiveMap_f6352b8e035f19a90be8eced919772b8.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_EmissiveMap_f6352b8e035f19a90be8eced919772b8.T_VMGen_EmissiveMap_f6352b8e035f19a90be8eced919772b8",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_MetallicMap_9fa3c03bb6357b1ab57553677fbd0f27.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_MetallicMap_9fa3c03bb6357b1ab57553677fbd0f27.T_VMGen_MetallicMap_9fa3c03bb6357b1ab57553677fbd0f27",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_MetallicMap_f4d3e892f409d0f58235f5e92dacc59e.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_MetallicMap_f4d3e892f409d0f58235f5e92dacc59e.T_VMGen_MetallicMap_f4d3e892f409d0f58235f5e92dacc59e",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_NormalMap_4ce1c117510ff5723c4dde5f3c9ec72c.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_NormalMap_4ce1c117510ff5723c4dde5f3c9ec72c.T_VMGen_NormalMap_4ce1c117510ff5723c4dde5f3c9ec72c",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_NormalMap_5bf75da870674527cea84bb5e5b302e9.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_NormalMap_5bf75da870674527cea84bb5e5b302e9.T_VMGen_NormalMap_5bf75da870674527cea84bb5e5b302e9",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_NormalMap_85f9c9cd82aeb70204c965295e357856.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_NormalMap_85f9c9cd82aeb70204c965295e357856.T_VMGen_NormalMap_85f9c9cd82aeb70204c965295e357856",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_NormalMap_aac0e2e9ad393dacb2f2ffac6d530fd1.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_NormalMap_aac0e2e9ad393dacb2f2ffac6d530fd1.T_VMGen_NormalMap_aac0e2e9ad393dacb2f2ffac6d530fd1",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_1fd763f3b20432b5a45e439b4bd466fd.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_1fd763f3b20432b5a45e439b4bd466fd.T_VMGen_RAMMap_1fd763f3b20432b5a45e439b4bd466fd",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_2a2ea383232419e8f7d1e5bb4b929b6a.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_2a2ea383232419e8f7d1e5bb4b929b6a.T_VMGen_RAMMap_2a2ea383232419e8f7d1e5bb4b929b6a",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_59d156b321038e62a9ba68b7d1182677.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_59d156b321038e62a9ba68b7d1182677.T_VMGen_RAMMap_59d156b321038e62a9ba68b7d1182677",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_83ab9e72228c29b1dd9330176cb1e280.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_83ab9e72228c29b1dd9330176cb1e280.T_VMGen_RAMMap_83ab9e72228c29b1dd9330176cb1e280",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_b1f7ad78b0df741754196994cbeb991d.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_b1f7ad78b0df741754196994cbeb991d.T_VMGen_RAMMap_b1f7ad78b0df741754196994cbeb991d",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_b1f7ad78b0df741754196994cbeb991d.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_b4bd48664b2b1530956ea60b099c435c.T_VMGen_RAMMap_b4bd48664b2b1530956ea60b099c435c",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_2a2ea383232419e8f7d1e5bb4b929b6a.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Tina/Tina_Drone_B/Texutres/T_VMGen_RAMMap_bc5e114edadbb823ab9965725740185e.T_VMGen_RAMMap_bc5e114edadbb823ab9965725740185e",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_Alpha_ID_Roughness_Root_36d333e37774a78d7b50d0b44da53a61.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_Alpha_ID_Roughness_Root_36d333e37774a78d7b50d0b44da53a61.T_VMGen_Alpha_ID_Roughness_Root_36d333e37774a78d7b50d0b44da53a61",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_Alpha_ID_Roughness_Root_eff2da83a7c5071fab534f24986cdc06.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_Alpha_ID_Roughness_Root_eff2da83a7c5071fab534f24986cdc06.T_VMGen_Alpha_ID_Roughness_Root_eff2da83a7c5071fab534f24986cdc06",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_BaseColorMap_0be00a480cc5f94d3a1449556499fab6.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_BaseColorMap_0be00a480cc5f94d3a1449556499fab6.T_VMGen_BaseColorMap_0be00a480cc5f94d3a1449556499fab6",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_BaseColorMap_37ac45f50ba6cc8626789201ce554d48.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_BaseColorMap_37ac45f50ba6cc8626789201ce554d48.T_VMGen_BaseColorMap_37ac45f50ba6cc8626789201ce554d48",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_BaseColorMap_0413ce07e35d79e921d926043a41ada1.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_BaseColorMap_63f19c509432987db704006f2132cabb.T_VMGen_BaseColorMap_63f19c509432987db704006f2132cabb",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_BaseColorMap_d77a7c972c289a147308a0474944bdad.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_BaseColorMap_d77a7c972c289a147308a0474944bdad.T_VMGen_BaseColorMap_d77a7c972c289a147308a0474944bdad",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_BaseColorMap_f5f456d88c9326a1a93c1167e8751e66.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_BaseColorMap_f5f456d88c9326a1a93c1167e8751e66.T_VMGen_BaseColorMap_f5f456d88c9326a1a93c1167e8751e66",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_BaseColorMap_ff2d7ea281b1ab27c4e0983086f82f39.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_BaseColorMap_ff2d7ea281b1ab27c4e0983086f82f39.T_VMGen_BaseColorMap_ff2d7ea281b1ab27c4e0983086f82f39",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_IrisMap_7981eb158fac7d0f570405ce6f93ec51.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_IrisMap_7981eb158fac7d0f570405ce6f93ec51.T_VMGen_IrisMap_7981eb158fac7d0f570405ce6f93ec51",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_NormalMap_4dd9113de15a745c38b3e59c2d4dc18c.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_NormalMap_4dd9113de15a745c38b3e59c2d4dc18c.T_VMGen_NormalMap_4dd9113de15a745c38b3e59c2d4dc18c",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_PSARMap_96e55741cb53ad679d7a513216b48f70.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_PSARMap_96e55741cb53ad679d7a513216b48f70.T_VMGen_PSARMap_96e55741cb53ad679d7a513216b48f70",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_PSARMap_d677e1a8f0781b9873256e2dc9be5bfd.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_PSARMap_d677e1a8f0781b9873256e2dc9be5bfd.T_VMGen_PSARMap_d677e1a8f0781b9873256e2dc9be5bfd",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_BaseColorMap_3f9f224e2d42783db70d9165944517d3.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_BaseColorMap_3f9f224e2d42783db70d9165944517d3.T_VMGen_BaseColorMap_3f9f224e2d42783db70d9165944517d3",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_BaseColorMap_6d0df1339e45b039ac4b984230429684.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_BaseColorMap_6d0df1339e45b039ac4b984230429684.T_VMGen_BaseColorMap_6d0df1339e45b039ac4b984230429684",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_MetallicMap_2c6e152b474407a7a2b275c336fa96cc.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_MetallicMap_2c6e152b474407a7a2b275c336fa96cc.T_VMGen_MetallicMap_2c6e152b474407a7a2b275c336fa96cc",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_MetallicMap_dcd7d867a11ee5e0dc7153b1187f6b9e.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_MetallicMap_dcd7d867a11ee5e0dc7153b1187f6b9e.T_VMGen_MetallicMap_dcd7d867a11ee5e0dc7153b1187f6b9e",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_NormalMap_77730c989f4462f9fcd9f448ab04f91f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_NormalMap_77730c989f4462f9fcd9f448ab04f91f.T_VMGen_NormalMap_77730c989f4462f9fcd9f448ab04f91f",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_NormalMap_aacf067d67fc2a5c68668615cb93cd7d.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_NormalMap_aacf067d67fc2a5c68668615cb93cd7d.T_VMGen_NormalMap_aacf067d67fc2a5c68668615cb93cd7d",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_PSARMap_57e51f2e4dcf247bf4ac52a457779412.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_PSARMap_57e51f2e4dcf247bf4ac52a457779412.T_VMGen_PSARMap_57e51f2e4dcf247bf4ac52a457779412",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_PSARMap_922a2e12c54988aceea617f8780711fd.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/1P/T_VMGen_PSARMap_922a2e12c54988aceea617f8780711fd.T_VMGen_PSARMap_922a2e12c54988aceea617f8780711fd",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_3aa8a8f6006aa34b03b3ceb562b5e6cc.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_3aa8a8f6006aa34b03b3ceb562b5e6cc.T_VMGen_BaseColorMap_3aa8a8f6006aa34b03b3ceb562b5e6cc",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_4a5b5aab1c1641a1743654fd412c06f1.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_4a5b5aab1c1641a1743654fd412c06f1.T_VMGen_BaseColorMap_4a5b5aab1c1641a1743654fd412c06f1",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_5a3fd4f18ac597c0360f99dc6974fa33.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_5a3fd4f18ac597c0360f99dc6974fa33.T_VMGen_BaseColorMap_5a3fd4f18ac597c0360f99dc6974fa33",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_7ef068ed68feb0a715f2c0ea7c657e89.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_7ef068ed68feb0a715f2c0ea7c657e89.T_VMGen_BaseColorMap_7ef068ed68feb0a715f2c0ea7c657e89",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_8cb56e5722db255f6f339dc56eee69aa.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_8cb56e5722db255f6f339dc56eee69aa.T_VMGen_BaseColorMap_8cb56e5722db255f6f339dc56eee69aa",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_b57e9884bab35e707df43544b3522c8f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_b57e9884bab35e707df43544b3522c8f.T_VMGen_BaseColorMap_b57e9884bab35e707df43544b3522c8f",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_d7da094a92ee460c71ead4fcb262eaeb.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_d7da094a92ee460c71ead4fcb262eaeb.T_VMGen_BaseColorMap_d7da094a92ee460c71ead4fcb262eaeb",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_e46f8546ec771e655ac2b8eddafd3813.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_e46f8546ec771e655ac2b8eddafd3813.T_VMGen_BaseColorMap_e46f8546ec771e655ac2b8eddafd3813",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_7ef068ed68feb0a715f2c0ea7c657e89.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_ea8fbd7bf6208bec1976778fd5d935bc.T_VMGen_BaseColorMap_ea8fbd7bf6208bec1976778fd5d935bc",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_ecde050f8f11d27ac15e263d8b535132.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_ecde050f8f11d27ac15e263d8b535132.T_VMGen_BaseColorMap_ecde050f8f11d27ac15e263d8b535132",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_f4c1a857ac154411a61a1dccb009d76f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_f4c1a857ac154411a61a1dccb009d76f.T_VMGen_BaseColorMap_f4c1a857ac154411a61a1dccb009d76f",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_MetallicMap_4ebcd14c134d829e9b829bdced836cbf.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_MetallicMap_4ebcd14c134d829e9b829bdced836cbf.T_VMGen_MetallicMap_4ebcd14c134d829e9b829bdced836cbf",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_MetallicMap_7a3aeb6bf866adb57e25f7243ac205c4.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_MetallicMap_7a3aeb6bf866adb57e25f7243ac205c4.T_VMGen_MetallicMap_7a3aeb6bf866adb57e25f7243ac205c4",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_NormalMap_08a73188a9514237f15e60b249d5c046.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_NormalMap_08a73188a9514237f15e60b249d5c046.T_VMGen_NormalMap_08a73188a9514237f15e60b249d5c046",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_NormalMap_73f2353d94c4b7ea166bea68f77851fc.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_NormalMap_73f2353d94c4b7ea166bea68f77851fc.T_VMGen_NormalMap_73f2353d94c4b7ea166bea68f77851fc",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_NormalMap_89f78048c93939e93b1b8c757855ebfd.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_NormalMap_89f78048c93939e93b1b8c757855ebfd.T_VMGen_NormalMap_89f78048c93939e93b1b8c757855ebfd",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_NormalMap_9c9d5d56ab68b9de63c3926f9c2fa68f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_NormalMap_9c9d5d56ab68b9de63c3926f9c2fa68f.T_VMGen_NormalMap_9c9d5d56ab68b9de63c3926f9c2fa68f",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    }
+  ]
+}

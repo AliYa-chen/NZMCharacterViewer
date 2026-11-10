@@ -1,0 +1,775 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:02:24.6250399Z",
+  "scope": "Offline data checks: ActorX points and every nonzero weight/index exactly compared against decoded source DTO; PNG decoded and dimensions checked against highest available source mip. No UE import, rig animation, material appearance or device validation.",
+  "results": [
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Dress_CMask_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Dress_CMask_HD.T_Char_Naimei_Suit_A_Dress_CMask_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Dress_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Dress_N_HD.T_Char_Naimei_Suit_A_Dress_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Dress_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Dress_RAM_HD.T_Char_Naimei_Suit_A_Dress_RAM_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Shoes_CMask_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Shoes_CMask_HD.T_Char_Naimei_Suit_A_Shoes_CMask_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Shoes_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Shoes_N_HD.T_Char_Naimei_Suit_A_Shoes_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Shoes_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Shoes_RAM_HD.T_Char_Naimei_Suit_A_Shoes_RAM_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Suits_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Suits_C_HD.T_Char_Naimei_Suit_A_Suits_C_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Suits_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Suits_N_HD.T_Char_Naimei_Suit_A_Suits_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Suits_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Suits_RAM_HD.T_Char_Naimei_Suit_A_Suits_RAM_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Trousers_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Trousers_C_HD.T_Char_Naimei_Suit_A_Trousers_C_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Trousers_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Trousers_N_HD.T_Char_Naimei_Suit_A_Trousers_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Trousers_PSAR_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Trousers_PSAR_HD.T_Char_Naimei_Suit_A_Trousers_PSAR_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Trousers_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Trousers_RAM_HD.T_Char_Naimei_Suit_A_Trousers_RAM_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Weapon_A_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Weapon_A_C_HD.T_Char_Naimei_Suit_A_Weapon_A_C_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Weapon_A_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Weapon_A_N_HD.T_Char_Naimei_Suit_A_Weapon_A_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Weapon_A_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Weapon_A_RAM_HD.T_Char_Naimei_Suit_A_Weapon_A_RAM_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Weapon_C_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Weapon_C_C_HD.T_Char_Naimei_Suit_A_Weapon_C_C_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Weapon_C_E_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Weapon_C_E_HD.T_Char_Naimei_Suit_A_Weapon_C_E_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Weapon_C_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Weapon_C_N_HD.T_Char_Naimei_Suit_A_Weapon_C_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Weapon_C_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/Textures_HD/T_Char_Naimei_Suit_A_Weapon_C_RAM_HD.T_Char_Naimei_Suit_A_Weapon_C_RAM_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/Head/T_Char_Naimei_Suit_C_Head_CE_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/Head/T_Char_Naimei_Suit_C_Head_CE_HD.T_Char_Naimei_Suit_C_Head_CE_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Naimei/CommonRes/Textures_HD/T_Char_Naimei_Suit_A_Head_M_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/Head/T_Char_Naimei_Suit_C_Head_M_HD.T_Char_Naimei_Suit_C_Head_M_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/Head/T_Char_Naimei_Suit_C_Head_N_Close.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/Head/T_Char_Naimei_Suit_C_Head_N_Close.T_Char_Naimei_Suit_C_Head_N_Close",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/Head/T_Char_Naimei_Suit_C_Head_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/Head/T_Char_Naimei_Suit_C_Head_N_HD.T_Char_Naimei_Suit_C_Head_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/Head/T_Char_Naimei_Suit_C_Head_PSAR_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/Head/T_Char_Naimei_Suit_C_Head_PSAR_HD.T_Char_Naimei_Suit_C_Head_PSAR_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/Head/T_Char_Naimei_Suit_C_Head_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/Head/T_Char_Naimei_Suit_C_Head_RAM_HD.T_Char_Naimei_Suit_C_Head_RAM_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_A_CMask_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_A_CMask_HD.T_Char_Naimei_Suit_C_A_CMask_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_A_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_A_N_HD.T_Char_Naimei_Suit_C_A_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_A_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_A_RAM_HD.T_Char_Naimei_Suit_C_A_RAM_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Arm_CMask_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Arm_CMask_HD.T_Char_Naimei_Suit_C_Arm_CMask_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Arm_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Arm_HD.T_Char_Naimei_Suit_C_Arm_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Arm_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Arm_N_HD.T_Char_Naimei_Suit_C_Arm_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Arm_PSAR_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Arm_PSAR_HD.T_Char_Naimei_Suit_C_Arm_PSAR_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Arm_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Arm_RAM_HD.T_Char_Naimei_Suit_C_Arm_RAM_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_B_CMask_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_B_CMask_HD.T_Char_Naimei_Suit_C_B_CMask_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_B_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_B_N_HD.T_Char_Naimei_Suit_C_B_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_B_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_B_RAM_HD.T_Char_Naimei_Suit_C_B_RAM_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Belt_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Belt_C_HD.T_Char_Naimei_Suit_C_Belt_C_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Belt_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Belt_N_HD.T_Char_Naimei_Suit_C_Belt_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Belt_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Belt_RAM_HD.T_Char_Naimei_Suit_C_Belt_RAM_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Clothes_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Clothes_C_HD.T_Char_Naimei_Suit_C_Clothes_C_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Clothes_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Clothes_N_HD.T_Char_Naimei_Suit_C_Clothes_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Clothes_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Clothes_RAM_HD.T_Char_Naimei_Suit_C_Clothes_RAM_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_skirt_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_skirt_C_HD.T_Char_Naimei_Suit_C_skirt_C_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_skirt_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_skirt_N_HD.T_Char_Naimei_Suit_C_skirt_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_skirt_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_skirt_RAM_HD.T_Char_Naimei_Suit_C_skirt_RAM_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Trousers_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Trousers_C_HD.T_Char_Naimei_Suit_C_Trousers_C_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Trousers_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Trousers_N_HD.T_Char_Naimei_Suit_C_Trousers_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Trousers_PSAR_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Trousers_PSAR_HD.T_Char_Naimei_Suit_C_Trousers_PSAR_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Trousers_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_C/Textures_HD/T_Char_Naimei_Suit_C_Trousers_RAM_HD.T_Char_Naimei_Suit_C_Trousers_RAM_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Insect_S_SFX_Snake/Textures/T_Char_Queen_Insect_S_SFX_Snake_C.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Insect_S_SFX_Snake/Textures/T_Char_Queen_Insect_S_SFX_Snake_C.T_Char_Queen_Insect_S_SFX_Snake_C",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Insect_S_SFX_Snake/Textures/T_Char_Queen_Insect_S_SFX_Snake_N.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Insect_S_SFX_Snake/Textures/T_Char_Queen_Insect_S_SFX_Snake_N.T_Char_Queen_Insect_S_SFX_Snake_N",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Insect_S_SFX_Snake/Textures/T_Char_Queen_Insect_S_SFX_Snake_RAM.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Cinematic/Char_Queen_Insect_S_SFX_Snake/Textures/T_Char_Queen_Insect_S_SFX_Snake_RAM.T_Char_Queen_Insect_S_SFX_Snake_RAM",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/CommonRes/Textures/3P_HD/T_Char_Queen_Head_3P_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Textures/3P_HD/T_Char_Queen_Head_3P_C_HD.T_Char_Queen_Head_3P_C_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/CommonRes/Textures/3P_HD/T_Char_Queen_Head_3P_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Textures/3P_HD/T_Char_Queen_Head_3P_N_HD.T_Char_Queen_Head_3P_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/CommonRes/Textures/3P_HD/T_Char_Queen_Head_3P_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Textures/3P_HD/T_Char_Queen_Head_3P_RAM_HD.T_Char_Queen_Head_3P_RAM_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/CommonRes/Textures/3P_HD/T_Char_Queen_Head_3P_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Textures/3P_HD/T_Char_Queen_Head_PC_CMask_HD.T_Char_Queen_Head_PC_CMask_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/CommonRes/Textures/3P_HD/T_Char_Queen_Head_PC_M_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Textures/3P_HD/T_Char_Queen_Head_PC_M_HD.T_Char_Queen_Head_PC_M_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/CommonRes/Textures/3P_HD/T_Char_Queen_Head_PC_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Textures/3P_HD/T_Char_Queen_Head_PC_N_HD.T_Char_Queen_Head_PC_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/CommonRes/Textures/3P_HD/T_Char_Queen_Head_PC_PSAR_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Textures/3P_HD/T_Char_Queen_Head_PC_PSAR_HD.T_Char_Queen_Head_PC_PSAR_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/CommonRes/Textures/Char_Queen_Head_N.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Textures/Char_Queen_Head_N.Char_Queen_Head_N",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Queen/CommonRes/Textures/UI_HD/T_Char_Queen_Head_CE_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Textures/UI_HD/T_Char_Queen_Head_CE_HD.T_Char_Queen_Head_CE_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/CommonRes/Textures/UI_HD/T_Char_Queen_Head_M_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Textures/UI_HD/T_Char_Queen_Head_M_HD.T_Char_Queen_Head_M_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Queen/CommonRes/Textures/UI_HD/T_Char_Queen_Head_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Textures/UI_HD/T_Char_Queen_Head_N_HD.T_Char_Queen_Head_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/CommonRes/Textures/UI_HD/T_Char_Queen_Head_PSAR_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/CommonRes/Textures/UI_HD/T_Char_Queen_Head_PSAR_HD.T_Char_Queen_Head_PSAR_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Textures_HD/T_Pendant_Hand_Band_S02_JQueen_S_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Textures_HD/T_Pendant_Hand_Band_S02_JQueen_S_C_HD.T_Pendant_Hand_Band_S02_JQueen_S_C_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Textures_HD/T_Pendant_Hand_Band_S02_JQueen_S_E_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Textures_HD/T_Pendant_Hand_Band_S02_JQueen_S_E_HD.T_Pendant_Hand_Band_S02_JQueen_S_E_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Textures_HD/T_Pendant_Hand_Band_S02_JQueen_S_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Textures_HD/T_Pendant_Hand_Band_S02_JQueen_S_N_HD.T_Pendant_Hand_Band_S02_JQueen_S_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Textures_HD/T_Pendant_Hand_Band_S02_JQueen_S_RAMMask_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Pendant/Hand/Pendant_Hand_Band_S02_JQueen_S/Textures_HD/T_Pendant_Hand_Band_S02_JQueen_S_RAMMask_HD.T_Pendant_Hand_Band_S02_JQueen_S_RAMMask_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Arm_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Arm_C_HD.T_Char_Queen_Insect_1P_Arm_C_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Arm_E_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Arm_E_HD.T_Char_Queen_Insect_1P_Arm_E_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Arm_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Arm_N_HD.T_Char_Queen_Insect_1P_Arm_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Arm_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Arm_RAM_HD.T_Char_Queen_Insect_1P_Arm_RAM_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_C_HD.T_Char_Queen_Insect_1P_Hand_C_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_CE_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_CE_HD.T_Char_Queen_Insect_1P_Hand_CE_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_E_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_E_HD.T_Char_Queen_Insect_1P_Hand_E_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_M_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_M_HD.T_Char_Queen_Insect_1P_Hand_M_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_N_HD.T_Char_Queen_Insect_1P_Hand_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_PSAR_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_PSAR_HD.T_Char_Queen_Insect_1P_Hand_PSAR_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_1P_Hand_RAM_HD.T_Char_Queen_Insect_1P_Hand_RAM_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Accessory_CMask_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Accessory_CMask_HD.T_Char_Queen_Insect_S_Accessory_CMask_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Accessory_E_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Accessory_E_HD.T_Char_Queen_Insect_S_Accessory_E_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Accessory_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Accessory_N_HD.T_Char_Queen_Insect_S_Accessory_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Accessory_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Accessory_RAM_HD.T_Char_Queen_Insect_S_Accessory_RAM_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Arm_CMask_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Arm_CMask_HD.T_Char_Queen_Insect_S_Arm_CMask_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Arm_E_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Arm_E_HD.T_Char_Queen_Insect_S_Arm_E_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Arm_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Arm_N_HD.T_Char_Queen_Insect_S_Arm_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Arm_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Arm_RAM_HD.T_Char_Queen_Insect_S_Arm_RAM_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Belt_CMask_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Belt_CMask_HD.T_Char_Queen_Insect_S_Belt_CMask_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Belt_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Belt_N_HD.T_Char_Queen_Insect_S_Belt_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Belt_RAM_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Belt_RAM_HD.T_Char_Queen_Insect_S_Belt_RAM_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Body_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Body_C_HD.T_Char_Queen_Insect_S_Body_C_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Body_C_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Body_CE_HD.T_Char_Queen_Insect_S_Body_CE_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Body_E_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Body_E_HD.T_Char_Queen_Insect_S_Body_E_HD",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Body_M_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Body_M_HD.T_Char_Queen_Insect_S_Body_M_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Body_N_HD.png",
+      "object_path": "NZM/Content/Avatar/Character/Queen/Queen_Insect_S/Textures_HD/T_Char_Queen_Insect_S_Body_N_HD.T_Char_Queen_Insect_S_Body_N_HD",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    }
+  ]
+}

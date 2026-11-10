@@ -18,6 +18,8 @@
 | `Analysis/Find-SceneTargets.ps1` | 汇总人物页灯光、背景和数据表候选 |
 | `Lighting/` | 补取外部灯光模板，按真实导出索引核对身份并保留逐属性继承来源 |
 | `Shading/` | 提取有依据的肤／眼／发依赖并生成可还原程度报告 |
+| `Characters/` | 全角色目录库存、女性配置与非标准命名审查、网格／材质／纹理依赖收集 |
+| `../../Scripts/publish_pc_characters.py` | 将已验证的角色集合发布为可移植清单，按实际字节去重并保留来源证据 |
 | `../../Scripts/build_pc_postprocess_profiles.py` | 构建稳定、可检查的后期字段值／override 档案 |
 | `../../Scripts/build_pc_quality_reference.py` | 将允许清单内的历史画质报告整理为可发布的相对路径数据 |
 | `../../Scripts/validate_pc_resources.py` | 无游戏／引擎的发布资源完整性校验 |

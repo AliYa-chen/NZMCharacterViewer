@@ -1,0 +1,82 @@
+{
+  "Type": "AvaCharItemData",
+  "Name": "DA_Char_Yang",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'AvaCharItemData'",
+  "Package": "NZM/Content/Avatar/Character/Yang/DA_Char_Yang",
+  "Properties": {
+    "TPPConfig": {
+      "DefaultPartItems": [
+        "13101010201",
+        "13101040201",
+        "13101050201",
+        "13101020001"
+      ],
+      "CutPartItems": [
+        "13101080201"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Yang/CommonRes/Mesh/SK_Char_Yang_Mesh_Master.SK_Char_Yang_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "FPPConfig": {
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Yang/Yang_Suit_C/Mesh/SK_Char_Yang_Suit_C_1P_Body_Mesh.SK_Char_Yang_Suit_C_1P_Body_Mesh",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "UIConfig": {
+      "DefaultPartItems": [
+        "13101010001",
+        "13101040001",
+        "13101050001"
+      ],
+      "CutPartItems": [
+        "13101080001"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Yang/CommonRes/Mesh/SK_Char_Yang_Mesh_Master.SK_Char_Yang_Mesh_Master",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "Name_Attrs": [
+          {
+            "Key": "RoleID",
+            "Value": "10001000031"
+          }
+        ],
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null,
+        "FSoftObjectPath_Attrs": []
+      }
+    },
+    "DialogueConfig": {
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "Description": "万阳",
+    "ModeConfig": {
+      "Gender": "EAvaGenderType::Male",
+      "BindTag": {
+        "TagName": "Avatar.Character.Yang"
+      },
+      "SoundTag": {
+        "TagName": "Character.Male.Yang"
+      },
+      "ClothType": "ENZAvatarClothType::ChainAnimLink"
+    },
+    "AssetPathName": "/Game/Avatar/Character/Yang/DA_Char_Yang.DA_Char_Yang"
+  }
+}

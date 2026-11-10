@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:06:00.3760313Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Default_Female_00/Mesh/SK_Char_DefauIt_Female_00_UI_Body_Mesh",
+      "name": "SK_Char_DefauIt_Female_00_UI_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Default_Female_00/Mesh/SK_Char_DefauIt_Female_00_UI_Body_Mesh.SK_Char_DefauIt_Female_00_UI_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Default_Female_00/Mesh/SK_Char_DefauIt_Female_00_UI_Body_Mesh.uasset",
+          "size": 6159,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 120641536
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Default_Female_00/Mesh/SK_Char_DefauIt_Female_00_UI_Body_Mesh.uexp",
+          "size": 4834437,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 120644553
+        }
+      },
+      "mesh": {
+        "reference_bones": 88,
+        "material_slots": 5,
+        "source_lod_count": 3,
+        "source_lods": [
+          {
+            "vertices": 27272,
+            "triangles": 46402,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 14275,
+            "triangles": 22894,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 7430,
+            "triangles": 10997,
+            "sections": 5,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 27272,
+            "indices": 139206,
+            "sections": 5,
+            "maximum_nonzero_influences": 5,
+            "vertices_over_four_influences": 26
+          }
+        ]
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Default_Female_00/Mesh/SK_Char_DefauIt_Female_00_UI_Body_Mesh.SK_Char_DefauIt_Female_00_UI_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Configuration/ReviewCandidates/DefaultFemale/Json/NZM/Content/Avatar/Character/Default_Female_00/Mesh/SK_Char_DefauIt_Female_00_UI_Body_Mesh.json"
+      ],
+      "error": null
+    }
+  ]
+}

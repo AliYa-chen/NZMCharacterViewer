@@ -1,0 +1,5555 @@
+{
+  "Type": "DataTable",
+  "Name": "RoleCard",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'DataTable'",
+  "Package": "NZM/Content/DataTables/CharacterPersonality/RoleCard",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'NZRoleCardTable'",
+      "ObjectPath": "/Script/DataDefines"
+    }
+  },
+  "Rows": {
+    "18802000001": {
+      "CardID": 18802000001,
+      "CardName": "立绘背景测试",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/CharacterUI/SP/Show/Bg/T_Show_Bg_01.T_Show_Bg_01",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801000001": {
+      "CardID": 18801000001,
+      "CardName": "立绘测试",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10000000022",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/CharacterUI/SP/Show/Character/T_Show_Character_01.T_Show_Character_01",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000001": {
+      "CardID": 18803000001,
+      "CardName": "立绘底座测试",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/CharacterUI/SP/Show/Base/T_Show_Base_01.T_Show_Base_01",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801000002": {
+      "CardID": 18801000002,
+      "CardName": "机车安琪儿立绘",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10000000022",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000002": {
+      "CardID": 18802000002,
+      "CardName": "机车安琪儿背景",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000002": {
+      "CardID": 18803000002,
+      "CardName": "机车安琪儿底座",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801000003": {
+      "CardID": 18801000003,
+      "CardName": "幽魂骑士",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001010048",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandRole/WB_BrandRole_A_0003.WB_BrandRole_A_0003_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_A_0003.T_BrandRole_A_0003",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101007
+    },
+    "18802000003": {
+      "CardID": 18802000003,
+      "CardName": "幽魂骑士",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001010048",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_A_0003.WB_BrandBG_A_0003_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_A_0003.T_BrandBG_A_0003",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101007
+    },
+    "18803000003": {
+      "CardID": 18803000003,
+      "CardName": "幽魂骑士",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001010048",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_A_0003.WB_BrandCover_A_0003_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_A_0003.T_BrandCover_A_0003",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101007
+    },
+    "18801000034": {
+      "CardID": 18801000034,
+      "CardName": "幽魂骑士",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001010048",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandRole/WB_BrandRole_A_0009.WB_BrandRole_A_0009_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_A_0009.T_BrandRole_A_0009",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101007
+    },
+    "18802000084": {
+      "CardID": 18802000084,
+      "CardName": "翡翠实验",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0007.WB_BrandBG_B_0007_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0007.T_BrandBG_B_0007",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101007
+    },
+    "18803000073": {
+      "CardID": 18803000073,
+      "CardName": "破碎翡翠剂",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0005.WB_BrandCover_B_0005_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0005.T_BrandCover_B_0005",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101007
+    },
+    "18803000004": {
+      "CardID": 18803000004,
+      "CardName": "北斗星芒",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_A_0004.WB_BrandCover_A_0004_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_A_0004.T_BrandCover_A_0004",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000005": {
+      "CardID": 18803000005,
+      "CardName": "斯格明石矿床",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0001.WB_BrandCover_B_0001_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0001.T_BrandCover_B_0001",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000006": {
+      "CardID": 18803000006,
+      "CardName": "雷霆链接",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0006.T_BrandCover_C_0006",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000007": {
+      "CardID": 18803000007,
+      "CardName": "惬意沙滩",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0007.T_BrandCover_C_0007",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000008": {
+      "CardID": 18803000008,
+      "CardName": "星海蛛穴",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0008.T_BrandCover_C_0008",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000009": {
+      "CardID": 18803000009,
+      "CardName": "一起动起来",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0009.T_BrandCover_C_0009",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000010": {
+      "CardID": 18803000010,
+      "CardName": "碎月残骸",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0010.T_BrandCover_C_0010",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000011": {
+      "CardID": 18803000011,
+      "CardName": "好耶！",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0001.T_BrandCover_D_0001",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000012": {
+      "CardID": 18803000012,
+      "CardName": "邪恶轮椅",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0002.T_BrandCover_D_0002",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000013": {
+      "CardID": 18803000013,
+      "CardName": "启动平台",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0003.T_BrandCover_D_0003",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000014": {
+      "CardID": 18803000014,
+      "CardName": "为你喝彩",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0004.T_BrandCover_D_0004",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000015": {
+      "CardID": 18803000015,
+      "CardName": "饮茶先啦",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0005.T_BrandCover_D_0005",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000016": {
+      "CardID": 18803000016,
+      "CardName": "气煞我也",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0006.T_BrandCover_D_0006",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000017": {
+      "CardID": 18803000017,
+      "CardName": "激发态",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0006.WB_BrandCover_B_0006_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0006.T_BrandCover_B_0006",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000018": {
+      "CardID": 18803000018,
+      "CardName": "触控台",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/Tina/BrandAvatar/BrandCover/WB_BrandCover_B_0003.WB_BrandCover_B_0003_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0003.T_BrandCover_B_0003",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000019": {
+      "CardID": 18803000019,
+      "CardName": "闪耀之台",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0001.T_BrandCover_C_0001",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000020": {
+      "CardID": 18803000020,
+      "CardName": "声光矩阵",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0002.T_BrandCover_C_0002",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000021": {
+      "CardID": 18803000021,
+      "CardName": "警戒线",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0003.T_BrandCover_C_0003",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000022": {
+      "CardID": 18803000022,
+      "CardName": "突袭者",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0004.T_BrandCover_C_0004",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000023": {
+      "CardID": 18803000023,
+      "CardName": "晦夜铭终轨",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0008.WB_BrandCover_B_0008_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0008.T_BrandCover_B_0008",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000004": {
+      "CardID": 18802000004,
+      "CardName": "旧墟沉月影",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBg/WB_BrandBG_B_0008.WB_BrandBG_B_0008_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_B_0008.T_BrandBG_B_0008",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000005": {
+      "CardID": 18802000005,
+      "CardName": "雷电基石",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_C_0011.T_BrandBG_C_0011",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000006": {
+      "CardID": 18802000006,
+      "CardName": "都会残光",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_C_0012.T_BrandBG_C_0012",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000007": {
+      "CardID": 18802000007,
+      "CardName": "倒塌的铁塔",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_C_0013.T_BrandBG_C_0013",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000008": {
+      "CardID": 18802000008,
+      "CardName": "极光",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_C_0014.T_BrandBG_C_0014",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000009": {
+      "CardID": 18802000009,
+      "CardName": "虫群",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_C_0015.T_BrandBG_C_0015",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000010": {
+      "CardID": 18802000010,
+      "CardName": "逆战之光",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_D_0007.T_BrandBG_D_0007",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000011": {
+      "CardID": 18802000011,
+      "CardName": "空间站",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_D_0008.T_BrandBG_D_0008",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000012": {
+      "CardID": 18802000012,
+      "CardName": "太空电梯",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_D_0009.T_BrandBG_D_0009",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000013": {
+      "CardID": 18802000013,
+      "CardName": "南十字巨构",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_D_0010.T_BrandBG_D_0010",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000014": {
+      "CardID": 18802000014,
+      "CardName": "通往月球之路",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_D_0011.T_BrandBG_D_0011",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000015": {
+      "CardID": 18802000015,
+      "CardName": "待命状态",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_D_0012.T_BrandBG_D_0012",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000016": {
+      "CardID": 18802000016,
+      "CardName": "逆战：未来",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_D_0013.T_BrandBG_D_0013",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000017": {
+      "CardID": 18802000017,
+      "CardName": "月陨之时",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBg/WB_BrandBG_B_0006.WB_BrandBG_B_0006_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0006.T_BrandBG_B_0006",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000018": {
+      "CardID": 18802000018,
+      "CardName": "粉墨杀机",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/Tina/BrandAvatar/BrandBg/WB_BrandBG_B_0003.WB_BrandBG_B_0003_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_B_0003.T_BrandBG_B_0003",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000019": {
+      "CardID": 18802000019,
+      "CardName": "闪烁舞台",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_C_0001.T_BrandBG_C_0001",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000020": {
+      "CardID": 18802000020,
+      "CardName": "数字海洋",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_C_0002.T_BrandBG_C_0002",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000021": {
+      "CardID": 18802000021,
+      "CardName": "霓虹都市",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_C_0003.T_BrandBG_C_0003",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000022": {
+      "CardID": 18802000022,
+      "CardName": "集结区",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_C_0004.T_BrandBG_C_0004",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000023": {
+      "CardID": 18802000023,
+      "CardName": "北斗星墟",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBg/WB_BrandBG_A_0004.WB_BrandBG_A_0004_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_A_0004.T_BrandBG_A_0004",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000004": {
+      "CardID": 18801000004,
+      "CardName": "血色蔷薇",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000008",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_B_0006.T_BrandRole_B_0006",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000005": {
+      "CardID": 18801000005,
+      "CardName": "黑暗天使",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000027",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_B_0003.T_BrandRole_B_0003",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000006": {
+      "CardID": 18801000006,
+      "CardName": "暗夜回旋曲",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000029",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_C_0001.T_BrandRole_C_0001",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801000007": {
+      "CardID": 18801000007,
+      "CardName": "心动序曲",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000028",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_C_0002.T_BrandRole_C_0002",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801000008": {
+      "CardID": 18801000008,
+      "CardName": "时序特警",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000030",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_C_0003.T_BrandRole_C_0003",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801000009": {
+      "CardID": 18801000009,
+      "CardName": "悖论囚徒",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000031",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_C_0004.T_BrandRole_C_0004",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801000011": {
+      "CardID": 18801000011,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000021",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0001.T_BrandRole_E_0001",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000012": {
+      "CardID": 18801000012,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000026",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0002.T_BrandRole_E_0002",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000013": {
+      "CardID": 18801000013,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000029",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0003.T_BrandRole_E_0003",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000014": {
+      "CardID": 18801000014,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000008",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0004.T_BrandRole_E_0004",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000015": {
+      "CardID": 18801000015,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000028",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0005.T_BrandRole_E_0005",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000016": {
+      "CardID": 18801000016,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000027",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0006.T_BrandRole_E_0006",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000017": {
+      "CardID": 18801000017,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000030",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0007.T_BrandRole_E_0007",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000018": {
+      "CardID": 18801000018,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000031",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0008.T_BrandRole_E_0008",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000019": {
+      "CardID": 18801000019,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000038",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0009.T_BrandRole_E_0009",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000020": {
+      "CardID": 18801000020,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000039",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0010.T_BrandRole_E_0010",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000021": {
+      "CardID": 18801000021,
+      "CardName": "宇航员",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000036,10002000037",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Hud/GamePad/SpaceWar/SP/T_Hud_SpaceWar_SP_Avatar_01.T_Hud_SpaceWar_SP_Avatar_01",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801000022": {
+      "CardID": 18801000022,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000025",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0011.T_BrandRole_E_0011",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000023": {
+      "CardID": 18801000023,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000032",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0012.T_BrandRole_E_0012",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801001001": {
+      "CardID": 18801001001,
+      "CardName": "无尽雷霆",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000034",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandRole/WB_BrandRole_A_0001.WB_BrandRole_A_0001_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_A_0001.T_BrandRole_A_0001",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802001001": {
+      "CardID": 18802001001,
+      "CardName": "无尽雷霆",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000034",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBg/WB_BrandBG_A_0001.WB_BrandBG_A_0001_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_A_0001.T_BrandBG_A_0001",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803001001": {
+      "CardID": 18803001001,
+      "CardName": "无尽雷霆",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000034",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_A_0001.WB_BrandCover_A_0001_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_A_0001.T_BrandCover_A_0001",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801001002": {
+      "CardID": 18801001002,
+      "CardName": "战术迷彩",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000039",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_C_0005.T_BrandRole_C_0005",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802001002": {
+      "CardID": 18802001002,
+      "CardName": "雾锁深林",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_C_0005.T_BrandBG_C_0005",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803001002": {
+      "CardID": 18803001002,
+      "CardName": "无言战友",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0005.T_BrandCover_C_0005",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801001003": {
+      "CardID": 18801001003,
+      "CardName": "一线生机",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000032",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_B_0002.T_BrandRole_B_0002",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101005
+    },
+    "18802001003": {
+      "CardID": 18802001003,
+      "CardName": "无限空间",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBg/WB_BrandBG_B_0002.WB_BrandBG_B_0002_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBg/Static/T_BrandBG_B_0002.T_BrandBG_B_0002",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101005
+    },
+    "18803001003": {
+      "CardID": 18803001003,
+      "CardName": "出动",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0002.WB_BrandCover_B_0002_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0002.T_BrandCover_B_0002",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101005
+    },
+    "18801001004": {
+      "CardID": 18801001004,
+      "CardName": "星星战火",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000025",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_B_0004.T_BrandRole_B_0004",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802001004": {
+      "CardID": 18802001004,
+      "CardName": "战争星尘",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBg/WB_BrandBG_B_0004.WB_BrandBG_B_0004_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0004.T_BrandBG_B_0004",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803001004": {
+      "CardID": 18803001004,
+      "CardName": "机械铁臂",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0004.WB_BrandCover_B_0004_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0004.T_BrandCover_B_0004",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801000024": {
+      "CardID": 18801000024,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000041",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0013.T_BrandRole_E_0013",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000025": {
+      "CardID": 18801000025,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000040",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000026": {
+      "CardID": 18801000026,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000042",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0015.T_BrandRole_E_0015",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801001005": {
+      "CardID": 18801001005,
+      "CardName": "精绝女王",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000044",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandRole/WB_BrandRole_A_0006.WB_BrandRole_A_0006_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_A_0006.T_BrandRole_A_0006",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101001
+    },
+    "18802001005": {
+      "CardID": 18802001005,
+      "CardName": "精绝女王",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000044",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_A_0006.WB_BrandBG_A_0006_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_A_0006.T_BrandBG_A_0006",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101001
+    },
+    "18803001005": {
+      "CardID": 18803001005,
+      "CardName": "精绝女王",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000044",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_A_0006.WB_BrandCover_A_0006_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_A_0006.T_BrandCover_A_0006",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101001
+    },
+    "18801001006": {
+      "CardID": 18801001006,
+      "CardName": "精绝女王",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000044",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandRole/WB_BrandRole_A_0007.WB_BrandRole_A_0007_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_A_0007.T_BrandRole_A_0007",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101001
+    },
+    "18802001006": {
+      "CardID": 18802001006,
+      "CardName": "精绝女王",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000044",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_A_0006.WB_BrandBG_A_0006_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_A_0006.T_BrandBG_A_0006",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101001
+    },
+    "18803001006": {
+      "CardID": 18803001006,
+      "CardName": "精绝女王",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000044",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_A_0006.WB_BrandCover_A_0006_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_A_0006.T_BrandCover_A_0006",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101001
+    },
+    "18801001007": {
+      "CardID": 18801001007,
+      "CardName": "无畏探险",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000041",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_B_0009.T_BrandRole_B_0009",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101002
+    },
+    "18802001007": {
+      "CardID": 18802001007,
+      "CardName": "飞沙走石",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0009.WB_BrandBG_B_0009_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0009.T_BrandBG_B_0009",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101002
+    },
+    "18803001007": {
+      "CardID": 18803001007,
+      "CardName": "青铜瓦片",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0009.WB_BrandCover_B_0009_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0009.T_BrandCover_B_0009",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101002
+    },
+    "18801001008": {
+      "CardID": 18801001008,
+      "CardName": "华风甜妹",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000040",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802001008": {
+      "CardID": 18802001008,
+      "CardName": "四方杂货",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803001008": {
+      "CardID": 18803001008,
+      "CardName": "鸿运当头",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801001009": {
+      "CardID": 18801001009,
+      "CardName": "天地定位",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000042",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_C_0016.T_BrandRole_C_0016",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802001009": {
+      "CardID": 18802001009,
+      "CardName": "破败城镇",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0016.T_BrandBG_C_0016",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803001009": {
+      "CardID": 18803001009,
+      "CardName": "碎石瓦铲",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0016.T_BrandCover_C_0016",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801001010": {
+      "CardID": 18801001010,
+      "CardName": "节奏王者",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000038",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_C_0017.T_BrandRole_C_0017",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802001010": {
+      "CardID": 18802001010,
+      "CardName": "动感之光",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0017.T_BrandBG_C_0017",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803001010": {
+      "CardID": 18803001010,
+      "CardName": "动感旋律",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": false,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0017.T_BrandCover_C_0017",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000024": {
+      "CardID": 18802000024,
+      "CardName": "精绝之门",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0011.WB_BrandBG_B_0011_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0011.T_BrandBG_B_0011",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101001
+    },
+    "18802000025": {
+      "CardID": 18802000025,
+      "CardName": "死神宇宙",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0012.WB_BrandBG_B_0012_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0012.T_BrandBG_B_0012",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 201004
+    },
+    "18802000026": {
+      "CardID": 18802000026,
+      "CardName": "雪域秘境",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0013.WB_BrandBG_B_0013_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0013.T_BrandBG_B_0013",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 201003
+    },
+    "18802000027": {
+      "CardID": 18802000027,
+      "CardName": "昆仑神宫",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0014.WB_BrandBG_B_0014_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0014.T_BrandBG_B_0014",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000028": {
+      "CardID": 18802000028,
+      "CardName": "蘑菇森林",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0018.T_BrandBG_C_0018",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000029": {
+      "CardID": 18802000029,
+      "CardName": "翡翠遗迹",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_D_0014.T_BrandBG_D_0014",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000030": {
+      "CardID": 18802000030,
+      "CardName": "昆仑雪景",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0015.WB_BrandBG_B_0015_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0015.T_BrandBG_B_0015",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000031": {
+      "CardID": 18802000031,
+      "CardName": "猪猪宇宙",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0016.WB_BrandBG_B_0016_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0016.T_BrandBG_B_0016",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 102002
+    },
+    "18802000032": {
+      "CardID": 18802000032,
+      "CardName": "猪猪森林",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0019.T_BrandBG_C_0019",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 102002
+    },
+    "18802000034": {
+      "CardID": 18802000034,
+      "CardName": "精绝谜域",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0021.T_BrandBG_C_0021",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000035": {
+      "CardID": 18802000035,
+      "CardName": "太空伟业",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0022.T_BrandBG_C_0022",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000036": {
+      "CardID": 18802000036,
+      "CardName": "联盟大厦",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_D_0015.T_BrandBG_D_0015",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000037": {
+      "CardID": 18802000037,
+      "CardName": "风暴峡谷",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_D_0016.T_BrandBG_D_0016",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000024": {
+      "CardID": 18803000024,
+      "CardName": "巨蟒诅咒",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0017.WB_BrandCover_B_0017_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0017.T_BrandCover_B_0017",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101001
+    },
+    "18803000025": {
+      "CardID": 18803000025,
+      "CardName": "暂停修正",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0018.WB_BrandCover_B_0018_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0018.T_BrandCover_B_0018",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 201004
+    },
+    "18803000026": {
+      "CardID": 18803000026,
+      "CardName": "龙顶冰川",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0019.WB_BrandCover_B_0019_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0019.T_BrandCover_B_0019",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 201003
+    },
+    "18803000027": {
+      "CardID": 18803000027,
+      "CardName": "昆仑魔菇",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0023.T_BrandCover_C_0023",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000028": {
+      "CardID": 18803000028,
+      "CardName": "躲猫猫BBK",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0024.T_BrandCover_C_0024",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000029": {
+      "CardID": 18803000029,
+      "CardName": "熊猫广场",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0017.T_BrandCover_D_0017",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000030": {
+      "CardID": 18803000030,
+      "CardName": "华灯BBK",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0020.WB_BrandCover_B_0020_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0020.T_BrandCover_B_0020",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000031": {
+      "CardID": 18803000031,
+      "CardName": "猪菲同框",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0021.WB_BrandCover_B_0021_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0021.T_BrandCover_B_0021",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 102002
+    },
+    "18803000032": {
+      "CardID": 18803000032,
+      "CardName": "金牌打手",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0025.T_BrandCover_C_0025",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 102002
+    },
+    "18803000033": {
+      "CardID": 18803000033,
+      "CardName": "炽焰之塔",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0026.T_BrandCover_C_0026",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000038": {
+      "CardID": 18802000038,
+      "CardName": "南十字冲击",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0027.T_BrandBG_C_0027",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801000027": {
+      "CardID": 18801000027,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000043",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0016.T_BrandRole_E_0016",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000028": {
+      "CardID": 18801000028,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000047",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0017.T_BrandRole_E_0017",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801001011": {
+      "CardID": 18801001011,
+      "CardName": "樱华之姿",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000045",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandRole/WB_BrandRole_A_0008.WB_BrandRole_A_0008_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_A_0008.T_BrandRole_A_0008",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101004
+    },
+    "18802001011": {
+      "CardID": 18802001011,
+      "CardName": "荆棘之地",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000045",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_A_0008.WB_BrandBG_A_0008_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_A_0008.T_BrandBG_A_0008",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101004
+    },
+    "18803001011": {
+      "CardID": 18803001011,
+      "CardName": "荆棘环绕",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000045",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_A_0008.WB_BrandCover_A_0008_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_A_0008.T_BrandCover_A_0008",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101004
+    },
+    "18801001012": {
+      "CardID": 18801001012,
+      "CardName": "独眼蔷薇",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000046",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_B_0022.T_BrandRole_B_0022",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101006
+    },
+    "18802001012": {
+      "CardID": 18802001012,
+      "CardName": "血色晚宴",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0022.WB_BrandBG_B_0022_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0022.T_BrandBG_B_0022",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101006
+    },
+    "18803001012": {
+      "CardID": 18803001012,
+      "CardName": "美酒一杯",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0022.WB_BrandCover_B_0022_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0022.T_BrandCover_B_0022",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101006
+    },
+    "18801001013": {
+      "CardID": 18801001013,
+      "CardName": "模范先锋",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000043",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_C_0028.T_BrandRole_C_0028",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802001013": {
+      "CardID": 18802001013,
+      "CardName": "陨落都市",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0028.T_BrandBG_C_0028",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803001013": {
+      "CardID": 18803001013,
+      "CardName": "战意未尽",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0028.T_BrandCover_C_0028",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801001014": {
+      "CardID": 18801001014,
+      "CardName": "恶女笑颜",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000047",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_C_0029.T_BrandRole_C_0029",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802001014": {
+      "CardID": 18802001014,
+      "CardName": "樱之广场",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0029.T_BrandBG_C_0029",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803001014": {
+      "CardID": 18803001014,
+      "CardName": "石中利刃",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0029.T_BrandCover_C_0029",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000039": {
+      "CardID": 18802000039,
+      "CardName": "破碎之地",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0023.WB_BrandBG_B_0023_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0023.T_BrandBG_B_0023",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101004
+    },
+    "18802000040": {
+      "CardID": 18802000040,
+      "CardName": "粉墨双子",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0024.WB_BrandBG_B_0024_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0024.T_BrandBG_B_0024",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 201006
+    },
+    "18802000041": {
+      "CardID": 18802000041,
+      "CardName": "符文流转",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0025.WB_BrandBG_B_0025_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0025.T_BrandBG_B_0025",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 201009
+    },
+    "18802000042": {
+      "CardID": 18802000042,
+      "CardName": "残骸之城",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0026.WB_BrandBG_B_0026_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0026.T_BrandBG_B_0026",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000043": {
+      "CardID": 18802000043,
+      "CardName": "金矿闪闪",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0030.T_BrandBG_C_0030",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000044": {
+      "CardID": 18802000044,
+      "CardName": "侵蚀之城",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0031.T_BrandBG_C_0031",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000045": {
+      "CardID": 18802000045,
+      "CardName": "生命核心",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0032.T_BrandBG_C_0032",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000046": {
+      "CardID": 18802000046,
+      "CardName": "樱之庭院",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0033.T_BrandBG_C_0033",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000047": {
+      "CardID": 18802000047,
+      "CardName": "碧波桃影",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0034.T_BrandBG_C_0034",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000048": {
+      "CardID": 18802000048,
+      "CardName": "都市之灵",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0035.T_BrandBG_C_0035",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000049": {
+      "CardID": 18802000049,
+      "CardName": "熊猫之都",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0036.T_BrandBG_C_0036",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000050": {
+      "CardID": 18802000050,
+      "CardName": "蚀寺之根",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0037.T_BrandBG_C_0037",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000051": {
+      "CardID": 18802000051,
+      "CardName": "残城古刹",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0038.T_BrandBG_C_0038",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000052": {
+      "CardID": 18802000052,
+      "CardName": "研究中心",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_D_0018.T_BrandBG_D_0018",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000053": {
+      "CardID": 18802000053,
+      "CardName": "虚光投影",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_D_0019.T_BrandBG_D_0019",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000054": {
+      "CardID": 18802000054,
+      "CardName": "蔷薇庄园",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_D_0020.T_BrandBG_D_0020",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000055": {
+      "CardID": 18802000055,
+      "CardName": "毒蝎之影",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_D_0021.T_BrandBG_D_0021",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000056": {
+      "CardID": 18802000056,
+      "CardName": "烟火绽放",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_D_0022.T_BrandBG_D_0022",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000034": {
+      "CardID": 18803000034,
+      "CardName": "樱华之刃",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0027.WB_BrandCover_B_0027_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0027.T_BrandCover_B_0027",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101004
+    },
+    "18803000035": {
+      "CardID": 18803000035,
+      "CardName": "金矿闪闪",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0028.WB_BrandCover_B_0028_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0028.T_BrandCover_B_0028",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000036": {
+      "CardID": 18803000036,
+      "CardName": "粉墨相融",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0029.WB_BrandCover_B_0029_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0029.T_BrandCover_B_0029",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 201006
+    },
+    "18803000037": {
+      "CardID": 18803000037,
+      "CardName": "幻影藏锋",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0030.WB_BrandCover_B_0030_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0030.T_BrandCover_B_0030",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 201009
+    },
+    "18803000038": {
+      "CardID": 18803000038,
+      "CardName": "侵蚀巨木",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0039.T_BrandCover_C_0039",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000039": {
+      "CardID": 18803000039,
+      "CardName": "云雷双枪",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0040.T_BrandCover_C_0040",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000040": {
+      "CardID": 18803000040,
+      "CardName": "蔷薇启动",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0041.T_BrandCover_C_0041",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000041": {
+      "CardID": 18803000041,
+      "CardName": "BBK玩伴",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0042.T_BrandCover_C_0042",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000042": {
+      "CardID": 18803000042,
+      "CardName": "小狸",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0043.T_BrandCover_C_0043",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000043": {
+      "CardID": 18803000043,
+      "CardName": "突击鼓手",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0044.T_BrandCover_C_0044",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000044": {
+      "CardID": 18803000044,
+      "CardName": "独唱男高音",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0045.T_BrandCover_C_0045",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000045": {
+      "CardID": 18803000045,
+      "CardName": "冷酷管乐手",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0023.T_BrandCover_D_0023",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000046": {
+      "CardID": 18803000046,
+      "CardName": "活力弦乐手",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0024.T_BrandCover_D_0024",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000047": {
+      "CardID": 18803000047,
+      "CardName": "重装自走琴",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0025.T_BrandCover_D_0025",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000048": {
+      "CardID": 18803000048,
+      "CardName": "毒蛛",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0026.T_BrandCover_D_0026",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000049": {
+      "CardID": 18803000049,
+      "CardName": "超导无人机",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0027.T_BrandCover_D_0027",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801000029": {
+      "CardID": 18801000029,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000046",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0018.T_BrandRole_E_0018",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000050": {
+      "CardID": 18803000050,
+      "CardName": "浪浪山小妖怪",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0031.WB_BrandCover_B_0031_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0031.T_BrandCover_B_0031",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 102003
+    },
+    "18803000051": {
+      "CardID": 18803000051,
+      "CardName": "降妖除魔",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0046.T_BrandCover_C_0046",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 102003
+    },
+    "18802000057": {
+      "CardID": 18802000057,
+      "CardName": "薪火一触",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0032.WB_BrandBG_B_0032_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0032.T_BrandBG_B_0032",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 102003
+    },
+    "18802000058": {
+      "CardID": 18802000058,
+      "CardName": "取经途中",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0047.T_BrandBG_C_0047",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 102003
+    },
+    "18801000030": {
+      "CardID": 18801000030,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000050",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0020.T_BrandRole_E_0020",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000031": {
+      "CardID": 18801000031,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000049",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0021.T_BrandRole_E_0021",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000032": {
+      "CardID": 18801000032,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000052",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0022.T_BrandRole_E_0022",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801000033": {
+      "CardID": 18801000033,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10001000051",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_E_0023.T_BrandRole_E_0023",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801001017": {
+      "CardID": 18801001017,
+      "CardName": "压轴出场",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000049",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_C_0046.T_BrandRole_C_0046",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802001017": {
+      "CardID": 18802001017,
+      "CardName": "星光聚焦",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0046.T_BrandBG_C_0046",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803001017": {
+      "CardID": 18803001017,
+      "CardName": "摇滚节奏",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0046.T_BrandCover_C_0046",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000059": {
+      "CardID": 18802000059,
+      "CardName": "英姿·领航逆行者",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_A_0010.WB_BrandBG_A_0010_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_A_0010.T_BrandBG_A_0010",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000060": {
+      "CardID": 18802000060,
+      "CardName": "英姿·无畏逆行者",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0033.WB_BrandBG_B_0033_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0033.T_BrandBG_B_0033",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000061": {
+      "CardID": 18802000061,
+      "CardName": "醉梦狂欢",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0034.WB_BrandBG_B_0034_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0034.T_BrandBG_B_0034",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101012
+    },
+    "18802000062": {
+      "CardID": 18802000062,
+      "CardName": "磁流海浪",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0035.WB_BrandBG_B_0035_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0035.T_BrandBG_B_0035",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000063": {
+      "CardID": 18802000063,
+      "CardName": "娱乐入场",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0036.WB_BrandBG_B_0036_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0036.T_BrandBG_B_0036",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000065": {
+      "CardID": 18802000065,
+      "CardName": "帅杰克的王国",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0038.WB_BrandBG_B_0038_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0038.T_BrandBG_B_0038",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000066": {
+      "CardID": 18802000066,
+      "CardName": "星门要塞",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0043.WB_BrandBG_B_0043_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0043.T_BrandBG_B_0043",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000067": {
+      "CardID": 18802000067,
+      "CardName": "钢铁伙伴",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0037.WB_BrandBG_B_0037_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0037.T_BrandBG_B_0037",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000068": {
+      "CardID": 18802000068,
+      "CardName": "枢纽焰心",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0041.WB_BrandBG_B_0041_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0041.T_BrandBG_B_0041",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000069": {
+      "CardID": 18802000069,
+      "CardName": "爱溢花海",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0039.WB_BrandBG_B_0039_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0039.T_BrandBG_B_0039",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000070": {
+      "CardID": 18802000070,
+      "CardName": "甜蜜宇宙",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_WY5_BrandBG_C_0059.T_WY5_BrandBG_C_0059",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000071": {
+      "CardID": 18802000071,
+      "CardName": "销金城外",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0049.T_BrandBG_C_0049",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000073": {
+      "CardID": 18802000073,
+      "CardName": "霓虹泳池",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0051.T_BrandBG_C_0051",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000074": {
+      "CardID": 18802000074,
+      "CardName": "娱乐场大厅",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0052.T_BrandBG_C_0052",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000075": {
+      "CardID": 18802000075,
+      "CardName": "暴风眼",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0053.T_BrandBG_C_0053",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000076": {
+      "CardID": 18802000076,
+      "CardName": "娱乐城",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0054.T_BrandBG_C_0054",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000077": {
+      "CardID": 18802000077,
+      "CardName": "无主竞技场",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0055.T_BrandBG_C_0055",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000078": {
+      "CardID": 18802000078,
+      "CardName": "未知回廊",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0056.T_BrandBG_C_0056",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000079": {
+      "CardID": 18802000079,
+      "CardName": "融金囚笼",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0057.T_BrandBG_C_0057",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000080": {
+      "CardID": 18802000080,
+      "CardName": "罪金终章",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0058.T_BrandBG_C_0058",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000081": {
+      "CardID": 18802000081,
+      "CardName": "失落游轮",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_D_0028.T_BrandBG_D_0028",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000082": {
+      "CardID": 18802000082,
+      "CardName": "罪恶工厂",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_D_0029.T_BrandBG_D_0029",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000083": {
+      "CardID": 18802000083,
+      "CardName": "金库穹顶",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_D_0030.T_BrandBG_D_0030",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000052": {
+      "CardID": 18803000052,
+      "CardName": "卓绝·领航逆行者",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_A_0011.WB_BrandCover_A_0011_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_A_0011.T_BrandCover_A_0011",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000053": {
+      "CardID": 18803000053,
+      "CardName": "卓绝·无畏逆行者",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0044.WB_BrandCover_B_0044_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0044.T_BrandCover_B_0044",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000054": {
+      "CardID": 18803000054,
+      "CardName": "章鱼触手",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0045.WB_BrandCover_B_0045_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0045.T_BrandCover_B_0045",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000055": {
+      "CardID": 18803000055,
+      "CardName": "狂欢美梦",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0046.WB_BrandCover_B_0046_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0046.T_BrandCover_B_0046",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101012
+    },
+    "18803000056": {
+      "CardID": 18803000056,
+      "CardName": "天鹅之恋",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0043.WB_BrandCover_B_0043_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0043.T_BrandCover_B_0043",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000057": {
+      "CardID": 18803000057,
+      "CardName": "权弈棋盘",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0048.WB_BrandCover_B_0048_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0048.T_BrandCover_B_0048",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000059": {
+      "CardID": 18803000059,
+      "CardName": "财富之星",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0050.WB_BrandCover_B_0050_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0050.T_BrandCover_B_0050",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000060": {
+      "CardID": 18803000060,
+      "CardName": "博弈之局",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0059.T_BrandCover_C_0059",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000061": {
+      "CardID": 18803000061,
+      "CardName": "甜蜜之心",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_WY5_BrandCover_C_0067.T_WY5_BrandCover_C_0067",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000062": {
+      "CardID": 18803000062,
+      "CardName": "小吵闹",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0061.T_BrandCover_C_0061",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000064": {
+      "CardID": 18803000064,
+      "CardName": "BBK助威",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0062.T_BrandCover_C_0062",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000066": {
+      "CardID": 18803000066,
+      "CardName": "机械公爵",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0063.T_BrandCover_C_0063",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000067": {
+      "CardID": 18803000067,
+      "CardName": "铁鹰",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0064.T_BrandCover_C_0064",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000068": {
+      "CardID": 18803000068,
+      "CardName": "BBK董事长",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0065.T_BrandCover_C_0065",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000069": {
+      "CardID": 18803000069,
+      "CardName": "赛博格工程师",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0066.T_BrandCover_C_0066",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000070": {
+      "CardID": 18803000070,
+      "CardName": "恐龙骑兵",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0031.T_BrandCover_D_0031",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000071": {
+      "CardID": 18803000071,
+      "CardName": "因多暴龙",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0032.T_BrandCover_D_0032",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000072": {
+      "CardID": 18803000072,
+      "CardName": "哈士奇导弹",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0033.T_BrandCover_D_0033",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000072": {
+      "CardID": 18802000072,
+      "CardName": "金牛大厅",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0050.T_BrandBG_C_0050",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801000035": {
+      "CardID": 18801000035,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000054",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_XS3_BrandRole_E_0019.T_XS3_BrandRole_E_0019",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18801001018": {
+      "CardID": 18801001018,
+      "CardName": "火焰的誓言",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000053",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandRole/WB_XS3_BrandRole_A_0010.WB_XS3_BrandRole_A_0010_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_XS3_BrandRole_A_0010.T_XS3_BrandRole_A_0010",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101008
+    },
+    "18802001018": {
+      "CardID": 18802001018,
+      "CardName": "冲破枷锁",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000053",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_XS3_BrandBG_A_0010.WB_XS3_BrandBG_A_0010_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_XS3_BrandBG_A_0010.T_XS3_BrandBG_A_0010",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101008
+    },
+    "18803001018": {
+      "CardID": 18803001018,
+      "CardName": "同频",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000053",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_XS3_BrandCover_A_0010.WB_XS3_BrandCover_A_0010_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_XS3_BrandCover_A_0010.T_XS3_BrandCover_A_0010",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101008
+    },
+    "18801001019": {
+      "CardID": 18801001019,
+      "CardName": "闪耀星芒",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000054",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_XS3_BrandRole_B_0051.T_XS3_BrandRole_B_0051",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101009
+    },
+    "18802001019": {
+      "CardID": 18802001019,
+      "CardName": "长夜航迹",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_XS3_BrandBG_B_0051.WB_XS3_BrandBG_B_0051_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_XS3_BrandBG_B_0051.T_XS3_BrandBG_B_0051",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101009
+    },
+    "18803001019": {
+      "CardID": 18803001019,
+      "CardName": "掌中星",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_XS3_BrandCover_B_0051.WB_XS3_BrandCover_B_0051_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_XS3_BrandCover_B_0051.T_XS3_BrandCover_B_0051",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101009
+    },
+    "18802000085": {
+      "CardID": 18802000085,
+      "CardName": "隙间花",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_XS3_BrandBG_B_0052.WB_XS3_BrandBG_B_0052_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_XS3_BrandBG_B_0052.T_XS3_BrandBG_B_0052",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101008
+    },
+    "18802000086": {
+      "CardID": 18802000086,
+      "CardName": "光耀余晖",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_XS3_BrandBG_B_0053.WB_XS3_BrandBG_B_0053_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_XS3_BrandBG_B_0053.T_XS3_BrandBG_B_0053",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101011
+    },
+    "18802000087": {
+      "CardID": 18802000087,
+      "CardName": "白羽鸦影",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_XS3_BrandBG_C_0070.T_XS3_BrandBG_C_0070",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101009
+    },
+    "18803000074": {
+      "CardID": 18803000074,
+      "CardName": "破晓辉光",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_XS3_BrandCover_B_0054.WB_XS3_BrandCover_B_0054_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_XS3_BrandCover_B_0054.T_XS3_BrandCover_B_0054",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101008
+    },
+    "18803000075": {
+      "CardID": 18803000075,
+      "CardName": "浴火行空",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_XS3_BrandCover_B_0053.WB_XS3_BrandCover_B_0053_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_XS3_BrandCover_B_0053.T_XS3_BrandCover_B_0053",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101011
+    },
+    "18803000076": {
+      "CardID": 18803000076,
+      "CardName": "向死",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_XS3_BrandCover_C_0071.T_XS3_BrandCover_C_0071",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101009
+    },
+    "18801001020": {
+      "CardID": 18801001020,
+      "CardName": "终暮圣祈",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000055",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandRole/WB_XS3_BrandRole_A_0011.WB_XS3_BrandRole_A_0011_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_XS3_BrandRole_A_0011.T_XS3_BrandRole_A_0011",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101010
+    },
+    "18802001020": {
+      "CardID": 18802001020,
+      "CardName": "棂间圣辉",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000055",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_XS3_BrandBG_A_0011.WB_XS3_BrandBG_A_0011_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_XS3_BrandBG_A_0011.T_XS3_BrandBG_A_0011",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101010
+    },
+    "18803001020": {
+      "CardID": 18803001020,
+      "CardName": "圣台暮影",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000055",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_XS3_BrandCover_A_0011.WB_XS3_BrandCover_A_0011_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_XS3_BrandCover_A_0011.T_XS3_BrandCover_A_0011",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101010
+    },
+    "18802000088": {
+      "CardID": 18802000088,
+      "CardName": "毒潭幻境",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0061.WB_BrandBG_B_0061_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0061.T_BrandBG_B_0061",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 201010
+    },
+    "18803000077": {
+      "CardID": 18803000077,
+      "CardName": "狂鳄",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0051.WB_BrandCover_B_0051_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0051.T_BrandCover_B_0051",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 201010
+    },
+    "18802000089": {
+      "CardID": 18802000089,
+      "CardName": "穹光庭园",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0055.WB_BrandBG_B_0055_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0055.T_BrandBG_B_0055",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101010
+    },
+    "18802000090": {
+      "CardID": 18802000090,
+      "CardName": "轨道重炮",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0056.WB_BrandBG_B_0056_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0056.T_BrandBG_B_0056",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 201011
+    },
+    "18802000091": {
+      "CardID": 18802000091,
+      "CardName": "紫晶前哨",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0057.WB_BrandBG_B_0057_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0057.T_BrandBG_B_0057",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000092": {
+      "CardID": 18802000092,
+      "CardName": "战事纪念",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0058.WB_BrandBG_B_0058_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0058.T_BrandBG_B_0058",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000093": {
+      "CardID": 18802000093,
+      "CardName": "霓渊幻都",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0059.WB_BrandBG_B_0059_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0059.T_BrandBG_B_0059",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000094": {
+      "CardID": 18802000094,
+      "CardName": "星光殿堂",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0060.WB_BrandBG_B_0060_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0060.T_BrandBG_B_0060",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000078": {
+      "CardID": 18803000078,
+      "CardName": "BBK登场",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0052.WB_BrandCover_B_0052_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0052.T_BrandCover_B_0052",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 201011
+    },
+    "18803000079": {
+      "CardID": 18803000079,
+      "CardName": "静谧花坛",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0053.WB_BrandCover_B_0053_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0053.T_BrandCover_B_0053",
+        "SubPathString": ""
+      },
+      "ResourceType": 3,
+      "TimeStampID": 101010
+    },
+    "18803000080": {
+      "CardID": 18803000080,
+      "CardName": "未名之刃",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0054.WB_BrandCover_B_0054_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0054.T_BrandCover_B_0054",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000081": {
+      "CardID": 18803000081,
+      "CardName": "寻求生机",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0055.WB_BrandCover_B_0055_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0055.T_BrandCover_B_0055",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000082": {
+      "CardID": 18803000082,
+      "CardName": "炫光舞台",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0056.WB_BrandCover_B_0056_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0056.T_BrandCover_B_0056",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18801001021": {
+      "CardID": 18801001021,
+      "CardName": "整装待发",
+      "CardType": 1,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "10002000061 ",
+      "bUserSelectable": true,
+      "IsDefUnlock": true,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandRole/Static/T_BrandRole_C_0072.T_BrandRole_C_0072",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802001021": {
+      "CardID": 18802001021,
+      "CardName": "控制中枢",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0072.T_BrandBG_C_0072",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803001021": {
+      "CardID": 18803001021,
+      "CardName": "主炮控制室",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0072.T_BrandCover_C_0072",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000095": {
+      "CardID": 18802000095,
+      "CardName": "幻音舞台",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0073.T_BrandBG_C_0073",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18802000096": {
+      "CardID": 18802000096,
+      "CardName": "重力装置",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0074.T_BrandBG_C_0074",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000097": {
+      "CardID": 18802000097,
+      "CardName": "引擎大厅",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0075.T_BrandBG_C_0075",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000098": {
+      "CardID": 18802000098,
+      "CardName": "引擎中枢",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0076.T_BrandBG_C_0076",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000099": {
+      "CardID": 18802000099,
+      "CardName": "危在旦夕",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_C_0077.T_BrandBG_C_0077",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000083": {
+      "CardID": 18803000083,
+      "CardName": "律动核心",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0078.T_BrandCover_C_0078",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000084": {
+      "CardID": 18803000084,
+      "CardName": "蛛形机器人",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0079.T_BrandCover_C_0079",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000085": {
+      "CardID": 18803000085,
+      "CardName": "康普尼无人机",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0080.T_BrandCover_C_0080",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000086": {
+      "CardID": 18803000086,
+      "CardName": "植物温室",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_C_0081.T_BrandCover_C_0081",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000100": {
+      "CardID": 18802000100,
+      "CardName": "深邃航向",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_D_0034.T_BrandBG_D_0034",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000101": {
+      "CardID": 18802000101,
+      "CardName": "月海基地",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_D_0035.T_BrandBG_D_0035",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000087": {
+      "CardID": 18803000087,
+      "CardName": "暗潮兵虫",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0036.T_BrandCover_D_0036",
+        "SubPathString": ""
+      },
+      "ResourceType": 1,
+      "TimeStampID": 0
+    },
+    "18803000088": {
+      "CardID": 18803000088,
+      "CardName": "孤星",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_D_0037.T_BrandCover_D_0037",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18802000104": {
+      "CardID": 18802000104,
+      "CardName": "地月之间",
+      "CardType": 2,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandBG/WB_BrandBG_B_0062.WB_BrandBG_B_0062_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandBG/Static/T_BrandBG_B_0062.T_BrandBG_B_0062",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    },
+    "18803000091": {
+      "CardID": 18803000091,
+      "CardName": "背水一战",
+      "CardType": 3,
+      "QualityTag": "",
+      "CardDesc": "",
+      "BelongedRoleID": "0",
+      "bUserSelectable": true,
+      "IsDefUnlock": false,
+      "CardPath": {
+        "AssetPathName": "/Game/UI/UI_Widgets/Avatar/BrandAvatar/BrandCover/WB_BrandCover_B_0057.WB_BrandCover_B_0057_C",
+        "SubPathString": ""
+      },
+      "StaticImagedPath": {
+        "AssetPathName": "/Game/UI/UI_Textures/Icons/Avatar/BrandAvatar/BrandCover/Static/T_BrandCover_B_0057.T_BrandCover_B_0057",
+        "SubPathString": ""
+      },
+      "ResourceType": 2,
+      "TimeStampID": 0
+    }
+  }
+}

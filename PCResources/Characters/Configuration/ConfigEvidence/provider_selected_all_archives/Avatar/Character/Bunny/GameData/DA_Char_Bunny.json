@@ -1,0 +1,43 @@
+{
+  "Type": "AvaCharItemData",
+  "Name": "DA_Char_Bunny",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'AvaCharItemData'",
+  "Package": "NZM/Content/Avatar/Character/Bunny/GameData/DA_Char_Bunny",
+  "Properties": {
+    "TPPConfig": {
+      "DefaultPartItems": [
+        "10056020001",
+        "10056020002",
+        "10056020003",
+        "10056020004",
+        "10056020007",
+        "10056020008"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Base/Female_Base_Mesh_Master.Female_Base_Mesh_Master",
+        "SubPathString": ""
+      }
+    },
+    "UIConfig": {
+      "DefaultPartItems": [
+        "10056010002",
+        "10056010003",
+        "10056010004",
+        "10056010007",
+        "10056010008"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Bunny/CommonRes/Mesh/SK_Char_Bunny_Mesh_Master.SK_Char_Bunny_Mesh_Master",
+        "SubPathString": ""
+      }
+    },
+    "ModeConfig": {
+      "Gender": "EAvaGenderType::Female",
+      "BindTag": {
+        "TagName": "Avatar.Character.Bunny"
+      }
+    },
+    "AssetPathName": "/Game/Avatar/Character/Bunny/GameData/DA_Char_Bunny.DA_Char_Bunny"
+  }
+}

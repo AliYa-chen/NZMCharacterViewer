@@ -1,0 +1,775 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:03:11.2767091Z",
+  "scope": "Offline data checks: ActorX points and every nonzero weight/index exactly compared against decoded source DTO; PNG decoded and dimensions checked against highest available source mip. No UE import, rig animation, material appearance or device validation.",
+  "results": [
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_GlitterNormalMap_cfa8122941a432eee0de6d4375aa20bf.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_GlitterNormalMap_cfa8122941a432eee0de6d4375aa20bf.T_VMGen_GlitterNormalMap_cfa8122941a432eee0de6d4375aa20bf",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Base/Textures/T_Eye_Highlight_spot.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_IrisHighlightTex_3bf9d7af07367e0a0042fdbbef53ca09.T_VMGen_IrisHighlightTex_3bf9d7af07367e0a0042fdbbef53ca09",
+      "status": "pass",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/AICharacters/Resource/Boss_CYDuxMachina/Materials/T_Base_Black.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_MetallicMap_0fe9150d7d01ace771fdcd3bc911ffac.T_VMGen_MetallicMap_0fe9150d7d01ace771fdcd3bc911ffac",
+      "status": "pass",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_NormalMap_25671443a031a1ade8db494094355ceb.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_NormalMap_25671443a031a1ade8db494094355ceb.T_VMGen_NormalMap_25671443a031a1ade8db494094355ceb",
+      "status": "pass",
+      "width": 1,
+      "height": 1
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_NormalMap_6a2ec00851530c9cd4b54b2b1cb217e7.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_NormalMap_6a2ec00851530c9cd4b54b2b1cb217e7.T_VMGen_NormalMap_6a2ec00851530c9cd4b54b2b1cb217e7",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_PSARMap_3c602d7a116bb80155423d35336b3f99.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_PSARMap_3c602d7a116bb80155423d35336b3f99.T_VMGen_PSARMap_3c602d7a116bb80155423d35336b3f99",
+      "status": "pass",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_PSARMap_46a16c26ba3b9767a84224b6feb5ccb8.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_PSARMap_46a16c26ba3b9767a84224b6feb5ccb8.T_VMGen_PSARMap_46a16c26ba3b9767a84224b6feb5ccb8",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_PSARMap_46a16c26ba3b9767a84224b6feb5ccb8.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_PSARMap_569782807bda8215fff6f4eb6b278880.T_VMGen_PSARMap_569782807bda8215fff6f4eb6b278880",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_PSARMap_5862105ded2219902f8eb7918aeff9cf.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_PSARMap_5862105ded2219902f8eb7918aeff9cf.T_VMGen_PSARMap_5862105ded2219902f8eb7918aeff9cf",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_PSARMap_3c602d7a116bb80155423d35336b3f99.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_PSARMap_95629be6464f04458112c027d89a6712.T_VMGen_PSARMap_95629be6464f04458112c027d89a6712",
+      "status": "pass",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_00c115e88b69c46b29bbc5a364413cff.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_00c115e88b69c46b29bbc5a364413cff.T_VMGen_RAMMap_00c115e88b69c46b29bbc5a364413cff",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_103ee669914f376f340c561d5477051f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_103ee669914f376f340c561d5477051f.T_VMGen_RAMMap_103ee669914f376f340c561d5477051f",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_108ab54b3373d158967e899d08af4375.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_108ab54b3373d158967e899d08af4375.T_VMGen_RAMMap_108ab54b3373d158967e899d08af4375",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_174b8c0b7c2dff0a68d719dec0a7dcfe.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_174b8c0b7c2dff0a68d719dec0a7dcfe.T_VMGen_RAMMap_174b8c0b7c2dff0a68d719dec0a7dcfe",
+      "status": "pass",
+      "width": 4,
+      "height": 4
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_213758b5baa0a7d76ae68e14dcd7ef5c.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_213758b5baa0a7d76ae68e14dcd7ef5c.T_VMGen_RAMMap_213758b5baa0a7d76ae68e14dcd7ef5c",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_00c115e88b69c46b29bbc5a364413cff.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_37ef7908f0cb15d758d70cde1dfbe22f.T_VMGen_RAMMap_37ef7908f0cb15d758d70cde1dfbe22f",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_3be709d90480d125e1e1ce3f32a19c2e.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_3be709d90480d125e1e1ce3f32a19c2e.T_VMGen_RAMMap_3be709d90480d125e1e1ce3f32a19c2e",
+      "status": "pass",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_5c805a49093bf62e31cc5a3cb9f51592.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_5c805a49093bf62e31cc5a3cb9f51592.T_VMGen_RAMMap_5c805a49093bf62e31cc5a3cb9f51592",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_6239d34c75a4ae9da15f09678026cc3e.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_6239d34c75a4ae9da15f09678026cc3e.T_VMGen_RAMMap_6239d34c75a4ae9da15f09678026cc3e",
+      "status": "pass",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_799bed09f9f0e456ebd3d4db89c03664.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_799bed09f9f0e456ebd3d4db89c03664.T_VMGen_RAMMap_799bed09f9f0e456ebd3d4db89c03664",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_6239d34c75a4ae9da15f09678026cc3e.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_b01762ed0ffa8f8eaacc96e32630989b.T_VMGen_RAMMap_b01762ed0ffa8f8eaacc96e32630989b",
+      "status": "pass",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_b6a232a1534ff19fbc883cc27fe19988.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_b6a232a1534ff19fbc883cc27fe19988.T_VMGen_RAMMap_b6a232a1534ff19fbc883cc27fe19988",
+      "status": "pass",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_e3053d889e2789b72935a70ef1df37c5.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_e3053d889e2789b72935a70ef1df37c5.T_VMGen_RAMMap_e3053d889e2789b72935a70ef1df37c5",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_6239d34c75a4ae9da15f09678026cc3e.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_RAMMap_fd2cdcfe7a62cc5a807256b8ccdffe3b.T_VMGen_RAMMap_fd2cdcfe7a62cc5a807256b8ccdffe3b",
+      "status": "pass",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/Character/Angel/Angel_Lucia_A/Textures/T_VMGen_BaseColorMap_8e0c942757c78e0779aec76535034b2b.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/Angel_Lucia_A/Textures/T_VMGen_BaseColorMap_8e0c942757c78e0779aec76535034b2b.T_VMGen_BaseColorMap_8e0c942757c78e0779aec76535034b2b",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_3819aaff9f7f95cff3654b549d6f3d72.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_3819aaff9f7f95cff3654b549d6f3d72.T_VMGen_BaseColorMap_3819aaff9f7f95cff3654b549d6f3d72",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_4fe7e471c4f73e6a3801cc0b0ee7202e.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_4fe7e471c4f73e6a3801cc0b0ee7202e.T_VMGen_BaseColorMap_4fe7e471c4f73e6a3801cc0b0ee7202e",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_527997295b66c83ac7a97c8327fdcf51.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_527997295b66c83ac7a97c8327fdcf51.T_VMGen_BaseColorMap_527997295b66c83ac7a97c8327fdcf51",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_78bfe534d398bd3ba50ab1e7bd2ffbde.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_78bfe534d398bd3ba50ab1e7bd2ffbde.T_VMGen_BaseColorMap_78bfe534d398bd3ba50ab1e7bd2ffbde",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_7ec2980709c87c2ed791c416e0fb1482.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_7ec2980709c87c2ed791c416e0fb1482.T_VMGen_BaseColorMap_7ec2980709c87c2ed791c416e0fb1482",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_93360b07a16d6c2d86bce00fbdd4dba9.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_93360b07a16d6c2d86bce00fbdd4dba9.T_VMGen_BaseColorMap_93360b07a16d6c2d86bce00fbdd4dba9",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_941f120eab4167b50490a6d7149a6af7.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_941f120eab4167b50490a6d7149a6af7.T_VMGen_BaseColorMap_941f120eab4167b50490a6d7149a6af7",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_a51bda93ea36515193d08d86fe651ba7.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_a51bda93ea36515193d08d86fe651ba7.T_VMGen_BaseColorMap_a51bda93ea36515193d08d86fe651ba7",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_d10fc643658b6403092e08f48b57e401.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_d10fc643658b6403092e08f48b57e401.T_VMGen_BaseColorMap_d10fc643658b6403092e08f48b57e401",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_527997295b66c83ac7a97c8327fdcf51.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_ddb6db24892919c0ba1a41ace17150e0.T_VMGen_BaseColorMap_ddb6db24892919c0ba1a41ace17150e0",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_df493fc814281fb16998a4a8344bd9b3.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_df493fc814281fb16998a4a8344bd9b3.T_VMGen_BaseColorMap_df493fc814281fb16998a4a8344bd9b3",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_e2be7b65fb8afef94976d83122f3cab6.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_e2be7b65fb8afef94976d83122f3cab6.T_VMGen_BaseColorMap_e2be7b65fb8afef94976d83122f3cab6",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_f13ef388e77acc978f6e1fe7b754665d.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_f13ef388e77acc978f6e1fe7b754665d.T_VMGen_BaseColorMap_f13ef388e77acc978f6e1fe7b754665d",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_f7cd3e3e951f89cd127a1102420a803d.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_BaseColorMap_f7cd3e3e951f89cd127a1102420a803d.T_VMGen_BaseColorMap_f7cd3e3e951f89cd127a1102420a803d",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_EmissiveMap_0a21ceef00f7e70652549a7be88935e1.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_EmissiveMap_0a21ceef00f7e70652549a7be88935e1.T_VMGen_EmissiveMap_0a21ceef00f7e70652549a7be88935e1",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_EmissiveMap_0dd22ffb6be21ac624700c335e1a4ebe.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_EmissiveMap_0dd22ffb6be21ac624700c335e1a4ebe.T_VMGen_EmissiveMap_0dd22ffb6be21ac624700c335e1a4ebe",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_EmissiveMap_226f8211c5ddb856be5f5f453185e87c.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_EmissiveMap_226f8211c5ddb856be5f5f453185e87c.T_VMGen_EmissiveMap_226f8211c5ddb856be5f5f453185e87c",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_EmissiveMap_4a6e914d94ec78982bc51fa5085f18f9.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_EmissiveMap_4a6e914d94ec78982bc51fa5085f18f9.T_VMGen_EmissiveMap_4a6e914d94ec78982bc51fa5085f18f9",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_EmissiveMap_5572c23541037c7ed4fabc7127000c99.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_EmissiveMap_5572c23541037c7ed4fabc7127000c99.T_VMGen_EmissiveMap_5572c23541037c7ed4fabc7127000c99",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_EmissiveMap_df1905e4b894ca2982df9f47d186628c.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_EmissiveMap_df1905e4b894ca2982df9f47d186628c.T_VMGen_EmissiveMap_df1905e4b894ca2982df9f47d186628c",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_MetallicMap_5ab6e07942248d4af4afd2eeb3c059cc.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_MetallicMap_5ab6e07942248d4af4afd2eeb3c059cc.T_VMGen_MetallicMap_5ab6e07942248d4af4afd2eeb3c059cc",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_MetallicMap_73c7622d6e34a7ce86d22b0de1e6e682.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_MetallicMap_73c7622d6e34a7ce86d22b0de1e6e682.T_VMGen_MetallicMap_73c7622d6e34a7ce86d22b0de1e6e682",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_5289fe025dce47ca8ccba2f8d8a8eec0.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_5289fe025dce47ca8ccba2f8d8a8eec0.T_VMGen_NormalMap_5289fe025dce47ca8ccba2f8d8a8eec0",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_548f9bb97b410dd319ae8ea96d03e30a.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_548f9bb97b410dd319ae8ea96d03e30a.T_VMGen_NormalMap_548f9bb97b410dd319ae8ea96d03e30a",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_5d34a13618a6a04ee1a8337afef6a97a.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_5d34a13618a6a04ee1a8337afef6a97a.T_VMGen_NormalMap_5d34a13618a6a04ee1a8337afef6a97a",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_6533df1879fd644e26eb9688126cb76d.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_6533df1879fd644e26eb9688126cb76d.T_VMGen_NormalMap_6533df1879fd644e26eb9688126cb76d",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_7fa9254ecfe3f40990135cb4a9796469.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_7fa9254ecfe3f40990135cb4a9796469.T_VMGen_NormalMap_7fa9254ecfe3f40990135cb4a9796469",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_8d32c7c02aea60fe6e2473ee8ebdf09f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_8d32c7c02aea60fe6e2473ee8ebdf09f.T_VMGen_NormalMap_8d32c7c02aea60fe6e2473ee8ebdf09f",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_d2c8dc14cf12990ea8da8de9d8d33a99.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_NormalMap_d2c8dc14cf12990ea8da8de9d8d33a99.T_VMGen_NormalMap_d2c8dc14cf12990ea8da8de9d8d33a99",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_PSARMap_2c8d1d34a47f1701f639ca8ca53ad110.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_PSARMap_2c8d1d34a47f1701f639ca8ca53ad110.T_VMGen_PSARMap_2c8d1d34a47f1701f639ca8ca53ad110",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_PSARMap_628b3e2f0732923f47079334c25ee78f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_PSARMap_628b3e2f0732923f47079334c25ee78f.T_VMGen_PSARMap_628b3e2f0732923f47079334c25ee78f",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_0b8175ed5a09d3e98715edfc051f29b1.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_0b8175ed5a09d3e98715edfc051f29b1.T_VMGen_RAMMap_0b8175ed5a09d3e98715edfc051f29b1",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_11a547bb4dcebfc5fc4f829cc9800716.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_11a547bb4dcebfc5fc4f829cc9800716.T_VMGen_RAMMap_11a547bb4dcebfc5fc4f829cc9800716",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_16ba07737ac1bda81817b25be189a1f0.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_16ba07737ac1bda81817b25be189a1f0.T_VMGen_RAMMap_16ba07737ac1bda81817b25be189a1f0",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_5df15662a85896b2c4d53044437b2f6e.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_5df15662a85896b2c4d53044437b2f6e.T_VMGen_RAMMap_5df15662a85896b2c4d53044437b2f6e",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_79c43f64e23473a783dfd91cdafb2732.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_79c43f64e23473a783dfd91cdafb2732.T_VMGen_RAMMap_79c43f64e23473a783dfd91cdafb2732",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_a0345021512a013257577e8c1495e1eb.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_a0345021512a013257577e8c1495e1eb.T_VMGen_RAMMap_a0345021512a013257577e8c1495e1eb",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_a2d4e92de35fa0bf6adbce1249a74109.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_a2d4e92de35fa0bf6adbce1249a74109.T_VMGen_RAMMap_a2d4e92de35fa0bf6adbce1249a74109",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_a421ca00fe5949670c26468a214a95b5.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_a421ca00fe5949670c26468a214a95b5.T_VMGen_RAMMap_a421ca00fe5949670c26468a214a95b5",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angela/CommonRes/Textures/T_VMGen_BaseColorMap_2c7b09c6bbf445a243cc9cb83f3c1d40.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angela/CommonRes/Textures/T_VMGen_BaseColorMap_2c7b09c6bbf445a243cc9cb83f3c1d40.T_VMGen_BaseColorMap_2c7b09c6bbf445a243cc9cb83f3c1d40",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/Character/Angela/CommonRes/Textures/T_VMGen_BaseColorMap_2e8b4530c435ac4a35f0df2fa563bd02.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Angela/CommonRes/Textures/T_VMGen_BaseColorMap_2e8b4530c435ac4a35f0df2fa563bd02.T_VMGen_BaseColorMap_2e8b4530c435ac4a35f0df2fa563bd02",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/1P/T_VMGen_BaseColorMap_a3b6aae22aa50d1289a3122a360ccf92.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/1P/T_VMGen_BaseColorMap_a3b6aae22aa50d1289a3122a360ccf92.T_VMGen_BaseColorMap_a3b6aae22aa50d1289a3122a360ccf92",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/1P/T_VMGen_BaseColorMap_c75eda9c4ffefba47f79f677179afb94.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/1P/T_VMGen_BaseColorMap_c75eda9c4ffefba47f79f677179afb94.T_VMGen_BaseColorMap_c75eda9c4ffefba47f79f677179afb94",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/1P/T_VMGen_NormalMap_74603baeba0db4410059f663ca930e19.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/1P/T_VMGen_NormalMap_74603baeba0db4410059f663ca930e19.T_VMGen_NormalMap_74603baeba0db4410059f663ca930e19",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/1P/T_VMGen_PSARMap_08ec695afa31d37a6957effd2c2052fd.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/1P/T_VMGen_PSARMap_08ec695afa31d37a6957effd2c2052fd.T_VMGen_PSARMap_08ec695afa31d37a6957effd2c2052fd",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_00d267004f9d73041ee9f5c6d49d44b1.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_00d267004f9d73041ee9f5c6d49d44b1.T_VMGen_BaseColorMap_00d267004f9d73041ee9f5c6d49d44b1",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_0b058d692ba620a8c3801a652b1c1472.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_0b058d692ba620a8c3801a652b1c1472.T_VMGen_BaseColorMap_0b058d692ba620a8c3801a652b1c1472",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_2eb8f7f3a5fbdd24c3247a140e91d62b.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_2eb8f7f3a5fbdd24c3247a140e91d62b.T_VMGen_BaseColorMap_2eb8f7f3a5fbdd24c3247a140e91d62b",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_2f20536ecf72008aaf28e7d8f696f3d9.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_2f20536ecf72008aaf28e7d8f696f3d9.T_VMGen_BaseColorMap_2f20536ecf72008aaf28e7d8f696f3d9",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_45e26a251da56f569f325384c8f05416.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_45e26a251da56f569f325384c8f05416.T_VMGen_BaseColorMap_45e26a251da56f569f325384c8f05416",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_557b51c5360403277c5170c40da452a4.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_557b51c5360403277c5170c40da452a4.T_VMGen_BaseColorMap_557b51c5360403277c5170c40da452a4",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_60cf98ede1f9143318797b19270413a1.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_60cf98ede1f9143318797b19270413a1.T_VMGen_BaseColorMap_60cf98ede1f9143318797b19270413a1",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_65e3373eb0957dab178c4a287e346e8c.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_65e3373eb0957dab178c4a287e346e8c.T_VMGen_BaseColorMap_65e3373eb0957dab178c4a287e346e8c",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_71f635603dbc9ec5fe93cd6275789a96.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_71f635603dbc9ec5fe93cd6275789a96.T_VMGen_BaseColorMap_71f635603dbc9ec5fe93cd6275789a96",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_2f20536ecf72008aaf28e7d8f696f3d9.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_7fe299bf01b09e4db387c9ea37a0f739.T_VMGen_BaseColorMap_7fe299bf01b09e4db387c9ea37a0f739",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_c9821fd1afd3675f09231736e910864f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_c9821fd1afd3675f09231736e910864f.T_VMGen_BaseColorMap_c9821fd1afd3675f09231736e910864f",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_cae0aa923650d4f3feee7c661545c4c0.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_BaseColorMap_cae0aa923650d4f3feee7c661545c4c0.T_VMGen_BaseColorMap_cae0aa923650d4f3feee7c661545c4c0",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_IrisMap_9719d2dd1dea3d4fe6ba4f2d4cd90a88.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_IrisMap_9719d2dd1dea3d4fe6ba4f2d4cd90a88.T_VMGen_IrisMap_9719d2dd1dea3d4fe6ba4f2d4cd90a88",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_MetallicGlitterMaskMap_9d3ac35bfc2e30f4a420b8bde95f520d.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_MetallicGlitterMaskMap_9d3ac35bfc2e30f4a420b8bde95f520d.T_VMGen_MetallicGlitterMaskMap_9d3ac35bfc2e30f4a420b8bde95f520d",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Bunny/Bunny_Suit_C/Textures_HD/T_Char_Bunny_Suit_C_Body_E_HD.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_MetallicMap_7ad651a224cded20c2744ed2a23e4866.T_VMGen_MetallicMap_7ad651a224cded20c2744ed2a23e4866",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/Avatar/Character/Bunny/Bunny_Suit_C/Textures_HD/T_Char_Bunny_Suit_C_Body_E_HD.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_MetallicMap_be64e31ef9b6363ef79cab14c21e03d7.T_VMGen_MetallicMap_be64e31ef9b6363ef79cab14c21e03d7",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_NormalMap_2d9577984018329e88017cf36f2e3924.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_NormalMap_2d9577984018329e88017cf36f2e3924.T_VMGen_NormalMap_2d9577984018329e88017cf36f2e3924",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_NormalMap_3811040c55343b433f5225a4387d778e.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_NormalMap_3811040c55343b433f5225a4387d778e.T_VMGen_NormalMap_3811040c55343b433f5225a4387d778e",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_NormalMap_5427d18e1aacbfd1b22dd9fe02f5b75c.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_NormalMap_5427d18e1aacbfd1b22dd9fe02f5b75c.T_VMGen_NormalMap_5427d18e1aacbfd1b22dd9fe02f5b75c",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_NormalMap_6259bb497b69f638d3506898d4c865d4.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_NormalMap_6259bb497b69f638d3506898d4c865d4.T_VMGen_NormalMap_6259bb497b69f638d3506898d4c865d4",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_NormalMap_fc10941258633aeade271ca6bca3bbcb.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_NormalMap_fc10941258633aeade271ca6bca3bbcb.T_VMGen_NormalMap_fc10941258633aeade271ca6bca3bbcb",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_PSARMap_491458922a24c2f11a9287756f007455.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_PSARMap_491458922a24c2f11a9287756f007455.T_VMGen_PSARMap_491458922a24c2f11a9287756f007455",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_PSARMap_b62e1bfc906cd6345ace558e490d98e7.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_PSARMap_b62e1bfc906cd6345ace558e490d98e7.T_VMGen_PSARMap_b62e1bfc906cd6345ace558e490d98e7",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_PSARMap_de4b4048a319956f372a086f7082b50f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_PSARMap_de4b4048a319956f372a086f7082b50f.T_VMGen_PSARMap_de4b4048a319956f372a086f7082b50f",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_RAMMap_7f50f232b399008d3929e964d96a98bf.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_RAMMap_7f50f232b399008d3929e964d96a98bf.T_VMGen_RAMMap_7f50f232b399008d3929e964d96a98bf",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_RAMMap_e5cf54fc63484dbbae47f63abec86b00.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_RAMMap_e5cf54fc63484dbbae47f63abec86b00.T_VMGen_RAMMap_e5cf54fc63484dbbae47f63abec86b00",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    }
+  ]
+}

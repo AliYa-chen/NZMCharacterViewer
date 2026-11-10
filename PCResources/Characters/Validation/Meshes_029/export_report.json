@@ -1,0 +1,823 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:00:38.0953543Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllF_Emote2_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote2_B_Mesh",
+      "name": "SK_Pendant_Face_Mask_AllM_Emote2_B_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Mask_AllF_Emote2_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote2_B_Mesh.SK_Pendant_Face_Mask_AllM_Emote2_B_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Mask_AllF_Emote2_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote2_B_Mesh.uasset",
+          "size": 3843,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1508061184
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Mask_AllF_Emote2_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote2_B_Mesh.uexp",
+          "size": 596377,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1508063337
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 1818,
+            "triangles": 2510,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1708,
+            "triangles": 2302,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1488,
+            "triangles": 1942,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1191,
+            "triangles": 1490,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 619,
+            "triangles": 746,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 190,
+            "triangles": 192,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 94,
+            "triangles": 100,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 1818,
+            "indices": 7530,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote1_B_Mesh",
+      "name": "SK_Pendant_Face_Mask_AllM_Emote1_B_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote1_B_Mesh.SK_Pendant_Face_Mask_AllM_Emote1_B_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote1_B_Mesh.uasset",
+          "size": 3843,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1508345856
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote1_B_Mesh.uexp",
+          "size": 593737,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1508348009
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 1778,
+            "triangles": 2462,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1732,
+            "triangles": 2378,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1474,
+            "triangles": 1970,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1144,
+            "triangles": 1490,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 616,
+            "triangles": 748,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 190,
+            "triangles": 198,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 90,
+            "triangles": 96,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 1778,
+            "indices": 7386,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Cry_B/Mesh/SK_Pendant_Hand_Band_All_Cry_B_Mesh",
+      "name": "SK_Pendant_Hand_Band_All_Cry_B_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Cry_B/Mesh/SK_Pendant_Hand_Band_All_Cry_B_Mesh.SK_Pendant_Hand_Band_All_Cry_B_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Cry_B/Mesh/SK_Pendant_Hand_Band_All_Cry_B_Mesh.uasset",
+          "size": 3791,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1508904960
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Cry_B/Mesh/SK_Pendant_Hand_Band_All_Cry_B_Mesh.uexp",
+          "size": 215633,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1508907081
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 769,
+            "triangles": 978,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 635,
+            "triangles": 798,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 481,
+            "triangles": 574,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 304,
+            "triangles": 300,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 230,
+            "triangles": 208,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 108,
+            "triangles": 96,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 76,
+            "triangles": 64,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 769,
+            "indices": 2934,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Mesh/SK_Pendant_Hand_Band_All_Default_C_Mesh",
+      "name": "SK_Pendant_Hand_Band_All_Default_C_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Mesh/SK_Pendant_Hand_Band_All_Default_C_Mesh.SK_Pendant_Hand_Band_All_Default_C_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Mesh/SK_Pendant_Hand_Band_All_Default_C_Mesh.uasset",
+          "size": 3843,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1508988928
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Mesh/SK_Pendant_Hand_Band_All_Default_C_Mesh.uexp",
+          "size": 544093,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1508991065
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 2064,
+            "triangles": 2100,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1972,
+            "triangles": 1998,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1555,
+            "triangles": 1498,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 843,
+            "triangles": 708,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 463,
+            "triangles": 372,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 152,
+            "triangles": 100,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 116,
+            "triangles": 84,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 2064,
+            "indices": 6300,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Dog_B/Mesh/SK_Pendant_Head_Box_All_Dog_B_Mesh",
+      "name": "SK_Pendant_Head_Box_All_Dog_B_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Dog_B/Mesh/SK_Pendant_Head_Box_All_Dog_B_Mesh.SK_Pendant_Head_Box_All_Dog_B_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Dog_B/Mesh/SK_Pendant_Head_Box_All_Dog_B_Mesh.uasset",
+          "size": 3778,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1509257216
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Dog_B/Mesh/SK_Pendant_Head_Box_All_Dog_B_Mesh.uexp",
+          "size": 634949,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1509259353
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 2110,
+            "triangles": 3816,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1593,
+            "triangles": 2814,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1212,
+            "triangles": 2064,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 781,
+            "triangles": 1304,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 475,
+            "triangles": 730,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 345,
+            "triangles": 500,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 197,
+            "triangles": 290,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 2110,
+            "indices": 11448,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Embar_B/Mesh/SK_Pendant_Head_Box_All_Embar_B_Mesh",
+      "name": "SK_Pendant_Head_Box_All_Embar_B_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Embar_B/Mesh/SK_Pendant_Head_Box_All_Embar_B_Mesh.SK_Pendant_Head_Box_All_Embar_B_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Embar_B/Mesh/SK_Pendant_Head_Box_All_Embar_B_Mesh.uasset",
+          "size": 3804,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1509558272
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Embar_B/Mesh/SK_Pendant_Head_Box_All_Embar_B_Mesh.uexp",
+          "size": 351629,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1509560409
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 1149,
+            "triangles": 2062,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 789,
+            "triangles": 1374,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 650,
+            "triangles": 1122,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 464,
+            "triangles": 784,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 330,
+            "triangles": 530,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 178,
+            "triangles": 270,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 93,
+            "triangles": 126,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 1149,
+            "indices": 6186,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Mesh/SK_Pendant_Head_Box_All_Surprise_B_Mesh",
+      "name": "SK_Pendant_Head_Box_All_Surprise_B_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Mesh/SK_Pendant_Head_Box_All_Surprise_B_Mesh.SK_Pendant_Head_Box_All_Surprise_B_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Mesh/SK_Pendant_Head_Box_All_Surprise_B_Mesh.uasset",
+          "size": 3843,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1509742592
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Mesh/SK_Pendant_Head_Box_All_Surprise_B_Mesh.uexp",
+          "size": 1406577,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1509744729
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 4180,
+            "triangles": 7408,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 3603,
+            "triangles": 6324,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 3088,
+            "triangles": 5314,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1849,
+            "triangles": 3060,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1324,
+            "triangles": 2074,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 712,
+            "triangles": 998,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 404,
+            "triangles": 500,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 4180,
+            "indices": 22224,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Mesh/SK_Pendant_Head_Up_C03_Earphone_B_3P_Mesh",
+      "name": "SK_Pendant_Head_Up_C03_Earphone_B_3P_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Mesh/SK_Pendant_Head_Up_C03_Earphone_B_3P_Mesh.SK_Pendant_Head_Up_C03_Earphone_B_3P_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Mesh/SK_Pendant_Head_Up_C03_Earphone_B_3P_Mesh.uasset",
+          "size": 3836,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1510324224
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Mesh/SK_Pendant_Head_Up_C03_Earphone_B_3P_Mesh.uexp",
+          "size": 642917,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1510326361
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 3808,
+            "triangles": 4930,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2178,
+            "triangles": 2488,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 936,
+            "triangles": 996,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 486,
+            "triangles": 496,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 310,
+            "triangles": 248,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 182,
+            "triangles": 96,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 126,
+            "triangles": 70,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 3808,
+            "indices": 14790,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Mask_AllF_Emote2_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote2_B_Mesh.SK_Pendant_Face_Mask_AllM_Emote2_B_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Pendant/Face/Pendant_Face_Mask_AllF_Emote2_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote2_B_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote1_B_Mesh.SK_Pendant_Face_Mask_AllM_Emote1_B_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote1_B_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Cry_B/Mesh/SK_Pendant_Hand_Band_All_Cry_B_Mesh.SK_Pendant_Hand_Band_All_Cry_B_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Cry_B/Mesh/SK_Pendant_Hand_Band_All_Cry_B_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Mesh/SK_Pendant_Hand_Band_All_Default_C_Mesh.SK_Pendant_Hand_Band_All_Default_C_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Mesh/SK_Pendant_Hand_Band_All_Default_C_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Dog_B/Mesh/SK_Pendant_Head_Box_All_Dog_B_Mesh.SK_Pendant_Head_Box_All_Dog_B_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Pendant/Head/Pendant_Head_Box_All_Dog_B/Mesh/SK_Pendant_Head_Box_All_Dog_B_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Embar_B/Mesh/SK_Pendant_Head_Box_All_Embar_B_Mesh.SK_Pendant_Head_Box_All_Embar_B_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Pendant/Head/Pendant_Head_Box_All_Embar_B/Mesh/SK_Pendant_Head_Box_All_Embar_B_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Mesh/SK_Pendant_Head_Box_All_Surprise_B_Mesh.SK_Pendant_Head_Box_All_Surprise_B_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Mesh/SK_Pendant_Head_Box_All_Surprise_B_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Mesh/SK_Pendant_Head_Up_C03_Earphone_B_3P_Mesh.SK_Pendant_Head_Up_C03_Earphone_B_3P_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Mesh/SK_Pendant_Head_Up_C03_Earphone_B_3P_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Mask_AllF_Emote2_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote2_B_Mesh.SK_Pendant_Face_Mask_AllM_Emote2_B_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Pendant/Face/Pendant_Face_Mask_AllF_Emote2_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote2_B_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote1_B_Mesh.SK_Pendant_Face_Mask_AllM_Emote1_B_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Mesh/SK_Pendant_Face_Mask_AllM_Emote1_B_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Cry_B/Mesh/SK_Pendant_Hand_Band_All_Cry_B_Mesh.SK_Pendant_Hand_Band_All_Cry_B_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Cry_B/Mesh/SK_Pendant_Hand_Band_All_Cry_B_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Mesh/SK_Pendant_Hand_Band_All_Default_C_Mesh.SK_Pendant_Hand_Band_All_Default_C_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Mesh/SK_Pendant_Hand_Band_All_Default_C_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Dog_B/Mesh/SK_Pendant_Head_Box_All_Dog_B_Mesh.SK_Pendant_Head_Box_All_Dog_B_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Pendant/Head/Pendant_Head_Box_All_Dog_B/Mesh/SK_Pendant_Head_Box_All_Dog_B_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Embar_B/Mesh/SK_Pendant_Head_Box_All_Embar_B_Mesh.SK_Pendant_Head_Box_All_Embar_B_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Pendant/Head/Pendant_Head_Box_All_Embar_B/Mesh/SK_Pendant_Head_Box_All_Embar_B_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Mesh/SK_Pendant_Head_Box_All_Surprise_B_Mesh.SK_Pendant_Head_Box_All_Surprise_B_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Mesh/SK_Pendant_Head_Box_All_Surprise_B_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Mesh/SK_Pendant_Head_Up_C03_Earphone_B_3P_Mesh.SK_Pendant_Head_Up_C03_Earphone_B_3P_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Mesh/SK_Pendant_Head_Up_C03_Earphone_B_3P_Mesh.psk"
+      ],
+      "error": null
+    }
+  ]
+}

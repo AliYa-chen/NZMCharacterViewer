@@ -1,0 +1,1671 @@
+{
+  "Type": "DataTable",
+  "Name": "NZAvatarModelConfig_Character",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'DataTable'",
+  "Package": "NZM/Content/DataTables/Avatar/Character/NZAvatarModelConfig_Character",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'NZAvatarModelDataRow'",
+      "ObjectPath": "/Script/NZAvatar"
+    }
+  },
+  "Rows": {
+    "10002000008": {
+      "Description": "安琪儿",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Angel",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10000000010": {
+      "Description": "云飞",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_YunFei",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10000000012": {
+      "Description": "新月",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Xi",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10000000013": {
+      "Description": "万飞",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_WanFei",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10000000014": {
+      "Description": "曦",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Xi",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10000000015": {
+      "Description": "守护者",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Guardian",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10000000099": {
+      "Description": "校色板",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_JSB",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "50000000021": {
+      "Description": "曦-KRtraine",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_XiKRtrainee",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "50000000020": {
+      "Description": "曦-老虎装",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_XiCuteTiger",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "50000000022": {
+      "Description": "曦-XiPekingOperaGirl",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_XiPekingOperaGirl",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "50000000023": {
+      "Description": "曦-XiSpacewoman",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_XiSpacewoman",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "50000000024": {
+      "Description": "曦-XiVictoria",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_XiVictoria",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "50000000029": {
+      "Description": "守护者-GuardianBerserker",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_GuardianBerserker",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "50000000030": {
+      "Description": "守护者-GuardianBoom",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_GuardianBoomViolent",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "50000000031": {
+      "Description": "守护者-GuardianDarkLugiel",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_GuardianDarkLugiel",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "50000000032": {
+      "Description": "守护者-GuardianResearcher",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_GuardianResearcher",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "50000000033": {
+      "Description": "守护者-GuardianValentinesMan",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_GuardianValentinesMan",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10000010050": {
+      "Description": "Test1000Joint",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Test1000Joint",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "None"
+        },
+        "PrimaryAssetName": "None",
+        "AssetPath": "None"
+      }
+    },
+    "10000010049": {
+      "Description": "Test500Joint",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Test500Joint",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "None"
+        },
+        "PrimaryAssetName": "None",
+        "AssetPath": "None"
+      }
+    },
+    "10000010048": {
+      "Description": "Test250Joint",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Test250Joint",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "None"
+        },
+        "PrimaryAssetName": "None",
+        "AssetPath": "None"
+      }
+    },
+    "10000010047": {
+      "Description": "PC模型测试",
+      "bIsCook": false,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_TestPC",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "None"
+        },
+        "PrimaryAssetName": "None",
+        "AssetPath": "None"
+      }
+    },
+    "10000010051": {
+      "Description": "普女-01旧",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Default_Female",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "30000000001": {
+      "Description": "安琪儿幻化时装测试",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Qiang",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10000000017": {
+      "Description": "蔷-新角色",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Qiang",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10000000018": {
+      "Description": "图琳-新角色",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_TuLin",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10000000019": {
+      "Description": "普男-新角色",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Default_Male_00",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10000000020": {
+      "Description": "普女-新角色",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Default_Female_00",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000021": {
+      "Description": "金战云",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_JinZhanYun",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10000000022": {
+      "Description": "新蔷",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Qiang_New",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10000000023": {
+      "Description": "普女-迷彩裤版",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Default_Female",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10000000024": {
+      "Description": "普男-迷彩裤版",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Default_Male",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000025": {
+      "Description": "张杰",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Jason",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000026": {
+      "Description": "贝拉",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Bella",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000027": {
+      "Description": "黑暗天使",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Tina",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000028": {
+      "Description": "茉莉",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Molly",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000029": {
+      "Description": "贝拉女团",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Bella_Pop",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000030": {
+      "Description": "万飞",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Fei",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000031": {
+      "Description": "万阳",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Yang",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000032": {
+      "Description": "柏翼",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_BaiYi",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000033": {
+      "Description": "测试",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "None"
+        },
+        "PrimaryAssetName": "None",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000034": {
+      "Description": "机甲金战云-带刀",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Kim_Mecha",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000035": {
+      "Description": "王凯旋",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_WangKaiXuan",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000036": {
+      "Description": "宇航员男",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Astro_Male",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000037": {
+      "Description": "宇航员女",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Astro_Female",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000038": {
+      "Description": "部哥",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Bugle",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000039": {
+      "Description": "黑寡妇麻辣教官",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Widow",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000040": {
+      "Description": "中华娘",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Hua",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000041": {
+      "Description": "雪莉杨",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Shirley",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000042": {
+      "Description": "胡八一",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_HuBayi",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000043": {
+      "Description": "云飞",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_YunFei",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000044": {
+      "Description": "精绝女王",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Queen",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002010044": {
+      "Description": "精绝女王遮脸",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Queen_Masked",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002020044": {
+      "Description": "精绝女王裸模",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Queen_Naked",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000045": {
+      "Description": "奈美",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Naimei",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000046": {
+      "Description": "安吉拉晚宴特工",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Angela",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000047": {
+      "Description": "决",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Angela",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000048": {
+      "Description": "幽魂骑士",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Knight",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001010048": {
+      "Description": "幽魂骑士戴头盔",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Knight_Helmet",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000049": {
+      "Description": "乐队骇客",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Band",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000050": {
+      "Description": "无主-莉莉丝",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Lilith",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000051": {
+      "Description": "无主-克里格",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Krieg",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001000052": {
+      "Description": "无主-帅杰克",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Jack",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001009999": {
+      "Description": "技能通用男角色",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_SkillComMale",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000056": {
+      "Description": "芭比",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Bunny",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002990008": {
+      "Description": "安琪儿bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Angel01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001990021": {
+      "Description": "金战云bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_JinZhanYun01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002990026": {
+      "Description": "贝拉bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Bella01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002990027": {
+      "Description": "黑暗天使bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Tina01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002990028": {
+      "Description": "茉莉bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Molly01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001990030": {
+      "Description": "万飞bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Fei01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001990031": {
+      "Description": "万阳bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Yang01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001990025": {
+      "Description": "张杰bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Jason01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002990029": {
+      "Description": "贝拉女团bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Bella_Pop01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001990032": {
+      "Description": "柏翼bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_BaiYi01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001990038": {
+      "Description": "部哥bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Bugle01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002990039": {
+      "Description": "黑寡妇bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_WidowBot01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002990041": {
+      "Description": "雪莉杨bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Shirley01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001990042": {
+      "Description": "胡八一bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_HuBayi01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001990043": {
+      "Description": "云飞bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_YunFei01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002990046": {
+      "Description": "安吉拉晚宴特工bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Angela01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002990001": {
+      "Description": "茉莉bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_MollyBot01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10001990002": {
+      "Description": "万飞bot",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_FeiBot01",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000053": {
+      "Description": "安琪儿-永恒之火",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_AngelLucia",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000054": {
+      "Description": "茉莉-七实",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_MollyNanami",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000055": {
+      "Description": "悦-比安卡",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_NaimeiBianca",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000057": {
+      "Description": "橙角57",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_T0LS4",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000058": {
+      "Description": "金角58",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_LS469",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000059": {
+      "Description": "橙角59",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_LS434",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000060": {
+      "Description": "红角60",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Raven",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002010060": {
+      "Description": "红角60-遮脸",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Raven_Masked",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000061": {
+      "Description": "艾玛",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Emma",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    },
+    "10002000062": {
+      "Description": "萨沙",
+      "bIsCook": true,
+      "AvatarAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Sasha",
+        "AssetPath": "None"
+      },
+      "TemplateAssetId": {
+        "PrimaryAssetType": {
+          "Name": "Avatar"
+        },
+        "PrimaryAssetName": "DA_Char_Template_Gameplay",
+        "AssetPath": "None"
+      }
+    }
+  }
+}

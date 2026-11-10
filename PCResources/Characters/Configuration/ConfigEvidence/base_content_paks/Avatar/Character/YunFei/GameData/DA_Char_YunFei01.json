@@ -1,0 +1,86 @@
+{
+  "Type": "AvaCharItemData",
+  "Name": "DA_Char_YunFei01",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'AvaCharItemData'",
+  "Package": "NZM/Content/Avatar/Character/YunFei/GameData/DA_Char_YunFei01",
+  "Properties": {
+    "TPPConfig": {
+      "DefaultPartItems": [
+        "14301010201",
+        "14301040201",
+        "14301050201",
+        "14301020101",
+        "19902050009"
+      ],
+      "CutPartItems": [
+        "14301080201"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/YF/CommonRes/Mesh/SK_Char_YF_Mesh_Master.SK_Char_YF_Mesh_Master",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "FPPConfig": {
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/YF/YF_Suit_C/Mesh/SK_Char_YF_Suit_C_1P_Body_Mesh.SK_Char_YF_Suit_C_1P_Body_Mesh",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "UIConfig": {
+      "DefaultPartItems": [
+        "14301010001",
+        "14301040001",
+        "14301050001"
+      ],
+      "CutPartItems": [
+        "14301080001"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/YF/CommonRes/Mesh/SK_Char_YF_Mesh_Master.SK_Char_YF_Mesh_Master",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "DialogueConfig": {
+      "DefaultPartItems": [
+        "14301010101",
+        "14301040101",
+        "14301050101"
+      ],
+      "CutPartItems": [
+        "14301080101"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/YF/CommonRes/Mesh/SK_Char_YF_Mesh_Master.SK_Char_YF_Mesh_Master",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "Description": "云飞",
+    "ModeConfig": {
+      "Gender": "EAvaGenderType::Male",
+      "BindTag": {
+        "TagName": "Avatar.Character.YunFei"
+      },
+      "SoundTag": {
+        "TagName": "Character.Male.YunFei"
+      }
+    },
+    "AssetPathName": "/Game/Avatar/Character/YunFei/GameData/DA_Char_YunFei01.DA_Char_YunFei01"
+  }
+}

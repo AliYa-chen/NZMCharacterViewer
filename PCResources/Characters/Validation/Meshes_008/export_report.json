@@ -1,0 +1,1293 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T14:59:59.8154843Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_3P_PropHead_Mesh",
+      "name": "SK_Char_Bella_3P_PropHead_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_3P_PropHead_Mesh.SK_Char_Bella_3P_PropHead_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_3P_PropHead_Mesh.uasset",
+          "size": 3780,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268675072
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_3P_PropHead_Mesh.uexp",
+          "size": 140768,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268677337
+        }
+      },
+      "mesh": {
+        "reference_bones": 12,
+        "material_slots": 2,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 512,
+            "triangles": 894,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 306,
+            "triangles": 514,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 233,
+            "triangles": 376,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 136,
+            "triangles": 198,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 109,
+            "triangles": 154,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 73,
+            "triangles": 102,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 53,
+            "triangles": 59,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 512,
+            "indices": 2682,
+            "sections": 1,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_CutScene_Hair_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_CutScene_Hair_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_CutScene_Hair_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_CutScene_Head_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_CutScene_Head_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_CutScene_Head_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_Mesh_Master",
+      "name": "SK_Char_Bella_Mesh_Master",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_Mesh_Master.SK_Char_Bella_Mesh_Master",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_Mesh_Master.uasset",
+          "size": 7862,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268736512
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_Mesh_Master.uexp",
+          "size": 16052,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268740153
+        }
+      },
+      "mesh": {
+        "reference_bones": 186,
+        "material_slots": 1,
+        "source_lod_count": 1,
+        "source_lods": [
+          {
+            "vertices": 24,
+            "triangles": 12,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 24,
+            "indices": 36,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh",
+      "name": "ClothConfigNv",
+      "class": "ClothConfigNv",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh:SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod0_Clothing_3.ClothConfigNv",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uasset",
+          "size": 6710,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268746752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uexp",
+          "size": 25224478,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268749849
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh",
+      "name": "ClothConfigNv",
+      "class": "ClothConfigNv",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh:SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod1_Clothing_0.ClothConfigNv",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uasset",
+          "size": 6710,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268746752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uexp",
+          "size": 25224478,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268749849
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh",
+      "name": "ClothConfigNv",
+      "class": "ClothConfigNv",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh:SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod2_Clothing_0.ClothConfigNv",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uasset",
+          "size": 6710,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268746752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uexp",
+          "size": 25224478,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268749849
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh",
+      "name": "SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod0_Clothing_3",
+      "class": "ClothingAssetNv",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh:SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod0_Clothing_3",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uasset",
+          "size": 6710,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268746752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uexp",
+          "size": 25224478,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268749849
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh",
+      "name": "SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod1_Clothing_0",
+      "class": "ClothingAssetNv",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh:SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod1_Clothing_0",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uasset",
+          "size": 6710,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268746752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uexp",
+          "size": 25224478,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268749849
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh",
+      "name": "SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod2_Clothing_0",
+      "class": "ClothingAssetNv",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh:SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod2_Clothing_0",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uasset",
+          "size": 6710,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268746752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uexp",
+          "size": 25224478,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268749849
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh",
+      "name": "ClothLODDataNv_0",
+      "class": "ClothLODDataNv",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh:SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod0_Clothing_3.ClothLODDataNv_0",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uasset",
+          "size": 6710,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268746752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uexp",
+          "size": 25224478,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268749849
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh",
+      "name": "ClothLODDataNv_0",
+      "class": "ClothLODDataNv",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh:SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod1_Clothing_0.ClothLODDataNv_0",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uasset",
+          "size": 6710,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268746752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uexp",
+          "size": 25224478,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268749849
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh",
+      "name": "ClothLODDataNv_0",
+      "class": "ClothLODDataNv",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh:SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod2_Clothing_0.ClothLODDataNv_0",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uasset",
+          "size": 6710,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268746752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uexp",
+          "size": 25224478,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268749849
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh",
+      "name": "ClothPhysicalMeshDataNv",
+      "class": "ClothPhysicalMeshDataNv",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh:SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod0_Clothing_3.ClothLODDataNv_0.ClothPhysicalMeshDataNv",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uasset",
+          "size": 6710,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268746752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uexp",
+          "size": 25224478,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268749849
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh",
+      "name": "ClothPhysicalMeshDataNv",
+      "class": "ClothPhysicalMeshDataNv",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh:SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod1_Clothing_0.ClothLODDataNv_0.ClothPhysicalMeshDataNv",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uasset",
+          "size": 6710,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268746752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uexp",
+          "size": 25224478,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268749849
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh",
+      "name": "ClothPhysicalMeshDataNv",
+      "class": "ClothPhysicalMeshDataNv",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh:SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod2_Clothing_0.ClothLODDataNv_0.ClothPhysicalMeshDataNv",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uasset",
+          "size": 6710,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268746752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uexp",
+          "size": 25224478,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268749849
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh",
+      "name": "SK_Char_Bella_UI_Hair_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uasset",
+          "size": 6710,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268746752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.uexp",
+          "size": 25224478,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 268749849
+        }
+      },
+      "mesh": {
+        "reference_bones": 8,
+        "material_slots": 1,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 19810,
+            "triangles": 15425,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 18709,
+            "triangles": 14323,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 10310,
+            "triangles": 9343,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 8930,
+            "triangles": 7969,
+            "sections": 1,
+            "texcoords": 3
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 19810,
+            "indices": 46275,
+            "sections": 1,
+            "maximum_nonzero_influences": 3,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Head_Mesh",
+      "name": "SK_Char_Bella_UI_Head_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Head_Mesh.SK_Char_Bella_UI_Head_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Head_Mesh.uasset",
+          "size": 7002,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 272523264
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Head_Mesh.uexp",
+          "size": 2656080,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 272526521
+        }
+      },
+      "mesh": {
+        "reference_bones": 93,
+        "material_slots": 8,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 8824,
+            "triangles": 14058,
+            "sections": 8,
+            "texcoords": 1
+          },
+          {
+            "vertices": 8773,
+            "triangles": 14024,
+            "sections": 8,
+            "texcoords": 1
+          },
+          {
+            "vertices": 6263,
+            "triangles": 9199,
+            "sections": 8,
+            "texcoords": 1
+          },
+          {
+            "vertices": 3473,
+            "triangles": 5290,
+            "sections": 8,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 8824,
+            "indices": 42174,
+            "sections": 8,
+            "maximum_nonzero_influences": 8,
+            "vertices_over_four_influences": 2427
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_PropHead_Mesh",
+      "name": "SK_Char_Bella_UI_PropHead_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_PropHead_Mesh.SK_Char_Bella_UI_PropHead_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_PropHead_Mesh.uasset",
+          "size": 3584,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 273594368
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_PropHead_Mesh.uexp",
+          "size": 154274,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 273596585
+        }
+      },
+      "mesh": {
+        "reference_bones": 12,
+        "material_slots": 1,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 542,
+            "triangles": 928,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 512,
+            "triangles": 894,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 306,
+            "triangles": 514,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 233,
+            "triangles": 376,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 542,
+            "indices": 2784,
+            "sections": 1,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Gun_Mesh",
+      "name": "SK_Char_Bunny_Suit_C_1P_Gun_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Gun_Mesh.SK_Char_Bunny_Suit_C_1P_Gun_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Gun_Mesh.uasset",
+          "size": 3658,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk43-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 19087360
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Gun_Mesh.uexp",
+          "size": 1888110,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk43-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 19089529
+        }
+      },
+      "mesh": {
+        "reference_bones": 7,
+        "material_slots": 1,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 13968,
+            "triangles": 6413,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 13968,
+            "triangles": 6413,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 13968,
+            "indices": 19239,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Lower_Mesh",
+      "name": "SK_Char_Bunny_Suit_C_1P_Lower_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Lower_Mesh.SK_Char_Bunny_Suit_C_1P_Lower_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Lower_Mesh.uasset",
+          "size": 10785,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 297019392
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Lower_Mesh.uexp",
+          "size": 3582740,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 297023801
+        }
+      },
+      "mesh": {
+        "reference_bones": 222,
+        "material_slots": 8,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 23098,
+            "triangles": 30115,
+            "sections": 8,
+            "texcoords": 1
+          },
+          {
+            "vertices": 19590,
+            "triangles": 23804,
+            "sections": 8,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 23098,
+            "indices": 90345,
+            "sections": 8,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Body_Mesh",
+      "name": "SK_Char_Bunny_Suit_C_3P_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Body_Mesh.SK_Char_Bunny_Suit_C_3P_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Body_Mesh.uasset",
+          "size": 8014,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 298459136
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Body_Mesh.uexp",
+          "size": 5786337,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 298462633
+        }
+      },
+      "mesh": {
+        "reference_bones": 104,
+        "material_slots": 11,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 29529,
+            "triangles": 39825,
+            "sections": 10,
+            "texcoords": 1
+          },
+          {
+            "vertices": 14697,
+            "triangles": 21340,
+            "sections": 10,
+            "texcoords": 1
+          },
+          {
+            "vertices": 10618,
+            "triangles": 14527,
+            "sections": 10,
+            "texcoords": 1
+          },
+          {
+            "vertices": 6102,
+            "triangles": 7427,
+            "sections": 10,
+            "texcoords": 1
+          },
+          {
+            "vertices": 4254,
+            "triangles": 4936,
+            "sections": 10,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2402,
+            "triangles": 2596,
+            "sections": 10,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1515,
+            "triangles": 1365,
+            "sections": 8,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 29529,
+            "indices": 119475,
+            "sections": 10,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Gun_Mesh",
+      "name": "SK_Char_Bunny_Suit_C_3P_Gun_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Gun_Mesh.SK_Char_Bunny_Suit_C_3P_Gun_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Gun_Mesh.uasset",
+          "size": 4029,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk43-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 19703808
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Gun_Mesh.uexp",
+          "size": 758019,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk43-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 19706233
+        }
+      },
+      "mesh": {
+        "reference_bones": 31,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 6683,
+            "triangles": 2954,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 920,
+            "triangles": 598,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 918,
+            "triangles": 596,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 920,
+            "triangles": 598,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 751,
+            "triangles": 459,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 373,
+            "triangles": 222,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 373,
+            "triangles": 222,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 6683,
+            "indices": 8862,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Hat_Mesh",
+      "name": "SK_Char_Bunny_Suit_C_3P_Hat_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Hat_Mesh.SK_Char_Bunny_Suit_C_3P_Hat_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Hat_Mesh.uasset",
+          "size": 3658,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 300845056
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Hat_Mesh.uexp",
+          "size": 477570,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 300847193
+        }
+      },
+      "mesh": {
+        "reference_bones": 7,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 1801,
+            "triangles": 2735,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1221,
+            "triangles": 1798,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 819,
+            "triangles": 1088,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 632,
+            "triangles": 768,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 479,
+            "triangles": 554,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 350,
+            "triangles": 384,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 286,
+            "triangles": 258,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 1801,
+            "indices": 8205,
+            "sections": 1,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_3P_PropHead_Mesh.SK_Char_Bella_3P_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_3P_PropHead_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_Mesh_Master.SK_Char_Bella_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_Mesh_Master.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod0_Clothing_3.ClothConfigNv",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod0_Clothing_3/ClothConfigNv.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod1_Clothing_0.ClothConfigNv",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod1_Clothing_0/ClothConfigNv.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod2_Clothing_0.ClothConfigNv",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod2_Clothing_0/ClothConfigNv.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod0_Clothing_3",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod0_Clothing_3.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod1_Clothing_0",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod1_Clothing_0.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod2_Clothing_0",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod2_Clothing_0.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod0_Clothing_3.ClothLODDataNv_0",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod0_Clothing_3/ClothLODDataNv_0.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod1_Clothing_0.ClothLODDataNv_0",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod1_Clothing_0/ClothLODDataNv_0.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod2_Clothing_0.ClothLODDataNv_0",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod2_Clothing_0/ClothLODDataNv_0.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod0_Clothing_3/ClothLODDataNv_0.ClothPhysicalMeshDataNv",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod0_Clothing_3/ClothLODDataNv_0/ClothPhysicalMeshDataNv.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod1_Clothing_0/ClothLODDataNv_0.ClothPhysicalMeshDataNv",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod1_Clothing_0/ClothLODDataNv_0/ClothPhysicalMeshDataNv.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod2_Clothing_0/ClothLODDataNv_0.ClothPhysicalMeshDataNv",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh/SK_Char_Bella_Suit_D_UI_Hair_ProxyMesh_Lod2_Clothing_0/ClothLODDataNv_0/ClothPhysicalMeshDataNv.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Head_Mesh.SK_Char_Bella_UI_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Head_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_PropHead_Mesh.SK_Char_Bella_UI_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_PropHead_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Gun_Mesh.SK_Char_Bunny_Suit_C_1P_Gun_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Gun_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Lower_Mesh.SK_Char_Bunny_Suit_C_1P_Lower_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Lower_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Body_Mesh.SK_Char_Bunny_Suit_C_3P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Gun_Mesh.SK_Char_Bunny_Suit_C_3P_Gun_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Gun_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Hat_Mesh.SK_Char_Bunny_Suit_C_3P_Hat_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Hat_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_3P_PropHead_Mesh.SK_Char_Bella_3P_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_3P_PropHead_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_Mesh_Master.SK_Char_Bella_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_Mesh_Master.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Head_Mesh.SK_Char_Bella_UI_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Head_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_PropHead_Mesh.SK_Char_Bella_UI_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_PropHead_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Gun_Mesh.SK_Char_Bunny_Suit_C_1P_Gun_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Gun_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Lower_Mesh.SK_Char_Bunny_Suit_C_1P_Lower_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Lower_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Body_Mesh.SK_Char_Bunny_Suit_C_3P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Body_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Gun_Mesh.SK_Char_Bunny_Suit_C_3P_Gun_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Gun_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Hat_Mesh.SK_Char_Bunny_Suit_C_3P_Hat_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Hat_Mesh.psk"
+      ],
+      "error": null
+    }
+  ]
+}

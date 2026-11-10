@@ -1,0 +1,789 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:00:11.8031933Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_CutScene_Head_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_CutScene_Head_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_CutScene_Head_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_CutScene_PropHead_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_CutScene_PropHead_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_CutScene_PropHead_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_Mesh_Master",
+      "name": "SK_Char_Naimei_Mesh_Master",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_Mesh_Master.SK_Char_Naimei_Mesh_Master",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_Mesh_Master.uasset",
+          "size": 10973,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 966598656
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_Mesh_Master.uexp",
+          "size": 23910,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 966603257
+        }
+      },
+      "mesh": {
+        "reference_bones": 305,
+        "material_slots": 1,
+        "source_lod_count": 1,
+        "source_lods": [
+          {
+            "vertices": 24,
+            "triangles": 12,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 24,
+            "indices": 36,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Hair_Mesh",
+      "name": "SK_Char_Naimei_UI_Hair_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Hair_Mesh.SK_Char_Naimei_UI_Hair_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Hair_Mesh.uasset",
+          "size": 4975,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 966612992
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Hair_Mesh.uexp",
+          "size": 5114016,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 966615737
+        }
+      },
+      "mesh": {
+        "reference_bones": 51,
+        "material_slots": 2,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 23328,
+            "triangles": 23382,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 16797,
+            "triangles": 16363,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 11856,
+            "triangles": 11004,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 8805,
+            "triangles": 8375,
+            "sections": 1,
+            "texcoords": 3
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 23328,
+            "indices": 70146,
+            "sections": 1,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Head_Mesh",
+      "name": "SK_Char_Naimei_UI_Head_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Head_Mesh.SK_Char_Naimei_UI_Head_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Head_Mesh.uasset",
+          "size": 7551,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 968579072
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Head_Mesh.uexp",
+          "size": 2467508,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 968582505
+        }
+      },
+      "mesh": {
+        "reference_bones": 111,
+        "material_slots": 8,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 8372,
+            "triangles": 14464,
+            "sections": 8,
+            "texcoords": 1
+          },
+          {
+            "vertices": 8372,
+            "triangles": 14464,
+            "sections": 8,
+            "texcoords": 1
+          },
+          {
+            "vertices": 5380,
+            "triangles": 8858,
+            "sections": 8,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2482,
+            "triangles": 3978,
+            "sections": 8,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 8372,
+            "indices": 43392,
+            "sections": 8,
+            "maximum_nonzero_influences": 8,
+            "vertices_over_four_influences": 3324
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_PropHead_Mesh",
+      "name": "SK_Char_Naimei_UI_PropHead_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_PropHead_Mesh.SK_Char_Naimei_UI_PropHead_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_PropHead_Mesh.uasset",
+          "size": 4001,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 969582592
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_PropHead_Mesh.uexp",
+          "size": 150190,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 969585001
+        }
+      },
+      "mesh": {
+        "reference_bones": 30,
+        "material_slots": 2,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 547,
+            "triangles": 938,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 533,
+            "triangles": 922,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 283,
+            "triangles": 470,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 176,
+            "triangles": 270,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 547,
+            "indices": 2814,
+            "sections": 2,
+            "maximum_nonzero_influences": 3,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_ABLeaf_Mesh",
+      "name": "SK_Char_NaiMei_CutScene_ABLeaf_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_ABLeaf_Mesh.SK_Char_NaiMei_CutScene_ABLeaf_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_ABLeaf_Mesh.uasset",
+          "size": 4306,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 466720768
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_ABLeaf_Mesh.uexp",
+          "size": 110360,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 466723241
+        }
+      },
+      "mesh": {
+        "reference_bones": 67,
+        "material_slots": 2,
+        "source_lod_count": 1,
+        "source_lods": [
+          {
+            "vertices": 1509,
+            "triangles": 664,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 1509,
+            "indices": 1992,
+            "sections": 2,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_AllLeaf_Mesh",
+      "name": "SK_Char_NaiMei_CutScene_AllLeaf_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_AllLeaf_Mesh.SK_Char_NaiMei_CutScene_AllLeaf_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_AllLeaf_Mesh.uasset",
+          "size": 4566,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 466759680
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_AllLeaf_Mesh.uexp",
+          "size": 87986,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 466762153
+        }
+      },
+      "mesh": {
+        "reference_bones": 67,
+        "material_slots": 1,
+        "source_lod_count": 1,
+        "source_lods": [
+          {
+            "vertices": 1205,
+            "triangles": 620,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 1205,
+            "indices": 1860,
+            "sections": 1,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_C_Mesh",
+      "name": "SK_SaKuraAbyss_Nature_C_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_C_Mesh.SK_SaKuraAbyss_Nature_C_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_C_Mesh.uasset",
+          "size": 4991,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/P_1.0.60.169.0_R_4651593_P.pak",
+          "provider_read_order": 465159403,
+          "archive_offset": 141655
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_C_Mesh.uexp",
+          "size": 5563897,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/P_1.0.60.169.0_R_4651593_P.pak",
+          "provider_read_order": 465159403,
+          "archive_offset": 144144
+        }
+      },
+      "mesh": {
+        "reference_bones": 26,
+        "material_slots": 2,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 29784,
+            "triangles": 10304,
+            "sections": 2,
+            "texcoords": 2
+          },
+          {
+            "vertices": 21260,
+            "triangles": 7292,
+            "sections": 2,
+            "texcoords": 2
+          },
+          {
+            "vertices": 10839,
+            "triangles": 3648,
+            "sections": 2,
+            "texcoords": 2
+          },
+          {
+            "vertices": 5408,
+            "triangles": 1809,
+            "sections": 2,
+            "texcoords": 2
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 29784,
+            "indices": 30912,
+            "sections": 2,
+            "maximum_nonzero_influences": 8,
+            "vertices_over_four_influences": 28046
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_D_Mesh",
+      "name": "SK_SaKuraAbyss_Nature_D_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_D_Mesh.SK_SaKuraAbyss_Nature_D_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_D_Mesh.uasset",
+          "size": 4976,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/P_1.0.60.169.0_R_4651593_P.pak",
+          "provider_read_order": 465159403,
+          "archive_offset": 1960089
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_D_Mesh.uexp",
+          "size": 4635527,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/P_1.0.60.169.0_R_4651593_P.pak",
+          "provider_read_order": 465159403,
+          "archive_offset": 1962578
+        }
+      },
+      "mesh": {
+        "reference_bones": 26,
+        "material_slots": 2,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 19040,
+            "triangles": 33050,
+            "sections": 2,
+            "texcoords": 2
+          },
+          {
+            "vertices": 13659,
+            "triangles": 21756,
+            "sections": 2,
+            "texcoords": 2
+          },
+          {
+            "vertices": 8376,
+            "triangles": 10845,
+            "sections": 2,
+            "texcoords": 2
+          },
+          {
+            "vertices": 4811,
+            "triangles": 5493,
+            "sections": 2,
+            "texcoords": 2
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 19040,
+            "indices": 99150,
+            "sections": 2,
+            "maximum_nonzero_influences": 8,
+            "vertices_over_four_influences": 18925
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_E_Mesh",
+      "name": "SK_SaKuraAbyss_Nature_E_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_E_Mesh.SK_SaKuraAbyss_Nature_E_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_E_Mesh.uasset",
+          "size": 4914,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/P_1.0.60.169.0_R_4651593_P.pak",
+          "provider_read_order": 465159403,
+          "archive_offset": 3962347
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_E_Mesh.uexp",
+          "size": 5987343,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/P_1.0.60.169.0_R_4651593_P.pak",
+          "provider_read_order": 465159403,
+          "archive_offset": 3964820
+        }
+      },
+      "mesh": {
+        "reference_bones": 26,
+        "material_slots": 2,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 26917,
+            "triangles": 40530,
+            "sections": 2,
+            "texcoords": 2
+          },
+          {
+            "vertices": 18496,
+            "triangles": 28000,
+            "sections": 2,
+            "texcoords": 2
+          },
+          {
+            "vertices": 9619,
+            "triangles": 13999,
+            "sections": 2,
+            "texcoords": 2
+          },
+          {
+            "vertices": 5292,
+            "triangles": 6999,
+            "sections": 2,
+            "texcoords": 2
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 26917,
+            "indices": 121590,
+            "sections": 2,
+            "maximum_nonzero_influences": 7,
+            "vertices_over_four_influences": 10771
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_1P_Body_Mesh",
+      "name": "SK_Char_Naimei_Bianca_A_1P_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_1P_Body_Mesh.SK_Char_Naimei_Bianca_A_1P_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_1P_Body_Mesh.uasset",
+          "size": 5290,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/P_1.0.60.169.0_R_4718380_P.pak",
+          "provider_read_order": 471838103,
+          "archive_offset": 0
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_1P_Body_Mesh.uexp",
+          "size": 1601312,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/P_1.0.60.169.0_R_4718380_P.pak",
+          "provider_read_order": 471838103,
+          "archive_offset": 2841
+        }
+      },
+      "mesh": {
+        "reference_bones": 66,
+        "material_slots": 3,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 9613,
+            "triangles": 17277,
+            "sections": 3,
+            "texcoords": 1
+          },
+          {
+            "vertices": 8422,
+            "triangles": 9762,
+            "sections": 3,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 9613,
+            "indices": 51831,
+            "sections": 3,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_Mesh_Master.SK_Char_Naimei_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_Mesh_Master.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Hair_Mesh.SK_Char_Naimei_UI_Hair_Mesh",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Hair_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Head_Mesh.SK_Char_Naimei_UI_Head_Mesh",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Head_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_PropHead_Mesh.SK_Char_Naimei_UI_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_PropHead_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_ABLeaf_Mesh.SK_Char_NaiMei_CutScene_ABLeaf_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_ABLeaf_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_AllLeaf_Mesh.SK_Char_NaiMei_CutScene_AllLeaf_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_AllLeaf_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_C_Mesh.SK_SaKuraAbyss_Nature_C_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_C_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_D_Mesh.SK_SaKuraAbyss_Nature_D_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_D_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_E_Mesh.SK_SaKuraAbyss_Nature_E_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_E_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_1P_Body_Mesh.SK_Char_Naimei_Bianca_A_1P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_1P_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_Mesh_Master.SK_Char_Naimei_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_Mesh_Master.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Hair_Mesh.SK_Char_Naimei_UI_Hair_Mesh",
+      "files": [
+        "PCResources/Meshes/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Hair_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Head_Mesh.SK_Char_Naimei_UI_Head_Mesh",
+      "files": [
+        "PCResources/Meshes/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_Head_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_PropHead_Mesh.SK_Char_Naimei_UI_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_UI_PropHead_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_ABLeaf_Mesh.SK_Char_NaiMei_CutScene_ABLeaf_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_ABLeaf_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_AllLeaf_Mesh.SK_Char_NaiMei_CutScene_AllLeaf_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Naimei/LobbyRes_Naimei/ani/Prop/Leaf/SK_Char_NaiMei_CutScene_AllLeaf_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_C_Mesh.SK_SaKuraAbyss_Nature_C_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_C_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_D_Mesh.SK_SaKuraAbyss_Nature_D_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_D_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_E_Mesh.SK_SaKuraAbyss_Nature_E_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Naimei/Naimei_Bianca_A/LobbyRes_Bianca/SaKuraAbyss_Nature/SK_SaKuraAbyss_Nature_E_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_1P_Body_Mesh.SK_Char_Naimei_Bianca_A_1P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_1P_Body_Mesh.psk"
+      ],
+      "error": null
+    }
+  ]
+}

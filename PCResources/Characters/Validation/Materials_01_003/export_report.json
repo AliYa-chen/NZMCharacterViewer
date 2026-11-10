@@ -1,0 +1,3279 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:00:41.8089306Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Body_UI",
+      "name": "VMI_Char_Emma_Suit_C_Body_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Body_UI.VMI_Char_Emma_Suit_C_Body_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Body_UI.uasset",
+          "size": 3183,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 350023680
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Body_UI.uexp",
+          "size": 227514,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 350025369
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Legs_UI",
+      "name": "VMI_Char_Emma_Suit_C_Legs_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Legs_UI.VMI_Char_Emma_Suit_C_Legs_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Legs_UI.uasset",
+          "size": 3120,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 350044160
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Legs_UI.uexp",
+          "size": 227514,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 350045865
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Shoes_UI",
+      "name": "VMI_Char_Emma_Suit_C_Shoes_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Shoes_UI.VMI_Char_Emma_Suit_C_Shoes_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Shoes_UI.uasset",
+          "size": 3540,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 350064640
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Shoes_UI.uexp",
+          "size": 584526,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 350066473
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Arm_Clearcoat_UI",
+      "name": "VMI_Char_Emma_Suit_C_Arm_Clearcoat_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Arm_Clearcoat_UI.VMI_Char_Emma_Suit_C_Arm_Clearcoat_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Arm_Clearcoat_UI.uasset",
+          "size": 3594,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 349956096
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Arm_Clearcoat_UI.uexp",
+          "size": 82136,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 349958025
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Body_Clearcoat_UI",
+      "name": "VMI_Char_Emma_Suit_C_Body_Clearcoat_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Body_Clearcoat_UI.VMI_Char_Emma_Suit_C_Body_Clearcoat_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Body_Clearcoat_UI.uasset",
+          "size": 3398,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 350013440
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Body_Clearcoat_UI.uexp",
+          "size": 79902,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 350015273
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Hair_3P",
+      "name": "VMI_Char_Lilith_Suit_C_Hair_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Hair_3P.VMI_Char_Lilith_Suit_C_Hair_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Hair_3P.uasset",
+          "size": 3316,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819212288
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Hair_3P.uexp",
+          "size": 553662,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819214281
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Eye_3P",
+      "name": "VMI_Char_Lilith_Suit_C_Eye_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Eye_3P.VMI_Char_Lilith_Suit_C_Eye_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Eye_3P.uasset",
+          "size": 3199,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819130368
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Eye_3P.uexp",
+          "size": 562423,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819132233
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Head_3P",
+      "name": "VMI_Char_Lilith_Suit_C_Head_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Head_3P.VMI_Char_Lilith_Suit_C_Head_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Head_3P.uasset",
+          "size": 3067,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819259392
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Head_3P.uexp",
+          "size": 562166,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819261129
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Eyelash_3P",
+      "name": "VMI_Char_Lilith_Suit_C_Eyelash_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Eyelash_3P.VMI_Char_Lilith_Suit_C_Eyelash_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Eyelash_3P.uasset",
+          "size": 3077,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819175424
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Eyelash_3P.uexp",
+          "size": 444119,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819177209
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Head_3P_PC",
+      "name": "VMI_Char_Lilith_Suit_C_Head_3P_PC",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Head_3P_PC.VMI_Char_Lilith_Suit_C_Head_3P_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Head_3P_PC.uasset",
+          "size": 3167,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819304448
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Head_3P_PC.uexp",
+          "size": 404792,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819306201
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Hair_FirstPass_UI",
+      "name": "VMI_Char_Lilith_Suit_C_Hair_FirstPass_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Hair_FirstPass_UI.VMI_Char_Lilith_Suit_C_Hair_FirstPass_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Hair_FirstPass_UI.uasset",
+          "size": 3443,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819410944
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Hair_FirstPass_UI.uexp",
+          "size": 575299,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819412953
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Eye_UI",
+      "name": "VMI_Char_Lilith_Suit_C_Eye_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Eye_UI.VMI_Char_Lilith_Suit_C_Eye_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Eye_UI.uasset",
+          "size": 4821,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819339264
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Eye_UI.uexp",
+          "size": 380966,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819341769
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Head_UI",
+      "name": "VMI_Char_Lilith_Suit_C_Head_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Head_UI.VMI_Char_Lilith_Suit_C_Head_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Head_UI.uasset",
+          "size": 4178,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 274993971
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Head_UI.uexp",
+          "size": 399904,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 274996124
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Eyelash_UI",
+      "name": "VMI_Char_Lilith_Suit_C_Eyelash_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Eyelash_UI.VMI_Char_Lilith_Suit_C_Eyelash_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Eyelash_UI.uasset",
+          "size": 3277,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819376128
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Eyelash_UI.uexp",
+          "size": 418449,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819377977
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_head_AO_UI",
+      "name": "VMI_Char_Lilith_Suit_C_head_AO_UI",
+      "class": "MaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_head_AO_UI.VMI_Char_Lilith_Suit_C_head_AO_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_head_AO_UI.uasset",
+          "size": 2651,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819531776
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_head_AO_UI.uexp",
+          "size": 9329,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 819533305
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Arm_1P",
+      "name": "VMI_Char_Lilith_Suit_Suit_B_1P_Arm_1P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Arm_1P.VMI_Char_Lilith_Suit_Suit_B_1P_Arm_1P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Arm_1P.uasset",
+          "size": 3071,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 829739008
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Arm_1P.uexp",
+          "size": 561691,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 829740713
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Hand_1P",
+      "name": "VMI_Char_Lilith_Suit_Suit_B_1P_Hand_1P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Hand_1P.VMI_Char_Lilith_Suit_Suit_B_1P_Hand_1P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Hand_1P.uasset",
+          "size": 3079,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 829818880
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Hand_1P.uexp",
+          "size": 561696,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 829820585
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Hand_SSS_1P",
+      "name": "VMI_Char_Lilith_Suit_Suit_B_1P_Hand_SSS_1P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Hand_SSS_1P.VMI_Char_Lilith_Suit_Suit_B_1P_Hand_SSS_1P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Hand_SSS_1P.uasset",
+          "size": 3407,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 275064253
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Hand_SSS_1P.uexp",
+          "size": 378704,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 275066070
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Arm_SSS_1P",
+      "name": "VMI_Char_Lilith_Suit_Suit_B_1P_Arm_SSS_1P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Arm_SSS_1P.VMI_Char_Lilith_Suit_Suit_B_1P_Arm_SSS_1P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Arm_SSS_1P.uasset",
+          "size": 3219,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 275032286
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Arm_SSS_1P.uexp",
+          "size": 373785,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 275034023
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Clothes_UI",
+      "name": "VMI_Char_Lilith_Suit_C_Clothes_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Clothes_UI.VMI_Char_Lilith_Suit_C_Clothes_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Clothes_UI.uasset",
+          "size": 2730,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830150656
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Clothes_UI.uexp",
+          "size": 2676,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830152185
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Shoe_UI",
+      "name": "VMI_Char_Lilith_Suit_C_Shoe_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Shoe_UI.VMI_Char_Lilith_Suit_C_Shoe_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Shoe_UI.uasset",
+          "size": 2739,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830152704
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Shoe_UI.uexp",
+          "size": 2938,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830154265
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Skin_SSS_UI",
+      "name": "VMI_Char_Lilith_Suit_C_Skin_SSS_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Skin_SSS_UI.VMI_Char_Lilith_Suit_C_Skin_SSS_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Skin_SSS_UI.uasset",
+          "size": 3727,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 275096385
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Skin_SSS_UI.uexp",
+          "size": 379875,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 275098298
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Trousers_UI",
+      "name": "VMI_Char_Lilith_Suit_C_Trousers_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Trousers_UI.VMI_Char_Lilith_Suit_C_Trousers_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Trousers_UI.uasset",
+          "size": 3379,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 275128774
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Trousers_UI.uexp",
+          "size": 555890,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 275130575
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Shoe_3P",
+      "name": "VMI_Char_Lilith_Suit_C_Shoe_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Shoe_3P.VMI_Char_Lilith_Suit_C_Shoe_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Shoe_3P.uasset",
+          "size": 3323,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 829960192
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Shoe_3P.uexp",
+          "size": 570384,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 829962025
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Clothes_3P",
+      "name": "VMI_Char_Lilith_Suit_C_Clothes_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Clothes_3P.VMI_Char_Lilith_Suit_C_Clothes_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Clothes_3P.uasset",
+          "size": 3433,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 829898752
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Clothes_3P.uexp",
+          "size": 603644,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 829900649
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Skin_3P",
+      "name": "VMI_Char_Lilith_Suit_C_Skin_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Skin_3P.VMI_Char_Lilith_Suit_C_Skin_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Skin_3P.uasset",
+          "size": 3327,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830007296
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Skin_3P.uexp",
+          "size": 570087,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830009145
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Trousers_3P",
+      "name": "VMI_Char_Lilith_Suit_C_Trousers_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Trousers_3P.VMI_Char_Lilith_Suit_C_Trousers_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Trousers_3P.uasset",
+          "size": 3520,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830089216
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Trousers_3P.uexp",
+          "size": 603649,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830091097
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Clothes_Fur_3P_PC",
+      "name": "VMI_Char_Lilith_Suit_C_Clothes_Fur_3P_PC",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Clothes_Fur_3P_PC.VMI_Char_Lilith_Suit_C_Clothes_Fur_3P_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Clothes_Fur_3P_PC.uasset",
+          "size": 3606,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 829947904
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Clothes_Fur_3P_PC.uexp",
+          "size": 86437,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 829949817
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Skin_3P_PC",
+      "name": "VMI_Char_Lilith_Suit_C_Skin_3P_PC",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Skin_3P_PC.VMI_Char_Lilith_Suit_C_Skin_3P_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Skin_3P_PC.uasset",
+          "size": 3150,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830054400
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Skin_3P_PC.uexp",
+          "size": 404530,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830056121
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Skin_UI",
+      "name": "VMI_Char_Lilith_Suit_C_Skin_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Skin_UI.VMI_Char_Lilith_Suit_C_Skin_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Skin_UI.uasset",
+          "size": 2588,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830191616
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Skin_UI.uexp",
+          "size": 2293,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830193065
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Clothes_Fur_UI_2",
+      "name": "VMI_Char_Lilith_Suit_C_Clothes_Fur_UI_2",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Clothes_Fur_UI_2.VMI_Char_Lilith_Suit_C_Clothes_Fur_UI_2",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Clothes_Fur_UI_2.uasset",
+          "size": 3478,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830138368
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Clothes_Fur_UI_2.uexp",
+          "size": 85955,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 830140201
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Hair_3P",
+      "name": "VMI_Char_Molly_Hair_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Hair_3P.VMI_Char_Molly_Hair_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Hair_3P.uasset",
+          "size": 3196,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895012864
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Hair_3P.uexp",
+          "size": 553221,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895014793
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Head_3P",
+      "name": "VMI_Char_Molly_Suit_C_Head_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Head_3P.VMI_Char_Molly_Suit_C_Head_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Head_3P.uasset",
+          "size": 3290,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895141888
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Head_3P.uexp",
+          "size": 561534,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895143721
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Eye_3P",
+      "name": "VMI_Char_Molly_Suit_C_Eye_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Eye_3P.VMI_Char_Molly_Suit_C_Eye_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Eye_3P.uasset",
+          "size": 2921,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895059968
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Eye_3P.uexp",
+          "size": 560001,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895061657
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Eyelash_3P",
+      "name": "VMI_Char_Molly_Suit_C_Eyelash_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Eyelash_3P.VMI_Char_Molly_Suit_C_Eyelash_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Eyelash_3P.uasset",
+          "size": 2951,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895105024
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Eyelash_3P.uexp",
+          "size": 443731,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895106713
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Head_3P_PC",
+      "name": "VMI_Char_Molly_Suit_C_Head_3P_PC",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Head_3P_PC.VMI_Char_Molly_Suit_C_Head_3P_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Head_3P_PC.uasset",
+          "size": 3721,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895186944
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Head_3P_PC.uexp",
+          "size": 393673,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895188953
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Hair_FirstPass_UI",
+      "name": "VMI_Char_Molly_Hair_FirstPass_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Hair_FirstPass_UI.VMI_Char_Molly_Hair_FirstPass_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Hair_FirstPass_UI.uasset",
+          "size": 3071,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895293440
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Hair_FirstPass_UI.uexp",
+          "size": 8553,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895295257
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_head_AO_UI",
+      "name": "VMI_Char_Molly_head_AO_UI",
+      "class": "MaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_head_AO_UI.VMI_Char_Molly_head_AO_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_head_AO_UI.uasset",
+          "size": 2635,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895301632
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_head_AO_UI.uexp",
+          "size": 9329,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895303129
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Head_UI",
+      "name": "VMI_Char_Molly_Head_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Head_UI.VMI_Char_Molly_Head_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Head_UI.uasset",
+          "size": 4613,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 275171144
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Head_UI.uexp",
+          "size": 398852,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 275173409
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Eye_UI",
+      "name": "VMI_Char_Molly_Eye_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Eye_UI.VMI_Char_Molly_Eye_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Eye_UI.uasset",
+          "size": 4432,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895221760
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Eye_UI.uexp",
+          "size": 378320,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895224041
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Eyelash_UI",
+      "name": "VMI_Char_Molly_Eyelash_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Eyelash_UI.VMI_Char_Molly_Eyelash_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Eyelash_UI.uasset",
+          "size": 3150,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895258624
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Eyelash_UI.uexp",
+          "size": 418357,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 895260441
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/1P/VMI_Char_Molly_Nanami_B_1P_Arm",
+      "name": "VMI_Char_Molly_Nanami_B_1P_Arm",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/1P/VMI_Char_Molly_Nanami_B_1P_Arm.VMI_Char_Molly_Nanami_B_1P_Arm",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/1P/VMI_Char_Molly_Nanami_B_1P_Arm.uasset",
+          "size": 3006,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286091798
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/1P/VMI_Char_Molly_Nanami_B_1P_Arm.uexp",
+          "size": 561068,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286093487
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/1P/VMI_Char_Molly_Nanami_B_1P_Hand",
+      "name": "VMI_Char_Molly_Nanami_B_1P_Hand",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/1P/VMI_Char_Molly_Nanami_B_1P_Hand.VMI_Char_Molly_Nanami_B_1P_Hand",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/1P/VMI_Char_Molly_Nanami_B_1P_Hand.uasset",
+          "size": 3014,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286136418
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/1P/VMI_Char_Molly_Nanami_B_1P_Hand.uexp",
+          "size": 561073,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286138107
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Accessory_3P",
+      "name": "VMI_Char_Molly_Nanami_B_Accessory_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Accessory_3P.VMI_Char_Molly_Nanami_B_Accessory_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Accessory_3P.uasset",
+          "size": 3482,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286181052
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Accessory_3P.uexp",
+          "size": 569692,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286182885
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Body_3P",
+      "name": "VMI_Char_Molly_Nanami_B_Body_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Body_3P.VMI_Char_Molly_Nanami_B_Body_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Body_3P.uasset",
+          "size": 3121,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286305248
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Body_3P.uexp",
+          "size": 561566,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286307017
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Clothes_3P",
+      "name": "VMI_Char_Molly_Nanami_B_Clothes_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Clothes_3P.VMI_Char_Molly_Nanami_B_Clothes_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Clothes_3P.uasset",
+          "size": 3378,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286381319
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Clothes_3P.uexp",
+          "size": 569781,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286383168
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Headwear_3P",
+      "name": "VMI_Char_Molly_Nanami_B_Headwear_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Headwear_3P.VMI_Char_Molly_Nanami_B_Headwear_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Headwear_3P.uasset",
+          "size": 3427,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286426745
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Headwear_3P.uexp",
+          "size": 569885,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286428546
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Shoes_3P",
+      "name": "VMI_Char_Molly_Nanami_B_Shoes_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Shoes_3P.VMI_Char_Molly_Nanami_B_Shoes_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Shoes_3P.uasset",
+          "size": 3397,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286471987
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Shoes_3P.uexp",
+          "size": 569870,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286473772
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Arm_3P",
+      "name": "VMI_Char_Molly_Nanami_B_Arm_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Arm_3P.VMI_Char_Molly_Nanami_B_Arm_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Arm_3P.uasset",
+          "size": 3346,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286259864
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Arm_3P.uexp",
+          "size": 569761,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286261713
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Accessory_FX_3P_PC",
+      "name": "VMI_Char_Molly_Nanami_B_Accessory_FX_3P_PC",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Accessory_FX_3P_PC.VMI_Char_Molly_Nanami_B_Accessory_FX_3P_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Accessory_FX_3P_PC.uasset",
+          "size": 4023,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286226459
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Accessory_FX_3P_PC.uexp",
+          "size": 378387,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286228772
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Body_3P_PC",
+      "name": "VMI_Char_Molly_Nanami_B_Body_3P_PC",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Body_3P_PC.VMI_Char_Molly_Nanami_B_Body_3P_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Body_3P_PC.uasset",
+          "size": 3317,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286349972
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Body_3P_PC.uexp",
+          "size": 364914,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286351677
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Hair_3P",
+      "name": "VMI_Char_Molly_Nanami_B_Hair_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Hair_3P.VMI_Char_Molly_Nanami_B_Hair_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Hair_3P.uasset",
+          "size": 3279,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286724087
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Hair_3P.uexp",
+          "size": 553242,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286726096
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Head_3P",
+      "name": "VMI_Char_Molly_Nanami_B_Head_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Head_3P.VMI_Char_Molly_Nanami_B_Head_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Head_3P.uasset",
+          "size": 3357,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286769516
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Head_3P.uexp",
+          "size": 561828,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286771381
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Eye_3P",
+      "name": "VMI_Char_Molly_Nanami_B_Eye_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Eye_3P.VMI_Char_Molly_Nanami_B_Eye_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Eye_3P.uasset",
+          "size": 3192,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286643719
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Eye_3P.uexp",
+          "size": 561741,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286645568
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Eyelash_3P",
+      "name": "VMI_Char_Molly_Nanami_B_Eyelash_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Eyelash_3P.VMI_Char_Molly_Nanami_B_Eyelash_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Eyelash_3P.uasset",
+          "size": 3097,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286688479
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Eyelash_3P.uexp",
+          "size": 444124,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286690264
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Head_3P_PC",
+      "name": "VMI_Char_Molly_Nanami_B_Head_3P_PC",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Head_3P_PC.VMI_Char_Molly_Nanami_B_Head_3P_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Head_3P_PC.uasset",
+          "size": 3576,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286814182
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Head_3P_PC.uexp",
+          "size": 365176,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286816031
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Accessory_UI",
+      "name": "VMI_Char_Molly_Nanami_B_Accessory_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Accessory_UI.VMI_Char_Molly_Nanami_B_Accessory_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Accessory_UI.uasset",
+          "size": 3251,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286550738
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Accessory_UI.uexp",
+          "size": 227344,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286552443
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Arm_UI",
+      "name": "VMI_Char_Molly_Nanami_B_Arm_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Arm_UI.VMI_Char_Molly_Nanami_B_Arm_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Arm_UI.uasset",
+          "size": 2687,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286570012
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Arm_UI.uexp",
+          "size": 2088,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286571509
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Body_UI",
+      "name": "VMI_Char_Molly_Nanami_B_Body_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Body_UI.VMI_Char_Molly_Nanami_B_Body_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Body_UI.uasset",
+          "size": 3345,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286571952
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Body_UI.uexp",
+          "size": 371279,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286573721
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Clothes_UI",
+      "name": "VMI_Char_Molly_Nanami_B_Clothes_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Clothes_UI.VMI_Char_Molly_Nanami_B_Clothes_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Clothes_UI.uasset",
+          "size": 2568,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286603472
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Clothes_UI.uexp",
+          "size": 1507,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286604857
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Headwear_UI",
+      "name": "VMI_Char_Molly_Nanami_B_Headwear_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Headwear_UI.VMI_Char_Molly_Nanami_B_Headwear_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Headwear_UI.uasset",
+          "size": 3241,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286605227
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Headwear_UI.uexp",
+          "size": 227342,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286606932
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Shoes_UI",
+      "name": "VMI_Char_Molly_Nanami_B_Shoes_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Shoes_UI.VMI_Char_Molly_Nanami_B_Shoes_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Shoes_UI.uasset",
+          "size": 3312,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286624418
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Shoes_UI.uexp",
+          "size": 227720,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286626171
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Accessory_FX_UI",
+      "name": "VMI_Char_Molly_Nanami_B_Accessory_FX_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Accessory_FX_UI.VMI_Char_Molly_Nanami_B_Accessory_FX_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Accessory_FX_UI.uasset",
+          "size": 4017,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286517335
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Accessory_FX_UI.uexp",
+          "size": 378387,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286519648
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Hair_FirstPass_UI",
+      "name": "VMI_Char_Molly_Nanami_B_Hair_FirstPass_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Hair_FirstPass_UI.VMI_Char_Molly_Nanami_B_Hair_FirstPass_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Hair_FirstPass_UI.uasset",
+          "size": 3414,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286915779
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Hair_FirstPass_UI.uexp",
+          "size": 574355,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286917836
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_head_AO_UI",
+      "name": "VMI_Char_Molly_Nanami_B_head_AO_UI",
+      "class": "MaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_head_AO_UI.VMI_Char_Molly_Nanami_B_head_AO_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_head_AO_UI.uasset",
+          "size": 2662,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 287033809
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_head_AO_UI.uexp",
+          "size": 9329,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 287035338
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Head_UI",
+      "name": "VMI_Char_Molly_Nanami_B_Head_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Head_UI.VMI_Char_Molly_Nanami_B_Head_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Head_UI.uasset",
+          "size": 4345,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 287036460
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Head_UI.uexp",
+          "size": 397785,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 287038693
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Eye_UI",
+      "name": "VMI_Char_Molly_Nanami_B_Eye_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Eye_UI.VMI_Char_Molly_Nanami_B_Eye_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Eye_UI.uasset",
+          "size": 4795,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286845685
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Eye_UI.uexp",
+          "size": 380971,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286848158
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Eyelash_UI",
+      "name": "VMI_Char_Molly_Nanami_B_Eyelash_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Eyelash_UI.VMI_Char_Molly_Nanami_B_Eyelash_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Eyelash_UI.uasset",
+          "size": 3297,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286881489
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Eyelash_UI.uexp",
+          "size": 418624,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 286883354
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Suit_C/Materials/1P/VMI_Char_Molly_Suit_C_1P",
+      "name": "VMI_Char_Molly_Suit_C_1P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/1P/VMI_Char_Molly_Suit_C_1P.VMI_Char_Molly_Suit_C_1P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/1P/VMI_Char_Molly_Suit_C_1P.uasset",
+          "size": 3303,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956321792
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/1P/VMI_Char_Molly_Suit_C_1P.uexp",
+          "size": 561102,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956323625
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Suit_C/Materials/1P/VMI_Char_Molly_Suit_C_1P_Skin",
+      "name": "VMI_Char_Molly_Suit_C_1P_Skin",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/1P/VMI_Char_Molly_Suit_C_1P_Skin.VMI_Char_Molly_Suit_C_1P_Skin",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/1P/VMI_Char_Molly_Suit_C_1P_Skin.uasset",
+          "size": 3942,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956366848
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/1P/VMI_Char_Molly_Suit_C_1P_Skin.uexp",
+          "size": 392927,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956368873
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Limbs_UI",
+      "name": "VMI_Char_Molly_Suit_C_Limbs_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Limbs_UI.VMI_Char_Molly_Suit_C_Limbs_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Limbs_UI.uasset",
+          "size": 3303,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956581888
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Limbs_UI.uexp",
+          "size": 371565,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956583753
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Short_UI",
+      "name": "VMI_Char_Molly_Suit_C_Short_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Short_UI.VMI_Char_Molly_Suit_C_Short_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Short_UI.uasset",
+          "size": 3375,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956612608
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Short_UI.uexp",
+          "size": 377511,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956614473
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Molly_Suit_body_UI",
+      "name": "VMI_Molly_Suit_body_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Molly_Suit_body_UI.VMI_Molly_Suit_body_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Molly_Suit_body_UI.uasset",
+          "size": 3728,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956645376
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Molly_Suit_body_UI.uexp",
+          "size": 393740,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956647385
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Coat_3P",
+      "name": "VMI_Char_Molly_Suit_C_Coat_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Coat_3P.VMI_Char_Molly_Suit_C_Coat_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Coat_3P.uasset",
+          "size": 2995,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956401664
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Coat_3P.uexp",
+          "size": 387996,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956403369
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Limbs_3P",
+      "name": "VMI_Char_Molly_Suit_C_Limbs_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Limbs_3P.VMI_Char_Molly_Suit_C_Limbs_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Limbs_3P.uasset",
+          "size": 3057,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956434432
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Limbs_3P.uexp",
+          "size": 388001,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956436121
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Shorts_3P",
+      "name": "VMI_Char_Molly_Suit_C_Shorts_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Shorts_3P.VMI_Char_Molly_Suit_C_Shorts_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Shorts_3P.uasset",
+          "size": 3059,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956467200
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Shorts_3P.uexp",
+          "size": 388006,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956468905
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Skin_3P",
+      "name": "VMI_Char_Molly_Suit_C_Skin_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Skin_3P.VMI_Char_Molly_Suit_C_Skin_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Skin_3P.uasset",
+          "size": 3265,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956499968
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Skin_3P.uexp",
+          "size": 561534,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956501801
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Skin_3P_PC",
+      "name": "VMI_Char_Molly_Suit_C_Skin_3P_PC",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Skin_3P_PC.VMI_Char_Molly_Suit_C_Skin_3P_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Skin_3P_PC.uasset",
+          "size": 3768,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956545024
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Skin_3P_PC.uexp",
+          "size": 393517,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956546985
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Coat_UI",
+      "name": "VMI_Char_Molly_Suit_C_Coat_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Coat_UI.VMI_Char_Molly_Suit_C_Coat_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Coat_UI.uasset",
+          "size": 2795,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956579840
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Coat_UI.uexp",
+          "size": 1717,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 956581385
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Hair_3P",
+      "name": "VMI_Char_Naimei_Suit_A_Hair_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Hair_3P.VMI_Char_Naimei_Suit_A_Hair_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Hair_3P.uasset",
+          "size": 3305,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964126720
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Hair_3P.uexp",
+          "size": 552749,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964128713
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Eyelash_01_3P",
+      "name": "VMI_Char_Naimei_Suit_A_Eyelash_01_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Eyelash_01_3P.VMI_Char_Naimei_Suit_A_Eyelash_01_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Eyelash_01_3P.uasset",
+          "size": 3084,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964089856
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Eyelash_01_3P.uexp",
+          "size": 444134,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964091641
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Head_3p",
+      "name": "VMI_Char_Naimei_Suit_A_Head_3p",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Head_3p.VMI_Char_Naimei_Suit_A_Head_3p",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Head_3p.uasset",
+          "size": 3163,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964173824
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Head_3p.uexp",
+          "size": 569214,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964175577
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Eye_3P",
+      "name": "VMI_Char_Naimei_Suit_A_Eye_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Eye_3P.VMI_Char_Naimei_Suit_A_Eye_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Eye_3P.uasset",
+          "size": 2789,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964044800
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Eye_3P.uexp",
+          "size": 560482,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964046345
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Head_PCSkin",
+      "name": "VMI_Char_Naimei_Suit_A_Head_PCSkin",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Head_PCSkin.VMI_Char_Naimei_Suit_A_Head_PCSkin",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Head_PCSkin.uasset",
+          "size": 3719,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964220928
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Head_PCSkin.uexp",
+          "size": 395249,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964222889
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Hair_FirstPass_UI",
+      "name": "VMI_Char_Naimei_Suit_A_Hair_FirstPass_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Hair_FirstPass_UI.VMI_Char_Naimei_Suit_A_Hair_FirstPass_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Hair_FirstPass_UI.uasset",
+          "size": 3524,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964386816
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Hair_FirstPass_UI.uexp",
+          "size": 577278,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964388921
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Eyelash_01_UI",
+      "name": "VMI_Char_Naimei_Suit_A_Eyelash_01_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Eyelash_01_UI.VMI_Char_Naimei_Suit_A_Eyelash_01_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Eyelash_01_UI.uasset",
+          "size": 3435,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964294656
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Eyelash_01_UI.uexp",
+          "size": 193940,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964296585
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_head_AO_UI",
+      "name": "VMI_Char_Naimei_Suit_A_head_AO_UI",
+      "class": "MaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_head_AO_UI.VMI_Char_Naimei_Suit_A_head_AO_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_head_AO_UI.uasset",
+          "size": 2931,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964433920
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_head_AO_UI.uexp",
+          "size": 62110,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964435609
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Head_UI",
+      "name": "VMI_Char_Naimei_Suit_A_Head_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Head_UI.VMI_Char_Naimei_Suit_A_Head_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Head_UI.uasset",
+          "size": 3795,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964442112
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Head_UI.uexp",
+          "size": 405442,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964444057
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Eye_UI",
+      "name": "VMI_Char_Naimei_Suit_A_Eye_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Eye_UI.VMI_Char_Naimei_Suit_A_Eye_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Eye_UI.uasset",
+          "size": 5114,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964257792
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Eye_UI.uexp",
+          "size": 387860,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 964260505
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Env/Lobby/LobbyCutScene_Nai_Mei/Materials/VMI_LobbyCutScene_Nai_Mei_Petal_01a",
+      "name": "VMI_LobbyCutScene_Nai_Mei_Petal_01a",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Env/Lobby/LobbyCutScene_Nai_Mei/Materials/VMI_LobbyCutScene_Nai_Mei_Petal_01a.VMI_LobbyCutScene_Nai_Mei_Petal_01a",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Env/Lobby/LobbyCutScene_Nai_Mei/Materials/VMI_LobbyCutScene_Nai_Mei_Petal_01a.uasset",
+          "size": 3387,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 898322432
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Env/Lobby/LobbyCutScene_Nai_Mei/Materials/VMI_LobbyCutScene_Nai_Mei_Petal_01a.uexp",
+          "size": 233159,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 898324329
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Env/Lobby/Role_NaimeiBianca/Material/VMI_StationSquare_Ground_BioVine_01a",
+      "name": "VMI_StationSquare_Ground_BioVine_01a",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Env/Lobby/Role_NaimeiBianca/Material/VMI_StationSquare_Ground_BioVine_01a.VMI_StationSquare_Ground_BioVine_01a",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Env/Lobby/Role_NaimeiBianca/Material/VMI_StationSquare_Ground_BioVine_01a.uasset",
+          "size": 3109,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1060372480
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Env/Lobby/Role_NaimeiBianca/Material/VMI_StationSquare_Ground_BioVine_01a.uexp",
+          "size": 590828,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1060374201
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Env/Lobby/Role_NaimeiBianca/Material/VMI_ZoneC_Nature_LifeTree_01a_DetailNormal_E",
+      "name": "VMI_ZoneC_Nature_LifeTree_01a_DetailNormal_E",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Env/Lobby/Role_NaimeiBianca/Material/VMI_ZoneC_Nature_LifeTree_01a_DetailNormal_E.VMI_ZoneC_Nature_LifeTree_01a_DetailNormal_E",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Env/Lobby/Role_NaimeiBianca/Material/VMI_ZoneC_Nature_LifeTree_01a_DetailNormal_E.uasset",
+          "size": 3262,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1060419584
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Env/Lobby/Role_NaimeiBianca/Material/VMI_ZoneC_Nature_LifeTree_01a_DetailNormal_E.uexp",
+          "size": 590599,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1060421369
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Arm_1P_SSS",
+      "name": "VMI_Char_Naimei_Bianca_A_Arm_1P_SSS",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Arm_1P_SSS.VMI_Char_Naimei_Bianca_A_Arm_1P_SSS",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Arm_1P_SSS.uasset",
+          "size": 3380,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 503171072
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Arm_1P_SSS.uexp",
+          "size": 392433,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 503172793
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Arm_1P",
+      "name": "VMI_Char_Naimei_Bianca_A_Arm_1P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Arm_1P.VMI_Char_Naimei_Bianca_A_Arm_1P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Arm_1P.uasset",
+          "size": 3013,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 503134208
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Arm_1P.uexp",
+          "size": 444109,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 503135785
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Hand_1P_SSS",
+      "name": "VMI_Char_Naimei_Bianca_A_Hand_1P_SSS",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Hand_1P_SSS.VMI_Char_Naimei_Bianca_A_Hand_1P_SSS",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Hand_1P_SSS.uasset",
+          "size": 3619,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 503205888
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Hand_1P_SSS.uexp",
+          "size": 392700,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 503207657
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/VMI_Char_Naimei_Bianca_A_Accessory_Trans_3P",
+      "name": "VMI_Char_Naimei_Bianca_A_Accessory_Trans_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/VMI_Char_Naimei_Bianca_A_Accessory_Trans_3P.VMI_Char_Naimei_Bianca_A_Accessory_Trans_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/VMI_Char_Naimei_Bianca_A_Accessory_Trans_3P.uasset",
+          "size": 2993,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 977737728
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/VMI_Char_Naimei_Bianca_A_Accessory_Trans_3P.uexp",
+          "size": 444730,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 977739305
+        }
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Body_UI.VMI_Char_Emma_Suit_C_Body_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Body_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Legs_UI.VMI_Char_Emma_Suit_C_Legs_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Legs_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Shoes_UI.VMI_Char_Emma_Suit_C_Shoes_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Shoes_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Arm_Clearcoat_UI.VMI_Char_Emma_Suit_C_Arm_Clearcoat_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Arm_Clearcoat_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Body_Clearcoat_UI.VMI_Char_Emma_Suit_C_Body_Clearcoat_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Emma/Emma_Suit_C/Materials/UI/VMI_Char_Emma_Suit_C_Body_Clearcoat_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Hair_3P.VMI_Char_Lilith_Suit_C_Hair_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Hair_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Eye_3P.VMI_Char_Lilith_Suit_C_Eye_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Eye_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Head_3P.VMI_Char_Lilith_Suit_C_Head_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Head_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Eyelash_3P.VMI_Char_Lilith_Suit_C_Eyelash_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Eyelash_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Head_3P_PC.VMI_Char_Lilith_Suit_C_Head_3P_PC",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Martials/3P/VMI_Char_Lilith_Suit_C_Head_3P_PC.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Hair_FirstPass_UI.VMI_Char_Lilith_Suit_C_Hair_FirstPass_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Hair_FirstPass_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Eye_UI.VMI_Char_Lilith_Suit_C_Eye_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Eye_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Head_UI.VMI_Char_Lilith_Suit_C_Head_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Head_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Eyelash_UI.VMI_Char_Lilith_Suit_C_Eyelash_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_Eyelash_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_head_AO_UI.VMI_Char_Lilith_Suit_C_head_AO_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/CommonRes/Martials/UI/VMI_Char_Lilith_Suit_C_head_AO_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Arm_1P.VMI_Char_Lilith_Suit_Suit_B_1P_Arm_1P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Arm_1P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Hand_1P.VMI_Char_Lilith_Suit_Suit_B_1P_Hand_1P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Hand_1P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Hand_SSS_1P.VMI_Char_Lilith_Suit_Suit_B_1P_Hand_SSS_1P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Hand_SSS_1P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Arm_SSS_1P.VMI_Char_Lilith_Suit_Suit_B_1P_Arm_SSS_1P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/1P/VMI_Char_Lilith_Suit_Suit_B_1P_Arm_SSS_1P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Clothes_UI.VMI_Char_Lilith_Suit_C_Clothes_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Clothes_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Shoe_UI.VMI_Char_Lilith_Suit_C_Shoe_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Shoe_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Skin_SSS_UI.VMI_Char_Lilith_Suit_C_Skin_SSS_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Skin_SSS_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Trousers_UI.VMI_Char_Lilith_Suit_C_Trousers_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Trousers_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Shoe_3P.VMI_Char_Lilith_Suit_C_Shoe_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Shoe_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Clothes_3P.VMI_Char_Lilith_Suit_C_Clothes_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Clothes_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Skin_3P.VMI_Char_Lilith_Suit_C_Skin_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Skin_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Trousers_3P.VMI_Char_Lilith_Suit_C_Trousers_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Trousers_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Clothes_Fur_3P_PC.VMI_Char_Lilith_Suit_C_Clothes_Fur_3P_PC",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Clothes_Fur_3P_PC.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Skin_3P_PC.VMI_Char_Lilith_Suit_C_Skin_3P_PC",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/3P/VMI_Char_Lilith_Suit_C_Skin_3P_PC.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Skin_UI.VMI_Char_Lilith_Suit_C_Skin_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Skin_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Clothes_Fur_UI_2.VMI_Char_Lilith_Suit_C_Clothes_Fur_UI_2",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Lilith/Lilith_Suit_C/Martials/UI/VMI_Char_Lilith_Suit_C_Clothes_Fur_UI_2.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Hair_3P.VMI_Char_Molly_Hair_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Hair_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Head_3P.VMI_Char_Molly_Suit_C_Head_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Head_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Eye_3P.VMI_Char_Molly_Suit_C_Eye_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Eye_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Eyelash_3P.VMI_Char_Molly_Suit_C_Eyelash_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Eyelash_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Head_3P_PC.VMI_Char_Molly_Suit_C_Head_3P_PC",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/CommonRes/Materials/3P/VMI_Char_Molly_Suit_C_Head_3P_PC.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Hair_FirstPass_UI.VMI_Char_Molly_Hair_FirstPass_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Hair_FirstPass_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_head_AO_UI.VMI_Char_Molly_head_AO_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_head_AO_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Head_UI.VMI_Char_Molly_Head_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Head_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Eye_UI.VMI_Char_Molly_Eye_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Eye_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Eyelash_UI.VMI_Char_Molly_Eyelash_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/CommonRes/Materials/UI/VMI_Char_Molly_Eyelash_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/1P/VMI_Char_Molly_Nanami_B_1P_Arm.VMI_Char_Molly_Nanami_B_1P_Arm",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/1P/VMI_Char_Molly_Nanami_B_1P_Arm.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/1P/VMI_Char_Molly_Nanami_B_1P_Hand.VMI_Char_Molly_Nanami_B_1P_Hand",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/1P/VMI_Char_Molly_Nanami_B_1P_Hand.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Accessory_3P.VMI_Char_Molly_Nanami_B_Accessory_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Accessory_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Body_3P.VMI_Char_Molly_Nanami_B_Body_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Body_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Clothes_3P.VMI_Char_Molly_Nanami_B_Clothes_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Clothes_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Headwear_3P.VMI_Char_Molly_Nanami_B_Headwear_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Headwear_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Shoes_3P.VMI_Char_Molly_Nanami_B_Shoes_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Shoes_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Arm_3P.VMI_Char_Molly_Nanami_B_Arm_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Arm_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Accessory_FX_3P_PC.VMI_Char_Molly_Nanami_B_Accessory_FX_3P_PC",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Accessory_FX_3P_PC.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Body_3P_PC.VMI_Char_Molly_Nanami_B_Body_3P_PC",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/3P/VMI_Char_Molly_Nanami_B_Body_3P_PC.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Hair_3P.VMI_Char_Molly_Nanami_B_Hair_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Hair_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Head_3P.VMI_Char_Molly_Nanami_B_Head_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Head_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Eye_3P.VMI_Char_Molly_Nanami_B_Eye_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Eye_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Eyelash_3P.VMI_Char_Molly_Nanami_B_Eyelash_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Eyelash_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Head_3P_PC.VMI_Char_Molly_Nanami_B_Head_3P_PC",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/3P/VMI_Char_Molly_Nanami_B_Head_3P_PC.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Accessory_UI.VMI_Char_Molly_Nanami_B_Accessory_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Accessory_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Arm_UI.VMI_Char_Molly_Nanami_B_Arm_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Arm_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Body_UI.VMI_Char_Molly_Nanami_B_Body_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Body_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Clothes_UI.VMI_Char_Molly_Nanami_B_Clothes_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Clothes_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Headwear_UI.VMI_Char_Molly_Nanami_B_Headwear_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Headwear_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Shoes_UI.VMI_Char_Molly_Nanami_B_Shoes_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Shoes_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Accessory_FX_UI.VMI_Char_Molly_Nanami_B_Accessory_FX_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Body/UI/VMI_Char_Molly_Nanami_B_Accessory_FX_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Hair_FirstPass_UI.VMI_Char_Molly_Nanami_B_Hair_FirstPass_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Hair_FirstPass_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_head_AO_UI.VMI_Char_Molly_Nanami_B_head_AO_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_head_AO_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Head_UI.VMI_Char_Molly_Nanami_B_Head_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Head_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Eye_UI.VMI_Char_Molly_Nanami_B_Eye_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Eye_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Eyelash_UI.VMI_Char_Molly_Nanami_B_Eyelash_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/Molly_Nanami_B/Martials/Head/UI/VMI_Char_Molly_Nanami_B_Eyelash_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/1P/VMI_Char_Molly_Suit_C_1P.VMI_Char_Molly_Suit_C_1P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Suit_C/Materials/1P/VMI_Char_Molly_Suit_C_1P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/1P/VMI_Char_Molly_Suit_C_1P_Skin.VMI_Char_Molly_Suit_C_1P_Skin",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Suit_C/Materials/1P/VMI_Char_Molly_Suit_C_1P_Skin.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Limbs_UI.VMI_Char_Molly_Suit_C_Limbs_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Limbs_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Short_UI.VMI_Char_Molly_Suit_C_Short_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Short_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Molly_Suit_body_UI.VMI_Molly_Suit_body_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Molly_Suit_body_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Coat_3P.VMI_Char_Molly_Suit_C_Coat_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Coat_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Limbs_3P.VMI_Char_Molly_Suit_C_Limbs_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Limbs_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Shorts_3P.VMI_Char_Molly_Suit_C_Shorts_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Shorts_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Skin_3P.VMI_Char_Molly_Suit_C_Skin_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Skin_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Skin_3P_PC.VMI_Char_Molly_Suit_C_Skin_3P_PC",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Molly/Molly_Suit_C/Materials/3P/VMI_Char_Molly_Suit_C_Skin_3P_PC.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Coat_UI.VMI_Char_Molly_Suit_C_Coat_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Molly/Molly_Suit_C/Materials/UI/VMI_Char_Molly_Suit_C_Coat_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Hair_3P.VMI_Char_Naimei_Suit_A_Hair_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Hair_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Eyelash_01_3P.VMI_Char_Naimei_Suit_A_Eyelash_01_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Eyelash_01_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Head_3p.VMI_Char_Naimei_Suit_A_Head_3p",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Head_3p.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Eye_3P.VMI_Char_Naimei_Suit_A_Eye_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Eye_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Head_PCSkin.VMI_Char_Naimei_Suit_A_Head_PCSkin",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/CommonRes/Materials/3p/VMI_Char_Naimei_Suit_A_Head_PCSkin.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Hair_FirstPass_UI.VMI_Char_Naimei_Suit_A_Hair_FirstPass_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Hair_FirstPass_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Eyelash_01_UI.VMI_Char_Naimei_Suit_A_Eyelash_01_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Eyelash_01_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_head_AO_UI.VMI_Char_Naimei_Suit_A_head_AO_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_head_AO_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Head_UI.VMI_Char_Naimei_Suit_A_Head_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Head_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Eye_UI.VMI_Char_Naimei_Suit_A_Eye_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Naimei/CommonRes/Materials/UI/VMI_Char_Naimei_Suit_A_Eye_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Env/Lobby/LobbyCutScene_Nai_Mei/Materials/VMI_LobbyCutScene_Nai_Mei_Petal_01a.VMI_LobbyCutScene_Nai_Mei_Petal_01a",
+      "files": [
+        "PCResources/Characters/Metadata/Env/Lobby/LobbyCutScene_Nai_Mei/Materials/VMI_LobbyCutScene_Nai_Mei_Petal_01a.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Env/Lobby/Role_NaimeiBianca/Material/VMI_StationSquare_Ground_BioVine_01a.VMI_StationSquare_Ground_BioVine_01a",
+      "files": [
+        "PCResources/Characters/Metadata/Env/Lobby/Role_NaimeiBianca/Material/VMI_StationSquare_Ground_BioVine_01a.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Env/Lobby/Role_NaimeiBianca/Material/VMI_ZoneC_Nature_LifeTree_01a_DetailNormal_E.VMI_ZoneC_Nature_LifeTree_01a_DetailNormal_E",
+      "files": [
+        "PCResources/Characters/Metadata/Env/Lobby/Role_NaimeiBianca/Material/VMI_ZoneC_Nature_LifeTree_01a_DetailNormal_E.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Arm_1P_SSS.VMI_Char_Naimei_Bianca_A_Arm_1P_SSS",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Arm_1P_SSS.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Arm_1P.VMI_Char_Naimei_Bianca_A_Arm_1P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Arm_1P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Hand_1P_SSS.VMI_Char_Naimei_Bianca_A_Hand_1P_SSS",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/1P/VMI_Char_Naimei_Bianca_A_Hand_1P_SSS.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/VMI_Char_Naimei_Bianca_A_Accessory_Trans_3P.VMI_Char_Naimei_Bianca_A_Accessory_Trans_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Naimei/Naimei_Bianca_A/Martials/3P/VMI_Char_Naimei_Bianca_A_Accessory_Trans_3P.json"
+      ],
+      "error": null
+    }
+  ]
+}

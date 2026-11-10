@@ -1,0 +1,71 @@
+{
+  "Type": "AvaCharItemData",
+  "Name": "DA_Char_Krieg",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'AvaCharItemData'",
+  "Package": "NZM/Content/Avatar/Character/Krieg/GameData/DA_Char_Krieg",
+  "Properties": {
+    "TPPConfig": {
+      "DefaultPartItems": [
+        "10051020001",
+        "10051020002",
+        "10051020003"
+      ],
+      "CutPartItems": [
+        "10051020004"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Krieg/CommonRes/Mesh/SK_Char_Krieg_Mesh_Master.SK_Char_Krieg_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "AvatarFeatureLinkBP": [
+        {
+          "AssetPathName": "/Game/Animations/Locomotion/AvatarFeature/Role_WanFei_Anim_Linking.Role_WanFei_Anim_Linking_C",
+          "SubPathString": ""
+        }
+      ],
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "FPPConfig": {
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Krieg/Krieg_Suit_C/Mesh/SK_Char_Krieg_Suit_C_1P_Body_Mesh.SK_Char_Krieg_Suit_C_1P_Body_Mesh",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "UIConfig": {
+      "DefaultPartItems": [
+        "10051010002",
+        "10051010003"
+      ],
+      "CutPartItems": [
+        "10051010004"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Krieg/CommonRes/Mesh/SK_Char_Krieg_Mesh_Master.SK_Char_Krieg_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "Description": "克里格",
+    "ModeConfig": {
+      "Gender": "EAvaGenderType::Male",
+      "BindTag": {
+        "TagName": "Avatar.Character.Krieg"
+      },
+      "ClothType": "ENZAvatarClothType::ChainAnimLink"
+    },
+    "AssetPathName": "/Game/Avatar/Character/Krieg/GameData/DA_Char_Krieg.DA_Char_Krieg"
+  }
+}

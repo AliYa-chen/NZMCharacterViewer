@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:02:50.0032338Z",
+  "scope": "Offline data checks: ActorX points and every nonzero weight/index exactly compared against decoded source DTO; PNG decoded and dimensions checked against highest available source mip. No UE import, rig animation, material appearance or device validation.",
+  "results": [
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_1P_Lower_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_1P_Lower_Mesh.SK_Char_Naimei_Bianca_A_1P_Lower_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 32432,
+        "WrittenVertices": 32432,
+        "SourceBones": 68,
+        "WrittenBones": 68,
+        "SourceWeightRows": 85946,
+        "WrittenWeightRows": 85946,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 47566
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_3P_Body_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_3P_Body_Mesh.SK_Char_Naimei_Bianca_A_3P_Body_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 29689,
+        "WrittenVertices": 29689,
+        "SourceBones": 112,
+        "WrittenBones": 112,
+        "SourceWeightRows": 79095,
+        "WrittenWeightRows": 79095,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 40609
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_3P_Hair_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_3P_Hair_Mesh.SK_Char_Naimei_Bianca_A_3P_Hair_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 23144,
+        "WrittenVertices": 23144,
+        "SourceBones": 69,
+        "WrittenBones": 69,
+        "SourceWeightRows": 47693,
+        "WrittenWeightRows": 47693,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 21787
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_3P_Head_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_3P_Head_Mesh.SK_Char_Naimei_Bianca_A_3P_Head_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 6915,
+        "WrittenVertices": 6915,
+        "SourceBones": 30,
+        "WrittenBones": 30,
+        "SourceWeightRows": 7420,
+        "WrittenWeightRows": 7420,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 12475
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_3P_Headwear_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_3P_Headwear_Mesh.SK_Char_Naimei_Bianca_A_3P_Headwear_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 4528,
+        "WrittenVertices": 4528,
+        "SourceBones": 42,
+        "WrittenBones": 42,
+        "SourceWeightRows": 6648,
+        "WrittenWeightRows": 6648,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 5806
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_3P_PropHead_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_3P_PropHead_Mesh.SK_Char_Naimei_Bianca_A_3P_PropHead_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 300,
+        "WrittenVertices": 300,
+        "SourceBones": 30,
+        "WrittenBones": 30,
+        "SourceWeightRows": 735,
+        "WrittenWeightRows": 735,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 500
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_CutScene_Veil_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_CutScene_Veil_Mesh.SK_Char_Naimei_Bianca_A_CutScene_Veil_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 8762,
+        "WrittenVertices": 8762,
+        "SourceBones": 136,
+        "WrittenBones": 136,
+        "SourceWeightRows": 56626,
+        "WrittenWeightRows": 56626,
+        "MaximumInfluences": 8,
+        "VerticesOverFourInfluences": 7423,
+        "WrittenTriangles": 16760
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_Mesh_Master.psk",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_Mesh_Master.SK_Char_Naimei_Bianca_A_Mesh_Master",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 24,
+        "WrittenVertices": 24,
+        "SourceBones": 251,
+        "WrittenBones": 251,
+        "SourceWeightRows": 24,
+        "WrittenWeightRows": 24,
+        "MaximumInfluences": 1,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 12
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Meshes/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_UI_Body_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Naimei/Naimei_Bianca_A/Mesh/SK_Char_Naimei_Bianca_A_UI_Body_Mesh.SK_Char_Naimei_Bianca_A_UI_Body_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 48434,
+        "WrittenVertices": 48434,
+        "SourceBones": 112,
+        "WrittenBones": 112,
+        "SourceWeightRows": 144444,
+        "WrittenWeightRows": 144444,
+        "MaximumInfluences": 6,
+        "VerticesOverFourInfluences": 4404,
+        "WrittenTriangles": 71497
+      }
+    }
+  ]
+}

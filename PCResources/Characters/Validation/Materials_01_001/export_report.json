@@ -1,0 +1,3279 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:00:39.7868893Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/1P/VMI_Char_Angel_Lucia_A_Arm",
+      "name": "VMI_Char_Angel_Lucia_A_Arm",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/1P/VMI_Char_Angel_Lucia_A_Arm.VMI_Char_Angel_Lucia_A_Arm",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/1P/VMI_Char_Angel_Lucia_A_Arm.uasset",
+          "size": 2971,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56419987
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/1P/VMI_Char_Angel_Lucia_A_Arm.uexp",
+          "size": 561048,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56421660
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/1P/VMI_Char_Angel_Lucia_A_Hand",
+      "name": "VMI_Char_Angel_Lucia_A_Hand",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/1P/VMI_Char_Angel_Lucia_A_Hand.VMI_Char_Angel_Lucia_A_Hand",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/1P/VMI_Char_Angel_Lucia_A_Hand.uasset",
+          "size": 2979,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56464586
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/1P/VMI_Char_Angel_Lucia_A_Hand.uexp",
+          "size": 561053,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56466259
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_C_3P",
+      "name": "VMI_Char_Angel_Lucia_A_Clothes_C_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_C_3P.VMI_Char_Angel_Lucia_A_Clothes_C_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_C_3P.uasset",
+          "size": 3102,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56682850
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_C_3P.uexp",
+          "size": 593978,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56684571
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Shoes_3P",
+      "name": "VMI_Char_Angel_Lucia_A_Shoes_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Shoes_3P.VMI_Char_Angel_Lucia_A_Shoes_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Shoes_3P.uasset",
+          "size": 3070,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56933488
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Shoes_3P.uexp",
+          "size": 593958,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56935209
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Trousers_3P",
+      "name": "VMI_Char_Angel_Lucia_A_Trousers_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Trousers_3P.VMI_Char_Angel_Lucia_A_Trousers_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Trousers_3P.uasset",
+          "size": 3094,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56981147
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Trousers_3P.uexp",
+          "size": 593676,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56982868
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Trousers_Skin_3P",
+      "name": "VMI_Char_Angel_Lucia_A_Trousers_Skin_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Trousers_Skin_3P.VMI_Char_Angel_Lucia_A_Trousers_Skin_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Trousers_Skin_3P.uasset",
+          "size": 2944,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57028810
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Trousers_Skin_3P.uexp",
+          "size": 364428,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57030387
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_C_Skin_3P",
+      "name": "VMI_Char_Angel_Lucia_A_Clothes_C_Skin_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_C_Skin_3P.VMI_Char_Angel_Lucia_A_Clothes_C_Skin_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_C_Skin_3P.uasset",
+          "size": 2954,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56730552
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_C_Skin_3P.uexp",
+          "size": 364433,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56732113
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_B_3P",
+      "name": "VMI_Char_Angel_Lucia_A_Clothes_B_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_B_3P.VMI_Char_Angel_Lucia_A_Clothes_B_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_B_3P.uasset",
+          "size": 3414,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56634157
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_B_3P.uexp",
+          "size": 602286,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56635974
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_A_3P",
+      "name": "VMI_Char_Angel_Lucia_A_Clothes_A_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_A_3P.VMI_Char_Angel_Lucia_A_Clothes_A_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_A_3P.uasset",
+          "size": 3102,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56555072
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_A_3P.uexp",
+          "size": 593681,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56556793
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Arm_3P_FX",
+      "name": "VMI_Char_Angel_Lucia_A_Arm_3P_FX",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Arm_3P_FX.VMI_Char_Angel_Lucia_A_Arm_3P_FX",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Arm_3P_FX.uasset",
+          "size": 3647,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56509316
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Arm_3P_FX.uexp",
+          "size": 581495,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56511229
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_A_Skin_3P",
+      "name": "VMI_Char_Angel_Lucia_A_Clothes_A_Skin_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_A_Skin_3P.VMI_Char_Angel_Lucia_A_Clothes_A_Skin_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_A_Skin_3P.uasset",
+          "size": 3103,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56602782
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_A_Skin_3P.uexp",
+          "size": 364618,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56604455
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Hair_3P",
+      "name": "VMI_Char_Angel_Lucia_A_Hair_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Hair_3P.VMI_Char_Angel_Lucia_A_Hair_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Hair_3P.uasset",
+          "size": 3106,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56809510
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Hair_3P.uexp",
+          "size": 553902,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56811375
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Hair_3P_2",
+      "name": "VMI_Char_Angel_Lucia_A_Hair_3P_2",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Hair_3P_2.VMI_Char_Angel_Lucia_A_Hair_3P_2",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Hair_3P_2.uasset",
+          "size": 3079,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56854613
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Hair_3P_2.uexp",
+          "size": 7167,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56856446
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Head_3P",
+      "name": "VMI_Char_Angel_Lucia_A_Head_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Head_3P.VMI_Char_Angel_Lucia_A_Head_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Head_3P.uasset",
+          "size": 3089,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56857449
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Head_3P.uexp",
+          "size": 561307,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56859186
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Base/Materials/VMI_EyeTearduc",
+      "name": "VMI_EyeTearduc",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Base/Materials/VMI_EyeTearduc.VMI_EyeTearduc",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/VMI_EyeTearduc.uasset",
+          "size": 2880,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4732928
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/VMI_EyeTearduc.uexp",
+          "size": 443641,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4734585
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Eye_3P",
+      "name": "VMI_Char_Angel_Lucia_A_Eye_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Eye_3P.VMI_Char_Angel_Lucia_A_Eye_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Eye_3P.uasset",
+          "size": 3012,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56761759
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Eye_3P.uexp",
+          "size": 594012,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56763512
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Base/Materials/VMI_Eyelash_01",
+      "name": "VMI_Eyelash_01",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Base/Materials/VMI_Eyelash_01.VMI_Eyelash_01",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/VMI_Eyelash_01.uasset",
+          "size": 2714,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4696064
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/VMI_Eyelash_01.uexp",
+          "size": 1938,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4697609
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Head_PC",
+      "name": "VMI_Char_Angel_Lucia_A_Head_PC",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Head_PC.VMI_Char_Angel_Lucia_A_Head_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Head_PC.uasset",
+          "size": 3291,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56902173
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Head_PC.uexp",
+          "size": 365156,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 56903878
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI",
+      "name": "VMI_Char_Angel_Lucia_A_Arm_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI.VMI_Char_Angel_Lucia_A_Arm_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI.uasset",
+          "size": 3130,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57068151
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI.uexp",
+          "size": 227068,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57069824
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_A_UI",
+      "name": "VMI_Char_Angel_Lucia_A_Clothes_A_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_A_UI.VMI_Char_Angel_Lucia_A_Clothes_A_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_A_UI.uasset",
+          "size": 2779,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57178559
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_A_UI.uexp",
+          "size": 1957,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57180088
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_B_UI",
+      "name": "VMI_Char_Angel_Lucia_A_Clothes_B_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_B_UI.VMI_Char_Angel_Lucia_A_Clothes_B_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_B_UI.uasset",
+          "size": 3198,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57211867
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_B_UI.uexp",
+          "size": 227080,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57213540
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_C_UI",
+      "name": "VMI_Char_Angel_Lucia_A_Clothes_C_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_C_UI.VMI_Char_Angel_Lucia_A_Clothes_C_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_C_UI.uasset",
+          "size": 2629,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57269871
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_C_UI.uexp",
+          "size": 1548,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57271288
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Head_UI",
+      "name": "VMI_Char_Angel_Lucia_A_Head_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Head_UI.VMI_Char_Angel_Lucia_A_Head_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Head_UI.uasset",
+          "size": 3332,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57669618
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Head_UI.uexp",
+          "size": 370296,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57671323
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_head_AO_UI",
+      "name": "VMI_Char_Angel_head_AO_UI",
+      "class": "MaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_head_AO_UI.VMI_Char_Angel_head_AO_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_head_AO_UI.uasset",
+          "size": 2918,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57060036
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_head_AO_UI.uexp",
+          "size": 62110,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57061709
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_Eye_UI",
+      "name": "VMI_Char_Angel_Lucia_Eye_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_Eye_UI.VMI_Char_Angel_Lucia_Eye_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_Eye_UI.uasset",
+          "size": 4817,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57760813
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_Eye_UI.uexp",
+          "size": 386490,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57763414
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI",
+      "name": "VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI.VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI.uasset",
+          "size": 3346,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57337271
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI.uexp",
+          "size": 575398,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57339296
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_2",
+      "name": "VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_2",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_2.VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_2",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_2.uasset",
+          "size": 3217,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57383265
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_2.uexp",
+          "size": 7152,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57385130
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Base/Materials/VMI_Oral_UI",
+      "name": "VMI_Oral_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Base/Materials/VMI_Oral_UI.VMI_Oral_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/VMI_Oral_UI.uasset",
+          "size": 2827,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4775936
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/VMI_Oral_UI.uexp",
+          "size": 2162,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4777577
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Shoes_UI",
+      "name": "VMI_Char_Angel_Lucia_A_Shoes_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Shoes_UI.VMI_Char_Angel_Lucia_A_Shoes_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Shoes_UI.uasset",
+          "size": 2888,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57700974
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Shoes_UI.uexp",
+          "size": 82762,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57702551
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Trousers_UI",
+      "name": "VMI_Char_Angel_Lucia_A_Trousers_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Trousers_UI.VMI_Char_Angel_Lucia_A_Trousers_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Trousers_UI.uasset",
+          "size": 2977,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57710314
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Trousers_UI.uexp",
+          "size": 226816,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57711971
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Trousers_UI_Skin",
+      "name": "VMI_Char_Angel_Lucia_A_Trousers_UI_Skin",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Trousers_UI_Skin.VMI_Char_Angel_Lucia_A_Trousers_UI_Skin",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Trousers_UI_Skin.uasset",
+          "size": 3093,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57729452
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Trousers_UI_Skin.uexp",
+          "size": 364613,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57731141
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Base/Materials/VMI_Eyelash_01_UI",
+      "name": "VMI_Eyelash_01_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Base/Materials/VMI_Eyelash_01_UI.VMI_Eyelash_01_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/VMI_Eyelash_01_UI.uasset",
+          "size": 3161,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4698112
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/VMI_Eyelash_01_UI.uexp",
+          "size": 418343,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4699961
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_C_UI_Skin",
+      "name": "VMI_Char_Angel_Lucia_A_Clothes_C_UI_Skin",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_C_UI_Skin.VMI_Char_Angel_Lucia_A_Clothes_C_UI_Skin",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_C_UI_Skin.uasset",
+          "size": 3103,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57271667
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_C_UI_Skin.uexp",
+          "size": 364618,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57273308
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_A_UI_Skin",
+      "name": "VMI_Char_Angel_Lucia_A_Clothes_A_UI_Skin",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_A_UI_Skin.VMI_Char_Angel_Lucia_A_Clothes_A_UI_Skin",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_A_UI_Skin.uasset",
+          "size": 3103,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57180524
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_A_UI_Skin.uexp",
+          "size": 364618,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57182165
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_3",
+      "name": "VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_3",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_3.VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_3",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_3.uasset",
+          "size": 3740,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57386162
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_3.uexp",
+          "size": 405016,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57388395
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI_FX",
+      "name": "VMI_Char_Angel_Lucia_A_Arm_UI_FX",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI_FX.VMI_Char_Angel_Lucia_A_Arm_UI_FX",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI_FX.uasset",
+          "size": 3525,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57087327
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI_FX.uexp",
+          "size": 581013,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57089160
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_B_UI_FX",
+      "name": "VMI_Char_Angel_Lucia_A_Clothes_B_UI_FX",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_B_UI_FX.VMI_Char_Angel_Lucia_A_Clothes_B_UI_FX",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_B_UI_FX.uasset",
+          "size": 3904,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57231059
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_B_UI_FX.uexp",
+          "size": 458092,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57233052
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI_FX_ACC",
+      "name": "VMI_Char_Angel_Lucia_A_Arm_UI_FX_ACC",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI_FX_ACC.VMI_Char_Angel_Lucia_A_Arm_UI_FX_ACC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI_FX_ACC.uasset",
+          "size": 3424,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57133007
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI_FX_ACC.uexp",
+          "size": 580629,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57134792
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Base/Materials/VMI_EyeTearduc_UI",
+      "name": "VMI_EyeTearduc_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Base/Materials/VMI_EyeTearduc_UI.VMI_EyeTearduc_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/VMI_EyeTearduc_UI.uasset",
+          "size": 2656,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4769792
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/VMI_EyeTearduc_UI.uexp",
+          "size": 1680,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4771289
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_Eye_UI_Em",
+      "name": "VMI_Char_Angel_Lucia_Eye_UI_Em",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_Eye_UI_Em.VMI_Char_Angel_Lucia_Eye_UI_Em",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_Eye_UI_Em.uasset",
+          "size": 5211,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57797404
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_Eye_UI_Em.uexp",
+          "size": 421243,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57800053
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Eyelash_UI",
+      "name": "VMI_Char_Angel_Lucia_A_Eyelash_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Eyelash_UI.VMI_Char_Angel_Lucia_A_Eyelash_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Eyelash_UI.uasset",
+          "size": 3335,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57303009
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Eyelash_UI.uexp",
+          "size": 418645,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 57304874
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Materials/UI/VMI_Pendant_Hand_Band_A04_LXYring_A_UI",
+      "name": "VMI_Pendant_Hand_Band_A04_LXYring_A_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Materials/UI/VMI_Pendant_Hand_Band_A04_LXYring_A_UI.VMI_Pendant_Hand_Band_A04_LXYring_A_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Materials/UI/VMI_Pendant_Hand_Band_A04_LXYring_A_UI.uasset",
+          "size": 4571,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 76553680
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Materials/UI/VMI_Pendant_Hand_Band_A04_LXYring_A_UI.uexp",
+          "size": 592325,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 76555977
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Materials/3P/VMI_Pendant_Hand_Band_A04_LXYring_A_3P",
+      "name": "VMI_Pendant_Hand_Band_A04_LXYring_A_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Materials/3P/VMI_Pendant_Hand_Band_A04_LXYring_A_3P.VMI_Pendant_Hand_Band_A04_LXYring_A_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Materials/3P/VMI_Pendant_Hand_Band_A04_LXYring_A_3P.uasset",
+          "size": 3733,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 76508100
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Materials/3P/VMI_Pendant_Hand_Band_A04_LXYring_A_3P.uexp",
+          "size": 581403,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 76509997
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_1P",
+      "name": "VMI_Char_Angel_1P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_1P.VMI_Char_Angel_1P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_1P.uasset",
+          "size": 3258,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 256991232
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_1P.uexp",
+          "size": 568667,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 256993001
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_1P_Skin",
+      "name": "VMI_Char_Angel_1P_Skin",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_1P_Skin.VMI_Char_Angel_1P_Skin",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_1P_Skin.uasset",
+          "size": 3540,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 257038336
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_1P_Skin.uexp",
+          "size": 392445,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk47-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 257040137
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Thigh_3P",
+      "name": "VMI_Char_Angel_Thigh_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Thigh_3P.VMI_Char_Angel_Thigh_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Thigh_3P.uasset",
+          "size": 2882,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81270784
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Thigh_3P.uexp",
+          "size": 560139,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81272425
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Clothes_Laser_3P",
+      "name": "VMI_Char_Angel_Clothes_Laser_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Clothes_Laser_3P.VMI_Char_Angel_Clothes_Laser_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Clothes_Laser_3P.uasset",
+          "size": 3382,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81031168
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Clothes_Laser_3P.uexp",
+          "size": 374042,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81033001
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Trousers_3P",
+      "name": "VMI_Char_Angel_Trousers_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Trousers_3P.VMI_Char_Angel_Trousers_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Trousers_3P.uasset",
+          "size": 3320,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81315840
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Trousers_3P.uexp",
+          "size": 561112,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81317673
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Cloak_3P",
+      "name": "VMI_Char_Angel_Cloak_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Cloak_3P.VMI_Char_Angel_Cloak_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Cloak_3P.uasset",
+          "size": 3316,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 80996352
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Cloak_3P.uexp",
+          "size": 394404,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 80998153
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Arm_3P",
+      "name": "VMI_Char_Angel_Arm_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Arm_3P.VMI_Char_Angel_Arm_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Arm_3P.uasset",
+          "size": 2898,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 80951296
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Arm_3P.uexp",
+          "size": 560129,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 80952937
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Hair_3P",
+      "name": "VMI_Char_Angel_Hair_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Hair_3P.VMI_Char_Angel_Hair_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Hair_3P.uasset",
+          "size": 2840,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81143808
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Hair_3P.uexp",
+          "size": 549309,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81145545
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Hat_3P",
+      "name": "VMI_Char_Angel_Hat_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Hat_3P.VMI_Char_Angel_Hat_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Hat_3P.uasset",
+          "size": 3126,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81188864
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Hat_3P.uexp",
+          "size": 388141,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81190649
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_head_3P",
+      "name": "VMI_Char_Angel_head_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_head_3P.VMI_Char_Angel_head_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_head_3P.uasset",
+          "size": 3119,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81221632
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_head_3P.uexp",
+          "size": 562023,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81223385
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_EyeTearduc_3P",
+      "name": "VMI_Char_Angel_EyeTearduc_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_EyeTearduc_3P.VMI_Char_Angel_EyeTearduc_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_EyeTearduc_3P.uasset",
+          "size": 3059,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81106944
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_EyeTearduc_3P.uexp",
+          "size": 444120,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81108713
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Eye_3P",
+      "name": "VMI_Char_Angel_Eye_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Eye_3P.VMI_Char_Angel_Eye_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Eye_3P.uasset",
+          "size": 2994,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81061888
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Eye_3P.uexp",
+          "size": 560512,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81063609
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Head_PCSkin",
+      "name": "VMI_Char_Angel_Head_PCSkin",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Head_PCSkin.VMI_Char_Angel_Head_PCSkin",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Head_PCSkin.uasset",
+          "size": 3033,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81266688
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Head_PCSkin.uexp",
+          "size": 3045,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81268249
+        }
+      }
+    },
+    {
+      "requested_path": "/Engine/EngineMaterials/WorldGridMaterial",
+      "name": "WorldGridMaterial",
+      "class": "Material",
+      "object_path": "Engine/Content/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "Engine/Content/EngineMaterials/WorldGridMaterial.uasset",
+          "size": 1020,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk21-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4096
+        },
+        "uexp": {
+          "virtual_path": "Engine/Content/EngineMaterials/WorldGridMaterial.uexp",
+          "size": 802987,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk21-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 13729792
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Trousers_UI",
+      "name": "VMI_Char_Angel_Trousers_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Trousers_UI.VMI_Char_Angel_Trousers_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Trousers_UI.uasset",
+          "size": 3182,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 140991523
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Trousers_UI.uexp",
+          "size": 226812,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 140993324
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Clothes_Skin_UI",
+      "name": "VMI_Char_Angel_Clothes_Skin_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Clothes_Skin_UI.VMI_Char_Angel_Clothes_Skin_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Clothes_Skin_UI.uasset",
+          "size": 2820,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81426432
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Clothes_Skin_UI.uexp",
+          "size": 1680,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81427993
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Clothes_Laser_UI_2",
+      "name": "VMI_Char_Angel_Clothes_Laser_UI_2",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Clothes_Laser_UI_2.VMI_Char_Angel_Clothes_Laser_UI_2",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Clothes_Laser_UI_2.uasset",
+          "size": 3515,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81393664
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Clothes_Laser_UI_2.uexp",
+          "size": 377526,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81395561
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Cloak_UI",
+      "name": "VMI_Char_Angel_Cloak_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Cloak_UI.VMI_Char_Angel_Cloak_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Cloak_UI.uasset",
+          "size": 3146,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 140890565
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Cloak_UI.uexp",
+          "size": 82938,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 140892334
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Thigh_UI",
+      "name": "VMI_Char_Angel_Thigh_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Thigh_UI.VMI_Char_Angel_Thigh_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Thigh_UI.uasset",
+          "size": 3156,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 140972309
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Thigh_UI.uexp",
+          "size": 226509,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 140974126
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Arm_UI",
+      "name": "VMI_Char_Angel_Arm_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Arm_UI.VMI_Char_Angel_Arm_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Arm_UI.uasset",
+          "size": 3050,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 140871498
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Arm_UI.uexp",
+          "size": 226320,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 140873203
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hat_UI",
+      "name": "VMI_Char_Angel_Hat_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hat_UI.VMI_Char_Angel_Hat_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hat_UI.uasset",
+          "size": 2772,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81633280
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hat_UI.uexp",
+          "size": 1410,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81634825
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hair_Blend_UI",
+      "name": "VMI_Char_Angel_Hair_Blend_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hair_Blend_UI.VMI_Char_Angel_Hair_Blend_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hair_Blend_UI.uasset",
+          "size": 3122,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81586176
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hair_Blend_UI.uexp",
+          "size": 553396,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81588121
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_head_AO_UI",
+      "name": "VMI_Char_Angel_head_AO_UI",
+      "class": "MaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_head_AO_UI.VMI_Char_Angel_head_AO_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_head_AO_UI.uasset",
+          "size": 2635,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81635328
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_head_AO_UI.uexp",
+          "size": 9329,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81636825
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_Head_UI",
+      "name": "VMI_Char_Angel_Head_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_Head_UI.VMI_Char_Angel_Head_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_Head_UI.uasset",
+          "size": 3627,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81680384
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_Head_UI.uexp",
+          "size": 399585,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81682249
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Base/Materials/MI_EyeTearduc",
+      "name": "MI_EyeTearduc",
+      "class": "MaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Base/Materials/MI_EyeTearduc.MI_EyeTearduc",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/MI_EyeTearduc.uasset",
+          "size": 1985,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4694016
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/MI_EyeTearduc.uexp",
+          "size": 2282,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4695321
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Eye_UI",
+      "name": "VMI_Char_Angel_Eye_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Eye_UI.VMI_Char_Angel_Eye_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Eye_UI.uasset",
+          "size": 4529,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81428480
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Eye_UI.uexp",
+          "size": 383488,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81431001
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Base/Materials/VMI_Oral_Dflow",
+      "name": "VMI_Oral_Dflow",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Base/Materials/VMI_Oral_Dflow.VMI_Oral_Dflow",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/VMI_Oral_Dflow.uasset",
+          "size": 2907,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4773888
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/VMI_Oral_Dflow.uexp",
+          "size": 1942,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4775513
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hair_Blend_FirstPass_UI",
+      "name": "VMI_Char_Angel_Hair_Blend_FirstPass_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hair_Blend_FirstPass_UI.VMI_Char_Angel_Hair_Blend_FirstPass_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hair_Blend_FirstPass_UI.uasset",
+          "size": 3118,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81465344
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hair_Blend_FirstPass_UI.uexp",
+          "size": 573822,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 81467257
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/1P/VMI_Char_Angela_Suit_B_1P_Arm",
+      "name": "VMI_Char_Angela_Suit_B_1P_Arm",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/1P/VMI_Char_Angela_Suit_B_1P_Arm.VMI_Char_Angela_Suit_B_1P_Arm",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/1P/VMI_Char_Angela_Suit_B_1P_Arm.uasset",
+          "size": 2962,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40629341
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/1P/VMI_Char_Angela_Suit_B_1P_Arm.uexp",
+          "size": 388379,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40630966
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/1P/VMI_Char_Angela_Suit_B_1P_Hand",
+      "name": "VMI_Char_Angela_Suit_B_1P_Hand",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/1P/VMI_Char_Angela_Suit_B_1P_Hand.VMI_Char_Angela_Suit_B_1P_Hand",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/1P/VMI_Char_Angela_Suit_B_1P_Hand.uasset",
+          "size": 2970,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40661903
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/1P/VMI_Char_Angela_Suit_B_1P_Hand.uexp",
+          "size": 388384,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40663528
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_body_UI",
+      "name": "VMI_Char_Angela_Suit_B_body_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_body_UI.VMI_Char_Angela_Suit_B_body_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_body_UI.uasset",
+          "size": 3356,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 41037939
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_body_UI.uexp",
+          "size": 365671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 41039724
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Char_Angela_Suit_B_Stocking_UI",
+      "name": "VMI_Char_Char_Angela_Suit_B_Stocking_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Char_Angela_Suit_B_Stocking_UI.VMI_Char_Char_Angela_Suit_B_Stocking_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Char_Angela_Suit_B_Stocking_UI.uasset",
+          "size": 3459,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 41216437
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Char_Angela_Suit_B_Stocking_UI.uexp",
+          "size": 77822,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 41218366
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Clothes_UI",
+      "name": "VMI_Char_Angela_Suit_B_Clothes_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Clothes_UI.VMI_Char_Angela_Suit_B_Clothes_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Clothes_UI.uasset",
+          "size": 4380,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 41069445
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Clothes_UI.uexp",
+          "size": 94508,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 41071598
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Gloves_UI",
+      "name": "VMI_Char_Angela_Suit_B_Gloves_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Gloves_UI.VMI_Char_Angela_Suit_B_Gloves_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Gloves_UI.uasset",
+          "size": 3909,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 41080663
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Gloves_UI.uexp",
+          "size": 6741,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 41082560
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Trousers_UI",
+      "name": "VMI_Char_Angela_Suit_B_Trousers_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Trousers_UI.VMI_Char_Angela_Suit_B_Trousers_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Trousers_UI.uasset",
+          "size": 4086,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 41158783
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Trousers_UI.uexp",
+          "size": 6926,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 41160760
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Trousers_02_UI",
+      "name": "VMI_Char_Angela_Suit_B_Trousers_02_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Trousers_02_UI.VMI_Char_Angela_Suit_B_Trousers_02_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Trousers_02_UI.uasset",
+          "size": 2824,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 141970790
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Trousers_02_UI.uexp",
+          "size": 1836,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 141972319
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_body_3P",
+      "name": "VMI_Char_Angela_Suit_B_body_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_body_3P.VMI_Char_Angela_Suit_B_body_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_body_3P.uasset",
+          "size": 3216,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40694529
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_body_3P.uexp",
+          "size": 560531,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40696250
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Skirt_3P",
+      "name": "VMI_Char_Angela_Suit_B_Skirt_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Skirt_3P.VMI_Char_Angela_Suit_B_Skirt_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Skirt_3P.uasset",
+          "size": 2994,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40868217
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Skirt_3P.uexp",
+          "size": 560315,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40869842
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Clothes_3P",
+      "name": "VMI_Char_Angela_Suit_B_Clothes_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Clothes_3P.VMI_Char_Angela_Suit_B_Clothes_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Clothes_3P.uasset",
+          "size": 3339,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40739203
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Clothes_3P.uexp",
+          "size": 561725,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40741020
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Gloves_3P",
+      "name": "VMI_Char_Angela_Suit_B_Gloves_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Gloves_3P.VMI_Char_Angela_Suit_B_Gloves_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Gloves_3P.uasset",
+          "size": 3002,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40784021
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Gloves_3P.uexp",
+          "size": 560320,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40785646
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Trousers_3P",
+      "name": "VMI_Char_Angela_Suit_B_Trousers_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Trousers_3P.VMI_Char_Angela_Suit_B_Trousers_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Trousers_3P.uasset",
+          "size": 3140,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40948093
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Trousers_3P.uexp",
+          "size": 560713,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40949798
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Trousers_02_3P",
+      "name": "VMI_Char_Angela_Suit_B_Trousers_02_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Trousers_02_3P.VMI_Char_Angela_Suit_B_Trousers_02_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Trousers_02_3P.uasset",
+          "size": 2955,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40912635
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Trousers_02_3P.uexp",
+          "size": 444139,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40914244
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Char_Angela_Suit_B_Stocking_3P",
+      "name": "VMI_Char_Char_Angela_Suit_B_Stocking_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Char_Angela_Suit_B_Stocking_3P.VMI_Char_Char_Angela_Suit_B_Stocking_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Char_Angela_Suit_B_Stocking_3P.uasset",
+          "size": 2831,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40992719
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Char_Angela_Suit_B_Stocking_3P.uexp",
+          "size": 560093,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40994280
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Part_Hat_3P",
+      "name": "VMI_Char_Angela_Suit_B_Part_Hat_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Part_Hat_3P.VMI_Char_Angela_Suit_B_Part_Hat_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Part_Hat_3P.uasset",
+          "size": 4074,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40828455
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Part_Hat_3P.uexp",
+          "size": 453286,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 40830640
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Skirt_UI",
+      "name": "VMI_Char_Angela_Suit_B_Skirt_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Skirt_UI.VMI_Char_Angela_Suit_B_Skirt_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Skirt_UI.uasset",
+          "size": 4056,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 41123355
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Skirt_UI.uexp",
+          "size": 6926,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 41125316
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Part_Hat_UI",
+      "name": "VMI_Char_Angela_Suit_B_Part_Hat_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Part_Hat_UI.VMI_Char_Angela_Suit_B_Part_Hat_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Part_Hat_UI.uasset",
+          "size": 4123,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 41083513
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Part_Hat_UI.uexp",
+          "size": 453810,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 41085730
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Hair_3P",
+      "name": "VMI_Char_Angela_Suit_B_Hair_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Hair_3P.VMI_Char_Angela_Suit_B_Hair_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Hair_3P.uasset",
+          "size": 3171,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 105999095
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Hair_3P.uexp",
+          "size": 551014,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 106001008
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Eyelash_01_3P",
+      "name": "VMI_Char_Angela_Suit_B_Eyelash_01_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Eyelash_01_3P.VMI_Char_Angela_Suit_B_Eyelash_01_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Eyelash_01_3P.uasset",
+          "size": 3084,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 105963445
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Eyelash_01_3P.uexp",
+          "size": 444134,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 105965230
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Base/Materials/M_Char_Hide",
+      "name": "M_Char_Hide",
+      "class": "MaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Base/Materials/M_Char_Hide.M_Char_Hide",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/M_Char_Hide.uasset",
+          "size": 1765,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4685824
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Base/Materials/M_Char_Hide.uexp",
+          "size": 56139,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 4687049
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Head_3p",
+      "name": "VMI_Char_Angela_Suit_B_Head_3p",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Head_3p.VMI_Char_Angela_Suit_B_Head_3p",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Head_3p.uasset",
+          "size": 2797,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 106044201
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Head_3p.uexp",
+          "size": 560048,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 106045794
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Eye_3P",
+      "name": "VMI_Char_Angela_Suit_B_Eye_3P",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Eye_3P.VMI_Char_Angela_Suit_B_Eye_3P",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Eye_3P.uasset",
+          "size": 2789,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 105919139
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Eye_3P.uexp",
+          "size": 560043,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 105920732
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Head_PC",
+      "name": "VMI_Char_Angela_Suit_B_Head_PC",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Head_PC.VMI_Char_Angela_Suit_B_Head_PC",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Head_PC.uasset",
+          "size": 2894,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 106088635
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Head_PC.uexp",
+          "size": 365431,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 106090244
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angela/CommonRes/Materials/UI/VMI_Char_Angela_Suit_B_Hair_FirstPass_UI",
+      "name": "VMI_Char_Angela_Suit_B_Hair_FirstPass_UI",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/UI/VMI_Char_Angela_Suit_B_Hair_FirstPass_UI.VMI_Char_Angela_Suit_B_Hair_FirstPass_UI",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/UI/VMI_Char_Angela_Suit_B_Hair_FirstPass_UI.uasset",
+          "size": 3789,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 106332080
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/UI/VMI_Char_Angela_Suit_B_Hair_FirstPass_UI.uexp",
+          "size": 579671,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/1.0.40.383.0_Patch_Season_3639802_P.pak",
+          "provider_read_order": 363980303,
+          "archive_offset": 106334345
+        }
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/1P/VMI_Char_Angel_Lucia_A_Arm.VMI_Char_Angel_Lucia_A_Arm",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/1P/VMI_Char_Angel_Lucia_A_Arm.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/1P/VMI_Char_Angel_Lucia_A_Hand.VMI_Char_Angel_Lucia_A_Hand",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/1P/VMI_Char_Angel_Lucia_A_Hand.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_C_3P.VMI_Char_Angel_Lucia_A_Clothes_C_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_C_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Shoes_3P.VMI_Char_Angel_Lucia_A_Shoes_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Shoes_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Trousers_3P.VMI_Char_Angel_Lucia_A_Trousers_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Trousers_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Trousers_Skin_3P.VMI_Char_Angel_Lucia_A_Trousers_Skin_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Trousers_Skin_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_C_Skin_3P.VMI_Char_Angel_Lucia_A_Clothes_C_Skin_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_C_Skin_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_B_3P.VMI_Char_Angel_Lucia_A_Clothes_B_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_B_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_A_3P.VMI_Char_Angel_Lucia_A_Clothes_A_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_A_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Arm_3P_FX.VMI_Char_Angel_Lucia_A_Arm_3P_FX",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Arm_3P_FX.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_A_Skin_3P.VMI_Char_Angel_Lucia_A_Clothes_A_Skin_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Clothes_A_Skin_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Hair_3P.VMI_Char_Angel_Lucia_A_Hair_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Hair_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Hair_3P_2.VMI_Char_Angel_Lucia_A_Hair_3P_2",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Hair_3P_2.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Head_3P.VMI_Char_Angel_Lucia_A_Head_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Head_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Base/Materials/VMI_EyeTearduc.VMI_EyeTearduc",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Base/Materials/VMI_EyeTearduc.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Eye_3P.VMI_Char_Angel_Lucia_A_Eye_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Eye_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Base/Materials/VMI_Eyelash_01.VMI_Eyelash_01",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Base/Materials/VMI_Eyelash_01.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Head_PC.VMI_Char_Angel_Lucia_A_Head_PC",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/3P/VMI_Char_Angel_Lucia_A_Head_PC.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI.VMI_Char_Angel_Lucia_A_Arm_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_A_UI.VMI_Char_Angel_Lucia_A_Clothes_A_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_A_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_B_UI.VMI_Char_Angel_Lucia_A_Clothes_B_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_B_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_C_UI.VMI_Char_Angel_Lucia_A_Clothes_C_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_C_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Head_UI.VMI_Char_Angel_Lucia_A_Head_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Head_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_head_AO_UI.VMI_Char_Angel_head_AO_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_head_AO_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_Eye_UI.VMI_Char_Angel_Lucia_Eye_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_Eye_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI.VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_2.VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_2",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_2.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Base/Materials/VMI_Oral_UI.VMI_Oral_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Base/Materials/VMI_Oral_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Shoes_UI.VMI_Char_Angel_Lucia_A_Shoes_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Shoes_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Trousers_UI.VMI_Char_Angel_Lucia_A_Trousers_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Trousers_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Trousers_UI_Skin.VMI_Char_Angel_Lucia_A_Trousers_UI_Skin",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Trousers_UI_Skin.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Base/Materials/VMI_Eyelash_01_UI.VMI_Eyelash_01_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Base/Materials/VMI_Eyelash_01_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_C_UI_Skin.VMI_Char_Angel_Lucia_A_Clothes_C_UI_Skin",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_C_UI_Skin.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_A_UI_Skin.VMI_Char_Angel_Lucia_A_Clothes_A_UI_Skin",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_A_UI_Skin.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_3.VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_3",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Hair_FirstPass_UI_3.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI_FX.VMI_Char_Angel_Lucia_A_Arm_UI_FX",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI_FX.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_B_UI_FX.VMI_Char_Angel_Lucia_A_Clothes_B_UI_FX",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Clothes_B_UI_FX.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI_FX_ACC.VMI_Char_Angel_Lucia_A_Arm_UI_FX_ACC",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Arm_UI_FX_ACC.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Base/Materials/VMI_EyeTearduc_UI.VMI_EyeTearduc_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Base/Materials/VMI_EyeTearduc_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_Eye_UI_Em.VMI_Char_Angel_Lucia_Eye_UI_Em",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_Eye_UI_Em.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Eyelash_UI.VMI_Char_Angel_Lucia_A_Eyelash_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Materials/UI/VMI_Char_Angel_Lucia_A_Eyelash_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Materials/UI/VMI_Pendant_Hand_Band_A04_LXYring_A_UI.VMI_Pendant_Hand_Band_A04_LXYring_A_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Materials/UI/VMI_Pendant_Hand_Band_A04_LXYring_A_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Materials/3P/VMI_Pendant_Hand_Band_A04_LXYring_A_3P.VMI_Pendant_Hand_Band_A04_LXYring_A_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Materials/3P/VMI_Pendant_Hand_Band_A04_LXYring_A_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_1P.VMI_Char_Angel_1P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_1P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_1P_Skin.VMI_Char_Angel_1P_Skin",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_1P_Skin.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Thigh_3P.VMI_Char_Angel_Thigh_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Thigh_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Clothes_Laser_3P.VMI_Char_Angel_Clothes_Laser_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Clothes_Laser_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Trousers_3P.VMI_Char_Angel_Trousers_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Trousers_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Cloak_3P.VMI_Char_Angel_Cloak_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Cloak_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Arm_3P.VMI_Char_Angel_Arm_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Arm_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Hair_3P.VMI_Char_Angel_Hair_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Hair_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Hat_3P.VMI_Char_Angel_Hat_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Hat_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_head_3P.VMI_Char_Angel_head_3P",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_head_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_EyeTearduc_3P.VMI_Char_Angel_EyeTearduc_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_EyeTearduc_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Eye_3P.VMI_Char_Angel_Eye_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Eye_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Head_PCSkin.VMI_Char_Angel_Head_PCSkin",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Materials/3P/VMI_Char_Angel_Head_PCSkin.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "Engine/Content/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+      "files": [
+        "PCResources/Characters/Metadata/Engine/EngineMaterials/WorldGridMaterial.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Trousers_UI.VMI_Char_Angel_Trousers_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Trousers_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Clothes_Skin_UI.VMI_Char_Angel_Clothes_Skin_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Clothes_Skin_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Clothes_Laser_UI_2.VMI_Char_Angel_Clothes_Laser_UI_2",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Clothes_Laser_UI_2.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Cloak_UI.VMI_Char_Angel_Cloak_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Cloak_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Thigh_UI.VMI_Char_Angel_Thigh_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Thigh_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Arm_UI.VMI_Char_Angel_Arm_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Arm_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hat_UI.VMI_Char_Angel_Hat_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hat_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hair_Blend_UI.VMI_Char_Angel_Hair_Blend_UI",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hair_Blend_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_head_AO_UI.VMI_Char_Angel_head_AO_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_head_AO_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_Head_UI.VMI_Char_Angel_Head_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/CommonRes/Materials/VMI_Char_Angel_Head_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Base/Materials/MI_EyeTearduc.MI_EyeTearduc",
+      "files": [
+        "PCResources/Metadata/Avatar/Base/Materials/MI_EyeTearduc.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Eye_UI.VMI_Char_Angel_Eye_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Eye_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Base/Materials/VMI_Oral_Dflow.VMI_Oral_Dflow",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Base/Materials/VMI_Oral_Dflow.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hair_Blend_FirstPass_UI.VMI_Char_Angel_Hair_Blend_FirstPass_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angel/CommonRes/Materials/UI/VMI_Char_Angel_Hair_Blend_FirstPass_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/1P/VMI_Char_Angela_Suit_B_1P_Arm.VMI_Char_Angela_Suit_B_1P_Arm",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/1P/VMI_Char_Angela_Suit_B_1P_Arm.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/1P/VMI_Char_Angela_Suit_B_1P_Hand.VMI_Char_Angela_Suit_B_1P_Hand",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/1P/VMI_Char_Angela_Suit_B_1P_Hand.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_body_UI.VMI_Char_Angela_Suit_B_body_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_body_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Char_Angela_Suit_B_Stocking_UI.VMI_Char_Char_Angela_Suit_B_Stocking_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Char_Angela_Suit_B_Stocking_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Clothes_UI.VMI_Char_Angela_Suit_B_Clothes_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Clothes_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Gloves_UI.VMI_Char_Angela_Suit_B_Gloves_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Gloves_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Trousers_UI.VMI_Char_Angela_Suit_B_Trousers_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Trousers_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Trousers_02_UI.VMI_Char_Angela_Suit_B_Trousers_02_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Trousers_02_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_body_3P.VMI_Char_Angela_Suit_B_body_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_body_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Skirt_3P.VMI_Char_Angela_Suit_B_Skirt_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Skirt_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Clothes_3P.VMI_Char_Angela_Suit_B_Clothes_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Clothes_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Gloves_3P.VMI_Char_Angela_Suit_B_Gloves_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Gloves_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Trousers_3P.VMI_Char_Angela_Suit_B_Trousers_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Trousers_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Trousers_02_3P.VMI_Char_Angela_Suit_B_Trousers_02_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Trousers_02_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Char_Angela_Suit_B_Stocking_3P.VMI_Char_Char_Angela_Suit_B_Stocking_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Char_Angela_Suit_B_Stocking_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Part_Hat_3P.VMI_Char_Angela_Suit_B_Part_Hat_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/3P/VMI_Char_Angela_Suit_B_Part_Hat_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Skirt_UI.VMI_Char_Angela_Suit_B_Skirt_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Skirt_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Part_Hat_UI.VMI_Char_Angela_Suit_B_Part_Hat_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angela/Angela_Suit_B/Materials/UI/VMI_Char_Angela_Suit_B_Part_Hat_UI.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Hair_3P.VMI_Char_Angela_Suit_B_Hair_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Hair_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Eyelash_01_3P.VMI_Char_Angela_Suit_B_Eyelash_01_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Eyelash_01_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Base/Materials/M_Char_Hide.M_Char_Hide",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Base/Materials/M_Char_Hide.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Head_3p.VMI_Char_Angela_Suit_B_Head_3p",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Head_3p.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Eye_3P.VMI_Char_Angela_Suit_B_Eye_3P",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Eye_3P.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Head_PC.VMI_Char_Angela_Suit_B_Head_PC",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angela/CommonRes/Materials/3P/VMI_Char_Angela_Suit_B_Head_PC.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Materials/UI/VMI_Char_Angela_Suit_B_Hair_FirstPass_UI.VMI_Char_Angela_Suit_B_Hair_FirstPass_UI",
+      "files": [
+        "PCResources/Metadata/Avatar/Character/Angela/CommonRes/Materials/UI/VMI_Char_Angela_Suit_B_Hair_FirstPass_UI.json"
+      ],
+      "error": null
+    }
+  ]
+}

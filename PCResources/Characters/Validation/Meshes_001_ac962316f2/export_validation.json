@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:06:09.9992547Z",
+  "scope": "Offline data checks: ActorX points and every nonzero weight/index exactly compared against decoded source DTO; PNG decoded and dimensions checked against highest available source mip; HDR header and complete RLE pixel payload checked without source-cubemap pixel comparison. No UE import, rig animation, material appearance or device validation.",
+  "results": [
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Base/Pendant_Base_Neak.psk",
+      "object_path": "NZM/Content/Avatar/Base/Pendant_Base_Neak.Pendant_Base_Neak",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 30,
+        "WrittenVertices": 30,
+        "SourceBones": 67,
+        "WrittenBones": 67,
+        "SourceWeightRows": 30,
+        "WrittenWeightRows": 30,
+        "MaximumInfluences": 1,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 12
+      }
+    }
+  ]
+}

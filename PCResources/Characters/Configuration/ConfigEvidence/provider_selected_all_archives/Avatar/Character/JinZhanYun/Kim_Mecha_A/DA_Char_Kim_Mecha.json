@@ -1,0 +1,97 @@
+{
+  "Type": "AvaCharItemData",
+  "Name": "DA_Char_Kim_Mecha",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'AvaCharItemData'",
+  "Package": "NZM/Content/Avatar/Character/JinZhanYun/Kim_Mecha_A/DA_Char_Kim_Mecha",
+  "Properties": {
+    "TPPConfig": {
+      "DefaultPartItems": [
+        "13401010201",
+        "13401070201",
+        "13401010002",
+        "10034020001"
+      ],
+      "CutPartItems": [
+        "13401040004"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/JinZhanYun/Mesh/SK_Char_JinZhanYun_Mesh_Master.SK_Char_JinZhanYun_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "CustomMasterInfo": {
+        "bOverrideLowLODShadowBias": true,
+        "LowLODShadowBias": 1
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "FPPConfig": {
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/JinZhanYun/Kim_Mecha_A/Mesh/SK_Char_JinZhanYun_Mecha_A_1P_Body_Mesh.SK_Char_JinZhanYun_Mecha_A_1P_Body_Mesh",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null,
+        "FSoftObjectPath_Attrs": null
+      }
+    },
+    "UIConfig": {
+      "DefaultPartItems": [
+        "13401010001",
+        "13401070001",
+        "10034010001"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/JinZhanYun/Mesh/SK_Char_JinZhanYun_Mesh_Master.SK_Char_JinZhanYun_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "AvatarFeatureLinkBP": [
+        {
+          "AssetPathName": "/Game/Avatar/Character/JinZhanYun/Kim_Mecha_A/LobbyRes_Mecha/Ani/Lobby/ABP_Char_JXJZY_RoleExtra_Linking.ABP_Char_JXJZY_RoleExtra_Linking_C",
+          "SubPathString": ""
+        }
+      ],
+      "ExtendedAttribute": {
+        "Name_Attrs": [
+          {
+            "Key": "RoleID",
+            "Value": "10001000034"
+          }
+        ],
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null,
+        "FSoftObjectPath_Attrs": null
+      }
+    },
+    "FPPUIConfig": {
+      "DefaultPartItems": [
+        "13401080101"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/JinZhanYun/Kim_Mecha_A/Mesh/SK_Char_JinZhanYun_Mecha_A_1P_Body_Mesh.SK_Char_JinZhanYun_Mecha_A_1P_Body_Mesh",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null,
+        "FSoftObjectPath_Attrs": null
+      }
+    },
+    "ModeConfig": {
+      "Gender": "EAvaGenderType::Male",
+      "BindTag": {
+        "TagName": "Avatar.Character.KimMecha"
+      },
+      "SoundTag": {
+        "TagName": "Character.Male.KimMecha"
+      }
+    },
+    "AssetPathName": "/Game/Avatar/Character/JinZhanYun/Kim_Mecha_A/DA_Char_Kim_Mecha.DA_Char_Kim_Mecha"
+  }
+}

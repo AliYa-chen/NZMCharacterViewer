@@ -1,0 +1,785 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:05:40.9300379Z",
+  "scope": "Offline data checks: ActorX points and every nonzero weight/index exactly compared against decoded source DTO; PNG decoded and dimensions checked against highest available source mip; HDR header and complete RLE pixel payload checked without source-cubemap pixel comparison. No UE import, rig animation, material appearance or device validation.",
+  "results": [
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_NormalMap_ee8fc517d665a90888f540898fde1434.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_NormalMap_ee8fc517d665a90888f540898fde1434.T_VMGen_NormalMap_ee8fc517d665a90888f540898fde1434",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_NormalMap_fd2575b35000f63333a7b319630f0560.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_NormalMap_fd2575b35000f63333a7b319630f0560.T_VMGen_NormalMap_fd2575b35000f63333a7b319630f0560",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_PSARMap_15092cba2e7795ffda56746e010b92a8.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_PSARMap_15092cba2e7795ffda56746e010b92a8.T_VMGen_PSARMap_15092cba2e7795ffda56746e010b92a8",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_PSARMap_26a9e56adacf0b114ddd64f419ec69b5.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_PSARMap_26a9e56adacf0b114ddd64f419ec69b5.T_VMGen_PSARMap_26a9e56adacf0b114ddd64f419ec69b5",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_PSARMap_9483163702da6138fdba1f2192dbd3a1.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_PSARMap_9483163702da6138fdba1f2192dbd3a1.T_VMGen_PSARMap_9483163702da6138fdba1f2192dbd3a1",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_PSARMap_b253701fe2d79a200dcfb56cb0e78b0e.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_PSARMap_b253701fe2d79a200dcfb56cb0e78b0e.T_VMGen_PSARMap_b253701fe2d79a200dcfb56cb0e78b0e",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_RAMMap_18ed513fda6d02149ca2ed158123696b.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_RAMMap_18ed513fda6d02149ca2ed158123696b.T_VMGen_RAMMap_18ed513fda6d02149ca2ed158123696b",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_RAMMap_3bc6cc8b49250353ae654c5530f0b7fd.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_RAMMap_3bc6cc8b49250353ae654c5530f0b7fd.T_VMGen_RAMMap_3bc6cc8b49250353ae654c5530f0b7fd",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_RAMMap_470cbb8ebdbe553f267e8b67aaca3a68.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_RAMMap_470cbb8ebdbe553f267e8b67aaca3a68.T_VMGen_RAMMap_470cbb8ebdbe553f267e8b67aaca3a68",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_RAMMap_9886354641940c25f0ce739a63d32954.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_RAMMap_9886354641940c25f0ce739a63d32954.T_VMGen_RAMMap_9886354641940c25f0ce739a63d32954",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_RAMMap_470cbb8ebdbe553f267e8b67aaca3a68.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_RAMMap_c5118c9b5254340d4217fc2ff2df9815.T_VMGen_RAMMap_c5118c9b5254340d4217fc2ff2df9815",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_RAMMap_fc825caaa0759b1d13540bac71d6d4bb.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_RAMMap_fc825caaa0759b1d13540bac71d6d4bb.T_VMGen_RAMMap_fc825caaa0759b1d13540bac71d6d4bb",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_NormalMap_25671443a031a1ade8db494094355ceb.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/NPC/ParkerLee/Textures/T_VMGen_NormalMap_4b6adde844c9b6c25cc28dfd3b84b8b9.T_VMGen_NormalMap_4b6adde844c9b6c25cc28dfd3b84b8b9",
+      "status": "pass",
+      "width": 1,
+      "height": 1
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Textures/T_VMGen_BaseColorMap_274031d8c9c5372a75e21dcc94cb3c09.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Textures/T_VMGen_BaseColorMap_274031d8c9c5372a75e21dcc94cb3c09.T_VMGen_BaseColorMap_274031d8c9c5372a75e21dcc94cb3c09",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Textures/T_VMGen_BaseColorMap_e680930194684d6341a593aa070651e0.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Textures/T_VMGen_BaseColorMap_e680930194684d6341a593aa070651e0.T_VMGen_BaseColorMap_e680930194684d6341a593aa070651e0",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Textures/T_VMGen_EmissiveMap_fac9665cb921d5cb18b4d86b72d1311b.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Textures/T_VMGen_EmissiveMap_fac9665cb921d5cb18b4d86b72d1311b.T_VMGen_EmissiveMap_fac9665cb921d5cb18b4d86b72d1311b",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Textures/T_VMGen_NormalMap_0b808c915e6ebeb05c9d048d45689e8f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Textures/T_VMGen_NormalMap_0b808c915e6ebeb05c9d048d45689e8f.T_VMGen_NormalMap_0b808c915e6ebeb05c9d048d45689e8f",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Textures/T_VMGen_RAMMap_be3024690b452ff99314f5fc21cf3b40.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Textures/T_VMGen_RAMMap_be3024690b452ff99314f5fc21cf3b40.T_VMGen_RAMMap_be3024690b452ff99314f5fc21cf3b40",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Textures/T_VMGen_RAMMap_be3024690b452ff99314f5fc21cf3b40.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Glass_C04_Cyber_B/Textures/T_VMGen_RAMMap_e436d9615409886b00dc72da6fc4355b.T_VMGen_RAMMap_e436d9615409886b00dc72da6fc4355b",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllF_Emote2_B/Textures/T_VMGen_BaseColorMap_1c1d7a051ebfba04d77fb825b9fc5032.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllF_Emote2_B/Textures/T_VMGen_BaseColorMap_1c1d7a051ebfba04d77fb825b9fc5032.T_VMGen_BaseColorMap_1c1d7a051ebfba04d77fb825b9fc5032",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllF_Emote2_B/Textures/T_VMGen_NormalMap_7c0b0e0b01202f1a29979e3455dfd14f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllF_Emote2_B/Textures/T_VMGen_NormalMap_7c0b0e0b01202f1a29979e3455dfd14f.T_VMGen_NormalMap_7c0b0e0b01202f1a29979e3455dfd14f",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllF_Emote2_B/Textures/T_VMGen_RAMMap_6ae0d8ec3414c5adf9854ab82f9ff830.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllF_Emote2_B/Textures/T_VMGen_RAMMap_6ae0d8ec3414c5adf9854ab82f9ff830.T_VMGen_RAMMap_6ae0d8ec3414c5adf9854ab82f9ff830",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Textures/T_VMGen_BaseColorMap_6fa6de4ed906e66ae1a349f1a1d5c137.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Textures/T_VMGen_BaseColorMap_6fa6de4ed906e66ae1a349f1a1d5c137.T_VMGen_BaseColorMap_6fa6de4ed906e66ae1a349f1a1d5c137",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Textures/T_VMGen_NormalMap_894b6c52c390b1fcc0cee1220b9fbdeb.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Textures/T_VMGen_NormalMap_894b6c52c390b1fcc0cee1220b9fbdeb.T_VMGen_NormalMap_894b6c52c390b1fcc0cee1220b9fbdeb",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Textures/T_VMGen_RAMMap_3a477057b934e76f007cb55e3ecd6f72.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Face/Pendant_Face_Mask_AllM_Emote1_B/Textures/T_VMGen_RAMMap_3a477057b934e76f007cb55e3ecd6f72.T_VMGen_RAMMap_3a477057b934e76f007cb55e3ecd6f72",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Cry_B/Textures/T_VMGen_BaseColorMap_2c1a47c913bba3d50f67d4146eecb1d1.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Cry_B/Textures/T_VMGen_BaseColorMap_2c1a47c913bba3d50f67d4146eecb1d1.T_VMGen_BaseColorMap_2c1a47c913bba3d50f67d4146eecb1d1",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Cry_B/Textures/T_VMGen_NormalMap_c82c97ff38120d6f5d12c1a5ce404241.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Cry_B/Textures/T_VMGen_NormalMap_c82c97ff38120d6f5d12c1a5ce404241.T_VMGen_NormalMap_c82c97ff38120d6f5d12c1a5ce404241",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Textures/T_VMGen_BaseColorMap_42def0046c6edffe35bb5f90b616ec4d.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Textures/T_VMGen_BaseColorMap_42def0046c6edffe35bb5f90b616ec4d.T_VMGen_BaseColorMap_42def0046c6edffe35bb5f90b616ec4d",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Textures/T_VMGen_EmissiveMap_b0fb965424c2b2acf7131078f1d92741.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Textures/T_VMGen_EmissiveMap_b0fb965424c2b2acf7131078f1d92741.T_VMGen_EmissiveMap_b0fb965424c2b2acf7131078f1d92741",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Textures/T_VMGen_NormalMap_00622d640c8d6b849880df20037233cf.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Textures/T_VMGen_NormalMap_00622d640c8d6b849880df20037233cf.T_VMGen_NormalMap_00622d640c8d6b849880df20037233cf",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Textures/T_VMGen_RAMMap_df1224ab8eab0b89f3304f7fbe7515c7.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Hand/Pendant_Hand_Band_All_Default_C/Textures/T_VMGen_RAMMap_df1224ab8eab0b89f3304f7fbe7515c7.T_VMGen_RAMMap_df1224ab8eab0b89f3304f7fbe7515c7",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Dog_B/Textures/T_VMGen_BaseColorMap_052c6ebfdbfb3584d01caf4b6374487d.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Dog_B/Textures/T_VMGen_BaseColorMap_052c6ebfdbfb3584d01caf4b6374487d.T_VMGen_BaseColorMap_052c6ebfdbfb3584d01caf4b6374487d",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Dog_B/Textures/T_VMGen_NormalMap_ed238bc119abeedf001222c65e633a6c.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Dog_B/Textures/T_VMGen_NormalMap_ed238bc119abeedf001222c65e633a6c.T_VMGen_NormalMap_ed238bc119abeedf001222c65e633a6c",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Dog_B/Textures/T_VMGen_RAMMap_fbc849a952b13d89906ee826ffddf266.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Dog_B/Textures/T_VMGen_RAMMap_fbc849a952b13d89906ee826ffddf266.T_VMGen_RAMMap_fbc849a952b13d89906ee826ffddf266",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Embar_B/Textures/T_VMGen_BaseColorMap_dae6ba4edb58935207020045aa9f5e68.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Embar_B/Textures/T_VMGen_BaseColorMap_dae6ba4edb58935207020045aa9f5e68.T_VMGen_BaseColorMap_dae6ba4edb58935207020045aa9f5e68",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Embar_B/Textures/T_VMGen_NormalMap_4a36124d57024afbc08a3de657f5131b.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Embar_B/Textures/T_VMGen_NormalMap_4a36124d57024afbc08a3de657f5131b.T_VMGen_NormalMap_4a36124d57024afbc08a3de657f5131b",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Textures/T_VMGen_BaseColorMap_c7b24c78027338ec1e0f5c156882b718.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Textures/T_VMGen_BaseColorMap_c7b24c78027338ec1e0f5c156882b718.T_VMGen_BaseColorMap_c7b24c78027338ec1e0f5c156882b718",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Textures/T_VMGen_EmissiveMap_910c6c0715201185600ba2aa1cafbbf5.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Textures/T_VMGen_EmissiveMap_910c6c0715201185600ba2aa1cafbbf5.T_VMGen_EmissiveMap_910c6c0715201185600ba2aa1cafbbf5",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Textures/T_VMGen_NormalMap_cd89fc5210f56e69b83ecaa74b25ed07.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Textures/T_VMGen_NormalMap_cd89fc5210f56e69b83ecaa74b25ed07.T_VMGen_NormalMap_cd89fc5210f56e69b83ecaa74b25ed07",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Textures/T_VMGen_RAMMap_2e8828062fa93e5f057821e87d1c47d6.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Box_All_Surprise_B/Textures/T_VMGen_RAMMap_2e8828062fa93e5f057821e87d1c47d6.T_VMGen_RAMMap_2e8828062fa93e5f057821e87d1c47d6",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Textures/T_VMGen_BaseColorMap_d0e59a41f2690b89d4e0838d8a3708b8.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Textures/T_VMGen_BaseColorMap_d0e59a41f2690b89d4e0838d8a3708b8.T_VMGen_BaseColorMap_d0e59a41f2690b89d4e0838d8a3708b8",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Textures/T_VMGen_EmissiveMap_2349b8e1256904edf97a34443653df52.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Textures/T_VMGen_EmissiveMap_2349b8e1256904edf97a34443653df52.T_VMGen_EmissiveMap_2349b8e1256904edf97a34443653df52",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Textures/T_VMGen_NormalMap_abcfb8d1f5215cd268b9261ae3a18ecc.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Textures/T_VMGen_NormalMap_abcfb8d1f5215cd268b9261ae3a18ecc.T_VMGen_NormalMap_abcfb8d1f5215cd268b9261ae3a18ecc",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Textures/T_VMGen_RAMMap_34f9b5f5a8f2e042cc7da80db7b463e4.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Pendant/Head/Pendant_Head_Up_C03_Earphone_B/Textures/T_VMGen_RAMMap_34f9b5f5a8f2e042cc7da80db7b463e4.T_VMGen_RAMMap_34f9b5f5a8f2e042cc7da80db7b463e4",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_Alpha_ID_Roughness_Root_4acbbc30c321303a18beedb25859cb91.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_Alpha_ID_Roughness_Root_4acbbc30c321303a18beedb25859cb91.T_VMGen_Alpha_ID_Roughness_Root_4acbbc30c321303a18beedb25859cb91",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_Alpha_ID_Roughness_Root_70d7c6cd37bbb631118124574ccc5b4c.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_Alpha_ID_Roughness_Root_70d7c6cd37bbb631118124574ccc5b4c.T_VMGen_Alpha_ID_Roughness_Root_70d7c6cd37bbb631118124574ccc5b4c",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_Alpha_ID_Roughness_Root_c68ae8c3a7aeb4e14c52caac88953211.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_Alpha_ID_Roughness_Root_c68ae8c3a7aeb4e14c52caac88953211.T_VMGen_Alpha_ID_Roughness_Root_c68ae8c3a7aeb4e14c52caac88953211",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_Alpha_ID_Roughness_Root_dfb0297e1306e45caa24b9079d09ab0a.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_Alpha_ID_Roughness_Root_dfb0297e1306e45caa24b9079d09ab0a.T_VMGen_Alpha_ID_Roughness_Root_dfb0297e1306e45caa24b9079d09ab0a",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/CommonRes/Texture/T_VMGen_BaseColorMap_0be00a480cc5f94d3a1449556499fab6.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_BaseColorMap_0be00a480cc5f94d3a1449556499fab6.T_VMGen_BaseColorMap_0be00a480cc5f94d3a1449556499fab6",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Molly/Molly_Suit_C/Texture/T_VMGen_BaseColorMap_ee75bc858e7048906673bf012f18fc23.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_BaseColorMap_2deec666a1d94997587a2ae29b39ee7c.T_VMGen_BaseColorMap_2deec666a1d94997587a2ae29b39ee7c",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_BaseColorMap_39b5ee6de474e9545cb7f07334c0479c.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_BaseColorMap_39b5ee6de474e9545cb7f07334c0479c.T_VMGen_BaseColorMap_39b5ee6de474e9545cb7f07334c0479c",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Molly/Molly_Suit_C/Texture/T_VMGen_BaseColorMap_8b13bc48d373784e2365e0b44bf47c75.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_BaseColorMap_8b13bc48d373784e2365e0b44bf47c75.T_VMGen_BaseColorMap_8b13bc48d373784e2365e0b44bf47c75",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_BaseColorMap_996c7c5cef9234e1a37cdf3e6e48fba8.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_BaseColorMap_996c7c5cef9234e1a37cdf3e6e48fba8.T_VMGen_BaseColorMap_996c7c5cef9234e1a37cdf3e6e48fba8",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Suit_D/Textures/T_VMGen_BaseColorMap_a060508dd7163ebe43745ef7781d0fca.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_BaseColorMap_a060508dd7163ebe43745ef7781d0fca.T_VMGen_BaseColorMap_a060508dd7163ebe43745ef7781d0fca",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_BaseColorMap_b4b35ae09f88da67aa258b1a1d7ae406.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_BaseColorMap_b4b35ae09f88da67aa258b1a1d7ae406.T_VMGen_BaseColorMap_b4b35ae09f88da67aa258b1a1d7ae406",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_BaseColorMap_d94c4de9c37ca0590ba5ea546f61f541.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_BaseColorMap_c57a477a478b9f4a780afccb64f41faf.T_VMGen_BaseColorMap_c57a477a478b9f4a780afccb64f41faf",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_e46f8546ec771e655ac2b8eddafd3813.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_BaseColorMap_f048c918d5265c5471ece0389d8a8add.T_VMGen_BaseColorMap_f048c918d5265c5471ece0389d8a8add",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Widow/Widow_Suit_C/Texture/T_VMGen_BaseColorMap_f4c1a857ac154411a61a1dccb009d76f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_BaseColorMap_f4c1a857ac154411a61a1dccb009d76f.T_VMGen_BaseColorMap_f4c1a857ac154411a61a1dccb009d76f",
+      "status": "pass",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_RAMMap_0f056ed434e8043af070e1f1504cd2af.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_RAMMap_0f056ed434e8043af070e1f1504cd2af.T_VMGen_RAMMap_0f056ed434e8043af070e1f1504cd2af",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_RAMMap_30ab1fe678b70abd13d2b2006ef37e20.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_RAMMap_30ab1fe678b70abd13d2b2006ef37e20.T_VMGen_RAMMap_30ab1fe678b70abd13d2b2006ef37e20",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_RAMMap_33e2e62c475f96d83cc68aaa7f3ad7ba.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_RAMMap_33e2e62c475f96d83cc68aaa7f3ad7ba.T_VMGen_RAMMap_33e2e62c475f96d83cc68aaa7f3ad7ba",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_RAMMap_376883a818ba52d609ec2870bf37bd4f.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_RAMMap_376883a818ba52d609ec2870bf37bd4f.T_VMGen_RAMMap_376883a818ba52d609ec2870bf37bd4f",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_RAMMap_3935b9f37d550ba66706797823e6a92b.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_RAMMap_3935b9f37d550ba66706797823e6a92b.T_VMGen_RAMMap_3935b9f37d550ba66706797823e6a92b",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_16ba07737ac1bda81817b25be189a1f0.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_RAMMap_4c370b615ea10cd3ea8bf926fcbaa637.T_VMGen_RAMMap_4c370b615ea10cd3ea8bf926fcbaa637",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_RAMMap_65736bec83c57ad38f0d54eaf412121a.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_RAMMap_65736bec83c57ad38f0d54eaf412121a.T_VMGen_RAMMap_65736bec83c57ad38f0d54eaf412121a",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_RAMMap_7f50f232b399008d3929e964d96a98bf.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_RAMMap_97b9df4f86d5d373e8d6fd997f6d960f.T_VMGen_RAMMap_97b9df4f86d5d373e8d6fd997f6d960f",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_RAMMap_9b130d3a2c8d05fb411a2235cd3bec36.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_RAMMap_9b130d3a2c8d05fb411a2235cd3bec36.T_VMGen_RAMMap_9b130d3a2c8d05fb411a2235cd3bec36",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_RAMMap_a2a2dd7f960524c397842bbdb54ec59d.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_RAMMap_a2a2dd7f960524c397842bbdb54ec59d.T_VMGen_RAMMap_a2a2dd7f960524c397842bbdb54ec59d",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/T_VMGen_RAMMap_b7867342544af86b3d21bb21ec0c5c70.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_RAMMap_b7867342544af86b3d21bb21ec0c5c70.T_VMGen_RAMMap_b7867342544af86b3d21bb21ec0c5c70",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Bella/Bella_Pop_C/Texture/T_VMGen_RAMMap_eb1f0a3dc6f6efb8b422a77f816f5f93.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_RAMMap_c7b33bca0d27012e1d7975b60f9027a6.T_VMGen_RAMMap_c7b33bca0d27012e1d7975b60f9027a6",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Angel/CommonRes/Texture/T_VMGen_RAMMap_a421ca00fe5949670c26468a214a95b5.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/T_VMGen_RAMMap_f588b9ccf5b3bbf7035b8b51ac6a100d.T_VMGen_RAMMap_f588b9ccf5b3bbf7035b8b51ac6a100d",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Env/Lobby/LobbyCutScene_Nai_Mei/Textures/T_VMGen_BaseColorMap_b97eb3dfbc25e0195f88f07d946102a5.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Env/Lobby/LobbyCutScene_Nai_Mei/Textures/T_VMGen_BaseColorMap_b97eb3dfbc25e0195f88f07d946102a5.T_VMGen_BaseColorMap_b97eb3dfbc25e0195f88f07d946102a5",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Env/Lobby/LobbyCutScene_Nai_Mei/Textures/T_VMGen_EmissiveMap_bd4c883a5b4ac6cda7f4391f878ebd47.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Env/Lobby/LobbyCutScene_Nai_Mei/Textures/T_VMGen_EmissiveMap_bd4c883a5b4ac6cda7f4391f878ebd47.T_VMGen_EmissiveMap_bd4c883a5b4ac6cda7f4391f878ebd47",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Env/Lobby/LobbyCutScene_Nai_Mei/Textures/T_VMGen_NormalMap_36f00f1dc6db244a7661d496525a44d7.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Env/Lobby/LobbyCutScene_Nai_Mei/Textures/T_VMGen_NormalMap_36f00f1dc6db244a7661d496525a44d7.T_VMGen_NormalMap_36f00f1dc6db244a7661d496525a44d7",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Env/Lobby/Role_Shirley/Texture/T_VMGen_BaseColorMap_dfec9730696328988294824e6caa92ec.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Env/Lobby/Role_Shirley/Texture/T_VMGen_BaseColorMap_dfec9730696328988294824e6caa92ec.T_VMGen_BaseColorMap_dfec9730696328988294824e6caa92ec",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Env/Lobby/Role_Shirley/Texture/T_VMGen_RAMMap_51c3031eb82644e64597c7fd29e8a8e8.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Env/Lobby/Role_Shirley/Texture/T_VMGen_RAMMap_51c3031eb82644e64597c7fd29e8a8e8.T_VMGen_RAMMap_51c3031eb82644e64597c7fd29e8a8e8",
+      "status": "pass",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Env/Structure/HurricaneArmy/Branding/Texture/T_VMGen_RAMMap_c58ced83288932a916b28df9d59411d7.png",
+      "object_path": "NZM/Content/GenTexDir/Game/Env/Structure/HurricaneArmy/Branding/Texture/T_VMGen_RAMMap_c58ced83288932a916b28df9d59411d7.T_VMGen_RAMMap_c58ced83288932a916b28df9d59411d7",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_VMGen_DetailNormal_99f2a8a798879a3dd19ebd8475f7ca34.png",
+      "object_path": "NZM/Content/GenTexDir/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_VMGen_DetailNormal_99f2a8a798879a3dd19ebd8475f7ca34.T_VMGen_DetailNormal_99f2a8a798879a3dd19ebd8475f7ca34",
+      "status": "pass",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_VMGen_Normal_71e4fa38eb603848e4dadf7541ebec98.png",
+      "object_path": "NZM/Content/GenTexDir/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_VMGen_Normal_71e4fa38eb603848e4dadf7541ebec98.T_VMGen_Normal_71e4fa38eb603848e4dadf7541ebec98",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/GenTexDir/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_VMGen_ScleraColor_31d5b74fe59e5caf5d649ce3f9b7d1c3.png",
+      "object_path": "NZM/Content/GenTexDir/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_VMGen_ScleraColor_31d5b74fe59e5caf5d649ce3f9b7d1c3.T_VMGen_ScleraColor_31d5b74fe59e5caf5d649ce3f9b7d1c3",
+      "status": "pass",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/MaterialLib/Textures/T_VMGen_EmissiveMap_710a1e88cc6eb9e1c163d6aa3e2ee369.png",
+      "object_path": "NZM/Content/GenTexDir/Game/MaterialLib/Textures/T_VMGen_EmissiveMap_710a1e88cc6eb9e1c163d6aa3e2ee369.T_VMGen_EmissiveMap_710a1e88cc6eb9e1c163d6aa3e2ee369",
+      "status": "pass",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/MaterialLib/Textures/T_VMGen_EmissiveMap_710a1e88cc6eb9e1c163d6aa3e2ee369.png",
+      "object_path": "NZM/Content/GenTexDir/Game/MaterialLib/Textures/T_VMGen_MetallicMap_a8ccfcf84c47b926f844568c70f60334.T_VMGen_MetallicMap_a8ccfcf84c47b926f844568c70f60334",
+      "status": "pass",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_BaseColorMap_a79b9b0ba4666d1c3305644756a0fc9a.png",
+      "object_path": "NZM/Content/GenTexDir/Game/T_VMGen_BaseColorMap_a79b9b0ba4666d1c3305644756a0fc9a.T_VMGen_BaseColorMap_a79b9b0ba4666d1c3305644756a0fc9a",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/MaterialLib/Textures/T_VMGen_EmissiveMap_710a1e88cc6eb9e1c163d6aa3e2ee369.png",
+      "object_path": "NZM/Content/GenTexDir/T_VMGen_EffectTextureA_5df0acbb067c7c2fd9a72f1cc8cb1dbe.T_VMGen_EffectTextureA_5df0acbb067c7c2fd9a72f1cc8cb1dbe",
+      "status": "pass",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/MaterialLib/Textures/T_VMGen_EmissiveMap_710a1e88cc6eb9e1c163d6aa3e2ee369.png",
+      "object_path": "NZM/Content/GenTexDir/T_VMGen_EffectTextureB_a50e95bd4a7dfa6fbef51333608f70cc.T_VMGen_EffectTextureB_a50e95bd4a7dfa6fbef51333608f70cc",
+      "status": "pass",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/MaterialLib/Textures/T_VMGen_EmissiveMap_710a1e88cc6eb9e1c163d6aa3e2ee369.png",
+      "object_path": "NZM/Content/GenTexDir/T_VMGen_EmissiveMap_59385ab008da31016b14df429ba835b4.T_VMGen_EmissiveMap_59385ab008da31016b14df429ba835b4",
+      "status": "pass",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/MaterialLib/Textures/T_VMGen_EmissiveMap_710a1e88cc6eb9e1c163d6aa3e2ee369.png",
+      "object_path": "NZM/Content/GenTexDir/T_VMGen_MetallicMap_a8ccfcf84c47b926f844568c70f60334.T_VMGen_MetallicMap_a8ccfcf84c47b926f844568c70f60334",
+      "status": "pass",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/GenTexDir/Game/Avatar/Base/Textures/T_VMGen_NormalMap_25671443a031a1ade8db494094355ceb.png",
+      "object_path": "NZM/Content/GenTexDir/T_VMGen_NormalMap_a757d4b60f4d1af4067d19ca0ebaa8ff.T_VMGen_NormalMap_a757d4b60f4d1af4067d19ca0ebaa8ff",
+      "status": "pass",
+      "width": 1,
+      "height": 1
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/GenTexDir/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_VMGen_Normal_71e4fa38eb603848e4dadf7541ebec98.png",
+      "object_path": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_EYE_NORMALS.T_EYE_NORMALS",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Textures/GenTexDir/Game/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_VMGen_ScleraColor_31d5b74fe59e5caf5d649ce3f9b7d1c3.png",
+      "object_path": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_EyeSclera_D3.T_EyeSclera_D3",
+      "status": "pass",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "kind": "HDR",
+      "file": "PCResources/Characters/Textures/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_peppermint_powerplant_deep.hdr",
+      "object_path": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_peppermint_powerplant_deep.T_peppermint_powerplant_deep",
+      "status": "pass",
+      "checks": {
+        "Width": 443,
+        "Height": 221,
+        "DecodedPixels": 97903,
+        "CompleteRlePayload": true
+      },
+      "validation_scope": "Radiance header and complete RLE pixel payload; projection and RGBE values are not compared against source cubemap."
+    },
+    {
+      "kind": "HDR",
+      "file": "PCResources/Characters/Textures/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_peppermint_powerplant_deep_Low.hdr",
+      "object_path": "NZM/Content/MaterialLib/Materials/Character/NewCharacterMaterial/EyeMaterials/textures/T_peppermint_powerplant_deep_Low.T_peppermint_powerplant_deep_Low",
+      "status": "pass",
+      "checks": {
+        "Width": 221,
+        "Height": 110,
+        "DecodedPixels": 24310,
+        "CompleteRlePayload": true
+      },
+      "validation_scope": "Radiance header and complete RLE pixel payload; projection and RGBE values are not compared against source cubemap."
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/MaterialLib/Materials/Weapon/Texture/T_Diamond_Iridescent.png",
+      "object_path": "NZM/Content/MaterialLib/Materials/Weapon/Texture/T_Diamond_Iridescent.T_Diamond_Iridescent",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/MaterialLib/Materials/Weapon/Texture/T_Diamond_N.png",
+      "object_path": "NZM/Content/MaterialLib/Materials/Weapon/Texture/T_Diamond_N.T_Diamond_N",
+      "status": "pass",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/MaterialLib/Materials/Weapon/Texture/T_Diamond_Noise.png",
+      "object_path": "NZM/Content/MaterialLib/Materials/Weapon/Texture/T_Diamond_Noise.T_Diamond_Noise",
+      "status": "pass",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "kind": "PNG",
+      "file": "PCResources/Characters/Textures/MaterialLib/Textures/Default/T_Default_Black.png",
+      "object_path": "NZM/Content/MaterialLib/Textures/Default/T_Default_Black.T_Default_Black",
+      "status": "pass",
+      "width": 64,
+      "height": 64
+    }
+  ]
+}

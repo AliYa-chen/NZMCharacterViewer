@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:02:43.1775048Z",
+  "scope": "Offline data checks: ActorX points and every nonzero weight/index exactly compared against decoded source DTO; PNG decoded and dimensions checked against highest available source mip. No UE import, rig animation, material appearance or device validation.",
+  "results": [
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_3P_PropHead_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_3P_PropHead_Mesh.SK_Char_Bella_3P_PropHead_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 512,
+        "WrittenVertices": 512,
+        "SourceBones": 12,
+        "WrittenBones": 12,
+        "SourceWeightRows": 1142,
+        "WrittenWeightRows": 1142,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 894
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_Mesh_Master.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_Mesh_Master.SK_Char_Bella_Mesh_Master",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 24,
+        "WrittenVertices": 24,
+        "SourceBones": 186,
+        "WrittenBones": 186,
+        "SourceWeightRows": 24,
+        "WrittenWeightRows": 24,
+        "MaximumInfluences": 1,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 12
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Hair_Mesh.SK_Char_Bella_UI_Hair_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 19810,
+        "WrittenVertices": 19810,
+        "SourceBones": 8,
+        "WrittenBones": 8,
+        "SourceWeightRows": 21858,
+        "WrittenWeightRows": 21858,
+        "MaximumInfluences": 3,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 15425
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Head_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_Head_Mesh.SK_Char_Bella_UI_Head_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 8824,
+        "WrittenVertices": 8824,
+        "SourceBones": 93,
+        "WrittenBones": 93,
+        "SourceWeightRows": 29159,
+        "WrittenWeightRows": 29159,
+        "MaximumInfluences": 8,
+        "VerticesOverFourInfluences": 2427,
+        "WrittenTriangles": 14058
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_PropHead_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_UI_PropHead_Mesh.SK_Char_Bella_UI_PropHead_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 542,
+        "WrittenVertices": 542,
+        "SourceBones": 12,
+        "WrittenBones": 12,
+        "SourceWeightRows": 1246,
+        "WrittenWeightRows": 1246,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 928
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Gun_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Gun_Mesh.SK_Char_Bunny_Suit_C_1P_Gun_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 13968,
+        "WrittenVertices": 13968,
+        "SourceBones": 7,
+        "WrittenBones": 7,
+        "SourceWeightRows": 13968,
+        "WrittenWeightRows": 13968,
+        "MaximumInfluences": 1,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 6413
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Lower_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_1P_Lower_Mesh.SK_Char_Bunny_Suit_C_1P_Lower_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 23098,
+        "WrittenVertices": 23098,
+        "SourceBones": 222,
+        "WrittenBones": 222,
+        "SourceWeightRows": 47739,
+        "WrittenWeightRows": 47739,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 30115
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Body_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Body_Mesh.SK_Char_Bunny_Suit_C_3P_Body_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 29529,
+        "WrittenVertices": 29529,
+        "SourceBones": 104,
+        "WrittenBones": 104,
+        "SourceWeightRows": 62082,
+        "WrittenWeightRows": 62082,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 39825
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Gun_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Gun_Mesh.SK_Char_Bunny_Suit_C_3P_Gun_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 6683,
+        "WrittenVertices": 6683,
+        "SourceBones": 31,
+        "WrittenBones": 31,
+        "SourceWeightRows": 6683,
+        "WrittenWeightRows": 6683,
+        "MaximumInfluences": 1,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 2954
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Hat_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bunny/Bunny_Suit_C/Mesh/SK_Char_Bunny_Suit_C_3P_Hat_Mesh.SK_Char_Bunny_Suit_C_3P_Hat_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 1801,
+        "WrittenVertices": 1801,
+        "SourceBones": 7,
+        "WrittenBones": 7,
+        "SourceWeightRows": 3889,
+        "WrittenWeightRows": 3889,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 2735
+      }
+    }
+  ]
+}

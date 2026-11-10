@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:06:13.5617016Z",
+  "scope": "Offline data checks: ActorX points and every nonzero weight/index exactly compared against decoded source DTO; PNG decoded and dimensions checked against highest available source mip; HDR header and complete RLE pixel payload checked without source-cubemap pixel comparison. No UE import, rig animation, material appearance or device validation.",
+  "results": [
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Default_Female_00/Mesh/SK_Char_DefauIt_Female_00_UI_Body_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Default_Female_00/Mesh/SK_Char_DefauIt_Female_00_UI_Body_Mesh.SK_Char_DefauIt_Female_00_UI_Body_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 27272,
+        "WrittenVertices": 27272,
+        "SourceBones": 88,
+        "WrittenBones": 88,
+        "SourceWeightRows": 60150,
+        "WrittenWeightRows": 60150,
+        "MaximumInfluences": 5,
+        "VerticesOverFourInfluences": 26,
+        "WrittenTriangles": 46402
+      }
+    }
+  ]
+}

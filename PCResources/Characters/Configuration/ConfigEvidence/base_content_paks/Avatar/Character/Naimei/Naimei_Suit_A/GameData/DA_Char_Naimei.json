@@ -1,0 +1,111 @@
+{
+  "Type": "AvaCharItemData",
+  "Name": "DA_Char_Naimei",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'AvaCharItemData'",
+  "Package": "NZM/Content/Avatar/Character/Naimei/Naimei_Suit_A/GameData/DA_Char_Naimei",
+  "Properties": {
+    "TPPConfig": {
+      "DefaultPartItems": [
+        "14501010201",
+        "14501040201",
+        "14501050201",
+        "14501060201",
+        "14501020101",
+        "14501070201",
+        "14501100201"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Base/Female_Base_Mesh_Master.Female_Base_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "AvatarFeatureLinkBP": [
+        {
+          "AssetPathName": "/Game/Avatar/Character/Naimei/Naimei_Suit_A/GameData/ABP_Char_Naimei_Suit_A_Anim_Linking.ABP_Char_Naimei_Suit_A_Anim_Linking_C",
+          "SubPathString": ""
+        }
+      ],
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "FPPConfig": {
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Naimei/Naimei_Suit_A/Mesh/SK_Char_Naimei_Suit_A_1P_Body_Mesh.SK_Char_Naimei_Suit_A_1P_Body_Mesh",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null,
+        "FSoftObjectPath_Attrs": null
+      }
+    },
+    "UIConfig": {
+      "DefaultPartItems": [
+        "14501010001",
+        "14501040001",
+        "14501050001",
+        "14501060001",
+        "14501070001",
+        "14501100101"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_Mesh_Master.SK_Char_Naimei_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "AvatarFeatureLinkBP": [
+        {
+          "AssetPathName": "/Game/Avatar/Character/Naimei/Naimei_Suit_A/GameData/ABP_Char_Naimei_Suit_A_UI_Anim_Linking.ABP_Char_Naimei_Suit_A_UI_Anim_Linking_C",
+          "SubPathString": ""
+        }
+      ],
+      "ExtendedAttribute": {
+        "Name_Attrs": [
+          {
+            "Key": "RoleID",
+            "Value": "10002000045"
+          }
+        ],
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "DialogueConfig": {
+      "DefaultPartItems": [
+        "14501010101",
+        "14501040101",
+        "14501050101",
+        "14501060101",
+        "14501070101"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Naimei/CommonRes/Mesh/SK_Char_Naimei_Mesh_Master.SK_Char_Naimei_Mesh_Master",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "FPPUIConfig": {
+      "DefaultPartItems": [
+        "14501090101"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Naimei/Naimei_Suit_A/Mesh/SK_Char_Naimei_Suit_A_1P_Body_Mesh.SK_Char_Naimei_Suit_A_1P_Body_Mesh",
+        "SubPathString": ""
+      }
+    },
+    "Description": "奈美",
+    "ModeConfig": {
+      "Gender": "EAvaGenderType::Female",
+      "BindTag": {
+        "TagName": "Avatar.Character.Naimei"
+      }
+    },
+    "AssetPathName": "/Game/Avatar/Character/Naimei/Naimei_Suit_A/GameData/DA_Char_Naimei.DA_Char_Naimei"
+  }
+}

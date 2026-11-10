@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:06:17.2688789Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Hand",
+      "name": "VMI_Char_Default_Female_Hand",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Hand.VMI_Char_Default_Female_Hand",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Hand.uasset",
+          "size": 3226,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 122562560
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Hand.uexp",
+          "size": 568588,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 122564297
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Shoes",
+      "name": "VMI_Char_Default_Female_Shoes",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Shoes.VMI_Char_Default_Female_Shoes",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Shoes.uasset",
+          "size": 3127,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 122607616
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Shoes.uexp",
+          "size": 568209,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 122609337
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Clothes",
+      "name": "VMI_Char_Default_Female_Clothes",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Clothes.VMI_Char_Default_Female_Clothes",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Clothes.uasset",
+          "size": 3131,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 122517504
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Clothes.uexp",
+          "size": 568219,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 122519225
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Arm",
+      "name": "VMI_Char_Default_Female_Arm",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Arm.VMI_Char_Default_Female_Arm",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Arm.uasset",
+          "size": 3123,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 122472448
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Arm.uexp",
+          "size": 568199,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 122474169
+        }
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Trousers",
+      "name": "VMI_Char_Default_Female_Trousers",
+      "class": "VirtualMaterialInstanceConstant",
+      "object_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Trousers.VMI_Char_Default_Female_Trousers",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Trousers.uasset",
+          "size": 3133,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 122652672
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Trousers.uexp",
+          "size": 568224,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 122654393
+        }
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Hand.VMI_Char_Default_Female_Hand",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Hand.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Shoes.VMI_Char_Default_Female_Shoes",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Shoes.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Clothes.VMI_Char_Default_Female_Clothes",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Clothes.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Arm.VMI_Char_Default_Female_Arm",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Arm.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Trousers.VMI_Char_Default_Female_Trousers",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Default_Female_00/Meterials/3P/VMI_Char_Default_Female_Trousers.json"
+      ],
+      "error": null
+    }
+  ]
+}

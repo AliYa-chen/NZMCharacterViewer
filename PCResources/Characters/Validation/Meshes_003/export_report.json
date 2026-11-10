@@ -1,0 +1,975 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T14:59:47.2211269Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Lower_Mesh",
+      "name": "SK_Char_Angle_1P_Lower_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Lower_Mesh.SK_Char_Angle_1P_Lower_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Lower_Mesh.uasset",
+          "size": 4997,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 141010764
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Lower_Mesh.uexp",
+          "size": 2283198,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 141013525
+        }
+      },
+      "mesh": {
+        "reference_bones": 56,
+        "material_slots": 3,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 14041,
+            "triangles": 22240,
+            "sections": 3,
+            "texcoords": 1
+          },
+          {
+            "vertices": 11742,
+            "triangles": 17980,
+            "sections": 3,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 14041,
+            "indices": 66720,
+            "sections": 3,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Body_Mesh",
+      "name": "SK_Char_Angle_3P_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Body_Mesh.SK_Char_Angle_3P_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Body_Mesh.uasset",
+          "size": 7213,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 82673664
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Body_Mesh.uexp",
+          "size": 6359433,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 82677177
+        }
+      },
+      "mesh": {
+        "reference_bones": 133,
+        "material_slots": 6,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 37960,
+            "triangles": 40405,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 17607,
+            "triangles": 19600,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 12590,
+            "triangles": 14096,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 6082,
+            "triangles": 5871,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 3688,
+            "triangles": 3093,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1994,
+            "triangles": 1551,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 840,
+            "triangles": 628,
+            "sections": 5,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 37960,
+            "indices": 121215,
+            "sections": 6,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Hair_Mesh",
+      "name": "SK_Char_Angle_3P_Hair_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Hair_Mesh.SK_Char_Angle_3P_Hair_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Hair_Mesh.uasset",
+          "size": 3973,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 85303296
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Hair_Mesh.uexp",
+          "size": 3625799,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 85305705
+        }
+      },
+      "mesh": {
+        "reference_bones": 30,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 16346,
+            "triangles": 15986,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 15134,
+            "triangles": 14714,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 6533,
+            "triangles": 6014,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 4459,
+            "triangles": 4166,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 1641,
+            "triangles": 1515,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 431,
+            "triangles": 378,
+            "sections": 1,
+            "texcoords": 3
+          },
+          {
+            "vertices": 124,
+            "triangles": 100,
+            "sections": 1,
+            "texcoords": 3
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 16346,
+            "indices": 47958,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_HatHair_Mesh",
+      "name": "SK_Char_Angle_3P_HatHair_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_HatHair_Mesh.SK_Char_Angle_3P_HatHair_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_HatHair_Mesh.uasset",
+          "size": 4181,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 86650880
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_HatHair_Mesh.uexp",
+          "size": 4513511,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 86653353
+        }
+      },
+      "mesh": {
+        "reference_bones": 30,
+        "material_slots": 2,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 29646,
+            "triangles": 17441,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 13790,
+            "triangles": 14261,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 6980,
+            "triangles": 6629,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 4652,
+            "triangles": 4184,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 1836,
+            "triangles": 1583,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 832,
+            "triangles": 698,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 142,
+            "triangles": 117,
+            "sections": 2,
+            "texcoords": 3
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 29646,
+            "indices": 52323,
+            "sections": 2,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Head_Mesh",
+      "name": "SK_Char_Angle_3P_Head_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Head_Mesh.SK_Char_Angle_3P_Head_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Head_Mesh.uasset",
+          "size": 4811,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 88297472
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Head_Mesh.uexp",
+          "size": 1630617,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 88300105
+        }
+      },
+      "mesh": {
+        "reference_bones": 30,
+        "material_slots": 7,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 7625,
+            "triangles": 12367,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 5228,
+            "triangles": 7692,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2422,
+            "triangles": 4196,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1362,
+            "triangles": 2333,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 790,
+            "triangles": 1293,
+            "sections": 4,
+            "texcoords": 1
+          },
+          {
+            "vertices": 392,
+            "triangles": 636,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 169,
+            "triangles": 264,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 7625,
+            "indices": 37101,
+            "sections": 6,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Mesh_Master",
+      "name": "SK_Char_Angle_3P_Mesh_Master",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Mesh_Master.SK_Char_Angle_3P_Mesh_Master",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Mesh_Master.uasset",
+          "size": 8820,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk22-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1353728
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Mesh_Master.uexp",
+          "size": 18743,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk22-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1357737
+        }
+      },
+      "mesh": {
+        "reference_bones": 219,
+        "material_slots": 2,
+        "source_lod_count": 1,
+        "source_lods": [
+          {
+            "vertices": 30,
+            "triangles": 12,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 30,
+            "indices": 36,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_PropHead_Mesh",
+      "name": "SK_Char_Angle_3P_PropHead_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_PropHead_Mesh.SK_Char_Angle_3P_PropHead_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_PropHead_Mesh.uasset",
+          "size": 3956,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 88930304
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_PropHead_Mesh.uexp",
+          "size": 141695,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 88932713
+        }
+      },
+      "mesh": {
+        "reference_bones": 30,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 512,
+            "triangles": 894,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 306,
+            "triangles": 514,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 196,
+            "triangles": 306,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 122,
+            "triangles": 176,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 119,
+            "triangles": 168,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 119,
+            "triangles": 168,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 48,
+            "triangles": 60,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 512,
+            "indices": 2682,
+            "sections": 1,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Zhi_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Zhi_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Zhi_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Body_Mesh",
+      "name": "SK_Char_Angle_CutScene_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Body_Mesh.SK_Char_Angle_CutScene_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Body_Mesh.uasset",
+          "size": 7376,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 88987648
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Body_Mesh.uexp",
+          "size": 15068732,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 88991097
+        }
+      },
+      "mesh": {
+        "reference_bones": 116,
+        "material_slots": 6,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 100100,
+            "triangles": 49655,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 37960,
+            "triangles": 40405,
+            "sections": 6,
+            "texcoords": 1
+          },
+          {
+            "vertices": 17607,
+            "triangles": 19600,
+            "sections": 5,
+            "texcoords": 1
+          },
+          {
+            "vertices": 12590,
+            "triangles": 14096,
+            "sections": 5,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 100100,
+            "indices": 148965,
+            "sections": 6,
+            "maximum_nonzero_influences": 6,
+            "vertices_over_four_influences": 1513
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_HatHair_Mesh",
+      "name": "SK_Char_Angle_CutScene_HatHair_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_HatHair_Mesh.SK_Char_Angle_CutScene_HatHair_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_HatHair_Mesh.uasset",
+          "size": 3778,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 94001152
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_HatHair_Mesh.uexp",
+          "size": 6120712,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 94003369
+        }
+      },
+      "mesh": {
+        "reference_bones": 8,
+        "material_slots": 2,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 29646,
+            "triangles": 17441,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 29646,
+            "triangles": 17441,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 13790,
+            "triangles": 14261,
+            "sections": 2,
+            "texcoords": 3
+          },
+          {
+            "vertices": 6980,
+            "triangles": 6629,
+            "sections": 2,
+            "texcoords": 3
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 29646,
+            "indices": 52323,
+            "sections": 2,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Head_Mesh",
+      "name": "SK_Char_Angle_CutScene_Head_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Head_Mesh.SK_Char_Angle_CutScene_Head_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Head_Mesh.uasset",
+          "size": 7213,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 96200704
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Head_Mesh.uexp",
+          "size": 2996752,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk27-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 96203993
+        }
+      },
+      "mesh": {
+        "reference_bones": 92,
+        "material_slots": 9,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 10559,
+            "triangles": 14005,
+            "sections": 9,
+            "texcoords": 1
+          },
+          {
+            "vertices": 10559,
+            "triangles": 14005,
+            "sections": 9,
+            "texcoords": 1
+          },
+          {
+            "vertices": 8034,
+            "triangles": 9148,
+            "sections": 9,
+            "texcoords": 1
+          },
+          {
+            "vertices": 3488,
+            "triangles": 4760,
+            "sections": 9,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 10559,
+            "indices": 42015,
+            "sections": 9,
+            "maximum_nonzero_influences": 8,
+            "vertices_over_four_influences": 2542
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Mesh_Master",
+      "name": "SK_Char_Angle_CutScene_Mesh_Master",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Mesh_Master.SK_Char_Angle_CutScene_Mesh_Master",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Mesh_Master.uasset",
+          "size": 9147,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk22-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1366016
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Mesh_Master.uexp",
+          "size": 18836,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk22-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 1369945
+        }
+      },
+      "mesh": {
+        "reference_bones": 222,
+        "material_slots": 1,
+        "source_lod_count": 1,
+        "source_lods": [
+          {
+            "vertices": 30,
+            "triangles": 12,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 30,
+            "indices": 36,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Lower_Mesh.SK_Char_Angle_1P_Lower_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Lower_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Body_Mesh.SK_Char_Angle_3P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Hair_Mesh.SK_Char_Angle_3P_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Hair_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_HatHair_Mesh.SK_Char_Angle_3P_HatHair_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_HatHair_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Head_Mesh.SK_Char_Angle_3P_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Head_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Mesh_Master.SK_Char_Angle_3P_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Mesh_Master.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_PropHead_Mesh.SK_Char_Angle_3P_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_PropHead_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Body_Mesh.SK_Char_Angle_CutScene_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_HatHair_Mesh.SK_Char_Angle_CutScene_HatHair_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_HatHair_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Head_Mesh.SK_Char_Angle_CutScene_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Head_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Mesh_Master.SK_Char_Angle_CutScene_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Mesh_Master.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Lower_Mesh.SK_Char_Angle_1P_Lower_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Lower_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Body_Mesh.SK_Char_Angle_3P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Body_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Hair_Mesh.SK_Char_Angle_3P_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Hair_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_HatHair_Mesh.SK_Char_Angle_3P_HatHair_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_HatHair_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Head_Mesh.SK_Char_Angle_3P_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Head_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Mesh_Master.SK_Char_Angle_3P_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_Mesh_Master.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_PropHead_Mesh.SK_Char_Angle_3P_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_3P_PropHead_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Body_Mesh.SK_Char_Angle_CutScene_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Body_Mesh.pskx"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_HatHair_Mesh.SK_Char_Angle_CutScene_HatHair_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_HatHair_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Head_Mesh.SK_Char_Angle_CutScene_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Head_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Mesh_Master.SK_Char_Angle_CutScene_Mesh_Master",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_CutScene_Mesh_Master.psk"
+      ],
+      "error": null
+    }
+  ]
+}

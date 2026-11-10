@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:06:10.9717390Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Mesh/Wristband_Mesh",
+      "name": "Wristband_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/Wristband_Mesh.Wristband_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/Wristband_Mesh.uasset",
+          "size": 3744,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 117608448
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/Wristband_Mesh.uexp",
+          "size": 371519,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 117610633
+        }
+      },
+      "mesh": {
+        "reference_bones": 22,
+        "material_slots": 3,
+        "source_lod_count": 3,
+        "source_lods": [
+          {
+            "vertices": 2346,
+            "triangles": 2092,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1564,
+            "triangles": 1180,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 742,
+            "triangles": 532,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 2346,
+            "indices": 6276,
+            "sections": 2,
+            "maximum_nonzero_influences": 3,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/Wristband_Mesh.Wristband_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Mesh/Wristband_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/Wristband_Mesh.Wristband_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/CommonRes/Mesh/Wristband_Mesh.psk"
+      ],
+      "error": null
+    }
+  ]
+}

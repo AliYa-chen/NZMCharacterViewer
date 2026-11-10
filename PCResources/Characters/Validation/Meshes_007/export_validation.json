@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:02:42.1106358Z",
+  "scope": "Offline data checks: ActorX points and every nonzero weight/index exactly compared against decoded source DTO; PNG decoded and dimensions checked against highest available source mip. No UE import, rig animation, material appearance or device validation.",
+  "results": [
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_3P_Microphone_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_3P_Microphone_Mesh.SK_Char_Bella_Pop_C_3P_Microphone_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 667,
+        "WrittenVertices": 667,
+        "SourceBones": 8,
+        "WrittenBones": 8,
+        "SourceWeightRows": 667,
+        "WrittenWeightRows": 667,
+        "MaximumInfluences": 1,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 999
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_UI_Body_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_UI_Body_Mesh.SK_Char_Bella_Pop_C_UI_Body_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 33084,
+        "WrittenVertices": 33084,
+        "SourceBones": 186,
+        "WrittenBones": 186,
+        "SourceWeightRows": 95376,
+        "WrittenWeightRows": 95376,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 54155
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_UI_Hair_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_UI_Hair_Mesh.SK_Char_Bella_Pop_C_UI_Hair_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 13690,
+        "WrittenVertices": 13690,
+        "SourceBones": 8,
+        "WrittenBones": 8,
+        "SourceWeightRows": 14510,
+        "WrittenWeightRows": 14510,
+        "MaximumInfluences": 3,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 13465
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_UI_Head_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_UI_Head_Mesh.SK_Char_Bella_Pop_C_UI_Head_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 8824,
+        "WrittenVertices": 8824,
+        "SourceBones": 93,
+        "WrittenBones": 93,
+        "SourceWeightRows": 29159,
+        "WrittenWeightRows": 29159,
+        "MaximumInfluences": 8,
+        "VerticesOverFourInfluences": 2427,
+        "WrittenTriangles": 14058
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_UI_Microphone_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/Bella_Pop_C/Mesh/SK_Char_Bella_Pop_C_UI_Microphone_Mesh.SK_Char_Bella_Pop_C_UI_Microphone_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 808,
+        "WrittenVertices": 808,
+        "SourceBones": 8,
+        "WrittenBones": 8,
+        "SourceWeightRows": 808,
+        "WrittenWeightRows": 808,
+        "MaximumInfluences": 1,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 1187
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/Bella_Suit_D/Mesh/SK_Char_Bella_Suit_D_1P_Body_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/Bella_Suit_D/Mesh/SK_Char_Bella_Suit_D_1P_Body_Mesh.SK_Char_Bella_Suit_D_1P_Body_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 13057,
+        "WrittenVertices": 13057,
+        "SourceBones": 67,
+        "WrittenBones": 67,
+        "SourceWeightRows": 27831,
+        "WrittenWeightRows": 27831,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 19656
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/Bella_Suit_D/Mesh/SK_Char_Bella_Suit_D_1P_Lower_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/Bella_Suit_D/Mesh/SK_Char_Bella_Suit_D_1P_Lower_Mesh.SK_Char_Bella_Suit_D_1P_Lower_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 9888,
+        "WrittenVertices": 9888,
+        "SourceBones": 26,
+        "WrittenBones": 26,
+        "SourceWeightRows": 24276,
+        "WrittenWeightRows": 24276,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 14634
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/Bella_Suit_D/Mesh/SK_Char_Bella_Suit_D_3P_Body_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/Bella_Suit_D/Mesh/SK_Char_Bella_Suit_D_3P_Body_Mesh.SK_Char_Bella_Suit_D_3P_Body_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 22370,
+        "WrittenVertices": 22370,
+        "SourceBones": 81,
+        "WrittenBones": 81,
+        "SourceWeightRows": 57633,
+        "WrittenWeightRows": 57633,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 34051
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/Bella_Suit_D/Mesh/SK_Char_Bella_Suit_D_UI_Body_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/Bella_Suit_D/Mesh/SK_Char_Bella_Suit_D_UI_Body_Mesh.SK_Char_Bella_Suit_D_UI_Body_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 40126,
+        "WrittenVertices": 40126,
+        "SourceBones": 89,
+        "WrittenBones": 89,
+        "SourceWeightRows": 107248,
+        "WrittenWeightRows": 107248,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 66557
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_3P_Hair_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_3P_Hair_Mesh.SK_Char_Bella_3P_Hair_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 18709,
+        "WrittenVertices": 18709,
+        "SourceBones": 8,
+        "WrittenBones": 8,
+        "SourceWeightRows": 20917,
+        "WrittenWeightRows": 20917,
+        "MaximumInfluences": 3,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 14323
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_3P_Head_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Bella/CommonRes/Mesh/SK_Char_Bella_3P_Head_Mesh.SK_Char_Bella_3P_Head_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 7557,
+        "WrittenVertices": 7557,
+        "SourceBones": 12,
+        "WrittenBones": 12,
+        "SourceWeightRows": 8247,
+        "WrittenWeightRows": 8247,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 12386
+      }
+    }
+  ]
+}

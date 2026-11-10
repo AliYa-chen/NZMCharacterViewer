@@ -11,6 +11,7 @@
 | 文件 | 用途 |
 | --- | --- |
 | [PCResources/README.md](../PCResources/README.md) | 导出范围、格式、验证与限制 |
+| [女性角色与服装集合](../PCResources/Characters/README.md) | 新增 309 个网格包及配置、材质／纹理依赖；与本篇原始 80 包渲染快照分别记录来源 |
 | [source_manifest.json](../PCResources/source_manifest.json) | 工具版本、文件 SHA256、原始包来源 |
 | [Environment/scene_parameters.json](../PCResources/Environment/scene_parameters.json) | 9 张候选地图：129 灯光组件、7 后期 Volume、7 粒子组件、雾／反射数据 |
 | [Environment/Dependencies](../PCResources/Environment/Dependencies) | 补取的灯光蓝图／模板、真实导出索引和实例继承证据 |

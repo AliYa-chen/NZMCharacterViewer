@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:06:11.5981904Z",
+  "scope": "Offline data checks: ActorX points and every nonzero weight/index exactly compared against decoded source DTO; PNG decoded and dimensions checked against highest available source mip; HDR header and complete RLE pixel payload checked without source-cubemap pixel comparison. No UE import, rig animation, material appearance or device validation.",
+  "results": [
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angel/CommonRes/Mesh/Wristband_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/Wristband_Mesh.Wristband_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 2346,
+        "WrittenVertices": 2346,
+        "SourceBones": 22,
+        "WrittenBones": 22,
+        "SourceWeightRows": 2398,
+        "WrittenWeightRows": 2398,
+        "MaximumInfluences": 3,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 2092
+      }
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:02:39.9580812Z",
+  "scope": "Offline data checks: ActorX points and every nonzero weight/index exactly compared against decoded source DTO; PNG decoded and dimensions checked against highest available source mip. No UE import, rig animation, material appearance or device validation.",
+  "results": [
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/Angela_Suit_B/Mesh/SK_Char_Angela_Suit_B_3P_Hat_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Mesh/SK_Char_Angela_Suit_B_3P_Hat_Mesh.SK_Char_Angela_Suit_B_3P_Hat_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 6884,
+        "WrittenVertices": 6884,
+        "SourceBones": 28,
+        "WrittenBones": 28,
+        "SourceWeightRows": 12895,
+        "WrittenWeightRows": 12895,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 6338
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/Angela_Suit_B/Mesh/SK_Char_Angela_Suit_B_CutScene_Body_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Mesh/SK_Char_Angela_Suit_B_CutScene_Body_Mesh.SK_Char_Angela_Suit_B_CutScene_Body_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 43066,
+        "WrittenVertices": 43066,
+        "SourceBones": 298,
+        "WrittenBones": 298,
+        "SourceWeightRows": 114014,
+        "WrittenWeightRows": 114014,
+        "MaximumInfluences": 5,
+        "VerticesOverFourInfluences": 2381,
+        "WrittenTriangles": 60247
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/Angela_Suit_B/Mesh/SK_Char_Angela_Suit_B_CutScene_Hat_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Mesh/SK_Char_Angela_Suit_B_CutScene_Hat_Mesh.SK_Char_Angela_Suit_B_CutScene_Hat_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 6884,
+        "WrittenVertices": 6884,
+        "SourceBones": 28,
+        "WrittenBones": 28,
+        "SourceWeightRows": 13727,
+        "WrittenWeightRows": 13727,
+        "MaximumInfluences": 8,
+        "VerticesOverFourInfluences": 418,
+        "WrittenTriangles": 6338
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/Angela_Suit_B/Mesh/SK_Char_Angela_Suit_B_CutScene_Holster_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Mesh/SK_Char_Angela_Suit_B_CutScene_Holster_Mesh.SK_Char_Angela_Suit_B_CutScene_Holster_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 802,
+        "WrittenVertices": 802,
+        "SourceBones": 2,
+        "WrittenBones": 2,
+        "SourceWeightRows": 874,
+        "WrittenWeightRows": 874,
+        "MaximumInfluences": 2,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 1010
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/Angela_Suit_B/Mesh/SK_Char_Angela_Suit_B_UI_Body_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Mesh/SK_Char_Angela_Suit_B_UI_Body_Mesh.SK_Char_Angela_Suit_B_UI_Body_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 43066,
+        "WrittenVertices": 43066,
+        "SourceBones": 298,
+        "WrittenBones": 298,
+        "SourceWeightRows": 114014,
+        "WrittenWeightRows": 114014,
+        "MaximumInfluences": 5,
+        "VerticesOverFourInfluences": 2381,
+        "WrittenTriangles": 60247
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Meshes/Avatar/Character/Angela/Angela_Suit_B/Mesh/SK_Char_Angela_Suit_B_UI_Earring_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Mesh/SK_Char_Angela_Suit_B_UI_Earring_Mesh.SK_Char_Angela_Suit_B_UI_Earring_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 1510,
+        "WrittenVertices": 1510,
+        "SourceBones": 36,
+        "WrittenBones": 36,
+        "SourceWeightRows": 1594,
+        "WrittenWeightRows": 1594,
+        "MaximumInfluences": 2,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 2080
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/Angela_Suit_B/Mesh/SK_Char_Angela_Suit_B_CutScene_Hat_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/Angela_Suit_B/Mesh/SK_Char_Angela_Suit_B_UI_Hat_Mesh.SK_Char_Angela_Suit_B_UI_Hat_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 6884,
+        "WrittenVertices": 6884,
+        "SourceBones": 28,
+        "WrittenBones": 28,
+        "SourceWeightRows": 13727,
+        "WrittenWeightRows": 13727,
+        "MaximumInfluences": 8,
+        "VerticesOverFourInfluences": 418,
+        "WrittenTriangles": 6338
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_3P_Hair_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_3P_Hair_Mesh.SK_Char_Angela_3P_Hair_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 18427,
+        "WrittenVertices": 18427,
+        "SourceBones": 49,
+        "WrittenBones": 49,
+        "SourceWeightRows": 39977,
+        "WrittenWeightRows": 39977,
+        "MaximumInfluences": 4,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 17985
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_3P_Head_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_3P_Head_Mesh.SK_Char_Angela_3P_Head_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 6788,
+        "WrittenVertices": 6788,
+        "SourceBones": 298,
+        "WrittenBones": 298,
+        "SourceWeightRows": 7223,
+        "WrittenWeightRows": 7223,
+        "MaximumInfluences": 3,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 12288
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_3P_PropHead_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_3P_PropHead_Mesh.SK_Char_Angela_3P_PropHead_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 374,
+        "WrittenVertices": 374,
+        "SourceBones": 9,
+        "WrittenBones": 9,
+        "SourceWeightRows": 828,
+        "WrittenWeightRows": 828,
+        "MaximumInfluences": 3,
+        "VerticesOverFourInfluences": 0,
+        "WrittenTriangles": 568
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_CutScene_Hair_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_CutScene_Hair_Mesh.SK_Char_Angela_CutScene_Hair_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 18427,
+        "WrittenVertices": 18427,
+        "SourceBones": 49,
+        "WrittenBones": 49,
+        "SourceWeightRows": 39985,
+        "WrittenWeightRows": 39985,
+        "MaximumInfluences": 5,
+        "VerticesOverFourInfluences": 9,
+        "WrittenTriangles": 17985
+      }
+    },
+    {
+      "kind": "ActorX",
+      "file": "PCResources/Characters/Meshes/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_CutScene_Head_Mesh.psk",
+      "object_path": "NZM/Content/Avatar/Character/Angela/CommonRes/Mesh/SK_Char_Angela_CutScene_Head_Mesh.SK_Char_Angela_CutScene_Head_Mesh",
+      "status": "pass",
+      "checks": {
+        "ExactWeightsAndPoints": true,
+        "SourceVertices": 8204,
+        "WrittenVertices": 8204,
+        "SourceBones": 298,
+        "WrittenBones": 298,
+        "SourceWeightRows": 31461,
+        "WrittenWeightRows": 31461,
+        "MaximumInfluences": 8,
+        "VerticesOverFourInfluences": 3382,
+        "WrittenTriangles": 14116
+      }
+    }
+  ]
+}

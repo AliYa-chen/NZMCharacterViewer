@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "scope": "Explicit package discoveries outside the original SK-name inventory; the resolver rechecks class and skeleton. These records do not establish current player availability.",
+  "packages": [
+    {
+      "mesh_package": "/Game/Avatar/Character/Default_Female_00/Mesh/SK_Char_DefauIt_Female_00_UI_Body_Mesh",
+      "expected_skeleton_package": "/Game/Avatar/Character/Default_Female_00/Mesh/Char_DefauIt_Female_00_Skeleton",
+      "expected_material_slots": 5,
+      "expected_material_path_pattern": "/Avatar/Character/Default_Female_00/",
+      "character_root": "Default_Female_00",
+      "classification": "source_only_female_base",
+      "gender_basis": "Decoded mesh, matching female-base skeleton and five Default_Female material slots; no explicit ModeConfig.Gender was found.",
+      "reason": "Retain the installed female base source resource without classifying its unresolved model row as an explicit female avatar."
+    },
+    {
+      "mesh_package": "/Game/Avatar/Character/Angel/CommonRes/Mesh/Wristband_Mesh",
+      "expected_skeleton_package": "/Game/Avatar/Character/Angel/CommonRes/Mesh/Wristband_Mesh_Skeleton",
+      "character_root": "Angel",
+      "classification": "verified_female_root_accessory",
+      "gender_basis": "Decoded SkeletalMesh in the explicitly female Angel resource root; the accessory itself has no gender field.",
+      "reason": "The package is a skeletal accessory despite lacking an SK_ filename prefix."
+    },
+    {
+      "mesh_package": "/Game/Avatar/Base/Pendant_Base_Neak",
+      "expected_skeleton_package": "/Game/Avatar/Base/Male_mesh_3P_Skeleton",
+      "character_root": "shared_avatar_base",
+      "classification": "shared_configuration_base_mesh",
+      "gender_basis": "A shared skeletal base referenced by female custom replacement configuration; no female gender is attributed to its male-named skeleton.",
+      "reason": "An explicit Mesh.AssetPathName reference must survive filename filtering even for a small shared pendant placeholder outside female character roots."
+    }
+  ]
+}

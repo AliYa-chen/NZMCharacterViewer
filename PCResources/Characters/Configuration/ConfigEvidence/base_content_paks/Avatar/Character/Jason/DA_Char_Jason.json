@@ -1,0 +1,65 @@
+{
+  "Type": "AvaCharItemData",
+  "Name": "DA_Char_Jason",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'AvaCharItemData'",
+  "Package": "NZM/Content/Avatar/Character/Jason/DA_Char_Jason",
+  "Properties": {
+    "TPPConfig": {
+      "DefaultPartItems": [
+        "12701010201",
+        "12701040203",
+        "12701050202",
+        "12701020001"
+      ],
+      "CutPartItems": [
+        "12701080001"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Jason/CommonRes/Mesh/SK_Char_Jason_Mesh_Master.SK_Char_Jason_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "FPPConfig": {
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Jason/Jason_Suit_D/Mesh/SK_Char_Jason_Suit_D_1P_Body_Mesh.SK_Char_Jason_Suit_D_1P_Body_Mesh",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "UIConfig": {
+      "DefaultPartItems": [
+        "12701010001",
+        "12701040003",
+        "12701050002"
+      ],
+      "CutPartItems": [
+        "12701080001"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Jason/CommonRes/Mesh/SK_Char_Jason_Mesh_Master.SK_Char_Jason_Mesh_Master",
+        "SubPathString": ""
+      },
+      "IsOverrideTemplate_AvatarFeatureLinkBP": true,
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "ModeConfig": {
+      "Gender": "EAvaGenderType::Male",
+      "BindTag": {
+        "TagName": "Avatar.Character.Jason"
+      }
+    },
+    "AssetPathName": "/Game/Avatar/Character/Jason/DA_Char_Jason.DA_Char_Jason"
+  }
+}

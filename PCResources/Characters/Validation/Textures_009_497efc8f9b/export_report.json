@@ -1,0 +1,3275 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T15:06:27.7712671Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "JsonAndTextures",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_0aacb1a3bcece3e0dd87be4ffd2921a8",
+      "name": "T_VMGen_BaseColorMap_0aacb1a3bcece3e0dd87be4ffd2921a8",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_0aacb1a3bcece3e0dd87be4ffd2921a8.T_VMGen_BaseColorMap_0aacb1a3bcece3e0dd87be4ffd2921a8",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_0aacb1a3bcece3e0dd87be4ffd2921a8.uasset",
+          "size": 1049,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 170827940
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_0aacb1a3bcece3e0dd87be4ffd2921a8.uexp",
+          "size": 175435,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 171698176
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_0aacb1a3bcece3e0dd87be4ffd2921a8.ubulk",
+          "size": 2621440,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 170829824
+        }
+      },
+      "texture": {
+        "width": 2048,
+        "height": 2048,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": true,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 2048,
+            "height": 2048,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 2097152,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 1024,
+            "height": 1024,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 524288,
+            "bulk_offset": 2097152,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 177832,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 308940,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 341744,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 349972,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 352056,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 352604,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 352768,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352836,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352880,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352924,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721",
+      "name": "T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721.T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721.uasset",
+          "size": 1049,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 171778966
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721.uexp",
+          "size": 175435,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 172693504
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721.ubulk",
+          "size": 2621440,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 171780096
+        }
+      },
+      "texture": {
+        "width": 2048,
+        "height": 2048,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": true,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 2048,
+            "height": 2048,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 2097152,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 1024,
+            "height": 1024,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 524288,
+            "bulk_offset": 2097152,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 177832,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 308940,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 341744,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 349972,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 352056,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 352604,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 352768,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352836,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352880,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352924,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_9f06226b9154052b9349e94d5cec6cea",
+      "name": "T_VMGen_BaseColorMap_9f06226b9154052b9349e94d5cec6cea",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_9f06226b9154052b9349e94d5cec6cea.T_VMGen_BaseColorMap_9f06226b9154052b9349e94d5cec6cea",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_9f06226b9154052b9349e94d5cec6cea.uasset",
+          "size": 1049,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 172783897
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_9f06226b9154052b9349e94d5cec6cea.uexp",
+          "size": 175435,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 173543424
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_9f06226b9154052b9349e94d5cec6cea.ubulk",
+          "size": 2621440,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 172785664
+        }
+      },
+      "texture": {
+        "width": 2048,
+        "height": 2048,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": true,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 2048,
+            "height": 2048,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 2097152,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 1024,
+            "height": 1024,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 524288,
+            "bulk_offset": 2097152,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 177832,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 308940,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 341744,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 349972,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 352056,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 352604,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 352768,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352836,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352880,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352924,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_b8c0c3f1a4a0deb0cb42c618de44dced",
+      "name": "T_VMGen_BaseColorMap_b8c0c3f1a4a0deb0cb42c618de44dced",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_b8c0c3f1a4a0deb0cb42c618de44dced.T_VMGen_BaseColorMap_b8c0c3f1a4a0deb0cb42c618de44dced",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_b8c0c3f1a4a0deb0cb42c618de44dced.uasset",
+          "size": 1049,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 173601591
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_b8c0c3f1a4a0deb0cb42c618de44dced.uexp",
+          "size": 175435,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 174497792
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_b8c0c3f1a4a0deb0cb42c618de44dced.ubulk",
+          "size": 2621440,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 173602816
+        }
+      },
+      "texture": {
+        "width": 2048,
+        "height": 2048,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": true,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 2048,
+            "height": 2048,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 2097152,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 1024,
+            "height": 1024,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 524288,
+            "bulk_offset": 2097152,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 177832,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 308940,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 341744,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 349972,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 352056,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 352604,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 352768,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352836,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352880,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352924,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_c14005e48a5ff9534a8df6088cfd0fcb",
+      "name": "T_VMGen_BaseColorMap_c14005e48a5ff9534a8df6088cfd0fcb",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_c14005e48a5ff9534a8df6088cfd0fcb.T_VMGen_BaseColorMap_c14005e48a5ff9534a8df6088cfd0fcb",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_c14005e48a5ff9534a8df6088cfd0fcb.uasset",
+          "size": 1049,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 174577664
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_c14005e48a5ff9534a8df6088cfd0fcb.uexp",
+          "size": 175435,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175339520
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_c14005e48a5ff9534a8df6088cfd0fcb.ubulk",
+          "size": 2621440,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 174579712
+        }
+      },
+      "texture": {
+        "width": 2048,
+        "height": 2048,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": true,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 2048,
+            "height": 2048,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 2097152,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 1024,
+            "height": 1024,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 524288,
+            "bulk_offset": 2097152,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 177832,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 308940,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 341744,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 349972,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 352056,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 352604,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 352768,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352836,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352880,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 352924,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454",
+      "name": "T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454.T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454.uasset",
+          "size": 944,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175401612
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454.uexp",
+          "size": 3355,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175415296
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454.ubulk",
+          "size": 172032,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175403008
+        }
+      },
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": true,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 131072,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 163840,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 5602,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 7686,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 8234,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 8398,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8466,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8510,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8554,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_7f0b5b1b96dce687e6a7f96913470fe7",
+      "name": "T_VMGen_EmissiveMap_7f0b5b1b96dce687e6a7f96913470fe7",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_7f0b5b1b96dce687e6a7f96913470fe7.T_VMGen_EmissiveMap_7f0b5b1b96dce687e6a7f96913470fe7",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_7f0b5b1b96dce687e6a7f96913470fe7.uasset",
+          "size": 944,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175416515
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_7f0b5b1b96dce687e6a7f96913470fe7.uexp",
+          "size": 3355,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175417720
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_7f0b5b1b96dce687e6a7f96913470fe7.ubulk",
+          "size": 172032,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175417344
+        }
+      },
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": true,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 131072,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 163840,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 5602,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 7686,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 8234,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 8398,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8466,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8510,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8554,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_a4de274be6960bad74a5fca3db60906a",
+      "name": "T_VMGen_EmissiveMap_a4de274be6960bad74a5fca3db60906a",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_a4de274be6960bad74a5fca3db60906a.T_VMGen_EmissiveMap_a4de274be6960bad74a5fca3db60906a",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_a4de274be6960bad74a5fca3db60906a.uasset",
+          "size": 944,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175418107
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_a4de274be6960bad74a5fca3db60906a.uexp",
+          "size": 3355,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175420593
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_a4de274be6960bad74a5fca3db60906a.ubulk",
+          "size": 172032,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175419392
+        }
+      },
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": true,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 131072,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 163840,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 5602,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 7686,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 8234,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 8398,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8466,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8510,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8554,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_b5f2e0ee28f4134e6ff315315e60515e",
+      "name": "T_VMGen_EmissiveMap_b5f2e0ee28f4134e6ff315315e60515e",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_b5f2e0ee28f4134e6ff315315e60515e.T_VMGen_EmissiveMap_b5f2e0ee28f4134e6ff315315e60515e",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_b5f2e0ee28f4134e6ff315315e60515e.uasset",
+          "size": 944,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175421440
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_b5f2e0ee28f4134e6ff315315e60515e.uexp",
+          "size": 3355,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175422571
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_b5f2e0ee28f4134e6ff315315e60515e.ubulk",
+          "size": 172032,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175422121
+        }
+      },
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": true,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 131072,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 163840,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 5602,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 7686,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 8234,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 8398,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8466,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8510,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8554,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_d2fe89a2b496824f9fc273200a58e155",
+      "name": "T_VMGen_EmissiveMap_d2fe89a2b496824f9fc273200a58e155",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_d2fe89a2b496824f9fc273200a58e155.T_VMGen_EmissiveMap_d2fe89a2b496824f9fc273200a58e155",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_d2fe89a2b496824f9fc273200a58e155.uasset",
+          "size": 944,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175423488
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_d2fe89a2b496824f9fc273200a58e155.uexp",
+          "size": 3355,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175427584
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_d2fe89a2b496824f9fc273200a58e155.ubulk",
+          "size": 172032,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175425536
+        }
+      },
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": true,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 131072,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 163840,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 5602,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 7686,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 8234,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 8398,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8466,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8510,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8554,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905",
+      "name": "T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905.T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905.uasset",
+          "size": 1066,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175428122
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905.uexp",
+          "size": 6237,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 177682432
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905.ubulk",
+          "size": 5586944,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 175429632
+        }
+      },
+      "texture": {
+        "width": 2048,
+        "height": 2048,
+        "pixel_format": "PF_BC5",
+        "compression_settings": "TC_Normalmap",
+        "srgb": false,
+        "is_normal_map": true,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 2048,
+            "height": 2048,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 4194304,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 1024,
+            "height": 1024,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 1048576,
+            "bulk_offset": 4194304,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 262144,
+            "bulk_offset": 5242880,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 65536,
+            "bulk_offset": 5505024,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 16384,
+            "bulk_offset": 5570560,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 4096,
+            "bulk_offset": 8866,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 1024,
+            "bulk_offset": 12998,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 256,
+            "bulk_offset": 14058,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 64,
+            "bulk_offset": 14350,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14450,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14502,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14554,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_89355db3e6c3f0ec12423a80d6db6c24",
+      "name": "T_VMGen_NormalMap_89355db3e6c3f0ec12423a80d6db6c24",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_89355db3e6c3f0ec12423a80d6db6c24.T_VMGen_NormalMap_89355db3e6c3f0ec12423a80d6db6c24",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_89355db3e6c3f0ec12423a80d6db6c24.uasset",
+          "size": 1066,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 177686888
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_89355db3e6c3f0ec12423a80d6db6c24.uexp",
+          "size": 6237,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 179611648
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_89355db3e6c3f0ec12423a80d6db6c24.ubulk",
+          "size": 5586944,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 177688576
+        }
+      },
+      "texture": {
+        "width": 2048,
+        "height": 2048,
+        "pixel_format": "PF_BC5",
+        "compression_settings": "TC_Normalmap",
+        "srgb": false,
+        "is_normal_map": true,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 2048,
+            "height": 2048,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 4194304,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 1024,
+            "height": 1024,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 1048576,
+            "bulk_offset": 4194304,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 262144,
+            "bulk_offset": 5242880,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 65536,
+            "bulk_offset": 5505024,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 16384,
+            "bulk_offset": 5570560,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 4096,
+            "bulk_offset": 8866,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 1024,
+            "bulk_offset": 12998,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 256,
+            "bulk_offset": 14058,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 64,
+            "bulk_offset": 14350,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14450,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14502,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14554,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_ce67aa8dd80a98f6b4cc7f886a67b332",
+      "name": "T_VMGen_NormalMap_ce67aa8dd80a98f6b4cc7f886a67b332",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_ce67aa8dd80a98f6b4cc7f886a67b332.T_VMGen_NormalMap_ce67aa8dd80a98f6b4cc7f886a67b332",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_ce67aa8dd80a98f6b4cc7f886a67b332.uasset",
+          "size": 1066,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 179615744
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_ce67aa8dd80a98f6b4cc7f886a67b332.uexp",
+          "size": 6237,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 181757952
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_ce67aa8dd80a98f6b4cc7f886a67b332.ubulk",
+          "size": 5586944,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 179617792
+        }
+      },
+      "texture": {
+        "width": 2048,
+        "height": 2048,
+        "pixel_format": "PF_BC5",
+        "compression_settings": "TC_Normalmap",
+        "srgb": false,
+        "is_normal_map": true,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 2048,
+            "height": 2048,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 4194304,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 1024,
+            "height": 1024,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 1048576,
+            "bulk_offset": 4194304,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 262144,
+            "bulk_offset": 5242880,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 65536,
+            "bulk_offset": 5505024,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 16384,
+            "bulk_offset": 5570560,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 4096,
+            "bulk_offset": 8866,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 1024,
+            "bulk_offset": 12998,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 256,
+            "bulk_offset": 14058,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 64,
+            "bulk_offset": 14350,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14450,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14502,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14554,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_d11b29003c3dfb6978d3f4ba96b05d68",
+      "name": "T_VMGen_NormalMap_d11b29003c3dfb6978d3f4ba96b05d68",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_d11b29003c3dfb6978d3f4ba96b05d68.T_VMGen_NormalMap_d11b29003c3dfb6978d3f4ba96b05d68",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_d11b29003c3dfb6978d3f4ba96b05d68.uasset",
+          "size": 1066,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 181761049
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_d11b29003c3dfb6978d3f4ba96b05d68.uexp",
+          "size": 6237,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 183617536
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_d11b29003c3dfb6978d3f4ba96b05d68.ubulk",
+          "size": 5586944,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 181762048
+        }
+      },
+      "texture": {
+        "width": 2048,
+        "height": 2048,
+        "pixel_format": "PF_BC5",
+        "compression_settings": "TC_Normalmap",
+        "srgb": false,
+        "is_normal_map": true,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 2048,
+            "height": 2048,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 4194304,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 1024,
+            "height": 1024,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 1048576,
+            "bulk_offset": 4194304,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 262144,
+            "bulk_offset": 5242880,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 65536,
+            "bulk_offset": 5505024,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 16384,
+            "bulk_offset": 5570560,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 4096,
+            "bulk_offset": 8866,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 1024,
+            "bulk_offset": 12998,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 256,
+            "bulk_offset": 14058,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 64,
+            "bulk_offset": 14350,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14450,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14502,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14554,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_e41aa075e058e15cac08ae68d462a16a",
+      "name": "T_VMGen_NormalMap_e41aa075e058e15cac08ae68d462a16a",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_e41aa075e058e15cac08ae68d462a16a.T_VMGen_NormalMap_e41aa075e058e15cac08ae68d462a16a",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_e41aa075e058e15cac08ae68d462a16a.uasset",
+          "size": 1066,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 183620841
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_e41aa075e058e15cac08ae68d462a16a.uexp",
+          "size": 6237,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185559040
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_e41aa075e058e15cac08ae68d462a16a.ubulk",
+          "size": 5586944,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 183621632
+        }
+      },
+      "texture": {
+        "width": 2048,
+        "height": 2048,
+        "pixel_format": "PF_BC5",
+        "compression_settings": "TC_Normalmap",
+        "srgb": false,
+        "is_normal_map": true,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 2048,
+            "height": 2048,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 4194304,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 1024,
+            "height": 1024,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 1048576,
+            "bulk_offset": 4194304,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 262144,
+            "bulk_offset": 5242880,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 65536,
+            "bulk_offset": 5505024,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 16384,
+            "bulk_offset": 5570560,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 4096,
+            "bulk_offset": 8866,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 1024,
+            "bulk_offset": 12998,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 256,
+            "bulk_offset": 14058,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 64,
+            "bulk_offset": 14350,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14450,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14502,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 16,
+            "bulk_offset": 14554,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc",
+      "name": "T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc.T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc.uasset",
+          "size": 976,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185563136
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc.uexp",
+          "size": 3381,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185671680
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc.ubulk",
+          "size": 172032,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185565184
+        }
+      },
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": false,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 131072,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 163840,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 5718,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 7802,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 8350,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 8514,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8582,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8626,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8670,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_215a7c224e8ce6d1f00f5019f1c1e96f",
+      "name": "T_VMGen_RAMMap_215a7c224e8ce6d1f00f5019f1c1e96f",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_215a7c224e8ce6d1f00f5019f1c1e96f.T_VMGen_RAMMap_215a7c224e8ce6d1f00f5019f1c1e96f",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_215a7c224e8ce6d1f00f5019f1c1e96f.uasset",
+          "size": 976,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185674690
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_215a7c224e8ce6d1f00f5019f1c1e96f.uexp",
+          "size": 3381,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185749504
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_215a7c224e8ce6d1f00f5019f1c1e96f.ubulk",
+          "size": 172032,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185675776
+        }
+      },
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": false,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 131072,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 163840,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 5718,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 7802,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 8350,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 8514,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8582,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8626,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8670,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3308a4b3752dbb634e650425e4931c19",
+      "name": "T_VMGen_RAMMap_3308a4b3752dbb634e650425e4931c19",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3308a4b3752dbb634e650425e4931c19.T_VMGen_RAMMap_3308a4b3752dbb634e650425e4931c19",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3308a4b3752dbb634e650425e4931c19.uasset",
+          "size": 976,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185752045
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3308a4b3752dbb634e650425e4931c19.uexp",
+          "size": 3381,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185837568
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3308a4b3752dbb634e650425e4931c19.ubulk",
+          "size": 172032,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185753600
+        }
+      },
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": false,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 131072,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 163840,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 5718,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 7802,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 8350,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 8514,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8582,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8626,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8670,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3610aa2e5724edc59d1a8789e427dc10",
+      "name": "T_VMGen_RAMMap_3610aa2e5724edc59d1a8789e427dc10",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3610aa2e5724edc59d1a8789e427dc10.T_VMGen_RAMMap_3610aa2e5724edc59d1a8789e427dc10",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3610aa2e5724edc59d1a8789e427dc10.uasset",
+          "size": 976,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185840436
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3610aa2e5724edc59d1a8789e427dc10.uexp",
+          "size": 3381,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185935872
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3610aa2e5724edc59d1a8789e427dc10.ubulk",
+          "size": 172032,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185841664
+        }
+      },
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": false,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 131072,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 163840,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 5718,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 7802,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 8350,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 8514,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8582,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8626,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8670,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    },
+    {
+      "requested_path": "/Game/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_f6c4f08772440255153d6b0c47921435",
+      "name": "T_VMGen_RAMMap_f6c4f08772440255153d6b0c47921435",
+      "class": "Texture2D",
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_f6c4f08772440255153d6b0c47921435.T_VMGen_RAMMap_f6c4f08772440255153d6b0c47921435",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_f6c4f08772440255153d6b0c47921435.uasset",
+          "size": 976,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185938838
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_f6c4f08772440255153d6b0c47921435.uexp",
+          "size": 3381,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 186030080
+        },
+        "ubulk": {
+          "virtual_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_f6c4f08772440255153d6b0c47921435.ubulk",
+          "size": 172032,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk28-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 185939968
+        }
+      },
+      "texture": {
+        "width": 512,
+        "height": 512,
+        "pixel_format": "PF_DXT1",
+        "compression_settings": "TC_Default",
+        "srgb": false,
+        "is_normal_map": false,
+        "png_channel_policy": "DesktopMobile decode; preserves decoded R/G channels, reconstructs normal Z where required; no green-channel flip or glTF conversion.",
+        "first_mip_to_serialize": 0,
+        "mips": [
+          {
+            "width": 512,
+            "height": 512,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 131072,
+            "bulk_offset": 0,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 256,
+            "height": 256,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 32768,
+            "bulk_offset": 131072,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_PayloadAtEndOfFile, BULKDATA_PayloadInSeperateFile, BULKDATA_Force_NOT_InlinePayload",
+            "bulk_size": 8192,
+            "bulk_offset": 163840,
+            "payload_file_hint": "ubulk"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 2048,
+            "bulk_offset": 5718,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 512,
+            "bulk_offset": 7802,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 128,
+            "bulk_offset": 8350,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 8,
+            "height": 8,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 32,
+            "bulk_offset": 8514,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8582,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8626,
+            "payload_file_hint": "inline_package"
+          },
+          {
+            "width": 4,
+            "height": 4,
+            "depth": 1,
+            "bulk_flags": "BULKDATA_SingleUse, BULKDATA_ForceInlinePayload",
+            "bulk_size": 8,
+            "bulk_offset": 8670,
+            "payload_file_hint": "inline_package"
+          }
+        ],
+        "highest_available_mip_index": 0
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_0aacb1a3bcece3e0dd87be4ffd2921a8.T_VMGen_BaseColorMap_0aacb1a3bcece3e0dd87be4ffd2921a8",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_0aacb1a3bcece3e0dd87be4ffd2921a8.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721.T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_9f06226b9154052b9349e94d5cec6cea.T_VMGen_BaseColorMap_9f06226b9154052b9349e94d5cec6cea",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_9f06226b9154052b9349e94d5cec6cea.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_b8c0c3f1a4a0deb0cb42c618de44dced.T_VMGen_BaseColorMap_b8c0c3f1a4a0deb0cb42c618de44dced",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_b8c0c3f1a4a0deb0cb42c618de44dced.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_c14005e48a5ff9534a8df6088cfd0fcb.T_VMGen_BaseColorMap_c14005e48a5ff9534a8df6088cfd0fcb",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_c14005e48a5ff9534a8df6088cfd0fcb.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454.T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_7f0b5b1b96dce687e6a7f96913470fe7.T_VMGen_EmissiveMap_7f0b5b1b96dce687e6a7f96913470fe7",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_7f0b5b1b96dce687e6a7f96913470fe7.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_a4de274be6960bad74a5fca3db60906a.T_VMGen_EmissiveMap_a4de274be6960bad74a5fca3db60906a",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_a4de274be6960bad74a5fca3db60906a.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_b5f2e0ee28f4134e6ff315315e60515e.T_VMGen_EmissiveMap_b5f2e0ee28f4134e6ff315315e60515e",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_b5f2e0ee28f4134e6ff315315e60515e.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_d2fe89a2b496824f9fc273200a58e155.T_VMGen_EmissiveMap_d2fe89a2b496824f9fc273200a58e155",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_d2fe89a2b496824f9fc273200a58e155.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905.T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_89355db3e6c3f0ec12423a80d6db6c24.T_VMGen_NormalMap_89355db3e6c3f0ec12423a80d6db6c24",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_89355db3e6c3f0ec12423a80d6db6c24.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_ce67aa8dd80a98f6b4cc7f886a67b332.T_VMGen_NormalMap_ce67aa8dd80a98f6b4cc7f886a67b332",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_ce67aa8dd80a98f6b4cc7f886a67b332.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_d11b29003c3dfb6978d3f4ba96b05d68.T_VMGen_NormalMap_d11b29003c3dfb6978d3f4ba96b05d68",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_d11b29003c3dfb6978d3f4ba96b05d68.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_e41aa075e058e15cac08ae68d462a16a.T_VMGen_NormalMap_e41aa075e058e15cac08ae68d462a16a",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_e41aa075e058e15cac08ae68d462a16a.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc.T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_215a7c224e8ce6d1f00f5019f1c1e96f.T_VMGen_RAMMap_215a7c224e8ce6d1f00f5019f1c1e96f",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_215a7c224e8ce6d1f00f5019f1c1e96f.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3308a4b3752dbb634e650425e4931c19.T_VMGen_RAMMap_3308a4b3752dbb634e650425e4931c19",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3308a4b3752dbb634e650425e4931c19.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3610aa2e5724edc59d1a8789e427dc10.T_VMGen_RAMMap_3610aa2e5724edc59d1a8789e427dc10",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3610aa2e5724edc59d1a8789e427dc10.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_f6c4f08772440255153d6b0c47921435.T_VMGen_RAMMap_f6c4f08772440255153d6b0c47921435",
+      "files": [
+        "PCResources/Characters/Metadata/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_f6c4f08772440255153d6b0c47921435.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_0aacb1a3bcece3e0dd87be4ffd2921a8.T_VMGen_BaseColorMap_0aacb1a3bcece3e0dd87be4ffd2921a8",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_0aacb1a3bcece3e0dd87be4ffd2921a8.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721.T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_55b2323c526c7458d5d2f4df0e7b4721.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_9f06226b9154052b9349e94d5cec6cea.T_VMGen_BaseColorMap_9f06226b9154052b9349e94d5cec6cea",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_9f06226b9154052b9349e94d5cec6cea.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_b8c0c3f1a4a0deb0cb42c618de44dced.T_VMGen_BaseColorMap_b8c0c3f1a4a0deb0cb42c618de44dced",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_b8c0c3f1a4a0deb0cb42c618de44dced.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_c14005e48a5ff9534a8df6088cfd0fcb.T_VMGen_BaseColorMap_c14005e48a5ff9534a8df6088cfd0fcb",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_BaseColorMap_c14005e48a5ff9534a8df6088cfd0fcb.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454.T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_22e7791853af1aa56b2365e512214454.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_7f0b5b1b96dce687e6a7f96913470fe7.T_VMGen_EmissiveMap_7f0b5b1b96dce687e6a7f96913470fe7",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_7f0b5b1b96dce687e6a7f96913470fe7.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_a4de274be6960bad74a5fca3db60906a.T_VMGen_EmissiveMap_a4de274be6960bad74a5fca3db60906a",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_a4de274be6960bad74a5fca3db60906a.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_b5f2e0ee28f4134e6ff315315e60515e.T_VMGen_EmissiveMap_b5f2e0ee28f4134e6ff315315e60515e",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_b5f2e0ee28f4134e6ff315315e60515e.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_d2fe89a2b496824f9fc273200a58e155.T_VMGen_EmissiveMap_d2fe89a2b496824f9fc273200a58e155",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_EmissiveMap_d2fe89a2b496824f9fc273200a58e155.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905.T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_080fea807f06d601d6d9f36a5f5b4905.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_89355db3e6c3f0ec12423a80d6db6c24.T_VMGen_NormalMap_89355db3e6c3f0ec12423a80d6db6c24",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_89355db3e6c3f0ec12423a80d6db6c24.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_ce67aa8dd80a98f6b4cc7f886a67b332.T_VMGen_NormalMap_ce67aa8dd80a98f6b4cc7f886a67b332",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_ce67aa8dd80a98f6b4cc7f886a67b332.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_d11b29003c3dfb6978d3f4ba96b05d68.T_VMGen_NormalMap_d11b29003c3dfb6978d3f4ba96b05d68",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_d11b29003c3dfb6978d3f4ba96b05d68.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_e41aa075e058e15cac08ae68d462a16a.T_VMGen_NormalMap_e41aa075e058e15cac08ae68d462a16a",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_NormalMap_e41aa075e058e15cac08ae68d462a16a.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc.T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_12adf6bfc7cc98fd5dca48e657ae13bc.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_215a7c224e8ce6d1f00f5019f1c1e96f.T_VMGen_RAMMap_215a7c224e8ce6d1f00f5019f1c1e96f",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_215a7c224e8ce6d1f00f5019f1c1e96f.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3308a4b3752dbb634e650425e4931c19.T_VMGen_RAMMap_3308a4b3752dbb634e650425e4931c19",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3308a4b3752dbb634e650425e4931c19.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3610aa2e5724edc59d1a8789e427dc10.T_VMGen_RAMMap_3610aa2e5724edc59d1a8789e427dc10",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_3610aa2e5724edc59d1a8789e427dc10.png"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Textures",
+      "success": true,
+      "object_path": "NZM/Content/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_f6c4f08772440255153d6b0c47921435.T_VMGen_RAMMap_f6c4f08772440255153d6b0c47921435",
+      "files": [
+        "PCResources/Characters/Textures/GenTexDir/Game/Avatar/Character/Default_Female_00/Textures/T_VMGen_RAMMap_f6c4f08772440255153d6b0c47921435.png"
+      ],
+      "error": null
+    }
+  ]
+}

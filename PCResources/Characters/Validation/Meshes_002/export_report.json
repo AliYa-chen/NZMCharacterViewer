@@ -1,0 +1,771 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T14:59:44.8550863Z",
+  "input_root": "NZM_INSTALL",
+  "scope": "Offline file parsing/export only. No process, memory, debugging, injection, game launch or anticheat operations.",
+  "format": "CUE4Parse GAME_AssaultFireFuture",
+  "mode": "Json",
+  "mounted_archives": 137,
+  "files_in_provider": 837780,
+  "priority_scope": "Sources are selected by this provider for the stated input tree. Provider order is recorded, not independently verified against a live game.",
+  "records": [
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Bracelet_Mesh",
+      "name": "SK_Char_Angel_Lucia_A_UI_Bracelet_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Bracelet_Mesh.SK_Char_Angel_Lucia_A_UI_Bracelet_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Bracelet_Mesh.uasset",
+          "size": 4217,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 72300145
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Bracelet_Mesh.uexp",
+          "size": 148912,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 72302634
+        }
+      },
+      "mesh": {
+        "reference_bones": 37,
+        "material_slots": 1,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 1022,
+            "triangles": 958,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 525,
+            "triangles": 459,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 96,
+            "triangles": 88,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 94,
+            "triangles": 86,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 1022,
+            "indices": 2874,
+            "sections": 1,
+            "maximum_nonzero_influences": 5,
+            "vertices_over_four_influences": 170
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Earring_Mesh",
+      "name": "SK_Char_Angel_Lucia_A_UI_Earring_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Earring_Mesh.SK_Char_Angel_Lucia_A_UI_Earring_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Earring_Mesh.uasset",
+          "size": 4048,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 72356826
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Earring_Mesh.uexp",
+          "size": 79582,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 72359219
+        }
+      },
+      "mesh": {
+        "reference_bones": 30,
+        "material_slots": 1,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 285,
+            "triangles": 408,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 154,
+            "triangles": 216,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 194,
+            "triangles": 264,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 194,
+            "triangles": 264,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 285,
+            "indices": 1224,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Hair_Mesh",
+      "name": "SK_Char_Angel_Lucia_A_UI_Hair_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Hair_Mesh.SK_Char_Angel_Lucia_A_UI_Hair_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Hair_Mesh.uasset",
+          "size": 6246,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 72383228
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Hair_Mesh.uexp",
+          "size": 8771188,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 72386197
+        }
+      },
+      "mesh": {
+        "reference_bones": 67,
+        "material_slots": 6,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 40847,
+            "triangles": 40200,
+            "sections": 6,
+            "texcoords": 3
+          },
+          {
+            "vertices": 28483,
+            "triangles": 24282,
+            "sections": 6,
+            "texcoords": 3
+          },
+          {
+            "vertices": 16553,
+            "triangles": 13932,
+            "sections": 6,
+            "texcoords": 3
+          },
+          {
+            "vertices": 13188,
+            "triangles": 10601,
+            "sections": 6,
+            "texcoords": 3
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 40847,
+            "indices": 120600,
+            "sections": 6,
+            "maximum_nonzero_influences": 5,
+            "vertices_over_four_influences": 659
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Head_Mesh",
+      "name": "SK_Char_Angel_Lucia_A_UI_Head_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Head_Mesh.SK_Char_Angel_Lucia_A_UI_Head_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Head_Mesh.uasset",
+          "size": 7529,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 75447256
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Head_Mesh.uexp",
+          "size": 2446604,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 75450609
+        }
+      },
+      "mesh": {
+        "reference_bones": 110,
+        "material_slots": 7,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 8139,
+            "triangles": 14094,
+            "sections": 7,
+            "texcoords": 1
+          },
+          {
+            "vertices": 8269,
+            "triangles": 14094,
+            "sections": 7,
+            "texcoords": 1
+          },
+          {
+            "vertices": 5046,
+            "triangles": 8467,
+            "sections": 7,
+            "texcoords": 1
+          },
+          {
+            "vertices": 2898,
+            "triangles": 4808,
+            "sections": 7,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 8139,
+            "indices": 42282,
+            "sections": 7,
+            "maximum_nonzero_influences": 8,
+            "vertices_over_four_influences": 3572
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_PropHead_Mesh",
+      "name": "SK_Char_Angel_Lucia_A_UI_PropHead_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_PropHead_Mesh.SK_Char_Angel_Lucia_A_UI_PropHead_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_PropHead_Mesh.uasset",
+          "size": 4029,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 76459745
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_PropHead_Mesh.uexp",
+          "size": 114234,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 76462138
+        }
+      },
+      "mesh": {
+        "reference_bones": 30,
+        "material_slots": 1,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 400,
+            "triangles": 674,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 377,
+            "triangles": 634,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 242,
+            "triangles": 390,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 144,
+            "triangles": 216,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 400,
+            "indices": 2022,
+            "sections": 1,
+            "maximum_nonzero_influences": 3,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_1P_Mesh",
+      "name": "SK_Pendant_Hand_Band_A04_LXYring_A_1P_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_1P_Mesh.SK_Pendant_Hand_Band_A04_LXYring_A_1P_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_1P_Mesh.uasset",
+          "size": 3841,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 76603424
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_1P_Mesh.uexp",
+          "size": 649983,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 76605593
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 1,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 6531,
+            "triangles": 7708,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1774,
+            "triangles": 1500,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 6531,
+            "indices": 23124,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_Mesh",
+      "name": "SK_Pendant_Hand_Band_A04_LXYring_A_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_Mesh.SK_Pendant_Hand_Band_A04_LXYring_A_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_Mesh.uasset",
+          "size": 3835,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 76858254
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_Mesh.uexp",
+          "size": 881853,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 76860423
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 1,
+        "source_lod_count": 7,
+        "source_lods": [
+          {
+            "vertices": 5010,
+            "triangles": 4999,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 3481,
+            "triangles": 3000,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1774,
+            "triangles": 1500,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 965,
+            "triangles": 745,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 415,
+            "triangles": 323,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 120,
+            "triangles": 98,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 89,
+            "triangles": 59,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 5010,
+            "indices": 14997,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_UI_Mesh",
+      "name": "SK_Pendant_Hand_Band_A04_LXYring_A_UI_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_UI_Mesh.SK_Pendant_Hand_Band_A04_LXYring_A_UI_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_UI_Mesh.uasset",
+          "size": 3841,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 77215278
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_UI_Mesh.uexp",
+          "size": 1286501,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Saved/nzmres/update/Resource/P_1.0.50.485.0_Patch_Season_4261608_P.pak",
+          "provider_read_order": 426160903,
+          "archive_offset": 77217447
+        }
+      },
+      "mesh": {
+        "reference_bones": 1,
+        "material_slots": 1,
+        "source_lod_count": 4,
+        "source_lods": [
+          {
+            "vertices": 6531,
+            "triangles": 7708,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 5010,
+            "triangles": 4999,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 3481,
+            "triangles": 3000,
+            "sections": 1,
+            "texcoords": 1
+          },
+          {
+            "vertices": 1774,
+            "triangles": 1500,
+            "sections": 1,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 6531,
+            "indices": 23124,
+            "sections": 1,
+            "maximum_nonzero_influences": 1,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Suit_B/Mesh/SK_Char_Angel_Suit_B_3P_Body_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Angel/Angel_Suit_B/Mesh/SK_Char_Angel_Suit_B_3P_Body_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Angel/Angel_Suit_B/Mesh/SK_Char_Angel_Suit_B_3P_Body_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Suit_B/Mesh/SK_Char_Angel_Suit_B_CutScene_Body_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Angel/Angel_Suit_B/Mesh/SK_Char_Angel_Suit_B_CutScene_Body_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Angel/Angel_Suit_B/Mesh/SK_Char_Angel_Suit_B_CutScene_Body_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/Angel_Suit_B/Mesh/SK_Char_Angel_Suit_B_UI_Body_Mesh",
+      "status": "failed",
+      "error": "System.Management.Automation.MethodInvocationException: Exception calling \"LoadPackageObjects\" with \"1\" argument(s): \"There is no game file with the path \"/Game/Avatar/Character/Angel/Angel_Suit_B/Mesh/SK_Char_Angel_Suit_B_UI_Body_Mesh\"\"\r\n ---> System.Collections.Generic.KeyNotFoundException: There is no game file with the path \"/Game/Avatar/Character/Angel/Angel_Suit_B/Mesh/SK_Char_Angel_Suit_B_UI_Body_Mesh\"\r\n   at CUE4Parse.FileProvider.AbstractFileProvider.get_Item(String path)\r\n   at CallSite.Target(Closure, CallSite, Object, Object)\r\n   --- End of inner exception stack trace ---\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at lambda_method352(Closure, Object[], StrongBox`1[], InterpretedFrame)"
+    },
+    {
+      "requested_path": "/Game/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Body_Mesh",
+      "name": "SK_Char_Angle_1P_Body_Mesh",
+      "class": "SkeletalMesh",
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Body_Mesh.SK_Char_Angle_1P_Body_Mesh",
+      "status": "loaded",
+      "selected_package_files": {
+        "uasset": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Body_Mesh.uasset",
+          "size": 4944,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk22-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 696320
+        },
+        "uexp": {
+          "virtual_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Body_Mesh.uexp",
+          "size": 1674026,
+          "compression": "Oodle",
+          "archive": "NZM_INSTALL/Content/Paks/pakchunk22-WindowsClient.pak",
+          "provider_read_order": 3,
+          "archive_offset": 699113
+        }
+      },
+      "mesh": {
+        "reference_bones": 67,
+        "material_slots": 2,
+        "source_lod_count": 2,
+        "source_lods": [
+          {
+            "vertices": 12138,
+            "triangles": 19240,
+            "sections": 2,
+            "texcoords": 1
+          },
+          {
+            "vertices": 6756,
+            "triangles": 10076,
+            "sections": 2,
+            "texcoords": 1
+          }
+        ],
+        "inspected_lods": [
+          {
+            "vertices": 12138,
+            "indices": 57720,
+            "sections": 2,
+            "maximum_nonzero_influences": 4,
+            "vertices_over_four_influences": 0
+          }
+        ]
+      }
+    }
+  ],
+  "exports": [
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Bracelet_Mesh.SK_Char_Angel_Lucia_A_UI_Bracelet_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Bracelet_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Earring_Mesh.SK_Char_Angel_Lucia_A_UI_Earring_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Earring_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Hair_Mesh.SK_Char_Angel_Lucia_A_UI_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Hair_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Head_Mesh.SK_Char_Angel_Lucia_A_UI_Head_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Head_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_PropHead_Mesh.SK_Char_Angel_Lucia_A_UI_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_PropHead_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_1P_Mesh.SK_Pendant_Hand_Band_A04_LXYring_A_1P_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_1P_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_Mesh.SK_Pendant_Hand_Band_A04_LXYring_A_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_UI_Mesh.SK_Pendant_Hand_Band_A04_LXYring_A_UI_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_UI_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Json",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Body_Mesh.SK_Char_Angle_1P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Metadata/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Body_Mesh.json"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Bracelet_Mesh.SK_Char_Angel_Lucia_A_UI_Bracelet_Mesh",
+      "files": [
+        "PCResources/Meshes/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Bracelet_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Earring_Mesh.SK_Char_Angel_Lucia_A_UI_Earring_Mesh",
+      "files": [
+        "PCResources/Meshes/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Earring_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Hair_Mesh.SK_Char_Angel_Lucia_A_UI_Hair_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Hair_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Head_Mesh.SK_Char_Angel_Lucia_A_UI_Head_Mesh",
+      "files": [
+        "PCResources/Meshes/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_Head_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_PropHead_Mesh.SK_Char_Angel_Lucia_A_UI_PropHead_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/Angel_Lucia_A/Mesh/SK_Char_Angel_Lucia_A_UI_PropHead_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_1P_Mesh.SK_Pendant_Hand_Band_A04_LXYring_A_1P_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_1P_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_Mesh.SK_Pendant_Hand_Band_A04_LXYring_A_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_UI_Mesh.SK_Pendant_Hand_Band_A04_LXYring_A_UI_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/Angel_Lucia_A/Pendant/Hand/Mesh/SK_Pendant_Hand_Band_A04_LXYring_A_UI_Mesh.psk"
+      ],
+      "error": null
+    },
+    {
+      "kind": "Meshes",
+      "success": true,
+      "object_path": "NZM/Content/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Body_Mesh.SK_Char_Angle_1P_Body_Mesh",
+      "files": [
+        "PCResources/Characters/Meshes/Avatar/Character/Angel/CommonRes/Mesh/SK_Char_Angle_1P_Body_Mesh.psk"
+      ],
+      "error": null
+    }
+  ]
+}

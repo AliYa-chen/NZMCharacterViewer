@@ -1,0 +1,80 @@
+{
+  "Type": "AvaCharItemData",
+  "Name": "DA_Char_HuBayi01",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Class": "UScriptClass'AvaCharItemData'",
+  "Package": "NZM/Content/Avatar/Character/Hu/GameData/DA_Char_HuBayi01",
+  "Properties": {
+    "TPPConfig": {
+      "DefaultPartItems": [
+        "14201010201",
+        "14201040201",
+        "14201050201",
+        "14201020001",
+        "19902050007"
+      ],
+      "CutPartItems": [
+        "14201080201"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Hu/CommonRes/Mesh/SK_Char_Hu_Master_Mesh.SK_Char_Hu_Master_Mesh",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "FPPConfig": {
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Hu/Hu_Suit_C/Mesh/SK_Char_Hu_Suit_C_1P_Body_Mesh.SK_Char_Hu_Suit_C_1P_Body_Mesh",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "UIConfig": {
+      "DefaultPartItems": [
+        "14201010001",
+        "14201040001",
+        "14201050001"
+      ],
+      "CutPartItems": [
+        "14201080001"
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Hu/CommonRes/Mesh/SK_Char_Hu_Master_Mesh.SK_Char_Hu_Master_Mesh",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "DialogueConfig": {
+      "DefaultPartItems": [
+        "14201010101",
+        "14201040101",
+        "14201050101",
+        ""
+      ],
+      "MasterMeshPath": {
+        "AssetPathName": "/Game/Avatar/Character/Hu/CommonRes/Mesh/SK_Char_Hu_Master_Mesh.SK_Char_Hu_Master_Mesh",
+        "SubPathString": ""
+      },
+      "ExtendedAttribute": {
+        "FVector_Attrs": null,
+        "FRotator_Attrs": null
+      }
+    },
+    "ModeConfig": {
+      "Gender": "EAvaGenderType::Male",
+      "BindTag": {
+        "TagName": "Avatar.Character.HuBayi"
+      }
+    },
+    "AssetPathName": "/Game/Avatar/Character/Hu/GameData/DA_Char_HuBayi01.DA_Char_HuBayi01"
+  }
+}
